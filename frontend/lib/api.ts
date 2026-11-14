@@ -115,6 +115,7 @@ export interface CatalogSummary {
 export interface CatalogSnapshotRow {
   owner: string;
   name: string;
+  description?: string | null;
   stars: number;
   language?: string | null;
   commit_sha: string;

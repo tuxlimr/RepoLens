@@ -291,6 +291,7 @@ def list_catalog_snapshots(
             {
                 "owner": repo.owner,
                 "name": repo.name,
+                "description": (snap.description or "")[:240] or None,
                 "stars": snap.stars,
                 "language": snap.language,
                 "commit_sha": snap.commit_sha,

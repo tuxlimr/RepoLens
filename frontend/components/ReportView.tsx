@@ -21,6 +21,15 @@ function fmtDate(iso?: string | null): string {
   if (Number.isNaN(d.getTime())) return iso;
   return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
 }
+function briefSentences(text: string): string {
+  const clean = text.replace(/\s+/g, " ").replace(/^#+\s*/g, "").trim();
+  if (!clean) return "";
+  const parts = clean.split(/(?<=[.!?])\s+/).filter(Boolean);
+  if (!parts.length) return clean.slice(0, 280);
+  if (parts[0].length >= 90) return parts[0];
+  return parts.slice(0, 2).join(" ");
+}
+
 function fmtNum(n?: number): string {
   if (typeof n !== "number") return "—";
   return n >= 1000 ? `${(n / 1000).toFixed(1).replace(/\.0$/, "")}k` : String(n);
@@ -57,6 +66,9 @@ export default function ReportView({ report, isSample = false }: { report: Repor
   const sha = report.commit_sha || repo.commit_sha || "";
   const analysedAt = report.analysed_at || report.analyzed_at;
   const componentsById = new Map(model.components.map((c) => [c.id, c]));
+  const brief = briefSentences(model.summary || repo.description || "");
+  const description = (repo.description || "").trim();
+  const descriptionAlreadyInBrief = description.length > 24 && brief.toLowerCase().includes(description.slice(0, 24).toLowerCase());
 
   async function copyMarkdown() {
     setCopyError("");
@@ -111,7 +123,13 @@ export default function ReportView({ report, isSample = false }: { report: Repor
         <h1>
           {repo.full_name || `${repo.owner}/${repo.name}`}
         </h1>
-        {repo.description && <p style={{ fontSize: "1.1rem", color: "var(--muted)", margin: "0 0 1rem", maxWidth: 720 }}>{repo.description}</p>}
+        {brief && (
+          <p className="brief">
+            <span className="brief-label">In brief</span>
+            {brief}
+          </p>
+        )}
+        {description && !descriptionAlreadyInBrief && <p className="repo-description">{description}</p>}
         <div aria-label="Repository facts">
           <span className="chip">★ {fmtNum(repo.stars)} stars</span>
           <span className="chip">⑂ {fmtNum(repo.forks)} forks</span>

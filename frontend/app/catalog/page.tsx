@@ -97,6 +97,7 @@ export default async function CatalogPage({
               <Link className="example-card" key={`${repo.owner}/${repo.name}`} href={`/report/${repo.owner}/${repo.name}`}>
                 <span className="small muted mono">{repo.owner}/{repo.name}</span>
                 <h3>{repo.name}</h3>
+                <p className="summary-line">{repo.description || "Architecture snapshot for this repository."}</p>
                 <p>
                   <span className="chip">★ {stars(repo.stars)}</span>
                   {repo.language && <span className="chip chip-accent">{repo.language}</span>}

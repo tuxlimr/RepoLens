@@ -91,7 +91,7 @@ export default function UrlForm() {
 
   const busy = phase === "submitting" || phase === "queued" || phase === "working";
   return (
-    <div className="card">
+    <div className="url-panel">
       <form className="url-form" onSubmit={onSubmit} noValidate>
         <label htmlFor="repo-url">Public GitHub repository URL</label>
         <input

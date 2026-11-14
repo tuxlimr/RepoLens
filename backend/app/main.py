@@ -10,7 +10,7 @@ from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 from pydantic import BaseModel
-from sqlalchemy import func, select
+from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
 
 from app import db as db_module
@@ -253,6 +253,7 @@ def list_catalog_snapshots(
     ecosystem: str,
     limit: int = 50,
     offset: int = 0,
+    q: str = "",
     session: Session = Depends(db_module.get_db),
 ):
     catalog = session.execute(select(Catalog).where(Catalog.ecosystem == ecosystem)).scalar_one_or_none()
@@ -260,16 +261,32 @@ def list_catalog_snapshots(
         raise HTTPException(status_code=404, detail="Catalog not found")
     limit = min(max(limit, 1), 200)
     offset = max(offset, 0)
+    filters = [CatalogSnapshot.catalog_id == catalog.id, CatalogSnapshot.status == "completed"]
+    needle = q.strip().lower()
+    if needle:
+        like = f"%{needle}%"
+        filters.append(or_(
+            func.lower(Repository.owner).like(like),
+            func.lower(Repository.name).like(like),
+            func.lower(Repository.owner + "/" + Repository.name).like(like),
+        ))
+    total = session.execute(
+        select(func.count())
+        .select_from(CatalogSnapshot)
+        .join(Repository, CatalogSnapshot.repository_id == Repository.id)
+        .where(*filters)
+    ).scalar_one()
     rows = session.execute(
         select(CatalogSnapshot, Repository)
         .join(Repository, CatalogSnapshot.repository_id == Repository.id)
-        .where(CatalogSnapshot.catalog_id == catalog.id, CatalogSnapshot.status == "completed")
+        .where(*filters)
         .order_by(CatalogSnapshot.stars.desc(), Repository.owner, Repository.name)
         .offset(offset)
         .limit(limit)
     ).all()
     return {
         "ecosystem": catalog.ecosystem,
+        "total": total,
         "snapshots": [
             {
                 "owner": repo.owner,

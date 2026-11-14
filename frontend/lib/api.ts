@@ -104,6 +104,40 @@ export function getExamples(): Promise<ExampleRepo[]> {
   return request<ExampleRepo[]>("/api/examples");
 }
 
+export interface CatalogSummary {
+  ecosystem: string;
+  title: string;
+  selection_note?: string | null;
+  completed: number;
+  loaded_at?: string | null;
+}
+
+export interface CatalogSnapshotRow {
+  owner: string;
+  name: string;
+  stars: number;
+  language?: string | null;
+  commit_sha: string;
+  commit_url?: string | null;
+  analysed_at?: string | null;
+  files_analysed: number;
+}
+
+export function getCatalogs(): Promise<CatalogSummary[]> {
+  return request<CatalogSummary[]>("/api/catalogs");
+}
+
+export function getCatalogSnapshots(
+  ecosystem: string,
+  opts?: { limit?: number; offset?: number; q?: string },
+): Promise<{ ecosystem: string; total: number; snapshots: CatalogSnapshotRow[] }> {
+  const params = new URLSearchParams();
+  params.set("limit", String(opts?.limit ?? 24));
+  params.set("offset", String(opts?.offset ?? 0));
+  if (opts?.q) params.set("q", opts.q);
+  return request(`/api/catalogs/${encodeURIComponent(ecosystem)}?${params.toString()}`);
+}
+
 export function startFreshPayment(url: string): Promise<FreshPaymentResponse> {
   return request<FreshPaymentResponse>("/api/payments/fresh", {
     method: "POST",

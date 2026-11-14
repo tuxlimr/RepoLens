@@ -1,106 +1,126 @@
 import Link from "next/link";
 import UrlForm from "@/components/UrlForm";
-import { getExamples } from "@/lib/api";
-import { SAMPLE_EXAMPLES } from "@/lib/sample";
-import type { ExampleRepo } from "@/lib/types";
+import { getCatalogs, getCatalogSnapshots, type CatalogSnapshotRow, type CatalogSummary } from "@/lib/api";
 
 export const dynamic = "force-dynamic";
 
-async function loadExamples(): Promise<{ examples: ExampleRepo[]; live: boolean }> {
+const ORDER = ["python", "javascript", "react"];
+
+function stars(n?: number) {
+  if (typeof n !== "number") return "—";
+  return n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, "")}k` : String(n);
+}
+
+async function loadHome(): Promise<{ catalogs: CatalogSummary[]; featured: CatalogSnapshotRow[] }> {
   try {
-    const data = await getExamples();
-    if (Array.isArray(data) && data.length) return { examples: data, live: true };
-  } catch { /* backend offline — fall back to static list */ }
-  return { examples: SAMPLE_EXAMPLES, live: false };
+    const catalogs = await getCatalogs();
+    const featured = await getCatalogSnapshots("python", { limit: 6 }).then((r) => r.snapshots).catch(() => []);
+    return { catalogs, featured };
+  } catch {
+    return { catalogs: [], featured: [] };
+  }
 }
 
 export default async function HomePage() {
-  const { examples, live } = await loadExamples();
+  const { catalogs, featured } = await loadHome();
+  const byEco = new Map(catalogs.map((c) => [c.ecosystem, c]));
   return (
-    <>
+    <div className="page">
       <section className="hero">
-        <h1>Understand any codebase&rsquo;s architecture in minutes.</h1>
-        <p className="lead">
-          Paste a public GitHub repository. RepoLens inspects its structure and returns a clear
-          architecture diagram plus a readable, evidence-backed report you can share with your team.
-        </p>
-        <UrlForm />
-        <p className="small muted" style={{ marginTop: "1rem" }}>
-          No account needed to view an existing report.{" "}
-          <Link href="/sample">Explore the sample report first →</Link>
-        </p>
+        <div>
+          <p className="eyebrow">Architecture, without the cold start</p>
+          <h1>Understand any codebase&rsquo;s architecture in minutes.</h1>
+          <p className="lead">
+            Paste a public GitHub URL. RepoLens returns a block diagram and a report you can
+            actually read — entry points, modules, and the commit they came from.
+          </p>
+          <UrlForm />
+          <p className="small muted hero-note">
+            Existing reports are free. <Link href="/sample">Read the sample first</Link>
+            {" "}or <Link href="/catalog">browse the catalog</Link>.
+          </p>
+        </div>
+        <aside className="sketch" aria-hidden="true">
+          <div className="sketch-top"><span>Block diagram</span><span>commit pinned</span></div>
+          <div className="sketch-board">
+            <div className="sketch-row">
+              <div className="sketch-node"><strong>Entry</strong><span>CLI, HTTP, or main</span></div>
+            </div>
+            <div className="sketch-row">
+              <div className="sketch-node hot"><strong>Core</strong><span>domain and orchestration</span></div>
+              <div className="sketch-node"><strong>API</strong><span>routes and handlers</span></div>
+            </div>
+            <div className="sketch-row">
+              <div className="sketch-node"><strong>Data</strong><span>stores and files</span></div>
+              <div className="sketch-node"><strong>Outside</strong><span>services it calls</span></div>
+            </div>
+          </div>
+        </aside>
       </section>
 
-      <section id="how-it-works" className="section" aria-labelledby="how-h">
-        <h2 id="how-h">Free reports vs. fresh analysis</h2>
-        <div className="two-col">
-          <div className="card">
-            <span className="chip chip-accent">Free</span>
-            <h3 style={{ margin: ".6rem 0 .4rem" }}>Existing report</h3>
-            <p className="muted" style={{ margin: 0 }}>
-              If we&apos;ve already analysed a repository, you can read its diagram and report and
-              copy or download the Markdown at no cost. The report always shows the commit and date
-              it was generated from, so you know exactly how current it is.
-            </p>
-          </div>
-          <div className="card">
-            <span className="chip chip-indigo">Paid · one-time</span>
-            <h3 style={{ margin: ".6rem 0 .4rem" }}>Fresh analysis</h3>
-            <p className="muted" style={{ margin: 0 }}>
-              Want the current state of the code? A fresh analysis re-inspects the repository&apos;s
-              latest default-branch commit, rebuilds the diagram and report, and saves it as a new
-              version. Pricing is shown before you pay — no subscription, no surprises.
-            </p>
-          </div>
+      <section className="band" aria-labelledby="catalog-h">
+        <div className="band-head">
+          <h2 id="catalog-h">Three catalogs, already read</h2>
+          <Link href="/catalog">Open the full catalog</Link>
         </div>
-        <div className="two-col" style={{ marginTop: "1rem" }}>
-          <div className="card">
-            <h3 style={{ marginTop: 0 }}>Supported today</h3>
-            <p style={{ margin: 0 }}><span className="chip chip-accent">Python</span> <span className="muted">Public GitHub repositories, with framework and tooling detection.</span></p>
-          </div>
-          <div className="card">
-            <h3 style={{ marginTop: 0 }}>Coming later</h3>
-            <p style={{ margin: 0 }}><span className="chip">JavaScript / TypeScript</span> <span className="chip">React</span> <span className="muted">Planned once Python report quality is proven.</span></p>
-          </div>
-        </div>
-        <p className="small muted" style={{ marginTop: "1rem" }}>
-          How it works: we fetch repository metadata and a file inventory, identify entry points,
-          modules and dependencies from source evidence, then generate a Mermaid diagram and a
-          structured report. We never execute repository code.
-        </p>
-      </section>
-
-      <section id="examples" className="section" aria-labelledby="examples-h">
-        <h2 id="examples-h">Example repositories</h2>
-        <p className="muted">
-          Start with a well-known project to see what a report looks like.
-          {!live && " (Showing a starter list — the live catalogue will appear when the backend is running.)"}
-        </p>
-        <div className="grid">
-          {examples.map((ex) => {
-            const isRequests = ex.owner === "psf" && ex.name === "requests";
-            const href = isRequests ? "/sample" : `/report/${ex.owner}/${ex.name}`;
+        <div className="ecosystems">
+          {ORDER.map((eco) => {
+            const row = byEco.get(eco);
+            const label = eco === "javascript" ? "JavaScript" : eco[0].toUpperCase() + eco.slice(1);
             return (
-              <Link className="example-card" key={`${ex.owner}/${ex.name}`} href={href}>
-                <span className="small muted mono">{ex.owner}/{ex.name}</span>
-                <h3>{ex.name}</h3>
-                <p>{ex.description || "Open-source repository"}</p>
-                <p className="small">
-                  {ex.language && <span className="chip chip-accent">{ex.language}</span>}
-                  {typeof ex.stars === "number" && <span className="chip">★ {ex.stars >= 1000 ? `${(ex.stars / 1000).toFixed(1).replace(/\.0$/, "")}k` : ex.stars}</span>}
-                  {isRequests && <span className="chip chip-indigo">Sample report available</span>}
-                </p>
-                <span className="small">{isRequests ? "View sample report →" : "View report →"}</span>
+              <Link className="eco-card" key={eco} href={`/catalog?ecosystem=${eco}`}>
+                <span className="small muted">{label}</span>
+                <p className="eco-count">{row ? row.completed.toLocaleString() : "—"}</p>
+                <span className="small">Pinned snapshots with a commit, a diagram, and a report.</span>
               </Link>
             );
           })}
         </div>
-        <div className="card" style={{ marginTop: "1rem", textAlign: "center" }}>
-          <strong>See the full format before you submit anything</strong>
-          <p className="muted">The sample report for psf/requests works with no backend and no sign-up.</p>
-          <Link className="btn" href="/sample">Open the sample report</Link>
-        </div>
       </section>
-    </>
+
+      <section id="how-it-works" className="band" aria-labelledby="how-h">
+        <h2 id="how-h">Free to read. Fresh when the code has moved.</h2>
+        <div className="two-col">
+          <div className="card">
+            <span className="chip chip-accent">Free</span>
+            <h3>Existing report</h3>
+            <p className="muted">Open a stored analysis, read the diagram, and copy or download the Markdown. The commit and the date stay visible, so you know what was inspected.</p>
+          </div>
+          <div className="card">
+            <span className="chip chip-indigo">One-time</span>
+            <h3>Fresh analysis</h3>
+            <p className="muted">Re-read the current default-branch commit, rebuild the diagram and the report, and keep the older version. You see the price before anything is charged.</p>
+          </div>
+        </div>
+        <p className="small muted">Repository code is never executed. Findings are either observed in files or marked as inference.</p>
+      </section>
+
+      <section className="band" aria-labelledby="featured-h">
+        <div className="band-head">
+          <h2 id="featured-h">Start with a Python project</h2>
+          <Link href="/catalog?ecosystem=python">More Python</Link>
+        </div>
+        {featured.length === 0 ? (
+          <div className="card">
+            <p>The catalog appears here when the API is running. The sample report is available either way.</p>
+            <Link className="btn" href="/sample">Open the sample report</Link>
+          </div>
+        ) : (
+          <div className="repo-grid">
+            {featured.map((repo) => (
+              <Link className="example-card" key={`${repo.owner}/${repo.name}`} href={`/report/${repo.owner}/${repo.name}`}>
+                <span className="small muted mono">{repo.owner}/{repo.name}</span>
+                <h3>{repo.name}</h3>
+                <p>
+                  <span className="chip">★ {stars(repo.stars)}</span>
+                  {repo.language && <span className="chip chip-accent">{repo.language}</span>}
+                </p>
+                <span className="small mono">{repo.commit_sha.slice(0, 7)}</span>
+              </Link>
+            ))}
+          </div>
+        )}
+      </section>
+    </div>
   );
 }

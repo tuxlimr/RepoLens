@@ -35,7 +35,7 @@ export default async function ReportPage({
   if (!report) {
     const notFound = errorStatus === 404;
     return (
-      <section style={{ maxWidth: 640, margin: "3rem auto", textAlign: "center" }}>
+      <section className="page empty-state">
         <h1 style={{ letterSpacing: "-.025em" }}>{notFound ? "No report yet for this repository" : "We couldn't load this report"}</h1>
         <p className="muted">
           {notFound

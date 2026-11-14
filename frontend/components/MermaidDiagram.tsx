@@ -48,9 +48,8 @@ export default function MermaidDiagram({ source, components }: { source: string;
 
   return (
     <div>
-      <div className="diagram-wrap" role="img" aria-label="Architecture diagram. A textual list of components follows below." ref={ref}>
-        {!rendered && <p className="muted"><span className="spinner dark" aria-hidden="true" /> Rendering diagram…</p>}
-      </div>
+      {!rendered && <p className="muted">Rendering diagram…</p>}
+      <div className="diagram-wrap" role="img" aria-label="Architecture diagram. A textual list of components follows below." ref={ref} />
       <details style={{ marginTop: ".75rem" }}>
         <summary className="small" style={{ cursor: "pointer", fontWeight: 650 }}>View diagram source (Mermaid)</summary>
         <pre className="source">{source}</pre>

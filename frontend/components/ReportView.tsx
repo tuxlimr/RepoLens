@@ -13,10 +13,13 @@ const MermaidDiagram = dynamic(() => import("./MermaidDiagram"), {
   loading: () => <p className="muted">Loading diagram…</p>,
 });
 
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 function fmtDate(iso?: string | null): string {
   if (!iso) return "Unknown date";
   const d = new Date(iso);
-  return Number.isNaN(d.getTime()) ? iso : d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+  if (Number.isNaN(d.getTime())) return iso;
+  return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
 }
 function fmtNum(n?: number): string {
   if (typeof n !== "number") return "—";
@@ -92,7 +95,7 @@ export default function ReportView({ report, isSample = false }: { report: Repor
   }
 
   return (
-    <article>
+    <article className="report">
       {isSample && (
         <div className="alert alert-status" role="note" style={{ marginBottom: "1.25rem" }}>
           <strong>Sample report.</strong> This hand-written example for <span className="mono">psf/requests</span> shows
@@ -100,12 +103,12 @@ export default function ReportView({ report, isSample = false }: { report: Repor
         </div>
       )}
 
-      <header>
+      <header className="report-hero">
         <p className="small muted" style={{ margin: 0 }}>
           <a href={repo.html_url} target="_blank" rel="noreferrer">{repo.owner}</a> /{" "}
           <a href={repo.html_url} target="_blank" rel="noreferrer">{repo.name}</a>
         </p>
-        <h1 style={{ fontSize: "clamp(1.9rem,4vw,2.7rem)", letterSpacing: "-.03em", margin: ".3rem 0 .5rem", lineHeight: 1.15 }}>
+        <h1>
           {repo.full_name || `${repo.owner}/${repo.name}`}
         </h1>
         {repo.description && <p style={{ fontSize: "1.1rem", color: "var(--muted)", margin: "0 0 1rem", maxWidth: 720 }}>{repo.description}</p>}
@@ -127,19 +130,21 @@ export default function ReportView({ report, isSample = false }: { report: Repor
         {copyError && <div className="alert alert-error" role="alert">{copyError}</div>}
       </header>
 
-      <nav className="toc section" aria-label="Table of contents" style={{ marginTop: "1.5rem" }}>
+      <div className="report-shell">
+      <nav className="toc" aria-label="Table of contents">
         <strong>On this page</strong>
         <ul>
-          <li><a href="#at-a-glance">Architecture at a glance</a></li>
-          <li><a href="#diagram">Architecture diagram</a></li>
-          <li><a href="#components">Main components</a></li>
-          <li><a href="#detections">Detected technologies</a></li>
-          <li><a href="#entry-points">Entry points &amp; key files</a></li>
-          <li><a href="#limitations">Limitations &amp; unknowns</a></li>
-          <li><a href="#full-report">Full Markdown report</a></li>
+          <li><a href="#at-a-glance">At a glance</a></li>
+          <li><a href="#diagram">Diagram</a></li>
+          <li><a href="#components">Components</a></li>
+          <li><a href="#detections">Technologies</a></li>
+          <li><a href="#entry-points">Entry points</a></li>
+          <li><a href="#limitations">Limits</a></li>
+          <li><a href="#full-report">Full report</a></li>
           <li><a href="#fresh">Fresh analysis</a></li>
         </ul>
       </nav>
+      <div>
 
       <section id="at-a-glance" className="section" aria-labelledby="glance-h">
         <h2 id="glance-h">Architecture at a glance</h2>
@@ -178,6 +183,7 @@ export default function ReportView({ report, isSample = false }: { report: Repor
       <section id="components" className="section" aria-labelledby="components-h">
         <h2 id="components-h">Main components</h2>
         {model.components.length === 0 && <p className="muted">No components were identified in this analysis.</p>}
+        <div className="component-grid">
         {model.components.map((c) => (
           <div className="component-card" key={c.id}>
             <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem", flexWrap: "wrap", alignItems: "baseline" }}>
@@ -202,6 +208,7 @@ export default function ReportView({ report, isSample = false }: { report: Repor
             )}
           </div>
         ))}
+        </div>
         <p className="small muted">
           <strong>Observed</strong> means the component was directly identified in source files.{" "}
           <strong>Inferred</strong> means it is an interpretation drawn from that evidence — treat it with more caution.
@@ -298,6 +305,8 @@ export default function ReportView({ report, isSample = false }: { report: Repor
           )}
         </div>
       </section>
+      </div>
+      </div>
     </article>
   );
 }

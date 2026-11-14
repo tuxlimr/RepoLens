@@ -1,0 +1,61 @@
+{
+  "owner": "OpenBMB",
+  "name": "VoxCPM",
+  "full_name": "OpenBMB/VoxCPM",
+  "html_url": "https://github.com/OpenBMB/VoxCPM",
+  "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+  "stars": 42480,
+  "forks": 4853,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "audio",
+    "deeplearning",
+    "minicpm",
+    "multilingual",
+    "python",
+    "pytorch",
+    "speech",
+    "speech-synthesis",
+    "text-to-speech",
+    "tts",
+    "tts-model",
+    "voice-cloning",
+    "voice-design",
+    "voxcpm"
+  ],
+  "archived": false,
+  "commit_sha": "300e4260b509066151d623dc9c0aa922cf82232b",
+  "commit_url": "https://github.com/OpenBMB/VoxCPM/commit/300e4260b509066151d623dc9c0aa922cf82232b",
+  "tree_url": "https://github.com/OpenBMB/VoxCPM/tree/300e4260b509066151d623dc9c0aa922cf82232b",
+  "analysed_at": "2026-11-14T19:06:39.598286+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 71,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "Tests",
+    "voxcpm package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "src/voxcpm/cli.py",
+    "app.py",
+    "app_old.py",
+    "lora_ft_webui.py",
+    "scripts/train_voxcpm_finetune.py"
+  ]
+}

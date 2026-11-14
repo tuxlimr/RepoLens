@@ -1,0 +1,31 @@
+{
+  "owner": "ryanhanwu",
+  "name": "How-To-Ask-Questions-The-Smart-Way",
+  "full_name": "ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+  "html_url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+  "description": "\u672c\u6587\u539f\u6587\u7531\u77e5\u540d Hacker Eric S. Raymond \u6240\u64b0\u5beb\uff0c\u6559\u4f60\u5982\u4f55\u6b63\u78ba\u7684\u63d0\u51fa\u6280\u8853\u554f\u984c\u4e26\u7372\u5f97\u4f60\u6eff\u610f\u7684\u7b54\u6848\u3002",
+  "stars": 36128,
+  "forks": 5819,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "rtfm",
+    "stfw",
+    "translation"
+  ],
+  "archived": false,
+  "commit_sha": "fc6c538e5d833fc16f4ff99a36267c171fb84550",
+  "commit_url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/commit/fc6c538e5d833fc16f4ff99a36267c171fb84550",
+  "tree_url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/tree/fc6c538e5d833fc16f4ff99a36267c171fb84550",
+  "analysed_at": "2026-11-14T19:10:42.168792+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

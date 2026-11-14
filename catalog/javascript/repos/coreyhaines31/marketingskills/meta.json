@@ -1,0 +1,59 @@
+{
+  "owner": "coreyhaines31",
+  "name": "marketingskills",
+  "full_name": "coreyhaines31/marketingskills",
+  "html_url": "https://github.com/coreyhaines31/marketingskills",
+  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "stars": 60299,
+  "forks": 8803,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-seo",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "content-marketing",
+    "conversion-rate-optimization",
+    "copywriting",
+    "cursor",
+    "email-marketing",
+    "generative-engine-optimization",
+    "growth-marketing",
+    "marketing",
+    "marketing-automation",
+    "saas-marketing",
+    "seo",
+    "skill-md"
+  ],
+  "archived": false,
+  "commit_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+  "commit_url": "https://github.com/coreyhaines31/marketingskills/commit/1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+  "tree_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+  "analysed_at": "2026-11-14T19:10:36.314733+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package",
+    "skills package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/package_skills.py",
+    "skills/conversion-tracking/scripts/build_recipe.py",
+    "skills/conversion-tracking/scripts/check_recipes.py"
+  ]
+}

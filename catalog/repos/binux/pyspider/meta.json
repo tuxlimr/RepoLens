@@ -1,0 +1,59 @@
+{
+  "owner": "binux",
+  "name": "pyspider",
+  "full_name": "binux/pyspider",
+  "html_url": "https://github.com/binux/pyspider",
+  "description": "A Powerful Spider(Web Crawler) System in Python.",
+  "stars": 16744,
+  "forks": 3610,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "crawler",
+    "python"
+  ],
+  "archived": true,
+  "commit_sha": "897891cafb21ea5b4ac08e728ad2ea212879f7fa",
+  "commit_url": "https://github.com/binux/pyspider/commit/897891cafb21ea5b4ac08e728ad2ea212879f7fa",
+  "tree_url": "https://github.com/binux/pyspider/tree/897891cafb21ea5b4ac08e728ad2ea212879f7fa",
+  "analysed_at": "2026-11-14T19:08:43.906149+00:00",
+  "status": "completed",
+  "files_fetched": 171,
+  "files_analysed": 166,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "pyspider package",
+    "Tests"
+  ],
+  "detections": [
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Redis",
+    "SQLite",
+    "Flask",
+    "Click",
+    "Kombu",
+    "RabbitMQ (pika)",
+    "requests",
+    "SQLAlchemy",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "unittest",
+    "webpack"
+  ],
+  "entry_points": [
+    "pyspider/database/basedb.py",
+    "pyspider/libs/pprint.py",
+    "pyspider/run.py",
+    "pyspider/scheduler/task_queue.py",
+    "run.py",
+    "tools/migrate.py"
+  ]
+}

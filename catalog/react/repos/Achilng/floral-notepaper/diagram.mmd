@@ -1,0 +1,26 @@
+%% Repository: Achilng/floral-notepaper
+%% Analysed commit: 8b624e0b1dc38ea66d0fcea83fd4e3117d63d8c3
+%% Commit reference: https://github.com/Achilng/floral-notepaper/commit/8b624e0b1dc38ea66d0fcea83fd4e3117d63d8c3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app_tsx["App.tsx package"]
+        components["components package"]
+        features["features package"]
+        locales["locales package"]
+        main_tsx["main.tsx package"]
+        scripts["scripts package"]
+        src_tauri["src-tauri package"]
+        vite_env_d_ts["vite-env.d.ts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

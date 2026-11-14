@@ -1,0 +1,60 @@
+{
+  "owner": "callstack",
+  "name": "linaria",
+  "full_name": "callstack/linaria",
+  "html_url": "https://github.com/callstack/linaria",
+  "description": "Zero-runtime CSS in JS library",
+  "stars": 12351,
+  "forks": 414,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "css",
+    "css-in-js",
+    "css-in-react",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "63a958afeebb0be3bb66cc8f31a0b1a54238b36e",
+  "commit_url": "https://github.com/callstack/linaria/commit/63a958afeebb0be3bb66cc8f31a0b1a54238b36e",
+  "tree_url": "https://github.com/callstack/linaria/tree/63a958afeebb0be3bb66cc8f31a0b1a54238b36e",
+  "analysed_at": "2026-11-14T19:13:20.649586+00:00",
+  "status": "completed",
+  "files_fetched": 294,
+  "files_analysed": 293,
+  "components": [
+    "API layer",
+    "babel-plugins package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Koa",
+    "React",
+    "Jest",
+    "TypeScript",
+    "Vite",
+    "webpack"
+  ],
+  "entry_points": [
+    "website/src/index.jsx",
+    "packages/atomic/src/index.ts",
+    "packages/core/src/index.ts",
+    "packages/interop/src/index.ts",
+    "packages/linaria/src/server.ts",
+    "packages/postcss-linaria/src/index.ts",
+    "packages/react/src/index.ts",
+    "packages/server/src/index.ts",
+    "packages/stylelint-config-standard-linaria/src/index.js",
+    "packages/stylelint/src/index.ts",
+    "website/src/api/index.js",
+    "website/src/components/App.jsx"
+  ]
+}

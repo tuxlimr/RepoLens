@@ -1,0 +1,50 @@
+{
+  "owner": "juliencrn",
+  "name": "usehooks-ts",
+  "full_name": "juliencrn/usehooks-ts",
+  "html_url": "https://github.com/juliencrn/usehooks-ts",
+  "description": "React hook library, ready to use, written in Typescript.",
+  "stars": 7866,
+  "forks": 456,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "hook",
+    "hooks",
+    "mdx",
+    "nextjs",
+    "react",
+    "react-hook",
+    "react-hooks",
+    "reactjs",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "61949134144d3690fe9f521260a16c779a6d3797",
+  "commit_url": "https://github.com/juliencrn/usehooks-ts/commit/61949134144d3690fe9f521260a16c779a6d3797",
+  "tree_url": "https://github.com/juliencrn/usehooks-ts/tree/61949134144d3690fe9f521260a16c779a6d3797",
+  "analysed_at": "2026-11-14T19:13:44.551018+00:00",
+  "status": "completed",
+  "files_fetched": 271,
+  "files_analysed": 271,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/eslint-config-custom/index.cjs",
+    "packages/usehooks-ts/src/index.ts"
+  ]
+}

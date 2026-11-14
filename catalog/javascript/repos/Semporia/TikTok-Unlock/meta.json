@@ -1,0 +1,30 @@
+{
+  "owner": "Semporia",
+  "name": "TikTok-Unlock",
+  "full_name": "Semporia/TikTok-Unlock",
+  "html_url": "https://github.com/Semporia/TikTok-Unlock",
+  "description": "TikTok \u7121\u9700\u62d4\u5361\u89e3\u9396\u6700\u65b0\u652f\u63f4  iPhone &iPad \u3001TikTok&TikTok TestFlight\uff0c\u5730\u5340\u5207\u63db \u3001\u8996\u983b\u767c\u4f48 \u3001 live \u76f4\u64ad \u3001\u9ede\u8d0a \u8a55\u8ad6\u3001\u79c1\u4fe1\u804a\u5929\u7b49\uff01",
+  "stars": 12251,
+  "forks": 841,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "tiktok",
+    "tiktok-unlock",
+    "unlock"
+  ],
+  "archived": false,
+  "commit_sha": "557dc2bbb71a6a1b47a23dc30156d3fe254f8c45",
+  "commit_url": "https://github.com/Semporia/TikTok-Unlock/commit/557dc2bbb71a6a1b47a23dc30156d3fe254f8c45",
+  "tree_url": "https://github.com/Semporia/TikTok-Unlock/tree/557dc2bbb71a6a1b47a23dc30156d3fe254f8c45",
+  "analysed_at": "2026-11-14T19:12:07.217475+00:00",
+  "status": "completed",
+  "files_fetched": 25,
+  "files_analysed": 25,
+  "components": [
+    "Loon package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

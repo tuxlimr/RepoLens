@@ -1,0 +1,42 @@
+{
+  "owner": "aksakalli",
+  "name": "gtop",
+  "full_name": "aksakalli/gtop",
+  "html_url": "https://github.com/aksakalli/gtop",
+  "description": "System monitoring dashboard for terminal",
+  "stars": 9936,
+  "forks": 339,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "command-line",
+    "monitoring",
+    "nodejs",
+    "system-monitoring",
+    "top",
+    "tui"
+  ],
+  "archived": false,
+  "commit_sha": "ac6c2e11a683d41ae25c41912646d6b320285f8b",
+  "commit_url": "https://github.com/aksakalli/gtop/commit/ac6c2e11a683d41ae25c41912646d6b320285f8b",
+  "tree_url": "https://github.com/aksakalli/gtop/tree/ac6c2e11a683d41ae25c41912646d6b320285f8b",
+  "analysed_at": "2026-11-14T19:12:46.929603+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 23,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/gtop",
+    "lib/monitor/index.js"
+  ]
+}

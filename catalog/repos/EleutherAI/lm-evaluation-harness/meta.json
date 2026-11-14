@@ -1,0 +1,48 @@
+{
+  "owner": "EleutherAI",
+  "name": "lm-evaluation-harness",
+  "full_name": "EleutherAI/lm-evaluation-harness",
+  "html_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+  "description": "A framework for few-shot evaluation of language models.",
+  "stars": 14465,
+  "forks": 3800,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "evaluation-framework",
+    "language-model",
+    "transformer"
+  ],
+  "archived": false,
+  "commit_sha": "d6de81643928d653435c431bae19945d41d32520",
+  "commit_url": "https://github.com/EleutherAI/lm-evaluation-harness/commit/d6de81643928d653435c431bae19945d41d32520",
+  "tree_url": "https://github.com/EleutherAI/lm-evaluation-harness/tree/d6de81643928d653435c431bae19945d41d32520",
+  "analysed_at": "2026-11-14T19:09:24.321103+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "lm_eval package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "NumPy",
+    "pandas",
+    "requests",
+    "pytest"
+  ],
+  "entry_points": [
+    "lm_eval/__main__.py",
+    "lm_eval/tasks/aclue/_generate_configs.py",
+    "lm_eval/tasks/afrimgsm/gen_utils.py",
+    "lm_eval/tasks/afrimgsm/utils.py",
+    "lm_eval/tasks/afrimmlu/gen_utils.py"
+  ]
+}

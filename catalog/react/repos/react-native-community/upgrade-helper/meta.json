@@ -1,0 +1,60 @@
+{
+  "owner": "react-native-community",
+  "name": "upgrade-helper",
+  "full_name": "react-native-community/upgrade-helper",
+  "html_url": "https://github.com/react-native-community/upgrade-helper",
+  "description": "\u269b\ufe0f A web tool to support React Native developers in upgrading their apps.",
+  "stars": 4074,
+  "forks": 129,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-native",
+    "rn-diff",
+    "rn-diff-purge",
+    "upgrade-tool"
+  ],
+  "archived": false,
+  "commit_sha": "f44a405d9834c797d527c87dbf05d5b7d636367b",
+  "commit_url": "https://github.com/react-native-community/upgrade-helper/commit/f44a405d9834c797d527c87dbf05d5b7d636367b",
+  "tree_url": "https://github.com/react-native-community/upgrade-helper/tree/f44a405d9834c797d527c87dbf05d5b7d636367b",
+  "analysed_at": "2026-11-14T19:14:54.982300+00:00",
+  "status": "completed",
+  "files_fetched": 100,
+  "files_analysed": 100,
+  "components": [
+    "App.tsx package",
+    "components package",
+    "Configuration and deployment",
+    "constants.ts package",
+    "Core modules",
+    "__fixtures__ package",
+    "hooks package",
+    "index.jsx package",
+    "__mocks__ package",
+    "releases package",
+    "serviceWorker.ts package",
+    "__tests__ package",
+    "theme package",
+    "@types package",
+    "utils package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/App.tsx",
+    "src/components/common/index.ts",
+    "src/index.jsx",
+    "src/releases/__mocks__/index.ts",
+    "src/releases/index.js",
+    "src/theme/index.ts"
+  ]
+}

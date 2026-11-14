@@ -1,0 +1,26 @@
+%% Repository: beefproject/beef
+%% Analysed commit: 9194fb84841bc3bdb9abc3384fa47bab100a5a30
+%% Commit reference: https://github.com/beefproject/beef/commit/9194fb84841bc3bdb9abc3384fa47bab100a5a30
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        extensions["extensions package"]
+        modules["modules package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

@@ -1,0 +1,55 @@
+{
+  "owner": "instaloader",
+  "name": "instaloader",
+  "full_name": "instaloader/instaloader",
+  "html_url": "https://github.com/instaloader/instaloader",
+  "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+  "stars": 13891,
+  "forks": 1669,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "downloader",
+    "instagram",
+    "instagram-client",
+    "instagram-downloader",
+    "instagram-feed",
+    "instagram-metadata",
+    "instagram-photos",
+    "instagram-scraper",
+    "instagram-stories",
+    "instagram-user-photos",
+    "instaloader",
+    "osint",
+    "osint-python",
+    "pictures",
+    "videos"
+  ],
+  "archived": false,
+  "commit_sha": "7acd1b6a75d9964b6e7bf91c0769e172e2a64359",
+  "commit_url": "https://github.com/instaloader/instaloader/commit/7acd1b6a75d9964b6e7bf91c0769e172e2a64359",
+  "tree_url": "https://github.com/instaloader/instaloader/tree/7acd1b6a75d9964b6e7bf91c0769e172e2a64359",
+  "analysed_at": "2026-11-14T19:09:39.005718+00:00",
+  "status": "completed",
+  "files_fetched": 72,
+  "files_analysed": 71,
+  "components": [
+    "Configuration and deployment",
+    "deploy package",
+    "Application entry point",
+    "External integrations",
+    "instaloader package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "instaloader.py",
+    "instaloader/__main__.py"
+  ]
+}

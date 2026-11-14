@@ -1,0 +1,35 @@
+{
+  "owner": "iissnan",
+  "name": "hexo-theme-next",
+  "full_name": "iissnan/hexo-theme-next",
+  "html_url": "https://github.com/iissnan/hexo-theme-next",
+  "description": "Elegant theme for Hexo. ",
+  "stars": 15737,
+  "forks": 3497,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "hexo",
+    "hexo-theme",
+    "theme-next"
+  ],
+  "archived": false,
+  "commit_sha": "9c8cea69bf0d4f91c07779d71b01814b27bbb6a1",
+  "commit_url": "https://github.com/iissnan/hexo-theme-next/commit/9c8cea69bf0d4f91c07779d71b01814b27bbb6a1",
+  "tree_url": "https://github.com/iissnan/hexo-theme-next/tree/9c8cea69bf0d4f91c07779d71b01814b27bbb6a1",
+  "analysed_at": "2026-11-14T19:11:36.059742+00:00",
+  "status": "completed",
+  "files_fetched": 311,
+  "files_analysed": 292,
+  "components": [
+    "Configuration and deployment",
+    "scripts package",
+    "source package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "source/lib/jquery/index.js"
+  ]
+}

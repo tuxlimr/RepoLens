@@ -1,0 +1,47 @@
+{
+  "owner": "Wan-Video",
+  "name": "Wan2.2",
+  "full_name": "Wan-Video/Wan2.2",
+  "html_url": "https://github.com/Wan-Video/Wan2.2",
+  "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "stars": 18649,
+  "forks": 2480,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "aigc",
+    "video-generation"
+  ],
+  "archived": false,
+  "commit_sha": "1ea34ff48f87168174e12956e200b1d908b1c5ff",
+  "commit_url": "https://github.com/Wan-Video/Wan2.2/commit/1ea34ff48f87168174e12956e200b1d908b1c5ff",
+  "tree_url": "https://github.com/Wan-Video/Wan2.2/tree/1ea34ff48f87168174e12956e200b1d908b1c5ff",
+  "analysed_at": "2026-11-14T19:08:22.295166+00:00",
+  "status": "completed",
+  "files_fetched": 69,
+  "files_analysed": 69,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "wan package"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "generate.py",
+    "wan/modules/animate/preprocess/human_visualization.py",
+    "wan/modules/animate/preprocess/preprocess_data.py",
+    "wan/modules/s2v/motioner.py",
+    "wan/utils/prompt_extend.py"
+  ]
+}

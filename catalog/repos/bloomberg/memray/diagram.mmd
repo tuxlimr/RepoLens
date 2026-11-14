@@ -1,0 +1,33 @@
+%% Repository: bloomberg/memray
+%% Analysed commit: ec314a3288f5e00e0d45a84ce6bccf7a3140d069
+%% Commit reference: https://github.com/bloomberg/memray/commit/ec314a3288f5e00e0d45a84ce6bccf7a3140d069
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        memray["memray package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| memray
+    benchmarks -->|imports| tests
+    entrypoint -->|imports| benchmarks
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| memray
+    memray -->|imports| entrypoint
+    memray -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| memray

@@ -1,0 +1,54 @@
+{
+  "owner": "twintproject",
+  "name": "twint",
+  "full_name": "twintproject/twint",
+  "html_url": "https://github.com/twintproject/twint",
+  "description": "An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.",
+  "stars": 16410,
+  "forks": 2722,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "elasticsearch",
+    "kibana",
+    "osint",
+    "python",
+    "scrape",
+    "scrape-followers",
+    "scrape-following",
+    "scrape-likes",
+    "tweep",
+    "tweets",
+    "twint",
+    "twitter"
+  ],
+  "archived": true,
+  "commit_sha": "e7c8a0c764f6879188e5c21e25fb6f1f856a7221",
+  "commit_url": "https://github.com/twintproject/twint/commit/e7c8a0c764f6879188e5c21e25fb6f1f856a7221",
+  "tree_url": "https://github.com/twintproject/twint/tree/e7c8a0c764f6879188e5c21e25fb6f1f856a7221",
+  "analysed_at": "2026-11-14T19:08:48.170305+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "twint package"
+  ],
+  "detections": [
+    "SQLite",
+    "aiohttp",
+    "pandas",
+    "requests",
+    "setuptools",
+    "Docker"
+  ],
+  "entry_points": [
+    "test.py",
+    "twint/cli.py"
+  ]
+}

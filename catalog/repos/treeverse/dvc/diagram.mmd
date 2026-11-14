@@ -1,0 +1,46 @@
+%% Repository: treeverse/dvc
+%% Analysed commit: b59add99ee667f2b352cc1be337619f965fe3fea
+%% Commit reference: https://github.com/treeverse/dvc/commit/b59add99ee667f2b352cc1be337619f965fe3fea
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dvc["dvc package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| dvc
+    config -->|imports| dvc
+    config -->|imports| entrypoint
+    data_layer -->|imports| dvc
+    data_layer -->|imports| entrypoint
+    dvc -->|imports| api_layer
+    dvc -->|imports| config
+    dvc -->|imports| data_layer
+    dvc -->|imports| entrypoint
+    dvc -->|imports| external_integrations
+    entrypoint -->|imports| dvc
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| dvc
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

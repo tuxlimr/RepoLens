@@ -1,0 +1,21 @@
+%% Repository: philc/vimium
+%% Analysed commit: 4046615ae4128d485fce3335fc1032e6f87c630a
+%% Commit reference: https://github.com/philc/vimium/commit/4046615ae4128d485fce3335fc1032e6f87c630a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        background_scripts["background_scripts package"]
+        build_scripts["build_scripts package"]
+        content_scripts["content_scripts package"]
+        lib["lib package"]
+        pages["pages package"]
+        test_harnesses["test_harnesses package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

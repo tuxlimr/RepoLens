@@ -1,0 +1,51 @@
+{
+  "owner": "pcottle",
+  "name": "learnGitBranching",
+  "full_name": "pcottle/learnGitBranching",
+  "html_url": "https://github.com/pcottle/learnGitBranching",
+  "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
+  "stars": 34224,
+  "forks": 6036,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6b9db44494ad62922c73936c5cef14b57492ae94",
+  "commit_url": "https://github.com/pcottle/learnGitBranching/commit/6b9db44494ad62922c73936c5cef14b57492ae94",
+  "tree_url": "https://github.com/pcottle/learnGitBranching/tree/6b9db44494ad62922c73936c5cef14b57492ae94",
+  "analysed_at": "2026-11-14T19:10:44.615574+00:00",
+  "status": "completed",
+  "files_fetched": 197,
+  "files_analysed": 195,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "js package",
+    "levels package",
+    "scripts package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/js/app/index.js",
+    "src/js/commands/index.js",
+    "src/js/git/index.js",
+    "src/js/graph/index.js",
+    "src/js/intl/index.js",
+    "src/js/level/index.js",
+    "src/js/log/index.js",
+    "src/js/sandbox/index.js",
+    "src/js/util/index.js",
+    "src/js/views/index.js",
+    "src/js/visuals/index.js",
+    "src/levels/index.js"
+  ]
+}

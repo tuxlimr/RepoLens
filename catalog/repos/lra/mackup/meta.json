@@ -1,0 +1,38 @@
+{
+  "owner": "lra",
+  "name": "mackup",
+  "full_name": "lra/mackup",
+  "html_url": "https://github.com/lra/mackup",
+  "description": "Backup and keep your application settings in sync.",
+  "stars": 15360,
+  "forks": 940,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "123929adf4b382564f0602e778e221ddf080953d",
+  "commit_url": "https://github.com/lra/mackup/commit/123929adf4b382564f0602e778e221ddf080953d",
+  "tree_url": "https://github.com/lra/mackup/tree/123929adf4b382564f0602e778e221ddf080953d",
+  "analysed_at": "2026-11-14T19:09:03.117844+00:00",
+  "status": "completed",
+  "files_fetched": 678,
+  "files_analysed": 677,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "mackup package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/mackup/main.py"
+  ]
+}

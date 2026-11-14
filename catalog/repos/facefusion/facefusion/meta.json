@@ -1,0 +1,45 @@
+{
+  "owner": "facefusion",
+  "name": "facefusion",
+  "full_name": "facefusion/facefusion",
+  "html_url": "https://github.com/facefusion/facefusion",
+  "description": "Industry leading face manipulation platform",
+  "stars": 30672,
+  "forks": 5024,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "deep-fake",
+    "deepfake",
+    "face-swap",
+    "faceswap",
+    "lip-sync",
+    "lipsync"
+  ],
+  "archived": false,
+  "commit_sha": "decc6c9d8f8e014878624452c6e8fe208726b4ec",
+  "commit_url": "https://github.com/facefusion/facefusion/commit/decc6c9d8f8e014878624452c6e8fe208726b4ec",
+  "tree_url": "https://github.com/facefusion/facefusion/tree/decc6c9d8f8e014878624452c6e8fe208726b4ec",
+  "analysed_at": "2026-11-14T19:07:08.811815+00:00",
+  "status": "completed",
+  "files_fetched": 245,
+  "files_analysed": 245,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "facefusion package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "facefusion.py",
+    "install.py"
+  ]
+}

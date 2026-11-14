@@ -1,0 +1,27 @@
+%% Repository: youfou/wxpy
+%% Analysed commit: ab63e12da822dc85615fa203e5be9fa28ae0b59f
+%% Commit reference: https://github.com/youfou/wxpy/commit/ab63e12da822dc85615fa203e5be9fa28ae0b59f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        wxpy["wxpy package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| wxpy
+    entrypoint -->|imports| wxpy
+    tests -->|imports| wxpy
+    wxpy -->|imports| api_layer
+    wxpy -->|imports| external_integrations

@@ -1,0 +1,47 @@
+{
+  "owner": "svg",
+  "name": "svgo",
+  "full_name": "svg/svgo",
+  "html_url": "https://github.com/svg/svgo",
+  "description": "SVG Optimizer for Node.js and CLI. \u2699\ufe0f",
+  "stars": 22817,
+  "forks": 1491,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "cli",
+    "hacktoberfest",
+    "javascript",
+    "minification",
+    "nodejs",
+    "optimization",
+    "svg",
+    "svgo"
+  ],
+  "archived": false,
+  "commit_sha": "31194fb4b3b592d7a65956f8f3b343b9fd6b80a6",
+  "commit_url": "https://github.com/svg/svgo/commit/31194fb4b3b592d7a65956f8f3b343b9fd6b80a6",
+  "tree_url": "https://github.com/svg/svgo/tree/31194fb4b3b592d7a65956f8f3b343b9fd6b80a6",
+  "analysed_at": "2026-11-14T19:11:07.285695+00:00",
+  "status": "completed",
+  "files_fetched": 617,
+  "files_analysed": 616,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "plugins package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "bin/svgo.js"
+  ]
+}

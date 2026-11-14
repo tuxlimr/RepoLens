@@ -1,0 +1,29 @@
+{
+  "owner": "stephentian",
+  "name": "33-js-concepts",
+  "full_name": "stephentian/33-js-concepts",
+  "html_url": "https://github.com/stephentian/33-js-concepts",
+  "description": ":scroll: \u6bcf\u4e2a JavaScript \u5de5\u7a0b\u5e08\u90fd\u5e94\u61c2\u768433\u4e2a\u6982\u5ff5 @leonardomso",
+  "stars": 15225,
+  "forks": 2282,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "25ffbf67f3f74844da0e61d9fc7216c8fabb33ee",
+  "commit_url": "https://github.com/stephentian/33-js-concepts/commit/25ffbf67f3f74844da0e61d9fc7216c8fabb33ee",
+  "tree_url": "https://github.com/stephentian/33-js-concepts/tree/25ffbf67f3f74844da0e61d9fc7216c8fabb33ee",
+  "analysed_at": "2026-11-14T19:11:40.221126+00:00",
+  "status": "completed",
+  "files_fetched": 5,
+  "files_analysed": 5,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

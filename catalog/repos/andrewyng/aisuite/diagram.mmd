@@ -1,0 +1,51 @@
+%% Repository: andrewyng/aisuite
+%% Analysed commit: 66c7890c2d68c2d67f41723bc848bb6713d82a9c
+%% Commit reference: https://github.com/andrewyng/aisuite/commit/66c7890c2d68c2d67f41723bc848bb6713d82a9c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        aisuite["aisuite package"]
+        aisuite_js["aisuite-js package"]
+        cli["cli package"]
+        openworker_archive["openworker-archive package"]
+        viewer_ui["viewer-ui package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    aisuite -->|imports| data_layer
+    aisuite -->|imports| external_integrations
+    cli -->|imports| aisuite
+    cli -->|imports| config
+    config -->|imports| openworker_archive
+    data_layer -->|imports| openworker_archive
+    entrypoint -->|imports| aisuite
+    entrypoint -->|imports| cli
+    entrypoint -->|imports| config
+    entrypoint -->|imports| openworker_archive
+    external_integrations -->|imports| aisuite
+    external_integrations -->|imports| config
+    external_integrations -->|imports| openworker_archive
+    openworker_archive -->|imports| aisuite
+    openworker_archive -->|imports| config
+    openworker_archive -->|imports| data_layer
+    openworker_archive -->|imports| external_integrations
+    tests -->|imports| aisuite
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

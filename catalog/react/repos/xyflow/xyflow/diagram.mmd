@@ -1,0 +1,17 @@
+%% Repository: xyflow/xyflow
+%% Analysed commit: 1bc405cd113618c17fd181b931a9fe573bec9fee
+%% Commit reference: https://github.com/xyflow/xyflow/commit/1bc405cd113618c17fd181b931a9fe573bec9fee
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        packages["packages package"]
+        tooling["tooling package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

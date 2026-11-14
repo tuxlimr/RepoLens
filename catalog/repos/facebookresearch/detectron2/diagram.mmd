@@ -1,0 +1,52 @@
+%% Repository: facebookresearch/detectron2
+%% Analysed commit: 247691a1c292654867deb35cabb27f18d75a1363
+%% Commit reference: https://github.com/facebookresearch/detectron2/commit/247691a1c292654867deb35cabb27f18d75a1363
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        datasets["datasets package"]
+        demo["demo package"]
+        detectron2["detectron2 package"]
+        dev["dev package"]
+        projects["projects package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| data_layer
+    config -->|imports| detectron2
+    data_layer -->|imports| config
+    data_layer -->|imports| detectron2
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| projects
+    demo -->|imports| data_layer
+    demo -->|imports| detectron2
+    detectron2 -->|imports| config
+    detectron2 -->|imports| data_layer
+    detectron2 -->|imports| entrypoint
+    detectron2 -->|imports| external_integrations
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| detectron2
+    external_integrations -->|imports| detectron2
+    projects -->|imports| config
+    projects -->|imports| data_layer
+    projects -->|imports| detectron2
+    projects -->|imports| entrypoint
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| detectron2
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| projects

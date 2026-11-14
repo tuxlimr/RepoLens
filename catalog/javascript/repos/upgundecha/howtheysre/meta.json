@@ -1,0 +1,49 @@
+{
+  "owner": "upgundecha",
+  "name": "howtheysre",
+  "full_name": "upgundecha/howtheysre",
+  "html_url": "https://github.com/upgundecha/howtheysre",
+  "description": "A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)",
+  "stars": 9844,
+  "forks": 902,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "alerting",
+    "chaos-engineering",
+    "dev-ops",
+    "devops",
+    "hacktoberfest",
+    "hacktoberfest-accepted",
+    "incident-management",
+    "incident-response",
+    "infrastructure",
+    "ml-ops",
+    "monitoring",
+    "observability",
+    "on-call",
+    "post-mortem",
+    "reliability",
+    "security",
+    "site-reliability-engineering",
+    "software-engineering",
+    "sre",
+    "sre-culture"
+  ],
+  "archived": false,
+  "commit_sha": "284703b172d8318642cb9062633e56046b4af819",
+  "commit_url": "https://github.com/upgundecha/howtheysre/commit/284703b172d8318642cb9062633e56046b4af819",
+  "tree_url": "https://github.com/upgundecha/howtheysre/tree/284703b172d8318642cb9062633e56046b4af819",
+  "analysed_at": "2026-11-14T19:12:49.011524+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 14,
+  "components": [
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

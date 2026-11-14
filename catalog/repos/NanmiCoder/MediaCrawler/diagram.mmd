@@ -1,0 +1,108 @@
+%% Repository: NanmiCoder/MediaCrawler
+%% Analysed commit: 306ab4ca26c0e44fb87ede0e40e98748752815a6
+%% Commit reference: https://github.com/NanmiCoder/MediaCrawler/commit/306ab4ca26c0e44fb87ede0e40e98748752815a6
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        base["base package"]
+        cache["cache package"]
+        cmd_arg["cmd_arg package"]
+        constant["constant package"]
+        libs["libs package"]
+        media_downloader["media_downloader package"]
+        media_platform["media_platform package"]
+        model["model package"]
+        proxy["proxy package"]
+        store["store package"]
+        tools["tools package"]
+        webui["webui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    cache -->|imports| entrypoint
+    core -->|imports| data_layer
+    data_layer -->|imports| config
+    data_layer -->|imports| tools
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| base
+    entrypoint -->|imports| cache
+    entrypoint -->|imports| cmd_arg
+    entrypoint -->|imports| config
+    entrypoint -->|imports| constant
+    entrypoint -->|imports| core
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| media_platform
+    entrypoint -->|imports| model
+    entrypoint -->|imports| proxy
+    entrypoint -->|imports| store
+    entrypoint -->|imports| tools
+    external_integrations -->|imports| base
+    external_integrations -->|imports| config
+    external_integrations -->|imports| constant
+    external_integrations -->|imports| core
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| media_platform
+    external_integrations -->|imports| model
+    external_integrations -->|imports| proxy
+    external_integrations -->|imports| tools
+    media_downloader -->|imports| config
+    media_downloader -->|imports| external_integrations
+    media_downloader -->|imports| tools
+    media_platform -->|imports| base
+    media_platform -->|imports| cache
+    media_platform -->|imports| config
+    media_platform -->|imports| constant
+    media_platform -->|imports| core
+    media_platform -->|imports| entrypoint
+    media_platform -->|imports| external_integrations
+    media_platform -->|imports| media_downloader
+    media_platform -->|imports| model
+    media_platform -->|imports| store
+    media_platform -->|imports| tools
+    proxy -->|imports| cache
+    proxy -->|imports| config
+    proxy -->|imports| entrypoint
+    proxy -->|imports| external_integrations
+    proxy -->|imports| tools
+    store -->|imports| base
+    store -->|imports| config
+    store -->|imports| core
+    store -->|imports| data_layer
+    store -->|imports| entrypoint
+    store -->|imports| media_platform
+    store -->|imports| model
+    store -->|imports| tools
+    tests -->|imports| api_layer
+    tests -->|imports| cmd_arg
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| media_downloader
+    tests -->|imports| media_platform
+    tests -->|imports| model
+    tests -->|imports| proxy
+    tests -->|imports| store
+    tests -->|imports| tools
+    tools -->|imports| config
+    tools -->|imports| entrypoint
+    tools -->|imports| external_integrations

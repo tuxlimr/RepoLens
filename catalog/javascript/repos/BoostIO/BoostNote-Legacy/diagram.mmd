@@ -1,0 +1,20 @@
+%% Repository: BoostIO/BoostNote-Legacy
+%% Analysed commit: 789926bc760628ecedbd0051ca96d190a2be234f
+%% Commit reference: https://github.com/BoostIO/BoostNote-Legacy/commit/789926bc760628ecedbd0051ca96d190a2be234f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        browser["browser package"]
+        dev_scripts["dev-scripts package"]
+        extra_scripts["extra_scripts package"]
+        lib["lib package"]
+        mocks["__mocks__ package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

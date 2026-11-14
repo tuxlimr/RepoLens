@@ -1,0 +1,47 @@
+{
+  "owner": "reactjs",
+  "name": "react-docgen",
+  "full_name": "reactjs/react-docgen",
+  "html_url": "https://github.com/reactjs/react-docgen",
+  "description": "A CLI and library to extract information from React component files for documentation generation purposes.",
+  "stars": 3819,
+  "forks": 318,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "8.x",
+  "topics": [
+    "docgen",
+    "documentation",
+    "json",
+    "react",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "6d4598b70d3776e28debfe1fddc7463fdf2958c6",
+  "commit_url": "https://github.com/reactjs/react-docgen/commit/6d4598b70d3776e28debfe1fddc7463fdf2958c6",
+  "tree_url": "https://github.com/reactjs/react-docgen/tree/6d4598b70d3776e28debfe1fddc7463fdf2958c6",
+  "analysed_at": "2026-11-14T19:15:04.595711+00:00",
+  "status": "completed",
+  "files_fetched": 415,
+  "files_analysed": 401,
+  "components": [
+    "API layer",
+    "benchmark package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/react-docgen/src/main.ts"
+  ]
+}

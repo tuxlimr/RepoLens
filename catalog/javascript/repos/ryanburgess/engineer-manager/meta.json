@@ -1,0 +1,30 @@
+{
+  "owner": "ryanburgess",
+  "name": "engineer-manager",
+  "full_name": "ryanburgess/engineer-manager",
+  "html_url": "https://github.com/ryanburgess/engineer-manager",
+  "description": "A list of engineering manager resource links.",
+  "stars": 10739,
+  "forks": 647,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "87d758203d2f24ea22e0132c3dc51b59f44df3fe",
+  "commit_url": "https://github.com/ryanburgess/engineer-manager/commit/87d758203d2f24ea22e0132c3dc51b59f44df3fe",
+  "tree_url": "https://github.com/ryanburgess/engineer-manager/tree/87d758203d2f24ea22e0132c3dc51b59f44df3fe",
+  "analysed_at": "2026-11-14T19:12:32.534189+00:00",
+  "status": "completed",
+  "files_fetched": 11,
+  "files_analysed": 11,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

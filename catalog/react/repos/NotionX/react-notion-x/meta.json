@@ -1,0 +1,49 @@
+{
+  "owner": "NotionX",
+  "name": "react-notion-x",
+  "full_name": "NotionX/react-notion-x",
+  "html_url": "https://github.com/NotionX/react-notion-x",
+  "description": "Fast and accurate React renderer for Notion. TS batteries included. \u26a1\ufe0f",
+  "stars": 5442,
+  "forks": 645,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "nextjs",
+    "notion",
+    "notion-api",
+    "react",
+    "react-notion",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "dd4c891997f6c42413623f6ea836c3ba34e042fb",
+  "commit_url": "https://github.com/NotionX/react-notion-x/commit/dd4c891997f6c42413623f6ea836c3ba34e042fb",
+  "tree_url": "https://github.com/NotionX/react-notion-x/tree/dd4c891997f6c42413623f6ea836c3ba34e042fb",
+  "analysed_at": "2026-11-14T19:14:19.068684+00:00",
+  "status": "completed",
+  "files_fetched": 400,
+  "files_analysed": 399,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/notion-x-to-md/src/cli.ts",
+    "packages/notion-client/src/index.ts",
+    "packages/notion-compat/src/index.ts",
+    "packages/notion-types/src/index.ts",
+    "packages/notion-utils/src/index.ts",
+    "packages/notion-x-to-md/src/index.ts",
+    "packages/react-notion-x/src/index.ts"
+  ]
+}

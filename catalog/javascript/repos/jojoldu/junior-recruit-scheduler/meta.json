@@ -1,0 +1,32 @@
+{
+  "owner": "jojoldu",
+  "name": "junior-recruit-scheduler",
+  "full_name": "jojoldu/junior-recruit-scheduler",
+  "html_url": "https://github.com/jojoldu/junior-recruit-scheduler",
+  "description": "\uc8fc\ub2c8\uc5b4 \uac1c\ubc1c\uc790 \ucc44\uc6a9 \uc815\ubcf4",
+  "stars": 11251,
+  "forks": 1591,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "0347115bab838376b9daafa48dd14ff392f64383",
+  "commit_url": "https://github.com/jojoldu/junior-recruit-scheduler/commit/0347115bab838376b9daafa48dd14ff392f64383",
+  "tree_url": "https://github.com/jojoldu/junior-recruit-scheduler/tree/0347115bab838376b9daafa48dd14ff392f64383",
+  "analysed_at": "2026-11-14T19:12:23.503969+00:00",
+  "status": "completed",
+  "files_fetched": 16,
+  "files_analysed": 15,
+  "components": [
+    "Configuration and deployment",
+    "json-validate package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "InterviewMap",
+  "name": "CS-Interview-Knowledge-Map",
+  "full_name": "InterviewMap/CS-Interview-Knowledge-Map",
+  "html_url": "https://github.com/InterviewMap/CS-Interview-Knowledge-Map",
+  "description": "Build the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.",
+  "stars": 18213,
+  "forks": 2516,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "algorithms",
+    "blog",
+    "interview",
+    "javascript",
+    "react",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "1de2dc983ea06dc56f7011cc629e4dc35f99a9f0",
+  "commit_url": "https://github.com/InterviewMap/CS-Interview-Knowledge-Map/commit/1de2dc983ea06dc56f7011cc629e4dc35f99a9f0",
+  "tree_url": "https://github.com/InterviewMap/CS-Interview-Knowledge-Map/tree/1de2dc983ea06dc56f7011cc629e4dc35f99a9f0",
+  "analysed_at": "2026-11-14T19:13:12.282753+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 33,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

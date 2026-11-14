@@ -1,0 +1,54 @@
+{
+  "owner": "darkroomengineering",
+  "name": "lenis",
+  "full_name": "darkroomengineering/lenis",
+  "html_url": "https://github.com/darkroomengineering/lenis",
+  "description": "Smooth scroll as it should be",
+  "stars": 17264,
+  "forks": 792,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "darkroom-engineering",
+    "performance",
+    "react",
+    "scroll",
+    "smooth",
+    "smooth-scroll",
+    "snap",
+    "vanilla",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "bd89165aa6ab64c4ae68242c8d2a5e90b76ff77d",
+  "commit_url": "https://github.com/darkroomengineering/lenis/commit/bd89165aa6ab64c4ae68242c8d2a5e90b76ff77d",
+  "tree_url": "https://github.com/darkroomengineering/lenis/tree/bd89165aa6ab64c4ae68242c8d2a5e90b76ff77d",
+  "analysed_at": "2026-11-14T19:13:13.156652+00:00",
+  "status": "completed",
+  "files_fetched": 108,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "playground package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/core/index.ts",
+    "packages/react/index.ts",
+    "packages/snap/index.ts",
+    "packages/vue/index.ts",
+    "playground/react/app.tsx"
+  ]
+}

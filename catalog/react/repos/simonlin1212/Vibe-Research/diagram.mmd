@@ -1,0 +1,38 @@
+%% Repository: simonlin1212/Vibe-Research
+%% Analysed commit: 76bd805f9b8387035b9dbc9110d1484d782d0e3a
+%% Commit reference: https://github.com/simonlin1212/Vibe-Research/commit/76bd805f9b8387035b9dbc9110d1484d782d0e3a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backtest["backtest package"]
+        calc["calc package"]
+        datasources["datasources package"]
+        desktop["desktop package"]
+        orchestrator["orchestrator package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    backtest -->|imports| data_layer
+    backtest -->|imports| entrypoint
+    entrypoint -->|imports| backtest
+    entrypoint -->|imports| calc
+    entrypoint -->|imports| data_layer
+    tests -->|imports| backtest
+    tests -->|imports| calc
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

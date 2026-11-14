@@ -1,0 +1,22 @@
+%% Repository: vercel/swr
+%% Analysed commit: 8148ef012fd5b317d1e8ec2da4b2ca0673f63c0f
+%% Commit reference: https://github.com/vercel/swr/commit/8148ef012fd5b317d1e8ec2da4b2ca0673f63c0f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        immutable["immutable package"]
+        index["index package"]
+        infinite["infinite package"]
+        internal["_internal package"]
+        mutation["mutation package"]
+        scripts["scripts package"]
+        subscription["subscription package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

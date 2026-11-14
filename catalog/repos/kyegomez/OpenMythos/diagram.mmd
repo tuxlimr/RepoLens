@@ -1,0 +1,24 @@
+%% Repository: kyegomez/OpenMythos
+%% Analysed commit: 155430a88d2a98322fc4c79b2a067792c3c9579a
+%% Commit reference: https://github.com/kyegomez/OpenMythos/commit/155430a88d2a98322fc4c79b2a067792c3c9579a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        open_mythos["open_mythos package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| entrypoint
+    entrypoint -->|imports| open_mythos
+    open_mythos -->|imports| entrypoint
+    tests -->|imports| entrypoint
+    tests -->|imports| open_mythos

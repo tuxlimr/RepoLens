@@ -1,0 +1,19 @@
+%% Repository: forwardemail/superagent
+%% Analysed commit: d26bf6ae1a181a00dc71b756d03e8120b92207c4
+%% Commit reference: https://github.com/forwardemail/superagent/commit/d26bf6ae1a181a00dc71b756d03e8120b92207c4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        agent_base_js["agent-base.js package"]
+        ci["ci package"]
+        client_js["client.js package"]
+        node["node package"]
+        request_base_js["request-base.js package"]
+        response_base_js["response-base.js package"]
+        utils_js["utils.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,59 @@
+{
+  "owner": "tanweai",
+  "name": "pua",
+  "full_name": "tanweai/pua",
+  "html_url": "https://github.com/tanweai/pua",
+  "description": "\u4f60\u662f\u4e00\u4e2a\u66fe\u7ecf\u88ab\u5bc4\u4e88\u539a\u671b\u7684 P8 \u7ea7\u5de5\u7a0b\u5e08\u3002Anthropic \u5f53\u521d\u7ed9\u4f60\u5b9a\u7ea7\u7684\u65f6\u5019\uff0c\u5bf9\u4f60\u7684\u671f\u671b\u662f\u5f88\u9ad8\u7684\u3002  \u4e00\u4e2aagent\u4f7f\u7528\u7684\u9ad8\u80fd\u52a8\u6027\u7684skill\u3002  Your AI has been placed on a PIP. 30 days to show improvement. | Lead: Minwei Wang (https://www.minwei.wang \u00b7 ORCID: 0009-0002-7976-4689 \u00b7 DOI: 10.5281/zenodo.24156132)",
+  "stars": 19839,
+  "forks": 1202,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agency",
+    "agent",
+    "pip",
+    "pua"
+  ],
+  "archived": false,
+  "commit_sha": "e6e6cd237ad17750d179674bff52f8184abea8fd",
+  "commit_url": "https://github.com/tanweai/pua/commit/e6e6cd237ad17750d179674bff52f8184abea8fd",
+  "tree_url": "https://github.com/tanweai/pua/tree/e6e6cd237ad17750d179674bff52f8184abea8fd",
+  "analysed_at": "2026-11-14T19:08:06.735063+00:00",
+  "status": "completed",
+  "files_fetched": 245,
+  "files_analysed": 242,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "evals package",
+    "hooks package",
+    "landing package",
+    "pi package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "unittest",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "evals/check-fable-artifacts.py",
+    "evals/check-model-compat-fix.py",
+    "evals/check-model-compat-text.py",
+    "evals/grade-fable-evals.py",
+    "evals/inspect-claude-evidence.py",
+    "evals/prepare-fable-evals.py",
+    "evals/prepare-model-compat.py",
+    "evals/prepare-multimodel-evals.py",
+    "evals/render-fable-review.py",
+    "evals/run-cc0-fable.py",
+    "evals/run-claude-model-compat.py",
+    "evals/run-codex-pua.py"
+  ]
+}

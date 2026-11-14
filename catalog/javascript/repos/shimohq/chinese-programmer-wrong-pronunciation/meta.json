@@ -1,0 +1,35 @@
+{
+  "owner": "shimohq",
+  "name": "chinese-programmer-wrong-pronunciation",
+  "full_name": "shimohq/chinese-programmer-wrong-pronunciation",
+  "html_url": "https://github.com/shimohq/chinese-programmer-wrong-pronunciation",
+  "description": "\u4e2d\u56fd\u7a0b\u5e8f\u5458\u5bb9\u6613\u53d1\u97f3\u9519\u8bef\u7684\u5355\u8bcd",
+  "stars": 23376,
+  "forks": 1598,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chinese-programmers",
+    "documentation",
+    "pronunciation",
+    "spelling"
+  ],
+  "archived": false,
+  "commit_sha": "1f04534b8d12f1bb5977cc683caceb7d1f393033",
+  "commit_url": "https://github.com/shimohq/chinese-programmer-wrong-pronunciation/commit/1f04534b8d12f1bb5977cc683caceb7d1f393033",
+  "tree_url": "https://github.com/shimohq/chinese-programmer-wrong-pronunciation/tree/1f04534b8d12f1bb5977cc683caceb7d1f393033",
+  "analysed_at": "2026-11-14T19:11:04.926082+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "tools package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "tools/addword.py"
+  ]
+}

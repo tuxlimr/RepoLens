@@ -1,0 +1,45 @@
+{
+  "owner": "validatorjs",
+  "name": "validator.js",
+  "full_name": "validatorjs/validator.js",
+  "html_url": "https://github.com/validatorjs/validator.js",
+  "description": "String validation",
+  "stars": 23741,
+  "forks": 2551,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "hacktoberfest",
+    "input",
+    "javascript",
+    "node",
+    "sanitization",
+    "sanitize",
+    "validate",
+    "validation",
+    "validations",
+    "validator"
+  ],
+  "archived": false,
+  "commit_sha": "9ff342479591ca5a43cb30000195bcf55c1bbed9",
+  "commit_url": "https://github.com/validatorjs/validator.js/commit/9ff342479591ca5a43cb30000195bcf55c1bbed9",
+  "tree_url": "https://github.com/validatorjs/validator.js/tree/9ff342479591ca5a43cb30000195bcf55c1bbed9",
+  "analysed_at": "2026-11-14T19:11:04.288432+00:00",
+  "status": "completed",
+  "files_fetched": 149,
+  "files_analysed": 149,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

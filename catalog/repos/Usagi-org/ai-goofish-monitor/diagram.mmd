@@ -1,0 +1,49 @@
+%% Repository: Usagi-org/ai-goofish-monitor
+%% Analysed commit: 77f8d75869acd65f9dba72731b95c7c49ea67bdf
+%% Commit reference: https://github.com/Usagi-org/ai-goofish-monitor/commit/77f8d75869acd65f9dba72731b95c7c49ea67bdf
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ai_handler_py["ai_handler.py package"]
+        ai_message_builder_py["ai_message_builder.py package"]
+        chrome_extension["chrome-extension package"]
+        failure_guard_py["failure_guard.py package"]
+        infrastructure["infrastructure package"]
+        init_py["__init__.py package"]
+        keyword_rule_engine_py["keyword_rule_engine.py package"]
+        parsers_py["parsers.py package"]
+        prompt_utils_py["prompt_utils.py package"]
+        rotation_py["rotation.py package"]
+        scraper_py["scraper.py package"]
+        utils_py["utils.py package"]
+        web_ui["web-ui package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    ai_handler_py -->|imports| external_integrations
+    api_layer -->|imports| external_integrations
+    config -->|imports| infrastructure
+    data_layer -->|imports| service_layer
+    tests -->|imports| external_integrations
+    utils_py -->|imports| external_integrations

@@ -1,0 +1,48 @@
+{
+  "owner": "hpcaitech",
+  "name": "Open-Sora",
+  "full_name": "hpcaitech/Open-Sora",
+  "html_url": "https://github.com/hpcaitech/Open-Sora",
+  "description": "Open-Sora: Democratizing Efficient Video Production for All",
+  "stars": 29935,
+  "forks": 3096,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7ad6a96a135feb81f755c84fb391818718f6beb2",
+  "commit_url": "https://github.com/hpcaitech/Open-Sora/commit/7ad6a96a135feb81f755c84fb391818718f6beb2",
+  "tree_url": "https://github.com/hpcaitech/Open-Sora/tree/7ad6a96a135feb81f755c84fb391818718f6beb2",
+  "analysed_at": "2026-11-14T19:07:10.700983+00:00",
+  "status": "completed",
+  "files_fetched": 118,
+  "files_analysed": 118,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "opensora package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "gradio/app.py",
+    "opensora/datasets/dataloader.py",
+    "opensora/datasets/video_transforms.py",
+    "opensora/models/dc_ae/models/nn/vo_ops.py",
+    "scripts/cnv/meta.py",
+    "scripts/cnv/shard.py",
+    "scripts/diffusion/inference.py",
+    "scripts/diffusion/train.py",
+    "scripts/vae/inference.py",
+    "scripts/vae/stats.py",
+    "scripts/vae/train.py"
+  ]
+}

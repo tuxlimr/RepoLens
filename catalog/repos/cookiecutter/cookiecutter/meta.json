@@ -1,0 +1,43 @@
+{
+  "owner": "cookiecutter",
+  "name": "cookiecutter",
+  "full_name": "cookiecutter/cookiecutter",
+  "html_url": "https://github.com/cookiecutter/cookiecutter",
+  "description": "A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.",
+  "stars": 25178,
+  "forks": 2305,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "cookiecutter",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "c88fbe921c97c58b65f1883ba90a0ab53cc91b34",
+  "commit_url": "https://github.com/cookiecutter/cookiecutter/commit/c88fbe921c97c58b65f1883ba90a0ab53cc91b34",
+  "tree_url": "https://github.com/cookiecutter/cookiecutter/tree/c88fbe921c97c58b65f1883ba90a0ab53cc91b34",
+  "analysed_at": "2026-11-14T19:07:32.751219+00:00",
+  "status": "completed",
+  "files_fetched": 314,
+  "files_analysed": 314,
+  "components": [
+    "Configuration and deployment",
+    "cookiecutter package",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "requests",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "__main__.py",
+    "cookiecutter/__main__.py",
+    "cookiecutter/cli.py"
+  ]
+}

@@ -1,0 +1,17 @@
+%% Repository: nginx-proxy/nginx-proxy
+%% Analysed commit: bff2cddfece8e4f2c6d00b62ba45b8214c4727c5
+%% Commit reference: https://github.com/nginx-proxy/nginx-proxy/commit/bff2cddfece8e4f2c6d00b62ba45b8214c4727c5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| external_integrations

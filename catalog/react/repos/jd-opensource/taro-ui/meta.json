@@ -1,0 +1,47 @@
+{
+  "owner": "jd-opensource",
+  "name": "taro-ui",
+  "full_name": "jd-opensource/taro-ui",
+  "html_url": "https://github.com/jd-opensource/taro-ui",
+  "description": "\u4e00\u6b3e\u57fa\u4e8e Taro \u6846\u67b6\u5f00\u53d1\u7684\u591a\u7aef UI \u7ec4\u4ef6\u5e93",
+  "stars": 4732,
+  "forks": 741,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "next",
+  "topics": [
+    "javascript",
+    "nervjs",
+    "react",
+    "taro",
+    "taro-compontent",
+    "ui-design",
+    "ui-kit",
+    "wechat-mini-program",
+    "wechat-weapp",
+    "wxapp"
+  ],
+  "archived": false,
+  "commit_sha": "d0653307e44015ebf6de382f0a31dab4c9756e15",
+  "commit_url": "https://github.com/jd-opensource/taro-ui/commit/d0653307e44015ebf6de382f0a31dab4c9756e15",
+  "tree_url": "https://github.com/jd-opensource/taro-ui/tree/d0653307e44015ebf6de382f0a31dab4c9756e15",
+  "analysed_at": "2026-11-14T19:14:38.051811+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 787,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": []
+}

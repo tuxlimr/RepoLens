@@ -1,0 +1,61 @@
+{
+  "owner": "PanJiaChen",
+  "name": "vue-admin-template",
+  "full_name": "PanJiaChen/vue-admin-template",
+  "html_url": "https://github.com/PanJiaChen/vue-admin-template",
+  "description": "a vue2.0 minimal admin template ",
+  "stars": 20343,
+  "forks": 7336,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "axios",
+    "element-ui",
+    "javascript",
+    "vue",
+    "vue-admin",
+    "vue-cli",
+    "vue-router",
+    "vuex"
+  ],
+  "archived": false,
+  "commit_sha": "4c18a3f47bdb417ad8a25f09910f848cb574dee2",
+  "commit_url": "https://github.com/PanJiaChen/vue-admin-template/commit/4c18a3f47bdb417ad8a25f09910f848cb574dee2",
+  "tree_url": "https://github.com/PanJiaChen/vue-admin-template/tree/4c18a3f47bdb417ad8a25f09910f848cb574dee2",
+  "analysed_at": "2026-11-14T19:11:14.043450+00:00",
+  "status": "completed",
+  "files_fetched": 95,
+  "files_analysed": 91,
+  "components": [
+    "API layer",
+    "App.vue package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "icons package",
+    "layout package",
+    "main.js package",
+    "mock package",
+    "permission.js package",
+    "router package",
+    "settings.js package",
+    "store package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "Vue",
+    "axios"
+  ],
+  "entry_points": [
+    "mock/index.js",
+    "src/icons/index.js",
+    "src/layout/components/index.js",
+    "src/main.js",
+    "src/router/index.js",
+    "src/store/index.js",
+    "src/store/modules/app.js",
+    "src/utils/index.js"
+  ]
+}

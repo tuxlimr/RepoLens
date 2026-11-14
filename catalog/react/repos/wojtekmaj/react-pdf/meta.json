@@ -1,0 +1,51 @@
+{
+  "owner": "wojtekmaj",
+  "name": "react-pdf",
+  "full_name": "wojtekmaj/react-pdf",
+  "html_url": "https://github.com/wojtekmaj/react-pdf",
+  "description": "Display PDFs in your React app as easily as if they were images.",
+  "stars": 11200,
+  "forks": 1003,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "pdf",
+    "pdf-viewer",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "f435d0bdc1fa8bc9658aa3d9d2c9e1f8da5eb219",
+  "commit_url": "https://github.com/wojtekmaj/react-pdf/commit/f435d0bdc1fa8bc9658aa3d9d2c9e1f8da5eb219",
+  "tree_url": "https://github.com/wojtekmaj/react-pdf/tree/f435d0bdc1fa8bc9658aa3d9d2c9e1f8da5eb219",
+  "analysed_at": "2026-11-14T19:13:26.555827+00:00",
+  "status": "completed",
+  "files_fetched": 147,
+  "files_analysed": 142,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "__mocks__ package",
+    "packages package",
+    "sample package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/react-pdf/src/Page.tsx",
+    "packages/react-pdf/src/index.ts",
+    "sample/next-app/app/page.tsx",
+    "sample/next-pages/pages/index.tsx",
+    "sample/parcel2/index.tsx",
+    "sample/vite/index.tsx",
+    "sample/webpack5/index.tsx"
+  ]
+}

@@ -1,0 +1,31 @@
+%% Repository: ChatGPTBox-dev/chatGPTBox
+%% Analysed commit: f0717a154e756a147f12c985021676c6134c34b5
+%% Commit reference: https://github.com/ChatGPTBox-dev/chatGPTBox/commit/f0717a154e756a147f12c985021676c6134c34b5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        background["background package"]
+        components["components package"]
+        content_script["content-script package"]
+        hooks["hooks package"]
+        locales["_locales package"]
+        pages["pages package"]
+        popup["popup package"]
+        safari["safari package"]
+        scripts["scripts package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

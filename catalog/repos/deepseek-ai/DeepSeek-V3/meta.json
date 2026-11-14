@@ -1,0 +1,35 @@
+{
+  "owner": "deepseek-ai",
+  "name": "DeepSeek-V3",
+  "full_name": "deepseek-ai/DeepSeek-V3",
+  "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+  "description": null,
+  "stars": 104827,
+  "forks": 16746,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+  "commit_url": "https://github.com/deepseek-ai/DeepSeek-V3/commit/9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+  "tree_url": "https://github.com/deepseek-ai/DeepSeek-V3/tree/9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+  "analysed_at": "2026-11-14T19:06:07.543721+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "inference package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "inference/convert.py",
+    "inference/fp8_cast_bf16.py",
+    "inference/generate.py",
+    "inference/model.py"
+  ]
+}

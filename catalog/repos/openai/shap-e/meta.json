@@ -1,0 +1,33 @@
+{
+  "owner": "openai",
+  "name": "shap-e",
+  "full_name": "openai/shap-e",
+  "html_url": "https://github.com/openai/shap-e",
+  "description": "Generate 3D objects conditioned on text or images",
+  "stars": 12266,
+  "forks": 1076,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "50131012ee11c9d2617f3886c10f000d3c7a3b43",
+  "commit_url": "https://github.com/openai/shap-e/commit/50131012ee11c9d2617f3886c10f000d3c7a3b43",
+  "tree_url": "https://github.com/openai/shap-e/tree/50131012ee11c9d2617f3886c10f000d3c7a3b43",
+  "analysed_at": "2026-11-14T19:10:12.832090+00:00",
+  "status": "completed",
+  "files_fetched": 78,
+  "files_analysed": 78,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "External integrations",
+    "shap_e package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": []
+}

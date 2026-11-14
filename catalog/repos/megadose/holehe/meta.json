@@ -1,0 +1,52 @@
+{
+  "owner": "megadose",
+  "name": "holehe",
+  "full_name": "megadose/holehe",
+  "html_url": "https://github.com/megadose/holehe",
+  "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+  "stars": 15657,
+  "forks": 2030,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "ebay",
+    "email",
+    "emails",
+    "information-gathering",
+    "instagram",
+    "open-source-intelligence",
+    "osint",
+    "osint-python",
+    "osint-tools",
+    "pypi",
+    "python",
+    "social-network",
+    "tellonym",
+    "trio",
+    "twitter"
+  ],
+  "archived": false,
+  "commit_sha": "14da70f588538936b20d238783c5e28a0772a2b3",
+  "commit_url": "https://github.com/megadose/holehe/commit/14da70f588538936b20d238783c5e28a0772a2b3",
+  "tree_url": "https://github.com/megadose/holehe/tree/14da70f588538936b20d238783c5e28a0772a2b3",
+  "analysed_at": "2026-11-14T19:08:59.734442+00:00",
+  "status": "completed",
+  "files_fetched": 162,
+  "files_analysed": 162,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "holehe package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "requests",
+    "setuptools",
+    "Docker"
+  ],
+  "entry_points": [
+    "holehe/core.py"
+  ]
+}

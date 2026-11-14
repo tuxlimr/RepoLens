@@ -1,0 +1,30 @@
+%% Repository: maotoumao/MusicFree
+%% Analysed commit: d118b18b3d0c904400f7eea7bf99c0ceec6c1aee
+%% Commit reference: https://github.com/maotoumao/MusicFree/commit/d118b18b3d0c904400f7eea7bf99c0ceec6c1aee
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        components["components package"]
+        constants["constants package"]
+        core_defination["core.defination package"]
+        entry["entry package"]
+        generator["generator package"]
+        hooks["hooks package"]
+        ios["ios package"]
+        lib["lib package"]
+        native["native package"]
+        pages["pages package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

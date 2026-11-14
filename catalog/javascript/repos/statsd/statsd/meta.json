@@ -1,0 +1,46 @@
+{
+  "owner": "statsd",
+  "name": "statsd",
+  "full_name": "statsd/statsd",
+  "html_url": "https://github.com/statsd/statsd",
+  "description": "Daemon for easy but powerful stats aggregation",
+  "stars": 18075,
+  "forks": 1935,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "graphite",
+    "javascript",
+    "metrics",
+    "nodejs",
+    "statsd"
+  ],
+  "archived": false,
+  "commit_sha": "f7157b880631152569b04d626f631b60eec366f8",
+  "commit_url": "https://github.com/statsd/statsd/commit/f7157b880631152569b04d626f631b60eec366f8",
+  "tree_url": "https://github.com/statsd/statsd/tree/f7157b880631152569b04d626f631b60eec366f8",
+  "analysed_at": "2026-11-14T19:11:23.006486+00:00",
+  "status": "completed",
+  "files_fetched": 103,
+  "files_analysed": 102,
+  "components": [
+    "backends package",
+    "Configuration and deployment",
+    "Core modules",
+    "debian package",
+    "External integrations",
+    "lib package",
+    "servers package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "bin/statsd"
+  ]
+}

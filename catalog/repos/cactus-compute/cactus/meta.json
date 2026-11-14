@@ -1,0 +1,62 @@
+{
+  "owner": "cactus-compute",
+  "name": "cactus",
+  "full_name": "cactus-compute/cactus",
+  "html_url": "https://github.com/cactus-compute/cactus",
+  "description": "Sub-50mb agentic, voice and vision intelligence for consumer devices.",
+  "stars": 14734,
+  "forks": 1035,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "cactus",
+    "edge-ai",
+    "foundation-model",
+    "function-calling",
+    "llm",
+    "on-device-ai",
+    "tinyml",
+    "tool-calling"
+  ],
+  "archived": false,
+  "commit_sha": "44f8e0ec1ec71dddf028e7c37635cce01b3cdcc5",
+  "commit_url": "https://github.com/cactus-compute/cactus/commit/44f8e0ec1ec71dddf028e7c37635cce01b3cdcc5",
+  "tree_url": "https://github.com/cactus-compute/cactus/tree/44f8e0ec1ec71dddf028e7c37635cce01b3cdcc5",
+  "analysed_at": "2026-11-14T19:09:18.430541+00:00",
+  "status": "completed",
+  "files_fetched": 122,
+  "files_analysed": 122,
+  "components": [
+    "cactus package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "cactus/_worker.py",
+    "cactus/cli/__init__.py",
+    "cactus/environments/data_capture.py",
+    "cactus/environments/kitchen_appliance.py",
+    "cactus/environments/media_player.py",
+    "cactus/environments/productivity.py",
+    "cactus/environments/smart_home.py",
+    "cactus/environments/wearable.py",
+    "cactus/mlx/bench_decode.py",
+    "cactus/mlx/cli.py",
+    "cactus/mlx/generate.py",
+    "cactus/mlx/models/nemotron_validate.py"
+  ]
+}

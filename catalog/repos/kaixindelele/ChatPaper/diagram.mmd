@@ -1,0 +1,26 @@
+%% Repository: kaixindelele/ChatPaper
+%% Analysed commit: f19b3a4510c24d49a14549a41de4ad4dd32dc6c1
+%% Commit reference: https://github.com/kaixindelele/ChatPaper/commit/f19b3a4510c24d49a14549a41de4ad4dd32dc6c1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        auto_survey["auto_survey package"]
+        docker["docker package"]
+        huggingfacedeploy["HuggingFaceDeploy package"]
+        scipdf_parser_master["scipdf_parser-master package"]
+        source["source package"]
+    end
+    entrypoint -->|imports| external_integrations
+    huggingfacedeploy -->|imports| external_integrations
+    scipdf_parser_master -->|imports| external_integrations

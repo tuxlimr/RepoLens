@@ -1,0 +1,58 @@
+{
+  "owner": "jina-ai",
+  "name": "clip-as-service",
+  "full_name": "jina-ai/clip-as-service",
+  "html_url": "https://github.com/jina-ai/clip-as-service",
+  "description": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP",
+  "stars": 12841,
+  "forks": 2063,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "bert",
+    "bert-as-service",
+    "clip-as-service",
+    "clip-model",
+    "cross-modal-retrieval",
+    "cross-modality",
+    "deep-learning",
+    "image2vec",
+    "multi-modality",
+    "neural-search",
+    "onnx",
+    "openai",
+    "pytorch",
+    "sentence-encoding",
+    "sentence2vec"
+  ],
+  "archived": false,
+  "commit_sha": "03410570d4398084f5ca5c88ad968248e0f3fc5d",
+  "commit_url": "https://github.com/jina-ai/clip-as-service/commit/03410570d4398084f5ca5c88ad968248e0f3fc5d",
+  "tree_url": "https://github.com/jina-ai/clip-as-service/tree/03410570d4398084f5ca5c88ad968248e0f3fc5d",
+  "analysed_at": "2026-11-14T19:09:58.697681+00:00",
+  "status": "completed",
+  "files_fetched": 123,
+  "files_analysed": 123,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "server package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "NumPy",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "scripts/benchmark.py",
+    "server/clip_server/__main__.py"
+  ]
+}

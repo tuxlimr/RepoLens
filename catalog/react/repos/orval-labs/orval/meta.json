@@ -1,0 +1,63 @@
+{
+  "owner": "orval-labs",
+  "name": "orval",
+  "full_name": "orval-labs/orval",
+  "html_url": "https://github.com/orval-labs/orval",
+  "description": "orval is able to generate client with appropriate type-signatures (TypeScript) from any valid OpenAPI v3 or Swagger v2 specification, either in yaml or json formats. \ud83c\udf7a",
+  "stars": 6614,
+  "forks": 711,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "axios-client",
+    "codegen",
+    "faker",
+    "mock",
+    "msw",
+    "openapi-specification",
+    "orval",
+    "react",
+    "react-query",
+    "swagger",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "4d82f9584ff687adcafd10f3acc1b66ac4e45520",
+  "commit_url": "https://github.com/orval-labs/orval/commit/4d82f9584ff687adcafd10f3acc1b66ac4e45520",
+  "tree_url": "https://github.com/orval-labs/orval/tree/4d82f9584ff687adcafd10f3acc1b66ac4e45520",
+  "analysed_at": "2026-11-14T19:14:04.276005+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/angular/src/index.ts",
+    "packages/axios/src/index.ts",
+    "packages/core/src/index.ts",
+    "packages/effect/src/index.ts",
+    "packages/fetch/src/index.ts",
+    "packages/hono/src/index.ts",
+    "packages/mcp/src/index.ts",
+    "packages/mock/src/index.ts",
+    "packages/orval/src/index.ts",
+    "packages/pinia-colada/src/index.ts",
+    "packages/query/src/index.ts",
+    "packages/solid-start/src/index.ts"
+  ]
+}

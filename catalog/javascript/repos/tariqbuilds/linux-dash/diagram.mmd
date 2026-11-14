@@ -1,0 +1,20 @@
+%% Repository: tariqbuilds/linux-dash
+%% Analysed commit: 186a802ea76e8bfcab7e8e7ebc533b74f80306fc
+%% Commit reference: https://github.com/tariqbuilds/linux-dash/commit/186a802ea76e8bfcab7e8e7ebc533b74f80306fc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        app["app package"]
+        js["js package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

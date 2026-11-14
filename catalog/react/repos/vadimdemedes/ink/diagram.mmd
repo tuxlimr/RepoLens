@@ -1,0 +1,38 @@
+%% Repository: vadimdemedes/ink
+%% Analysed commit: e93d12ec7658deefe3f3c2e1e7e52dd123297b0b
+%% Commit reference: https://github.com/vadimdemedes/ink/commit/e93d12ec7658deefe3f3c2e1e7e52dd123297b0b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        ansi_tokenizer_ts["ansi-tokenizer.ts package"]
+        benchmark["benchmark package"]
+        colorize_ts["colorize.ts package"]
+        components["components package"]
+        cursor_helpers_ts["cursor-helpers.ts package"]
+        devtools_ts["devtools.ts package"]
+        devtools_window_polyfill_ts["devtools-window-polyfill.ts package"]
+        dom_ts["dom.ts package"]
+        get_max_width_ts["get-max-width.ts package"]
+        global_d_ts["global.d.ts package"]
+        hooks["hooks package"]
+        index_ts["index.ts package"]
+        ink_tsx["ink.tsx package"]
+        input_parser_ts["input-parser.ts package"]
+        instances_ts["instances.ts package"]
+        is_devtools_reachable_ts["is-devtools-reachable.ts package"]
+        kitty_keyboard_ts["kitty-keyboard.ts package"]
+        line_update_ts["line-update.ts package"]
+        log_update_ts["log-update.ts package"]
+        measure_element_ts["measure-element.ts package"]
+        measure_text_ts["measure-text.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (18 merged)"]
+    %% Note: 18 smaller component(s) merged into 'other' to keep the diagram readable.

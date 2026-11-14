@@ -1,0 +1,35 @@
+{
+  "owner": "yargs",
+  "name": "yargs",
+  "full_name": "yargs/yargs",
+  "html_url": "https://github.com/yargs/yargs",
+  "description": " yargs the modern, pirate-themed successor to optimist.",
+  "stars": 11508,
+  "forks": 1063,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "f444858808bc11e9910fc5ed0d0322dc40d5638e",
+  "commit_url": "https://github.com/yargs/yargs/commit/f444858808bc11e9910fc5ed0d0322dc40d5638e",
+  "tree_url": "https://github.com/yargs/yargs/tree/f444858808bc11e9910fc5ed0d0322dc40d5638e",
+  "analysed_at": "2026-11-14T19:12:17.634043+00:00",
+  "status": "completed",
+  "files_fetched": 173,
+  "files_analysed": 173,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "helpers package",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.mjs"
+  ]
+}

@@ -1,0 +1,27 @@
+%% Repository: ranaroussi/yfinance
+%% Analysed commit: 2492a853aee975b4f39f230ad763298f039e37ae
+%% Commit reference: https://github.com/ranaroussi/yfinance/commit/2492a853aee975b4f39f230ad763298f039e37ae
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        maintainer["maintainer package"]
+        yfinance["yfinance package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    service_layer -->|imports| config
+    service_layer -->|imports| yfinance
+    tests -->|imports| config
+    tests -->|imports| external_integrations
+    tests -->|imports| yfinance
+    yfinance -->|imports| config
+    yfinance -->|imports| external_integrations

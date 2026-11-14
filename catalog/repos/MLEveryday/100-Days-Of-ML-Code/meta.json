@@ -1,0 +1,54 @@
+{
+  "owner": "MLEveryday",
+  "name": "100-Days-Of-ML-Code",
+  "full_name": "MLEveryday/100-Days-Of-ML-Code",
+  "html_url": "https://github.com/MLEveryday/100-Days-Of-ML-Code",
+  "description": "100-Days-Of-ML-Code\u4e2d\u6587\u7248",
+  "stars": 22233,
+  "forks": 5449,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "100-days-of-ml-code",
+    "chinese-simplified",
+    "deep-learning",
+    "infographics",
+    "jupyter-notebook",
+    "keras",
+    "machine-learning",
+    "python",
+    "supervised-learning",
+    "tensorflow",
+    "tutorial",
+    "unsupervised-learning"
+  ],
+  "archived": false,
+  "commit_sha": "a6474a20a1cd8bb3fa3c7fab12ffadf70858810c",
+  "commit_url": "https://github.com/MLEveryday/100-Days-Of-ML-Code/commit/a6474a20a1cd8bb3fa3c7fab12ffadf70858810c",
+  "tree_url": "https://github.com/MLEveryday/100-Days-Of-ML-Code/tree/a6474a20a1cd8bb3fa3c7fab12ffadf70858810c",
+  "analysed_at": "2026-11-14T19:07:55.327610+00:00",
+  "status": "completed",
+  "files_fetched": 187,
+  "files_analysed": 187,
+  "components": [
+    "Code package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Kafka",
+    "NumPy",
+    "pandas",
+    "unittest"
+  ],
+  "entry_points": [
+    "tools/check_docs.py",
+    "tools/check_lessons.py",
+    "tools/sync_lessons.py"
+  ]
+}

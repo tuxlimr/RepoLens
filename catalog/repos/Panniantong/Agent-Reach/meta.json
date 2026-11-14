@@ -1,0 +1,63 @@
+{
+  "owner": "Panniantong",
+  "name": "Agent-Reach",
+  "full_name": "Panniantong/Agent-Reach",
+  "html_url": "https://github.com/Panniantong/Agent-Reach",
+  "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+  "stars": 111765,
+  "forks": 10022,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-infrastructure",
+    "ai-agent",
+    "ai-search",
+    "automation",
+    "bilibili",
+    "claude-code",
+    "cli",
+    "cursor",
+    "free-api",
+    "llm-tools",
+    "mcp",
+    "python",
+    "reddit-scraper",
+    "twitter-scraper",
+    "web-scraper",
+    "xiaohongshu",
+    "youtube-transcript"
+  ],
+  "archived": false,
+  "commit_sha": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+  "commit_url": "https://github.com/Panniantong/Agent-Reach/commit/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+  "tree_url": "https://github.com/Panniantong/Agent-Reach/tree/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+  "analysed_at": "2026-11-14T19:06:06.901229+00:00",
+  "status": "completed",
+  "files_fetched": 117,
+  "files_analysed": 117,
+  "components": [
+    "agent_reach package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "agent_reach/backends/boss_native.py",
+    "agent_reach/backends/cloak.py",
+    "agent_reach/cli.py",
+    "agent_reach/runtime/browser_watcher.py",
+    "scripts/check_release_acceptance.py",
+    "scripts/record_release_acceptance.py"
+  ]
+}

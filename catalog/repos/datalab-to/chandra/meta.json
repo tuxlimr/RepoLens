@@ -1,0 +1,47 @@
+{
+  "owner": "datalab-to",
+  "name": "chandra",
+  "full_name": "datalab-to/chandra",
+  "html_url": "https://github.com/datalab-to/chandra",
+  "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
+  "stars": 12724,
+  "forks": 1271,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "ocr"
+  ],
+  "archived": false,
+  "commit_sha": "b20d54d94e53b32211c98408620edef63e99a4ec",
+  "commit_url": "https://github.com/datalab-to/chandra/commit/b20d54d94e53b32211c98408620edef63e99a4ec",
+  "tree_url": "https://github.com/datalab-to/chandra/tree/b20d54d94e53b32211c98408620edef63e99a4ec",
+  "analysed_at": "2026-11-14T19:10:01.801192+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 33,
+  "components": [
+    "chandra package",
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Flask",
+    "Click",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "chandra/prompts.py",
+    "chandra/scripts/cli.py",
+    "chandra/scripts/olmocr_bench.py",
+    "chandra/scripts/run_app.py",
+    "chandra/scripts/screenshot_app.py",
+    "chandra/scripts/vllm.py"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "owner": "jondot",
+  "name": "awesome-react-native",
+  "full_name": "jondot/awesome-react-native",
+  "html_url": "https://github.com/jondot/awesome-react-native",
+  "description": "Awesome React Native components, news, tools, and learning material!",
+  "stars": 35707,
+  "forks": 4063,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome-list",
+    "mobile",
+    "react",
+    "react-native"
+  ],
+  "archived": false,
+  "commit_sha": "673360681d1026269753de05593f2e6dd826afc2",
+  "commit_url": "https://github.com/jondot/awesome-react-native/commit/673360681d1026269753de05593f2e6dd826afc2",
+  "tree_url": "https://github.com/jondot/awesome-react-native/tree/673360681d1026269753de05593f2e6dd826afc2",
+  "analysed_at": "2026-11-14T19:13:01.387873+00:00",
+  "status": "completed",
+  "files_fetched": 6,
+  "files_analysed": 6,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

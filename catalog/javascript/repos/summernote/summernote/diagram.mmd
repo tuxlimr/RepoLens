@@ -1,0 +1,22 @@
+%% Repository: summernote/summernote
+%% Analysed commit: ac5460e0e9a0b622ad7deff162915a3960ff4b96
+%% Commit reference: https://github.com/summernote/summernote/commit/ac5460e0e9a0b622ad7deff162915a3960ff4b96
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        js["js package"]
+        public["public package"]
+        scripts["scripts package"]
+        styles["styles package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

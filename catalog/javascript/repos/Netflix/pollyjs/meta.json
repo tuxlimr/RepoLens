@@ -1,0 +1,48 @@
+{
+  "owner": "Netflix",
+  "name": "pollyjs",
+  "full_name": "Netflix/pollyjs",
+  "html_url": "https://github.com/Netflix/pollyjs",
+  "description": "Record, Replay, and Stub HTTP Interactions.",
+  "stars": 10250,
+  "forks": 358,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "browser",
+    "javascript",
+    "netflix",
+    "nodejs",
+    "record",
+    "replay",
+    "testing"
+  ],
+  "archived": false,
+  "commit_sha": "d031861625f58423169b396e5afc8a0110d1b232",
+  "commit_url": "https://github.com/Netflix/pollyjs/commit/d031861625f58423169b396e5afc8a0110d1b232",
+  "tree_url": "https://github.com/Netflix/pollyjs/tree/d031861625f58423169b396e5afc8a0110d1b232",
+  "analysed_at": "2026-11-14T19:12:42.205475+00:00",
+  "status": "completed",
+  "files_fetched": 393,
+  "files_analysed": 392,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/@pollyjs/cli/bin/cli.js",
+    "packages/@pollyjs/ember/index.js"
+  ]
+}

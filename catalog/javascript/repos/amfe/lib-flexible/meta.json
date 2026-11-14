@@ -1,0 +1,29 @@
+{
+  "owner": "amfe",
+  "name": "lib-flexible",
+  "full_name": "amfe/lib-flexible",
+  "html_url": "https://github.com/amfe/lib-flexible",
+  "description": "\u53ef\u4f38\u7f29\u5e03\u5c40\u65b9\u6848",
+  "stars": 12463,
+  "forks": 3390,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "2.0",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "583b9cd404dde7a8d698d4488e0602bc1846ce6e",
+  "commit_url": "https://github.com/amfe/lib-flexible/commit/583b9cd404dde7a8d698d4488e0602bc1846ce6e",
+  "tree_url": "https://github.com/amfe/lib-flexible/tree/583b9cd404dde7a8d698d4488e0602bc1846ce6e",
+  "analysed_at": "2026-11-14T19:12:05.523963+00:00",
+  "status": "completed",
+  "files_fetched": 5,
+  "files_analysed": 5,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

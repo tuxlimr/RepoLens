@@ -1,0 +1,30 @@
+{
+  "owner": "defunkt",
+  "name": "jquery-pjax",
+  "full_name": "defunkt/jquery-pjax",
+  "html_url": "https://github.com/defunkt/jquery-pjax",
+  "description": "pushState + ajax = pjax",
+  "stars": 16622,
+  "forks": 1914,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "153262eda33e31119eabb97cd5f14365580a3b35",
+  "commit_url": "https://github.com/defunkt/jquery-pjax/commit/153262eda33e31119eabb97cd5f14365580a3b35",
+  "tree_url": "https://github.com/defunkt/jquery-pjax/tree/153262eda33e31119eabb97cd5f14365580a3b35",
+  "analysed_at": "2026-11-14T19:11:31.520093+00:00",
+  "status": "completed",
+  "files_fetched": 41,
+  "files_analysed": 39,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "jquery.pjax.js"
+  ]
+}

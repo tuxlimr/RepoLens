@@ -1,0 +1,62 @@
+{
+  "owner": "Asabeneh",
+  "name": "30-Days-Of-Python",
+  "full_name": "Asabeneh/30-Days-Of-Python",
+  "html_url": "https://github.com/Asabeneh/30-Days-Of-Python",
+  "description": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
+  "stars": 78746,
+  "forks": 14156,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "30-days-of-python",
+    "data",
+    "data-science",
+    "database",
+    "flask",
+    "fullstack",
+    "github",
+    "heroku",
+    "matplotlib",
+    "ml",
+    "mongodb",
+    "numpy",
+    "pandas",
+    "python",
+    "python3"
+  ],
+  "archived": false,
+  "commit_sha": "50c11a80a6e3924a7be58c89f409697e12cb4d70",
+  "commit_url": "https://github.com/Asabeneh/30-Days-Of-Python/commit/50c11a80a6e3924a7be58c89f409697e12cb4d70",
+  "tree_url": "https://github.com/Asabeneh/30-Days-Of-Python/tree/50c11a80a6e3924a7be58c89f409697e12cb4d70",
+  "analysed_at": "2026-11-14T19:06:14.833510+00:00",
+  "status": "completed",
+  "files_fetched": 359,
+  "files_analysed": 359,
+  "components": [
+    "01_Day_Introduction package",
+    "02_Day_Variables_builtin_functions package",
+    "03_Day_Operators package",
+    "04_Day_Strings package",
+    "05_Day_Lists package",
+    "12_Day_Modules package",
+    "20_Day_Python_package_manager package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "Greek package",
+    "mypackage package",
+    "Spanish package",
+    "Ukrainian package",
+    "Uzbek package"
+  ],
+  "detections": [
+    "Flask",
+    "Click"
+  ],
+  "entry_points": [
+    "python_for_web/app.py"
+  ]
+}

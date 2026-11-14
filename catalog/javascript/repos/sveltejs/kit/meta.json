@@ -1,0 +1,50 @@
+{
+  "owner": "sveltejs",
+  "name": "kit",
+  "full_name": "sveltejs/kit",
+  "html_url": "https://github.com/sveltejs/kit",
+  "description": "web development, streamlined",
+  "stars": 20913,
+  "forks": 2384,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "svelte"
+  ],
+  "archived": false,
+  "commit_sha": "089db3f6e460dbe16a1f32caa181ef6b2fa374b7",
+  "commit_url": "https://github.com/sveltejs/kit/commit/089db3f6e460dbe16a1f32caa181ef6b2fa374b7",
+  "tree_url": "https://github.com/sveltejs/kit/tree/089db3f6e460dbe16a1f32caa181ef6b2fa374b7",
+  "analysed_at": "2026-11-14T19:11:11.664042+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 794,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Svelte",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/adapter-auto/index.js",
+    "packages/adapter-bun/index.js",
+    "packages/adapter-bun/src/index.js",
+    "packages/adapter-cloudflare/index.js",
+    "packages/adapter-netlify/index.js",
+    "packages/adapter-node/index.js",
+    "packages/adapter-node/src/index.js",
+    "packages/adapter-static/index.js",
+    "packages/adapter-vercel/index.js",
+    "packages/enhanced-img/src/index.js"
+  ]
+}

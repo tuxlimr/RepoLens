@@ -1,0 +1,29 @@
+{
+  "owner": "kenwheeler",
+  "name": "slick",
+  "full_name": "kenwheeler/slick",
+  "html_url": "https://github.com/kenwheeler/slick",
+  "description": "the last carousel you'll ever need",
+  "stars": 28519,
+  "forks": 5704,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7b2b3a76def3309d235d9ad9683a8d82941896cd",
+  "commit_url": "https://github.com/kenwheeler/slick/commit/7b2b3a76def3309d235d9ad9683a8d82941896cd",
+  "tree_url": "https://github.com/kenwheeler/slick/tree/7b2b3a76def3309d235d9ad9683a8d82941896cd",
+  "analysed_at": "2026-11-14T19:10:49.069422+00:00",
+  "status": "completed",
+  "files_fetched": 20,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "slick package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "slick/slick.js"
+  ]
+}

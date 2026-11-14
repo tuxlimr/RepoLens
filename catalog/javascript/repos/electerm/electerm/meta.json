@@ -1,0 +1,62 @@
+{
+  "owner": "electerm",
+  "name": "electerm",
+  "full_name": "electerm/electerm",
+  "html_url": "https://github.com/electerm/electerm",
+  "description": "\ud83d\udcfbFree and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
+  "stars": 15631,
+  "forks": 1264,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "android",
+    "electerm",
+    "electron",
+    "ftp",
+    "harmonyos",
+    "linux-app",
+    "macos-app",
+    "mcp",
+    "open-source",
+    "rdp",
+    "serialport",
+    "sftp",
+    "spice",
+    "ssh",
+    "telnet",
+    "terminal",
+    "vnc",
+    "windows-app",
+    "zmodem"
+  ],
+  "archived": false,
+  "commit_sha": "ee090c7cfa3d6bcbc8b9a3595839728323207347",
+  "commit_url": "https://github.com/electerm/electerm/commit/ee090c7cfa3d6bcbc8b9a3595839728323207347",
+  "tree_url": "https://github.com/electerm/electerm/tree/ee090c7cfa3d6bcbc8b9a3595839728323207347",
+  "analysed_at": "2026-11-14T19:11:36.874237+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 732,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "Express",
+    "React",
+    "axios",
+    "Docker",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/app/app.js",
+    "src/app/migrate/index.js",
+    "src/app/server/server.js",
+    "src/app/upgrade/index.js"
+  ]
+}

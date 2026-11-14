@@ -1,0 +1,48 @@
+{
+  "owner": "tremorlabs",
+  "name": "tremor",
+  "full_name": "tremorlabs/tremor",
+  "html_url": "https://github.com/tremorlabs/tremor",
+  "description": "Copy & Paste React components to build modern web applications. ",
+  "stars": 3701,
+  "forks": 200,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "components",
+    "dashboard",
+    "radix-ui",
+    "react",
+    "tailwindcss",
+    "typescript",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "ca4d588f47820ff3d514d37fa4ee08a4222dec11",
+  "commit_url": "https://github.com/tremorlabs/tremor/commit/ca4d588f47820ff3d514d37fa4ee08a4222dec11",
+  "tree_url": "https://github.com/tremorlabs/tremor/tree/ca4d588f47820ff3d514d37fa4ee08a4222dec11",
+  "analysed_at": "2026-11-14T19:15:08.323078+00:00",
+  "status": "completed",
+  "files_fetched": 196,
+  "files_analysed": 196,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "hooks package",
+    "scripts package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    ".storybook/main.ts"
+  ]
+}

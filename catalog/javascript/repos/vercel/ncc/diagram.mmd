@@ -1,0 +1,25 @@
+%% Repository: vercel/ncc
+%% Analysed commit: cb1f1f058bfa7de4cb63f2411e14a724e714e260
+%% Commit reference: https://github.com/vercel/ncc/commit/cb1f1f058bfa7de4cb63f2411e14a724e714e260
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        cli_js["cli.js package"]
+        index_js["index.js package"]
+        loaders["loaders package"]
+        notfound_js["@@notfound.js package"]
+        scripts["scripts package"]
+        typescript_js["typescript.js package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

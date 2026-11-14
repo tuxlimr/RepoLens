@@ -1,0 +1,32 @@
+{
+  "owner": "brillout",
+  "name": "awesome-react-components",
+  "full_name": "brillout/awesome-react-components",
+  "html_url": "https://github.com/brillout/awesome-react-components",
+  "description": "Curated List of React Components & Libraries.",
+  "stars": 48872,
+  "forks": 3874,
+  "license": "CC0-1.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "react",
+    "react-component",
+    "react-components"
+  ],
+  "archived": false,
+  "commit_sha": "66b2758c4808d62cfe7c2a1dc0c48f7d51153cf5",
+  "commit_url": "https://github.com/brillout/awesome-react-components/commit/66b2758c4808d62cfe7c2a1dc0c48f7d51153cf5",
+  "tree_url": "https://github.com/brillout/awesome-react-components/tree/66b2758c4808d62cfe7c2a1dc0c48f7d51153cf5",
+  "analysed_at": "2026-11-14T19:12:57.425773+00:00",
+  "status": "completed",
+  "files_fetched": 5,
+  "files_analysed": 5,
+  "components": [],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

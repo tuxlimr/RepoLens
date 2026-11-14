@@ -1,0 +1,55 @@
+{
+  "owner": "paperswithbacktest",
+  "name": "awesome-systematic-trading",
+  "full_name": "paperswithbacktest/awesome-systematic-trading",
+  "html_url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+  "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+  "stars": 15359,
+  "forks": 1865,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "algorithmic-trading",
+    "algotrading",
+    "alpha",
+    "arbitrage-bot",
+    "awesome",
+    "awesome-list",
+    "book",
+    "finance",
+    "futures",
+    "futures-historical-data",
+    "futures-market",
+    "futuresmarkets",
+    "paper",
+    "quant",
+    "quantitative-finance",
+    "quantitative-trading",
+    "trading-algorithms",
+    "trading-bot",
+    "trading-strategies"
+  ],
+  "archived": false,
+  "commit_sha": "ddfee8bb548bd6914191cb8fdb695d533ae16b0d",
+  "commit_url": "https://github.com/paperswithbacktest/awesome-systematic-trading/commit/ddfee8bb548bd6914191cb8fdb695d533ae16b0d",
+  "tree_url": "https://github.com/paperswithbacktest/awesome-systematic-trading/tree/ddfee8bb548bd6914191cb8fdb695d533ae16b0d",
+  "analysed_at": "2026-11-14T19:09:03.735066+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 71,
+  "components": [
+    "Application entry point",
+    "static package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas"
+  ],
+  "entry_points": [
+    "scripts/build_strategies_table.py",
+    "scripts/check_links.py",
+    "scripts/update_counts.py"
+  ]
+}

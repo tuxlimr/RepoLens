@@ -1,0 +1,57 @@
+{
+  "owner": "react-grid-layout",
+  "name": "react-grid-layout",
+  "full_name": "react-grid-layout/react-grid-layout",
+  "html_url": "https://github.com/react-grid-layout/react-grid-layout",
+  "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
+  "stars": 22492,
+  "forks": 2697,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "drag-and-drop",
+    "es2015",
+    "grid",
+    "javascript",
+    "react",
+    "resize"
+  ],
+  "archived": false,
+  "commit_sha": "f0dd77c5b2fee2d2cb09541d220c00d6814c7242",
+  "commit_url": "https://github.com/react-grid-layout/react-grid-layout/commit/f0dd77c5b2fee2d2cb09541d220c00d6814c7242",
+  "tree_url": "https://github.com/react-grid-layout/react-grid-layout/tree/f0dd77c5b2fee2d2cb09541d220c00d6814c7242",
+  "analysed_at": "2026-11-14T19:13:08.400241+00:00",
+  "status": "completed",
+  "files_fetched": 562,
+  "files_analysed": 562,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "extras package",
+    "index.ts package",
+    "legacy package",
+    "__mocks__ package",
+    "react package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/core/index.ts",
+    "src/extras/index.ts",
+    "src/index.ts",
+    "src/legacy/index.ts",
+    "src/react/components/index.ts",
+    "src/react/hooks/index.ts",
+    "src/react/index.ts"
+  ]
+}

@@ -1,0 +1,29 @@
+%% Repository: cookiecutter/cookiecutter-django
+%% Analysed commit: adcbd39660c1fc5d40086ad8837099bdbc8b0b54
+%% Commit reference: https://github.com/cookiecutter/cookiecutter-django/commit/adcbd39660c1fc5d40086ad8837099bdbc8b0b54
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cookiecutter_project_slug["cookiecutter.project_slug package"]
+        hooks["hooks package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| entrypoint

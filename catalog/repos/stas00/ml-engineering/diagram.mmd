@@ -1,0 +1,23 @@
+%% Repository: stas00/ml-engineering
+%% Analysed commit: fbe87165bd90a697b158dd056fdb4703a0b85350
+%% Commit reference: https://github.com/stas00/ml-engineering/commit/fbe87165bd90a697b158dd056fdb4703a0b85350
+flowchart TD
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        debug["debug package"]
+        insights["insights package"]
+        network["network package"]
+        orchestration["orchestration package"]
+        testing["testing package"]
+        training["training package"]
+    end
+    debug -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations

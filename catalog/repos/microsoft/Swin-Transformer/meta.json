@@ -1,0 +1,50 @@
+{
+  "owner": "microsoft",
+  "name": "Swin-Transformer",
+  "full_name": "microsoft/Swin-Transformer",
+  "html_url": "https://github.com/microsoft/Swin-Transformer",
+  "description": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\".",
+  "stars": 16080,
+  "forks": 2212,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ade20k",
+    "image-classification",
+    "imagenet",
+    "mask-rcnn",
+    "mscoco",
+    "object-detection",
+    "semantic-segmentation",
+    "swin-transformer"
+  ],
+  "archived": true,
+  "commit_sha": "f82860bfb5225915aca09c3227159ee9e1df874d",
+  "commit_url": "https://github.com/microsoft/Swin-Transformer/commit/f82860bfb5225915aca09c3227159ee9e1df874d",
+  "tree_url": "https://github.com/microsoft/Swin-Transformer/tree/f82860bfb5225915aca09c3227159ee9e1df874d",
+  "analysed_at": "2026-11-14T19:08:56.185863+00:00",
+  "status": "completed",
+  "files_fetched": 86,
+  "files_analysed": 86,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "kernels package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "kernels/window_process/unit_test.py",
+    "main.py",
+    "main_moe.py",
+    "main_simmim_ft.py",
+    "main_simmim_pt.py"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "owner": "elsewhencode",
+  "name": "project-guidelines",
+  "full_name": "elsewhencode/project-guidelines",
+  "html_url": "https://github.com/elsewhencode/project-guidelines",
+  "description": "A set of best practices for JavaScript projects",
+  "stars": 29413,
+  "forks": 3116,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "best-practices",
+    "guidelines",
+    "how-to",
+    "javascript",
+    "javascript-best-practices",
+    "maintainability"
+  ],
+  "archived": false,
+  "commit_sha": "87c9014ec4f96f8469984538ec5c6601e6f09e7e",
+  "commit_url": "https://github.com/elsewhencode/project-guidelines/commit/87c9014ec4f96f8469984538ec5c6601e6f09e7e",
+  "tree_url": "https://github.com/elsewhencode/project-guidelines/tree/87c9014ec4f96f8469984538ec5c6601e6f09e7e",
+  "analysed_at": "2026-11-14T19:10:48.230062+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 15,
+  "components": [
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

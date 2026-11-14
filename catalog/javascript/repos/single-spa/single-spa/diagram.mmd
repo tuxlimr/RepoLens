@@ -1,0 +1,26 @@
+%% Repository: single-spa/single-spa
+%% Analysed commit: 297483c11265050542d7ef107d14c44936c51883
+%% Commit reference: https://github.com/single-spa/single-spa/commit/297483c11265050542d7ef107d14c44936c51883
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        applications["applications package"]
+        devtools["devtools package"]
+        jquery_support_js["jquery-support.js package"]
+        lifecycles["lifecycles package"]
+        navigation["navigation package"]
+        node_spec["node-spec package"]
+        parcels["parcels package"]
+        scripts["scripts package"]
+        single_spa_js["single-spa.js package"]
+        single_spa_profile_js["single-spa.profile.js package"]
+        spec["spec package"]
+        start_js["start.js package"]
+        typings["typings package"]
+        utils["utils package"]
+    end

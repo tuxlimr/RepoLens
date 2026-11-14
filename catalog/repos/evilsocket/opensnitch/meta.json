@@ -1,0 +1,50 @@
+{
+  "owner": "evilsocket",
+  "name": "opensnitch",
+  "full_name": "evilsocket/opensnitch",
+  "html_url": "https://github.com/evilsocket/opensnitch",
+  "description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
+  "stars": 14298,
+  "forks": 688,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "application-firewall",
+    "data-breach",
+    "firewall",
+    "linux",
+    "networking",
+    "security"
+  ],
+  "archived": false,
+  "commit_sha": "a1353848ba1b660320e90cefea782c3fba272c00",
+  "commit_url": "https://github.com/evilsocket/opensnitch/commit/a1353848ba1b660320e90cefea782c3fba272c00",
+  "tree_url": "https://github.com/evilsocket/opensnitch/tree/a1353848ba1b660320e90cefea782c3fba272c00",
+  "analysed_at": "2026-11-14T19:09:28.666900+00:00",
+  "status": "completed",
+  "files_fetched": 546,
+  "files_analysed": 546,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "daemon package",
+    "Data layer",
+    "ebpf_prog package",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer",
+    "Tests",
+    "ui package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,44 @@
+{
+  "owner": "snapappointments",
+  "name": "bootstrap-select",
+  "full_name": "snapappointments/bootstrap-select",
+  "html_url": "https://github.com/snapappointments/bootstrap-select",
+  "description": ":rocket: The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more.",
+  "stars": 9807,
+  "forks": 2652,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "bootstrap",
+    "dropdown",
+    "javascript",
+    "jquery",
+    "select",
+    "ui",
+    "ux"
+  ],
+  "archived": false,
+  "commit_sha": "939e94b14a34759e193f616b753e0a33081cc0c5",
+  "commit_url": "https://github.com/snapappointments/bootstrap-select/commit/939e94b14a34759e193f616b753e0a33081cc0c5",
+  "tree_url": "https://github.com/snapappointments/bootstrap-select/tree/939e94b14a34759e193f616b753e0a33081cc0c5",
+  "analysed_at": "2026-11-14T19:12:52.630061+00:00",
+  "status": "completed",
+  "files_fetched": 139,
+  "files_analysed": 95,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "cypress package",
+    "External integrations",
+    "js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "cypress/plugins/index.js",
+    "cypress/support/index.js"
+  ]
+}

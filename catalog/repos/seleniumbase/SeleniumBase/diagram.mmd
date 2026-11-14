@@ -1,0 +1,46 @@
+%% Repository: seleniumbase/SeleniumBase
+%% Analysed commit: e51d66c1b343ec76dbbce7c73bdc5ad8fdce84e5
+%% Commit reference: https://github.com/seleniumbase/SeleniumBase/commit/e51d66c1b343ec76dbbce7c73bdc5ad8fdce84e5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        mcp_servers["mcp_servers package"]
+        mkdocs_build["mkdocs_build package"]
+        sbase["sbase package"]
+        seleniumbase["seleniumbase package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| seleniumbase
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| seleniumbase
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| seleniumbase
+    sbase -->|imports| seleniumbase
+    seleniumbase -->|imports| config
+    seleniumbase -->|imports| external_integrations
+    seleniumbase -->|imports| sbase
+    seleniumbase -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| seleniumbase
+    tests -->|imports| config
+    tests -->|imports| external_integrations
+    tests -->|imports| seleniumbase
+    tests -->|imports| service_layer

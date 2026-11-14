@@ -1,0 +1,49 @@
+{
+  "owner": "dbcli",
+  "name": "pgcli",
+  "full_name": "dbcli/pgcli",
+  "html_url": "https://github.com/dbcli/pgcli",
+  "description": "Postgres CLI with autocompletion and syntax highlighting",
+  "stars": 13446,
+  "forks": 619,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "database",
+    "postgres",
+    "postgresql",
+    "psql",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "dc9ce9447e0fc005a347b75b7eb5d541e282b1c1",
+  "commit_url": "https://github.com/dbcli/pgcli/commit/dc9ce9447e0fc005a347b75b7eb5d541e282b1c1",
+  "tree_url": "https://github.com/dbcli/pgcli/tree/dc9ce9447e0fc005a347b75b7eb5d541e282b1c1",
+  "analysed_at": "2026-11-14T19:09:50.183226+00:00",
+  "status": "completed",
+  "files_fetched": 120,
+  "files_analysed": 120,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "pgcli package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Click",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "pgcli/__main__.py",
+    "pgcli/main.py",
+    "release.py"
+  ]
+}

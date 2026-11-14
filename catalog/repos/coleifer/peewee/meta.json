@@ -1,0 +1,57 @@
+{
+  "owner": "coleifer",
+  "name": "peewee",
+  "full_name": "coleifer/peewee",
+  "html_url": "https://github.com/coleifer/peewee",
+  "description": "a small, expressive orm -- supports postgresql, mysql, sqlite, now with asyncio",
+  "stars": 12006,
+  "forks": 1389,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "asyncio",
+    "dank",
+    "fastapi",
+    "flask",
+    "gametight",
+    "peewee",
+    "python",
+    "sqlite"
+  ],
+  "archived": false,
+  "commit_sha": "dc0637b30f696d512d35aa10ccd78170f5776251",
+  "commit_url": "https://github.com/coleifer/peewee/commit/dc0637b30f696d512d35aa10ccd78170f5776251",
+  "tree_url": "https://github.com/coleifer/peewee/tree/dc0637b30f696d512d35aa10ccd78170f5776251",
+  "analysed_at": "2026-11-14T19:10:17.455260+00:00",
+  "status": "completed",
+  "files_fetched": 177,
+  "files_analysed": 176,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "playhouse package",
+    "Tests",
+    "typecheck package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MySQL",
+    "PostgreSQL",
+    "SQLite",
+    "FastAPI",
+    "Flask",
+    "Peewee",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "bench.py",
+    "playhouse/migrations.py",
+    "pwiz.py",
+    "runtests.py"
+  ]
+}

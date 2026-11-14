@@ -1,0 +1,35 @@
+{
+  "owner": "PatrickJS",
+  "name": "awesome-cursorrules",
+  "full_name": "PatrickJS/awesome-cursorrules",
+  "html_url": "https://github.com/PatrickJS/awesome-cursorrules",
+  "description": "\ud83d\udcc4  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+  "stars": 41158,
+  "forks": 3543,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "cursor",
+    "cursor-ai-editor",
+    "cursorrules"
+  ],
+  "archived": false,
+  "commit_sha": "b044f956f021b6e8877f16781bcfc466a6a120e9",
+  "commit_url": "https://github.com/PatrickJS/awesome-cursorrules/commit/b044f956f021b6e8877f16781bcfc466a6a120e9",
+  "tree_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/b044f956f021b6e8877f16781bcfc466a6a120e9",
+  "analysed_at": "2026-11-14T19:10:39.631111+00:00",
+  "status": "completed",
+  "files_fetched": 290,
+  "files_analysed": 289,
+  "components": [
+    "Configuration and deployment",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

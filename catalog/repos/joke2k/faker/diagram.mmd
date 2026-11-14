@@ -1,0 +1,26 @@
+%% Repository: joke2k/faker
+%% Analysed commit: affa2c5aada23fc5c00127298a8e904375d32832
+%% Commit reference: https://github.com/joke2k/faker/commit/affa2c5aada23fc5c00127298a8e904375d32832
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        faker["faker package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| faker
+    core -->|imports| config
+    core -->|imports| faker
+    entrypoint -->|imports| config
+    entrypoint -->|imports| faker
+    faker -->|imports| config
+    tests -->|imports| faker

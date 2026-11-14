@@ -1,0 +1,29 @@
+{
+  "owner": "awesome-opencode",
+  "name": "awesome-opencode",
+  "full_name": "awesome-opencode/awesome-opencode",
+  "html_url": "https://github.com/awesome-opencode/awesome-opencode",
+  "description": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
+  "stars": 10991,
+  "forks": 1130,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c125252fe11f2021c58545e705d4f69d5c6092f0",
+  "commit_url": "https://github.com/awesome-opencode/awesome-opencode/commit/c125252fe11f2021c58545e705d4f69d5c6092f0",
+  "tree_url": "https://github.com/awesome-opencode/awesome-opencode/tree/c125252fe11f2021c58545e705d4f69d5c6092f0",
+  "analysed_at": "2026-11-14T19:12:27.048604+00:00",
+  "status": "completed",
+  "files_fetched": 226,
+  "files_analysed": 224,
+  "components": [
+    "Configuration and deployment",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,23 @@
+%% Repository: milesial/Pytorch-UNet
+%% Analysed commit: 21d7850f2af30a9695bbeea75f3136aa538cfc4a
+%% Commit reference: https://github.com/milesial/Pytorch-UNet/commit/21d7850f2af30a9695bbeea75f3136aa538cfc4a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        unet["unet package"]
+        utils["utils package"]
+    end
+    core -->|imports| unet
+    core -->|imports| utils
+    entrypoint -->|imports| core
+    entrypoint -->|imports| unet
+    entrypoint -->|imports| utils

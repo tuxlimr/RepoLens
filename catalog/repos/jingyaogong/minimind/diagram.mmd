@@ -1,0 +1,22 @@
+%% Repository: jingyaogong/minimind
+%% Analysed commit: 233d00fa068ec2b8c0d4f07b703934d6391a5a73
+%% Commit reference: https://github.com/jingyaogong/minimind/commit/233d00fa068ec2b8c0d4f07b703934d6391a5a73
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dataset["dataset package"]
+        model["model package"]
+        trainer["trainer package"]
+    end
+    entrypoint -->|imports| model
+    entrypoint -->|imports| trainer
+    trainer -->|imports| external_integrations
+    trainer -->|imports| model

@@ -1,0 +1,27 @@
+%% Repository: songquanpeng/one-api
+%% Analysed commit: 8df4a2670b98266bd287c698243fff327d9748cf
+%% Commit reference: https://github.com/songquanpeng/one-api/commit/8df4a2670b98266bd287c698243fff327d9748cf
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        common["common package"]
+        controller["controller package"]
+        middleware["middleware package"]
+        model["model package"]
+        monitor["monitor package"]
+        relay["relay package"]
+        router["router package"]
+        web["web package"]
+    end

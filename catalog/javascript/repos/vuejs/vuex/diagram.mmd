@@ -1,0 +1,27 @@
+%% Repository: vuejs/vuex
+%% Analysed commit: bd907467b8392d6671bb115738285ff7f63d0cf6
+%% Commit reference: https://github.com/vuejs/vuex/commit/bd907467b8392d6671bb115738285ff7f63d0cf6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        helpers_js["helpers.js package"]
+        index_cjs_js["index.cjs.js package"]
+        index_js["index.js package"]
+        index_mjs["index.mjs package"]
+        injectkey_js["injectKey.js package"]
+        module["module package"]
+        plugins["plugins package"]
+        scripts["scripts package"]
+        store_js["store.js package"]
+        store_util_js["store-util.js package"]
+        types["types package"]
+        util_js["util.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

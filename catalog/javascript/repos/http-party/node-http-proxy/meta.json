@@ -1,0 +1,33 @@
+{
+  "owner": "http-party",
+  "name": "node-http-proxy",
+  "full_name": "http-party/node-http-proxy",
+  "html_url": "https://github.com/http-party/node-http-proxy",
+  "description": "A full-featured http proxy for node.js",
+  "stars": 14119,
+  "forks": 1987,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "9b96cd725127a024dabebec6c7ea8c807272223d",
+  "commit_url": "https://github.com/http-party/node-http-proxy/commit/9b96cd725127a024dabebec6c7ea8c807272223d",
+  "tree_url": "https://github.com/http-party/node-http-proxy/tree/9b96cd725127a024dabebec6c7ea8c807272223d",
+  "analysed_at": "2026-11-14T19:11:46.626492+00:00",
+  "status": "completed",
+  "files_fetched": 58,
+  "files_analysed": 55,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js",
+    "lib/http-proxy/index.js"
+  ]
+}

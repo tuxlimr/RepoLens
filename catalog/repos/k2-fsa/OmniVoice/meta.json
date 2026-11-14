@@ -1,0 +1,48 @@
+{
+  "owner": "k2-fsa",
+  "name": "OmniVoice",
+  "full_name": "k2-fsa/OmniVoice",
+  "html_url": "https://github.com/k2-fsa/OmniVoice",
+  "description": "High-Quality Voice Cloning TTS for 600+ Languages",
+  "stars": 16601,
+  "forks": 2442,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "08be0b4ccbac3e13e374e86fbfead4b4cac343e2",
+  "commit_url": "https://github.com/k2-fsa/OmniVoice/commit/08be0b4ccbac3e13e374e86fbfead4b4cac343e2",
+  "tree_url": "https://github.com/k2-fsa/OmniVoice/tree/08be0b4ccbac3e13e374e86fbfead4b4cac343e2",
+  "analysed_at": "2026-11-14T19:08:45.766335+00:00",
+  "status": "completed",
+  "files_fetched": 88,
+  "files_analysed": 88,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "omnivoice package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "omnivoice/cli/demo.py",
+    "omnivoice/cli/infer.py",
+    "omnivoice/cli/infer_batch.py",
+    "omnivoice/cli/merge_lora.py",
+    "omnivoice/cli/train.py",
+    "omnivoice/eval/mos/utmos.py",
+    "omnivoice/eval/speaker_similarity/sim.py",
+    "omnivoice/eval/wer/fleurs.py",
+    "omnivoice/eval/wer/hubert.py",
+    "omnivoice/eval/wer/minimax.py",
+    "omnivoice/eval/wer/seedtts.py",
+    "omnivoice/eval/wer/sensevoice.py"
+  ]
+}

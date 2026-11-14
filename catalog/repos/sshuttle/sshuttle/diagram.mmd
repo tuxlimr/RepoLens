@@ -1,0 +1,28 @@
+%% Repository: sshuttle/sshuttle
+%% Analysed commit: a12eaa854353dcfa03eff1f09781bc0d0dc55b74
+%% Commit reference: https://github.com/sshuttle/sshuttle/commit/a12eaa854353dcfa03eff1f09781bc0d0dc55b74
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        sshuttle["sshuttle package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| sshuttle
+    external_integrations -->|imports| sshuttle
+    sshuttle -->|imports| entrypoint
+    sshuttle -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| sshuttle

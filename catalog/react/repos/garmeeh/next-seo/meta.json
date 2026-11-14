@@ -1,0 +1,53 @@
+{
+  "owner": "garmeeh",
+  "name": "next-seo",
+  "full_name": "garmeeh/next-seo",
+  "html_url": "https://github.com/garmeeh/next-seo",
+  "description": "Next SEO is a plug in that makes managing your SEO easier in Next.js projects.",
+  "stars": 8545,
+  "forks": 468,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "hacktoberfest",
+    "hacktoberfest-accepted",
+    "json-ld",
+    "nextjs",
+    "react",
+    "seo",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "738ef7e774ee6216f6e90c26a3b5b99dd5d166b4",
+  "commit_url": "https://github.com/garmeeh/next-seo/commit/738ef7e774ee6216f6e90c26a3b5b99dd5d166b4",
+  "tree_url": "https://github.com/garmeeh/next-seo/tree/738ef7e774ee6216f6e90c26a3b5b99dd5d166b4",
+  "analysed_at": "2026-11-14T19:13:40.956419+00:00",
+  "status": "completed",
+  "files_fetched": 290,
+  "files_analysed": 290,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "pages package",
+    "Service / domain layer",
+    "Tests",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts",
+    "src/pages/index.ts",
+    "src/pages/types/index.ts",
+    "src/types/index.ts"
+  ]
+}

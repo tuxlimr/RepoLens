@@ -1,0 +1,21 @@
+%% Repository: radix-ui/primitives
+%% Analysed commit: eb3a2b7091293e27df8f9ba906632d8daa3d81a3
+%% Commit reference: https://github.com/radix-ui/primitives/commit/eb3a2b7091293e27df8f9ba906632d8daa3d81a3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        e2e["e2e package"]
+        internal["internal package"]
+        packages["packages package"]
+        scripts["scripts package"]
+        types["types package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

@@ -1,0 +1,35 @@
+%% Repository: google-research/harness2
+%% Analysed commit: 6868817518876de8fd170c6a8354daca273b6191
+%% Commit reference: https://github.com/google-research/harness2/commit/6868817518876de8fd170c6a8354daca273b6191
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        harness2["harness2 package"]
+        scripts["scripts package"]
+        third_party["third_party package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| harness2
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| harness2
+    entrypoint -->|imports| service_layer
+    harness2 -->|imports| external_integrations
+    harness2 -->|imports| service_layer
+    service_layer -->|imports| harness2
+    tests -->|imports| entrypoint
+    tests -->|imports| harness2
+    tests -->|imports| service_layer

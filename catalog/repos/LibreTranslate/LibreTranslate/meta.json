@@ -1,0 +1,59 @@
+{
+  "owner": "LibreTranslate",
+  "name": "LibreTranslate",
+  "full_name": "LibreTranslate/LibreTranslate",
+  "html_url": "https://github.com/LibreTranslate/LibreTranslate",
+  "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+  "stars": 17706,
+  "forks": 1855,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "api",
+    "machine",
+    "translate",
+    "translation",
+    "translator"
+  ],
+  "archived": false,
+  "commit_sha": "84cd56c061a7ba3955b49efdaee2ac54dcbca07f",
+  "commit_url": "https://github.com/LibreTranslate/LibreTranslate/commit/84cd56c061a7ba3955b49efdaee2ac54dcbca07f",
+  "tree_url": "https://github.com/LibreTranslate/LibreTranslate/tree/84cd56c061a7ba3955b49efdaee2ac54dcbca07f",
+  "analysed_at": "2026-11-14T19:08:30.410020+00:00",
+  "status": "completed",
+  "files_fetched": 209,
+  "files_analysed": 207,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "libretranslate package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "SQLite",
+    "Flask",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "libretranslate/app.py",
+    "libretranslate/main.py",
+    "libretranslate/manage.py",
+    "main.py",
+    "manage.py",
+    "scripts/compile_locales.py",
+    "scripts/install_models.py",
+    "scripts/suggestions-to-jsonl.py",
+    "scripts/update_locales.py"
+  ]
+}

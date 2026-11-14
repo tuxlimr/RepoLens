@@ -1,0 +1,44 @@
+{
+  "owner": "wojtekmaj",
+  "name": "react-calendar",
+  "full_name": "wojtekmaj/react-calendar",
+  "html_url": "https://github.com/wojtekmaj/react-calendar",
+  "description": "Ultimate calendar for your React app.",
+  "stars": 3789,
+  "forks": 530,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "calendar",
+    "date",
+    "date-picker",
+    "month-picker",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "80319ee35958e755fbee08e995f7d923e7f1255e",
+  "commit_url": "https://github.com/wojtekmaj/react-calendar/commit/80319ee35958e755fbee08e995f7d923e7f1255e",
+  "tree_url": "https://github.com/wojtekmaj/react-calendar/tree/80319ee35958e755fbee08e995f7d923e7f1255e",
+  "analysed_at": "2026-11-14T19:15:05.194559+00:00",
+  "status": "completed",
+  "files_fetched": 94,
+  "files_analysed": 92,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "sample package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/react-calendar/src/index.ts",
+    "sample/index.tsx"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "owner": "sshuttle",
+  "name": "sshuttle",
+  "full_name": "sshuttle/sshuttle",
+  "html_url": "https://github.com/sshuttle/sshuttle",
+  "description": "Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux and MacOS.  Supports DNS tunneling.",
+  "stars": 13665,
+  "forks": 805,
+  "license": "LGPL-2.1",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "a12eaa854353dcfa03eff1f09781bc0d0dc55b74",
+  "commit_url": "https://github.com/sshuttle/sshuttle/commit/a12eaa854353dcfa03eff1f09781bc0d0dc55b74",
+  "tree_url": "https://github.com/sshuttle/sshuttle/tree/a12eaa854353dcfa03eff1f09781bc0d0dc55b74",
+  "analysed_at": "2026-11-14T19:09:44.654008+00:00",
+  "status": "completed",
+  "files_fetched": 92,
+  "files_analysed": 92,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "sshuttle package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "sshuttle/cmdline.py"
+  ]
+}

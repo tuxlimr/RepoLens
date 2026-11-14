@@ -1,0 +1,36 @@
+%% Repository: pyodide/pyodide
+%% Analysed commit: ebb528e4e7ddf8758764c10091d6613e5ce4f1c8
+%% Commit reference: https://github.com/pyodide/pyodide/commit/ebb528e4e7ddf8758764c10091d6613e5ce4f1c8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmark["benchmark package"]
+        js["js package"]
+        packages["packages package"]
+        py["py package"]
+        templates["templates package"]
+        test_bun["test-bun package"]
+        test_deno["test-deno package"]
+        test_js["test-js package"]
+        tools["tools package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    py -->|imports| external_integrations
+    tests -->|imports| external_integrations

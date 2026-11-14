@@ -1,0 +1,40 @@
+{
+  "owner": "dcloudio",
+  "name": "mui",
+  "full_name": "dcloudio/mui",
+  "html_url": "https://github.com/dcloudio/mui",
+  "description": "\u6700\u63a5\u8fd1\u539f\u751fAPP\u4f53\u9a8c\u7684\u9ad8\u6027\u80fd\u6846\u67b6",
+  "stars": 13462,
+  "forks": 6447,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "android",
+    "css",
+    "dcloud",
+    "hbuilder",
+    "ios",
+    "javascript",
+    "mui",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "e216655901e51ca23112a65700e8f76d4fe008bc",
+  "commit_url": "https://github.com/dcloudio/mui/commit/e216655901e51ca23112a65700e8f76d4fe008bc",
+  "tree_url": "https://github.com/dcloudio/mui/tree/e216655901e51ca23112a65700e8f76d4fe008bc",
+  "analysed_at": "2026-11-14T19:11:56.536961+00:00",
+  "status": "completed",
+  "files_fetched": 282,
+  "files_analysed": 273,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "grunt package",
+    "js package",
+    "plugin package",
+    "template package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

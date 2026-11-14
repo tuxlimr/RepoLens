@@ -1,0 +1,53 @@
+{
+  "owner": "styleguidist",
+  "name": "react-styleguidist",
+  "full_name": "styleguidist/react-styleguidist",
+  "html_url": "https://github.com/styleguidist/react-styleguidist",
+  "description": "Isolated React component development environment with a living style guide",
+  "stars": 11048,
+  "forks": 1405,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "documentation",
+    "hacktoberfest",
+    "react",
+    "styleguide"
+  ],
+  "archived": false,
+  "commit_sha": "c223f9a279f4e872cf6ff925fb21d2a7f6e27a77",
+  "commit_url": "https://github.com/styleguidist/react-styleguidist/commit/c223f9a279f4e872cf6ff925fb21d2a7f6e27a77",
+  "tree_url": "https://github.com/styleguidist/react-styleguidist/tree/c223f9a279f4e872cf6ff925fb21d2a7f6e27a77",
+  "analysed_at": "2026-11-14T19:13:27.952144+00:00",
+  "status": "completed",
+  "files_fetched": 738,
+  "files_analysed": 737,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "loaders package",
+    "scripts package",
+    "site package",
+    "Tests",
+    "typings package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "site/src/pages/index.js",
+    "src/client/index.ts",
+    "src/client/styles/index.ts",
+    "src/scripts/__mocks__/server.ts",
+    "src/scripts/index.ts",
+    "src/scripts/server.ts",
+    "src/typings/index.ts"
+  ]
+}

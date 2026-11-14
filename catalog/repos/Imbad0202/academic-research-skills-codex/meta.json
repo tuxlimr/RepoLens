@@ -1,0 +1,41 @@
+{
+  "owner": "Imbad0202",
+  "name": "academic-research-skills-codex",
+  "full_name": "Imbad0202/academic-research-skills-codex",
+  "html_url": "https://github.com/Imbad0202/academic-research-skills-codex",
+  "description": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
+  "stars": 14560,
+  "forks": 627,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "academic-pipeline",
+    "academic-research",
+    "academic-writing",
+    "ai-research",
+    "codex",
+    "literature-review",
+    "openai-codex",
+    "peer-review",
+    "prompt-engineering",
+    "research-assistant"
+  ],
+  "archived": false,
+  "commit_sha": "82725acb393c4410ac6f47634a7f51b40a162fa4",
+  "commit_url": "https://github.com/Imbad0202/academic-research-skills-codex/commit/82725acb393c4410ac6f47634a7f51b40a162fa4",
+  "tree_url": "https://github.com/Imbad0202/academic-research-skills-codex/tree/82725acb393c4410ac6f47634a7f51b40a162fa4",
+  "analysed_at": "2026-11-14T19:09:26.169125+00:00",
+  "status": "completed",
+  "files_fetched": 405,
+  "files_analysed": 405,
+  "components": [
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "pytest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,24 @@
+%% Repository: img2threejs/img2threejs
+%% Analysed commit: 0c0c49bc168e648dbaf9c8c080474de0b3a941b6
+%% Commit reference: https://github.com/img2threejs/img2threejs/commit/0c0c49bc168e648dbaf9c8c080474de0b3a941b6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        forge["forge package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| forge
+    tests -->|imports| entrypoint
+    tests -->|imports| forge

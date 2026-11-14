@@ -1,0 +1,28 @@
+%% Repository: hpcaitech/Open-Sora
+%% Analysed commit: 7ad6a96a135feb81f755c84fb391818718f6beb2
+%% Commit reference: https://github.com/hpcaitech/Open-Sora/commit/7ad6a96a135feb81f755c84fb391818718f6beb2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        opensora["opensora package"]
+    end
+    config -->|imports| opensora
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| opensora
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| opensora
+    opensora -->|imports| data_layer
+    opensora -->|imports| external_integrations

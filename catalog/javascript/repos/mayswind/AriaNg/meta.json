@@ -1,0 +1,46 @@
+{
+  "owner": "mayswind",
+  "name": "AriaNg",
+  "full_name": "mayswind/AriaNg",
+  "html_url": "https://github.com/mayswind/AriaNg",
+  "description": "AriaNg, a modern web frontend making aria2 easier to use.",
+  "stars": 13274,
+  "forks": 1362,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "aria2",
+    "ariang",
+    "download",
+    "gui",
+    "html",
+    "javascript",
+    "ui",
+    "web",
+    "web-frontend",
+    "webui"
+  ],
+  "archived": false,
+  "commit_sha": "56d44dc9e822a6f59aae13a542a0cab6cf292d30",
+  "commit_url": "https://github.com/mayswind/AriaNg/commit/56d44dc9e822a6f59aae13a542a0cab6cf292d30",
+  "tree_url": "https://github.com/mayswind/AriaNg/tree/56d44dc9e822a6f59aae13a542a0cab6cf292d30",
+  "analysed_at": "2026-11-14T19:11:59.467287+00:00",
+  "status": "completed",
+  "files_fetched": 111,
+  "files_analysed": 111,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "scripts package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/scripts/controllers/main.js",
+    "src/scripts/core/app.js"
+  ]
+}

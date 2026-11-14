@@ -1,0 +1,50 @@
+{
+  "owner": "BetaSu",
+  "name": "big-react",
+  "full_name": "BetaSu/big-react",
+  "html_url": "https://github.com/BetaSu/big-react",
+  "description": "\u8ddf\u7740\u6211\uff0c\u4ece0\u5b9e\u73b0React18",
+  "stars": 3898,
+  "forks": 403,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "0b5bb94d3bb750bed2255b4519eed0d4fb6aed53",
+  "commit_url": "https://github.com/BetaSu/big-react/commit/0b5bb94d3bb750bed2255b4519eed0d4fb6aed53",
+  "tree_url": "https://github.com/BetaSu/big-react/tree/0b5bb94d3bb750bed2255b4519eed0d4fb6aed53",
+  "analysed_at": "2026-11-14T19:14:58.850183+00:00",
+  "status": "completed",
+  "files_fetched": 105,
+  "files_analysed": 104,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demos package",
+    "packages package",
+    "scripts package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "demos/context/main.tsx",
+    "demos/performance/main.tsx",
+    "demos/ref/main.tsx",
+    "demos/suspense-lazy/main.tsx",
+    "demos/suspense-use/main.tsx",
+    "demos/test-fc/main.ts",
+    "demos/test-fc/main.tsx",
+    "demos/transition/main.tsx",
+    "packages/react-dom/index.ts",
+    "packages/react-noop-renderer/index.ts",
+    "packages/react/index.ts"
+  ]
+}

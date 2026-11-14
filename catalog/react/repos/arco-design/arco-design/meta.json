@@ -1,0 +1,49 @@
+{
+  "owner": "arco-design",
+  "name": "arco-design",
+  "full_name": "arco-design/arco-design",
+  "html_url": "https://github.com/arco-design/arco-design",
+  "description": "A comprehensive React UI components library based on Arco Design",
+  "stars": 5766,
+  "forks": 724,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "arco-design",
+    "component-library",
+    "customize",
+    "design-system",
+    "react",
+    "ui",
+    "ui-library"
+  ],
+  "archived": false,
+  "commit_sha": "84504beeaf68e8dd8a5fba7a74b45f4ca71c76f2",
+  "commit_url": "https://github.com/arco-design/arco-design/commit/84504beeaf68e8dd8a5fba7a74b45f4ca71c76f2",
+  "tree_url": "https://github.com/arco-design/arco-design/tree/84504beeaf68e8dd8a5fba7a74b45f4ca71c76f2",
+  "analysed_at": "2026-11-14T19:14:14.792634+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "components package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    ".storybook/main.js",
+    "components/Affix/index.tsx",
+    "components/Affix/style/index.ts",
+    "components/Alert/index.tsx",
+    "components/Alert/style/index.ts",
+    "components/Anchor/index.tsx",
+    "components/Anchor/style/index.ts",
+    "components/AutoComplete/index.tsx",
+    "components/AutoComplete/style/index.ts",
+    "components/Avatar/index.tsx",
+    "components/Avatar/style/index.ts",
+    "components/BackTop/index.tsx"
+  ]
+}

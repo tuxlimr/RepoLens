@@ -1,0 +1,46 @@
+{
+  "owner": "xiandanin",
+  "name": "magnetW",
+  "full_name": "xiandanin/magnetW",
+  "html_url": "https://github.com/xiandanin/magnetW",
+  "description": "[\u5df2\u5931\u6548\uff0c\u4e0d\u518d\u7ef4\u62a4]",
+  "stars": 11230,
+  "forks": 2049,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "electron",
+    "electron-vue",
+    "vue"
+  ],
+  "archived": true,
+  "commit_sha": "012a86b799b3bff59f34319b5d0ac21fac7a7e20",
+  "commit_url": "https://github.com/xiandanin/magnetW/commit/012a86b799b3bff59f34319b5d0ac21fac7a7e20",
+  "tree_url": "https://github.com/xiandanin/magnetW/tree/012a86b799b3bff59f34319b5d0ac21fac7a7e20",
+  "analysed_at": "2026-11-14T19:12:23.942952+00:00",
+  "status": "completed",
+  "files_fetched": 95,
+  "files_analysed": 88,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "main package",
+    "renderer package",
+    "scripts package"
+  ],
+  "detections": [
+    "Electron",
+    "Koa",
+    "Vue",
+    "axios",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/main/index.js",
+    "src/renderer/main.js",
+    "src/renderer/plugins/app.js",
+    "src/renderer/plugins/index.js",
+    "src/renderer/router/index.js"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "owner": "coryhouse",
+  "name": "react-slingshot",
+  "full_name": "coryhouse/react-slingshot",
+  "html_url": "https://github.com/coryhouse/react-slingshot",
+  "description": "React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in",
+  "stars": 9621,
+  "forks": 2851,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "boilerplate",
+    "react",
+    "redux",
+    "starter-kit"
+  ],
+  "archived": false,
+  "commit_sha": "a7b0c6111cceaf88ffa4c24df3b38401f045a3d1",
+  "commit_url": "https://github.com/coryhouse/react-slingshot/commit/a7b0c6111cceaf88ffa4c24df3b38401f045a3d1",
+  "tree_url": "https://github.com/coryhouse/react-slingshot/tree/a7b0c6111cceaf88ffa4c24df3b38401f045a3d1",
+  "analysed_at": "2026-11-14T19:13:33.399057+00:00",
+  "status": "completed",
+  "files_fetched": 74,
+  "files_analysed": 73,
+  "components": [
+    "actions package",
+    "components package",
+    "Configuration and deployment",
+    "constants package",
+    "Core modules",
+    "index.js package",
+    "reducers package",
+    "store package",
+    "tools package",
+    "types package",
+    "utils package",
+    "webpack-public-path.js package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/components/App.js",
+    "src/index.js",
+    "src/reducers/index.js",
+    "src/types/index.js"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "owner": "andrewngu",
+  "name": "sound-redux",
+  "full_name": "andrewngu/sound-redux",
+  "html_url": "https://github.com/andrewngu/sound-redux",
+  "description": "A Soundcloud client built with React / Redux",
+  "stars": 4968,
+  "forks": 842,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "music",
+    "react",
+    "redux",
+    "soundcloud"
+  ],
+  "archived": false,
+  "commit_sha": "c5f36935c2ab07fbbeeaf63573434fd815f503ad",
+  "commit_url": "https://github.com/andrewngu/sound-redux/commit/c5f36935c2ab07fbbeeaf63573434fd815f503ad",
+  "tree_url": "https://github.com/andrewngu/sound-redux/tree/c5f36935c2ab07fbbeeaf63573434fd815f503ad",
+  "analysed_at": "2026-11-14T19:14:32.875486+00:00",
+  "status": "completed",
+  "files_fetched": 146,
+  "files_analysed": 146,
+  "components": [
+    "Configuration and deployment",
+    "External integrations"
+  ],
+  "detections": [
+    "React",
+    "Redux",
+    "webpack"
+  ],
+  "entry_points": [
+    "client/src/index.jsx",
+    "client/src/reducers/index.js"
+  ]
+}

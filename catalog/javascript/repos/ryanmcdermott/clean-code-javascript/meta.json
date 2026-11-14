@@ -1,0 +1,32 @@
+{
+  "owner": "ryanmcdermott",
+  "name": "clean-code-javascript",
+  "full_name": "ryanmcdermott/clean-code-javascript",
+  "html_url": "https://github.com/ryanmcdermott/clean-code-javascript",
+  "description": "Clean Code concepts adapted for JavaScript",
+  "stars": 94699,
+  "forks": 12574,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "best-practices",
+    "clean-architecture",
+    "clean-code",
+    "composition",
+    "inheritance",
+    "javascript",
+    "principles"
+  ],
+  "archived": false,
+  "commit_sha": "5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+  "commit_url": "https://github.com/ryanmcdermott/clean-code-javascript/commit/5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+  "tree_url": "https://github.com/ryanmcdermott/clean-code-javascript/tree/5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+  "analysed_at": "2026-11-14T19:10:32.625258+00:00",
+  "status": "completed",
+  "files_fetched": 3,
+  "files_analysed": 3,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,40 @@
+{
+  "owner": "andkret",
+  "name": "Cookbook",
+  "full_name": "andkret/Cookbook",
+  "html_url": "https://github.com/andkret/Cookbook",
+  "description": "The Data Engineering Cookbook",
+  "stars": 15548,
+  "forks": 2764,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "best-practices",
+    "big-data",
+    "cookbook",
+    "data-engineer",
+    "data-engineering"
+  ],
+  "archived": false,
+  "commit_sha": "bf463f65b173aa4ecf02425456bd31c75878c188",
+  "commit_url": "https://github.com/andkret/Cookbook/commit/bf463f65b173aa4ecf02425456bd31c75878c188",
+  "tree_url": "https://github.com/andkret/Cookbook/tree/bf463f65b173aa4ecf02425456bd31c75878c188",
+  "analysed_at": "2026-11-14T19:09:01.606126+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 24,
+  "components": [
+    "Code Examples package",
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "Code Examples/GenAI-RAG/cvpipeline.py",
+    "Code Examples/GenAI-RAG/index.py"
+  ]
+}

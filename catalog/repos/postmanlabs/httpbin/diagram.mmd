@@ -1,0 +1,22 @@
+%% Repository: postmanlabs/httpbin
+%% Analysed commit: dfe140bc4b988e78ecff77f189abd2fc987f908b
+%% Commit reference: https://github.com/postmanlabs/httpbin/commit/dfe140bc4b988e78ecff77f189abd2fc987f908b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        httpbin["httpbin package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| httpbin
+    tests -->|imports| external_integrations
+    tests -->|imports| httpbin

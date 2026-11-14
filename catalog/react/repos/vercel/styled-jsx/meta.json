@@ -1,0 +1,53 @@
+{
+  "owner": "vercel",
+  "name": "styled-jsx",
+  "full_name": "vercel/styled-jsx",
+  "html_url": "https://github.com/vercel/styled-jsx",
+  "description": "Full CSS support for JSX without compromises",
+  "stars": 7770,
+  "forks": 265,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "css-in-js",
+    "dynamic-styles",
+    "jsx",
+    "react",
+    "shadow-dom"
+  ],
+  "archived": false,
+  "commit_sha": "a737ac442a9d032f9f824050b23dc9b6d766657e",
+  "commit_url": "https://github.com/vercel/styled-jsx/commit/a737ac442a9d032f9f824050b23dc9b6d766657e",
+  "tree_url": "https://github.com/vercel/styled-jsx/tree/a737ac442a9d032f9f824050b23dc9b6d766657e",
+  "analysed_at": "2026-11-14T19:13:46.190237+00:00",
+  "status": "completed",
+  "files_fetched": 108,
+  "files_analysed": 107,
+  "components": [
+    "babel-external.js package",
+    "babel.js package",
+    "babel-test.js package",
+    "Configuration and deployment",
+    "_constants.js package",
+    "Core modules",
+    "index.js package",
+    "lib package",
+    "macro.js package",
+    "style.js package",
+    "stylesheet-registry.js package",
+    "Tests",
+    "_utils.js package",
+    "webpack.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/index.js"
+  ]
+}

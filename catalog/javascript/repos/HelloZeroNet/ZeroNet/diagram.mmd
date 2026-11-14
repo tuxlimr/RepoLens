@@ -1,0 +1,168 @@
+%% Repository: HelloZeroNet/ZeroNet
+%% Analysed commit: 454c0b2e7e000fda7000cba49027541fbf327b96
+%% Commit reference: https://github.com/HelloZeroNet/ZeroNet/commit/454c0b2e7e000fda7000cba49027541fbf327b96
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        connection["Connection package"]
+        content["Content package"]
+        crypt["Crypt package"]
+        debug["Debug package"]
+        file["File package"]
+        init_py["__init__.py package"]
+        lib["lib package"]
+        peer["Peer package"]
+        plugin["Plugin package"]
+        plugins["plugins package"]
+        site["Site package"]
+        tor["Tor package"]
+        translate["Translate package"]
+        ui["Ui package"]
+        user["User package"]
+        util["util package"]
+        worker["Worker package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| entrypoint
+    config -->|imports| plugin
+    connection -->|imports| config
+    connection -->|imports| crypt
+    connection -->|imports| debug
+    connection -->|imports| external_integrations
+    connection -->|imports| site
+    connection -->|imports| tor
+    connection -->|imports| util
+    content -->|imports| config
+    content -->|imports| crypt
+    content -->|imports| debug
+    content -->|imports| entrypoint
+    content -->|imports| peer
+    content -->|imports| plugin
+    content -->|imports| util
+    crypt -->|imports| config
+    crypt -->|imports| lib
+    crypt -->|imports| util
+    data_layer -->|imports| util
+    debug -->|imports| config
+    entrypoint -->|imports| config
+    entrypoint -->|imports| connection
+    entrypoint -->|imports| content
+    entrypoint -->|imports| crypt
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| debug
+    entrypoint -->|imports| file
+    entrypoint -->|imports| lib
+    entrypoint -->|imports| peer
+    entrypoint -->|imports| plugin
+    entrypoint -->|imports| plugins
+    entrypoint -->|imports| site
+    entrypoint -->|imports| ui
+    entrypoint -->|imports| user
+    entrypoint -->|imports| util
+    file -->|imports| config
+    file -->|imports| connection
+    file -->|imports| debug
+    file -->|imports| external_integrations
+    file -->|imports| peer
+    file -->|imports| plugin
+    file -->|imports| site
+    file -->|imports| util
+    lib -->|imports| external_integrations
+    peer -->|imports| config
+    peer -->|imports| debug
+    peer -->|imports| entrypoint
+    peer -->|imports| plugin
+    peer -->|imports| util
+    plugins -->|imports| config
+    plugins -->|imports| connection
+    plugins -->|imports| content
+    plugins -->|imports| crypt
+    plugins -->|imports| data_layer
+    plugins -->|imports| debug
+    plugins -->|imports| entrypoint
+    plugins -->|imports| external_integrations
+    plugins -->|imports| lib
+    plugins -->|imports| peer
+    plugins -->|imports| plugin
+    plugins -->|imports| site
+    plugins -->|imports| translate
+    plugins -->|imports| ui
+    plugins -->|imports| user
+    plugins -->|imports| util
+    plugins -->|imports| worker
+    site -->|imports| config
+    site -->|imports| content
+    site -->|imports| crypt
+    site -->|imports| data_layer
+    site -->|imports| debug
+    site -->|imports| entrypoint
+    site -->|imports| file
+    site -->|imports| peer
+    site -->|imports| plugin
+    site -->|imports| translate
+    site -->|imports| util
+    site -->|imports| worker
+    tests -->|imports| config
+    tests -->|imports| connection
+    tests -->|imports| content
+    tests -->|imports| crypt
+    tests -->|imports| data_layer
+    tests -->|imports| debug
+    tests -->|imports| external_integrations
+    tests -->|imports| file
+    tests -->|imports| peer
+    tests -->|imports| plugin
+    tests -->|imports| site
+    tests -->|imports| tor
+    tests -->|imports| translate
+    tests -->|imports| ui
+    tests -->|imports| user
+    tests -->|imports| util
+    tests -->|imports| worker
+    tor -->|imports| config
+    tor -->|imports| crypt
+    tor -->|imports| debug
+    tor -->|imports| entrypoint
+    tor -->|imports| external_integrations
+    tor -->|imports| plugin
+    tor -->|imports| site
+    translate -->|imports| config
+    translate -->|imports| debug
+    ui -->|imports| config
+    ui -->|imports| content
+    ui -->|imports| crypt
+    ui -->|imports| debug
+    ui -->|imports| entrypoint
+    ui -->|imports| external_integrations
+    ui -->|imports| lib
+    ui -->|imports| plugin
+    ui -->|imports| site
+    ui -->|imports| translate
+    ui -->|imports| user
+    ui -->|imports| util
+    user -->|imports| config
+    user -->|imports| crypt
+    user -->|imports| debug
+    user -->|imports| plugin
+    user -->|imports| util
+    util -->|imports| config
+    util -->|imports| debug
+    util -->|imports| external_integrations
+    worker -->|imports| config
+    worker -->|imports| content
+    worker -->|imports| debug
+    worker -->|imports| plugin
+    worker -->|imports| util

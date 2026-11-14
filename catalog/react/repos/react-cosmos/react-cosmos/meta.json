@@ -1,0 +1,57 @@
+{
+  "owner": "react-cosmos",
+  "name": "react-cosmos",
+  "full_name": "react-cosmos/react-cosmos",
+  "html_url": "https://github.com/react-cosmos/react-cosmos",
+  "description": "Sandbox for developing and testing UI components in isolation",
+  "stars": 8697,
+  "forks": 382,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "components",
+    "devtools",
+    "react",
+    "sandbox",
+    "testing",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "6ef55459bdbb6b3f70868581679eed678259af00",
+  "commit_url": "https://github.com/react-cosmos/react-cosmos/commit/6ef55459bdbb6b3f70868581679eed678259af00",
+  "tree_url": "https://github.com/react-cosmos/react-cosmos/tree/6ef55459bdbb6b3f70868581679eed678259af00",
+  "analysed_at": "2026-11-14T19:13:40.342282+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 798,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/react-cosmos-plugin-boolean-input/cosmos.plugin.json",
+    "packages/react-cosmos-plugin-open-fixture/cosmos.plugin.json",
+    "packages/react-cosmos-plugin-vite/cosmos.plugin.json",
+    "packages/react-cosmos-plugin-webpack/cosmos.plugin.json",
+    "packages/react-cosmos-core/src/index.ts",
+    "packages/react-cosmos-dom/src/index.ts",
+    "packages/react-cosmos-native/src/index.ts",
+    "packages/react-cosmos-next/src/index.ts",
+    "packages/react-cosmos-plugin-boolean-input/src/index.tsx",
+    "packages/react-cosmos-plugin-open-fixture/src/index.tsx",
+    "packages/react-cosmos-renderer/index.js",
+    "packages/react-cosmos-renderer/src/index.ts"
+  ]
+}

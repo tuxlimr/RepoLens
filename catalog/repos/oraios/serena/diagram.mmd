@@ -1,0 +1,53 @@
+%% Repository: oraios/serena
+%% Analysed commit: 6b39542bb108ce77901072deac699d770b302d52
+%% Commit reference: https://github.com/oraios/serena/commit/6b39542bb108ce77901072deac699d770b302d52
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        interprompt["interprompt package"]
+        serena["serena package"]
+        solidlsp["solidlsp package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| serena
+    api_layer -->|imports| solidlsp
+    config -->|imports| external_integrations
+    config -->|imports| serena
+    config -->|imports| solidlsp
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| interprompt
+    entrypoint -->|imports| serena
+    entrypoint -->|imports| solidlsp
+    external_integrations -->|imports| config
+    external_integrations -->|imports| serena
+    external_integrations -->|imports| solidlsp
+    serena -->|imports| api_layer
+    serena -->|imports| config
+    serena -->|imports| external_integrations
+    serena -->|imports| interprompt
+    serena -->|imports| solidlsp
+    solidlsp -->|imports| config
+    solidlsp -->|imports| entrypoint
+    solidlsp -->|imports| external_integrations
+    solidlsp -->|imports| serena
+    tests -->|imports| config
+    tests -->|imports| serena
+    tests -->|imports| solidlsp

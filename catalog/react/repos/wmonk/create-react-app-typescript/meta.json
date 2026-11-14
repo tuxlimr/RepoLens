@@ -1,0 +1,45 @@
+{
+  "owner": "wmonk",
+  "name": "create-react-app-typescript",
+  "full_name": "wmonk/create-react-app-typescript",
+  "html_url": "https://github.com/wmonk/create-react-app-typescript",
+  "description": "DEPRECATED: Create React apps using typescript with no build configuration.",
+  "stars": 3676,
+  "forks": 476,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "create-react-app",
+    "frontend",
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "archived": true,
+  "commit_sha": "ef987c15acad6468a35ddb0a24ba22add819207e",
+  "commit_url": "https://github.com/wmonk/create-react-app-typescript/commit/ef987c15acad6468a35ddb0a24ba22add819207e",
+  "tree_url": "https://github.com/wmonk/create-react-app-typescript/tree/ef987c15acad6468a35ddb0a24ba22add819207e",
+  "analysed_at": "2026-11-14T19:15:10.025698+00:00",
+  "status": "completed",
+  "files_fetched": 46,
+  "files_analysed": 46,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "scripts package",
+    "tasks package",
+    "template package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "bin/react-scripts-ts.js",
+    "template/src/App.tsx",
+    "template/src/index.tsx"
+  ]
+}

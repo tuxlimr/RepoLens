@@ -1,0 +1,33 @@
+{
+  "owner": "notable",
+  "name": "notable",
+  "full_name": "notable/notable",
+  "html_url": "https://github.com/notable/notable",
+  "description": "The Markdown-based note-taking app that doesn't suck.",
+  "stars": 23488,
+  "forks": 1174,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cross-platform",
+    "electron",
+    "linux",
+    "mac",
+    "markdown",
+    "note",
+    "react",
+    "windows"
+  ],
+  "archived": false,
+  "commit_sha": "aee95988f3b0d8d0508b56eada087fcdab30a025",
+  "commit_url": "https://github.com/notable/notable/commit/aee95988f3b0d8d0508b56eada087fcdab30a025",
+  "tree_url": "https://github.com/notable/notable/tree/aee95988f3b0d8d0508b56eada087fcdab30a025",
+  "analysed_at": "2026-11-14T19:13:07.179627+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

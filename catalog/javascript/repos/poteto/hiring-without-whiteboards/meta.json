@@ -1,0 +1,39 @@
+{
+  "owner": "poteto",
+  "name": "hiring-without-whiteboards",
+  "full_name": "poteto/hiring-without-whiteboards",
+  "html_url": "https://github.com/poteto/hiring-without-whiteboards",
+  "description": "\u2b50\ufe0f  Companies that don't have a broken hiring process",
+  "stars": 53206,
+  "forks": 3986,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "airtable",
+    "hiring",
+    "hiring-without-whiteboards",
+    "interview",
+    "jobs",
+    "tech",
+    "whiteboard"
+  ],
+  "archived": false,
+  "commit_sha": "c05c419ca907ee3c08e4caabef41f28e71fa1087",
+  "commit_url": "https://github.com/poteto/hiring-without-whiteboards/commit/c05c419ca907ee3c08e4caabef41f28e71fa1087",
+  "tree_url": "https://github.com/poteto/hiring-without-whiteboards/tree/c05c419ca907ee3c08e4caabef41f28e71fa1087",
+  "analysed_at": "2026-11-14T19:10:36.882826+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 14,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

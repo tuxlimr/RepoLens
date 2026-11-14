@@ -1,0 +1,53 @@
+{
+  "owner": "mochajs",
+  "name": "mocha",
+  "full_name": "mochajs/mocha",
+  "html_url": "https://github.com/mochajs/mocha",
+  "description": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser",
+  "stars": 22912,
+  "forks": 3147,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "bdd",
+    "browser",
+    "javascript",
+    "mocha",
+    "mochajs",
+    "node",
+    "nodejs",
+    "tdd",
+    "test",
+    "test-framework",
+    "testing",
+    "testing-tools"
+  ],
+  "archived": false,
+  "commit_sha": "5b5afa7b12e3f76f4e0c6afa12e960c0b378358c",
+  "commit_url": "https://github.com/mochajs/mocha/commit/5b5afa7b12e3f76f4e0c6afa12e960c0b378358c",
+  "tree_url": "https://github.com/mochajs/mocha/tree/5b5afa7b12e3f76f4e0c6afa12e960c0b378358c",
+  "analysed_at": "2026-11-14T19:11:06.109220+00:00",
+  "status": "completed",
+  "files_fetched": 675,
+  "files_analysed": 673,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/mocha.js",
+    "test/integration/fixtures/config/mocha-config/index.js",
+    "lib/interfaces/index.js"
+  ]
+}

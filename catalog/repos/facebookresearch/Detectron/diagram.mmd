@@ -1,0 +1,31 @@
+%% Repository: facebookresearch/Detectron
+%% Analysed commit: 04155a01a6ea68f22ac27c79a822066457941ece
+%% Commit reference: https://github.com/facebookresearch/Detectron/commit/04155a01a6ea68f22ac27c79a822066457941ece
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        detectron["detectron package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| detectron
+    detectron -->|imports| config
+    entrypoint -->|imports| config
+    entrypoint -->|imports| detectron
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| tests
+    service_layer -->|imports| config
+    service_layer -->|imports| detectron
+    service_layer -->|imports| tests
+    tests -->|imports| config
+    tests -->|imports| detectron
+    tests -->|imports| service_layer

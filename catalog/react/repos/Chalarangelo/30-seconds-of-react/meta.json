@@ -1,0 +1,37 @@
+{
+  "owner": "Chalarangelo",
+  "name": "30-seconds-of-react",
+  "full_name": "Chalarangelo/30-seconds-of-react",
+  "html_url": "https://github.com/Chalarangelo/30-seconds-of-react",
+  "description": "Short React code snippets for all your development needs",
+  "stars": 5060,
+  "forks": 471,
+  "license": "CC-BY-4.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "education",
+    "javascript",
+    "learn-to-code",
+    "learning-resources",
+    "programming",
+    "react",
+    "reactjs",
+    "snippets",
+    "snippets-collection",
+    "snippets-library"
+  ],
+  "archived": true,
+  "commit_sha": "a5e673afbaddd31d6f80b2218ab16d0a82514cf5",
+  "commit_url": "https://github.com/Chalarangelo/30-seconds-of-react/commit/a5e673afbaddd31d6f80b2218ab16d0a82514cf5",
+  "tree_url": "https://github.com/Chalarangelo/30-seconds-of-react/tree/a5e673afbaddd31d6f80b2218ab16d0a82514cf5",
+  "analysed_at": "2026-11-14T19:14:29.074952+00:00",
+  "status": "completed",
+  "files_fetched": 86,
+  "files_analysed": 86,
+  "components": [
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

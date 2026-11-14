@@ -1,0 +1,51 @@
+{
+  "owner": "GoogleChromeLabs",
+  "name": "react-adaptive-hooks",
+  "full_name": "GoogleChromeLabs/react-adaptive-hooks",
+  "html_url": "https://github.com/GoogleChromeLabs/react-adaptive-hooks",
+  "description": "Deliver experiences best suited to a user's device and network constraints",
+  "stars": 5154,
+  "forks": 112,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "adaptive-loading",
+    "cpu",
+    "loading",
+    "memory",
+    "network",
+    "performance",
+    "react",
+    "react-hooks"
+  ],
+  "archived": false,
+  "commit_sha": "baad292c62f6c3e77b11d7f0820896050df2c5b4",
+  "commit_url": "https://github.com/GoogleChromeLabs/react-adaptive-hooks/commit/baad292c62f6c3e77b11d7f0820896050df2c5b4",
+  "tree_url": "https://github.com/GoogleChromeLabs/react-adaptive-hooks/tree/baad292c62f6c3e77b11d7f0820896050df2c5b4",
+  "analysed_at": "2026-11-14T19:14:28.002752+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "hardware-concurrency package",
+    "media-capabilities package",
+    "memory package",
+    "network package",
+    "save-data package"
+  ],
+  "detections": [
+    "React",
+    "Jest"
+  ],
+  "entry_points": [
+    "hardware-concurrency/index.js",
+    "index.js",
+    "media-capabilities/index.js",
+    "memory/index.js",
+    "network/index.js",
+    "save-data/index.js"
+  ]
+}

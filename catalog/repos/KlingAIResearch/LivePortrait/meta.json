@@ -1,0 +1,53 @@
+{
+  "owner": "KlingAIResearch",
+  "name": "LivePortrait",
+  "full_name": "KlingAIResearch/LivePortrait",
+  "html_url": "https://github.com/KlingAIResearch/LivePortrait",
+  "description": "Bring portraits to life!",
+  "stars": 19478,
+  "forks": 2032,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "face-animation",
+    "image-animation",
+    "video-editing",
+    "video-generation"
+  ],
+  "archived": false,
+  "commit_sha": "9b294b3d0536135442ea73cb01e6cb3ca7029dd3",
+  "commit_url": "https://github.com/KlingAIResearch/LivePortrait/commit/9b294b3d0536135442ea73cb01e6cb3ca7029dd3",
+  "tree_url": "https://github.com/KlingAIResearch/LivePortrait/tree/9b294b3d0536135442ea73cb01e6cb3ca7029dd3",
+  "analysed_at": "2026-11-14T19:08:13.412049+00:00",
+  "status": "completed",
+  "files_fetched": 129,
+  "files_analysed": 129,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "gradio_pipeline.py package",
+    "live_portrait_pipeline_animal.py package",
+    "live_portrait_pipeline.py package",
+    "live_portrait_wrapper.py package",
+    "modules package",
+    "utils package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "src/utils/dependencies/XPose/models/UniPose/ops/test.py",
+    "src/utils/dependencies/XPose/models/UniPose/swin_transformer.py",
+    "src/utils/dependencies/XPose/util/box_ops.py",
+    "src/utils/dependencies/insightface/model_zoo/scrfd.py",
+    "inference.py",
+    "inference_animals.py",
+    "speed.py"
+  ]
+}

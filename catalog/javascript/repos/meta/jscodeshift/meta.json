@@ -1,0 +1,52 @@
+{
+  "owner": "meta",
+  "name": "jscodeshift",
+  "full_name": "meta/jscodeshift",
+  "html_url": "https://github.com/meta/jscodeshift",
+  "description": "A JavaScript codemod toolkit.",
+  "stars": 10048,
+  "forks": 500,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "938bc3c355dd77fd3cc8063c8615ee0f9caeed89",
+  "commit_url": "https://github.com/meta/jscodeshift/commit/938bc3c355dd77fd3cc8063c8615ee0f9caeed89",
+  "tree_url": "https://github.com/meta/jscodeshift/tree/938bc3c355dd77fd3cc8063c8615ee0f9caeed89",
+  "analysed_at": "2026-11-14T19:12:46.500279+00:00",
+  "status": "completed",
+  "files_fetched": 106,
+  "files_analysed": 102,
+  "components": [
+    "argsParser.js package",
+    "bin package",
+    "Collection.js package",
+    "collections package",
+    "Configuration and deployment",
+    "Core modules",
+    "core.js package",
+    "getParser.js package",
+    "ignoreFiles.js package",
+    "matchNode.js package",
+    "parser package",
+    "Runner.js package",
+    "sample package",
+    "template.js package",
+    "__testfixtures__ package",
+    "__tests__ package",
+    "testUtils.js package",
+    "utils package",
+    "website package",
+    "Worker.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/jscodeshift.js",
+    "src/collections/index.js"
+  ]
+}

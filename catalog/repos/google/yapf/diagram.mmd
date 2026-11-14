@@ -1,0 +1,29 @@
+%% Repository: google/yapf
+%% Analysed commit: 12005095296072751e3e4c1f33a047d41b0ce18d
+%% Commit reference: https://github.com/google/yapf/commit/12005095296072751e3e4c1f33a047d41b0ce18d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        plugins["plugins package"]
+        third_party["third_party package"]
+        yapf["yapf package"]
+        yapftests["yapftests package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| third_party
+    entrypoint -->|imports| yapf
+    external_integrations -->|imports| yapf
+    tests -->|imports| entrypoint
+    tests -->|imports| yapf
+    tests -->|imports| yapftests
+    yapftests -->|imports| yapf

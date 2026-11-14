@@ -1,0 +1,51 @@
+{
+  "owner": "pmndrs",
+  "name": "leva",
+  "full_name": "pmndrs/leva",
+  "html_url": "https://github.com/pmndrs/leva",
+  "description": "\ud83c\udf0b React-first components GUI",
+  "stars": 6274,
+  "forks": 238,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "gui",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "402a1e9d0899e6d384993aaffe8dc0d2c39110e1",
+  "commit_url": "https://github.com/pmndrs/leva/commit/402a1e9d0899e6d384993aaffe8dc0d2c39110e1",
+  "tree_url": "https://github.com/pmndrs/leva/tree/402a1e9d0899e6d384993aaffe8dc0d2c39110e1",
+  "analysed_at": "2026-11-14T19:14:08.515511+00:00",
+  "status": "completed",
+  "files_fetched": 319,
+  "files_analysed": 319,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "demo/src/sandboxes/leva-advanced-panels/src/index.jsx",
+    "demo/src/sandboxes/leva-custom-plugin/src/index.tsx",
+    "demo/src/sandboxes/leva-minimal/src/index.jsx",
+    "demo/src/sandboxes/leva-scroll/src/index.jsx",
+    "demo/src/sandboxes/leva-theme/src/index.jsx",
+    "demo/src/sandboxes/leva-transient/src/index.jsx",
+    "demo/src/sandboxes/leva-ui/src/index.jsx",
+    ".storybook/main.js",
+    "demo/src/App.jsx",
+    "demo/src/index.jsx",
+    "packages/leva/src/index.ts",
+    "packages/plugin-bezier/src/index.ts"
+  ]
+}

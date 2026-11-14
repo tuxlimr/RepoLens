@@ -1,0 +1,15 @@
+%% Repository: smol-ai/developer
+%% Analysed commit: a6747d1a6ccd983c54a483c4a4fb1fa4bf740e82
+%% Commit reference: https://github.com/smol-ai/developer/commit/a6747d1a6ccd983c54a483c4a4fb1fa4bf740e82
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        smol_dev["smol_dev package"]
+        v0["v0 package"]
+    end
+    entrypoint -->|imports| smol_dev

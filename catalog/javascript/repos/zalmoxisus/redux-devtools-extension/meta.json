@@ -1,0 +1,52 @@
+{
+  "owner": "zalmoxisus",
+  "name": "redux-devtools-extension",
+  "full_name": "zalmoxisus/redux-devtools-extension",
+  "html_url": "https://github.com/zalmoxisus/redux-devtools-extension",
+  "description": "Redux DevTools extension.",
+  "stars": 13430,
+  "forks": 1005,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "debug",
+    "devtools",
+    "extension",
+    "javascript",
+    "redux"
+  ],
+  "archived": false,
+  "commit_sha": "955cfc4f9c2ed7b4212ad8ff50883ad322051678",
+  "commit_url": "https://github.com/zalmoxisus/redux-devtools-extension/commit/955cfc4f9c2ed7b4212ad8ff50883ad322051678",
+  "tree_url": "https://github.com/zalmoxisus/redux-devtools-extension/tree/955cfc4f9c2ed7b4212ad8ff50883ad322051678",
+  "analysed_at": "2026-11-14T19:11:56.455255+00:00",
+  "status": "completed",
+  "files_fetched": 200,
+  "files_analysed": 200,
+  "components": [
+    "API layer",
+    "app package",
+    "browser package",
+    "Configuration and deployment",
+    "Core modules",
+    "npm-package package",
+    "Service / domain layer",
+    "Tests",
+    "webpack package"
+  ],
+  "detections": [
+    "Electron",
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "webpack"
+  ],
+  "entry_points": [
+    "npm-package/index.js",
+    "test/electron/fixture/main.js",
+    "src/app/api/index.js",
+    "src/app/containers/App.js"
+  ]
+}

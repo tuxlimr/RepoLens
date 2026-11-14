@@ -1,0 +1,40 @@
+{
+  "owner": "marcuswestin",
+  "name": "store.js",
+  "full_name": "marcuswestin/store.js",
+  "html_url": "https://github.com/marcuswestin/store.js",
+  "description": "Cross-browser storage for all use cases, used across the web.",
+  "stars": 13971,
+  "forks": 1293,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "cross-browser",
+    "javascript",
+    "localstorage",
+    "plugins",
+    "serialization",
+    "storage",
+    "store-json"
+  ],
+  "archived": false,
+  "commit_sha": "fe77ae9e7ca1c8fb9af27b9f53a14722cd14d9d4",
+  "commit_url": "https://github.com/marcuswestin/store.js/commit/fe77ae9e7ca1c8fb9af27b9f53a14722cd14d9d4",
+  "tree_url": "https://github.com/marcuswestin/store.js/tree/fe77ae9e7ca1c8fb9af27b9f53a14722cd14d9d4",
+  "analysed_at": "2026-11-14T19:11:48.151077+00:00",
+  "status": "completed",
+  "files_fetched": 67,
+  "files_analysed": 61,
+  "components": [
+    "Configuration and deployment",
+    "plugins package",
+    "scripts package",
+    "storages package",
+    "store-engine.js package",
+    "Tests",
+    "util.js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

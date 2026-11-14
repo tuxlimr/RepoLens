@@ -1,0 +1,48 @@
+{
+  "owner": "diegohaz",
+  "name": "constate",
+  "full_name": "diegohaz/constate",
+  "html_url": "https://github.com/diegohaz/constate",
+  "description": "React Context + State",
+  "stars": 4006,
+  "forks": 93,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "constate",
+    "hooks",
+    "react",
+    "react-context",
+    "react-hooks",
+    "react-state",
+    "reactjs",
+    "reakit",
+    "state-management"
+  ],
+  "archived": false,
+  "commit_sha": "40d6b5fa503d0bd45d599e2cbe6ab1f4c3eb8602",
+  "commit_url": "https://github.com/diegohaz/constate/commit/40d6b5fa503d0bd45d599e2cbe6ab1f4c3eb8602",
+  "tree_url": "https://github.com/diegohaz/constate/tree/40d6b5fa503d0bd45d599e2cbe6ab1f4c3eb8602",
+  "analysed_at": "2026-11-14T19:14:56.092560+00:00",
+  "status": "completed",
+  "files_fetched": 47,
+  "files_analysed": 45,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/constate/src/index.tsx"
+  ]
+}

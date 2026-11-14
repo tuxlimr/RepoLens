@@ -1,0 +1,25 @@
+%% Repository: waydroid/waydroid
+%% Analysed commit: db7294c4c2bd43157bab94cf8a3015e22d9f1ad8
+%% Commit reference: https://github.com/waydroid/waydroid/commit/db7294c4c2bd43157bab94cf8a3015e22d9f1ad8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        tools["tools package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    entrypoint -->|imports| tools
+    service_layer -->|imports| config
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| tools
+    tools -->|imports| config
+    tools -->|imports| entrypoint

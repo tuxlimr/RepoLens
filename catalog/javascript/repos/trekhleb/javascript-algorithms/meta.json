@@ -1,0 +1,43 @@
+{
+  "owner": "trekhleb",
+  "name": "javascript-algorithms",
+  "full_name": "trekhleb/javascript-algorithms",
+  "html_url": "https://github.com/trekhleb/javascript-algorithms",
+  "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+  "stars": 196726,
+  "forks": 30975,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "algorithm",
+    "algorithms",
+    "computer-science",
+    "data-structures",
+    "interview",
+    "interview-preparation",
+    "javascript",
+    "javascript-algorithms"
+  ],
+  "archived": false,
+  "commit_sha": "85293e3e2b88f4d2ce330d956b139cf628aa1e82",
+  "commit_url": "https://github.com/trekhleb/javascript-algorithms/commit/85293e3e2b88f4d2ce330d956b139cf628aa1e82",
+  "tree_url": "https://github.com/trekhleb/javascript-algorithms/tree/85293e3e2b88f4d2ce330d956b139cf628aa1e82",
+  "analysed_at": "2026-11-14T19:10:31.996556+00:00",
+  "status": "completed",
+  "files_fetched": 630,
+  "files_analysed": 629,
+  "components": [
+    "algorithms package",
+    "Configuration and deployment",
+    "Core modules",
+    "data-structures package",
+    "playground package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "schlagmichdoch",
+  "name": "PairDrop",
+  "full_name": "schlagmichdoch/PairDrop",
+  "html_url": "https://github.com/schlagmichdoch/PairDrop",
+  "description": "PairDrop: Transfer Files Cross-Platform. No Setup, No Signup.",
+  "stars": 11806,
+  "forks": 724,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "file-sharing",
+    "indexeddb",
+    "nodejs",
+    "pwa",
+    "webrtc",
+    "websockets"
+  ],
+  "archived": false,
+  "commit_sha": "1b0c9c9d903c3cfc706df1303dc75c3b54d04c77",
+  "commit_url": "https://github.com/schlagmichdoch/PairDrop/commit/1b0c9c9d903c3cfc706df1303dc75c3b54d04c77",
+  "tree_url": "https://github.com/schlagmichdoch/PairDrop/tree/1b0c9c9d903c3cfc706df1303dc75c3b54d04c77",
+  "analysed_at": "2026-11-14T19:12:15.474020+00:00",
+  "status": "completed",
+  "files_fetched": 101,
+  "files_analysed": 99,
+  "components": [
+    "Configuration and deployment",
+    "dev package",
+    "pairdrop-cli package",
+    "public package",
+    "server package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "server/index.js",
+    "public/scripts/main.js",
+    "server/server.js"
+  ]
+}

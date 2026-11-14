@@ -1,0 +1,55 @@
+{
+  "owner": "LlamaChinese",
+  "name": "Llama-Chinese",
+  "full_name": "LlamaChinese/Llama-Chinese",
+  "html_url": "https://github.com/LlamaChinese/Llama-Chinese",
+  "description": "Llama\u4e2d\u6587\u793e\u533a\uff0c\u5b9e\u65f6\u6c47\u603b\u6700\u65b0Llama\u5b66\u4e60\u8d44\u6599\uff0c\u6784\u5efa\u6700\u597d\u7684\u4e2d\u6587Llama\u5927\u6a21\u578b\u5f00\u6e90\u751f\u6001\uff0c\u5b8c\u5168\u5f00\u6e90\u53ef\u5546\u7528",
+  "stars": 14755,
+  "forks": 1282,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "llama",
+    "llama4",
+    "llm",
+    "pretraining",
+    "rl"
+  ],
+  "archived": false,
+  "commit_sha": "6fa0fffb0dd82fe3cfaa1449ee54a5806d26ae9b",
+  "commit_url": "https://github.com/LlamaChinese/Llama-Chinese/commit/6fa0fffb0dd82fe3cfaa1449ee54a5806d26ae9b",
+  "tree_url": "https://github.com/LlamaChinese/Llama-Chinese/tree/6fa0fffb0dd82fe3cfaa1449ee54a5806d26ae9b",
+  "analysed_at": "2026-11-14T19:09:17.116912+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 48,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "inference-speed package",
+    "Tests",
+    "train package"
+  ],
+  "detections": [
+    "FastAPI",
+    "NumPy",
+    "pandas",
+    "Uvicorn",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "inference-speed/GPU/TensorRT-LLM_example/atom_inference.py",
+    "inference-speed/GPU/vllm_example/api_server.py",
+    "inference-speed/GPU/vllm_example/client_test.py",
+    "scripts/api/accelerate_client.py",
+    "scripts/api/accelerate_server.py",
+    "scripts/convert2hf/convert_llama_weights_to_hf.py",
+    "train/pretrain/pretrain_clm.py",
+    "train/sft/finetune_clm.py",
+    "train/sft/finetune_clm_lora.py"
+  ]
+}

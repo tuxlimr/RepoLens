@@ -1,0 +1,46 @@
+{
+  "owner": "Musish",
+  "name": "Musish",
+  "full_name": "Musish/Musish",
+  "html_url": "https://github.com/Musish/Musish",
+  "description": "Apple Music...ish ",
+  "stars": 3226,
+  "forks": 241,
+  "license": "AGPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "apple",
+    "apple-music",
+    "music",
+    "musickit",
+    "musickitjs",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "9846878b0a0bb59a627d60784e092e636b933244",
+  "commit_url": "https://github.com/Musish/Musish/commit/9846878b0a0bb59a627d60784e092e636b933244",
+  "tree_url": "https://github.com/Musish/Musish/tree/9846878b0a0bb59a627d60784e092e636b933244",
+  "analysed_at": "2026-11-14T19:15:27.805899+00:00",
+  "status": "completed",
+  "files_fetched": 197,
+  "files_analysed": 180,
+  "components": [
+    "API layer",
+    "app package",
+    "backend package",
+    "Configuration and deployment",
+    "Core modules",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/app/components/App.tsx",
+    "src/app/index.tsx"
+  ]
+}

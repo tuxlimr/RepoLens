@@ -1,0 +1,36 @@
+{
+  "owner": "saadq",
+  "name": "resumake.io",
+  "full_name": "saadq/resumake.io",
+  "html_url": "https://github.com/saadq/resumake.io",
+  "description": "\ud83d\udcdd A website for automatically generating elegant LaTeX resumes.",
+  "stars": 3590,
+  "forks": 525,
+  "license": null,
+  "language": "HTML",
+  "default_branch": "main",
+  "topics": [
+    "generator",
+    "latex",
+    "nodejs",
+    "pdf",
+    "pdf-generation",
+    "pdf-generator",
+    "pdflatex",
+    "react",
+    "resume"
+  ],
+  "archived": false,
+  "commit_sha": "830c480445a150a02c7d2e5dd4767e9448bfdf62",
+  "commit_url": "https://github.com/saadq/resumake.io/commit/830c480445a150a02c7d2e5dd4767e9448bfdf62",
+  "tree_url": "https://github.com/saadq/resumake.io/tree/830c480445a150a02c7d2e5dd4767e9448bfdf62",
+  "analysed_at": "2026-11-14T19:15:12.464053+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

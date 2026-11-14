@@ -1,0 +1,46 @@
+{
+  "owner": "julianshapiro",
+  "name": "velocity",
+  "full_name": "julianshapiro/velocity",
+  "html_url": "https://github.com/julianshapiro/velocity",
+  "description": "Accelerated JavaScript animation.",
+  "stars": 17190,
+  "forks": 1510,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "767e35cac12120be526eef330e4d988b2c3cfc3c",
+  "commit_url": "https://github.com/julianshapiro/velocity/commit/767e35cac12120be526eef330e4d988b2c3cfc3c",
+  "tree_url": "https://github.com/julianshapiro/velocity/tree/767e35cac12120be526eef330e4d988b2c3cfc3c",
+  "analysed_at": "2026-11-14T19:11:28.636442+00:00",
+  "status": "completed",
+  "files_fetched": 255,
+  "files_analysed": 254,
+  "components": [
+    "Configuration and deployment",
+    "constants.ts package",
+    "Core modules",
+    "fakeClass.js package",
+    "fakeClass.ts package",
+    "legacy package",
+    "src-ui package",
+    "Tests",
+    "types.ts package",
+    "utility.ts package",
+    "Velocity package",
+    "velocity.ts package",
+    "velocityFn.ts package"
+  ],
+  "detections": [
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/Velocity/actions/index.ts",
+    "src/Velocity/css/index.ts",
+    "src/Velocity/easing/index.ts",
+    "src/Velocity/index.ts",
+    "src/Velocity/normalizations/index.ts"
+  ]
+}

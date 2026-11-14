@@ -1,0 +1,31 @@
+{
+  "owner": "CodeSeven",
+  "name": "toastr",
+  "full_name": "CodeSeven/toastr",
+  "html_url": "https://github.com/CodeSeven/toastr",
+  "description": "Simple javascript toast notifications",
+  "stars": 12079,
+  "forks": 1993,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "50092cc604850a16c985520b63df184d3e0b4086",
+  "commit_url": "https://github.com/CodeSeven/toastr/commit/50092cc604850a16c985520b63df184d3e0b4086",
+  "tree_url": "https://github.com/CodeSeven/toastr/tree/50092cc604850a16c985520b63df184d3e0b4086",
+  "analysed_at": "2026-11-14T19:12:10.950198+00:00",
+  "status": "completed",
+  "files_fetched": 47,
+  "files_analysed": 44,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "nuget package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "toastr.js"
+  ]
+}

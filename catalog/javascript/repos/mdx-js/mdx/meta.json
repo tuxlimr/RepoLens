@@ -1,0 +1,58 @@
+{
+  "owner": "mdx-js",
+  "name": "mdx",
+  "full_name": "mdx-js/mdx",
+  "html_url": "https://github.com/mdx-js/mdx",
+  "description": "Markdown for the component era",
+  "stars": 19861,
+  "forks": 1183,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "jsx",
+    "markdown",
+    "mdx",
+    "react",
+    "remark",
+    "unified",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "52285a6758fa078ec57f3d4bd8803d9cbfb12065",
+  "commit_url": "https://github.com/mdx-js/mdx/commit/52285a6758fa078ec57f3d4bd8803d9cbfb12065",
+  "tree_url": "https://github.com/mdx-js/mdx/tree/52285a6758fa078ec57f3d4bd8803d9cbfb12065",
+  "analysed_at": "2026-11-14T19:11:16.391336+00:00",
+  "status": "completed",
+  "files_fetched": 166,
+  "files_analysed": 166,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "script package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "TypeScript",
+    "Vite",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/esbuild/index.js",
+    "packages/esbuild/lib/index.js",
+    "packages/loader/lib/index.js",
+    "packages/mdx/index.js",
+    "packages/node-loader/index.js",
+    "packages/node-loader/lib/index.js",
+    "packages/preact/index.js",
+    "packages/preact/lib/index.js",
+    "packages/react/index.js",
+    "packages/react/lib/index.js",
+    "packages/remark-mdx/index.js",
+    "packages/remark-mdx/lib/index.js"
+  ]
+}

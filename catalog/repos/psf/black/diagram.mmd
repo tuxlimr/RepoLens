@@ -1,0 +1,35 @@
+%% Repository: psf/black
+%% Analysed commit: b10cbe43b8169e688ab86989ddcc8ad2a53ff2cd
+%% Commit reference: https://github.com/psf/black/commit/b10cbe43b8169e688ab86989ddcc8ad2a53ff2cd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        black["black package"]
+        blackd["blackd package"]
+        blib2to3["blib2to3 package"]
+        profiling["profiling package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    black -->|imports| blib2to3
+    black -->|imports| entrypoint
+    blackd -->|imports| external_integrations
+    blib2to3 -->|imports| entrypoint
+    entrypoint -->|imports| black
+    entrypoint -->|imports| blib2to3
+    entrypoint -->|imports| external_integrations
+    external_integrations -->|imports| entrypoint
+    tests -->|imports| black
+    tests -->|imports| blib2to3
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

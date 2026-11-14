@@ -1,0 +1,41 @@
+{
+  "owner": "uidotdev",
+  "name": "usehooks",
+  "full_name": "uidotdev/usehooks",
+  "html_url": "https://github.com/uidotdev/usehooks",
+  "description": "A collection of modern, server-safe React hooks \u2013\u00a0from the ui.dev team",
+  "stars": 11499,
+  "forks": 589,
+  "license": "MIT",
+  "language": "MDX",
+  "default_branch": "main",
+  "topics": [
+    "astro",
+    "blog",
+    "hooks",
+    "react",
+    "react-hooks",
+    "vercel"
+  ],
+  "archived": false,
+  "commit_sha": "945436df0037bc21133379a5e13f1bd73f1ffc36",
+  "commit_url": "https://github.com/uidotdev/usehooks/commit/945436df0037bc21133379a5e13f1bd73f1ffc36",
+  "tree_url": "https://github.com/uidotdev/usehooks/tree/945436df0037bc21133379a5e13f1bd73f1ffc36",
+  "analysed_at": "2026-11-14T19:13:24.861394+00:00",
+  "status": "completed",
+  "files_fetched": 116,
+  "files_analysed": 115,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "usehooks.com package"
+  ],
+  "detections": [
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

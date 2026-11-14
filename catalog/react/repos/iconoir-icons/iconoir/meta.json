@@ -1,0 +1,62 @@
+{
+  "owner": "iconoir-icons",
+  "name": "iconoir",
+  "full_name": "iconoir-icons/iconoir",
+  "html_url": "https://github.com/iconoir-icons/iconoir",
+  "description": "Free, open source (MIT) SVG icon library: 1,383 icons (1,671 SVGs with solid variants) for React, React Native, Vue, Solid, Flutter, CSS, Figma and Framer.",
+  "stars": 4642,
+  "forks": 202,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "figma",
+    "flutter",
+    "framer",
+    "free-icons",
+    "icon",
+    "icon-library",
+    "icon-pack",
+    "icon-set",
+    "iconoir",
+    "icons",
+    "open-source",
+    "react",
+    "react-icons",
+    "react-native",
+    "solidjs",
+    "svg",
+    "svg-icons",
+    "vue",
+    "vue-icons"
+  ],
+  "archived": false,
+  "commit_sha": "39834e3f193bc0cca2c36bebb6a650471977433d",
+  "commit_url": "https://github.com/iconoir-icons/iconoir/commit/39834e3f193bc0cca2c36bebb6a650471977433d",
+  "tree_url": "https://github.com/iconoir-icons/iconoir/tree/39834e3f193bc0cca2c36bebb6a650471977433d",
+  "analysed_at": "2026-11-14T19:14:39.785455+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 783,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "iconoir.com package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Vue",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "iconoir.com/scripts/enrich-icons-csv.py",
+    "examples/react-native/index.ts",
+    "iconoir.com/pages/index.tsx"
+  ]
+}

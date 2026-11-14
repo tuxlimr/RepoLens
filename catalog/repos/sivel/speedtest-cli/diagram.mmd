@@ -1,0 +1,17 @@
+%% Repository: sivel/speedtest-cli
+%% Analysed commit: 22210ca35228f0bbcef75a7c14587c4ecb875ab4
+%% Commit reference: https://github.com/sivel/speedtest-cli/commit/22210ca35228f0bbcef75a7c14587c4ecb875ab4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations

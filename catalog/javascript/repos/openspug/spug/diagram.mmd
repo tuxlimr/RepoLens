@@ -1,0 +1,23 @@
+%% Repository: openspug/spug
+%% Analysed commit: 90ecc4c74ca72f8c62a80656f3c088af80b90ef7
+%% Commit reference: https://github.com/openspug/spug/commit/90ecc4c74ca72f8c62a80656f3c088af80b90ef7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        spug_api["spug_api package"]
+        spug_web["spug_web package"]
+        spug_web2["spug_web2 package"]
+    end
+    spug_api -->|imports| external_integrations

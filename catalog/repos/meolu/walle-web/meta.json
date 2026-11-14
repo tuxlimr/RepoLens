@@ -1,0 +1,57 @@
+{
+  "owner": "meolu",
+  "name": "walle-web",
+  "full_name": "meolu/walle-web",
+  "html_url": "https://github.com/meolu/walle-web",
+  "description": "walle - \u74e6\u529b Devops\u5f00\u6e90\u9879\u76ee\u4ee3\u7801\u90e8\u7f72\u5e73\u53f0",
+  "stars": 11979,
+  "forks": 2736,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cd",
+    "deployer",
+    "devops",
+    "devops-tools",
+    "git",
+    "python",
+    "walle-web"
+  ],
+  "archived": false,
+  "commit_sha": "f96dc41ed882782d52ec62fddbe0213b8b9158ec",
+  "commit_url": "https://github.com/meolu/walle-web/commit/f96dc41ed882782d52ec62fddbe0213b8b9158ec",
+  "tree_url": "https://github.com/meolu/walle-web/tree/f96dc41ed882782d52ec62fddbe0213b8b9158ec",
+  "analysed_at": "2026-11-14T19:10:19.455650+00:00",
+  "status": "completed",
+  "files_fetched": 160,
+  "files_analysed": 160,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "fe package",
+    "migrations package",
+    "Service / domain layer",
+    "Tests",
+    "walle package"
+  ],
+  "detections": [
+    "MySQL",
+    "Flask",
+    "Click",
+    "requests",
+    "SQLAlchemy",
+    "Alembic",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "walle/app.py",
+    "walle/commands.py"
+  ]
+}

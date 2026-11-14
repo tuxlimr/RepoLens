@@ -1,0 +1,27 @@
+%% Repository: microsoft/JARVIS
+%% Analysed commit: 7624cf388b47334ff8a0868e7d862dde18cfda86
+%% Commit reference: https://github.com/microsoft/JARVIS/commit/7624cf388b47334ff8a0868e7d862dde18cfda86
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        easytool["easytool package"]
+        hugginggpt["hugginggpt package"]
+        taskbench["taskbench package"]
+    end
+    easytool -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations
+    hugginggpt -->|imports| external_integrations

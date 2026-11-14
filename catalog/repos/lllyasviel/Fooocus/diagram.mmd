@@ -1,0 +1,45 @@
+%% Repository: lllyasviel/Fooocus
+%% Analysed commit: ae05379cc97bc4361ec8b4ec90193dab21be763f
+%% Commit reference: https://github.com/lllyasviel/Fooocus/commit/ae05379cc97bc4361ec8b4ec90193dab21be763f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        extras["extras package"]
+        javascript["javascript package"]
+        ldm_patched["ldm_patched package"]
+        modules["modules package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| core
+    config -->|imports| modules
+    core -->|imports| config
+    core -->|imports| extras
+    core -->|imports| ldm_patched
+    core -->|imports| modules
+    data_layer -->|imports| ldm_patched
+    entrypoint -->|imports| extras
+    extras -->|imports| config
+    extras -->|imports| data_layer
+    extras -->|imports| entrypoint
+    extras -->|imports| ldm_patched
+    extras -->|imports| modules
+    ldm_patched -->|imports| data_layer
+    modules -->|imports| config
+    modules -->|imports| core
+    modules -->|imports| data_layer
+    modules -->|imports| extras
+    modules -->|imports| ldm_patched
+    tests -->|imports| modules

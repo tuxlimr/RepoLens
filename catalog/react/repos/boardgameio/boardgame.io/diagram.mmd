@@ -1,0 +1,38 @@
+%% Repository: boardgameio/boardgame.io
+%% Analysed commit: 47adef2b46e375999931209ba7b41e9654c506e1
+%% Commit reference: https://github.com/boardgameio/boardgame.io/commit/47adef2b46e375999931209ba7b41e9654c506e1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ai["ai package"]
+        benchmark["benchmark package"]
+        lobby["lobby package"]
+        master["master package"]
+        packages["packages package"]
+        plugins["plugins package"]
+        python["python package"]
+        scripts["scripts package"]
+        server["server package"]
+        testing["testing package"]
+        types_ts["types.ts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

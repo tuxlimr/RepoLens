@@ -1,0 +1,24 @@
+%% Repository: lra/mackup
+%% Analysed commit: 123929adf4b382564f0602e778e221ddf080953d
+%% Commit reference: https://github.com/lra/mackup/commit/123929adf4b382564f0602e778e221ddf080953d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        mackup["mackup package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| mackup
+    entrypoint -->|imports| mackup
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| mackup

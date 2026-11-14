@@ -1,0 +1,62 @@
+{
+  "owner": "wshobson",
+  "name": "agents",
+  "full_name": "wshobson/agents",
+  "html_url": "https://github.com/wshobson/agents",
+  "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
+  "stars": 42510,
+  "forks": 4493,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "anthropic",
+    "antigravity",
+    "claude",
+    "claude-code",
+    "claude-code-marketplace",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "coding-agents",
+    "cursor",
+    "cursor-rules",
+    "github-copilot",
+    "mcp",
+    "multi-agent",
+    "opencode",
+    "pi-coding-agent",
+    "subagents"
+  ],
+  "archived": false,
+  "commit_sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+  "commit_url": "https://github.com/wshobson/agents/commit/9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+  "tree_url": "https://github.com/wshobson/agents/tree/9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+  "analysed_at": "2026-11-14T19:06:39.421372+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "plugins package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "Typer",
+    "NumPy",
+    "Pydantic",
+    "Uvicorn",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "plugins/backend-development/skills/api-design-principles/assets/rest-api-template.py",
+    "plugins/llm-application-dev/skills/prompt-engineering-patterns/scripts/optimize-prompt.py",
+    "plugins/plugin-eval/scripts/eval_all.py"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "adrianhajdin",
+  "name": "portfolio_website",
+  "full_name": "adrianhajdin/portfolio_website",
+  "html_url": "https://github.com/adrianhajdin/portfolio_website",
+  "description": "Tutorial created by Enyel Sequeira, taught by JavaScript Mastery",
+  "stars": 3489,
+  "forks": 719,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "portfolio",
+    "portfolio-website",
+    "react",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "beef893d5e9d5fa297edb51580ed41fe532f3d5b",
+  "commit_url": "https://github.com/adrianhajdin/portfolio_website/commit/beef893d5e9d5fa297edb51580ed41fe532f3d5b",
+  "tree_url": "https://github.com/adrianhajdin/portfolio_website/tree/beef893d5e9d5fa297edb51580ed41fe532f3d5b",
+  "analysed_at": "2026-11-14T19:15:17.645158+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 35,
+  "components": [
+    "API layer",
+    "components package",
+    "Configuration and deployment",
+    "constants package",
+    "layout package",
+    "pages package",
+    "styles package",
+    "themes package"
+  ],
+  "detections": [
+    "Next.js",
+    "React"
+  ],
+  "entry_points": [
+    "src/components/NavDropDown/index.js",
+    "src/pages/index.js",
+    "src/styles/GlobalComponents/index.js"
+  ]
+}

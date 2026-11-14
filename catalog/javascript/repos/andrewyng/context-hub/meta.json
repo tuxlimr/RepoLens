@@ -1,0 +1,36 @@
+{
+  "owner": "andrewyng",
+  "name": "context-hub",
+  "full_name": "andrewyng/context-hub",
+  "html_url": "https://github.com/andrewyng/context-hub",
+  "description": null,
+  "stars": 13985,
+  "forks": 1206,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
+  "commit_url": "https://github.com/andrewyng/context-hub/commit/67dcbeb2eb42c808549f08397920ad58be7c2206",
+  "tree_url": "https://github.com/andrewyng/context-hub/tree/67dcbeb2eb42c808549f08397920ad58be7c2206",
+  "analysed_at": "2026-11-14T19:11:48.434757+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "cli package",
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vitest"
+  ],
+  "entry_points": [
+    "cli/bin/chub",
+    "cli/bin/chub-mcp",
+    "cli/src/index.js",
+    "cli/src/mcp/server.js"
+  ]
+}

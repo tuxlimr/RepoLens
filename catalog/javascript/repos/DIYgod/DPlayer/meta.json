@@ -1,0 +1,44 @@
+{
+  "owner": "DIYgod",
+  "name": "DPlayer",
+  "full_name": "DIYgod/DPlayer",
+  "html_url": "https://github.com/DIYgod/DPlayer",
+  "description": ":lollipop: Wow, such a lovely HTML5 danmaku video player",
+  "stars": 16535,
+  "forks": 2483,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "danmaku",
+    "dash",
+    "dplayer",
+    "flv",
+    "hls",
+    "player",
+    "video",
+    "webtorrent"
+  ],
+  "archived": false,
+  "commit_sha": "3d9940adc7dd3c085ee1d1ed1c20e034bc52765d",
+  "commit_url": "https://github.com/DIYgod/DPlayer/commit/3d9940adc7dd3c085ee1d1ed1c20e034bc52765d",
+  "tree_url": "https://github.com/DIYgod/DPlayer/tree/3d9940adc7dd3c085ee1d1ed1c20e034bc52765d",
+  "analysed_at": "2026-11-14T19:11:31.961022+00:00",
+  "status": "completed",
+  "files_fetched": 91,
+  "files_analysed": 91,
+  "components": [
+    "Configuration and deployment",
+    "demo package",
+    "js package",
+    "webpack package"
+  ],
+  "detections": [
+    "axios",
+    "webpack"
+  ],
+  "entry_points": [
+    "docs/.vuepress/theme/index.js",
+    "src/js/index.js"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "owner": "mobxjs",
+  "name": "mobx-react",
+  "full_name": "mobxjs/mobx-react",
+  "html_url": "https://github.com/mobxjs/mobx-react",
+  "description": "React bindings for MobX",
+  "stars": 4813,
+  "forks": 339,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "mobx",
+    "react",
+    "react-components",
+    "reactive-programming"
+  ],
+  "archived": true,
+  "commit_sha": "baa737e4faf458e3f4c89edebacfb8774b64353d",
+  "commit_url": "https://github.com/mobxjs/mobx-react/commit/baa737e4faf458e3f4c89edebacfb8774b64353d",
+  "tree_url": "https://github.com/mobxjs/mobx-react/tree/baa737e4faf458e3f4c89edebacfb8774b64353d",
+  "analysed_at": "2026-11-14T19:14:34.945216+00:00",
+  "status": "completed",
+  "files_fetched": 67,
+  "files_analysed": 67,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "disposeOnUnmount.ts package",
+    "globals.d.ts package",
+    "index.ts package",
+    "inject.ts package",
+    "__mocks__ package",
+    "observer.tsx package",
+    "observerClass.ts package",
+    "propTypes.ts package",
+    "Provider.tsx package",
+    "Tests",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

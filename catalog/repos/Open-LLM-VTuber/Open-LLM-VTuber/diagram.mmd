@@ -1,0 +1,26 @@
+%% Repository: Open-LLM-VTuber/Open-LLM-VTuber
+%% Analysed commit: 992309c0aa19845960228f880013d4685fde93b5
+%% Commit reference: https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/commit/992309c0aa19845960228f880013d4685fde93b5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        open_llm_vtuber["open_llm_vtuber package"]
+        prompts["prompts package"]
+        upgrade_codes["upgrade_codes package"]
+        web_tool["web_tool package"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| open_llm_vtuber
+    entrypoint -->|imports| upgrade_codes
+    external_integrations -->|imports| open_llm_vtuber
+    open_llm_vtuber -->|imports| entrypoint
+    open_llm_vtuber -->|imports| external_integrations
+    open_llm_vtuber -->|imports| prompts

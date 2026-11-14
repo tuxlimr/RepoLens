@@ -1,0 +1,55 @@
+{
+  "owner": "PatrickJS",
+  "name": "angular-webpack-starter",
+  "full_name": "PatrickJS/angular-webpack-starter",
+  "html_url": "https://github.com/PatrickJS/angular-webpack-starter",
+  "description": "Angular Webpack Starter",
+  "stars": 10208,
+  "forks": 4673,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "mfe",
+    "microfrontend",
+    "microfrontends",
+    "typescript",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "23ef49ac3f5dcebde5845a68b62b3d000ade72d0",
+  "commit_url": "https://github.com/PatrickJS/angular-webpack-starter/commit/23ef49ac3f5dcebde5845a68b62b3d000ade72d0",
+  "tree_url": "https://github.com/PatrickJS/angular-webpack-starter/tree/23ef49ac3f5dcebde5845a68b62b3d000ade72d0",
+  "analysed_at": "2026-11-14T19:12:43.090277+00:00",
+  "status": "completed",
+  "files_fetched": 114,
+  "files_analysed": 114,
+  "components": [
+    "app package",
+    "assets package",
+    "Configuration and deployment",
+    "Core modules",
+    "custom-typings.d.ts package",
+    "environments package",
+    "main.browser.ts package",
+    "polyfills.browser.ts package"
+  ],
+  "detections": [
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "config/github-deploy/index.js",
+    "config/html-elements-plugin/index.js",
+    "src/app/+barrel/index.ts",
+    "src/app/+detail/index.ts",
+    "src/app/+dev-module/index.ts",
+    "src/app/about/index.ts",
+    "src/app/home/index.ts",
+    "src/app/index.ts",
+    "src/app/no-content/index.ts"
+  ]
+}

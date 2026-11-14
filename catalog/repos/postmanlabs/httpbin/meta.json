@@ -1,0 +1,54 @@
+{
+  "owner": "postmanlabs",
+  "name": "httpbin",
+  "full_name": "postmanlabs/httpbin",
+  "html_url": "https://github.com/postmanlabs/httpbin",
+  "description": "HTTP Request & Response Service, written in Python + Flask.",
+  "stars": 13636,
+  "forks": 1923,
+  "license": "ISC",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "api",
+    "http",
+    "http-server",
+    "httpbin",
+    "json",
+    "python",
+    "service",
+    "testing"
+  ],
+  "archived": false,
+  "commit_sha": "dfe140bc4b988e78ecff77f189abd2fc987f908b",
+  "commit_url": "https://github.com/postmanlabs/httpbin/commit/dfe140bc4b988e78ecff77f189abd2fc987f908b",
+  "tree_url": "https://github.com/postmanlabs/httpbin/tree/dfe140bc4b988e78ecff77f189abd2fc987f908b",
+  "analysed_at": "2026-11-14T19:09:46.201879+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 42,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "httpbin package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Flask",
+    "Click",
+    "Gunicorn",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "unittest"
+  ],
+  "entry_points": [
+    "httpbin/core.py",
+    "httpbin/filters.py",
+    "test_httpbin.py"
+  ]
+}

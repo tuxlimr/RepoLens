@@ -1,0 +1,54 @@
+{
+  "owner": "lucasmarkes",
+  "name": "hairline",
+  "full_name": "lucasmarkes/hairline",
+  "html_url": "https://github.com/lucasmarkes/hairline",
+  "description": "Isometric line figures that answer the pointer. For React and for anything with a DOM.",
+  "stars": 3841,
+  "forks": 238,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "animation",
+    "isometric",
+    "react",
+    "shadcn",
+    "svg",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "034f4bf9902c6adcf3cf39d82f85e6010cb4e094",
+  "commit_url": "https://github.com/lucasmarkes/hairline/commit/034f4bf9902c6adcf3cf39d82f85e6010cb4e094",
+  "tree_url": "https://github.com/lucasmarkes/hairline/tree/034f4bf9902c6adcf3cf39d82f85e6010cb4e094",
+  "analysed_at": "2026-11-14T19:15:03.446906+00:00",
+  "status": "completed",
+  "files_fetched": 210,
+  "files_analysed": 208,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "fixtures package",
+    "packages package",
+    "registry package",
+    "scripts package",
+    "Service / domain layer",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "apps/site/app/page.tsx",
+    "fixtures/next-app/app/page.tsx",
+    "fixtures/vite-vanilla/src/main.ts",
+    "packages/hairline/src/index.ts"
+  ]
+}

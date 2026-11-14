@@ -1,0 +1,29 @@
+{
+  "owner": "mithi",
+  "name": "react-philosophies",
+  "full_name": "mithi/react-philosophies",
+  "html_url": "https://github.com/mithi/react-philosophies",
+  "description": "\ud83e\uddd8  Things I think about when I write React code \ud83e\uddd8 ",
+  "stars": 3733,
+  "forks": 211,
+  "license": "CC-BY-SA-4.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "clean-code",
+    "hacktoberfest",
+    "react",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "f79ff12c1a865788ff6a003960b7502c72863c8b",
+  "commit_url": "https://github.com/mithi/react-philosophies/commit/f79ff12c1a865788ff6a003960b7502c72863c8b",
+  "tree_url": "https://github.com/mithi/react-philosophies/tree/f79ff12c1a865788ff6a003960b7502c72863c8b",
+  "analysed_at": "2026-11-14T19:15:06.467399+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

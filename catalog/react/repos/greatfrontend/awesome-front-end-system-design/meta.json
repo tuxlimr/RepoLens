@@ -1,0 +1,31 @@
+{
+  "owner": "greatfrontend",
+  "name": "awesome-front-end-system-design",
+  "full_name": "greatfrontend/awesome-front-end-system-design",
+  "html_url": "https://github.com/greatfrontend/awesome-front-end-system-design",
+  "description": "Curated front end system design resources for interviews and learning",
+  "stars": 8628,
+  "forks": 342,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "front-end",
+    "front-end-system-design",
+    "javascript",
+    "react",
+    "system-design",
+    "system-design-interview"
+  ],
+  "archived": false,
+  "commit_sha": "d69b18b1de80ebfbcc82406bf82dd24ed87bb298",
+  "commit_url": "https://github.com/greatfrontend/awesome-front-end-system-design/commit/d69b18b1de80ebfbcc82406bf82dd24ed87bb298",
+  "tree_url": "https://github.com/greatfrontend/awesome-front-end-system-design/tree/d69b18b1de80ebfbcc82406bf82dd24ed87bb298",
+  "analysed_at": "2026-11-14T19:13:40.420360+00:00",
+  "status": "completed",
+  "files_fetched": 2,
+  "files_analysed": 2,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

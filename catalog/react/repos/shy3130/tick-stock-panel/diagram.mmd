@@ -1,0 +1,37 @@
+%% Repository: shy3130/tick-stock-panel
+%% Analysed commit: f9cb383c5918c6a88a412f3ce43d59fe81b94ccc
+%% Commit reference: https://github.com/shy3130/tick-stock-panel/commit/f9cb383c5918c6a88a412f3ce43d59fe81b94ccc
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        mcp_server["mcp-server package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    backend -->|imports| data_layer
+    backend -->|imports| external_integrations
+    backend -->|imports| service_layer
+    entrypoint -->|imports| external_integrations
+    service_layer -->|imports| backend
+    service_layer -->|imports| external_integrations
+    tests -->|imports| external_integrations

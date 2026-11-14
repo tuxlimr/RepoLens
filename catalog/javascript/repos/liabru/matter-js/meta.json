@@ -1,0 +1,50 @@
+{
+  "owner": "liabru",
+  "name": "matter-js",
+  "full_name": "liabru/matter-js",
+  "html_url": "https://github.com/liabru/matter-js",
+  "description": "a 2D rigid body physics engine for the web \u25b2\u25cf \u25a0",
+  "stars": 18629,
+  "forks": 1999,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "javascript",
+    "physics",
+    "physics-engine",
+    "rigid-bodies",
+    "web"
+  ],
+  "archived": false,
+  "commit_sha": "b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5",
+  "commit_url": "https://github.com/liabru/matter-js/commit/b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5",
+  "tree_url": "https://github.com/liabru/matter-js/tree/b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5",
+  "analysed_at": "2026-11-14T19:11:21.067003+00:00",
+  "status": "completed",
+  "files_fetched": 112,
+  "files_analysed": 110,
+  "components": [
+    "body package",
+    "collision package",
+    "Configuration and deployment",
+    "constraint package",
+    "Core modules",
+    "demo package",
+    "factory package",
+    "geometry package",
+    "module package",
+    "render package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": [
+    "demo/src/index.js",
+    "src/module/main.js"
+  ]
+}

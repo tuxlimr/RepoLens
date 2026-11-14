@@ -1,0 +1,53 @@
+{
+  "owner": "oliviertassinari",
+  "name": "react-swipeable-views",
+  "full_name": "oliviertassinari/react-swipeable-views",
+  "html_url": "https://github.com/oliviertassinari/react-swipeable-views",
+  "description": "A React component for swipeable views. :snowflake:",
+  "stars": 4466,
+  "forks": 477,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "component",
+    "react",
+    "react-native",
+    "swipe",
+    "swipeable"
+  ],
+  "archived": false,
+  "commit_sha": "c637ad7d222fce9df3b51d94453209049d442de3",
+  "commit_url": "https://github.com/oliviertassinari/react-swipeable-views/commit/c637ad7d222fce9df3b51d94453209049d442de3",
+  "tree_url": "https://github.com/oliviertassinari/react-swipeable-views/tree/c637ad7d222fce9df3b51d94453209049d442de3",
+  "analysed_at": "2026-11-14T19:14:44.553801+00:00",
+  "status": "completed",
+  "files_fetched": 166,
+  "files_analysed": 164,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "native package",
+    "packages package",
+    "pages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "native/App.js",
+    "native/index.js",
+    "native/src/App.tsx",
+    "native/src/Main.tsx",
+    "packages/react-swipeable-views-core/src/index.js",
+    "packages/react-swipeable-views-utils/src/index.js",
+    "packages/react-swipeable-views/src/index.js",
+    "pages/index.js"
+  ]
+}

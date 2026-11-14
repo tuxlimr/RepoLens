@@ -1,0 +1,36 @@
+%% Repository: index-tts/index-tts
+%% Analysed commit: d9e41aac89fd00b3d71497fddb287b7f24613712
+%% Commit reference: https://github.com/index-tts/index-tts/commit/d9e41aac89fd00b3d71497fddb287b7f24613712
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backends["backends package"]
+        cli_tests["cli_tests package"]
+        indextts["indextts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    backends -->|imports| config
+    backends -->|imports| indextts
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| indextts
+    entrypoint -->|imports| backends
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| indextts
+    indextts -->|imports| data_layer
+    indextts -->|imports| entrypoint
+    indextts -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| indextts

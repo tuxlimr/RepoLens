@@ -1,0 +1,35 @@
+%% Repository: QwenLM/Qwen3-TTS
+%% Analysed commit: 022e286b98fbec7e1e916cb940cdf532cd9f488e
+%% Commit reference: https://github.com/QwenLM/Qwen3-TTS/commit/022e286b98fbec7e1e916cb940cdf532cd9f488e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        finetuning["finetuning package"]
+        qwen_tts["qwen_tts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| qwen_tts
+    data_layer -->|imports| service_layer
+    entrypoint -->|imports| qwen_tts
+    finetuning -->|imports| data_layer
+    qwen_tts -->|imports| data_layer
+    qwen_tts -->|imports| service_layer
+    service_layer -->|imports| qwen_tts
+    tests -->|imports| external_integrations
+    tests -->|imports| qwen_tts

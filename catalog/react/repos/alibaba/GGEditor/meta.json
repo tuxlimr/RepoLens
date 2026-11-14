@@ -1,0 +1,58 @@
+{
+  "owner": "alibaba",
+  "name": "GGEditor",
+  "full_name": "alibaba/GGEditor",
+  "html_url": "https://github.com/alibaba/GGEditor",
+  "description": "A visual graph editor based on G6 and React",
+  "stars": 3402,
+  "forks": 561,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "editor",
+    "graphics",
+    "mind",
+    "react",
+    "tree"
+  ],
+  "archived": false,
+  "commit_sha": "68e4cb609a15428d93467564a31ea443e4da35c7",
+  "commit_url": "https://github.com/alibaba/GGEditor/commit/68e4cb609a15428d93467564a31ea443e4da35c7",
+  "tree_url": "https://github.com/alibaba/GGEditor/tree/68e4cb609a15428d93467564a31ea443e4da35c7",
+  "analysed_at": "2026-11-14T19:15:19.967816+00:00",
+  "status": "completed",
+  "files_fetched": 130,
+  "files_analysed": 130,
+  "components": [
+    "common package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "helpers package",
+    "index.tsx package",
+    "plugins package",
+    "scripts package",
+    "shape package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/common/CommandManager/index.ts",
+    "src/common/behaviorManager/index.ts",
+    "src/common/commandManager/index.ts",
+    "src/common/constants/index.ts",
+    "src/common/global/index.ts",
+    "src/common/interfaces/index.ts",
+    "src/common/withContext/index.tsx",
+    "src/components/Command/index.tsx",
+    "src/components/DetailPanel/index.tsx",
+    "src/components/Editor/index.tsx",
+    "src/components/EditorContext/index.tsx",
+    "src/components/Flow/index.tsx"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "owner": "mvt-project",
+  "name": "mvt",
+  "full_name": "mvt-project/mvt",
+  "html_url": "https://github.com/mvt-project/mvt",
+  "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+  "stars": 16039,
+  "forks": 1568,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "android",
+    "forensics",
+    "forensics-tools",
+    "ios",
+    "mobile",
+    "security"
+  ],
+  "archived": false,
+  "commit_sha": "c9190e05ef4c67df6407bc8b2adbd904954b9388",
+  "commit_url": "https://github.com/mvt-project/mvt/commit/c9190e05ef4c67df6407bc8b2adbd904954b9388",
+  "tree_url": "https://github.com/mvt-project/mvt/tree/c9190e05ef4c67df6407bc8b2adbd904954b9388",
+  "analysed_at": "2026-11-14T19:08:56.426171+00:00",
+  "status": "completed",
+  "files_fetched": 326,
+  "files_analysed": 326,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "mvt package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Click",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/mvt/android/__init__.py",
+    "src/mvt/android/cli.py",
+    "src/mvt/cli.py",
+    "src/mvt/common/cmd_plugins.py",
+    "src/mvt/common/completion.py",
+    "src/mvt/ios/__init__.py",
+    "src/mvt/ios/cli.py",
+    ".github/workflows/scripts/update-ios-releases.py"
+  ]
+}

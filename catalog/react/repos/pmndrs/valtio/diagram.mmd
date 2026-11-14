@@ -1,0 +1,23 @@
+%% Repository: pmndrs/valtio
+%% Analysed commit: 26d8ca8cb6e5bb3b9516d429e50bc5aab1f42e0d
+%% Commit reference: https://github.com/pmndrs/valtio/commit/26d8ca8cb6e5bb3b9516d429e50bc5aab1f42e0d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        index_ts["index.ts package"]
+        react["react package"]
+        react_ts["react.ts package"]
+        types_d_ts["types.d.ts package"]
+        utils_ts["utils.ts package"]
+        vanilla["vanilla package"]
+        vanilla_ts["vanilla.ts package"]
+        website["website package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

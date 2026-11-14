@@ -1,0 +1,25 @@
+%% Repository: pmndrs/zustand
+%% Analysed commit: 9fed2eb2f3af672da9f7bf694b996df3831fc207
+%% Commit reference: https://github.com/pmndrs/zustand/commit/9fed2eb2f3af672da9f7bf694b996df3831fc207
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        index_ts["index.ts package"]
+        middleware["middleware package"]
+        middleware_ts["middleware.ts package"]
+        react["react package"]
+        react_ts["react.ts package"]
+        shallow_ts["shallow.ts package"]
+        traditional_ts["traditional.ts package"]
+        types_d_ts["types.d.ts package"]
+        vanilla["vanilla package"]
+        vanilla_ts["vanilla.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

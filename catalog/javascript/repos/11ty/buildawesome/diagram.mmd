@@ -1,0 +1,42 @@
+%% Repository: 11ty/buildawesome
+%% Analysed commit: 3079645e6c43e5c27b486bbf58faf132f34ab4b0
+%% Commit reference: https://github.com/11ty/buildawesome/commit/3079645e6c43e5c27b486bbf58faf132f34ab4b0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmark["Benchmark package"]
+        core_js["Core.js package"]
+        corefs_js["CoreFs.js package"]
+        coreminimal_js["CoreMinimal.js package"]
+        defaultconfig_js["defaultConfig.js package"]
+        defaultconfigextended_client_js["defaultConfigExtended.client.js package"]
+        defaultconfigextended_js["defaultConfigExtended.js package"]
+        engines["Engines package"]
+        errors["Errors package"]
+        extensionmap_js["ExtensionMap.js package"]
+        files_js["Files.js package"]
+        filesystemsearch_js["FileSystemSearch.js package"]
+        filters["Filters package"]
+        globaldependencymap_js["GlobalDependencyMap.js package"]
+        layoutcache_js["LayoutCache.js package"]
+        packages["packages package"]
+        plugins["Plugins package"]
+        scripts["scripts package"]
+        util["Util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (24 merged)"]
+    %% Note: 24 smaller component(s) merged into 'other' to keep the diagram readable.

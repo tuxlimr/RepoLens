@@ -1,0 +1,28 @@
+%% Repository: AgriciDaniel/claude-obsidian
+%% Analysed commit: 2e545563172f97f02ecaaaab376ceea1246a0583
+%% Commit reference: https://github.com/AgriciDaniel/claude-obsidian/commit/2e545563172f97f02ecaaaab376ceea1246a0583
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        claude_obsidian["claude_obsidian package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    claude_obsidian -->|imports| entrypoint
+    claude_obsidian -->|imports| external_integrations
+    entrypoint -->|imports| claude_obsidian
+    scripts -->|imports| claude_obsidian
+    scripts -->|imports| entrypoint
+    tests -->|imports| claude_obsidian
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

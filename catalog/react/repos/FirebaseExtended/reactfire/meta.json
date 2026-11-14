@@ -1,0 +1,61 @@
+{
+  "owner": "FirebaseExtended",
+  "name": "reactfire",
+  "full_name": "FirebaseExtended/reactfire",
+  "html_url": "https://github.com/FirebaseExtended/reactfire",
+  "description": "Hooks, Context Providers, and Components that make it easy to interact with Firebase.",
+  "stars": 3567,
+  "forks": 402,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "firebase",
+    "firebase-js-sdk",
+    "firestore",
+    "react",
+    "react-hooks",
+    "react-suspense",
+    "realtime-database"
+  ],
+  "archived": false,
+  "commit_sha": "9b2bb79824d69ffc6368658a9569643c7013b4a1",
+  "commit_url": "https://github.com/FirebaseExtended/reactfire/commit/9b2bb79824d69ffc6368658a9569643c7013b4a1",
+  "tree_url": "https://github.com/FirebaseExtended/reactfire/tree/9b2bb79824d69ffc6368658a9569643c7013b4a1",
+  "analysed_at": "2026-11-14T19:15:13.821116+00:00",
+  "status": "completed",
+  "files_fetched": 175,
+  "files_analysed": 174,
+  "components": [
+    "auth.tsx package",
+    "Configuration and deployment",
+    "Core modules",
+    "database.tsx package",
+    "firebaseApp.tsx package",
+    "firestore.tsx package",
+    "functions package",
+    "functions.tsx package",
+    "index.ts package",
+    "performance.tsx package",
+    "remote-config.tsx package",
+    "sdk.tsx package",
+    "storage.tsx package",
+    "SuspenseSubject.ts package",
+    "telemetry.ts package",
+    "Tests",
+    "useObservable.ts package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "functions/index.js",
+    "src/index.ts"
+  ]
+}

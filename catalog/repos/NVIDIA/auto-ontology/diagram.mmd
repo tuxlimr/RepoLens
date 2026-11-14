@@ -1,0 +1,56 @@
+%% Repository: NVIDIA/auto-ontology
+%% Analysed commit: 8ff3060a29bb8cb7c301ecf3945fc0a5fab009eb
+%% Commit reference: https://github.com/NVIDIA/auto-ontology/commit/8ff3060a29bb8cb7c301ecf3945fc0a5fab009eb
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        alembic["alembic package"]
+        auto_ontology["auto_ontology package"]
+        dev_tools["dev_tools package"]
+        frontend["frontend package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    alembic -->|imports| auto_ontology
+    alembic -->|imports| data_layer
+    api_layer -->|imports| auto_ontology
+    api_layer -->|imports| data_layer
+    auto_ontology -->|imports| config
+    auto_ontology -->|imports| data_layer
+    auto_ontology -->|imports| entrypoint
+    auto_ontology -->|imports| external_integrations
+    auto_ontology -->|imports| service_layer
+    config -->|imports| auto_ontology
+    data_layer -->|imports| auto_ontology
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| auto_ontology
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| dev_tools
+    service_layer -->|imports| auto_ontology
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| entrypoint
+    tests -->|imports| api_layer
+    tests -->|imports| auto_ontology
+    tests -->|imports| data_layer
+    tests -->|imports| dev_tools
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

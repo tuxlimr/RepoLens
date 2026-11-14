@@ -1,0 +1,43 @@
+{
+  "owner": "expo",
+  "name": "create-react-native-app",
+  "full_name": "expo/create-react-native-app",
+  "html_url": "https://github.com/expo/create-react-native-app",
+  "description": "Create React Native apps that run on iOS, Android, and web",
+  "stars": 13243,
+  "forks": 1335,
+  "license": "BSD-3-Clause",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "android",
+    "create-react-native-app",
+    "ios",
+    "javascript",
+    "react-native",
+    "react-native-app",
+    "react-native-web"
+  ],
+  "archived": false,
+  "commit_sha": "3a7b11ee859c5c38fe09be58419e97a286a22c13",
+  "commit_url": "https://github.com/expo/create-react-native-app/commit/3a7b11ee859c5c38fe09be58419e97a286a22c13",
+  "tree_url": "https://github.com/expo/create-react-native-app/tree/3a7b11ee859c5c38fe09be58419e97a286a22c13",
+  "analysed_at": "2026-11-14T19:11:58.945981+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

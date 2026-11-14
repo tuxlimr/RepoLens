@@ -1,0 +1,41 @@
+{
+  "owner": "Rudrabha",
+  "name": "Wav2Lip",
+  "full_name": "Rudrabha/Wav2Lip",
+  "html_url": "https://github.com/Rudrabha/Wav2Lip",
+  "description": "This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multimedia 2020. For HD commercial model, please try out Sync Labs ",
+  "stars": 13276,
+  "forks": 2842,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "bac9a81e63ecc153202353372e5724b83d9e6322",
+  "commit_url": "https://github.com/Rudrabha/Wav2Lip/commit/bac9a81e63ecc153202353372e5724b83d9e6322",
+  "tree_url": "https://github.com/Rudrabha/Wav2Lip/tree/bac9a81e63ecc153202353372e5724b83d9e6322",
+  "analysed_at": "2026-11-14T19:09:52.836550+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "evaluation package",
+    "face_detection package"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "color_syncnet_train.py",
+    "evaluation/gen_videos_from_filelist.py",
+    "evaluation/real_videos_inference.py",
+    "hq_wav2lip_train.py",
+    "inference.py",
+    "preprocess.py",
+    "wav2lip_train.py"
+  ]
+}

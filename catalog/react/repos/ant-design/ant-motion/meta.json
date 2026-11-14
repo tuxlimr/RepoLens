@@ -1,0 +1,44 @@
+{
+  "owner": "ant-design",
+  "name": "ant-motion",
+  "full_name": "ant-design/ant-motion",
+  "html_url": "https://github.com/ant-design/ant-motion",
+  "description": "  :bicyclist: Animate specification and components of Ant Design",
+  "stars": 4630,
+  "forks": 355,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "ant-motion",
+    "javascript",
+    "motion",
+    "motion-design",
+    "react",
+    "react-animate",
+    "react-components",
+    "react-motion"
+  ],
+  "archived": false,
+  "commit_sha": "b37b07bea15927f83ec3518ca3af1fae91c1c6b5",
+  "commit_url": "https://github.com/ant-design/ant-motion/commit/b37b07bea15927f83ec3518ca3af1fae91c1c6b5",
+  "tree_url": "https://github.com/ant-design/ant-motion/tree/b37b07bea15927f83ec3518ca3af1fae91c1c6b5",
+  "analysed_at": "2026-11-14T19:14:40.702967+00:00",
+  "status": "completed",
+  "files_fetched": 147,
+  "files_analysed": 147,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "exhibition package",
+    "site package"
+  ],
+  "detections": [
+    "React",
+    "React Router"
+  ],
+  "entry_points": [
+    "site/theme/index.js"
+  ]
+}

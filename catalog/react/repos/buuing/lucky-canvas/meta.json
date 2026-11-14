@@ -1,0 +1,55 @@
+{
+  "owner": "buuing",
+  "name": "lucky-canvas",
+  "full_name": "buuing/lucky-canvas",
+  "html_url": "https://github.com/buuing/lucky-canvas",
+  "description": "\ud83c\udf96\ud83c\udf96\ud83c\udf96 \u57fa\u4e8e TS + Canvas \u5f00\u53d1\u7684\u3010\u5927\u8f6c\u76d8 / \u4e5d\u5bab\u683c / \u8001\u864e\u673a\u3011\u62bd\u5956\u63d2\u4ef6\uff0c\ud83c\udf08 \u4e00\u5957\u6e90\u7801\u9002\u914d\u591a\u7aef\u6846\u67b6 JS / Vue / React / Taro / UniApp / \u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u7b49\uff0c\ud83c\udfa8 \u5956\u54c1 / \u6587\u5b57 / \u56fe\u7247 / \u989c\u8272 / \u6309\u94ae\u5747\u53ef\u914d\u7f6e\uff0c\u652f\u6301\u540c\u6b65 / \u5f02\u6b65\u62bd\u5956\uff0c\ud83c\udfaf \u6982\u7387\u524d / \u540e\u7aef\u53ef\u63a7\uff0c\ud83d\ude80 \u81ea\u52a8\u6839\u636e dpr \u8c03\u6574\u6e05\u6670\u5ea6\u9002\u914d\u79fb\u52a8\u7aef",
+  "stars": 8785,
+  "forks": 1033,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "javascript",
+    "lucky-draw",
+    "react",
+    "taro",
+    "uni-app",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "7a8c0bbcb992a297b390e3a2ebaa1a3385c1f2f9",
+  "commit_url": "https://github.com/buuing/lucky-canvas/commit/7a8c0bbcb992a297b390e3a2ebaa1a3385c1f2f9",
+  "tree_url": "https://github.com/buuing/lucky-canvas/tree/7a8c0bbcb992a297b390e3a2ebaa1a3385c1f2f9",
+  "analysed_at": "2026-11-14T19:13:37.660591+00:00",
+  "status": "completed",
+  "files_fetched": 206,
+  "files_analysed": 206,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "Vue",
+    "Jest",
+    "TypeScript",
+    "Vite",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/core/index.js",
+    "packages/core/src/index.ts",
+    "packages/react/src/app.js",
+    "packages/react/src/index.js",
+    "packages/taro/react/index.js",
+    "packages/taro/utils/index.js",
+    "packages/taro/vue/index.js",
+    "packages/vue/index.js",
+    "packages/vue/src/index.ts",
+    "website/src/main.js"
+  ]
+}

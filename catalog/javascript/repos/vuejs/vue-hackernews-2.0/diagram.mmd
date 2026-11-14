@@ -1,0 +1,23 @@
+%% Repository: vuejs/vue-hackernews-2.0
+%% Analysed commit: 98399b55c6f1da4197840ba76189795b3e95be0f
+%% Commit reference: https://github.com/vuejs/vue-hackernews-2.0/commit/98399b55c6f1da4197840ba76189795b3e95be0f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app_js["app.js package"]
+        app_vue["App.vue package"]
+        components["components package"]
+        entry_client_js["entry-client.js package"]
+        entry_server_js["entry-server.js package"]
+        router["router package"]
+        store["store package"]
+        util["util package"]
+    end

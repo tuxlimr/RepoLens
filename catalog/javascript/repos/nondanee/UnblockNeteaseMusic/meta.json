@@ -1,0 +1,52 @@
+{
+  "owner": "nondanee",
+  "name": "UnblockNeteaseMusic",
+  "full_name": "nondanee/UnblockNeteaseMusic",
+  "html_url": "https://github.com/nondanee/UnblockNeteaseMusic",
+  "description": "Revive unavailable songs for Netease Cloud Music",
+  "stars": 17326,
+  "forks": 2431,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "netease-cloud-music",
+    "proxy-server",
+    "unblocker"
+  ],
+  "archived": false,
+  "commit_sha": "b8d5f4b4fe59cef9c021b99f3cf2606d99fa4790",
+  "commit_url": "https://github.com/nondanee/UnblockNeteaseMusic/commit/b8d5f4b4fe59cef9c021b99f3cf2606d99fa4790",
+  "tree_url": "https://github.com/nondanee/UnblockNeteaseMusic/tree/b8d5f4b4fe59cef9c021b99f3cf2606d99fa4790",
+  "analysed_at": "2026-11-14T19:11:27.999102+00:00",
+  "status": "completed",
+  "files_fetched": 47,
+  "files_analysed": 46,
+  "components": [
+    "app.js package",
+    "bridge.js package",
+    "browser package",
+    "cache.js package",
+    "cli.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "crypto.js package",
+    "hook.js package",
+    "kwDES.js package",
+    "provider package",
+    "request.js package",
+    "server.js package",
+    "sni.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "src/provider/match.js",
+    "app.js",
+    "src/app.js",
+    "src/server.js"
+  ]
+}

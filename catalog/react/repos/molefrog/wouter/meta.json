@@ -1,0 +1,49 @@
+{
+  "owner": "molefrog",
+  "name": "wouter",
+  "full_name": "molefrog/wouter",
+  "html_url": "https://github.com/molefrog/wouter",
+  "description": "\ud83e\udd62 A minimalist-friendly ~2.2KB routing for React and Preact",
+  "stars": 7919,
+  "forks": 193,
+  "license": "Unlicense",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "hacktoberfest",
+    "microlibrary",
+    "preact",
+    "react",
+    "react-hooks",
+    "react-router",
+    "router",
+    "typescript",
+    "zero-dependency"
+  ],
+  "archived": false,
+  "commit_sha": "51b55c0dc1b2a16ca07954b8728b395325598d93",
+  "commit_url": "https://github.com/molefrog/wouter/commit/51b55c0dc1b2a16ca07954b8728b395325598d93",
+  "tree_url": "https://github.com/molefrog/wouter/tree/51b55c0dc1b2a16ca07954b8728b395325598d93",
+  "analysed_at": "2026-11-14T19:13:43.464807+00:00",
+  "status": "completed",
+  "files_fetched": 108,
+  "files_analysed": 108,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/wouter/src/index.js",
+    "packages/magazin/App.tsx",
+    "packages/magazin/index.tsx"
+  ]
+}

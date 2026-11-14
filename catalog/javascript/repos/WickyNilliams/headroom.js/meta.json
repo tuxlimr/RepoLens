@@ -1,0 +1,38 @@
+{
+  "owner": "WickyNilliams",
+  "name": "headroom.js",
+  "full_name": "WickyNilliams/headroom.js",
+  "html_url": "https://github.com/WickyNilliams/headroom.js",
+  "description": "Give your pages some headroom. Hide your header until you need it",
+  "stars": 10840,
+  "forks": 794,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "0f53fc75f41b0025a80b6075bcdd0d1ea51478be",
+  "commit_url": "https://github.com/WickyNilliams/headroom.js/commit/0f53fc75f41b0025a80b6075bcdd0d1ea51478be",
+  "tree_url": "https://github.com/WickyNilliams/headroom.js/tree/0f53fc75f41b0025a80b6075bcdd0d1ea51478be",
+  "analysed_at": "2026-11-14T19:12:30.383864+00:00",
+  "status": "completed",
+  "files_fetched": 22,
+  "files_analysed": 21,
+  "components": [
+    "angular.headroom.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "cypress package",
+    "External integrations",
+    "features.js package",
+    "Headroom.js package",
+    "jQuery.headroom.js package",
+    "scroller.js package",
+    "trackScroll.js package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "cypress/plugins/index.js",
+    "cypress/support/index.js"
+  ]
+}

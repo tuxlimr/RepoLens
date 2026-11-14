@@ -1,0 +1,52 @@
+%% Repository: LAION-AI/Open-Assistant
+%% Analysed commit: f1e6ed9526f5817531f3ab85441a40b3671ddccb
+%% Commit reference: https://github.com/LAION-AI/Open-Assistant/commit/f1e6ed9526f5817531f3ab85441a40b3671ddccb
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        deploy["deploy package"]
+        discord_bots["discord-bots package"]
+        docker["docker package"]
+        inference["inference package"]
+        model["model package"]
+        oasst_data["oasst-data package"]
+        oasst_shared["oasst-shared package"]
+        scripts["scripts package"]
+        website["website package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    backend -->|imports| data_layer
+    backend -->|imports| external_integrations
+    data_layer -->|imports| backend
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| inference
+    discord_bots -->|imports| data_layer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    external_integrations -->|imports| data_layer
+    inference -->|imports| data_layer
+    inference -->|imports| external_integrations
+    model -->|imports| external_integrations
+    oasst_data -->|imports| data_layer
+    tests -->|imports| external_integrations

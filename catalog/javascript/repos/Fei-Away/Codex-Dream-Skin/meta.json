@@ -1,0 +1,34 @@
+{
+  "owner": "Fei-Away",
+  "name": "Codex-Dream-Skin",
+  "full_name": "Fei-Away/Codex-Dream-Skin",
+  "html_url": "https://github.com/Fei-Away/Codex-Dream-Skin",
+  "description": "Codex Dream Skin",
+  "stars": 15410,
+  "forks": 1395,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6fc42df48a6a5365011f55cc349e20c038e56d1d",
+  "commit_url": "https://github.com/Fei-Away/Codex-Dream-Skin/commit/6fc42df48a6a5365011f55cc349e20c038e56d1d",
+  "tree_url": "https://github.com/Fei-Away/Codex-Dream-Skin/tree/6fc42df48a6a5365011f55cc349e20c038e56d1d",
+  "analysed_at": "2026-11-14T19:11:40.318093+00:00",
+  "status": "completed",
+  "files_fetched": 266,
+  "files_analysed": 266,
+  "components": [
+    "Configuration and deployment",
+    "macos package",
+    "runtime package",
+    "Service / domain layer",
+    "Tests",
+    "tools package",
+    "windows package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,22 @@
+%% Repository: e2b-dev/fragments
+%% Analysed commit: 3b11c7fcd4dcc37b2f1effde35960cf6ec4bd3c7
+%% Commit reference: https://github.com/e2b-dev/fragments/commit/3b11c7fcd4dcc37b2f1effde35960cf6ec4bd3c7
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        lib["lib package"]
+        sandbox_templates["sandbox-templates package"]
+    end

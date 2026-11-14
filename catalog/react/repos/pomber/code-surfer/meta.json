@@ -1,0 +1,50 @@
+{
+  "owner": "pomber",
+  "name": "code-surfer",
+  "full_name": "pomber/code-surfer",
+  "html_url": "https://github.com/pomber/code-surfer",
+  "description": "Rad code slides <\ud83c\udfc4/>",
+  "stars": 6366,
+  "forks": 174,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "code",
+    "deck",
+    "keynote",
+    "markdown",
+    "mdx",
+    "mdx-deck",
+    "presentation",
+    "react",
+    "slides",
+    "syntax",
+    "syntax-highlighting"
+  ],
+  "archived": false,
+  "commit_sha": "948452f7c1c8adaf019e29600d7d158747a91a90",
+  "commit_url": "https://github.com/pomber/code-surfer/commit/948452f7c1c8adaf019e29600d7d158747a91a90",
+  "tree_url": "https://github.com/pomber/code-surfer/tree/948452f7c1c8adaf019e29600d7d158747a91a90",
+  "analysed_at": "2026-11-14T19:14:07.571060+00:00",
+  "status": "completed",
+  "files_fetched": 178,
+  "files_analysed": 178,
+  "components": [
+    "Configuration and deployment",
+    "packs package",
+    "sites package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packs/code-surfer/src/index.ts",
+    "packs/standalone/src/index.tsx",
+    "packs/step-parser/src/index.ts",
+    "packs/themes/src/index.ts",
+    "sites/book/src/index.js"
+  ]
+}

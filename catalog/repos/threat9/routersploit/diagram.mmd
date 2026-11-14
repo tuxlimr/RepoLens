@@ -1,0 +1,36 @@
+%% Repository: threat9/routersploit
+%% Analysed commit: 723b574c36ae202857e3f93e4f3c2ab9a1638ed4
+%% Commit reference: https://github.com/threat9/routersploit/commit/723b574c36ae202857e3f93e4f3c2ab9a1638ed4
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        routersploit["routersploit package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| routersploit
+    api_layer -->|imports| service_layer
+    entrypoint -->|imports| routersploit
+    external_integrations -->|imports| service_layer
+    routersploit -->|imports| external_integrations
+    routersploit -->|imports| service_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| routersploit
+    tests -->|imports| routersploit
+    tests -->|imports| service_layer

@@ -1,0 +1,48 @@
+{
+  "owner": "paularmstrong",
+  "name": "normalizr",
+  "full_name": "paularmstrong/normalizr",
+  "html_url": "https://github.com/paularmstrong/normalizr",
+  "description": "Normalizes nested JSON according to a schema",
+  "stars": 20778,
+  "forks": 851,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "api",
+    "flux",
+    "javascript",
+    "json",
+    "normalize",
+    "normalizr",
+    "reactjs",
+    "redux"
+  ],
+  "archived": true,
+  "commit_sha": "c2ab080641c7ebc6f5dc085a4ac074947f48ca58",
+  "commit_url": "https://github.com/paularmstrong/normalizr/commit/c2ab080641c7ebc6f5dc085a4ac074947f48ca58",
+  "tree_url": "https://github.com/paularmstrong/normalizr/tree/c2ab080641c7ebc6f5dc085a4ac074947f48ca58",
+  "analysed_at": "2026-11-14T19:11:12.318178+00:00",
+  "status": "completed",
+  "files_fetched": 86,
+  "files_analysed": 86,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "schemas package",
+    "__tests__ package",
+    "typescript-tests package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redux",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "examples/redux/index.js",
+    "src/index.js"
+  ]
+}

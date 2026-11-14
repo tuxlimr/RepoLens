@@ -1,0 +1,41 @@
+{
+  "owner": "dimsemenov",
+  "name": "PhotoSwipe",
+  "full_name": "dimsemenov/PhotoSwipe",
+  "html_url": "https://github.com/dimsemenov/PhotoSwipe",
+  "description": "JavaScript image gallery for mobile and desktop, modular, framework independent",
+  "stars": 25302,
+  "forks": 3266,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "gallery",
+    "image",
+    "javascript",
+    "lightbox"
+  ],
+  "archived": false,
+  "commit_sha": "cd41cb587a460634e4cae53134f3d01d06e284a6",
+  "commit_url": "https://github.com/dimsemenov/PhotoSwipe/commit/cd41cb587a460634e4cae53134f3d01d06e284a6",
+  "tree_url": "https://github.com/dimsemenov/PhotoSwipe/tree/cd41cb587a460634e4cae53134f3d01d06e284a6",
+  "analysed_at": "2026-11-14T19:11:00.560308+00:00",
+  "status": "completed",
+  "files_fetched": 159,
+  "files_analysed": 118,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo-docs-website package",
+    "js package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "demo-docs-website/src/pages/index.js"
+  ]
+}

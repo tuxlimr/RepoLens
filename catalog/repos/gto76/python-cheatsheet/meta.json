@@ -1,0 +1,40 @@
+{
+  "owner": "gto76",
+  "name": "python-cheatsheet",
+  "full_name": "gto76/python-cheatsheet",
+  "html_url": "https://github.com/gto76/python-cheatsheet",
+  "description": "Comprehensive Python Cheatsheet",
+  "stars": 38927,
+  "forks": 6682,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "cheatsheet",
+    "python",
+    "python-cheatsheet",
+    "reference"
+  ],
+  "archived": false,
+  "commit_sha": "f2ace2d90ea2f153d7f47edc368586ce8f15d8d7",
+  "commit_url": "https://github.com/gto76/python-cheatsheet/commit/f2ace2d90ea2f153d7f47edc368586ce8f15d8d7",
+  "tree_url": "https://github.com/gto76/python-cheatsheet/tree/f2ace2d90ea2f153d7f47edc368586ce8f15d8d7",
+  "analysed_at": "2026-11-14T19:06:46.958567+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 37,
+  "components": [
+    "Core modules",
+    "Application entry point",
+    "web package"
+  ],
+  "detections": [
+    "pandas"
+  ],
+  "entry_points": [
+    "pdf/create_index.py",
+    "pdf/remove_links.py",
+    "web/convert_table.py",
+    "web/update_plots.py"
+  ]
+}

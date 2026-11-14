@@ -1,0 +1,41 @@
+%% Repository: huggingface/speech-to-speech
+%% Analysed commit: d1dc31deab44510188ffcd7edfc87203ed9077fb
+%% Commit reference: https://github.com/huggingface/speech-to-speech/commit/d1dc31deab44510188ffcd7edfc87203ed9077fb
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        archive["archive package"]
+        demo["demo package"]
+        speech_to_speech["speech_to_speech package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| speech_to_speech
+    archive -->|imports| speech_to_speech
+    config -->|imports| api_layer
+    config -->|imports| speech_to_speech
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| archive
+    entrypoint -->|imports| config
+    entrypoint -->|imports| speech_to_speech
+    speech_to_speech -->|imports| api_layer
+    speech_to_speech -->|imports| config
+    speech_to_speech -->|imports| entrypoint
+    speech_to_speech -->|imports| external_integrations
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| speech_to_speech

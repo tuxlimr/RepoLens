@@ -1,0 +1,25 @@
+%% Repository: GoogleChrome/workbox
+%% Analysed commit: 4ea3138a120fd2c87389b54130e25f47e0fd7089
+%% Commit reference: https://github.com/GoogleChrome/workbox/commit/4ea3138a120fd2c87389b54130e25f47e0fd7089
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        demos["demos package"]
+        gulp_tasks["gulp-tasks package"]
+        infra["infra package"]
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

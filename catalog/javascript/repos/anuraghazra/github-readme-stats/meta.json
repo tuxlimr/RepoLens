@@ -1,0 +1,54 @@
+{
+  "owner": "anuraghazra",
+  "name": "github-readme-stats",
+  "full_name": "anuraghazra/github-readme-stats",
+  "html_url": "https://github.com/anuraghazra/github-readme-stats",
+  "description": ":zap: Dynamically generated stats for your github readmes",
+  "stars": 79842,
+  "forks": 38282,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "dynamic",
+    "profile-readme",
+    "readme-generator",
+    "readme-stats",
+    "serverless"
+  ],
+  "archived": false,
+  "commit_sha": "54a7985aeefda00d5eadb55b80c17c7f976c37d2",
+  "commit_url": "https://github.com/anuraghazra/github-readme-stats/commit/54a7985aeefda00d5eadb55b80c17c7f976c37d2",
+  "tree_url": "https://github.com/anuraghazra/github-readme-stats/tree/54a7985aeefda00d5eadb55b80c17c7f976c37d2",
+  "analysed_at": "2026-11-14T19:10:33.175516+00:00",
+  "status": "completed",
+  "files_fetched": 131,
+  "files_analysed": 131,
+  "components": [
+    "API layer",
+    "calculateRank.js package",
+    "cards package",
+    "common package",
+    "Configuration and deployment",
+    "Core modules",
+    "fetchers package",
+    "index.js package",
+    "scripts package",
+    "Tests",
+    "themes package",
+    "translations.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "axios",
+    "Jest"
+  ],
+  "entry_points": [
+    "src/index.js",
+    "api/index.js",
+    "src/cards/index.js",
+    "src/common/index.js",
+    "themes/index.js"
+  ]
+}

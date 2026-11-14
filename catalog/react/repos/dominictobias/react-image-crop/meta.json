@@ -1,0 +1,46 @@
+{
+  "owner": "dominictobias",
+  "name": "react-image-crop",
+  "full_name": "dominictobias/react-image-crop",
+  "html_url": "https://github.com/dominictobias/react-image-crop",
+  "description": "A responsive image cropping tool for React",
+  "stars": 4108,
+  "forks": 346,
+  "license": "ISC",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "crop-image",
+    "javascript",
+    "react",
+    "responsive"
+  ],
+  "archived": false,
+  "commit_sha": "2cd4d49b36ec9a29a63b27394ec29ade5646dc99",
+  "commit_url": "https://github.com/dominictobias/react-image-crop/commit/2cd4d49b36ec9a29a63b27394ec29ade5646dc99",
+  "tree_url": "https://github.com/dominictobias/react-image-crop/tree/2cd4d49b36ec9a29a63b27394ec29ade5646dc99",
+  "analysed_at": "2026-11-14T19:14:53.291985+00:00",
+  "status": "completed",
+  "files_fetched": 27,
+  "files_analysed": 26,
+  "components": [
+    "addons package",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "index.ts package",
+    "ReactCrop.tsx package",
+    "types.ts package",
+    "utils.ts package",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/demo/index.tsx",
+    "src/index.ts"
+  ]
+}

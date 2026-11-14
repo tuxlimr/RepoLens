@@ -1,0 +1,44 @@
+{
+  "owner": "deepseek-ai",
+  "name": "DeepSeek-Coder",
+  "full_name": "deepseek-ai/DeepSeek-Coder",
+  "html_url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+  "description": "DeepSeek Coder: Let the Code Write Itself",
+  "stars": 24371,
+  "forks": 2956,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "2f9fd85927c669dae3c0fbb2d607274023af243e",
+  "commit_url": "https://github.com/deepseek-ai/DeepSeek-Coder/commit/2f9fd85927c669dae3c0fbb2d607274023af243e",
+  "tree_url": "https://github.com/deepseek-ai/DeepSeek-Coder/tree/2f9fd85927c669dae3c0fbb2d607274023af243e",
+  "analysed_at": "2026-11-14T19:07:40.442618+00:00",
+  "status": "completed",
+  "files_fetched": 57,
+  "files_analysed": 57,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "Evaluation package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas"
+  ],
+  "entry_points": [
+    "Evaluation/HumanEval/eval_instruct.py",
+    "Evaluation/HumanEval/eval_pal.py",
+    "Evaluation/LeetCode/evaluate_leetcode.py",
+    "Evaluation/LeetCode/vllm_inference.py",
+    "Evaluation/MBPP/eval_instruct.py",
+    "Evaluation/MBPP/eval_pal.py",
+    "Evaluation/PAL-Math/run.py",
+    "Evaluation/PAL-Math/utils/grader.py",
+    "Evaluation/PAL-Math/utils/python_executor.py",
+    "demo/app.py",
+    "finetune/finetune_deepseekcoder.py"
+  ]
+}

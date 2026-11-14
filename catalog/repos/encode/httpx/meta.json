@@ -1,0 +1,45 @@
+{
+  "owner": "encode",
+  "name": "httpx",
+  "full_name": "encode/httpx",
+  "html_url": "https://github.com/encode/httpx",
+  "description": "A next generation HTTP client for Python. \ud83e\udd8b",
+  "stars": 15788,
+  "forks": 1878,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "asyncio",
+    "http",
+    "python",
+    "trio"
+  ],
+  "archived": false,
+  "commit_sha": "b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+  "commit_url": "https://github.com/encode/httpx/commit/b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+  "tree_url": "https://github.com/encode/httpx/tree/b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+  "analysed_at": "2026-11-14T19:08:59.037446+00:00",
+  "status": "completed",
+  "files_fetched": 114,
+  "files_analysed": 112,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "httpx package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "httpx",
+    "Uvicorn",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "httpx/__init__.py",
+    "httpx/_main.py"
+  ]
+}

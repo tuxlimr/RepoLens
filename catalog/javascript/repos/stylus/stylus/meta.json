@@ -1,0 +1,46 @@
+{
+  "owner": "stylus",
+  "name": "stylus",
+  "full_name": "stylus/stylus",
+  "html_url": "https://github.com/stylus/stylus",
+  "description": "Expressive, robust, feature-rich CSS language built for nodejs",
+  "stars": 11322,
+  "forks": 1138,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [
+    "css",
+    "preprocessor",
+    "styl",
+    "stylus"
+  ],
+  "archived": false,
+  "commit_sha": "2e11b972a56d6e41c1408254e60e3d6fb76356d8",
+  "commit_url": "https://github.com/stylus/stylus/commit/2e11b972a56d6e41c1408254e60e3d6fb76356d8",
+  "tree_url": "https://github.com/stylus/stylus/tree/2e11b972a56d6e41c1408254e60e3d6fb76356d8",
+  "analysed_at": "2026-11-14T19:12:19.233065+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 793,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "deno package",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/stylus",
+    "lib/cache/index.js",
+    "lib/functions/index.js",
+    "lib/nodes/index.js",
+    "lib/stack/index.js",
+    "lib/visitor/index.js"
+  ]
+}

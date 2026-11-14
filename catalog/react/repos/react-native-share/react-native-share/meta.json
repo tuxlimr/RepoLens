@@ -1,0 +1,58 @@
+{
+  "owner": "react-native-share",
+  "name": "react-native-share",
+  "full_name": "react-native-share/react-native-share",
+  "html_url": "https://github.com/react-native-share/react-native-share",
+  "description": "Social share, sending simple data to other apps.",
+  "stars": 3896,
+  "forks": 969,
+  "license": "MIT",
+  "language": "Java",
+  "default_branch": "main",
+  "topics": [
+    "android",
+    "bridge",
+    "intent",
+    "ios",
+    "react",
+    "react-native",
+    "share",
+    "uwp"
+  ],
+  "archived": false,
+  "commit_sha": "0df4a3cd0a616fe9b9a3f7b30a3d070f62037e64",
+  "commit_url": "https://github.com/react-native-share/react-native-share/commit/0df4a3cd0a616fe9b9a3f7b30a3d070f62037e64",
+  "tree_url": "https://github.com/react-native-share/react-native-share/tree/0df4a3cd0a616fe9b9a3f7b30a3d070f62037e64",
+  "analysed_at": "2026-11-14T19:15:02.707660+00:00",
+  "status": "completed",
+  "files_fetched": 200,
+  "files_analysed": 200,
+  "components": [
+    "android package",
+    "codegenSpec package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "helpers package",
+    "include package",
+    "index.tsx package",
+    "ios package",
+    "plugin package",
+    "spm-headers package",
+    "Tests",
+    "types.ts package",
+    "website package",
+    "windows package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "plugin/src/index.ts",
+    "src/index.tsx",
+    "website/src/pages/index.js"
+  ]
+}

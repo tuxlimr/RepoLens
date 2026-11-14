@@ -1,0 +1,53 @@
+{
+  "owner": "petyosi",
+  "name": "react-virtuoso",
+  "full_name": "petyosi/react-virtuoso",
+  "html_url": "https://github.com/petyosi/react-virtuoso",
+  "description": "The most powerful virtual list component for React",
+  "stars": 6491,
+  "forks": 368,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "chat",
+    "component-library",
+    "feed",
+    "hacktoberfest",
+    "react",
+    "virtual",
+    "virtualizedlist"
+  ],
+  "archived": false,
+  "commit_sha": "cb6c1941d340b2d66ffeea830620cbaf7db3c3c5",
+  "commit_url": "https://github.com/petyosi/react-virtuoso/commit/cb6c1941d340b2d66ffeea830620cbaf7db3c3c5",
+  "tree_url": "https://github.com/petyosi/react-virtuoso/tree/cb6c1941d340b2d66ffeea830620cbaf7db3c3c5",
+  "analysed_at": "2026-11-14T19:14:05.046307+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "External integrations",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/data-table/src/index.ts",
+    "packages/gurx/src/index.ts",
+    "packages/masonry/src/index.ts",
+    "packages/react-virtuoso/src/index.tsx",
+    "packages/reactive-engine-core/src/index.ts"
+  ]
+}

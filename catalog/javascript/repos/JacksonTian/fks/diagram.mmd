@@ -1,0 +1,20 @@
+%% Repository: JacksonTian/fks
+%% Analysed commit: 54722627d64b3b8918f4f4cf73752d3675dae99e
+%% Commit reference: https://github.com/JacksonTian/fks/commit/54722627d64b3b8918f4f4cf73752d3675dae99e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        fks_chart["fks_chart package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

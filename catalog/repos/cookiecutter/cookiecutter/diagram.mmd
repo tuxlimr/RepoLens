@@ -1,0 +1,26 @@
+%% Repository: cookiecutter/cookiecutter
+%% Analysed commit: c88fbe921c97c58b65f1883ba90a0ab53cc91b34
+%% Commit reference: https://github.com/cookiecutter/cookiecutter/commit/c88fbe921c97c58b65f1883ba90a0ab53cc91b34
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cookiecutter["cookiecutter package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| cookiecutter
+    cookiecutter -->|imports| external_integrations
+    entrypoint -->|imports| config
+    entrypoint -->|imports| cookiecutter
+    tests -->|imports| config
+    tests -->|imports| cookiecutter
+    tests -->|imports| entrypoint

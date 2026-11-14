@@ -1,0 +1,99 @@
+%% Repository: zhayujie/CowAgent
+%% Analysed commit: fd75a33d862fe7ea9dec2fa1c0a27f92f181985d
+%% Commit reference: https://github.com/zhayujie/CowAgent/commit/fd75a33d862fe7ea9dec2fa1c0a27f92f181985d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        agent["agent package"]
+        bridge["bridge package"]
+        channel["channel package"]
+        cli["cli package"]
+        common["common package"]
+        desktop["desktop package"]
+        docker["docker package"]
+        plugins["plugins package"]
+        translate["translate package"]
+        voice["voice package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    agent -->|imports| api_layer
+    agent -->|imports| bridge
+    agent -->|imports| channel
+    agent -->|imports| common
+    agent -->|imports| config
+    agent -->|imports| data_layer
+    agent -->|imports| entrypoint
+    agent -->|imports| external_integrations
+    agent -->|imports| service_layer
+    api_layer -->|imports| agent
+    api_layer -->|imports| bridge
+    api_layer -->|imports| channel
+    api_layer -->|imports| cli
+    api_layer -->|imports| common
+    api_layer -->|imports| config
+    api_layer -->|imports| entrypoint
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| service_layer
+    bridge -->|imports| agent
+    bridge -->|imports| common
+    bridge -->|imports| config
+    bridge -->|imports| translate
+    channel -->|imports| agent
+    channel -->|imports| api_layer
+    channel -->|imports| bridge
+    channel -->|imports| common
+    channel -->|imports| config
+    channel -->|imports| external_integrations
+    channel -->|imports| plugins
+    channel -->|imports| service_layer
+    cli -->|imports| agent
+    cli -->|imports| common
+    cli -->|imports| config
+    cli -->|imports| entrypoint
+    cli -->|imports| external_integrations
+    common -->|imports| agent
+    common -->|imports| config
+    common -->|imports| external_integrations
+    config -->|imports| agent
+    config -->|imports| cli
+    config -->|imports| common
+    entrypoint -->|imports| agent
+    entrypoint -->|imports| bridge
+    entrypoint -->|imports| channel
+    entrypoint -->|imports| cli
+    entrypoint -->|imports| common
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| plugins
+    external_integrations -->|imports| agent
+    external_integrations -->|imports| api_layer
+    external_integrations -->|imports| bridge
+    external_integrations -->|imports| channel
+    external_integrations -->|imports| common
+    external_integrations -->|imports| config
+    external_integrations -->|imports| plugins
+    external_integrations -->|imports| service_layer
+    service_layer -->|imports| agent
+    service_layer -->|imports| api_layer
+    service_layer -->|imports| bridge
+    service_layer -->|imports| channel
+    service_layer -->|imports| common
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations

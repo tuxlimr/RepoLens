@@ -1,0 +1,42 @@
+{
+  "owner": "youfou",
+  "name": "wxpy",
+  "full_name": "youfou/wxpy",
+  "html_url": "https://github.com/youfou/wxpy",
+  "description": "\u5fae\u4fe1\u673a\u5668\u4eba / \u53ef\u80fd\u662f\u6700\u4f18\u96c5\u7684\u5fae\u4fe1\u4e2a\u4eba\u53f7 API \u2728\u2728",
+  "stars": 14252,
+  "forks": 2349,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "api",
+    "wechat",
+    "weixin"
+  ],
+  "archived": true,
+  "commit_sha": "ab63e12da822dc85615fa203e5be9fa28ae0b59f",
+  "commit_url": "https://github.com/youfou/wxpy/commit/ab63e12da822dc85615fa203e5be9fa28ae0b59f",
+  "tree_url": "https://github.com/youfou/wxpy/tree/ab63e12da822dc85615fa203e5be9fa28ae0b59f",
+  "analysed_at": "2026-11-14T19:09:30.743422+00:00",
+  "status": "completed",
+  "files_fetched": 75,
+  "files_analysed": 75,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "wxpy package"
+  ],
+  "detections": [
+    "requests",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "wxpy/__main__.py",
+    "wxpy/utils/__init__.py"
+  ]
+}

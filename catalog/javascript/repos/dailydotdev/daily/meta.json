@@ -1,0 +1,49 @@
+{
+  "owner": "dailydotdev",
+  "name": "daily",
+  "full_name": "dailydotdev/daily",
+  "html_url": "https://github.com/dailydotdev/daily",
+  "description": "daily.dev is the personalized developer news feed and community. Get the best tech content from all over the web in your browser new tab or on mobile. Free and open source.",
+  "stars": 20137,
+  "forks": 575,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "ai-news",
+    "browser-extension",
+    "chrome-extension",
+    "community",
+    "developer-marketing",
+    "developer-news",
+    "developer-portal",
+    "developer-tools",
+    "edge-extension",
+    "hacker-news-alternative",
+    "news-aggregator",
+    "news-feed",
+    "news-feed-aggregator",
+    "newsfeed",
+    "professional-networking",
+    "pwa",
+    "tech-news",
+    "tech-newsletters",
+    "vibe-coding-friendly"
+  ],
+  "archived": false,
+  "commit_sha": "07eebd36a8a683ee9f0c28d75545f3824b58f2a8",
+  "commit_url": "https://github.com/dailydotdev/daily/commit/07eebd36a8a683ee9f0c28d75545f3824b58f2a8",
+  "tree_url": "https://github.com/dailydotdev/daily/tree/07eebd36a8a683ee9f0c28d75545f3824b58f2a8",
+  "analysed_at": "2026-11-14T19:11:14.665714+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

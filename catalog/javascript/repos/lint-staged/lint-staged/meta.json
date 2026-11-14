@@ -1,0 +1,49 @@
+{
+  "owner": "lint-staged",
+  "name": "lint-staged",
+  "full_name": "lint-staged/lint-staged",
+  "html_url": "https://github.com/lint-staged/lint-staged",
+  "description": "\ud83d\udeab\ud83d\udca9 \u2014 Run tasks like formatters and linters against files staged in Git",
+  "stars": 14761,
+  "forks": 482,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "developer-experience",
+    "eslint",
+    "git",
+    "linter",
+    "precommit",
+    "precommit-hooks",
+    "stage-files",
+    "stylelint",
+    "workflow"
+  ],
+  "archived": false,
+  "commit_sha": "49b5472587a6ad112bb32fe1ea3d4c324f2e2ecc",
+  "commit_url": "https://github.com/lint-staged/lint-staged/commit/49b5472587a6ad112bb32fe1ea3d4c324f2e2ecc",
+  "tree_url": "https://github.com/lint-staged/lint-staged/tree/49b5472587a6ad112bb32fe1ea3d4c324f2e2ecc",
+  "analysed_at": "2026-11-14T19:11:42.915084+00:00",
+  "status": "completed",
+  "files_fetched": 182,
+  "files_analysed": 181,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "bin/lint-staged.js",
+    "test/unit/__mocks__/my-lint-staged-config/index.cjs",
+    "lib/index.js"
+  ]
+}

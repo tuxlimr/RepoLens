@@ -1,0 +1,58 @@
+{
+  "owner": "bernaferrari",
+  "name": "FigmaToCode",
+  "full_name": "bernaferrari/FigmaToCode",
+  "html_url": "https://github.com/bernaferrari/FigmaToCode",
+  "description": "Generate responsive pages and apps on HTML, Tailwind, Flutter and SwiftUI.",
+  "stars": 5269,
+  "forks": 508,
+  "license": "GPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "conversion",
+    "figma",
+    "figma-plugins",
+    "flutter",
+    "html",
+    "react",
+    "responsive",
+    "shadcn-ui",
+    "svelte",
+    "swift",
+    "swiftui",
+    "tailwind",
+    "tailwindcss",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "f5c4831d5de6cffc19a73fe2823c56b4bb551281",
+  "commit_url": "https://github.com/bernaferrari/FigmaToCode/commit/f5c4831d5de6cffc19a73fe2823c56b4bb551281",
+  "tree_url": "https://github.com/bernaferrari/FigmaToCode/tree/f5c4831d5de6cffc19a73fe2823c56b4bb551281",
+  "analysed_at": "2026-11-14T19:14:22.961949+00:00",
+  "status": "completed",
+  "files_fetched": 189,
+  "files_analysed": 188,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/backend/src/index.ts",
+    "packages/plugin-ui/src/index.tsx",
+    "packages/types/src/index.ts",
+    "apps/plugin/ui-src/App.tsx",
+    "apps/plugin/ui-src/main.tsx",
+    "apps/web/app/page.tsx"
+  ]
+}

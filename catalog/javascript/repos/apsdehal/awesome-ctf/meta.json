@@ -1,0 +1,32 @@
+{
+  "owner": "apsdehal",
+  "name": "awesome-ctf",
+  "full_name": "apsdehal/awesome-ctf",
+  "html_url": "https://github.com/apsdehal/awesome-ctf",
+  "description": "A curated list of CTF frameworks, libraries, resources and softwares",
+  "stars": 11998,
+  "forks": 1620,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "ctf",
+    "penetration",
+    "security"
+  ],
+  "archived": false,
+  "commit_sha": "eb504b242be3918cbd46e1a5a6274671f477071f",
+  "commit_url": "https://github.com/apsdehal/awesome-ctf/commit/eb504b242be3918cbd46e1a5a6274671f477071f",
+  "tree_url": "https://github.com/apsdehal/awesome-ctf/tree/eb504b242be3918cbd46e1a5a6274671f477071f",
+  "analysed_at": "2026-11-14T19:12:11.610314+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": []
+}

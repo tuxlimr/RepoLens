@@ -1,0 +1,39 @@
+%% Repository: anthropics/claude-quickstarts
+%% Analysed commit: 4a4224bdf0e9cfb3332167b69c90457403813625
+%% Commit reference: https://github.com/anthropics/claude-quickstarts/commit/4a4224bdf0e9cfb3332167b69c90457403813625
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        agents["agents package"]
+        autonomous_coding["autonomous-coding package"]
+        browser_toolset["browser-toolset package"]
+        browser_use_demo["browser-use-demo package"]
+        computer_toolset["computer-toolset package"]
+        computer_use_best_practices["computer-use-best-practices package"]
+        computer_use_demo["computer-use-demo package"]
+        customer_support_agent["customer-support-agent package"]
+        financial_data_analyst["financial-data-analyst package"]
+        managed_agents["managed-agents package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    computer_toolset -->|imports| external_integrations
+    computer_use_demo -->|imports| entrypoint
+    entrypoint -->|imports| computer_use_best_practices
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| managed_agents
+    managed_agents -->|imports| config
+    managed_agents -->|imports| external_integrations
+    tests -->|imports| agents

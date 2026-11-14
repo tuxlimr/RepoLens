@@ -1,0 +1,53 @@
+{
+  "owner": "deezer",
+  "name": "spleeter",
+  "full_name": "deezer/spleeter",
+  "html_url": "https://github.com/deezer/spleeter",
+  "description": "Deezer source separation library including pretrained models.",
+  "stars": 28532,
+  "forks": 3048,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "audio-processing",
+    "bass",
+    "deep-learning",
+    "deezer",
+    "drums",
+    "model",
+    "pretrained-models",
+    "python",
+    "tensorflow",
+    "vocals"
+  ],
+  "archived": false,
+  "commit_sha": "6f2c8a2e283914faa544631430f65b793f1b1218",
+  "commit_url": "https://github.com/deezer/spleeter/commit/6f2c8a2e283914faa544631430f65b793f1b1218",
+  "tree_url": "https://github.com/deezer/spleeter/tree/6f2c8a2e283914faa544631430f65b793f1b1218",
+  "analysed_at": "2026-11-14T19:07:16.567607+00:00",
+  "status": "completed",
+  "files_fetched": 73,
+  "files_analysed": 72,
+  "components": [
+    "Configuration and deployment",
+    "docker package",
+    "Application entry point",
+    "External integrations",
+    "spleeter package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "httpx",
+    "NumPy",
+    "pandas",
+    "Poetry",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "spleeter/__main__.py"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "owner": "purifycss",
+  "name": "purifycss",
+  "full_name": "purifycss/purifycss",
+  "html_url": "https://github.com/purifycss/purifycss",
+  "description": "Remove unused CSS. Also works with single-page apps.",
+  "stars": 9832,
+  "forks": 375,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+  "commit_url": "https://github.com/purifycss/purifycss/commit/be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+  "tree_url": "https://github.com/purifycss/purifycss/tree/be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+  "analysed_at": "2026-11-14T19:12:49.676362+00:00",
+  "status": "completed",
+  "files_fetched": 44,
+  "files_analysed": 43,
+  "components": [
+    "Configuration and deployment",
+    "CssTreeWalker.js package",
+    "lib package",
+    "purifycss.js package",
+    "SelectorFilter.js package",
+    "__tests__ package",
+    "utils package"
+  ],
+  "detections": [
+    "Jest"
+  ],
+  "entry_points": [
+    "lib/purifycss.js",
+    "bin/purifycss"
+  ]
+}

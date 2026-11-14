@@ -1,0 +1,57 @@
+{
+  "owner": "mouredev",
+  "name": "Hello-Python",
+  "full_name": "mouredev/Hello-Python",
+  "html_url": "https://github.com/mouredev/Hello-Python",
+  "description": "Curso para aprender el lenguaje de programaci\u00f3n Python desde cero y para principiantes. 100 clases, 44 horas en v\u00eddeo, c\u00f3digo, proyectos y grupo de chat. Fundamentos, frontend, backend, testing, IA...",
+  "stars": 38045,
+  "forks": 2352,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "backend",
+    "chatgpt",
+    "chatgpt-api",
+    "fastapi",
+    "frontend",
+    "gpt-3",
+    "gpt-4",
+    "mongodb",
+    "openai",
+    "openai-api",
+    "python",
+    "python3",
+    "reflex",
+    "tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "55e1bb457840762b6589ab50a66e605a2cea6457",
+  "commit_url": "https://github.com/mouredev/Hello-Python/commit/55e1bb457840762b6589ab50a66e605a2cea6457",
+  "tree_url": "https://github.com/mouredev/Hello-Python/tree/55e1bb457840762b6589ab50a66e605a2cea6457",
+  "analysed_at": "2026-11-14T19:06:47.434197+00:00",
+  "status": "completed",
+  "files_fetched": 44,
+  "files_analysed": 44,
+  "components": [
+    "API layer",
+    "Backend package",
+    "Basic package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Intermediate package"
+  ],
+  "detections": [
+    "MongoDB",
+    "FastAPI",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests"
+  ],
+  "entry_points": [
+    "Backend/FastAPI/main.py"
+  ]
+}

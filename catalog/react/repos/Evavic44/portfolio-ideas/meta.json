@@ -1,0 +1,51 @@
+{
+  "owner": "Evavic44",
+  "name": "portfolio-ideas",
+  "full_name": "Evavic44/portfolio-ideas",
+  "html_url": "https://github.com/Evavic44/portfolio-ideas",
+  "description": "A curation of awesome portfolio website ideas for developers and designers to draw inspiration from. Raise a pull request to add more. \ud83d\udc9c ",
+  "stars": 6415,
+  "forks": 966,
+  "license": "MIT",
+  "language": "Markdown",
+  "default_branch": "main",
+  "topics": [
+    "blog",
+    "css",
+    "designers",
+    "developer-jobs",
+    "developer-portfolio",
+    "devfolio",
+    "ideas",
+    "inspiration",
+    "javascript",
+    "nextjs",
+    "personal-website",
+    "portfolio",
+    "portfolio-ideas",
+    "portfolio-website",
+    "react",
+    "reactjs",
+    "resume",
+    "styled-components",
+    "tailwindcss",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "80abea017c94d16bab03c73d7aa790ccf1a7e70f",
+  "commit_url": "https://github.com/Evavic44/portfolio-ideas/commit/80abea017c94d16bab03c73d7aa790ccf1a7e70f",
+  "tree_url": "https://github.com/Evavic44/portfolio-ideas/tree/80abea017c94d16bab03c73d7aa790ccf1a7e70f",
+  "analysed_at": "2026-11-14T19:14:05.621191+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 23,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue"
+  ],
+  "entry_points": []
+}

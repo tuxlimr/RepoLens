@@ -1,0 +1,36 @@
+{
+  "owner": "impress",
+  "name": "impress.js",
+  "full_name": "impress/impress.js",
+  "html_url": "https://github.com/impress/impress.js",
+  "description": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
+  "stars": 38155,
+  "forks": 6555,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b44b9694b41fd2c076c3d1ad7a0c3e0cea9eb262",
+  "commit_url": "https://github.com/impress/impress.js/commit/b44b9694b41fd2c076c3d1ad7a0c3e0cea9eb262",
+  "tree_url": "https://github.com/impress/impress.js/tree/b44b9694b41fd2c076c3d1ad7a0c3e0cea9eb262",
+  "analysed_at": "2026-11-14T19:10:41.194405+00:00",
+  "status": "completed",
+  "files_fetched": 108,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "impress.js package",
+    "js package",
+    "lib package",
+    "plugins package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "js/impress.js"
+  ]
+}

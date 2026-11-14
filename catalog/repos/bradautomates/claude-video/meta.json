@@ -1,0 +1,36 @@
+{
+  "owner": "bradautomates",
+  "name": "claude-video",
+  "full_name": "bradautomates/claude-video",
+  "html_url": "https://github.com/bradautomates/claude-video",
+  "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+  "stars": 20805,
+  "forks": 2210,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "03ceb42f7fa2c4439aca01752118044baabffb8f",
+  "commit_url": "https://github.com/bradautomates/claude-video/commit/03ceb42f7fa2c4439aca01752118044baabffb8f",
+  "tree_url": "https://github.com/bradautomates/claude-video/tree/03ceb42f7fa2c4439aca01752118044baabffb8f",
+  "analysed_at": "2026-11-14T19:08:01.051430+00:00",
+  "status": "completed",
+  "files_fetched": 22,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "hooks package",
+    "skills package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "skills/watch/scripts/download.py",
+    "skills/watch/scripts/frames.py",
+    "skills/watch/scripts/setup.py",
+    "skills/watch/scripts/transcribe.py",
+    "skills/watch/scripts/watch.py",
+    "skills/watch/scripts/whisper.py"
+  ]
+}

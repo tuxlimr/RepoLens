@@ -1,0 +1,38 @@
+{
+  "owner": "expressjs",
+  "name": "express",
+  "full_name": "expressjs/express",
+  "html_url": "https://github.com/expressjs/express",
+  "description": "Fast, unopinionated, minimalist web framework for node.",
+  "stars": 69674,
+  "forks": 25443,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "express",
+    "javascript",
+    "nodejs",
+    "server"
+  ],
+  "archived": false,
+  "commit_sha": "43fca52d28a422c8be48fd489cbd4f2d6152bab6",
+  "commit_url": "https://github.com/expressjs/express/commit/43fca52d28a422c8be48fd489cbd4f2d6152bab6",
+  "tree_url": "https://github.com/expressjs/express/tree/43fca52d28a422c8be48fd489cbd4f2d6152bab6",
+  "analysed_at": "2026-11-14T19:10:33.991659+00:00",
+  "status": "completed",
+  "files_fetched": 216,
+  "files_analysed": 215,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

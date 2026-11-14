@@ -1,0 +1,21 @@
+%% Repository: karpathy/nanoGPT
+%% Analysed commit: 3adf61e154c3fe3fca428ad6bc3818b27a3b8291
+%% Commit reference: https://github.com/karpathy/nanoGPT/commit/3adf61e154c3fe3fca428ad6bc3818b27a3b8291
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    core -->|imports| data_layer
+    data_layer -->|imports| external_integrations

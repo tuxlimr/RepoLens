@@ -1,0 +1,37 @@
+{
+  "owner": "hindupuravinash",
+  "name": "the-gan-zoo",
+  "full_name": "hindupuravinash/the-gan-zoo",
+  "html_url": "https://github.com/hindupuravinash/the-gan-zoo",
+  "description": "A list of all named GANs!",
+  "stars": 14697,
+  "forks": 2516,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "gan",
+    "generative-adversarial-network",
+    "machine-learning"
+  ],
+  "archived": false,
+  "commit_sha": "375f2be4a852ead8980c06b2a996893f0cb95713",
+  "commit_url": "https://github.com/hindupuravinash/the-gan-zoo/commit/375f2be4a852ead8980c06b2a996893f0cb95713",
+  "tree_url": "https://github.com/hindupuravinash/the-gan-zoo/tree/375f2be4a852ead8980c06b2a996893f0cb95713",
+  "analysed_at": "2026-11-14T19:09:19.307028+00:00",
+  "status": "completed",
+  "files_fetched": 7,
+  "files_analysed": 7,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "NumPy",
+    "requests"
+  ],
+  "entry_points": [
+    "update.py"
+  ]
+}

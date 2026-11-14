@@ -1,0 +1,30 @@
+%% Repository: powerline/powerline
+%% Analysed commit: 11808cbe5c16e4621edcaefa916b5add81eab799
+%% Commit reference: https://github.com/powerline/powerline/commit/11808cbe5c16e4621edcaefa916b5add81eab799
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        powerline["powerline package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| entrypoint
+    config -->|imports| powerline
+    entrypoint -->|imports| powerline
+    external_integrations -->|imports| powerline
+    powerline -->|imports| config
+    powerline -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| powerline

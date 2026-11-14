@@ -1,0 +1,54 @@
+{
+  "owner": "Renovamen",
+  "name": "playground-macos",
+  "full_name": "Renovamen/playground-macos",
+  "html_url": "https://github.com/Renovamen/playground-macos",
+  "description": "My portfolio website simulating macOS's GUI, developed with React and UnoCSS.",
+  "stars": 3507,
+  "forks": 382,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "portfolio",
+    "react",
+    "tailwindcss",
+    "typescript",
+    "vite",
+    "zustand"
+  ],
+  "archived": false,
+  "commit_sha": "2c9e82dca487432ad9922ddf9b0a26aadeae81e5",
+  "commit_url": "https://github.com/Renovamen/playground-macos/commit/2c9e82dca487432ad9922ddf9b0a26aadeae81e5",
+  "tree_url": "https://github.com/Renovamen/playground-macos/tree/2c9e82dca487432ad9922ddf9b0a26aadeae81e5",
+  "analysed_at": "2026-11-14T19:15:16.884542+00:00",
+  "status": "completed",
+  "files_fetched": 96,
+  "files_analysed": 96,
+  "components": [
+    "auto-imports.d.ts package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "hooks package",
+    "index.tsx package",
+    "pages package",
+    "stores package",
+    "types package",
+    "utils package",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/configs/index.ts",
+    "src/hooks/index.ts",
+    "src/index.tsx",
+    "src/stores/index.ts",
+    "src/utils/index.ts"
+  ]
+}

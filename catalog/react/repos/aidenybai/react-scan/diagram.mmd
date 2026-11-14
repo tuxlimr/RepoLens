@@ -1,0 +1,21 @@
+%% Repository: aidenybai/react-scan
+%% Analysed commit: 0fb31862b697ef3ed2d8ed6990878a35a4ca8a75
+%% Commit reference: https://github.com/aidenybai/react-scan/commit/0fb31862b697ef3ed2d8ed6990878a35a4ca8a75
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        e2e["e2e package"]
+        kitchen_sink["kitchen-sink package"]
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

@@ -1,0 +1,60 @@
+{
+  "owner": "cure53",
+  "name": "DOMPurify",
+  "full_name": "cure53/DOMPurify",
+  "html_url": "https://github.com/cure53/DOMPurify",
+  "description": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:",
+  "stars": 17531,
+  "forks": 906,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "cross-site-scripting",
+    "dom",
+    "dompurify",
+    "html",
+    "javascript",
+    "mathml",
+    "prevent-xss-attacks",
+    "sanitizer",
+    "security",
+    "svg",
+    "xss"
+  ],
+  "archived": false,
+  "commit_sha": "027a09f844af3bdc7b5d21f9a97b69635b7c2dfc",
+  "commit_url": "https://github.com/cure53/DOMPurify/commit/027a09f844af3bdc7b5d21f9a97b69635b7c2dfc",
+  "tree_url": "https://github.com/cure53/DOMPurify/tree/027a09f844af3bdc7b5d21f9a97b69635b7c2dfc",
+  "analysed_at": "2026-11-14T19:11:26.626680+00:00",
+  "status": "completed",
+  "files_fetched": 110,
+  "files_analysed": 104,
+  "components": [
+    "attrs.ts package",
+    "Configuration and deployment",
+    "config.ts package",
+    "purify.ts package",
+    "regexp.ts package",
+    "scripts package",
+    "tags.ts package",
+    "Tests",
+    "types.ts package",
+    "typescript package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "typescript/commonjs-typescript-4.4/index.ts",
+    "typescript/commonjs-with-no-types/index.ts",
+    "typescript/commonjs-with-specific-types/index.ts",
+    "typescript/commonjs/index.ts",
+    "typescript/esm-with-no-types/index.ts",
+    "typescript/esm-with-specific-types/index.ts",
+    "typescript/esm/index.ts",
+    "typescript/nodenext/index.ts"
+  ]
+}

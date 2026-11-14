@@ -1,0 +1,25 @@
+%% Repository: mouredev/Hello-Python
+%% Analysed commit: 55e1bb457840762b6589ab50a66e605a2cea6457
+%% Commit reference: https://github.com/mouredev/Hello-Python/commit/55e1bb457840762b6589ab50a66e605a2cea6457
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["Backend package"]
+        basic["Basic package"]
+        intermediate["Intermediate package"]
+    end
+    intermediate -->|imports| external_integrations

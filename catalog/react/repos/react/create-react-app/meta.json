@@ -1,0 +1,51 @@
+{
+  "owner": "react",
+  "name": "create-react-app",
+  "full_name": "react/create-react-app",
+  "html_url": "https://github.com/react/create-react-app",
+  "description": "Set up a modern web app by running one command.",
+  "stars": 103224,
+  "forks": 26852,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "build-tools",
+    "react",
+    "zero-configuration"
+  ],
+  "archived": false,
+  "commit_sha": "6254386531d263688ccfa542d0e628fbc0de0b28",
+  "commit_url": "https://github.com/react/create-react-app/commit/6254386531d263688ccfa542d0e628fbc0de0b28",
+  "tree_url": "https://github.com/react/create-react-app/tree/6254386531d263688ccfa542d0e628fbc0de0b28",
+  "analysed_at": "2026-11-14T19:12:55.707520+00:00",
+  "status": "completed",
+  "files_fetched": 505,
+  "files_analysed": 501,
+  "components": [
+    "Configuration and deployment",
+    "docusaurus package",
+    "External integrations",
+    "packages package",
+    "tasks package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/babel-plugin-named-asset-import/index.js",
+    "packages/confusing-browser-globals/index.js",
+    "packages/create-react-app/index.js",
+    "packages/react-scripts/fixtures/kitchensink/template.json",
+    "packages/react-scripts/bin/react-scripts.js",
+    "packages/babel-preset-react-app/index.js",
+    "packages/eslint-config-react-app/index.js",
+    "packages/react-error-overlay/src/index.js"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "owner": "highlightjs",
+  "name": "highlight.js",
+  "full_name": "highlightjs/highlight.js",
+  "html_url": "https://github.com/highlightjs/highlight.js",
+  "description": "JavaScript syntax highlighter with language auto-detection and zero dependencies.",
+  "stars": 25016,
+  "forks": 3757,
+  "license": "BSD-3-Clause",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "highlighting",
+    "javascript",
+    "language-grammars",
+    "syntax-highlighter",
+    "syntax-highlighting"
+  ],
+  "archived": false,
+  "commit_sha": "35f98874f935d3e4b98dbbbef9895c5fbc7d9b4c",
+  "commit_url": "https://github.com/highlightjs/highlight.js/commit/35f98874f935d3e4b98dbbbef9895c5fbc7d9b4c",
+  "tree_url": "https://github.com/highlightjs/highlight.js/tree/35f98874f935d3e4b98dbbbef9895c5fbc7d9b4c",
+  "analysed_at": "2026-11-14T19:11:02.494660+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "core.d.ts package",
+    "demo package",
+    "highlight.js package",
+    "languages package",
+    "lib package",
+    "stub.js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

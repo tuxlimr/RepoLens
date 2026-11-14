@@ -1,0 +1,52 @@
+{
+  "owner": "microsoft",
+  "name": "markitdown",
+  "full_name": "microsoft/markitdown",
+  "html_url": "https://github.com/microsoft/markitdown",
+  "description": "Python tool for converting files and office documents to Markdown.",
+  "stars": 195364,
+  "forks": 14757,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "autogen",
+    "autogen-extension",
+    "langchain",
+    "markdown",
+    "microsoft-office",
+    "openai",
+    "pdf"
+  ],
+  "archived": false,
+  "commit_sha": "ed178952a6672abdfd35b5f9e76a80b6cefc086e",
+  "commit_url": "https://github.com/microsoft/markitdown/commit/ed178952a6672abdfd35b5f9e76a80b6cefc086e",
+  "tree_url": "https://github.com/microsoft/markitdown/tree/ed178952a6672abdfd35b5f9e76a80b6cefc086e",
+  "analysed_at": "2026-11-14T19:06:00.907521+00:00",
+  "status": "completed",
+  "files_fetched": 136,
+  "files_analysed": 136,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Starlette",
+    "pandas",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "packages/markitdown-mcp/src/markitdown_mcp/__main__.py",
+    "packages/markitdown/src/markitdown/__main__.py"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "lgwebdream",
+  "name": "FE-Interview",
+  "full_name": "lgwebdream/FE-Interview",
+  "html_url": "https://github.com/lgwebdream/FE-Interview",
+  "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 \u524d\u7aef\u9762\u8bd5\uff0c\u72ec\u6709\u524d\u7aef\u9762\u8bd5\u9898\u8be6\u89e3\uff0c\u524d\u7aef\u9762\u8bd5\u5237\u9898\u5fc5\u5907\uff0c1000+\u524d\u7aef\u9762\u8bd5\u771f\u9898\uff0cHtml\u3001Css\u3001JavaScript\u3001Vue\u3001React\u3001Node\u3001TypeScript\u3001Webpack\u3001\u7b97\u6cd5\u3001\u7f51\u7edc\u4e0e\u5b89\u5168\u3001\u6d4f\u89c8\u5668",
+  "stars": 7207,
+  "forks": 888,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "css",
+    "fe-interview",
+    "frontend",
+    "frontend-interview",
+    "html",
+    "interview",
+    "interview-questions",
+    "javascript",
+    "js",
+    "node",
+    "react",
+    "typescript",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "6d433aa8654c3927a4e1ee5625b83bc12ccc6fc0",
+  "commit_url": "https://github.com/lgwebdream/FE-Interview/commit/6d433aa8654c3927a4e1ee5625b83bc12ccc6fc0",
+  "tree_url": "https://github.com/lgwebdream/FE-Interview/tree/6d433aa8654c3927a4e1ee5625b83bc12ccc6fc0",
+  "analysed_at": "2026-11-14T19:13:58.704743+00:00",
+  "status": "completed",
+  "files_fetched": 29,
+  "files_analysed": 28,
+  "components": [
+    "Configuration and deployment",
+    "demos package"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": [
+    "demos/yd-webpack-demo/src/index.js"
+  ]
+}

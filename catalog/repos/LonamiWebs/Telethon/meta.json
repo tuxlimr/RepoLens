@@ -1,0 +1,60 @@
+{
+  "owner": "LonamiWebs",
+  "name": "Telethon",
+  "full_name": "LonamiWebs/Telethon",
+  "html_url": "https://github.com/LonamiWebs/Telethon",
+  "description": "Pure Python 3 MTProto API Telegram client library, for bots too!",
+  "stars": 12066,
+  "forks": 1661,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "v1",
+  "topics": [
+    "hacktoberfest",
+    "library",
+    "mtproto",
+    "python-library",
+    "telegram",
+    "telegram-api",
+    "telethon"
+  ],
+  "archived": true,
+  "commit_sha": "dab6bc4d4fc0c7815f6f19c6f643d9f75d2d930c",
+  "commit_url": "https://github.com/LonamiWebs/Telethon/commit/dab6bc4d4fc0c7815f6f19c6f643d9f75d2d930c",
+  "tree_url": "https://github.com/LonamiWebs/Telethon/tree/dab6bc4d4fc0c7815f6f19c6f643d9f75d2d930c",
+  "analysed_at": "2026-11-14T19:10:15.112061+00:00",
+  "status": "completed",
+  "files_fetched": 225,
+  "files_analysed": 225,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "readthedocs package",
+    "Service / domain layer",
+    "telethon package",
+    "telethon_examples package",
+    "telethon_generator package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "aiohttp",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "setup.py",
+    "telethon_examples/assistant.py",
+    "telethon_examples/gui.py",
+    "telethon_examples/interactive_telegram_client.py",
+    "telethon_examples/payment.py",
+    "telethon_examples/quart_login.py",
+    "telethon_generator/syncerrors.py"
+  ]
+}

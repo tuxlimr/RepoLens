@@ -1,0 +1,59 @@
+{
+  "owner": "airbnb",
+  "name": "visx",
+  "full_name": "airbnb/visx",
+  "html_url": "https://github.com/airbnb/visx",
+  "description": "\ud83d\udc2f visx | visualization components",
+  "stars": 21109,
+  "forks": 776,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "chart",
+    "d3",
+    "data-visualization",
+    "react",
+    "svg",
+    "visualization",
+    "visx",
+    "vx"
+  ],
+  "archived": false,
+  "commit_sha": "485c0359664ee8e612992defb16e1f035ed40b23",
+  "commit_url": "https://github.com/airbnb/visx/commit/485c0359664ee8e612992defb16e1f035ed40b23",
+  "tree_url": "https://github.com/airbnb/visx/tree/485c0359664ee8e612992defb16e1f035ed40b23",
+  "analysed_at": "2026-11-14T19:13:10.375616+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 779,
+  "components": [
+    "Configuration and deployment",
+    "config-eslint package",
+    "Core modules",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/visx-demo/src/sandboxes/template/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-annotation/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-area/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-axis/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-bargroup-horizontal/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-bargroup/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-bars/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-barstack-horizontal/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-barstack/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-brush/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-chord/index.tsx",
+    "packages/visx-demo/src/sandboxes/visx-curve/index.tsx"
+  ]
+}

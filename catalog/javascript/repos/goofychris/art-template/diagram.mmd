@@ -1,0 +1,23 @@
+%% Repository: goofychris/art-template
+%% Analysed commit: d09a96dd85ef3671286157d8a0c75948b90a3ebb
+%% Commit reference: https://github.com/goofychris/art-template/commit/d09a96dd85ef3671286157d8a0c75948b90a3ebb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        compile["compile package"]
+        defaults_js["defaults.js package"]
+        extension_js["extension.js package"]
+        index_js["index.js package"]
+        lib["lib package"]
+        precompile_js["precompile.js package"]
+        render_js["render.js package"]
+        runtime_js["runtime.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,23 @@
+%% Repository: hackmdio/codimd
+%% Analysed commit: b1188a5648a23d970b9ad58612376e6602431f6f
+%% Commit reference: https://github.com/hackmdio/codimd/commit/b1188a5648a23d970b9ad58612376e6602431f6f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        deployments["deployments package"]
+        lib["lib package"]
+        public["public package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

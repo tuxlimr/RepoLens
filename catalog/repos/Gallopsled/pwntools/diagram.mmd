@@ -1,0 +1,32 @@
+%% Repository: Gallopsled/pwntools
+%% Analysed commit: af4918c43fe1e605ea4caf98ff9ebb1e70b97bae
+%% Commit reference: https://github.com/Gallopsled/pwntools/commit/af4918c43fe1e605ea4caf98ff9ebb1e70b97bae
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        extra["extra package"]
+        pwn["pwn package"]
+        pwnlib["pwnlib package"]
+    end
+    config -->|imports| pwnlib
+    data_layer -->|imports| pwn
+    data_layer -->|imports| pwnlib
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| pwn
+    entrypoint -->|imports| pwnlib
+    extra -->|imports| pwn
+    pwn -->|imports| pwnlib
+    pwnlib -->|imports| config
+    pwnlib -->|imports| entrypoint
+    pwnlib -->|imports| external_integrations

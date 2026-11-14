@@ -1,0 +1,50 @@
+{
+  "owner": "bailicangdu",
+  "name": "react-pxq",
+  "full_name": "bailicangdu/react-pxq",
+  "html_url": "https://github.com/bailicangdu/react-pxq",
+  "description": "\u4e00\u4e2a react + redux \u7684\u5b8c\u6574\u9879\u76ee \u548c \u4e2a\u4eba\u603b\u7ed3",
+  "stars": 7494,
+  "forks": 2109,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "553e42f41b9ed4ad0d30216aedf7e3fb7c06fc3e",
+  "commit_url": "https://github.com/bailicangdu/react-pxq/commit/553e42f41b9ed4ad0d30216aedf7e3fb7c06fc3e",
+  "tree_url": "https://github.com/bailicangdu/react-pxq/tree/553e42f41b9ed4ad0d30216aedf7e3fb7c06fc3e",
+  "analysed_at": "2026-11-14T19:13:49.777750+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 71,
+  "components": [
+    "API layer",
+    "components package",
+    "Configuration and deployment",
+    "envconfig package",
+    "index.js package",
+    "pages package",
+    "pxq package",
+    "registerServiceWorker.js package",
+    "router package",
+    "scripts package",
+    "store package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/api/server.js",
+    "src/index.js",
+    "src/router/index.js"
+  ]
+}

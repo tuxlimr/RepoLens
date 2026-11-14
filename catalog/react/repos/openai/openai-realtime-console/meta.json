@@ -1,0 +1,45 @@
+{
+  "owner": "openai",
+  "name": "openai-realtime-console",
+  "full_name": "openai/openai-realtime-console",
+  "html_url": "https://github.com/openai/openai-realtime-console",
+  "description": "React app for inspecting, building and debugging with the Realtime API",
+  "stars": 3620,
+  "forks": 1402,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "openai",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "ab8b8f5852b47ec1b9ef73bf566851d0eeafddbb",
+  "commit_url": "https://github.com/openai/openai-realtime-console/commit/ab8b8f5852b47ec1b9ef73bf566851d0eeafddbb",
+  "tree_url": "https://github.com/openai/openai-realtime-console/tree/ab8b8f5852b47ec1b9ef73bf566851d0eeafddbb",
+  "analysed_at": "2026-11-14T19:15:11.648756+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "Vite"
+  ],
+  "entry_points": [
+    "client/components/App.jsx",
+    "client/index.js",
+    "client/pages/index.jsx",
+    "server.js"
+  ]
+}

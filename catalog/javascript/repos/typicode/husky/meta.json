@@ -1,0 +1,38 @@
+{
+  "owner": "typicode",
+  "name": "husky",
+  "full_name": "typicode/husky",
+  "html_url": "https://github.com/typicode/husky",
+  "description": "Git hooks made easy \ud83d\udc36 woof!",
+  "stars": 35392,
+  "forks": 1105,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "commit",
+    "git",
+    "hooks",
+    "pre-commit"
+  ],
+  "archived": false,
+  "commit_sha": "3f0023dc10d7003d70f2e31aa56300eab80e76d6",
+  "commit_url": "https://github.com/typicode/husky/commit/3f0023dc10d7003d70f2e31aa56300eab80e76d6",
+  "tree_url": "https://github.com/typicode/husky/tree/3f0023dc10d7003d70f2e31aa56300eab80e76d6",
+  "analysed_at": "2026-11-14T19:10:42.559281+00:00",
+  "status": "completed",
+  "files_fetched": 58,
+  "files_analysed": 56,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "bin.js",
+    "index.js"
+  ]
+}

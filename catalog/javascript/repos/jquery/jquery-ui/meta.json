@@ -1,0 +1,38 @@
+{
+  "owner": "jquery",
+  "name": "jquery-ui",
+  "full_name": "jquery/jquery-ui",
+  "html_url": "https://github.com/jquery/jquery-ui",
+  "description": "The official jQuery user interface library.",
+  "stars": 11336,
+  "forks": 5178,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "jquery"
+  ],
+  "archived": false,
+  "commit_sha": "dcf10556bbcfdf3e10e3ea30966482e201191411",
+  "commit_url": "https://github.com/jquery/jquery-ui/commit/dcf10556bbcfdf3e10e3ea30966482e201191411",
+  "tree_url": "https://github.com/jquery/jquery-ui/tree/dcf10556bbcfdf3e10e3ea30966482e201191411",
+  "analysed_at": "2026-11-14T19:12:19.324073+00:00",
+  "status": "completed",
+  "files_fetched": 631,
+  "files_analysed": 616,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demos package",
+    "External integrations",
+    "Tests",
+    "ui package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "ui/widget.js"
+  ]
+}

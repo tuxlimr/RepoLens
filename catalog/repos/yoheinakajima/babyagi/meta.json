@@ -1,0 +1,43 @@
+{
+  "owner": "yoheinakajima",
+  "name": "babyagi",
+  "full_name": "yoheinakajima/babyagi",
+  "html_url": "https://github.com/yoheinakajima/babyagi",
+  "description": null,
+  "stars": 22359,
+  "forks": 2831,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "fa8930ebe72a82e5ad57b356e7cbec96290e5bb2",
+  "commit_url": "https://github.com/yoheinakajima/babyagi/commit/fa8930ebe72a82e5ad57b356e7cbec96290e5bb2",
+  "tree_url": "https://github.com/yoheinakajima/babyagi/tree/fa8930ebe72a82e5ad57b356e7cbec96290e5bb2",
+  "analysed_at": "2026-11-14T19:07:52.101741+00:00",
+  "status": "completed",
+  "files_fetched": 66,
+  "files_analysed": 65,
+  "components": [
+    "API layer",
+    "babyagi package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "Flask",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "SQLAlchemy",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": [
+    "babyagi/__init__.py",
+    "main.py"
+  ]
+}

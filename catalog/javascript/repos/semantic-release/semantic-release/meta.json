@@ -1,0 +1,50 @@
+{
+  "owner": "semantic-release",
+  "name": "semantic-release",
+  "full_name": "semantic-release/semantic-release",
+  "html_url": "https://github.com/semantic-release/semantic-release",
+  "description": "\ud83d\udce6\ud83d\ude80 Fully automated version management and package publishing",
+  "stars": 24169,
+  "forks": 1806,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "automation",
+    "changelog",
+    "package",
+    "publish",
+    "release",
+    "release-automation",
+    "release-workflow",
+    "semantic-release",
+    "semantic-version",
+    "semver",
+    "semver-release",
+    "version"
+  ],
+  "archived": false,
+  "commit_sha": "04c1923646eb801cf6f0f90455cf00b78b94fdb7",
+  "commit_url": "https://github.com/semantic-release/semantic-release/commit/04c1923646eb801cf6f0f90455cf00b78b94fdb7",
+  "tree_url": "https://github.com/semantic-release/semantic-release/tree/04c1923646eb801cf6f0f90455cf00b78b94fdb7",
+  "analysed_at": "2026-11-14T19:11:03.173958+00:00",
+  "status": "completed",
+  "files_fetched": 85,
+  "files_analysed": 85,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/semantic-release.js",
+    "lib/branches/index.js",
+    "lib/plugins/index.js"
+  ]
+}

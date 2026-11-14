@@ -1,0 +1,45 @@
+{
+  "owner": "SawyerHood",
+  "name": "draw-a-ui",
+  "full_name": "SawyerHood/draw-a-ui",
+  "html_url": "https://github.com/SawyerHood/draw-a-ui",
+  "description": "Draw a mockup and generate html for it",
+  "stars": 13567,
+  "forks": 1609,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "gpt",
+    "openai",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "1aca63b4d54a3065fe72fe9784c91265510fbe19",
+  "commit_url": "https://github.com/SawyerHood/draw-a-ui/commit/1aca63b4d54a3065fe72fe9784c91265510fbe19",
+  "tree_url": "https://github.com/SawyerHood/draw-a-ui/tree/1aca63b4d54a3065fe72fe9784c91265510fbe19",
+  "analysed_at": "2026-11-14T19:13:18.085909+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/page.tsx"
+  ]
+}

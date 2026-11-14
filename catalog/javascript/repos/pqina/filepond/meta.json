@@ -1,0 +1,44 @@
+{
+  "owner": "pqina",
+  "name": "filepond",
+  "full_name": "pqina/filepond",
+  "html_url": "https://github.com/pqina/filepond",
+  "description": "\ud83c\udf0a A flexible and fun JavaScript file upload library",
+  "stars": 16396,
+  "forks": 851,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "drag-and-drop",
+    "file-upload",
+    "filepond",
+    "image-processing",
+    "javascript",
+    "plugin",
+    "vanilla"
+  ],
+  "archived": false,
+  "commit_sha": "2a2e2871f2fe1428bec102857d3fb5d8b2877aff",
+  "commit_url": "https://github.com/pqina/filepond/commit/2a2e2871f2fe1428bec102857d3fb5d8b2877aff",
+  "tree_url": "https://github.com/pqina/filepond/tree/2a2e2871f2fe1428bec102857d3fb5d8b2877aff",
+  "analysed_at": "2026-11-14T19:11:33.269197+00:00",
+  "status": "completed",
+  "files_fetched": 300,
+  "files_analysed": 298,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "locale package",
+    "types package"
+  ],
+  "detections": [
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/js/app/index.js",
+    "src/js/index.js"
+  ]
+}

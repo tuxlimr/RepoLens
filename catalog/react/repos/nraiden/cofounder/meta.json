@@ -1,0 +1,56 @@
+{
+  "owner": "nraiden",
+  "name": "cofounder",
+  "full_name": "nraiden/cofounder",
+  "html_url": "https://github.com/nraiden/cofounder",
+  "description": "ai-generated apps , full stack + generative UI",
+  "stars": 6648,
+  "forks": 713,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "api",
+    "design",
+    "generative",
+    "javascript",
+    "postgresql",
+    "react",
+    "tailwind",
+    "typescript",
+    "ui",
+    "vite"
+  ],
+  "archived": false,
+  "commit_sha": "19ba19f61737d654493175208df468395e2193f4",
+  "commit_url": "https://github.com/nraiden/cofounder/commit/19ba19f61737d654493175208df468395e2193f4",
+  "tree_url": "https://github.com/nraiden/cofounder/tree/19ba19f61737d654493175208df468395e2193f4",
+  "analysed_at": "2026-11-14T19:14:02.841995+00:00",
+  "status": "completed",
+  "files_fetched": 310,
+  "files_analysed": 306,
+  "components": [
+    "API layer",
+    "cofounder package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "axios",
+    "React Router",
+    "Redux",
+    "Redux Toolkit",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "cofounder/api/server.js",
+    "cofounder/api/utils/index.js",
+    "cofounder/boilerplate/backend-boilerplate/server.js",
+    "cofounder/dashboard/src/App.tsx",
+    "cofounder/dashboard/src/main.tsx"
+  ]
+}

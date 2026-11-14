@@ -1,0 +1,60 @@
+{
+  "owner": "faressoft",
+  "name": "terminalizer",
+  "full_name": "faressoft/terminalizer",
+  "html_url": "https://github.com/faressoft/terminalizer",
+  "description": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player",
+  "stars": 16172,
+  "forks": 521,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animated",
+    "bash",
+    "bash-profile",
+    "capture",
+    "colors",
+    "command-line",
+    "font",
+    "generate",
+    "gif",
+    "powershell",
+    "pty",
+    "record",
+    "render",
+    "repeat",
+    "shell",
+    "shot",
+    "terminal",
+    "theme",
+    "tty",
+    "zsh"
+  ],
+  "archived": false,
+  "commit_sha": "7b7da2913987f6d002b5c5555610788535a09979",
+  "commit_url": "https://github.com/faressoft/terminalizer/commit/7b7da2913987f6d002b5c5555610788535a09979",
+  "tree_url": "https://github.com/faressoft/terminalizer/tree/7b7da2913987f6d002b5c5555610788535a09979",
+  "analysed_at": "2026-11-14T19:11:33.873891+00:00",
+  "status": "completed",
+  "files_fetched": 27,
+  "files_analysed": 25,
+  "components": [
+    "bin package",
+    "commands package",
+    "Configuration and deployment",
+    "Core modules",
+    "render package"
+  ],
+  "detections": [
+    "Electron",
+    "axios",
+    "webpack"
+  ],
+  "entry_points": [
+    "bin/app.js",
+    "app.js",
+    "render/index.js",
+    "render/src/js/app.js"
+  ]
+}

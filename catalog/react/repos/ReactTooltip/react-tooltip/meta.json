@@ -1,0 +1,54 @@
+{
+  "owner": "ReactTooltip",
+  "name": "react-tooltip",
+  "full_name": "ReactTooltip/react-tooltip",
+  "html_url": "https://github.com/ReactTooltip/react-tooltip",
+  "description": "React Tooltip Component",
+  "stars": 3826,
+  "forks": 529,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "react",
+    "react18",
+    "tooltip",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "c58434e175078b2c36dbd17162a06a1971238831",
+  "commit_url": "https://github.com/ReactTooltip/react-tooltip/commit/c58434e175078b2c36dbd17162a06a1971238831",
+  "tree_url": "https://github.com/ReactTooltip/react-tooltip/tree/c58434e175078b2c36dbd17162a06a1971238831",
+  "analysed_at": "2026-11-14T19:15:04.168718+00:00",
+  "status": "completed",
+  "files_fetched": 218,
+  "files_analysed": 213,
+  "components": [
+    "App.tsx package",
+    "benchmarks package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "index-dev.tsx package",
+    "index.tsx package",
+    "rollup-plugins package",
+    "scripts package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "benchmarks/fixture/app.tsx",
+    "src/App.tsx",
+    "src/components/Tooltip/index.ts",
+    "src/components/TooltipController/index.ts",
+    "src/index.tsx",
+    "src/utils/index.ts"
+  ]
+}

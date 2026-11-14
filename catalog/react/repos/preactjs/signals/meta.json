@@ -1,0 +1,60 @@
+{
+  "owner": "preactjs",
+  "name": "signals",
+  "full_name": "preactjs/signals",
+  "html_url": "https://github.com/preactjs/signals",
+  "description": "Manage state with style in every framework",
+  "stars": 4505,
+  "forks": 133,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "preact",
+    "react",
+    "reactivity",
+    "signals",
+    "state-management"
+  ],
+  "archived": false,
+  "commit_sha": "8d5e9b757f88e52b7bafd7e804ac0582b2a86659",
+  "commit_url": "https://github.com/preactjs/signals/commit/8d5e9b757f88e52b7bafd7e804ac0582b2a86659",
+  "tree_url": "https://github.com/preactjs/signals/tree/8d5e9b757f88e52b7bafd7e804ac0582b2a86659",
+  "analysed_at": "2026-11-14T19:14:44.176032+00:00",
+  "status": "completed",
+  "files_fetched": 229,
+  "files_analysed": 229,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "extension package",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Docker",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/eslint-plugin-signals/src/index.mjs",
+    "packages/core/src/index.ts",
+    "packages/debug/src/index.ts",
+    "packages/devtools-adapter/src/index.ts",
+    "packages/devtools-ui/src/index.ts",
+    "packages/preact-transform/src/index.ts",
+    "packages/preact/src/index.ts",
+    "packages/react-transform/src/index.ts",
+    "packages/react/src/index.ts",
+    "packages/vite-plugin/src/index.ts",
+    "packages/vite-plugin/src/server.ts"
+  ]
+}

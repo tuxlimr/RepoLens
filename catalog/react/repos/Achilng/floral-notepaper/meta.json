@@ -1,0 +1,57 @@
+{
+  "owner": "Achilng",
+  "name": "floral-notepaper",
+  "full_name": "Achilng/floral-notepaper",
+  "html_url": "https://github.com/Achilng/floral-notepaper",
+  "description": "\u82b1\u7b3a\uff0c\u8f7b\u91cf\u4f18\u96c5\u7684\u8de8\u5e73\u53f0\u684c\u9762\u4fbf\u7b7e\u5de5\u5177\uff0c\u652f\u6301 Markdown \u7f16\u8f91\u4e0e\u9884\u89c8",
+  "stars": 5623,
+  "forks": 334,
+  "license": "MIT",
+  "language": "Rust",
+  "default_branch": "main",
+  "topics": [
+    "macos",
+    "markdown",
+    "note-taking",
+    "react",
+    "rust",
+    "sticky-notes",
+    "tauri",
+    "windows"
+  ],
+  "archived": false,
+  "commit_sha": "8b624e0b1dc38ea66d0fcea83fd4e3117d63d8c3",
+  "commit_url": "https://github.com/Achilng/floral-notepaper/commit/8b624e0b1dc38ea66d0fcea83fd4e3117d63d8c3",
+  "tree_url": "https://github.com/Achilng/floral-notepaper/tree/8b624e0b1dc38ea66d0fcea83fd4e3117d63d8c3",
+  "analysed_at": "2026-11-14T19:14:17.496874+00:00",
+  "status": "completed",
+  "files_fetched": 174,
+  "files_analysed": 172,
+  "components": [
+    "App.tsx package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "features package",
+    "locales package",
+    "main.tsx package",
+    "scripts package",
+    "Service / domain layer",
+    "src-tauri package",
+    "Tests",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/App.tsx",
+    "src/locales/index.ts",
+    "src/main.tsx"
+  ]
+}

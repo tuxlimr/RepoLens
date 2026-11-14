@@ -1,0 +1,17 @@
+%% Repository: code-hike/codehike
+%% Analysed commit: cd81d8af1c503b699cbf0458d504e4578bcb9c74
+%% Commit reference: https://github.com/code-hike/codehike/commit/cd81d8af1c503b699cbf0458d504e4578bcb9c74
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

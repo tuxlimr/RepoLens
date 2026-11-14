@@ -1,0 +1,35 @@
+{
+  "owner": "stylelint",
+  "name": "stylelint",
+  "full_name": "stylelint/stylelint",
+  "html_url": "https://github.com/stylelint/stylelint",
+  "description": "A mighty CSS linter that helps you avoid errors and enforce conventions.",
+  "stars": 11550,
+  "forks": 1029,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "lint",
+    "linter"
+  ],
+  "archived": false,
+  "commit_sha": "ee4f118acae33876a93ced5866872328e36660c2",
+  "commit_url": "https://github.com/stylelint/stylelint/commit/ee4f118acae33876a93ced5866872328e36660c2",
+  "tree_url": "https://github.com/stylelint/stylelint/tree/ee4f118acae33876a93ced5866872328e36660c2",
+  "analysed_at": "2026-11-14T19:12:16.643862+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 797,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

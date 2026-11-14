@@ -1,0 +1,45 @@
+{
+  "owner": "vincentriemer",
+  "name": "react-native-dom",
+  "full_name": "vincentriemer/react-native-dom",
+  "html_url": "https://github.com/vincentriemer/react-native-dom",
+  "description": "An experimental, comprehensive port of React Native to the web.",
+  "stars": 3240,
+  "forks": 72,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "native",
+    "react",
+    "react-native",
+    "ui-framework",
+    "webworkers"
+  ],
+  "archived": false,
+  "commit_sha": "235cae7e628fe1e4d89f662153e90da5ac5d0a9b",
+  "commit_url": "https://github.com/vincentriemer/react-native-dom/commit/235cae7e628fe1e4d89f662153e90da5ac5d0a9b",
+  "tree_url": "https://github.com/vincentriemer/react-native-dom/tree/235cae7e628fe1e4d89f662153e90da5ac5d0a9b",
+  "analysed_at": "2026-11-14T19:15:27.263614+00:00",
+  "status": "completed",
+  "files_fetched": 304,
+  "files_analysed": 300,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "website package"
+  ],
+  "detections": [
+    "React",
+    "Svelte",
+    "Jest"
+  ],
+  "entry_points": [
+    "packages/rnpm-plugin-dom/index.js",
+    "packages/react-native-dom/local-cli/index.js",
+    "website/pages/en/index.js"
+  ]
+}

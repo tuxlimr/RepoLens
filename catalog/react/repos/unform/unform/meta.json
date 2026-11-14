@@ -1,0 +1,44 @@
+{
+  "owner": "unform",
+  "name": "unform",
+  "full_name": "unform/unform",
+  "html_url": "https://github.com/unform/unform",
+  "description": "Performance-focused API for React forms \ud83d\ude80",
+  "stars": 4399,
+  "forks": 461,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "develop",
+  "topics": [
+    "form",
+    "forms",
+    "hacktoberfest",
+    "react",
+    "react-native"
+  ],
+  "archived": true,
+  "commit_sha": "db496d9369f1a776865d48d78f1b95c8e08a5139",
+  "commit_url": "https://github.com/unform/unform/commit/db496d9369f1a776865d48d78f1b95c8e08a5139",
+  "tree_url": "https://github.com/unform/unform/tree/db496d9369f1a776865d48d78f1b95c8e08a5139",
+  "analysed_at": "2026-11-14T19:14:47.355607+00:00",
+  "status": "completed",
+  "files_fetched": 115,
+  "files_analysed": 115,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/core/lib/index.ts",
+    "packages/mobile/lib/index.ts",
+    "packages/web/lib/index.ts"
+  ]
+}

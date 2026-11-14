@@ -1,0 +1,34 @@
+{
+  "owner": "Flipboard",
+  "name": "react-canvas",
+  "full_name": "Flipboard/react-canvas",
+  "html_url": "https://github.com/Flipboard/react-canvas",
+  "description": "High performance <canvas> rendering for React components",
+  "stars": 13190,
+  "forks": 910,
+  "license": "BSD-3-Clause",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "0b71180b4061a55410efb4578df2b65c1bf00a8e",
+  "commit_url": "https://github.com/Flipboard/react-canvas/commit/0b71180b4061a55410efb4578df2b65c1bf00a8e",
+  "tree_url": "https://github.com/Flipboard/react-canvas/tree/0b71180b4061a55410efb4578df2b65c1bf00a8e",
+  "analysed_at": "2026-11-14T19:11:59.424299+00:00",
+  "status": "completed",
+  "files_fetched": 47,
+  "files_analysed": 47,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "lib/ReactCanvas.js"
+  ]
+}

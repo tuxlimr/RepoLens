@@ -1,0 +1,50 @@
+%% Repository: ace-step/ACE-Step-1.5
+%% Analysed commit: ca1e85fe9430179831e6bc6be790c332190a3866
+%% Commit reference: https://github.com/ace-step/ACE-Step-1.5/commit/ca1e85fe9430179831e6bc6be790c332190a3866
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        acestep["acestep package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    acestep -->|imports| config
+    acestep -->|imports| data_layer
+    acestep -->|imports| entrypoint
+    acestep -->|imports| external_integrations
+    acestep -->|imports| service_layer
+    api_layer -->|imports| acestep
+    api_layer -->|imports| external_integrations
+    entrypoint -->|imports| acestep
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    service_layer -->|imports| acestep
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| entrypoint
+    tests -->|imports| acestep
+    tests -->|imports| api_layer
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| service_layer

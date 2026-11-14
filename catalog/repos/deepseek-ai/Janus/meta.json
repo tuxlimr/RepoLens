@@ -1,0 +1,54 @@
+{
+  "owner": "deepseek-ai",
+  "name": "Janus",
+  "full_name": "deepseek-ai/Janus",
+  "html_url": "https://github.com/deepseek-ai/Janus",
+  "description": "Janus-Series: Unified Multimodal Understanding and Generation Models",
+  "stars": 17766,
+  "forks": 2229,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "any-to-any",
+    "foundation-models",
+    "llm",
+    "multimodal",
+    "unified-model",
+    "vision-language-pretraining"
+  ],
+  "archived": false,
+  "commit_sha": "1daa72fa409002d40931bd7b36a9280362469ead",
+  "commit_url": "https://github.com/deepseek-ai/Janus/commit/1daa72fa409002d40931bd7b36a9280362469ead",
+  "tree_url": "https://github.com/deepseek-ai/Janus/tree/1daa72fa409002d40931bd7b36a9280362469ead",
+  "analysed_at": "2026-11-14T19:08:29.152810+00:00",
+  "status": "completed",
+  "files_fetched": 39,
+  "files_analysed": 39,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "demo package",
+    "Application entry point",
+    "External integrations",
+    "janus package"
+  ],
+  "detections": [
+    "FastAPI",
+    "NumPy",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": [
+    "demo/fastapi_app.py",
+    "demo/fastapi_client.py",
+    "interactivechat.py",
+    "janus/janusflow/models/image_processing_vlm.py",
+    "janus/models/image_processing_vlm.py",
+    "janus/models/projector.py",
+    "janus/utils/conversation.py"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "owner": "CJackHwang",
+  "name": "ds2api",
+  "full_name": "CJackHwang/ds2api",
+  "html_url": "https://github.com/CJackHwang/ds2api",
+  "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.",
+  "stars": 4705,
+  "forks": 1627,
+  "license": "AGPL-3.0",
+  "language": "Go",
+  "default_branch": "main",
+  "topics": [
+    "api",
+    "claude-api",
+    "deepseek",
+    "deepseek-api",
+    "docker",
+    "freeapi",
+    "go",
+    "openai-api",
+    "proxy",
+    "proxy-server",
+    "react",
+    "vercel",
+    "vercel-deployment",
+    "zeabur"
+  ],
+  "archived": true,
+  "commit_sha": "8316cf8a0352e900e03ce600b792083f590d80e2",
+  "commit_url": "https://github.com/CJackHwang/ds2api/commit/8316cf8a0352e900e03ce600b792083f590d80e2",
+  "tree_url": "https://github.com/CJackHwang/ds2api/tree/8316cf8a0352e900e03ce600b792083f590d80e2",
+  "analysed_at": "2026-11-14T19:14:38.641613+00:00",
+  "status": "completed",
+  "files_fetched": 545,
+  "files_analysed": 544,
+  "components": [
+    "API layer",
+    "app package",
+    "cmd package",
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "internal package",
+    "pow package",
+    "scripts package",
+    "Tests",
+    "webui package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "Vite"
+  ],
+  "entry_points": [
+    "internal/js/chat-stream/index.js",
+    "webui/src/App.jsx",
+    "webui/src/main.jsx"
+  ]
+}

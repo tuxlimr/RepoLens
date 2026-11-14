@@ -1,0 +1,50 @@
+{
+  "owner": "FortAwesome",
+  "name": "react-fontawesome",
+  "full_name": "FortAwesome/react-fontawesome",
+  "html_url": "https://github.com/FortAwesome/react-fontawesome",
+  "description": "Official React Component for Font Awesome Icons",
+  "stars": 3742,
+  "forks": 269,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "fontawesome",
+    "frontend",
+    "javascript",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "3017221bae25d8a9bf08f15129e888e42f814e8e",
+  "commit_url": "https://github.com/FortAwesome/react-fontawesome/commit/3017221bae25d8a9bf08f15129e888e42f814e8e",
+  "tree_url": "https://github.com/FortAwesome/react-fontawesome/tree/3017221bae25d8a9bf08f15129e888e42f814e8e",
+  "analysed_at": "2026-11-14T19:15:05.956004+00:00",
+  "status": "completed",
+  "files_fetched": 62,
+  "files_analysed": 62,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "converter.ts package",
+    "Core modules",
+    "global.d.ts package",
+    "hooks package",
+    "index.ts package",
+    "logger.ts package",
+    "scripts package",
+    "test-setup package",
+    "__tests__ package",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

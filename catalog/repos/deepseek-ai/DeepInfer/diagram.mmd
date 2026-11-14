@@ -1,0 +1,46 @@
+%% Repository: deepseek-ai/DeepInfer
+%% Analysed commit: a679bb86ce36e883a98a97733492b686e5b9a08e
+%% Commit reference: https://github.com/deepseek-ai/DeepInfer/commit/a679bb86ce36e883a98a97733492b686e5b9a08e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        csrc["csrc package"]
+        deep_cluster["deep_cluster package"]
+        deepinfer["deepinfer package"]
+        eval["eval package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| data_layer
+    config -->|imports| deep_cluster
+    config -->|imports| deepinfer
+    data_layer -->|imports| deep_cluster
+    data_layer -->|imports| deepinfer
+    deepinfer -->|imports| config
+    deepinfer -->|imports| data_layer
+    deepinfer -->|imports| deep_cluster
+    deepinfer -->|imports| entrypoint
+    deepinfer -->|imports| external_integrations
+    entrypoint -->|imports| deepinfer
+    entrypoint -->|imports| external_integrations
+    eval -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| deep_cluster
+    tests -->|imports| deepinfer

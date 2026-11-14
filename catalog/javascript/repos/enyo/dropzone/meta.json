@@ -1,0 +1,46 @@
+{
+  "owner": "enyo",
+  "name": "dropzone",
+  "full_name": "enyo/dropzone",
+  "html_url": "https://github.com/enyo/dropzone",
+  "description": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars.",
+  "stars": 18409,
+  "forks": 3225,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "drag-and-drop",
+    "dropzone",
+    "file-upload",
+    "javascript",
+    "javascript-library"
+  ],
+  "archived": false,
+  "commit_sha": "a0e896a705c356d4ce427d682041f0f47278237e",
+  "commit_url": "https://github.com/enyo/dropzone/commit/a0e896a705c356d4ce427d682041f0f47278237e",
+  "tree_url": "https://github.com/enyo/dropzone/tree/a0e896a705c356d4ce427d682041f0f47278237e",
+  "analysed_at": "2026-11-14T19:11:22.064778+00:00",
+  "status": "completed",
+  "files_fetched": 135,
+  "files_analysed": 134,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Svelte",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/dropzone/src/dropzone.ts"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "owner": "petehunt",
+  "name": "webpack-howto",
+  "full_name": "petehunt/webpack-howto",
+  "html_url": "https://github.com/petehunt/webpack-howto",
+  "description": null,
+  "stars": 9989,
+  "forks": 672,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "dcd772bc5ff50c3f67e9c18b58077a5c4ea6ca4b",
+  "commit_url": "https://github.com/petehunt/webpack-howto/commit/dcd772bc5ff50c3f67e9c18b58077a5c4ea6ca4b",
+  "tree_url": "https://github.com/petehunt/webpack-howto/tree/dcd772bc5ff50c3f67e9c18b58077a5c4ea6ca4b",
+  "analysed_at": "2026-11-14T19:12:46.268771+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 13,
+  "components": [],
+  "detections": [
+    "React",
+    "React Router"
+  ],
+  "entry_points": []
+}

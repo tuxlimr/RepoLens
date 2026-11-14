@@ -1,0 +1,53 @@
+{
+  "owner": "pdone",
+  "name": "lx-music-source",
+  "full_name": "pdone/lx-music-source",
+  "html_url": "https://github.com/pdone/lx-music-source",
+  "description": "\u6d1b\u96ea\u97f3\u4e50\u6e90",
+  "stars": 11257,
+  "forks": 923,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "lx-music",
+    "lx-music-desktop",
+    "lx-music-mobile"
+  ],
+  "archived": false,
+  "commit_sha": "ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+  "commit_url": "https://github.com/pdone/lx-music-source/commit/ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+  "tree_url": "https://github.com/pdone/lx-music-source/tree/ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+  "analysed_at": "2026-11-14T19:12:23.252730+00:00",
+  "status": "completed",
+  "files_fetched": 54,
+  "files_analysed": 54,
+  "components": [
+    "changqing package",
+    "Application entry point",
+    "feichangdao package",
+    "flower package",
+    "grass package",
+    "helloworld package",
+    "huanyin package",
+    "huibq package",
+    "hyw package",
+    "ikun package",
+    "jiexiang package",
+    "juhe package",
+    "lx package",
+    "qdy package",
+    "qingliang package",
+    "suyin package",
+    "xinghai package",
+    "xinglan package",
+    "yuningxi package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "CreateLatest.py",
+    "probe.py"
+  ]
+}

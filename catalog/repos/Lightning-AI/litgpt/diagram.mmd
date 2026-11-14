@@ -1,0 +1,41 @@
+%% Repository: Lightning-AI/litgpt
+%% Analysed commit: 5341568a65e918a85cb284fac038de2157eebf3f
+%% Commit reference: https://github.com/Lightning-AI/litgpt/commit/5341568a65e918a85cb284fac038de2157eebf3f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        extensions["extensions package"]
+        litgpt["litgpt package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| data_layer
+    data_layer -->|imports| config
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| litgpt
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| extensions
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| litgpt
+    extensions -->|imports| data_layer
+    extensions -->|imports| litgpt
+    litgpt -->|imports| config
+    litgpt -->|imports| data_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| extensions
+    tests -->|imports| external_integrations
+    tests -->|imports| litgpt

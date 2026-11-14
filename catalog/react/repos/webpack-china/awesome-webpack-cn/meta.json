@@ -1,0 +1,31 @@
+{
+  "owner": "webpack-china",
+  "name": "awesome-webpack-cn",
+  "full_name": "webpack-china/awesome-webpack-cn",
+  "html_url": "https://github.com/webpack-china/awesome-webpack-cn",
+  "description": "[\u5370\u8bb0\u4e2d\u6587](https://docschina.org/) - webpack \u4f18\u79c0\u4e2d\u6587\u6587\u7ae0",
+  "stars": 3791,
+  "forks": 567,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "react",
+    "vue",
+    "webpack",
+    "webpack2",
+    "webpack3"
+  ],
+  "archived": false,
+  "commit_sha": "34889dbb98ed2b5f83fb900e540652f834e99a3d",
+  "commit_url": "https://github.com/webpack-china/awesome-webpack-cn/commit/34889dbb98ed2b5f83fb900e540652f834e99a3d",
+  "tree_url": "https://github.com/webpack-china/awesome-webpack-cn/tree/34889dbb98ed2b5f83fb900e540652f834e99a3d",
+  "analysed_at": "2026-11-14T19:15:04.691246+00:00",
+  "status": "completed",
+  "files_fetched": 1,
+  "files_analysed": 1,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

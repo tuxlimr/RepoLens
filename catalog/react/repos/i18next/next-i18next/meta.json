@@ -1,0 +1,50 @@
+{
+  "owner": "i18next",
+  "name": "next-i18next",
+  "full_name": "i18next/next-i18next",
+  "html_url": "https://github.com/i18next/next-i18next",
+  "description": "The easiest way to translate your NextJs apps.",
+  "stars": 6164,
+  "forks": 754,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "i18next",
+    "next",
+    "nextjs",
+    "now",
+    "react",
+    "react-i18next",
+    "reactjs",
+    "ssr"
+  ],
+  "archived": false,
+  "commit_sha": "09a2aa0975b54cd4684dcee9ab7b77224180d338",
+  "commit_url": "https://github.com/i18next/next-i18next/commit/09a2aa0975b54cd4684dcee9ab7b77224180d338",
+  "tree_url": "https://github.com/i18next/next-i18next/tree/09a2aa0975b54cd4684dcee9ab7b77224180d338",
+  "analysed_at": "2026-11-14T19:14:09.180608+00:00",
+  "status": "completed",
+  "files_fetched": 266,
+  "files_analysed": 266,
+  "components": [
+    "appRouter package",
+    "Configuration and deployment",
+    "Core modules",
+    "cypress package",
+    "pagesRouter package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/appRouter/index.ts",
+    "src/appRouter/proxy/index.ts",
+    "src/appRouter/server.ts",
+    "src/pagesRouter/index.tsx"
+  ]
+}

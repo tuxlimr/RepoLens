@@ -1,0 +1,18 @@
+%% Repository: RelaxedJS/ReLaXed
+%% Analysed commit: 9e31cd446150afcaa1f2be1df09870ad4b444bfa
+%% Commit reference: https://github.com/RelaxedJS/ReLaXed/commit/9e31cd446150afcaa1f2be1df09870ad4b444bfa
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        builtin_plugins["builtin_plugins package"]
+        cli_tools["cli-tools package"]
+        index_js["index.js package"]
+        mastertopdf_js["masterToPDF.js package"]
+        parselocals_js["parseLocals.js package"]
+        plugins_js["plugins.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

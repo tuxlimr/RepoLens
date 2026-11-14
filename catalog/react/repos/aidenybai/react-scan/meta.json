@@ -1,0 +1,53 @@
+{
+  "owner": "aidenybai",
+  "name": "react-scan",
+  "full_name": "aidenybai/react-scan",
+  "html_url": "https://github.com/aidenybai/react-scan",
+  "description": "Scan and fix React performance issues",
+  "stars": 21884,
+  "forks": 393,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "react",
+    "react-dom",
+    "react-scan",
+    "rendering"
+  ],
+  "archived": false,
+  "commit_sha": "0fb31862b697ef3ed2d8ed6990878a35a4ca8a75",
+  "commit_url": "https://github.com/aidenybai/react-scan/commit/0fb31862b697ef3ed2d8ed6990878a35a4ca8a75",
+  "tree_url": "https://github.com/aidenybai/react-scan/tree/0fb31862b697ef3ed2d8ed6990878a35a4ca8a75",
+  "analysed_at": "2026-11-14T19:13:09.335597+00:00",
+  "status": "completed",
+  "files_fetched": 246,
+  "files_analysed": 245,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "e2e package",
+    "kitchen-sink package",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/scan/bin/cli.js",
+    "kitchen-sink/src/index.tsx",
+    "kitchen-sink/src/main.tsx",
+    "packages/scan/src/index.ts",
+    "packages/vite-plugin-react-scan/src/index.ts",
+    "packages/website/app/page.tsx"
+  ]
+}

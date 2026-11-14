@@ -1,0 +1,53 @@
+{
+  "owner": "redux-offline",
+  "name": "redux-offline",
+  "full_name": "redux-offline/redux-offline",
+  "html_url": "https://github.com/redux-offline/redux-offline",
+  "description": "Build Offline-First Apps for Web and React Native",
+  "stars": 6130,
+  "forks": 386,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [
+    "hacktoberfest",
+    "offline-capable",
+    "react",
+    "react-native",
+    "redux"
+  ],
+  "archived": true,
+  "commit_sha": "41c0958bce419028e96cd63095eda5baee5a64b0",
+  "commit_url": "https://github.com/redux-offline/redux-offline/commit/41c0958bce419028e96cd63095eda5baee5a64b0",
+  "tree_url": "https://github.com/redux-offline/redux-offline/tree/41c0958bce419028e96cd63095eda5baee5a64b0",
+  "analysed_at": "2026-11-14T19:14:09.589015+00:00",
+  "status": "completed",
+  "files_fetched": 95,
+  "files_analysed": 94,
+  "components": [
+    "actions.js package",
+    "Configuration and deployment",
+    "config.js package",
+    "constants.js package",
+    "Core modules",
+    "defaults package",
+    "flow-typed package",
+    "index.js package",
+    "middleware.js package",
+    "offlineActionTracker.js package",
+    "send.js package",
+    "__tests__ package",
+    "types.js package",
+    "updater.js package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Redux",
+    "Jest"
+  ],
+  "entry_points": [
+    "src/defaults/index.js",
+    "src/index.js"
+  ]
+}

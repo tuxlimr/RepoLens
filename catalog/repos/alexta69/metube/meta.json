@@ -1,0 +1,51 @@
+{
+  "owner": "alexta69",
+  "name": "metube",
+  "full_name": "alexta69/metube",
+  "html_url": "https://github.com/alexta69/metube",
+  "description": "Self-hosted video downloader for YouTube and other sites (web UI for yt-dlp)",
+  "stars": 15263,
+  "forks": 1139,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "self-hosted",
+    "youtube",
+    "youtube-dl",
+    "yt-dlp"
+  ],
+  "archived": false,
+  "commit_sha": "7594d26dc418ec0e24985d562e4f24e737e7c0fe",
+  "commit_url": "https://github.com/alexta69/metube/commit/7594d26dc418ec0e24985d562e4f24e737e7c0fe",
+  "tree_url": "https://github.com/alexta69/metube/tree/7594d26dc418ec0e24985d562e4f24e737e7c0fe",
+  "analysed_at": "2026-11-14T19:09:05.393169+00:00",
+  "status": "completed",
+  "files_fetched": 121,
+  "files_analysed": 120,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer",
+    "Tests",
+    "ui package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "Poetry",
+    "Docker",
+    "pytest",
+    "TypeScript",
+    "unittest",
+    "Vitest"
+  ],
+  "entry_points": [
+    "app/main.py",
+    "ui/src/app/app.ts",
+    "ui/src/main.ts"
+  ]
+}

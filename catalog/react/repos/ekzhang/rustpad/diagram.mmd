@@ -1,0 +1,27 @@
+%% Repository: ekzhang/rustpad
+%% Analysed commit: 54e4a9383c84d7317af42a7ddb177ce8bcba058d
+%% Commit reference: https://github.com/ekzhang/rustpad/commit/54e4a9383c84d7317af42a7ddb177ce8bcba058d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app_tsx["App.tsx package"]
+        connectionstatus_tsx["ConnectionStatus.tsx package"]
+        footer_tsx["Footer.tsx package"]
+        index_tsx["index.tsx package"]
+        readcodeconfirm_tsx["ReadCodeConfirm.tsx package"]
+        rustpad_server["rustpad-server package"]
+        rustpad_ts["rustpad.ts package"]
+        rustpad_wasm["rustpad-wasm package"]
+        sidebar_tsx["Sidebar.tsx package"]
+        usehash_ts["useHash.ts package"]
+        user_tsx["User.tsx package"]
+        vite_env_d_ts["vite-env.d.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

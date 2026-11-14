@@ -1,0 +1,42 @@
+{
+  "owner": "remarkjs",
+  "name": "react-markdown",
+  "full_name": "remarkjs/react-markdown",
+  "html_url": "https://github.com/remarkjs/react-markdown",
+  "description": "Markdown component for React",
+  "stars": 15935,
+  "forks": 923,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "commonmark",
+    "gfm",
+    "markdown",
+    "react",
+    "remark"
+  ],
+  "archived": false,
+  "commit_sha": "f9ca66ec73d218127bff56b41a583bba1fb96125",
+  "commit_url": "https://github.com/remarkjs/react-markdown/commit/f9ca66ec73d218127bff56b41a583bba1fb96125",
+  "tree_url": "https://github.com/remarkjs/react-markdown/tree/f9ca66ec73d218127bff56b41a583bba1fb96125",
+  "analysed_at": "2026-11-14T19:13:15.504632+00:00",
+  "status": "completed",
+  "files_fetched": 16,
+  "files_analysed": 15,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "script package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/index.js"
+  ]
+}

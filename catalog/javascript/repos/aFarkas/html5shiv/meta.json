@@ -1,0 +1,30 @@
+{
+  "owner": "aFarkas",
+  "name": "html5shiv",
+  "full_name": "aFarkas/html5shiv",
+  "html_url": "https://github.com/aFarkas/html5shiv",
+  "description": "This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.",
+  "stars": 9839,
+  "forks": 2491,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "daa5fd1169cf8c1b63b0659754b4d13b037c0e54",
+  "commit_url": "https://github.com/aFarkas/html5shiv/commit/daa5fd1169cf8c1b63b0659754b4d13b037c0e54",
+  "tree_url": "https://github.com/aFarkas/html5shiv/tree/daa5fd1169cf8c1b63b0659754b4d13b037c0e54",
+  "analysed_at": "2026-11-14T19:12:49.208066+00:00",
+  "status": "completed",
+  "files_fetched": 47,
+  "files_analysed": 45,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "html5shiv.js package",
+    "html5shiv-printshiv.js package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": []
+}

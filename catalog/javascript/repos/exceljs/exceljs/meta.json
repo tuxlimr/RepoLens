@@ -1,0 +1,54 @@
+{
+  "owner": "exceljs",
+  "name": "exceljs",
+  "full_name": "exceljs/exceljs",
+  "html_url": "https://github.com/exceljs/exceljs",
+  "description": "Excel Workbook Manager",
+  "stars": 15517,
+  "forks": 2076,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "csv",
+    "exceljs",
+    "hacktoberfest",
+    "streaming-workbook",
+    "workbook",
+    "workbook-writer",
+    "worksheet",
+    "xlsx",
+    "xlsx-workbook",
+    "xlsxreader",
+    "xlsxwriter"
+  ],
+  "archived": false,
+  "commit_sha": "5bed18b45e824f409b08456b59b87430ded023ab",
+  "commit_url": "https://github.com/exceljs/exceljs/commit/5bed18b45e824f409b08456b59b87430ded023ab",
+  "tree_url": "https://github.com/exceljs/exceljs/tree/5bed18b45e824f409b08456b59b87430ded023ab",
+  "analysed_at": "2026-11-14T19:11:37.779180+00:00",
+  "status": "completed",
+  "files_fetched": 503,
+  "files_analysed": 501,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "External integrations",
+    "lib package",
+    "Service / domain layer",
+    "spec package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "excel.js",
+    "index.ts",
+    "spec/manual/app.js",
+    "spec/utils/index.js"
+  ]
+}

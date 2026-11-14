@@ -1,0 +1,36 @@
+{
+  "owner": "supnate",
+  "name": "rekit",
+  "full_name": "supnate/rekit",
+  "html_url": "https://github.com/supnate/rekit",
+  "description": "IDE and toolkit for building scalable web applications with React, Redux and React-router",
+  "stars": 4413,
+  "forks": 254,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-router",
+    "redux",
+    "rekit"
+  ],
+  "archived": false,
+  "commit_sha": "987d852fe541c1cf3507a5c1cb14f829d8bf624b",
+  "commit_url": "https://github.com/supnate/rekit/commit/987d852fe541c1cf3507a5c1cb14f829d8bf624b",
+  "tree_url": "https://github.com/supnate/rekit/tree/987d852fe541c1cf3507a5c1cb14f829d8bf624b",
+  "analysed_at": "2026-11-14T19:14:46.766112+00:00",
+  "status": "completed",
+  "files_fetched": 19,
+  "files_analysed": 18,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "bin/rekit.js"
+  ]
+}

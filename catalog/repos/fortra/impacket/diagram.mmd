@@ -1,0 +1,30 @@
+%% Repository: fortra/impacket
+%% Analysed commit: 5648c3776b3ebbfc2d3aff645b6c572afa398597
+%% Commit reference: https://github.com/fortra/impacket/commit/5648c3776b3ebbfc2d3aff645b6c572afa398597
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        impacket["impacket package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| impacket
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| impacket
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| impacket
+    impacket -->|imports| entrypoint
+    impacket -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| impacket

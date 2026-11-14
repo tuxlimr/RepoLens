@@ -1,0 +1,23 @@
+%% Repository: resemble-ai/chatterbox
+%% Analysed commit: ab55923c27757c90cfcc407baa57dc25a7d25217
+%% Commit reference: https://github.com/resemble-ai/chatterbox/commit/ab55923c27757c90cfcc407baa57dc25a7d25217
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        chatterbox["chatterbox package"]
+    end
+    chatterbox -->|imports| data_layer
+    core -->|imports| chatterbox
+    data_layer -->|imports| entrypoint
+    entrypoint -->|imports| chatterbox

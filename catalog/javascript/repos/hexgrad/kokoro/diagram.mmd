@@ -1,0 +1,24 @@
+%% Repository: hexgrad/kokoro
+%% Analysed commit: dfb907a02bba8152ca444717ca5d78747ccb4bec
+%% Commit reference: https://github.com/hexgrad/kokoro/commit/dfb907a02bba8152ca444717ca5d78747ccb4bec
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        kokoro["kokoro package"]
+        kokoro_js["kokoro.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| kokoro
+    entrypoint -->|imports| kokoro
+    kokoro -->|imports| data_layer
+    tests -->|imports| kokoro

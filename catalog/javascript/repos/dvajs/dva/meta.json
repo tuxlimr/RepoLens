@@ -1,0 +1,47 @@
+{
+  "owner": "dvajs",
+  "name": "dva",
+  "full_name": "dvajs/dva",
+  "html_url": "https://github.com/dvajs/dva",
+  "description": "\ud83c\udf31 React and redux based, lightweight and elm-style framework. (Inspired by elm and choo)",
+  "stars": 16124,
+  "forks": 3092,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "dva",
+    "elm",
+    "framework",
+    "redux",
+    "redux-saga"
+  ],
+  "archived": false,
+  "commit_sha": "b60e6c0baf59450ac9cba5a3100fd2c17a6851fa",
+  "commit_url": "https://github.com/dvajs/dva/commit/b60e6c0baf59450ac9cba5a3100fd2c17a6851fa",
+  "tree_url": "https://github.com/dvajs/dva/tree/b60e6c0baf59450ac9cba5a3100fd2c17a6851fa",
+  "analysed_at": "2026-11-14T19:11:34.165474+00:00",
+  "status": "completed",
+  "files_fetched": 178,
+  "files_analysed": 173,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "React Router",
+    "Redux"
+  ],
+  "entry_points": [
+    "packages/dva-core/src/index.js",
+    "packages/dva-immer/src/index.js",
+    "packages/dva-loading/src/index.js",
+    "packages/dva/src/index.js"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "owner": "zcreativelabs",
+  "name": "react-simple-maps",
+  "full_name": "zcreativelabs/react-simple-maps",
+  "html_url": "https://github.com/zcreativelabs/react-simple-maps",
+  "description": "Composable SVG map charts for data visualization in React",
+  "stars": 3393,
+  "forks": 460,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "choropleth",
+    "choropleth-map",
+    "choropleth-maps",
+    "d3-geo",
+    "data-visualisation",
+    "data-visualization",
+    "dataviz",
+    "dataviz-tools",
+    "datavizualization",
+    "geospatial",
+    "map",
+    "map-chart",
+    "mapping",
+    "maps",
+    "nodejs",
+    "react",
+    "svg",
+    "topojson",
+    "typescript",
+    "visualization"
+  ],
+  "archived": false,
+  "commit_sha": "80d87555f3226ab0267119ef7bf4c36658a52be5",
+  "commit_url": "https://github.com/zcreativelabs/react-simple-maps/commit/80d87555f3226ab0267119ef7bf4c36658a52be5",
+  "tree_url": "https://github.com/zcreativelabs/react-simple-maps/tree/80d87555f3226ab0267119ef7bf4c36658a52be5",
+  "analysed_at": "2026-11-14T19:15:20.943244+00:00",
+  "status": "completed",
+  "files_fetched": 46,
+  "files_analysed": 45,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "scripts package",
+    "Service / domain layer",
+    "zoom package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/core/index.ts",
+    "src/core/types/index.ts",
+    "src/index.ts",
+    "src/zoom/index.ts",
+    "src/zoom/types/index.ts"
+  ]
+}

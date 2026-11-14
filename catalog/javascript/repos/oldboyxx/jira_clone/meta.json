@@ -1,0 +1,46 @@
+{
+  "owner": "oldboyxx",
+  "name": "jira_clone",
+  "full_name": "oldboyxx/jira_clone",
+  "html_url": "https://github.com/oldboyxx/jira_clone",
+  "description": "A simplified Jira clone built with React/Babel (Client), and Node/TypeScript (API). Auto formatted with Prettier, tested with Cypress.",
+  "stars": 11061,
+  "forks": 2136,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "26a9e77b1789fef9cb43edb5d6018cf1663cf035",
+  "commit_url": "https://github.com/oldboyxx/jira_clone/commit/26a9e77b1789fef9cb43edb5d6018cf1663cf035",
+  "tree_url": "https://github.com/oldboyxx/jira_clone/tree/26a9e77b1789fef9cb43edb5d6018cf1663cf035",
+  "analysed_at": "2026-11-14T19:12:26.522997+00:00",
+  "status": "completed",
+  "files_fetched": 209,
+  "files_analysed": 207,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "External integrations"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "axios",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "api/src/entities/index.ts",
+    "api/src/errors/index.ts",
+    "api/src/index.ts",
+    "client/cypress/plugins/index.js",
+    "client/cypress/support/index.js",
+    "client/server.js",
+    "client/src/App/index.jsx",
+    "client/src/Project/index.jsx",
+    "client/src/index.jsx"
+  ]
+}

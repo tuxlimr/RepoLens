@@ -1,0 +1,56 @@
+{
+  "owner": "omgovich",
+  "name": "react-colorful",
+  "full_name": "omgovich/react-colorful",
+  "html_url": "https://github.com/omgovich/react-colorful",
+  "description": "\ud83c\udfa8 A tiny (3,1 KB) color picker component for React and Preact apps",
+  "stars": 3565,
+  "forks": 125,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "a11y",
+    "color",
+    "color-picker",
+    "hacktoberfest",
+    "hex",
+    "hooks",
+    "picker",
+    "preact",
+    "react",
+    "react-component",
+    "tiny",
+    "typescript-support",
+    "zero-dependency"
+  ],
+  "archived": false,
+  "commit_sha": "5f665a8bbfd735af8a1a4a9ae482b5b54c47c825",
+  "commit_url": "https://github.com/omgovich/react-colorful/commit/5f665a8bbfd735af8a1a4a9ae482b5b54c47c825",
+  "tree_url": "https://github.com/omgovich/react-colorful/tree/5f665a8bbfd735af8a1a4a9ae482b5b54c47c825",
+  "analysed_at": "2026-11-14T19:15:14.438060+00:00",
+  "status": "completed",
+  "files_fetched": 73,
+  "files_analysed": 73,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "css package",
+    "demo package",
+    "hooks package",
+    "index.ts package",
+    "Tests",
+    "types.ts package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "demo/src/index.tsx",
+    "src/index.ts"
+  ]
+}

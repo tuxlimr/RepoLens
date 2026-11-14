@@ -1,0 +1,43 @@
+{
+  "owner": "prettier",
+  "name": "eslint-config-prettier",
+  "full_name": "prettier/eslint-config-prettier",
+  "html_url": "https://github.com/prettier/eslint-config-prettier",
+  "description": "Turns off all rules that are unnecessary or might conflict with Prettier.",
+  "stars": 5899,
+  "forks": 259,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "bd6e6171434c7b34dec3dd0f325aab792c126ec6",
+  "commit_url": "https://github.com/prettier/eslint-config-prettier/commit/bd6e6171434c7b34dec3dd0f325aab792c126ec6",
+  "tree_url": "https://github.com/prettier/eslint-config-prettier/tree/bd6e6171434c7b34dec3dd0f325aab792c126ec6",
+  "analysed_at": "2026-11-14T19:14:12.864124+00:00",
+  "status": "completed",
+  "files_fetched": 56,
+  "files_analysed": 56,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "scripts package",
+    "test-lint package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/cli.js"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "owner": "XIU2",
+  "name": "UserScript",
+  "full_name": "XIU2/UserScript",
+  "html_url": "https://github.com/XIU2/UserScript",
+  "description": "\ud83d\udc35 \u81ea\u7528\u7684\u4e00\u4e9b\u4e71\u4e03\u516b\u7cdf \u6cb9\u7334\u811a\u672c~ ",
+  "stars": 10204,
+  "forks": 710,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "github",
+    "release",
+    "steam",
+    "tampermonkey",
+    "userscript"
+  ],
+  "archived": false,
+  "commit_sha": "8ef9d3eb59974a9341ebf1b76a5f655ad266ec23",
+  "commit_url": "https://github.com/XIU2/UserScript/commit/8ef9d3eb59974a9341ebf1b76a5f655ad266ec23",
+  "tree_url": "https://github.com/XIU2/UserScript/tree/8ef9d3eb59974a9341ebf1b76a5f655ad266ec23",
+  "analysed_at": "2026-11-14T19:12:43.350019+00:00",
+  "status": "completed",
+  "files_fetched": 29,
+  "files_analysed": 29,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

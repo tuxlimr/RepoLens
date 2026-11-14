@@ -1,0 +1,61 @@
+{
+  "owner": "lingodotdev",
+  "name": "lingo.dev",
+  "full_name": "lingodotdev/lingo.dev",
+  "html_url": "https://github.com/lingodotdev/lingo.dev",
+  "description": "Open-source localization engineering tools. Connects to Lingo.dev localization engineering platform for consistent, quality translations.",
+  "stars": 5402,
+  "forks": 813,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "i18n",
+    "javascript",
+    "react",
+    "react-native",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "fbc666cf717bbe80a57ce49b8d0fce690ee1766f",
+  "commit_url": "https://github.com/lingodotdev/lingo.dev/commit/fbc666cf717bbe80a57ce49b8d0fce690ee1766f",
+  "tree_url": "https://github.com/lingodotdev/lingo.dev/tree/fbc666cf717bbe80a57ce49b8d0fce690ee1766f",
+  "analysed_at": "2026-11-14T19:14:20.771051+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "External integrations",
+    "legacy package",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "legacy/cli/bin/cli.mjs",
+    "legacy/sdk/index.js",
+    "packages/cli/bin/cli.mjs",
+    "demo/new-compiler-next16/app/page.tsx",
+    "demo/new-compiler-vite-react-spa/src/main.tsx",
+    "integrations/directus/src/app.ts",
+    "packages/compiler/src/index.ts",
+    "packages/locales/src/index.ts",
+    "packages/logging/src/index.ts",
+    "packages/new-compiler/src/index.ts"
+  ]
+}

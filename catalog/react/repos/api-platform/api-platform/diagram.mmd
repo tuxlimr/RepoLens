@@ -1,0 +1,17 @@
+%% Repository: api-platform/api-platform
+%% Analysed commit: fa951e6b2fc161306bf195891429b9ba7a769ae4
+%% Commit reference: https://github.com/api-platform/api-platform/commit/fa951e6b2fc161306bf195891429b9ba7a769ae4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        installercommand_php["InstallerCommand.php package"]
+        scaffold["Scaffold package"]
+        scripts["scripts package"]
+        templates["templates package"]
+        templates_php["Templates.php package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

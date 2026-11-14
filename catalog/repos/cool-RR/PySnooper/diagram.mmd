@@ -1,0 +1,20 @@
+%% Repository: cool-RR/PySnooper
+%% Analysed commit: 4be5c156ffc3315011c42ba521c4d8487052d289
+%% Commit reference: https://github.com/cool-RR/PySnooper/commit/4be5c156ffc3315011c42ba521c4d8487052d289
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        pysnooper["pysnooper package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| pysnooper

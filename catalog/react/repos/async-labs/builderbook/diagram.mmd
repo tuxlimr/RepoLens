@@ -1,0 +1,20 @@
+%% Repository: async-labs/builderbook
+%% Analysed commit: a71c72e21d8aeb9f00da33d5199b47dd90b7aef0
+%% Commit reference: https://github.com/async-labs/builderbook/commit/a71c72e21d8aeb9f00da33d5199b47dd90b7aef0
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        book["book package"]
+        builderbook["builderbook package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,38 @@
+{
+  "owner": "tatsu-lab",
+  "name": "stanford_alpaca",
+  "full_name": "tatsu-lab/stanford_alpaca",
+  "html_url": "https://github.com/tatsu-lab/stanford_alpaca",
+  "description": "Code and documentation to train Stanford's Alpaca models, and generate the data.",
+  "stars": 30221,
+  "forks": 3956,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "deep-learning",
+    "instruction-following",
+    "language-model"
+  ],
+  "archived": false,
+  "commit_sha": "761dc5bfbdeeffa89b8bff5d038781a4055f796a",
+  "commit_url": "https://github.com/tatsu-lab/stanford_alpaca/commit/761dc5bfbdeeffa89b8bff5d038781a4055f796a",
+  "tree_url": "https://github.com/tatsu-lab/stanford_alpaca/tree/761dc5bfbdeeffa89b8bff5d038781a4055f796a",
+  "analysed_at": "2026-11-14T19:07:11.550862+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 15,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "generate_instruction.py",
+    "train.py",
+    "weight_diff.py"
+  ]
+}

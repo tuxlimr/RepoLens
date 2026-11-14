@@ -1,0 +1,29 @@
+%% Repository: askmike/gekko
+%% Analysed commit: ff5698f1ae6329bab5729f145c35a74161e82bac
+%% Commit reference: https://github.com/askmike/gekko/commit/ff5698f1ae6329bab5729f145c35a74161e82bac
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        exchange["exchange package"]
+        importers["importers package"]
+        plugins["plugins package"]
+        strategies["strategies package"]
+        web["web package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

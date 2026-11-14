@@ -1,0 +1,27 @@
+%% Repository: krisk/Fuse
+%% Analysed commit: edf2fb608eca0461508d1d71317e6e58309ffada
+%% Commit reference: https://github.com/krisk/Fuse/commit/edf2fb608eca0461508d1d71317e6e58309ffada
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        bench["bench package"]
+        entry_ts["entry.ts package"]
+        env_d_ts["env.d.ts package"]
+        helpers["helpers package"]
+        scripts["scripts package"]
+        search["search package"]
+        tools["tools package"]
+        types_ts["types.ts package"]
+        workers["workers package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

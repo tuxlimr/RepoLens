@@ -1,0 +1,46 @@
+{
+  "owner": "guilhermerodz",
+  "name": "input-otp",
+  "full_name": "guilhermerodz/input-otp",
+  "html_url": "https://github.com/guilhermerodz/input-otp",
+  "description": "One time passcode Input. Accessible & unstyled.",
+  "stars": 3275,
+  "forks": 91,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "2fa",
+    "input",
+    "mfa",
+    "otp",
+    "otp-verification",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "cf81845e59ff43c5885c66b4755085a36f071cc1",
+  "commit_url": "https://github.com/guilhermerodz/input-otp/commit/cf81845e59ff43c5885c66b4755085a36f071cc1",
+  "tree_url": "https://github.com/guilhermerodz/input-otp/tree/cf81845e59ff43c5885c66b4755085a36f071cc1",
+  "analysed_at": "2026-11-14T19:15:26.692230+00:00",
+  "status": "completed",
+  "files_fetched": 347,
+  "files_analysed": 346,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/input-otp/src/index.ts"
+  ]
+}

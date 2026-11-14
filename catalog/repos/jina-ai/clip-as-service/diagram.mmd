@@ -1,0 +1,23 @@
+%% Repository: jina-ai/clip-as-service
+%% Analysed commit: 03410570d4398084f5ca5c88ad968248e0f3fc5d
+%% Commit reference: https://github.com/jina-ai/clip-as-service/commit/03410570d4398084f5ca5c88ad968248e0f3fc5d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        server["server package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

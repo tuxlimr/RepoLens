@@ -1,0 +1,36 @@
+{
+  "owner": "XxHuberrr",
+  "name": "Mineradio-paused",
+  "full_name": "XxHuberrr/Mineradio-paused",
+  "html_url": "https://github.com/XxHuberrr/Mineradio-paused",
+  "description": "Mineradio \u5b98\u7f51\uff1amineradio.cn \uff5c \u4e00\u6b3e\u4ee5\u7535\u5f71\u955c\u5934\u3001\u7c92\u5b50\u89c6\u89c9\u548c\u6b4c\u8bcd\u821e\u53f0\u4e3a\u6838\u5fc3\u7684\u6c89\u6d78\u5f0f\u97f3\u4e50\u64ad\u653e\u5668\u3002",
+  "stars": 11423,
+  "forks": 899,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "649c787d22fd283b5431899eca3ee6a509319247",
+  "commit_url": "https://github.com/XxHuberrr/Mineradio-paused/commit/649c787d22fd283b5431899eca3ee6a509319247",
+  "tree_url": "https://github.com/XxHuberrr/Mineradio-paused/tree/649c787d22fd283b5431899eca3ee6a509319247",
+  "analysed_at": "2026-11-14T19:12:19.165682+00:00",
+  "status": "completed",
+  "files_fetched": 262,
+  "files_analysed": 254,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "cuefield package",
+    "desktop package",
+    "public package",
+    "qishui-audio-decryptor package",
+    "qishui-auth-v6 package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "Electron"
+  ],
+  "entry_points": []
+}

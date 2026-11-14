@@ -1,0 +1,42 @@
+{
+  "owner": "browser-use",
+  "name": "jev-ultrafast",
+  "full_name": "browser-use/jev-ultrafast",
+  "html_url": "https://github.com/browser-use/jev-ultrafast",
+  "description": "Fastest and cheapest web agent",
+  "stars": 24497,
+  "forks": 1887,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "cf3c406f0fc4becff8986ed4d4d37b7b9f102e45",
+  "commit_url": "https://github.com/browser-use/jev-ultrafast/commit/cf3c406f0fc4becff8986ed4d4d37b7b9f102e45",
+  "tree_url": "https://github.com/browser-use/jev-ultrafast/tree/cf3c406f0fc4becff8986ed4d4d37b7b9f102e45",
+  "analysed_at": "2026-11-14T19:07:36.302240+00:00",
+  "status": "completed",
+  "files_fetched": 36,
+  "files_analysed": 35,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "jev_ultrafast package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "httpx",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "jev_ultrafast/demo.py",
+    "scripts/check_guards.py",
+    "scripts/smoke.py",
+    "jev_ultrafast/static/app.js"
+  ]
+}

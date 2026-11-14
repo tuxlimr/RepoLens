@@ -1,0 +1,47 @@
+{
+  "owner": "OpenEthan",
+  "name": "SMSBoom",
+  "full_name": "OpenEthan/SMSBoom",
+  "html_url": "https://github.com/OpenEthan/SMSBoom",
+  "description": "SMSBoom - Deprecate: Due to judicial reasons, the repository has been suspended!",
+  "stars": 15073,
+  "forks": 3527,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "deprecated"
+  ],
+  "archived": true,
+  "commit_sha": "38ccbeccb05fab66442988b38b559062d7cf92d8",
+  "commit_url": "https://github.com/OpenEthan/SMSBoom/commit/38ccbeccb05fab66442988b38b559062d7cf92d8",
+  "tree_url": "https://github.com/OpenEthan/SMSBoom/tree/38ccbeccb05fab66442988b38b559062d7cf92d8",
+  "analysed_at": "2026-11-14T19:09:10.171131+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "debug package",
+    "Application entry point",
+    "External integrations",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Click",
+    "httpx",
+    "Pydantic",
+    "requests",
+    "Docker"
+  ],
+  "entry_points": [
+    "debug/spider-api.py",
+    "debug/tou_api.py",
+    "smsboom.py",
+    "smsboom_GUI.py",
+    "utils/log.py"
+  ]
+}

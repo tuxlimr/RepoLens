@@ -1,0 +1,24 @@
+%% Repository: coleifer/peewee
+%% Analysed commit: dc0637b30f696d512d35aa10ccd78170f5776251
+%% Commit reference: https://github.com/coleifer/peewee/commit/dc0637b30f696d512d35aa10ccd78170f5776251
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        playhouse["playhouse package"]
+        typecheck["typecheck package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| playhouse
+    entrypoint -->|imports| tests
+    tests -->|imports| entrypoint
+    tests -->|imports| playhouse

@@ -1,0 +1,50 @@
+{
+  "owner": "konvajs",
+  "name": "react-konva",
+  "full_name": "konvajs/react-konva",
+  "html_url": "https://github.com/konvajs/react-konva",
+  "description": "React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX.",
+  "stars": 6446,
+  "forks": 294,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "canvas-editor",
+    "design-editor",
+    "draw-graphics",
+    "konva",
+    "konva-framework",
+    "react",
+    "react-canvas",
+    "visualization",
+    "whiteboard"
+  ],
+  "archived": false,
+  "commit_sha": "be9feb46cacfdff6c4c3bb0277b222448c7c94f7",
+  "commit_url": "https://github.com/konvajs/react-konva/commit/be9feb46cacfdff6c4c3bb0277b222448c7c94f7",
+  "tree_url": "https://github.com/konvajs/react-konva/tree/be9feb46cacfdff6c4c3bb0277b222448c7c94f7",
+  "analysed_at": "2026-11-14T19:14:05.407925+00:00",
+  "status": "completed",
+  "files_fetched": 63,
+  "files_analysed": 63,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "EventBatch.ts package",
+    "makeUpdates.ts package",
+    "ReactKonva.ts package",
+    "ReactKonvaCore.tsx package",
+    "ReactKonvaHostConfig.ts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": []
+}

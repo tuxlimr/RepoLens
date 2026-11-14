@@ -1,0 +1,47 @@
+{
+  "owner": "jsx-eslint",
+  "name": "eslint-plugin-jsx-a11y",
+  "full_name": "jsx-eslint/eslint-plugin-jsx-a11y",
+  "html_url": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+  "description": "Static AST checker for a11y rules on JSX elements.",
+  "stars": 3631,
+  "forks": 659,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "a11y",
+    "accessibility",
+    "aria",
+    "eslint",
+    "hacktoberfest",
+    "jsx",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "8f75961d965e47afb88854d324bd32fafde7acfe",
+  "commit_url": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/commit/8f75961d965e47afb88854d324bd32fafde7acfe",
+  "tree_url": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/8f75961d965e47afb88854d324bd32fafde7acfe",
+  "analysed_at": "2026-11-14T19:15:11.355562+00:00",
+  "status": "completed",
+  "files_fetched": 275,
+  "files_analysed": 274,
+  "components": [
+    "Configuration and deployment",
+    "flow package",
+    "index.js package",
+    "__mocks__ package",
+    "rules package",
+    "scripts package",
+    "__tests__ package",
+    "util package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React"
+  ],
+  "entry_points": [
+    "src/index.js",
+    "src/util/implicitRoles/index.js"
+  ]
+}

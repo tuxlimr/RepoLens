@@ -1,0 +1,29 @@
+%% Repository: hiteshchoudhary/apihub
+%% Analysed commit: 3163bf09d9ee23e29378c402ae4d581e544d6c9f
+%% Commit reference: https://github.com/hiteshchoudhary/apihub/commit/3163bf09d9ee23e29378c402ae4d581e544d6c9f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app_js["app.js package"]
+        constants_js["constants.js package"]
+        e2e["e2e package"]
+        index_js["index.js package"]
+        logger["logger package"]
+        middlewares["middlewares package"]
+        passport["passport package"]
+        seeds["seeds package"]
+        socket["socket package"]
+        utils["utils package"]
+        validators["validators package"]
+    end

@@ -1,0 +1,33 @@
+{
+  "owner": "OpenMOSS",
+  "name": "MOSS",
+  "full_name": "OpenMOSS/MOSS",
+  "html_url": "https://github.com/OpenMOSS/MOSS",
+  "description": "An open-source, tool-augmented conversational language model from Fudan University",
+  "stars": 12366,
+  "forks": 1129,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "chatgpt",
+    "deep-learning",
+    "dialogue-systems",
+    "large-language-models",
+    "natural-language-processing",
+    "text-generation"
+  ],
+  "archived": false,
+  "commit_sha": "24bc88737d83fa5561bf3c284b2895b8ac41bff6",
+  "commit_url": "https://github.com/OpenMOSS/MOSS/commit/24bc88737d83fa5561bf3c284b2895b8ac41bff6",
+  "tree_url": "https://github.com/OpenMOSS/MOSS/tree/24bc88737d83fa5561bf3c284b2895b8ac41bff6",
+  "analysed_at": "2026-11-14T19:10:10.870086+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

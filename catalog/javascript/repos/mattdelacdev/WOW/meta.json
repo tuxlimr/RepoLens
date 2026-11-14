@@ -1,0 +1,28 @@
+{
+  "owner": "mattdelacdev",
+  "name": "WOW",
+  "full_name": "mattdelacdev/WOW",
+  "html_url": "https://github.com/mattdelacdev/WOW",
+  "description": "Reveal CSS animation as you scroll down a page",
+  "stars": 9890,
+  "forks": 3936,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c248bd26104b759f5efc7a1f5dcca7e758b5c793",
+  "commit_url": "https://github.com/mattdelacdev/WOW/commit/c248bd26104b759f5efc7a1f5dcca7e758b5c793",
+  "tree_url": "https://github.com/mattdelacdev/WOW/tree/c248bd26104b759f5efc7a1f5dcca7e758b5c793",
+  "analysed_at": "2026-11-14T19:12:47.504047+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 17,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "spec package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,49 @@
+{
+  "owner": "layui",
+  "name": "layui",
+  "full_name": "layui/layui",
+  "html_url": "https://github.com/layui/layui",
+  "description": "\u4e00\u5957\u9075\u5faa\u6d4f\u89c8\u5668\u539f\u751f\u6001\u5f00\u53d1\u6a21\u5f0f\u7684 Web UI \u7ec4\u4ef6\u5e93\u3002",
+  "stars": 30584,
+  "forks": 7339,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "component-library",
+    "css",
+    "html",
+    "javascript",
+    "layui",
+    "ui-kit",
+    "ui-library"
+  ],
+  "archived": false,
+  "commit_sha": "13725717407d23fac11b15b1a1155d26328b6d99",
+  "commit_url": "https://github.com/layui/layui/commit/13725717407d23fac11b15b1a1155d26328b6d99",
+  "tree_url": "https://github.com/layui/layui/tree/13725717407d23fac11b15b1a1155d26328b6d99",
+  "analysed_at": "2026-11-14T19:10:46.839364+00:00",
+  "status": "completed",
+  "files_fetched": 181,
+  "files_analysed": 181,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "index.umd.js package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": [
+    "tests/visual/template/pr-preview/index.js",
+    "src/index.js",
+    "src/utils/index.js"
+  ]
+}

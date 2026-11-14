@@ -1,0 +1,52 @@
+{
+  "owner": "microsoft",
+  "name": "LoRA",
+  "full_name": "microsoft/LoRA",
+  "html_url": "https://github.com/microsoft/LoRA",
+  "description": "Code for loralib, an implementation of \"LoRA: Low-Rank Adaptation of Large Language Models\"",
+  "stars": 13923,
+  "forks": 937,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "adaptation",
+    "deberta",
+    "deep-learning",
+    "gpt-2",
+    "gpt-3",
+    "language-model",
+    "lora",
+    "low-rank",
+    "pytorch",
+    "roberta"
+  ],
+  "archived": false,
+  "commit_sha": "c4593f060e6a368d7bb5af5273b8e42810cdef90",
+  "commit_url": "https://github.com/microsoft/LoRA/commit/c4593f060e6a368d7bb5af5273b8e42810cdef90",
+  "tree_url": "https://github.com/microsoft/LoRA/tree/c4593f060e6a368d7bb5af5273b8e42810cdef90",
+  "analysed_at": "2026-11-14T19:09:39.264095+00:00",
+  "status": "completed",
+  "files_fetched": 680,
+  "files_analysed": 680,
+  "components": [
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "FastAPI",
+    "Starlette",
+    "Click",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

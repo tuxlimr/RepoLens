@@ -1,0 +1,21 @@
+%% Repository: alibaba/designable
+%% Analysed commit: 3e961de947011df6ac5cd092c1084140494f5fc2
+%% Commit reference: https://github.com/alibaba/designable/commit/3e961de947011df6ac5cd092c1084140494f5fc2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        formily["formily package"]
+        packages["packages package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

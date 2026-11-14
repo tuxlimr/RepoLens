@@ -1,0 +1,43 @@
+{
+  "owner": "borisdayma",
+  "name": "dalle-mini",
+  "full_name": "borisdayma/dalle-mini",
+  "html_url": "https://github.com/borisdayma/dalle-mini",
+  "description": "DALL\u00b7E Mini - Generate images from a text prompt",
+  "stars": 14710,
+  "forks": 1210,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "f0be4de610285a002052024a1e096126f9452cc4",
+  "commit_url": "https://github.com/borisdayma/dalle-mini/commit/f0be4de610285a002052024a1e096126f9452cc4",
+  "tree_url": "https://github.com/borisdayma/dalle-mini/tree/f0be4de610285a002052024a1e096126f9452cc4",
+  "analysed_at": "2026-11-14T19:09:18.603833+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 48,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "dalle_mini package",
+    "Docker package",
+    "Application entry point",
+    "External integrations",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker"
+  ],
+  "entry_points": [
+    "setup.py",
+    "tools/train/train.py"
+  ]
+}

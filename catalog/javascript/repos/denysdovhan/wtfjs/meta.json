@@ -1,0 +1,40 @@
+{
+  "owner": "denysdovhan",
+  "name": "wtfjs",
+  "full_name": "denysdovhan/wtfjs",
+  "html_url": "https://github.com/denysdovhan/wtfjs",
+  "description": "\ud83e\udd2a A list of funny and tricky JavaScript examples",
+  "stars": 37693,
+  "forks": 2673,
+  "license": "WTFPL",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "book",
+    "handbook",
+    "javascript",
+    "js",
+    "learning",
+    "notes",
+    "specification",
+    "wtf"
+  ],
+  "archived": false,
+  "commit_sha": "a2c83226a15890004758971264211f116fff367a",
+  "commit_url": "https://github.com/denysdovhan/wtfjs/commit/a2c83226a15890004758971264211f116fff367a",
+  "tree_url": "https://github.com/denysdovhan/wtfjs/tree/a2c83226a15890004758971264211f116fff367a",
+  "analysed_at": "2026-11-14T19:10:41.501419+00:00",
+  "status": "completed",
+  "files_fetched": 22,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "wtfjs.js"
+  ]
+}

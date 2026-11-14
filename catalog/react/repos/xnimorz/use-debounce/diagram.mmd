@@ -1,0 +1,19 @@
+%% Repository: xnimorz/use-debounce
+%% Analysed commit: 771f915e21bf5d8f4cab626b6cb7bebbec2681fb
+%% Commit reference: https://github.com/xnimorz/use-debounce/commit/771f915e21bf5d8f4cab626b6cb7bebbec2681fb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        index_ts["index.ts package"]
+        usedebounce_ts["useDebounce.ts package"]
+        usedebouncedcallback_ts["useDebouncedCallback.ts package"]
+        usethrottledcallback_ts["useThrottledCallback.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,60 @@
+{
+  "owner": "gka",
+  "name": "chroma.js",
+  "full_name": "gka/chroma.js",
+  "html_url": "https://github.com/gka/chroma.js",
+  "description": "JavaScript library for all kinds of color manipulations",
+  "stars": 10604,
+  "forks": 560,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "chroma",
+    "color-conversion",
+    "color-manipulation",
+    "colors",
+    "javascript-library",
+    "manipulate-colors"
+  ],
+  "archived": false,
+  "commit_sha": "c6f893a6e3bb83b3b03d397ceffd326cf818cd02",
+  "commit_url": "https://github.com/gka/chroma.js/commit/c6f893a6e3bb83b3b03d397ceffd326cf818cd02",
+  "tree_url": "https://github.com/gka/chroma.js/tree/c6f893a6e3bb83b3b03d397ceffd326cf818cd02",
+  "analysed_at": "2026-11-14T19:12:36.665058+00:00",
+  "status": "completed",
+  "files_fetched": 203,
+  "files_analysed": 198,
+  "components": [
+    "chroma.js package",
+    "Color.js package",
+    "colors package",
+    "Configuration and deployment",
+    "Core modules",
+    "generator package",
+    "interpolator package",
+    "io package",
+    "ops package",
+    "Tests",
+    "utils package",
+    "version.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vitest"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/interpolator/index.js",
+    "src/io/cmyk/index.js",
+    "src/io/css/index.js",
+    "src/io/gl/index.js",
+    "src/io/hcg/index.js",
+    "src/io/hex/index.js",
+    "src/io/hsi/index.js",
+    "src/io/hsl/index.js",
+    "src/io/hsv/index.js",
+    "src/io/lab/index.js",
+    "src/io/lch/index.js"
+  ]
+}

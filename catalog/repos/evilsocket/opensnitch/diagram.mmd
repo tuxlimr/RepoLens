@@ -1,0 +1,37 @@
+%% Repository: evilsocket/opensnitch
+%% Analysed commit: a1353848ba1b660320e90cefea782c3fba272c00
+%% Commit reference: https://github.com/evilsocket/opensnitch/commit/a1353848ba1b660320e90cefea782c3fba272c00
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        daemon["daemon package"]
+        ebpf_prog["ebpf_prog package"]
+        ui["ui package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    config -->|imports| ui
+    ui -->|imports| external_integrations

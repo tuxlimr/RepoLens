@@ -1,0 +1,28 @@
+%% Repository: qubvel-org/segmentation_models.pytorch
+%% Analysed commit: 5b8e53f0ebece38823477b656c442ea389b71669
+%% Commit reference: https://github.com/qubvel-org/segmentation_models.pytorch/commit/5b8e53f0ebece38823477b656c442ea389b71669
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        misc["misc package"]
+        segmentation_models_pytorch["segmentation_models_pytorch package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| segmentation_models_pytorch
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| segmentation_models_pytorch
+    misc -->|imports| segmentation_models_pytorch
+    tests -->|imports| segmentation_models_pytorch

@@ -1,0 +1,14 @@
+%% Repository: HunxByts/GhostTrack
+%% Analysed commit: a5cb8ad4c08acd803f166fb067b7dac724d6cb3d
+%% Commit reference: https://github.com/HunxByts/GhostTrack/commit/a5cb8ad4c08acd803f166fb067b7dac724d6cb3d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    entrypoint -->|imports| external_integrations

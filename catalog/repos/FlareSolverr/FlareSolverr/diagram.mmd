@@ -1,0 +1,37 @@
+%% Repository: FlareSolverr/FlareSolverr
+%% Analysed commit: cc2224b21e31c09a713eb25690a8e8dcdf50d8d8
+%% Commit reference: https://github.com/FlareSolverr/FlareSolverr/commit/cc2224b21e31c09a713eb25690a8e8dcdf50d8d8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bottle_plugins["bottle_plugins package"]
+        dtos_py["dtos.py package"]
+        metrics_py["metrics.py package"]
+        sessions_py["sessions.py package"]
+        undetected_chromedriver["undetected_chromedriver package"]
+        utils_py["utils.py package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    bottle_plugins -->|imports| dtos_py
+    bottle_plugins -->|imports| metrics_py
+    entrypoint -->|imports| bottle_plugins
+    entrypoint -->|imports| dtos_py
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| utils_py
+    service_layer -->|imports| dtos_py
+    service_layer -->|imports| sessions_py
+    service_layer -->|imports| utils_py
+    sessions_py -->|imports| utils_py
+    undetected_chromedriver -->|imports| external_integrations
+    utils_py -->|imports| undetected_chromedriver

@@ -1,0 +1,50 @@
+{
+  "owner": "TencentARC",
+  "name": "GFPGAN",
+  "full_name": "TencentARC/GFPGAN",
+  "html_url": "https://github.com/TencentARC/GFPGAN",
+  "description": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.",
+  "stars": 37701,
+  "forks": 6279,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "face-restoration",
+    "gan",
+    "gfpgan",
+    "image-restoration",
+    "pytorch",
+    "super-resolution"
+  ],
+  "archived": false,
+  "commit_sha": "7552a7791caad982045a7bbe5634bbf1cd5c8679",
+  "commit_url": "https://github.com/TencentARC/GFPGAN/commit/7552a7791caad982045a7bbe5634bbf1cd5c8679",
+  "tree_url": "https://github.com/TencentARC/GFPGAN/tree/7552a7791caad982045a7bbe5634bbf1cd5c8679",
+  "analysed_at": "2026-11-14T19:06:47.867340+00:00",
+  "status": "completed",
+  "files_fetched": 51,
+  "files_analysed": 51,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "gfpgan package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "gfpgan/train.py",
+    "inference_gfpgan.py",
+    "scripts/convert_gfpganv_to_clean.py",
+    "setup.py"
+  ]
+}

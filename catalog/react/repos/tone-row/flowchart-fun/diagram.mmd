@@ -1,0 +1,15 @@
+%% Repository: tone-row/flowchart-fun
+%% Analysed commit: 5854f69b97dc247cac3b689c5c2c482fd78df81d
+%% Commit reference: https://github.com/tone-row/flowchart-fun/commit/5854f69b97dc247cac3b689c5c2c482fd78df81d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        app["app package"]
+        formulaic["formulaic package"]
+        shared["shared package"]
+    end

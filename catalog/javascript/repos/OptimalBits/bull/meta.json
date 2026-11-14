@@ -1,0 +1,47 @@
+{
+  "owner": "OptimalBits",
+  "name": "bull",
+  "full_name": "OptimalBits/bull",
+  "html_url": "https://github.com/OptimalBits/bull",
+  "description": "Premium Queue package for handling distributed jobs and messages in NodeJS.",
+  "stars": 16265,
+  "forks": 1391,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [
+    "job",
+    "job-queue",
+    "message",
+    "message-queue",
+    "nodejs",
+    "priority",
+    "queue",
+    "rate-limiter",
+    "scheduler"
+  ],
+  "archived": false,
+  "commit_sha": "73d065506931fc876c67c721bc424b2bd76b520b",
+  "commit_url": "https://github.com/OptimalBits/bull/commit/73d065506931fc876c67c721bc424b2bd76b520b",
+  "tree_url": "https://github.com/OptimalBits/bull/tree/73d065506931fc876c67c721bc424b2bd76b520b",
+  "analysed_at": "2026-11-14T19:11:33.573751+00:00",
+  "status": "completed",
+  "files_fetched": 108,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/commands/index.js"
+  ]
+}

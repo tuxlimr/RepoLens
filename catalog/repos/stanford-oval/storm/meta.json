@@ -1,0 +1,49 @@
+{
+  "owner": "stanford-oval",
+  "name": "storm",
+  "full_name": "stanford-oval/storm",
+  "html_url": "https://github.com/stanford-oval/storm",
+  "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+  "stars": 31878,
+  "forks": 3011,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agentic-rag",
+    "deep-research",
+    "emnlp2024",
+    "knowledge-curation",
+    "large-language-models",
+    "naacl",
+    "nlp",
+    "report-generation",
+    "retrieval-augmented-generation"
+  ],
+  "archived": false,
+  "commit_sha": "fb951af7744dab086e34962e9bc6fe878e145f83",
+  "commit_url": "https://github.com/stanford-oval/storm/commit/fb951af7744dab086e34962e9bc6fe878e145f83",
+  "tree_url": "https://github.com/stanford-oval/storm/tree/fb951af7744dab086e34962e9bc6fe878e145f83",
+  "analysed_at": "2026-11-14T19:07:07.711881+00:00",
+  "status": "completed",
+  "files_fetched": 67,
+  "files_analysed": 67,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "frontend package",
+    "knowledge_storm package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "NumPy",
+    "pandas",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "frontend/demo_light/storm.py"
+  ]
+}

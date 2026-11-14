@@ -1,0 +1,30 @@
+%% Repository: k2-fsa/OmniVoice
+%% Analysed commit: 08be0b4ccbac3e13e374e86fbfead4b4cac343e2
+%% Commit reference: https://github.com/k2-fsa/OmniVoice/commit/08be0b4ccbac3e13e374e86fbfead4b4cac343e2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        omnivoice["omnivoice package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| omnivoice
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| omnivoice
+    omnivoice -->|imports| config
+    omnivoice -->|imports| data_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| omnivoice

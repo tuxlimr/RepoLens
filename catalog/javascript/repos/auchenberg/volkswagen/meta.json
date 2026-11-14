@@ -1,0 +1,35 @@
+{
+  "owner": "auchenberg",
+  "name": "volkswagen",
+  "full_name": "auchenberg/volkswagen",
+  "html_url": "https://github.com/auchenberg/volkswagen",
+  "description": ":see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.",
+  "stars": 15467,
+  "forks": 240,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "cheat",
+    "ci-server",
+    "continuous-integration",
+    "defeat",
+    "javascipt",
+    "nodejs",
+    "volkswagen"
+  ],
+  "archived": false,
+  "commit_sha": "ae379b4459ee4dd71b4783246b99f6a3135fdc4b",
+  "commit_url": "https://github.com/auchenberg/volkswagen/commit/ae379b4459ee4dd71b4783246b99f6a3135fdc4b",
+  "tree_url": "https://github.com/auchenberg/volkswagen/tree/ae379b4459ee4dd71b4783246b99f6a3135fdc4b",
+  "analysed_at": "2026-11-14T19:11:38.354268+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 13,
+  "components": [
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": []
+}

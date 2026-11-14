@@ -1,0 +1,34 @@
+%% Repository: locustio/locust
+%% Analysed commit: 3debc468b53f10d00cb7b449c8f6086f2e5c5be1
+%% Commit reference: https://github.com/locustio/locust/commit/3debc468b53f10d00cb7b449c8f6086f2e5c5be1
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        locust["locust package"]
+        pytest_locust["pytest_locust package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| locust
+    locust -->|imports| entrypoint
+    locust -->|imports| external_integrations
+    pytest_locust -->|imports| locust
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| locust

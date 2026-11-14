@@ -1,0 +1,57 @@
+{
+  "owner": "hubotio",
+  "name": "hubot",
+  "full_name": "hubotio/hubot",
+  "html_url": "https://github.com/hubotio/hubot",
+  "description": "A customizable life embetterment robot.",
+  "stars": 16796,
+  "forks": 3706,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "bot",
+    "chat",
+    "hubot"
+  ],
+  "archived": false,
+  "commit_sha": "1e66cb44b0b7fcea686f0018d2d3fb41cd1194ca",
+  "commit_url": "https://github.com/hubotio/hubot/commit/1e66cb44b0b7fcea686f0018d2d3fb41cd1194ca",
+  "tree_url": "https://github.com/hubotio/hubot/tree/1e66cb44b0b7fcea686f0018d2d3fb41cd1194ca",
+  "analysed_at": "2026-11-14T19:11:30.454295+00:00",
+  "status": "completed",
+  "files_fetched": 103,
+  "files_analysed": 101,
+  "components": [
+    "Adapter.mjs package",
+    "bin package",
+    "Brain.mjs package",
+    "CommandBus.mjs package",
+    "Configuration and deployment",
+    "configuration package",
+    "Core modules",
+    "DataStore.mjs package",
+    "datastores package",
+    "External integrations",
+    "GenHubot.mjs package",
+    "HttpClient.mjs package",
+    "Listener.mjs package",
+    "Message.mjs package",
+    "Middleware.mjs package",
+    "OptParse.mjs package",
+    "Response.mjs package",
+    "Robot.mjs package",
+    "script package",
+    "sfab-hooks package",
+    "Tests",
+    "User.mjs package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express"
+  ],
+  "entry_points": [
+    "index.mjs",
+    "bin/hubot"
+  ]
+}

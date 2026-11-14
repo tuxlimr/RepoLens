@@ -1,0 +1,46 @@
+{
+  "owner": "p-e-w",
+  "name": "heretic",
+  "full_name": "p-e-w/heretic",
+  "html_url": "https://github.com/p-e-w/heretic",
+  "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+  "stars": 40595,
+  "forks": 4659,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "abliteration",
+    "anti-censorship",
+    "anticensorship",
+    "censorship",
+    "censorship-resistance",
+    "llm",
+    "transformer"
+  ],
+  "archived": false,
+  "commit_sha": "a14b8543537b50ce8db4db7eaae4eb295d5d5142",
+  "commit_url": "https://github.com/p-e-w/heretic/commit/a14b8543537b50ce8db4db7eaae4eb295d5d5142",
+  "tree_url": "https://github.com/p-e-w/heretic/tree/a14b8543537b50ce8db4db7eaae4eb295d5d5142",
+  "analysed_at": "2026-11-14T19:06:42.564151+00:00",
+  "status": "completed",
+  "files_fetched": 95,
+  "files_analysed": 95,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "heretic package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Pydantic",
+    "Poetry",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/heretic/main.py"
+  ]
+}

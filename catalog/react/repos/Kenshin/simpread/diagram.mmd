@@ -1,0 +1,24 @@
+%% Repository: Kenshin/simpread
+%% Analysed commit: d6534a7d67ab606e0390ff7172360fac88af4422
+%% Commit reference: https://github.com/Kenshin/simpread/commit/d6534a7d67ab606e0390ff7172360fac88af4422
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        background_js["background.js package"]
+        contentscripts_js["contentscripts.js package"]
+        ext["ext package"]
+        focus["focus package"]
+        ga_js["ga.js package"]
+        module["module package"]
+        options["options package"]
+        read["read package"]
+        vender["vender package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

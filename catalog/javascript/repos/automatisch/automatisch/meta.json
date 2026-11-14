@@ -1,0 +1,48 @@
+{
+  "owner": "automatisch",
+  "name": "automatisch",
+  "full_name": "automatisch/automatisch",
+  "html_url": "https://github.com/automatisch/automatisch",
+  "description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+  "stars": 14021,
+  "forks": 1063,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "automation",
+    "automatisch",
+    "low-code",
+    "no-code",
+    "open-source",
+    "self-hosted",
+    "workflow"
+  ],
+  "archived": false,
+  "commit_sha": "41f3c56a163103cae761bb44f03638cb84e859ee",
+  "commit_url": "https://github.com/automatisch/automatisch/commit/41f3c56a163103cae761bb44f03638cb84e859ee",
+  "tree_url": "https://github.com/automatisch/automatisch/tree/41f3c56a163103cae761bb44f03638cb84e859ee",
+  "analysed_at": "2026-11-14T19:11:47.592776+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "docker package",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Redis",
+    "Express",
+    "axios",
+    "Docker",
+    "Docker Compose",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/backend/src/app.js"
+  ]
+}

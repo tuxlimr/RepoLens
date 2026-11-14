@@ -1,0 +1,22 @@
+%% Repository: SFTtech/openage
+%% Analysed commit: 5f042b9ce84ed13f78473faebf4a8ed90a1da8cd
+%% Commit reference: https://github.com/SFTtech/openage/commit/5f042b9ce84ed13f78473faebf4a8ed90a1da8cd
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        buildsystem["buildsystem package"]
+        etc["etc package"]
+        libopenage["libopenage package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| buildsystem

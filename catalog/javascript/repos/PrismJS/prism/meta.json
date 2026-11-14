@@ -1,0 +1,48 @@
+{
+  "owner": "PrismJS",
+  "name": "prism",
+  "full_name": "PrismJS/prism",
+  "html_url": "https://github.com/PrismJS/prism",
+  "description": "Lightweight, robust, elegant syntax highlighting.",
+  "stars": 13068,
+  "forks": 1411,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "v2",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "59759136a1da88be0c54d98ed3152ec8135ce905",
+  "commit_url": "https://github.com/PrismJS/prism/commit/59759136a1da88be0c54d98ed3152ec8135ce905",
+  "tree_url": "https://github.com/PrismJS/prism/tree/59759136a1da88be0c54d98ed3152ec8135ce905",
+  "analysed_at": "2026-11-14T19:12:01.236016+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "auto-start.js package",
+    "benchmark package",
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "core.js package",
+    "global.js package",
+    "index.js package",
+    "languages package",
+    "load-languages.js package",
+    "plugins package",
+    "scripts package",
+    "Service / domain layer",
+    "shared package",
+    "shared.js package",
+    "Tests",
+    "types.d.ts package",
+    "util package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

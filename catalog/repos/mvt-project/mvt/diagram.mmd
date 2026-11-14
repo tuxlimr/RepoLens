@@ -1,0 +1,28 @@
+%% Repository: mvt-project/mvt
+%% Analysed commit: c9190e05ef4c67df6407bc8b2adbd904954b9388
+%% Commit reference: https://github.com/mvt-project/mvt/commit/c9190e05ef4c67df6407bc8b2adbd904954b9388
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        mvt["mvt package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| mvt
+    entrypoint -->|imports| mvt
+    mvt -->|imports| config
+    mvt -->|imports| entrypoint
+    mvt -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| mvt

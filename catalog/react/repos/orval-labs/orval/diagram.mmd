@@ -1,0 +1,19 @@
+%% Repository: orval-labs/orval
+%% Analysed commit: 4d82f9584ff687adcafd10f3acc1b66ac4e45520
+%% Commit reference: https://github.com/orval-labs/orval/commit/4d82f9584ff687adcafd10f3acc1b66ac4e45520
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

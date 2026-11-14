@@ -1,0 +1,31 @@
+%% Repository: LibreTranslate/LibreTranslate
+%% Analysed commit: 84cd56c061a7ba3955b49efdaee2ac54dcbca07f
+%% Commit reference: https://github.com/LibreTranslate/LibreTranslate/commit/84cd56c061a7ba3955b49efdaee2ac54dcbca07f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        libretranslate["libretranslate package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| libretranslate
+    libretranslate -->|imports| entrypoint
+    libretranslate -->|imports| external_integrations
+    scripts -->|imports| entrypoint
+    scripts -->|imports| external_integrations
+    scripts -->|imports| libretranslate
+    tests -->|imports| entrypoint
+    tests -->|imports| libretranslate

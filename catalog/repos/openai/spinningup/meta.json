@@ -1,0 +1,49 @@
+{
+  "owner": "openai",
+  "name": "spinningup",
+  "full_name": "openai/spinningup",
+  "html_url": "https://github.com/openai/spinningup",
+  "description": "An educational resource to help anyone learn deep reinforcement learning.",
+  "stars": 12040,
+  "forks": 2460,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "038665d62d569055401d91856abb287263096178",
+  "commit_url": "https://github.com/openai/spinningup/commit/038665d62d569055401d91856abb287263096178",
+  "tree_url": "https://github.com/openai/spinningup/tree/038665d62d569055401d91856abb287263096178",
+  "analysed_at": "2026-11-14T19:10:16.909131+00:00",
+  "status": "completed",
+  "files_fetched": 151,
+  "files_analysed": 151,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "spinup package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "spinup/algos/pytorch/ddpg/ddpg.py",
+    "spinup/algos/pytorch/ppo/ppo.py",
+    "spinup/algos/pytorch/sac/sac.py",
+    "spinup/algos/pytorch/td3/td3.py",
+    "spinup/algos/pytorch/vpg/vpg.py",
+    "spinup/algos/tf1/ddpg/ddpg.py",
+    "spinup/algos/tf1/ppo/ppo.py",
+    "spinup/algos/tf1/sac/sac.py",
+    "spinup/algos/tf1/td3/td3.py",
+    "spinup/algos/tf1/trpo/trpo.py",
+    "spinup/algos/tf1/vpg/vpg.py",
+    "spinup/exercises/pytorch/problem_set_1/exercise1_1.py"
+  ]
+}

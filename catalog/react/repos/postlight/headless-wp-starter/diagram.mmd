@@ -1,0 +1,16 @@
+%% Repository: postlight/headless-wp-starter
+%% Analysed commit: 6334c8db447442bb1f01a4148a2f6e6e7d291c8e
+%% Commit reference: https://github.com/postlight/headless-wp-starter/commit/6334c8db447442bb1f01a4148a2f6e6e7d291c8e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        frontend["frontend package"]
+        frontend_graphql["frontend-graphql package"]
+        wordpress["wordpress package"]
+    end

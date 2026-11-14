@@ -1,0 +1,40 @@
+{
+  "owner": "0xAX",
+  "name": "linux-insides",
+  "full_name": "0xAX/linux-insides",
+  "html_url": "https://github.com/0xAX/linux-insides",
+  "description": "A book-in-progress about the Linux kernel and its insides.",
+  "stars": 33756,
+  "forks": 3578,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "linux",
+    "linux-insides",
+    "linux-kernel"
+  ],
+  "archived": false,
+  "commit_sha": "4fa356494fa6de2143dbfbd729e66bf469439ca3",
+  "commit_url": "https://github.com/0xAX/linux-insides/commit/4fa356494fa6de2143dbfbd729e66bf469439ca3",
+  "tree_url": "https://github.com/0xAX/linux-insides/tree/4fa356494fa6de2143dbfbd729e66bf469439ca3",
+  "analysed_at": "2026-11-14T19:07:00.557485+00:00",
+  "status": "completed",
+  "files_fetched": 142,
+  "files_analysed": 141,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry",
+    "Docker"
+  ],
+  "entry_points": [
+    "scripts/check_code_snippets.py"
+  ]
+}

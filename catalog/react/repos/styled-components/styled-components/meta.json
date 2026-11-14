@@ -1,0 +1,53 @@
+{
+  "owner": "styled-components",
+  "name": "styled-components",
+  "full_name": "styled-components/styled-components",
+  "html_url": "https://github.com/styled-components/styled-components",
+  "description": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native\u2014one API.",
+  "stars": 41048,
+  "forks": 2595,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "css-in-js",
+    "react",
+    "reactnative",
+    "rsc",
+    "styled-components"
+  ],
+  "archived": false,
+  "commit_sha": "e2aa1c8f6e40b74ae164e7489f68067019d47772",
+  "commit_url": "https://github.com/styled-components/styled-components/commit/e2aa1c8f6e40b74ae164e7489f68067019d47772",
+  "tree_url": "https://github.com/styled-components/styled-components/tree/e2aa1c8f6e40b74ae164e7489f68067019d47772",
+  "analysed_at": "2026-11-14T19:12:59.563541+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/benchmarks/src/index.js",
+    "packages/ios-benchmark/App.tsx",
+    "packages/ios-benchmark/index.js",
+    "packages/native-showcase/app/index.tsx",
+    "packages/sandbox/app/page.tsx",
+    "packages/styled-components/src/index.ts"
+  ]
+}

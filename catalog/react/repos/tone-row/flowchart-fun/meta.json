@@ -1,0 +1,52 @@
+{
+  "owner": "tone-row",
+  "name": "flowchart-fun",
+  "full_name": "tone-row/flowchart-fun",
+  "html_url": "https://github.com/tone-row/flowchart-fun",
+  "description": "Easily generate flowcharts and diagrams from text \u2ffb",
+  "stars": 3410,
+  "forks": 247,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "diagram-generator",
+    "flowchart",
+    "flowchart-editor",
+    "generator",
+    "graphs",
+    "open-source",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "5854f69b97dc247cac3b689c5c2c482fd78df81d",
+  "commit_url": "https://github.com/tone-row/flowchart-fun/commit/5854f69b97dc247cac3b689c5c2c482fd78df81d",
+  "tree_url": "https://github.com/tone-row/flowchart-fun/tree/5854f69b97dc247cac3b689c5c2c482fd78df81d",
+  "analysed_at": "2026-11-14T19:15:20.387971+00:00",
+  "status": "completed",
+  "files_fetched": 524,
+  "files_analysed": 523,
+  "components": [
+    "API layer",
+    "app package",
+    "Configuration and deployment",
+    "formulaic package",
+    "shared package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "axios",
+    "React Router",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "app/src/components/App.tsx",
+    "app/src/index.tsx",
+    "app/src/slang/index.tsx",
+    "shared/src/index.ts"
+  ]
+}

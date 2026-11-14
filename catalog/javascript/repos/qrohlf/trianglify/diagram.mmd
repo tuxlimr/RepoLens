@@ -1,0 +1,17 @@
+%% Repository: qrohlf/trianglify
+%% Analysed commit: b959ccd656ca7294ebe363ee0c1dfbe72929a16e
+%% Commit reference: https://github.com/qrohlf/trianglify/commit/b959ccd656ca7294ebe363ee0c1dfbe72929a16e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        pattern_js["pattern.js package"]
+        trianglify_browser_test_js["trianglify.browser.test.js package"]
+        trianglify_js["trianglify.js package"]
+        trianglify_node_test_js["trianglify.node.test.js package"]
+        utils["utils package"]
+    end

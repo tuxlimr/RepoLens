@@ -1,0 +1,37 @@
+{
+  "owner": "rossant",
+  "name": "awesome-math",
+  "full_name": "rossant/awesome-math",
+  "html_url": "https://github.com/rossant/awesome-math",
+  "description": "A curated list of awesome mathematics resources",
+  "stars": 16961,
+  "forks": 1655,
+  "license": "CC0-1.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "lecture-notes",
+    "list",
+    "mathematics"
+  ],
+  "archived": false,
+  "commit_sha": "6f1cb9e5990cde9ca75af90b6d447aa778535c4b",
+  "commit_url": "https://github.com/rossant/awesome-math/commit/6f1cb9e5990cde9ca75af90b6d447aa778535c4b",
+  "tree_url": "https://github.com/rossant/awesome-math/tree/6f1cb9e5990cde9ca75af90b6d447aa778535c4b",
+  "analysed_at": "2026-11-14T19:08:38.999106+00:00",
+  "status": "completed",
+  "files_fetched": 10,
+  "files_analysed": 10,
+  "components": [
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "build_toc.py",
+    "scripts/validate.py"
+  ]
+}

@@ -1,0 +1,44 @@
+%% Repository: donnemartin/data-science-ipython-notebooks
+%% Analysed commit: 5b3c00d462c6e9200315afe46d0093948621eb95
+%% Commit reference: https://github.com/donnemartin/data-science-ipython-notebooks/commit/5b3c00d462c6e9200315afe46d0093948621eb95
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        analyses["analyses package"]
+        aws["aws package"]
+        commands["commands package"]
+        deep_learning["deep-learning package"]
+        kaggle["kaggle package"]
+        mapreduce["mapreduce package"]
+        matplotlib["matplotlib package"]
+        numpy["numpy package"]
+        pandas["pandas package"]
+        python_data["python-data package"]
+        scikit_learn["scikit-learn package"]
+        scipy["scipy package"]
+        spark["spark package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    analyses -->|imports| numpy
+    data_layer -->|imports| numpy
+    deep_learning -->|imports| numpy
+    entrypoint -->|imports| matplotlib
+    entrypoint -->|imports| numpy
+    entrypoint -->|imports| pandas
+    entrypoint -->|imports| scipy
+    scikit_learn -->|imports| matplotlib
+    scikit_learn -->|imports| numpy
+    tests -->|imports| python_data

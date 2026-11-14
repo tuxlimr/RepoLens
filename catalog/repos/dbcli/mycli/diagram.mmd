@@ -1,0 +1,34 @@
+%% Repository: dbcli/mycli
+%% Analysed commit: 9a216b6c68294b4222e1780bfe66d00d3c1d1a91
+%% Commit reference: https://github.com/dbcli/mycli/commit/9a216b6c68294b4222e1780bfe66d00d3c1d1a91
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        mycli["mycli package"]
+        mycli_test["mycli_test package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| mycli
+    entrypoint -->|imports| mycli
+    external_integrations -->|imports| config
+    external_integrations -->|imports| mycli
+    mycli -->|imports| config
+    mycli -->|imports| entrypoint
+    mycli -->|imports| external_integrations
+    mycli_test -->|imports| external_integrations
+    mycli_test -->|imports| mycli
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| mycli
+    tests -->|imports| mycli_test

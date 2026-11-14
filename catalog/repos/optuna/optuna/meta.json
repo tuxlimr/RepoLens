@@ -1,0 +1,55 @@
+{
+  "owner": "optuna",
+  "name": "optuna",
+  "full_name": "optuna/optuna",
+  "html_url": "https://github.com/optuna/optuna",
+  "description": "A hyperparameter optimization framework",
+  "stars": 15043,
+  "forks": 1465,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "distributed",
+    "hyperparameter-optimization",
+    "machine-learning",
+    "parallel",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "abf8914d48571120574469575d37c4b0929b7f0f",
+  "commit_url": "https://github.com/optuna/optuna/commit/abf8914d48571120574469575d37c4b0929b7f0f",
+  "tree_url": "https://github.com/optuna/optuna/tree/abf8914d48571120574469575d37c4b0929b7f0f",
+  "analysed_at": "2026-11-14T19:09:09.209330+00:00",
+  "status": "completed",
+  "files_fetched": 471,
+  "files_analysed": 471,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "optuna package",
+    "Tests",
+    "tutorial package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "SQLite",
+    "AWS (boto3)",
+    "NumPy",
+    "pandas",
+    "SQLAlchemy",
+    "Poetry",
+    "setuptools",
+    "Alembic",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "optuna/cli.py",
+    "tutorial/20_recipes/004_cli.py",
+    "tutorial/20_recipes/012_artifact_tutorial.py"
+  ]
+}

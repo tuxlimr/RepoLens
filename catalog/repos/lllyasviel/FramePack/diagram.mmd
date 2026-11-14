@@ -1,0 +1,19 @@
+%% Repository: lllyasviel/FramePack
+%% Analysed commit: 97fe5dbe06ac1f337ece08935b1076a35eefeeb9
+%% Commit reference: https://github.com/lllyasviel/FramePack/commit/97fe5dbe06ac1f337ece08935b1076a35eefeeb9
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        diffusers_helper["diffusers_helper package"]
+    end
+    core -->|imports| data_layer
+    core -->|imports| diffusers_helper
+    data_layer -->|imports| diffusers_helper

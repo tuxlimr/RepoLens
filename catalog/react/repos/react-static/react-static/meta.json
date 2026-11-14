@@ -1,0 +1,47 @@
+{
+  "owner": "react-static",
+  "name": "react-static",
+  "full_name": "react-static/react-static",
+  "html_url": "https://github.com/react-static/react-static",
+  "description": "\u269b\ufe0f \ud83d\ude80 A progressive static site generator for React.",
+  "stars": 10337,
+  "forks": 737,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "marketing",
+    "react",
+    "react-static",
+    "static",
+    "static-site",
+    "static-site-generator"
+  ],
+  "archived": false,
+  "commit_sha": "82c412265560c164cc19daabde9064b4679090d6",
+  "commit_url": "https://github.com/react-static/react-static/commit/82c412265560c164cc19daabde9064b4679090d6",
+  "tree_url": "https://github.com/react-static/react-static/tree/82c412265560c164cc19daabde9064b4679090d6",
+  "analysed_at": "2026-11-14T19:13:30.965655+00:00",
+  "status": "completed",
+  "files_fetched": 303,
+  "files_analysed": 303,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "packages--disabled package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "axios",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/react-static/bin/react-static",
+    "packages/react-static/node/index.js",
+    "packages/react-static/src/index.js"
+  ]
+}

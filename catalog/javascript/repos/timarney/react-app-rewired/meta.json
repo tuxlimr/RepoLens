@@ -1,0 +1,43 @@
+{
+  "owner": "timarney",
+  "name": "react-app-rewired",
+  "full_name": "timarney/react-app-rewired",
+  "html_url": "https://github.com/timarney/react-app-rewired",
+  "description": "Override create-react-app webpack configs without ejecting",
+  "stars": 9836,
+  "forks": 418,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "config",
+    "create-react-app",
+    "eject",
+    "never",
+    "react",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "bfe2390b92bb2f32864bdd09b1b6bbecdc261960",
+  "commit_url": "https://github.com/timarney/react-app-rewired/commit/bfe2390b92bb2f32864bdd09b1b6bbecdc261960",
+  "tree_url": "https://github.com/timarney/react-app-rewired/tree/bfe2390b92bb2f32864bdd09b1b6bbecdc261960",
+  "analysed_at": "2026-11-14T19:12:49.533169+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 37,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "overrides package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "bin/index.js",
+    "index.js"
+  ]
+}

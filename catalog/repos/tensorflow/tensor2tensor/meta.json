@@ -1,0 +1,60 @@
+{
+  "owner": "tensorflow",
+  "name": "tensor2tensor",
+  "full_name": "tensorflow/tensor2tensor",
+  "html_url": "https://github.com/tensorflow/tensor2tensor",
+  "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+  "stars": 17471,
+  "forks": 3829,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "machine-learning",
+    "machine-translation",
+    "reinforcement-learning",
+    "tpu"
+  ],
+  "archived": true,
+  "commit_sha": "bafdc1b67730430d38d6ab802cbd51f9d053ba2e",
+  "commit_url": "https://github.com/tensorflow/tensor2tensor/commit/bafdc1b67730430d38d6ab802cbd51f9d053ba2e",
+  "tree_url": "https://github.com/tensorflow/tensor2tensor/tree/bafdc1b67730430d38d6ab802cbd51f9d053ba2e",
+  "analysed_at": "2026-11-14T19:08:31.531398+00:00",
+  "status": "completed",
+  "files_fetched": 545,
+  "files_analysed": 545,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "oss_scripts package",
+    "tensor2tensor package",
+    "Tests"
+  ],
+  "detections": [
+    "Flask",
+    "aiohttp",
+    "Gunicorn",
+    "NumPy",
+    "requests",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "tensor2tensor/bin/build_vocab.py",
+    "tensor2tensor/bin/make_tf_configs.py",
+    "tensor2tensor/bin/t2t_attack.py",
+    "tensor2tensor/bin/t2t_avg_all.py",
+    "tensor2tensor/bin/t2t_bleu.py",
+    "tensor2tensor/bin/t2t_datagen.py",
+    "tensor2tensor/bin/t2t_decoder.py",
+    "tensor2tensor/bin/t2t_distill.py",
+    "tensor2tensor/bin/t2t_eval.py",
+    "tensor2tensor/bin/t2t_prune.py",
+    "tensor2tensor/bin/t2t_trainer.py",
+    "tensor2tensor/bin/t2t_trainer_test.py"
+  ]
+}

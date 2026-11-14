@@ -1,0 +1,35 @@
+%% Repository: aio-libs/aiohttp
+%% Analysed commit: fe099491d275ef2c21bf683e024e34d51ac05d43
+%% Commit reference: https://github.com/aio-libs/aiohttp/commit/fe099491d275ef2c21bf683e024e34d51ac05d43
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        aiohttp["aiohttp package"]
+        requirements["requirements package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    aiohttp -->|imports| data_layer
+    aiohttp -->|imports| entrypoint
+    aiohttp -->|imports| external_integrations
+    entrypoint -->|imports| aiohttp
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| tests
+    external_integrations -->|imports| aiohttp
+    tests -->|imports| aiohttp
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

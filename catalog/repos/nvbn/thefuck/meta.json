@@ -1,0 +1,43 @@
+{
+  "owner": "nvbn",
+  "name": "thefuck",
+  "full_name": "nvbn/thefuck",
+  "html_url": "https://github.com/nvbn/thefuck",
+  "description": "Magnificent app which corrects your previous console command.",
+  "stars": 97954,
+  "forks": 3979,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "python",
+    "shell"
+  ],
+  "archived": false,
+  "commit_sha": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+  "commit_url": "https://github.com/nvbn/thefuck/commit/c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+  "tree_url": "https://github.com/nvbn/thefuck/tree/c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+  "analysed_at": "2026-11-14T19:06:08.363959+00:00",
+  "status": "completed",
+  "files_fetched": 434,
+  "files_analysed": 434,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "thefuck package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "thefuck/entrypoints/main.py",
+    "thefuck/entrypoints/not_configured.py",
+    "thefuck/entrypoints/not_configured.py"
+  ]
+}

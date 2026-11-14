@@ -1,0 +1,62 @@
+{
+  "owner": "vercel",
+  "name": "swr",
+  "full_name": "vercel/swr",
+  "html_url": "https://github.com/vercel/swr",
+  "description": "React Hooks for Data Fetching",
+  "stars": 32491,
+  "forks": 1407,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "cache",
+    "data",
+    "data-fetching",
+    "fetch",
+    "hook",
+    "hooks",
+    "nextjs",
+    "react",
+    "react-native",
+    "stale-while-revalidate",
+    "suspense",
+    "swr",
+    "vercel"
+  ],
+  "archived": false,
+  "commit_sha": "8148ef012fd5b317d1e8ec2da4b2ca0673f63c0f",
+  "commit_url": "https://github.com/vercel/swr/commit/8148ef012fd5b317d1e8ec2da4b2ca0673f63c0f",
+  "tree_url": "https://github.com/vercel/swr/tree/8148ef012fd5b317d1e8ec2da4b2ca0673f63c0f",
+  "analysed_at": "2026-11-14T19:13:02.680112+00:00",
+  "status": "completed",
+  "files_fetched": 342,
+  "files_analysed": 341,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "immutable package",
+    "index package",
+    "infinite package",
+    "_internal package",
+    "mutation package",
+    "scripts package",
+    "subscription package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/_internal/index.ts",
+    "src/immutable/index.ts",
+    "src/index/index.ts",
+    "src/infinite/index.ts",
+    "src/mutation/index.ts",
+    "src/subscription/index.ts"
+  ]
+}

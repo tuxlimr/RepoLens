@@ -1,0 +1,21 @@
+%% Repository: darkroomengineering/lenis
+%% Analysed commit: bd89165aa6ab64c4ae68242c8d2a5e90b76ff77d
+%% Commit reference: https://github.com/darkroomengineering/lenis/commit/bd89165aa6ab64c4ae68242c8d2a5e90b76ff77d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        packages["packages package"]
+        playground["playground package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

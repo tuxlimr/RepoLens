@@ -1,0 +1,45 @@
+{
+  "owner": "PaulLeCam",
+  "name": "react-leaflet",
+  "full_name": "PaulLeCam/react-leaflet",
+  "html_url": "https://github.com/PaulLeCam/react-leaflet",
+  "description": "React components for Leaflet maps",
+  "stars": 5609,
+  "forks": 897,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "leaflet",
+    "leaflet-maps",
+    "map",
+    "react",
+    "react-components",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "374882f6b73bb741785968be6d81257767da366d",
+  "commit_url": "https://github.com/PaulLeCam/react-leaflet/commit/374882f6b73bb741785968be6d81257767da366d",
+  "tree_url": "https://github.com/PaulLeCam/react-leaflet/tree/374882f6b73bb741785968be6d81257767da366d",
+  "analysed_at": "2026-11-14T19:14:16.032025+00:00",
+  "status": "completed",
+  "files_fetched": 95,
+  "files_analysed": 94,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/core/src/index.ts",
+    "packages/react-leaflet/src/index.ts"
+  ]
+}

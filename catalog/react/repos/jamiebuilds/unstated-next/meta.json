@@ -1,0 +1,35 @@
+{
+  "owner": "jamiebuilds",
+  "name": "unstated-next",
+  "full_name": "jamiebuilds/unstated-next",
+  "html_url": "https://github.com/jamiebuilds/unstated-next",
+  "description": "200 bytes to never think about React state management libraries ever again",
+  "stars": 4180,
+  "forks": 137,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "library",
+    "react",
+    "redux",
+    "state-management"
+  ],
+  "archived": false,
+  "commit_sha": "15329b5962771b475c5beb48f6a6fee2d56c1bfb",
+  "commit_url": "https://github.com/jamiebuilds/unstated-next/commit/15329b5962771b475c5beb48f6a6fee2d56c1bfb",
+  "tree_url": "https://github.com/jamiebuilds/unstated-next/tree/15329b5962771b475c5beb48f6a6fee2d56c1bfb",
+  "analysed_at": "2026-11-14T19:14:51.769397+00:00",
+  "status": "completed",
+  "files_fetched": 14,
+  "files_analysed": 14,
+  "components": [
+    "Configuration and deployment",
+    "unstated-next.tsx package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

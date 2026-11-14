@@ -1,0 +1,52 @@
+{
+  "owner": "bytedance",
+  "name": "trae-agent",
+  "full_name": "bytedance/trae-agent",
+  "html_url": "https://github.com/bytedance/trae-agent",
+  "description": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
+  "stars": 12202,
+  "forks": 1375,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "llm",
+    "software-engineering"
+  ],
+  "archived": false,
+  "commit_sha": "e839e559ac61bdd0e057c375dd1dee391fee797d",
+  "commit_url": "https://github.com/bytedance/trae-agent/commit/e839e559ac61bdd0e057c375dd1dee391fee797d",
+  "tree_url": "https://github.com/bytedance/trae-agent/tree/e839e559ac61bdd0e057c375dd1dee391fee797d",
+  "analysed_at": "2026-11-14T19:10:13.081405+00:00",
+  "status": "completed",
+  "files_fetched": 105,
+  "files_analysed": 105,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "evaluation package",
+    "External integrations",
+    "Tests",
+    "trae_agent package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Click",
+    "Pydantic",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "evaluation/patch_selection/analysis.py",
+    "evaluation/patch_selection/selector.py",
+    "evaluation/patch_selection/trae_selector/tools/tools/execute_bash.py",
+    "evaluation/patch_selection/trae_selector/tools/tools/execute_str_replace_editor.py",
+    "evaluation/run_evaluation.py",
+    "trae_agent/cli.py",
+    "trae_agent/tools/edit_tool_cli.py",
+    "trae_agent/tools/json_edit_tool_cli.py"
+  ]
+}

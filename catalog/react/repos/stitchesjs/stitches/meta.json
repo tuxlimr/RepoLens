@@ -1,0 +1,43 @@
+{
+  "owner": "stitchesjs",
+  "name": "stitches",
+  "full_name": "stitchesjs/stitches",
+  "html_url": "https://github.com/stitchesjs/stitches",
+  "description": "[Not Actively Maintained] CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.",
+  "stars": 7758,
+  "forks": 250,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "canary",
+  "topics": [
+    "css",
+    "css-framework",
+    "css-in-js",
+    "react",
+    "stitches"
+  ],
+  "archived": true,
+  "commit_sha": "50fd8a1adc6360340fe348a8b3ebc8b06d38e230",
+  "commit_url": "https://github.com/stitchesjs/stitches/commit/50fd8a1adc6360340fe348a8b3ebc8b06d38e230",
+  "tree_url": "https://github.com/stitchesjs/stitches/tree/50fd8a1adc6360340fe348a8b3ebc8b06d38e230",
+  "analysed_at": "2026-11-14T19:13:49.181129+00:00",
+  "status": "completed",
+  "files_fetched": 175,
+  "files_analysed": 174,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/core/src/index.js",
+    "packages/react/src/index.js",
+    "packages/stringify/src/index.js"
+  ]
+}

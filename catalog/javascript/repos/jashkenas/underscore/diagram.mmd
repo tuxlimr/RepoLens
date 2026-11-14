@@ -1,0 +1,17 @@
+%% Repository: jashkenas/underscore
+%% Analysed commit: 5c1e5f686f8500af9c9d15614ed60289d6d35d6b
+%% Commit reference: https://github.com/jashkenas/underscore/commit/5c1e5f686f8500af9c9d15614ed60289d6d35d6b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        modules["modules package"]
+        test_treeshake["test-treeshake package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

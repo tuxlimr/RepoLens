@@ -1,0 +1,46 @@
+{
+  "owner": "charlax",
+  "name": "professional-programming",
+  "full_name": "charlax/professional-programming",
+  "html_url": "https://github.com/charlax/professional-programming",
+  "description": "A collection of learning resources for curious software engineers",
+  "stars": 51678,
+  "forks": 4034,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "architecture",
+    "computer-science",
+    "concepts",
+    "documentation",
+    "engineer",
+    "learning",
+    "lessons-learned",
+    "professional",
+    "programmer",
+    "programming-language",
+    "read-articles",
+    "scalability",
+    "software-engineering"
+  ],
+  "archived": false,
+  "commit_sha": "2e9e51cb5f42c45a31c70ed59ce1fd9fb9618d5e",
+  "commit_url": "https://github.com/charlax/professional-programming/commit/2e9e51cb5f42c45a31c70ed59ce1fd9fb9618d5e",
+  "tree_url": "https://github.com/charlax/professional-programming/tree/2e9e51cb5f42c45a31c70ed59ce1fd9fb9618d5e",
+  "analysed_at": "2026-11-14T19:06:32.735537+00:00",
+  "status": "completed",
+  "files_fetched": 29,
+  "files_analysed": 29,
+  "components": [
+    "antipatterns package",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "SQLAlchemy"
+  ],
+  "entry_points": [
+    "antipatterns/sqlalchemy-examples/exists.py"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "owner": "jonasschmedtmann",
+  "name": "complete-javascript-course",
+  "full_name": "jonasschmedtmann/complete-javascript-course",
+  "html_url": "https://github.com/jonasschmedtmann/complete-javascript-course",
+  "description": "Starter files, final projects, and FAQ for my Complete JavaScript course",
+  "stars": 17286,
+  "forks": 17413,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript-course",
+    "starter-files",
+    "udemy"
+  ],
+  "archived": false,
+  "commit_sha": "76b8b79b2994dd00298b2be105aa6bc721e40a22",
+  "commit_url": "https://github.com/jonasschmedtmann/complete-javascript-course/commit/76b8b79b2994dd00298b2be105aa6bc721e40a22",
+  "tree_url": "https://github.com/jonasschmedtmann/complete-javascript-course/tree/76b8b79b2994dd00298b2be105aa6bc721e40a22",
+  "analysed_at": "2026-11-14T19:11:30.044248+00:00",
+  "status": "completed",
+  "files_fetched": 156,
+  "files_analysed": 154,
+  "components": [
+    "API layer",
+    "01-Fundamentals-Part-1 package",
+    "02-Fundamentals-Part-2 package",
+    "03-Developer-Skills package",
+    "05-Guess-My-Number package",
+    "06-Modal package",
+    "07-Pig-Game package",
+    "08-Behind-the-Scenes package",
+    "09-Data-Structures-Operators package",
+    "10-Functions package",
+    "11-Arrays-Bankist package",
+    "12-Numbers-Dates-Timers-Bankist package",
+    "13-Advanced-DOM-Bankist package",
+    "14-OOP package",
+    "15-Mapty package",
+    "16-Asynchronous package",
+    "17-Modern-JS-Modules-Tooling package",
+    "18-forkify package",
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": [
+    "17-Modern-JS-Modules-Tooling/final/script.js"
+  ]
+}

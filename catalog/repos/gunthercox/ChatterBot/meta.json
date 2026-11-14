@@ -1,0 +1,52 @@
+{
+  "owner": "gunthercox",
+  "name": "ChatterBot",
+  "full_name": "gunthercox/ChatterBot",
+  "html_url": "https://github.com/gunthercox/ChatterBot",
+  "description": "ChatterBot is a machine learning, conversational dialog engine for creating chat bots",
+  "stars": 14523,
+  "forks": 4406,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "bot",
+    "chatbot",
+    "chatterbot",
+    "conversation",
+    "language",
+    "machine-learning",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "be68629cedb8a40f072bb2e456f7af2d4ea91998",
+  "commit_url": "https://github.com/gunthercox/ChatterBot/commit/be68629cedb8a40f072bb2e456f7af2d4ea91998",
+  "tree_url": "https://github.com/gunthercox/ChatterBot/tree/be68629cedb8a40f072bb2e456f7af2d4ea91998",
+  "analysed_at": "2026-11-14T19:09:23.607024+00:00",
+  "status": "completed",
+  "files_fetched": 238,
+  "files_analysed": 238,
+  "components": [
+    "chatterbot package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MongoDB",
+    "Redis",
+    "Django",
+    "requests",
+    "SQLAlchemy",
+    "Poetry",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "chatterbot/__main__.py"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "owner": "TauricResearch",
+  "name": "TradingAgents",
+  "full_name": "TauricResearch/TradingAgents",
+  "html_url": "https://github.com/TauricResearch/TradingAgents",
+  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "stars": 122565,
+  "forks": 23476,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "finance",
+    "llm",
+    "multiagent",
+    "trading"
+  ],
+  "archived": false,
+  "commit_sha": "9fa1196fffbcfd9de5146d2dd2869df84ab99838",
+  "commit_url": "https://github.com/TauricResearch/TradingAgents/commit/9fa1196fffbcfd9de5146d2dd2869df84ab99838",
+  "tree_url": "https://github.com/TauricResearch/TradingAgents/tree/9fa1196fffbcfd9de5146d2dd2869df84ab99838",
+  "analysed_at": "2026-11-14T19:06:06.273132+00:00",
+  "status": "completed",
+  "files_fetched": 203,
+  "files_analysed": 202,
+  "components": [
+    "cli package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "tradingagents package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Typer",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "cli/main.py"
+  ]
+}

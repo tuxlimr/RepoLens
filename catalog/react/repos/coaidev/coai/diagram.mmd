@@ -1,0 +1,30 @@
+%% Repository: coaidev/coai
+%% Analysed commit: 3048a493eedcfe75de4d59afd5139847ad3195ed
+%% Commit reference: https://github.com/coaidev/coai/commit/3048a493eedcfe75de4d59afd5139847ad3195ed
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        adapter["adapter package"]
+        addition["addition package"]
+        admin["admin package"]
+        app["app package"]
+        auth["auth package"]
+        channel["channel package"]
+        cli["cli package"]
+        connection["connection package"]
+        globals["globals package"]
+        manager["manager package"]
+        middleware["middleware package"]
+        utils["utils package"]
+    end

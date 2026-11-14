@@ -1,0 +1,50 @@
+{
+  "owner": "visgl",
+  "name": "react-map-gl",
+  "full_name": "visgl/react-map-gl",
+  "html_url": "https://github.com/visgl/react-map-gl",
+  "description": "React friendly API wrapper around MapboxGL JS",
+  "stars": 8515,
+  "forks": 1345,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "data-visualization",
+    "map",
+    "mapbox-gl",
+    "mapbox-gl-js",
+    "react",
+    "uber",
+    "webgl"
+  ],
+  "archived": false,
+  "commit_sha": "1afe1a98580680c870eeb1139c40a94835333705",
+  "commit_url": "https://github.com/visgl/react-map-gl/commit/1afe1a98580680c870eeb1139c40a94835333705",
+  "tree_url": "https://github.com/visgl/react-map-gl/tree/1afe1a98580680c870eeb1139c40a94835333705",
+  "analysed_at": "2026-11-14T19:13:41.622840+00:00",
+  "status": "completed",
+  "files_fetched": 586,
+  "files_analysed": 586,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "modules package",
+    "scripts package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "modules/react-mapbox/src/index.ts",
+    "modules/react-maplibre/src/index.ts",
+    "website/src/pages/index.jsx"
+  ]
+}

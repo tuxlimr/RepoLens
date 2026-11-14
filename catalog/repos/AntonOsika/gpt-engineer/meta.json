@@ -1,0 +1,61 @@
+{
+  "owner": "AntonOsika",
+  "name": "gpt-engineer",
+  "full_name": "AntonOsika/gpt-engineer",
+  "html_url": "https://github.com/AntonOsika/gpt-engineer",
+  "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+  "stars": 54957,
+  "forks": 7264,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "autonomous-agent",
+    "code-generation",
+    "codebase-generation",
+    "codegen",
+    "coding-assistant",
+    "gpt-4",
+    "gpt-engineer",
+    "openai",
+    "python"
+  ],
+  "archived": true,
+  "commit_sha": "a90fcd543eedcc0ff2c34561bc0785d2ba83c47e",
+  "commit_url": "https://github.com/AntonOsika/gpt-engineer/commit/a90fcd543eedcc0ff2c34561bc0785d2ba83c47e",
+  "tree_url": "https://github.com/AntonOsika/gpt-engineer/tree/a90fcd543eedcc0ff2c34561bc0785d2ba83c47e",
+  "analysed_at": "2026-11-14T19:06:29.145661+00:00",
+  "status": "completed",
+  "files_fetched": 179,
+  "files_analysed": 179,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "docker package",
+    "Application entry point",
+    "External integrations",
+    "gpt_engineer package",
+    "projects package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "requests",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "gpt_engineer/applications/cli/main.py",
+    "gpt_engineer/benchmark/__main__.py",
+    "projects/example-improve/main.py",
+    "scripts/clean_benchmarks.py",
+    "scripts/legacy_benchmark.py",
+    "scripts/print_chat.py"
+  ]
+}

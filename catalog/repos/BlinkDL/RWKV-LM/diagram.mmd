@@ -1,0 +1,23 @@
+%% Repository: BlinkDL/RWKV-LM
+%% Analysed commit: 2eebb381a6160837ac45896c60d6963ef3cda929
+%% Commit reference: https://github.com/BlinkDL/RWKV-LM/commit/2eebb381a6160837ac45896c60d6963ef3cda929
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        rwkv_v1["RWKV-v1 package"]
+        rwkv_v2_rnn["RWKV-v2-RNN package"]
+        rwkv_v3["RWKV-v3 package"]
+        rwkv_v4["RWKV-v4 package"]
+        rwkv_v4neo["RWKV-v4neo package"]
+        rwkv_v5["RWKV-v5 package"]
+        rwkv_v7["RWKV-v7 package"]
+        rwkv_v8["RWKV-v8 package"]
+    end

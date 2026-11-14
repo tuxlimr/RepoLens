@@ -1,0 +1,18 @@
+%% Repository: 521xueweihan/GitHub520
+%% Analysed commit: 617d378e97c54362c44d27a502611a8df72d1a0c
+%% Commit reference: https://github.com/521xueweihan/GitHub520/commit/617d378e97c54362c44d27a502611a8df72d1a0c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    entrypoint -->|imports| core
+    entrypoint -->|imports| external_integrations

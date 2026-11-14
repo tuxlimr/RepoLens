@@ -1,0 +1,38 @@
+{
+  "owner": "h2y",
+  "name": "Shadowrocket-ADBlock-Rules",
+  "full_name": "h2y/Shadowrocket-ADBlock-Rules",
+  "html_url": "https://github.com/h2y/Shadowrocket-ADBlock-Rules",
+  "description": "\u63d0\u4f9b\u591a\u6b3e Shadowrocket \u89c4\u5219\uff0c\u5e26\u5e7f\u544a\u8fc7\u6ee4\u529f\u80fd\u3002\u7528\u4e8e iOS \u672a\u8d8a\u72f1\u8bbe\u5907\u9009\u62e9\u6027\u5730\u81ea\u52a8\u7ffb\u5899\u3002",
+  "stars": 16736,
+  "forks": 2333,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "gfw",
+    "proxy",
+    "shadowrocket",
+    "shadowsocks",
+    "shadowsocksr",
+    "ssr",
+    "surge"
+  ],
+  "archived": true,
+  "commit_sha": "1b691dc27ac483cfc0574c7559c6f9db9293c6f7",
+  "commit_url": "https://github.com/h2y/Shadowrocket-ADBlock-Rules/commit/1b691dc27ac483cfc0574c7559c6f9db9293c6f7",
+  "tree_url": "https://github.com/h2y/Shadowrocket-ADBlock-Rules/tree/1b691dc27ac483cfc0574c7559c6f9db9293c6f7",
+  "analysed_at": "2026-11-14T19:08:43.859391+00:00",
+  "status": "completed",
+  "files_fetched": 38,
+  "files_analysed": 38,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "factory package"
+  ],
+  "detections": [
+    "requests"
+  ],
+  "entry_points": []
+}

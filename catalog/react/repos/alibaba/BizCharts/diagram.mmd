@@ -1,0 +1,36 @@
+%% Repository: alibaba/BizCharts
+%% Analysed commit: 0be043c2fe36dd1ef56fa252e7a075a0a31115b5
+%% Commit reference: https://github.com/alibaba/BizCharts/commit/0be043c2fe36dd1ef56fa252e7a075a0a31115b5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        adapter["adapter package"]
+        animations_ts["animations.ts package"]
+        boundary["boundary package"]
+        components["components package"]
+        connector["connector package"]
+        context["context package"]
+        core_ts["core.ts package"]
+        createplot_tsx["createPlot.tsx package"]
+        demos["demos package"]
+        extend["extend package"]
+        g2_all_ts["g2-all.ts package"]
+        g_components["g-components package"]
+        geometry["geometry package"]
+        global_d_ts["global.d.ts package"]
+        hooks["hooks package"]
+        index_tsx["index.tsx package"]
+        interface_ts["interface.ts package"]
+        plots["plots package"]
+        stories["__stories__ package"]
+        theme["theme package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

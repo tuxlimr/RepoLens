@@ -1,0 +1,51 @@
+{
+  "owner": "VulcanJS",
+  "name": "Vulcan",
+  "full_name": "VulcanJS/Vulcan",
+  "html_url": "https://github.com/VulcanJS/Vulcan",
+  "description": "\ud83c\udf0b A toolkit to quickly build apps with React, GraphQL & Meteor",
+  "stars": 7888,
+  "forks": 1803,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "devel",
+  "topics": [
+    "graphql",
+    "hacktoberfest",
+    "meteor",
+    "react",
+    "server-rendering",
+    "toolkit"
+  ],
+  "archived": true,
+  "commit_sha": "5b81976dc67a5af280131ce093d889a29a736d93",
+  "commit_url": "https://github.com/VulcanJS/Vulcan/commit/5b81976dc67a5af280131ce093d889a29a736d93",
+  "tree_url": "https://github.com/VulcanJS/Vulcan/tree/5b81976dc67a5af280131ce093d889a29a736d93",
+  "analysed_at": "2026-11-14T19:13:44.211917+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 798,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "External integrations",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "Docker",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/vulcan-backoffice/package.js",
+    ".vulcan/prettier/index.js",
+    "packages/meteor-mocha/server.js"
+  ]
+}

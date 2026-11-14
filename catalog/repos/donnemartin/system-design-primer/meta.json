@@ -1,0 +1,48 @@
+{
+  "owner": "donnemartin",
+  "name": "system-design-primer",
+  "full_name": "donnemartin/system-design-primer",
+  "html_url": "https://github.com/donnemartin/system-design-primer",
+  "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+  "stars": 377864,
+  "forks": 59283,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "design",
+    "design-patterns",
+    "design-system",
+    "development",
+    "interview",
+    "interview-practice",
+    "interview-questions",
+    "programming",
+    "python",
+    "system",
+    "web",
+    "web-application",
+    "webapp"
+  ],
+  "archived": false,
+  "commit_sha": "ae9bbd7b02d90b9866215de185217d33f39ab733",
+  "commit_url": "https://github.com/donnemartin/system-design-primer/commit/ae9bbd7b02d90b9866215de185217d33f39ab733",
+  "tree_url": "https://github.com/donnemartin/system-design-primer/tree/ae9bbd7b02d90b9866215de185217d33f39ab733",
+  "analysed_at": "2026-11-14T19:05:59.634380+00:00",
+  "status": "completed",
+  "files_fetched": 60,
+  "files_analysed": 60,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "solutions package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "solutions/system_design/mint/mint_mapreduce.py",
+    "solutions/system_design/pastebin/pastebin.py",
+    "solutions/system_design/sales_rank/sales_rank_mapreduce.py",
+    "solutions/system_design/web_crawler/web_crawler_mapreduce.py"
+  ]
+}

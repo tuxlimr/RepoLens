@@ -1,0 +1,60 @@
+{
+  "owner": "mdnice",
+  "name": "markdown-nice",
+  "full_name": "mdnice/markdown-nice",
+  "html_url": "https://github.com/mdnice/markdown-nice",
+  "description": "\u652f\u6301\u4e3b\u9898\u8bbe\u8ba1\u7684 Markdown \u7f16\u8f91\u5668\uff0c\u8ba9\u6392\u7248\u53d8 Nice",
+  "stars": 4679,
+  "forks": 725,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "antd",
+    "markdown",
+    "react",
+    "wechat"
+  ],
+  "archived": false,
+  "commit_sha": "6525a5aba371209c2840593e8f537b4a69137a4b",
+  "commit_url": "https://github.com/mdnice/markdown-nice/commit/6525a5aba371209c2840593e8f537b4a69137a4b",
+  "tree_url": "https://github.com/mdnice/markdown-nice/tree/6525a5aba371209c2840593e8f537b4a69137a4b",
+  "analysed_at": "2026-11-14T19:14:39.301637+00:00",
+  "status": "completed",
+  "files_fetched": 187,
+  "files_analysed": 187,
+  "components": [
+    "App.js package",
+    "App.test.js package",
+    "component package",
+    "Configuration and deployment",
+    "Core modules",
+    "icon package",
+    "index.d.ts package",
+    "index.js package",
+    "layout package",
+    "Lib.js package",
+    "scripts package",
+    "serviceWorker.js package",
+    "store package",
+    "stories package",
+    "template package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "main.js",
+    "src/App.js",
+    "src/component/LocalHistory/index.js",
+    "src/component/SearchBox/index.js",
+    "src/icon/index.js",
+    "src/index.js",
+    "src/template/index.js",
+    "stories/index.js"
+  ]
+}

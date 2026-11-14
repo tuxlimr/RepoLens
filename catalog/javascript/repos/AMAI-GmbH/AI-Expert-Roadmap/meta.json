@@ -1,0 +1,39 @@
+{
+  "owner": "AMAI-GmbH",
+  "name": "AI-Expert-Roadmap",
+  "full_name": "AMAI-GmbH/AI-Expert-Roadmap",
+  "html_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+  "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+  "stars": 31356,
+  "forks": 2589,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "ai-roadmap",
+    "artificial-intelligence",
+    "data-analysis",
+    "data-science",
+    "deep-learning",
+    "machine-learning",
+    "neural-network",
+    "roadmap",
+    "study-plan"
+  ],
+  "archived": false,
+  "commit_sha": "a4c66c2670d9004385ed0faa4fb2a729aa6b18d4",
+  "commit_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap/commit/a4c66c2670d9004385ed0faa4fb2a729aa6b18d4",
+  "tree_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap/tree/a4c66c2670d9004385ed0faa4fb2a729aa6b18d4",
+  "analysed_at": "2026-11-14T19:10:46.147116+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

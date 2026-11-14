@@ -1,0 +1,53 @@
+{
+  "owner": "soumyajit4419",
+  "name": "Portfolio",
+  "full_name": "soumyajit4419/Portfolio",
+  "html_url": "https://github.com/soumyajit4419/Portfolio",
+  "description": "My self coded personal website build with React.js",
+  "stars": 6519,
+  "forks": 3450,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "create-react-app",
+    "developer-portfolio",
+    "easy-to-use",
+    "express-js",
+    "portfolio",
+    "portfolio-site",
+    "portfolio-template",
+    "react",
+    "react-bootsrap",
+    "react-js",
+    "react-portfolio",
+    "react-template",
+    "web-template"
+  ],
+  "archived": false,
+  "commit_sha": "60c3c08f5f5c25ca4a3a85d795a6d1450a947f40",
+  "commit_url": "https://github.com/soumyajit4419/Portfolio/commit/60c3c08f5f5c25ca4a3a85d795a6d1450a947f40",
+  "tree_url": "https://github.com/soumyajit4419/Portfolio/tree/60c3c08f5f5c25ca4a3a85d795a6d1450a947f40",
+  "analysed_at": "2026-11-14T19:14:04.434416+00:00",
+  "status": "completed",
+  "files_fetched": 60,
+  "files_analysed": 60,
+  "components": [
+    "App.js package",
+    "App.test.js package",
+    "components package",
+    "Configuration and deployment",
+    "index.js package",
+    "reportWebVitals.js package",
+    "setupTests.js package"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router"
+  ],
+  "entry_points": [
+    "src/App.js",
+    "src/index.js"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "owner": "akiran",
+  "name": "react-slick",
+  "full_name": "akiran/react-slick",
+  "html_url": "https://github.com/akiran/react-slick",
+  "description": "React carousel component ",
+  "stars": 11908,
+  "forks": 2065,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "carousel",
+    "react",
+    "slick"
+  ],
+  "archived": false,
+  "commit_sha": "97442318e9a442bd4a84eb25133ef62087f98232",
+  "commit_url": "https://github.com/akiran/react-slick/commit/97442318e9a442bd4a84eb25133ef62087f98232",
+  "tree_url": "https://github.com/akiran/react-slick/tree/97442318e9a442bd4a84eb25133ef62087f98232",
+  "analysed_at": "2026-11-14T19:13:23.878653+00:00",
+  "status": "completed",
+  "files_fetched": 101,
+  "files_analysed": 101,
+  "components": [
+    "arrows.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "default-props.js package",
+    "dots.js package",
+    "index.js package",
+    "initial-state.js package",
+    "inner-slider.js package",
+    "playwright package",
+    "playwright-tests package",
+    "slider.js package",
+    "__tests__ package",
+    "track.js package",
+    "utils package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "playwright/index.jsx",
+    "src/index.js"
+  ]
+}

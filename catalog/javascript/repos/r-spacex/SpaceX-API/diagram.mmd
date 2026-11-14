@@ -1,0 +1,24 @@
+%% Repository: r-spacex/SpaceX-API
+%% Analysed commit: 9f56af14a75ae410c26eb0317971d51ae1574f6a
+%% Commit reference: https://github.com/r-spacex/SpaceX-API/commit/9f56af14a75ae410c26eb0317971d51ae1574f6a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        jobs["jobs package"]
+        lib["lib package"]
+        middleware["middleware package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

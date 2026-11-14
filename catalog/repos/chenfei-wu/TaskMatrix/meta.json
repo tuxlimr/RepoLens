@@ -1,0 +1,37 @@
+{
+  "owner": "chenfei-wu",
+  "name": "TaskMatrix",
+  "full_name": "chenfei-wu/TaskMatrix",
+  "html_url": "https://github.com/chenfei-wu/TaskMatrix",
+  "description": null,
+  "stars": 33896,
+  "forks": 3184,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "4b7664f8d3a23804ac1b795d75a73efd162769f0",
+  "commit_url": "https://github.com/chenfei-wu/TaskMatrix/commit/4b7664f8d3a23804ac1b795d75a73efd162769f0",
+  "tree_url": "https://github.com/chenfei-wu/TaskMatrix/tree/4b7664f8d3a23804ac1b795d75a73efd162769f0",
+  "analysed_at": "2026-11-14T19:07:00.189248+00:00",
+  "status": "completed",
+  "files_fetched": 25,
+  "files_analysed": 25,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "LowCodeLLM package",
+    "Tests"
+  ],
+  "detections": [
+    "Flask",
+    "Gunicorn",
+    "NumPy",
+    "Docker"
+  ],
+  "entry_points": [
+    "LowCodeLLM/src/app.py",
+    "visual_chatgpt.py"
+  ]
+}

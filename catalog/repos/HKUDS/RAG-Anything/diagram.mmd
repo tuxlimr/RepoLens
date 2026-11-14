@@ -1,0 +1,27 @@
+%% Repository: HKUDS/RAG-Anything
+%% Analysed commit: eb7a670f724e59056b6a08f7016d753226a865ee
+%% Commit reference: https://github.com/HKUDS/RAG-Anything/commit/eb7a670f724e59056b6a08f7016d753226a865ee
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        raganything["raganything package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| raganything
+    raganything -->|imports| config
+    raganything -->|imports| entrypoint
+    raganything -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| raganything

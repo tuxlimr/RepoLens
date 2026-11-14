@@ -1,0 +1,19 @@
+%% Repository: marcotcr/lime
+%% Analysed commit: fd7eb2e6f760619c29fca0187c07b82157601b32
+%% Commit reference: https://github.com/marcotcr/lime/commit/fd7eb2e6f760619c29fca0187c07b82157601b32
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        benchmark["benchmark package"]
+        lime["lime package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| lime
+    tests -->|imports| lime

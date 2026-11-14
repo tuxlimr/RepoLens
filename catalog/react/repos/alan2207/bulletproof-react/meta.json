@@ -1,0 +1,53 @@
+{
+  "owner": "alan2207",
+  "name": "bulletproof-react",
+  "full_name": "alan2207/bulletproof-react",
+  "html_url": "https://github.com/alan2207/bulletproof-react",
+  "description": "\ud83d\udee1\ufe0f \u269b\ufe0f A simple, scalable, and powerful architecture for building production ready React applications. ",
+  "stars": 36080,
+  "forks": 3277,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-applications",
+    "react-architecture-patterns",
+    "react-best-practice",
+    "react-guidelines",
+    "react-project-structure",
+    "react-typescript"
+  ],
+  "archived": false,
+  "commit_sha": "9506629ed003a561c6627735480cce4994244bb4",
+  "commit_url": "https://github.com/alan2207/bulletproof-react/commit/9506629ed003a561c6627735480cce4994244bb4",
+  "tree_url": "https://github.com/alan2207/bulletproof-react/tree/9506629ed003a561c6627735480cce4994244bb4",
+  "analysed_at": "2026-11-14T19:13:00.884070+00:00",
+  "status": "completed",
+  "files_fetched": 522,
+  "files_analysed": 519,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Next.js",
+    "React",
+    "axios",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "apps/nextjs-app/.storybook/main.ts",
+    "apps/nextjs-pages/.storybook/main.ts",
+    "apps/react-vite/.storybook/main.ts",
+    "apps/react-vite/src/main.tsx"
+  ]
+}

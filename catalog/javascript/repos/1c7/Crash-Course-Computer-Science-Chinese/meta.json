@@ -1,0 +1,31 @@
+{
+  "owner": "1c7",
+  "name": "Crash-Course-Computer-Science-Chinese",
+  "full_name": "1c7/Crash-Course-Computer-Science-Chinese",
+  "html_url": "https://github.com/1c7/Crash-Course-Computer-Science-Chinese",
+  "description": "\u8ba1\u7b97\u673a\u901f\u6210\u8bfe\uff08\u64ad\u653e\u91cf 509 \u4e07\uff09 \uff08\u517140\u96c6\uff0c\u6bcf\u4e00\u96c6 10 \u5206\u949f\uff092018 \u5e74\u5b8c\u6210\u7ffb\u8bd1\u3002\u8bc4\u8bba\u533a\u6709\u5927\u91cf\u597d\u8bc4",
+  "stars": 10940,
+  "forks": 1594,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "computer-science",
+    "crash-course",
+    "cs"
+  ],
+  "archived": false,
+  "commit_sha": "6db659d0e923a8c74124334c7f0f2fb4e30b2f4e",
+  "commit_url": "https://github.com/1c7/Crash-Course-Computer-Science-Chinese/commit/6db659d0e923a8c74124334c7f0f2fb4e30b2f4e",
+  "tree_url": "https://github.com/1c7/Crash-Course-Computer-Science-Chinese/tree/6db659d0e923a8c74124334c7f0f2fb4e30b2f4e",
+  "analysed_at": "2026-11-14T19:12:27.650036+00:00",
+  "status": "completed",
+  "files_fetched": 49,
+  "files_analysed": 49,
+  "components": [
+    "Configuration and deployment",
+    "content package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

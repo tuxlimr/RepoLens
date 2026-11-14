@@ -1,0 +1,23 @@
+%% Repository: lucidrains/vit-pytorch
+%% Analysed commit: 42298e16ad7915ea6f531049e7909e7ee07bc5fe
+%% Commit reference: https://github.com/lucidrains/vit-pytorch/commit/42298e16ad7915ea6f531049e7909e7ee07bc5fe
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        vit_pytorch["vit_pytorch package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| entrypoint
+    entrypoint -->|imports| vit_pytorch
+    tests -->|imports| vit_pytorch
+    vit_pytorch -->|imports| entrypoint

@@ -1,0 +1,45 @@
+{
+  "owner": "revery-ui",
+  "name": "revery",
+  "full_name": "revery-ui/revery",
+  "html_url": "https://github.com/revery-ui/revery",
+  "description": ":zap: Native, high-performance, cross-platform desktop apps - built with Reason!",
+  "stars": 8030,
+  "forks": 194,
+  "license": "MIT",
+  "language": "Reason",
+  "default_branch": "master",
+  "topics": [
+    "app",
+    "cross-platform",
+    "desktop",
+    "desktop-apps",
+    "electron",
+    "native",
+    "ocaml",
+    "react",
+    "reason",
+    "reasonml",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "141f70f69d6abd69674b46d805a783411b38cd79",
+  "commit_url": "https://github.com/revery-ui/revery/commit/141f70f69d6abd69674b46d805a783411b38cd79",
+  "tree_url": "https://github.com/revery-ui/revery/tree/141f70f69d6abd69674b46d805a783411b38cd79",
+  "analysed_at": "2026-11-14T19:13:43.045946+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "include package",
+    "Native package",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "Docker"
+  ],
+  "entry_points": []
+}

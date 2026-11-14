@@ -1,0 +1,49 @@
+{
+  "owner": "radix-ui",
+  "name": "themes",
+  "full_name": "radix-ui/themes",
+  "html_url": "https://github.com/radix-ui/themes",
+  "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
+  "stars": 8851,
+  "forks": 347,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "accessibility",
+    "colors",
+    "component-library",
+    "design-systems",
+    "radix-ui",
+    "react",
+    "theme-development",
+    "themes",
+    "ui",
+    "ui-components",
+    "ui-kit"
+  ],
+  "archived": false,
+  "commit_sha": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+  "commit_url": "https://github.com/radix-ui/themes/commit/1faff10ac26ae17f09944d418c6949b93fc6b566",
+  "tree_url": "https://github.com/radix-ui/themes/tree/1faff10ac26ae17f09944d418c6949b93fc6b566",
+  "analysed_at": "2026-11-14T19:13:38.364022+00:00",
+  "status": "completed",
+  "files_fetched": 447,
+  "files_analysed": 446,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/radix-ui-themes/src/index.ts"
+  ]
+}

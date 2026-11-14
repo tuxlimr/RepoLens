@@ -1,0 +1,49 @@
+{
+  "owner": "Automattic",
+  "name": "harper",
+  "full_name": "Automattic/harper",
+  "html_url": "https://github.com/Automattic/harper",
+  "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+  "stars": 17706,
+  "forks": 832,
+  "license": "Apache-2.0",
+  "language": "Rust",
+  "default_branch": "master",
+  "topics": [
+    "chrome-extension",
+    "developer-tools",
+    "english-language",
+    "grammar-checker",
+    "nodejs",
+    "react",
+    "rust",
+    "svelte",
+    "webassembly"
+  ],
+  "archived": false,
+  "commit_sha": "4270327e92ecdfd25a8da4fdeb51f6998d5d5443",
+  "commit_url": "https://github.com/Automattic/harper/commit/4270327e92ecdfd25a8da4fdeb51f6998d5d5443",
+  "tree_url": "https://github.com/Automattic/harper/tree/4270327e92ecdfd25a8da4fdeb51f6998d5d5443",
+  "analysed_at": "2026-11-14T19:13:15.454130+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 798,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "fuzz package",
+    "harper-asciidoc package",
+    "harper-brill package",
+    "harper-cli package",
+    "harper-comments package",
+    "harper-core package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MySQL",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": []
+}

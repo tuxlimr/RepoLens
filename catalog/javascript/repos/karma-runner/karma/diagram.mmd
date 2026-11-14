@@ -1,0 +1,24 @@
+%% Repository: karma-runner/karma
+%% Analysed commit: 84f85e7016efc2266fa6b3465f494a3fa151c85c
+%% Commit reference: https://github.com/karma-runner/karma/commit/84f85e7016efc2266fa6b3465f494a3fa151c85c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        common["common package"]
+        context["context package"]
+        lib["lib package"]
+        scripts["scripts package"]
+        static["static package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

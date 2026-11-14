@@ -1,0 +1,54 @@
+{
+  "owner": "ahujasid",
+  "name": "mcp-for-blender",
+  "full_name": "ahujasid/mcp-for-blender",
+  "html_url": "https://github.com/ahujasid/mcp-for-blender",
+  "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+  "stars": 34429,
+  "forks": 3138,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "3d-modeling",
+    "ai",
+    "blender",
+    "blender-addon",
+    "blender-mcp",
+    "claude",
+    "generative-ai",
+    "llm",
+    "mcp",
+    "model-context-protocol",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "8f40787fbde8e6d8fe51c5a3553e5635fff40d2b",
+  "commit_url": "https://github.com/ahujasid/mcp-for-blender/commit/8f40787fbde8e6d8fe51c5a3553e5635fff40d2b",
+  "tree_url": "https://github.com/ahujasid/mcp-for-blender/tree/8f40787fbde8e6d8fe51c5a3553e5635fff40d2b",
+  "analysed_at": "2026-11-14T19:06:58.848984+00:00",
+  "status": "completed",
+  "files_fetched": 80,
+  "files_analysed": 79,
+  "components": [
+    "blender_mcp package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "httpx",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/blender_mcp/server.py",
+    "main.py"
+  ]
+}

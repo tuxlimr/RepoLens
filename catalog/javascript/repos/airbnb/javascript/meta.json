@@ -1,0 +1,49 @@
+{
+  "owner": "airbnb",
+  "name": "javascript",
+  "full_name": "airbnb/javascript",
+  "html_url": "https://github.com/airbnb/javascript",
+  "description": "JavaScript Style Guide",
+  "stars": 148006,
+  "forks": 26512,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "arrow-functions",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es6",
+    "eslint",
+    "javascript",
+    "linting",
+    "naming-conventions",
+    "style-guide",
+    "style-linter",
+    "styleguide",
+    "tc39"
+  ],
+  "archived": false,
+  "commit_sha": "8ed19247bef145e3cc41b24a02dd1fe6d9b5e681",
+  "commit_url": "https://github.com/airbnb/javascript/commit/8ed19247bef145e3cc41b24a02dd1fe6d9b5e681",
+  "tree_url": "https://github.com/airbnb/javascript/tree/8ed19247bef145e3cc41b24a02dd1fe6d9b5e681",
+  "analysed_at": "2026-11-14T19:10:31.581003+00:00",
+  "status": "completed",
+  "files_fetched": 59,
+  "files_analysed": 58,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React"
+  ],
+  "entry_points": [
+    "packages/eslint-config-airbnb-base/index.js",
+    "packages/eslint-config-airbnb/index.js"
+  ]
+}

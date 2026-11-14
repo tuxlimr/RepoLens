@@ -1,0 +1,38 @@
+%% Repository: amark/gun
+%% Analysed commit: 56278eb4a37c0b2ad543e15678fc39d2eeb974a2
+%% Commit reference: https://github.com/amark/gun/commit/56278eb4a37c0b2ad543e15678fc39d2eeb974a2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        ask_js["ask.js package"]
+        back_js["back.js package"]
+        book_js["book.js package"]
+        chain_js["chain.js package"]
+        core_js["core.js package"]
+        dup_js["dup.js package"]
+        get_js["get.js package"]
+        index_js["index.js package"]
+        kit["kit package"]
+        lib["lib package"]
+        localstorage_js["localStorage.js package"]
+        map_js["map.js package"]
+        mesh_js["mesh.js package"]
+        on_js["on.js package"]
+        onto_js["onto.js package"]
+        polyfill["polyfill package"]
+        put_js["put.js package"]
+        root_js["root.js package"]
+        sea["sea package"]
+        set_js["set.js package"]
+        types["types package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (4 merged)"]
+    %% Note: 4 smaller component(s) merged into 'other' to keep the diagram readable.

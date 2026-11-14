@@ -1,0 +1,14 @@
+%% Repository: 521xueweihan/HelloGitHub
+%% Analysed commit: d65699c2892f3ad7516398a3fbd3855913f9d17d
+%% Commit reference: https://github.com/521xueweihan/HelloGitHub/commit/d65699c2892f3ad7516398a3fbd3855913f9d17d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    entrypoint -->|imports| external_integrations

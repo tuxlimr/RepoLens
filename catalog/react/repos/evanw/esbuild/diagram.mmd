@@ -1,0 +1,25 @@
+%% Repository: evanw/esbuild
+%% Analysed commit: f6058f8364fe7ab91ca57a83e02577ed74c9cae4
+%% Commit reference: https://github.com/evanw/esbuild/commit/f6058f8364fe7ab91ca57a83e02577ed74c9cae4
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        cmd["cmd package"]
+        compat_table["compat-table package"]
+        internal["internal package"]
+        lib["lib package"]
+        pkg["pkg package"]
+        require["require package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

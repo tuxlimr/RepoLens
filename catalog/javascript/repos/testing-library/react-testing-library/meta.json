@@ -1,0 +1,45 @@
+{
+  "owner": "testing-library",
+  "name": "react-testing-library",
+  "full_name": "testing-library/react-testing-library",
+  "html_url": "https://github.com/testing-library/react-testing-library",
+  "description": "\ud83d\udc10 Simple and complete React DOM testing utilities that encourage good testing practices.",
+  "stars": 19681,
+  "forks": 1171,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "reactjs",
+    "testing"
+  ],
+  "archived": false,
+  "commit_sha": "20ce75f2907ca0e5c5a8ae595c0e9a4e368c7800",
+  "commit_url": "https://github.com/testing-library/react-testing-library/commit/20ce75f2907ca0e5c5a8ae595c0e9a4e368c7800",
+  "tree_url": "https://github.com/testing-library/react-testing-library/tree/20ce75f2907ca0e5c5a8ae595c0e9a4e368c7800",
+  "analysed_at": "2026-11-14T19:11:16.923788+00:00",
+  "status": "completed",
+  "files_fetched": 64,
+  "files_analysed": 63,
+  "components": [
+    "act-compat.js package",
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "fire-event.js package",
+    "index.js package",
+    "__mocks__ package",
+    "pure.js package",
+    "__tests__ package",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "owner": "FredrikNoren",
+  "name": "ungit",
+  "full_name": "FredrikNoren/ungit",
+  "html_url": "https://github.com/FredrikNoren/ungit",
+  "description": "The easiest way to use git. On any platform. Anywhere.",
+  "stars": 10615,
+  "forks": 648,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "git",
+    "javascript",
+    "nodejs",
+    "ui",
+    "ungit"
+  ],
+  "archived": false,
+  "commit_sha": "b1df1a168b9208766342070ebd42782036dfd18d",
+  "commit_url": "https://github.com/FredrikNoren/ungit/commit/b1df1a168b9208766342070ebd42782036dfd18d",
+  "tree_url": "https://github.com/FredrikNoren/ungit/tree/b1df1a168b9208766342070ebd42782036dfd18d",
+  "analysed_at": "2026-11-14T19:12:35.733777+00:00",
+  "status": "completed",
+  "files_fetched": 176,
+  "files_analysed": 175,
+  "components": [
+    "clicktests package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "public package",
+    "scripts package",
+    "source package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "Express",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "public/main.js",
+    "bin/ungit",
+    "bin/credentials-helper",
+    "components/app/app.js",
+    "public/source/main.js",
+    "public/source/server.js",
+    "source/server.js"
+  ]
+}

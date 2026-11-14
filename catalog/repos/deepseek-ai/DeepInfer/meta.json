@@ -1,0 +1,51 @@
+{
+  "owner": "deepseek-ai",
+  "name": "DeepInfer",
+  "full_name": "deepseek-ai/DeepInfer",
+  "html_url": "https://github.com/deepseek-ai/DeepInfer",
+  "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+  "stars": 26020,
+  "forks": 3194,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "a679bb86ce36e883a98a97733492b686e5b9a08e",
+  "commit_url": "https://github.com/deepseek-ai/DeepInfer/commit/a679bb86ce36e883a98a97733492b686e5b9a08e",
+  "tree_url": "https://github.com/deepseek-ai/DeepInfer/tree/a679bb86ce36e883a98a97733492b686e5b9a08e",
+  "analysed_at": "2026-11-14T19:07:27.619568+00:00",
+  "status": "completed",
+  "files_fetched": 336,
+  "files_analysed": 336,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "csrc package",
+    "Data layer",
+    "deep_cluster package",
+    "deepinfer package",
+    "Application entry point",
+    "eval package",
+    "External integrations",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "FastAPI",
+    "Starlette",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "deepinfer/engine/profile_server.py",
+    "eval/run_eval.py",
+    "eval/score.py"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "owner": "hapijs",
+  "name": "joi",
+  "full_name": "hapijs/joi",
+  "html_url": "https://github.com/hapijs/joi",
+  "description": "The most powerful data validation library for JS",
+  "stars": 21168,
+  "forks": 1529,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "hapi",
+    "javascript",
+    "schema",
+    "validation"
+  ],
+  "archived": false,
+  "commit_sha": "7cfb3ce20017a4289f7efdcd8803625d4be889df",
+  "commit_url": "https://github.com/hapijs/joi/commit/7cfb3ce20017a4289f7efdcd8803625d4be889df",
+  "tree_url": "https://github.com/hapijs/joi/tree/7cfb3ce20017a4289f7efdcd8803625d4be889df",
+  "analysed_at": "2026-11-14T19:11:11.215442+00:00",
+  "status": "completed",
+  "files_fetched": 83,
+  "files_analysed": 80,
+  "components": [
+    "benchmarks package",
+    "browser package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "lib/index.js"
+  ]
+}

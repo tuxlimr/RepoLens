@@ -1,0 +1,20 @@
+%% Repository: TanStack/virtual
+%% Analysed commit: 54a3f7d3cc32b373187b3802d81cb4b24ae08b0b
+%% Commit reference: https://github.com/TanStack/virtual/commit/54a3f7d3cc32b373187b3802d81cb4b24ae08b0b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,53 @@
+{
+  "owner": "vercel-labs",
+  "name": "ui",
+  "full_name": "vercel-labs/ui",
+  "html_url": "https://github.com/vercel-labs/ui",
+  "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+  "stars": 4452,
+  "forks": 128,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "accessibility",
+    "agent",
+    "agents",
+    "aria",
+    "behaviors",
+    "component",
+    "component-library",
+    "headless",
+    "mcp",
+    "react",
+    "solid",
+    "svelte",
+    "vue",
+    "web-components",
+    "webmcp"
+  ],
+  "archived": false,
+  "commit_sha": "220c1a0d7278872286a620a8e4ee4210ca46f9bd",
+  "commit_url": "https://github.com/vercel-labs/ui/commit/220c1a0d7278872286a620a8e4ee4210ca46f9bd",
+  "tree_url": "https://github.com/vercel-labs/ui/tree/220c1a0d7278872286a620a8e4ee4210ca46f9bd",
+  "analysed_at": "2026-11-14T19:14:45.824798+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "apps package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Svelte",
+    "Vue",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": []
+}

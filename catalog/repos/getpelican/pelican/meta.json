@@ -1,0 +1,48 @@
+{
+  "owner": "getpelican",
+  "name": "pelican",
+  "full_name": "getpelican/pelican",
+  "html_url": "https://github.com/getpelican/pelican",
+  "description": "Static site generator that supports Markdown and reST syntax. Powered by Python.",
+  "stars": 13374,
+  "forks": 1835,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "pelican",
+    "python",
+    "static-site-generator"
+  ],
+  "archived": false,
+  "commit_sha": "e8748aba9ad0907a8801646e957b37a02709240d",
+  "commit_url": "https://github.com/getpelican/pelican/commit/e8748aba9ad0907a8801646e957b37a02709240d",
+  "tree_url": "https://github.com/getpelican/pelican/tree/e8748aba9ad0907a8801646e957b37a02709240d",
+  "analysed_at": "2026-11-14T19:09:50.735740+00:00",
+  "status": "completed",
+  "files_fetched": 448,
+  "files_analysed": 448,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "pelican package",
+    "samples package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "pelican/__main__.py",
+    "pelican/log.py",
+    "pelican/plugins/_utils.py",
+    "pelican/server.py",
+    "pelican/tools/pelican_import.py",
+    "pelican/tools/pelican_quickstart.py",
+    "pelican/tools/pelican_themes.py"
+  ]
+}

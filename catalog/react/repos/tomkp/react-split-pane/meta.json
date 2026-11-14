@@ -1,0 +1,49 @@
+{
+  "owner": "tomkp",
+  "name": "react-split-pane",
+  "full_name": "tomkp/react-split-pane",
+  "html_url": "https://github.com/tomkp/react-split-pane",
+  "description": "React split-pane component",
+  "stars": 3386,
+  "forks": 407,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-component",
+    "split-pane"
+  ],
+  "archived": false,
+  "commit_sha": "594b0cb35189975a2b760459120f8dd4c6ab3307",
+  "commit_url": "https://github.com/tomkp/react-split-pane/commit/594b0cb35189975a2b760459120f8dd4c6ab3307",
+  "tree_url": "https://github.com/tomkp/react-split-pane/tree/594b0cb35189975a2b760459120f8dd4c6ab3307",
+  "analysed_at": "2026-11-14T19:15:20.991327+00:00",
+  "status": "completed",
+  "files_fetched": 54,
+  "files_analysed": 53,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "hooks package",
+    "index.ts package",
+    "keyboard.ts package",
+    "persistence.test.ts package",
+    "persistence.ts package",
+    "Tests",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts",
+    "src/types/index.ts"
+  ]
+}

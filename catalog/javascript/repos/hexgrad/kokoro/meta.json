@@ -1,0 +1,45 @@
+{
+  "owner": "hexgrad",
+  "name": "kokoro",
+  "full_name": "hexgrad/kokoro",
+  "html_url": "https://github.com/hexgrad/kokoro",
+  "description": "https://hf.co/hexgrad/Kokoro-82M",
+  "stars": 10117,
+  "forks": 1133,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+  "commit_url": "https://github.com/hexgrad/kokoro/commit/dfb907a02bba8152ca444717ca5d78747ccb4bec",
+  "tree_url": "https://github.com/hexgrad/kokoro/tree/dfb907a02bba8152ca444717ca5d78747ccb4bec",
+  "analysed_at": "2026-11-14T19:12:45.792593+00:00",
+  "status": "completed",
+  "files_fetched": 53,
+  "files_analysed": 51,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "kokoro package",
+    "kokoro.js package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "NumPy",
+    "Tailwind CSS",
+    "Poetry",
+    "pytest",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "demo/app.py",
+    "kokoro/__main__.py",
+    "kokoro.js/demo/src/App.jsx",
+    "kokoro.js/demo/src/main.jsx"
+  ]
+}

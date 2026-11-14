@@ -1,0 +1,50 @@
+{
+  "owner": "public-apis",
+  "name": "public-apis",
+  "full_name": "public-apis/public-apis",
+  "html_url": "https://github.com/public-apis/public-apis",
+  "description": "A collective list of free APIs",
+  "stars": 498993,
+  "forks": 55906,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "api",
+    "apis",
+    "dataset",
+    "development",
+    "free",
+    "list",
+    "lists",
+    "open-source",
+    "public",
+    "public-api",
+    "public-apis",
+    "resources",
+    "software"
+  ],
+  "archived": false,
+  "commit_sha": "51bc64abb499c7c532619d89c3f3a083899d3c61",
+  "commit_url": "https://github.com/public-apis/public-apis/commit/51bc64abb499c7c532619d89c3f3a083899d3c61",
+  "tree_url": "https://github.com/public-apis/public-apis/tree/51bc64abb499c7c532619d89c3f3a083899d3c61",
+  "analysed_at": "2026-11-14T19:05:59.216600+00:00",
+  "status": "completed",
+  "files_fetched": 12,
+  "files_analysed": 12,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "requests",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/validate/format.py",
+    "scripts/validate/links.py"
+  ]
+}

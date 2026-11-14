@@ -1,0 +1,35 @@
+{
+  "owner": "uxsolutions",
+  "name": "bootstrap-datepicker",
+  "full_name": "uxsolutions/bootstrap-datepicker",
+  "html_url": "https://github.com/uxsolutions/bootstrap-datepicker",
+  "description": "A datepicker for twitter bootstrap (@twbs)",
+  "stars": 12629,
+  "forks": 5837,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "bootstrap",
+    "bootstrap-datepicker",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "722dc29432e89e048e5677b51fb4cfd8bbdab13c",
+  "commit_url": "https://github.com/uxsolutions/bootstrap-datepicker/commit/722dc29432e89e048e5677b51fb4cfd8bbdab13c",
+  "tree_url": "https://github.com/uxsolutions/bootstrap-datepicker/tree/722dc29432e89e048e5677b51fb4cfd8bbdab13c",
+  "analysed_at": "2026-11-14T19:12:04.608867+00:00",
+  "status": "completed",
+  "files_fetched": 179,
+  "files_analysed": 165,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

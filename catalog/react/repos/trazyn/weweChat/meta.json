@@ -1,0 +1,52 @@
+{
+  "owner": "trazyn",
+  "name": "weweChat",
+  "full_name": "trazyn/weweChat",
+  "html_url": "https://github.com/trazyn/weweChat",
+  "description": "\ud83d\udcac Unofficial WeChat client built with React, MobX and Electron.",
+  "stars": 5698,
+  "forks": 706,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chat",
+    "client",
+    "desktop",
+    "electron",
+    "mobx",
+    "react",
+    "wechat"
+  ],
+  "archived": true,
+  "commit_sha": "27ab1fd48816392a252f9fd3c20b389dd55431ee",
+  "commit_url": "https://github.com/trazyn/weweChat/commit/27ab1fd48816392a252f9fd3c20b389dd55431ee",
+  "tree_url": "https://github.com/trazyn/weweChat/tree/27ab1fd48816392a252f9fd3c20b389dd55431ee",
+  "analysed_at": "2026-11-14T19:14:15.144597+00:00",
+  "status": "completed",
+  "files_fetched": 112,
+  "files_analysed": 112,
+  "components": [
+    "app.js package",
+    "assets package",
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "scripts package"
+  ],
+  "detections": [
+    "Electron",
+    "Express",
+    "React",
+    "axios",
+    "React Router",
+    "webpack"
+  ],
+  "entry_points": [
+    "main.js",
+    "config/index.js",
+    "src/app.js",
+    "src/js/pages/index.js",
+    "src/js/stores/index.js"
+  ]
+}

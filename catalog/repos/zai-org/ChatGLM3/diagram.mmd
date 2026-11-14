@@ -1,0 +1,26 @@
+%% Repository: zai-org/ChatGLM3
+%% Analysed commit: 732294f42e2625509000daa87a9c3748d0bbb957
+%% Commit reference: https://github.com/zai-org/ChatGLM3/commit/732294f42e2625509000daa87a9c3748d0bbb957
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        basic_demo["basic_demo package"]
+        composite_demo["composite_demo package"]
+        intel_device_demo["Intel_device_demo package"]
+        langchain_demo["langchain_demo package"]
+        openai_api_demo["openai_api_demo package"]
+    end
+    basic_demo -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations
+    langchain_demo -->|imports| external_integrations

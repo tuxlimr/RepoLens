@@ -1,0 +1,35 @@
+{
+  "owner": "jashkenas",
+  "name": "underscore",
+  "full_name": "jashkenas/underscore",
+  "html_url": "https://github.com/jashkenas/underscore",
+  "description": "JavaScript's utility _ belt",
+  "stars": 27294,
+  "forks": 5410,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "5c1e5f686f8500af9c9d15614ed60289d6d35d6b",
+  "commit_url": "https://github.com/jashkenas/underscore/commit/5c1e5f686f8500af9c9d15614ed60289d6d35d6b",
+  "tree_url": "https://github.com/jashkenas/underscore/tree/5c1e5f686f8500af9c9d15614ed60289d6d35d6b",
+  "analysed_at": "2026-11-14T19:10:52.080301+00:00",
+  "status": "completed",
+  "files_fetched": 377,
+  "files_analysed": 375,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "modules package",
+    "test-treeshake package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "underscore-umd.js",
+    "modules/index.js"
+  ]
+}

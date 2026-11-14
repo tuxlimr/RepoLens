@@ -1,0 +1,46 @@
+{
+  "owner": "ShangtongZhang",
+  "name": "reinforcement-learning-an-introduction",
+  "full_name": "ShangtongZhang/reinforcement-learning-an-introduction",
+  "html_url": "https://github.com/ShangtongZhang/reinforcement-learning-an-introduction",
+  "description": "Python Implementation of Reinforcement Learning: An Introduction",
+  "stars": 14805,
+  "forks": 4936,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "artificial-intelligence",
+    "reinforcement-learning"
+  ],
+  "archived": false,
+  "commit_sha": "96bc203617a70eba6b7784a8f876aaf218b2c914",
+  "commit_url": "https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/commit/96bc203617a70eba6b7784a8f876aaf218b2c914",
+  "tree_url": "https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/tree/96bc203617a70eba6b7784a8f876aaf218b2c914",
+  "analysed_at": "2026-11-14T19:09:12.993831+00:00",
+  "status": "completed",
+  "files_fetched": 31,
+  "files_analysed": 31,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas"
+  ],
+  "entry_points": [
+    "chapter01/tic_tac_toe.py",
+    "chapter02/ten_armed_testbed.py",
+    "chapter03/grid_world.py",
+    "chapter04/car_rental.py",
+    "chapter04/car_rental_synchronous.py",
+    "chapter04/gamblers_problem.py",
+    "chapter04/grid_world.py",
+    "chapter05/blackjack.py",
+    "chapter05/infinite_variance.py",
+    "chapter06/cliff_walking.py",
+    "chapter06/maximization_bias.py",
+    "chapter06/random_walk.py"
+  ]
+}

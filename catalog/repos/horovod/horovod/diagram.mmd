@@ -1,0 +1,50 @@
+%% Repository: horovod/horovod
+%% Analysed commit: 369fe98d228e40c374e21a65fb2028e2a78bd0dc
+%% Commit reference: https://github.com/horovod/horovod/commit/369fe98d228e40c374e21a65fb2028e2a78bd0dc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cmake["cmake package"]
+        horovod["horovod package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| horovod
+    data_layer -->|imports| horovod
+    data_layer -->|imports| service_layer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| horovod
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| horovod
+    horovod -->|imports| config
+    horovod -->|imports| data_layer
+    horovod -->|imports| entrypoint
+    horovod -->|imports| external_integrations
+    horovod -->|imports| service_layer
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| horovod
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| horovod
+    tests -->|imports| service_layer

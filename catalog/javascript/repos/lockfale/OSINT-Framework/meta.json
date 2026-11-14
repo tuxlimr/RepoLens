@@ -1,0 +1,45 @@
+{
+  "owner": "lockfale",
+  "name": "OSINT-Framework",
+  "full_name": "lockfale/OSINT-Framework",
+  "html_url": "https://github.com/lockfale/OSINT-Framework",
+  "description": "OSINT Framework",
+  "stars": 12453,
+  "forks": 2100,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "footprinting",
+    "intelligence-gathering",
+    "osint",
+    "osint-framework",
+    "osint-resources",
+    "reconnaissance"
+  ],
+  "archived": false,
+  "commit_sha": "08720d5b594cb7513d7ec81f8e70c400375a85fc",
+  "commit_url": "https://github.com/lockfale/OSINT-Framework/commit/08720d5b594cb7513d7ec81f8e70c400375a85fc",
+  "tree_url": "https://github.com/lockfale/OSINT-Framework/tree/08720d5b594cb7513d7ec81f8e70c400375a85fc",
+  "analysed_at": "2026-11-14T19:12:05.688895+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "public package",
+    "tools package",
+    "worker.js package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "merge_enrichments.py",
+    "tools/extract_urls.py",
+    "tools/link_checker.py",
+    "tools/remove_dead_links.py",
+    "public/index.html"
+  ]
+}

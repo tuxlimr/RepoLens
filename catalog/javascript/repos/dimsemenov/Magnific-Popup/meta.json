@@ -1,0 +1,30 @@
+{
+  "owner": "dimsemenov",
+  "name": "Magnific-Popup",
+  "full_name": "dimsemenov/Magnific-Popup",
+  "html_url": "https://github.com/dimsemenov/Magnific-Popup",
+  "description": "Light and responsive lightbox script with focus on performance.",
+  "stars": 11295,
+  "forks": 3333,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "45dd72ccd1a18f0626fb958f7c49e6313556d31f",
+  "commit_url": "https://github.com/dimsemenov/Magnific-Popup/commit/45dd72ccd1a18f0626fb958f7c49e6313556d31f",
+  "tree_url": "https://github.com/dimsemenov/Magnific-Popup/tree/45dd72ccd1a18f0626fb958f7c49e6313556d31f",
+  "analysed_at": "2026-11-14T19:12:19.914326+00:00",
+  "status": "completed",
+  "files_fetched": 38,
+  "files_analysed": 36,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "libs package",
+    "website package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

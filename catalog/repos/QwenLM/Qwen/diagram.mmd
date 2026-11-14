@@ -1,0 +1,28 @@
+%% Repository: QwenLM/Qwen
+%% Analysed commit: 2df8e8ac450fa185c421a08b0090ef81826caa6e
+%% Commit reference: https://github.com/QwenLM/Qwen/commit/2df8e8ac450fa185c421a08b0090ef81826caa6e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ascend_support["ascend-support package"]
+        dcu_support["dcu-support package"]
+        docker["docker package"]
+        finetune["finetune package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| core
+    tests -->|imports| external_integrations

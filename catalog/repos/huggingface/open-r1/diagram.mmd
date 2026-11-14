@@ -1,0 +1,28 @@
+%% Repository: huggingface/open-r1
+%% Analysed commit: 5b6ff22b3fb7aa069c54866e517f39dfc3160e09
+%% Commit reference: https://github.com/huggingface/open-r1/commit/5b6ff22b3fb7aa069c54866e517f39dfc3160e09
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        open_r1["open_r1 package"]
+        scripts["scripts package"]
+        slurm["slurm package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| open_r1
+    external_integrations -->|imports| open_r1
+    open_r1 -->|imports| entrypoint
+    open_r1 -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| open_r1

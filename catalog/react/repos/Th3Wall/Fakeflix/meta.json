@@ -1,0 +1,63 @@
+{
+  "owner": "Th3Wall",
+  "name": "Fakeflix",
+  "full_name": "Th3Wall/Fakeflix",
+  "html_url": "https://github.com/Th3Wall/Fakeflix",
+  "description": "Not the usual clone that you can find on the web.",
+  "stars": 4948,
+  "forks": 666,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "firebase",
+    "react",
+    "react-hooks",
+    "react-hooks-form",
+    "react-router",
+    "redux",
+    "redux-persist",
+    "redux-saga",
+    "redux-thunk"
+  ],
+  "archived": false,
+  "commit_sha": "2ef25d14a112e3c90e4b482b4c964b9404d436b6",
+  "commit_url": "https://github.com/Th3Wall/Fakeflix/commit/2ef25d14a112e3c90e4b482b4c964b9404d436b6",
+  "tree_url": "https://github.com/Th3Wall/Fakeflix/tree/2ef25d14a112e3c90e4b482b4c964b9404d436b6",
+  "analysed_at": "2026-11-14T19:14:33.434089+00:00",
+  "status": "completed",
+  "files_fetched": 133,
+  "files_analysed": 133,
+  "components": [
+    "App.js package",
+    "axiosInstance.js package",
+    "components package",
+    "Configuration and deployment",
+    "dataConfig.js package",
+    "firebase package",
+    "hooks package",
+    "index.js package",
+    "motionUtils.js package",
+    "pages package",
+    "redux package",
+    "requests.js package",
+    "utils.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "axios",
+    "React Router",
+    "Redux"
+  ],
+  "entry_points": [
+    "src/App.js",
+    "src/index.js",
+    "src/redux/auth/index.js",
+    "src/redux/favourites/index.js",
+    "src/redux/modal/index.js",
+    "src/redux/movies/index.js",
+    "src/redux/search/index.js",
+    "src/redux/series/index.js"
+  ]
+}

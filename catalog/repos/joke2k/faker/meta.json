@@ -1,0 +1,48 @@
+{
+  "owner": "joke2k",
+  "name": "faker",
+  "full_name": "joke2k/faker",
+  "html_url": "https://github.com/joke2k/faker",
+  "description": "Faker is a Python package that generates fake data for you.",
+  "stars": 19491,
+  "forks": 2144,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "dataset",
+    "fake",
+    "fake-data",
+    "faker",
+    "faker-generator",
+    "python",
+    "test-data",
+    "test-data-generator",
+    "testing"
+  ],
+  "archived": false,
+  "commit_sha": "affa2c5aada23fc5c00127298a8e904375d32832",
+  "commit_url": "https://github.com/joke2k/faker/commit/affa2c5aada23fc5c00127298a8e904375d32832",
+  "tree_url": "https://github.com/joke2k/faker/tree/affa2c5aada23fc5c00127298a8e904375d32832",
+  "analysed_at": "2026-11-14T19:08:11.032496+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "faker package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "faker/__main__.py",
+    "faker/cli.py",
+    "scripts/check_test_class_order.py"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "owner": "ashutosh1919",
+  "name": "masterPortfolio",
+  "full_name": "ashutosh1919/masterPortfolio",
+  "html_url": "https://github.com/ashutosh1919/masterPortfolio",
+  "description": "\ud83d\udd25 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+  "stars": 4230,
+  "forks": 1713,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "best-portfolio-website",
+    "best-website",
+    "css3",
+    "developer-folio",
+    "developer-portfolio",
+    "developer-portfolio-template",
+    "hacktoberfest",
+    "html5",
+    "master-portfolio",
+    "portfolio",
+    "portfolio-page",
+    "portfolio-site",
+    "portfolio-template",
+    "portfolio-website",
+    "portfolio-websites",
+    "portfolios",
+    "react",
+    "reactjs",
+    "reactjs-template",
+    "template"
+  ],
+  "archived": false,
+  "commit_sha": "33b04a568a92a44e538a1795d8eab742dac47d81",
+  "commit_url": "https://github.com/ashutosh1919/masterPortfolio/commit/33b04a568a92a44e538a1795d8eab742dac47d81",
+  "tree_url": "https://github.com/ashutosh1919/masterPortfolio/tree/33b04a568a92a44e538a1795d8eab742dac47d81",
+  "analysed_at": "2026-11-14T19:14:52.651426+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 793,
+  "components": [
+    "App.js package",
+    "App.test.js package",
+    "assets package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "src/App.js"
+  ]
+}

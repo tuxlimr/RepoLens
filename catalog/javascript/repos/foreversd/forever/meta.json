@@ -1,0 +1,30 @@
+{
+  "owner": "foreversd",
+  "name": "forever",
+  "full_name": "foreversd/forever",
+  "html_url": "https://github.com/foreversd/forever",
+  "description": "A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)",
+  "stars": 13816,
+  "forks": 929,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "2ba8489f8d53f823494035e58fa4184749917084",
+  "commit_url": "https://github.com/foreversd/forever/commit/2ba8489f8d53f823494035e58fa4184749917084",
+  "tree_url": "https://github.com/foreversd/forever/tree/2ba8489f8d53f823494035e58fa4184749917084",
+  "analysed_at": "2026-11-14T19:11:50.329230+00:00",
+  "status": "completed",
+  "files_fetched": 41,
+  "files_analysed": 41,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "bin/forever"
+  ]
+}

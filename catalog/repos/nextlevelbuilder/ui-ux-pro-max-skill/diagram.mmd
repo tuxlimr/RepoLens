@@ -1,0 +1,20 @@
+%% Repository: nextlevelbuilder/ui-ux-pro-max-skill
+%% Analysed commit: d643997c82e94742dd3bee43210b0198e8bbba3d
+%% Commit reference: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commit/d643997c82e94742dd3bee43210b0198e8bbba3d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        cli["cli package"]
+        gallery["gallery package"]
+        scripts["scripts package"]
+        stack["stack package"]
+        ui_ux_pro_max["ui-ux-pro-max package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

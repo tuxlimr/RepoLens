@@ -1,0 +1,59 @@
+{
+  "owner": "jhen0409",
+  "name": "react-native-debugger",
+  "full_name": "jhen0409/react-native-debugger",
+  "html_url": "https://github.com/jhen0409/react-native-debugger",
+  "description": "The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools",
+  "stars": 10437,
+  "forks": 807,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "debugger",
+    "electron",
+    "react-devtools",
+    "react-native",
+    "redux-devtools-extension"
+  ],
+  "archived": false,
+  "commit_sha": "bd3435a456a29e1eda017ad37b94451834b4ee3a",
+  "commit_url": "https://github.com/jhen0409/react-native-debugger/commit/bd3435a456a29e1eda017ad37b94451834b4ee3a",
+  "tree_url": "https://github.com/jhen0409/react-native-debugger/tree/bd3435a456a29e1eda017ad37b94451834b4ee3a",
+  "analysed_at": "2026-11-14T19:12:39.984094+00:00",
+  "status": "completed",
+  "files_fetched": 146,
+  "files_analysed": 137,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "__e2e__ package",
+    "electron package",
+    "npm-package package",
+    "scripts package",
+    "webpack package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "React",
+    "Redux",
+    "Redux Toolkit",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "npm-package/bin/rndebugger-open.js",
+    "electron/main.js",
+    "__e2e__/fixture/app.js",
+    "app/containers/App.js",
+    "app/index.js",
+    "app/reducers/index.js",
+    "app/worker/index.js",
+    "electron/config/index.js",
+    "electron/menu/index.js",
+    "electron/url-handle/index.js",
+    "npm-package/src/main.js"
+  ]
+}

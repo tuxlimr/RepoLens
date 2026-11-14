@@ -1,0 +1,29 @@
+%% Repository: hesreallyhim/awesome-claude-code
+%% Analysed commit: 04fa0f3b9070a63d7a8a97cad6074daaf536959e
+%% Commit reference: https://github.com/hesreallyhim/awesome-claude-code/commit/04fa0f3b9070a63d7a8a97cad6074daaf536959e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        resources["resources package"]
+        scripts["scripts package"]
+        ticker["ticker package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| resources
+    entrypoint -->|imports| scripts
+    entrypoint -->|imports| ticker
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| resources
+    tests -->|imports| scripts

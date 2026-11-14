@@ -1,0 +1,49 @@
+{
+  "owner": "SuperClaude-Org",
+  "name": "SuperClaude_Framework",
+  "full_name": "SuperClaude-Org/SuperClaude_Framework",
+  "html_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+  "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
+  "stars": 23937,
+  "forks": 1983,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "fe68862c8ed9e2afb8120c2d9e27d0c3a7ce73a2",
+  "commit_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework/commit/fe68862c8ed9e2afb8120c2d9e27d0c3a7ce73a2",
+  "tree_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework/tree/fe68862c8ed9e2afb8120c2d9e27d0c3a7ce73a2",
+  "analysed_at": "2026-11-14T19:07:42.930256+00:00",
+  "status": "completed",
+  "files_fetched": 410,
+  "files_analysed": 410,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "plugins package",
+    "scripts package",
+    "Service / domain layer",
+    "skills package",
+    "superclaude package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "src/superclaude/cli/main.py",
+    "src/superclaude/execution/parallel.py",
+    "src/superclaude/scripts/clean_command_names.py",
+    "plugins/superclaude/scripts/clean_command_names.py",
+    "scripts/ab_test_workflows.py",
+    "scripts/analyze_workflow_metrics.py",
+    "scripts/build_superclaude_plugin.py",
+    "scripts/sync_from_framework.py"
+  ]
+}

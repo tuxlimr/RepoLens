@@ -1,0 +1,49 @@
+{
+  "owner": "dvtng",
+  "name": "react-loading-skeleton",
+  "full_name": "dvtng/react-loading-skeleton",
+  "html_url": "https://github.com/dvtng/react-loading-skeleton",
+  "description": "Create skeleton screens that automatically adapt to your app!",
+  "stars": 4213,
+  "forks": 163,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "loading-animations",
+    "placeholder",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "f8b040dade9cfaad7e3e6fbc50243d79f508f1ca",
+  "commit_url": "https://github.com/dvtng/react-loading-skeleton/commit/f8b040dade9cfaad7e3e6fbc50243d79f508f1ca",
+  "tree_url": "https://github.com/dvtng/react-loading-skeleton/tree/f8b040dade9cfaad7e3e6fbc50243d79f508f1ca",
+  "analysed_at": "2026-11-14T19:14:51.737361+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 43,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "Skeleton.tsx package",
+    "SkeletonStyleProps.ts package",
+    "SkeletonTheme.tsx package",
+    "SkeletonThemeContext.ts package",
+    "__stories__ package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    ".storybook/main.ts",
+    "src/__stories__/components/index.ts",
+    "src/index.ts"
+  ]
+}

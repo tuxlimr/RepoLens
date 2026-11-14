@@ -1,0 +1,62 @@
+{
+  "owner": "hackmdio",
+  "name": "codimd",
+  "full_name": "hackmdio/codimd",
+  "html_url": "https://github.com/hackmdio/codimd",
+  "description": "CodiMD - Realtime collaborative markdown notes on all platforms.",
+  "stars": 10163,
+  "forks": 1122,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [
+    "codimd",
+    "collaboration",
+    "hackmd",
+    "markdown",
+    "notes",
+    "realtime"
+  ],
+  "archived": false,
+  "commit_sha": "b1188a5648a23d970b9ad58612376e6602431f6f",
+  "commit_url": "https://github.com/hackmdio/codimd/commit/b1188a5648a23d970b9ad58612376e6602431f6f",
+  "tree_url": "https://github.com/hackmdio/codimd/tree/b1188a5648a23d970b9ad58612376e6602431f6f",
+  "analysed_at": "2026-11-14T19:12:44.634091+00:00",
+  "status": "completed",
+  "files_fetched": 322,
+  "files_analysed": 302,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "deployments package",
+    "lib package",
+    "public package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MySQL",
+    "PostgreSQL",
+    "Express",
+    "Docker",
+    "Docker Compose",
+    "webpack"
+  ],
+  "entry_points": [
+    "app.js",
+    "lib/auth/bitbucket/index.js",
+    "lib/auth/dropbox/index.js",
+    "lib/auth/email/index.js",
+    "lib/auth/facebook/index.js",
+    "lib/auth/github/index.js",
+    "lib/auth/gitlab/index.js",
+    "lib/auth/google/index.js",
+    "lib/auth/index.js",
+    "lib/auth/ldap/index.js",
+    "lib/auth/mattermost/index.js",
+    "lib/auth/oauth2/index.js"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "owner": "motdotla",
+  "name": "dotenv",
+  "full_name": "motdotla/dotenv",
+  "html_url": "https://github.com/motdotla/dotenv",
+  "description": "Loads environment variables from .env for nodejs projects.",
+  "stars": 20565,
+  "forks": 984,
+  "license": "BSD-2-Clause",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "configuration-file",
+    "dotenv",
+    "env",
+    "environment-variables",
+    "javascript",
+    "node",
+    "nodejs",
+    "secret-management",
+    "secret-manager",
+    "secrets",
+    "security-tools"
+  ],
+  "archived": false,
+  "commit_sha": "4c5450405612e4368e0d46d44da01942cf22a707",
+  "commit_url": "https://github.com/motdotla/dotenv/commit/4c5450405612e4368e0d46d44da01942cf22a707",
+  "tree_url": "https://github.com/motdotla/dotenv/tree/4c5450405612e4368e0d46d44da01942cf22a707",
+  "analysed_at": "2026-11-14T19:11:12.836753+00:00",
+  "status": "completed",
+  "files_fetched": 39,
+  "files_analysed": 35,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/main.js"
+  ]
+}

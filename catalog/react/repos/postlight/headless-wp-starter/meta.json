@@ -1,0 +1,58 @@
+{
+  "owner": "postlight",
+  "name": "headless-wp-starter",
+  "full_name": "postlight/headless-wp-starter",
+  "html_url": "https://github.com/postlight/headless-wp-starter",
+  "description": "\ud83d\udd2a WordPress + React Starter Kit: Spin up a WordPress-powered React app in one step",
+  "stars": 4538,
+  "forks": 639,
+  "license": "GPL-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "graphql-api",
+    "headless-cms",
+    "headless-wp",
+    "labs",
+    "nextjs",
+    "react",
+    "rest-api",
+    "starter-kit",
+    "wordpress",
+    "wordpress-development"
+  ],
+  "archived": false,
+  "commit_sha": "6334c8db447442bb1f01a4148a2f6e6e7d291c8e",
+  "commit_url": "https://github.com/postlight/headless-wp-starter/commit/6334c8db447442bb1f01a4148a2f6e6e7d291c8e",
+  "tree_url": "https://github.com/postlight/headless-wp-starter/tree/6334c8db447442bb1f01a4148a2f6e6e7d291c8e",
+  "analysed_at": "2026-11-14T19:14:43.107776+00:00",
+  "status": "completed",
+  "files_fetched": 77,
+  "files_analysed": 75,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "docker package",
+    "frontend package",
+    "frontend-graphql package",
+    "wordpress package"
+  ],
+  "detections": [
+    "MySQL",
+    "Express",
+    "Next.js",
+    "React",
+    "axios",
+    "React Router",
+    "Docker",
+    "Docker Compose",
+    "webpack"
+  ],
+  "entry_points": [
+    "frontend-graphql/src/components/App.js",
+    "frontend-graphql/src/components/Page.js",
+    "frontend-graphql/src/index.js",
+    "frontend/pages/index.js",
+    "frontend/server.js"
+  ]
+}

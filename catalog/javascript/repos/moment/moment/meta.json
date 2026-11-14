@@ -1,0 +1,39 @@
+{
+  "owner": "moment",
+  "name": "moment",
+  "full_name": "moment/moment",
+  "html_url": "https://github.com/moment/moment",
+  "description": "Parse, validate, manipulate, and display dates in javascript.",
+  "stars": 47873,
+  "forks": 6971,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c2a703a4d84aa57ee2722ff8fb4a8016279fb3c4",
+  "commit_url": "https://github.com/moment/moment/commit/c2a703a4d84aa57ee2722ff8fb4a8016279fb3c4",
+  "tree_url": "https://github.com/moment/moment/tree/c2a703a4d84aa57ee2722ff8fb4a8016279fb3c4",
+  "analysed_at": "2026-11-14T19:10:37.775116+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 659,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "locale package",
+    "meteor package",
+    "moment.js package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "moment.js"
+  ]
+}

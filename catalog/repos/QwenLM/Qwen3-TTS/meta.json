@@ -1,0 +1,44 @@
+{
+  "owner": "QwenLM",
+  "name": "Qwen3-TTS",
+  "full_name": "QwenLM/Qwen3-TTS",
+  "html_url": "https://github.com/QwenLM/Qwen3-TTS",
+  "description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
+  "stars": 14414,
+  "forks": 1860,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "commit_url": "https://github.com/QwenLM/Qwen3-TTS/commit/022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "tree_url": "https://github.com/QwenLM/Qwen3-TTS/tree/022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "analysed_at": "2026-11-14T19:09:26.253574+00:00",
+  "status": "completed",
+  "files_fetched": 34,
+  "files_analysed": 34,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "finetuning package",
+    "qwen_tts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": [
+    "finetuning/prepare_data.py",
+    "finetuning/sft_12hz.py",
+    "qwen_tts/__main__.py",
+    "qwen_tts/cli/demo.py"
+  ]
+}

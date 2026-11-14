@@ -1,0 +1,60 @@
+{
+  "owner": "mikf",
+  "name": "gallery-dl",
+  "full_name": "mikf/gallery-dl",
+  "html_url": "https://github.com/mikf/gallery-dl",
+  "description": "Command-line program to download image galleries and collections from several image hosting sites",
+  "stars": 20503,
+  "forks": 1530,
+  "license": "GPL-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "danbooru",
+    "deviantart",
+    "downloader",
+    "gallery",
+    "kemono",
+    "mangadex",
+    "pixiv",
+    "tumblr",
+    "twitter"
+  ],
+  "archived": false,
+  "commit_sha": "26dfd4eea885577fef45e9b614538e5a7d24583a",
+  "commit_url": "https://github.com/mikf/gallery-dl/commit/26dfd4eea885577fef45e9b614538e5a7d24583a",
+  "tree_url": "https://github.com/mikf/gallery-dl/tree/26dfd4eea885577fef45e9b614538e5a7d24583a",
+  "analysed_at": "2026-11-14T19:08:02.076200+00:00",
+  "status": "completed",
+  "files_fetched": 761,
+  "files_analysed": 761,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "gallery_dl package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "unittest"
+  ],
+  "entry_points": [
+    "gallery_dl/__init__.py",
+    "gallery_dl/__main__.py",
+    "scripts/generate_test_result.py",
+    "scripts/init.py",
+    "scripts/man.py",
+    "scripts/pyinstaller.py",
+    "scripts/requirements.py",
+    "scripts/rm.py",
+    "scripts/run_tests.py",
+    "scripts/supportedsites.py"
+  ]
+}

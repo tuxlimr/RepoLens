@@ -1,0 +1,44 @@
+{
+  "owner": "BuilderIO",
+  "name": "micro-agent",
+  "full_name": "BuilderIO/micro-agent",
+  "html_url": "https://github.com/BuilderIO/micro-agent",
+  "description": "An AI agent that writes (actually useful) code for you",
+  "stars": 4335,
+  "forks": 382,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "ai",
+    "figma",
+    "javascript",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "f33523ce9f9c52a698d13a2883eb2ba7fb4fb462",
+  "commit_url": "https://github.com/BuilderIO/micro-agent/commit/f33523ce9f9c52a698d13a2883eb2ba7fb4fb462",
+  "tree_url": "https://github.com/BuilderIO/micro-agent/tree/f33523ce9f9c52a698d13a2883eb2ba7fb4fb462",
+  "analysed_at": "2026-11-14T19:14:49.118016+00:00",
+  "status": "completed",
+  "files_fetched": 83,
+  "files_analysed": 82,
+  "components": [
+    "cli.ts package",
+    "commands package",
+    "Configuration and deployment",
+    "helpers package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": []
+}

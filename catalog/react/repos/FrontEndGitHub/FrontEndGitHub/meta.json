@@ -1,0 +1,30 @@
+{
+  "owner": "FrontEndGitHub",
+  "name": "FrontEndGitHub",
+  "full_name": "FrontEndGitHub/FrontEndGitHub",
+  "html_url": "https://github.com/FrontEndGitHub/FrontEndGitHub",
+  "description": ":octocat:GitHub\u6700\u5168\u7684\u524d\u7aef\u8d44\u6e90\u6c47\u603b\u4ed3\u5e93\uff08\u5305\u62ec\u524d\u7aef\u5b66\u4e60\u3001\u5f00\u53d1\u8d44\u6e90\u3001\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u3001\u5f00\u53d1\u5de5\u5177\u3001\u6c42\u804c\u9762\u8bd5\u7b49\uff09",
+  "stars": 6597,
+  "forks": 974,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "frontend",
+    "frontend-map",
+    "javascript",
+    "react",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "84fdb64d6b16c0637f553eb3375b2ee978f4b6bd",
+  "commit_url": "https://github.com/FrontEndGitHub/FrontEndGitHub/commit/84fdb64d6b16c0637f553eb3375b2ee978f4b6bd",
+  "tree_url": "https://github.com/FrontEndGitHub/FrontEndGitHub/tree/84fdb64d6b16c0637f553eb3375b2ee978f4b6bd",
+  "analysed_at": "2026-11-14T19:14:03.385718+00:00",
+  "status": "completed",
+  "files_fetched": 2,
+  "files_analysed": 2,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

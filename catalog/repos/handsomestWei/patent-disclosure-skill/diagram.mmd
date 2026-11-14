@@ -1,0 +1,32 @@
+%% Repository: handsomestWei/patent-disclosure-skill
+%% Analysed commit: b4bbec6f0a1c3c32a904faabeb249639c0b30d98
+%% Commit reference: https://github.com/handsomestWei/patent-disclosure-skill/commit/b4bbec6f0a1c3c32a904faabeb249639c0b30d98
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        skills["skills package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| skills
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| skills
+    external_integrations -->|imports| skills
+    skills -->|imports| config
+    skills -->|imports| data_layer
+    skills -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations

@@ -1,0 +1,27 @@
+{
+  "owner": "designmodo",
+  "name": "Flat-UI",
+  "full_name": "designmodo/Flat-UI",
+  "html_url": "https://github.com/designmodo/Flat-UI",
+  "description": "Flat UI Free - Design Framework (html/css3/less/js). Flat UI is based on Bootstrap, a comfortable, responsive, and functional framework that simplifies the development of websites.",
+  "stars": 15276,
+  "forks": 2263,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "cead40a83b12b678e278fd63dcbb06eb0a6520f4",
+  "commit_url": "https://github.com/designmodo/Flat-UI/commit/cead40a83b12b678e278fd63dcbb06eb0a6520f4",
+  "tree_url": "https://github.com/designmodo/Flat-UI/tree/cead40a83b12b678e278fd63dcbb06eb0a6520f4",
+  "analysed_at": "2026-11-14T19:11:40.119983+00:00",
+  "status": "completed",
+  "files_fetched": 413,
+  "files_analysed": 304,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,40 @@
+{
+  "owner": "you-dont-need",
+  "name": "You-Dont-Need-Momentjs",
+  "full_name": "you-dont-need/You-Dont-Need-Momentjs",
+  "html_url": "https://github.com/you-dont-need/You-Dont-Need-Momentjs",
+  "description": "List of functions which you can use to replace moment.js + ESLint Plugin",
+  "stars": 13280,
+  "forks": 312,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "bundle-size",
+    "date-fns",
+    "esmodules",
+    "hacktoberfest",
+    "moment-js",
+    "pure-function",
+    "tree-shaking"
+  ],
+  "archived": false,
+  "commit_sha": "43977cf990a4af509a758a4e9a6af40f4485d34d",
+  "commit_url": "https://github.com/you-dont-need/You-Dont-Need-Momentjs/commit/43977cf990a4af509a758a4e9a6af40f4485d34d",
+  "tree_url": "https://github.com/you-dont-need/You-Dont-Need-Momentjs/tree/43977cf990a4af509a758a4e9a6af40f4485d34d",
+  "analysed_at": "2026-11-14T19:11:58.776187+00:00",
+  "status": "completed",
+  "files_fetched": 19,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "Jest"
+  ],
+  "entry_points": [
+    "lib/index.js"
+  ]
+}

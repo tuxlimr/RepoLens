@@ -1,0 +1,33 @@
+%% Repository: Panniantong/Agent-Reach
+%% Analysed commit: c70ae6da5d39bc90e09ad2ae0575ccc89f31e284
+%% Commit reference: https://github.com/Panniantong/Agent-Reach/commit/c70ae6da5d39bc90e09ad2ae0575ccc89f31e284
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        agent_reach["agent_reach package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    agent_reach -->|imports| config
+    agent_reach -->|imports| entrypoint
+    agent_reach -->|imports| external_integrations
+    config -->|imports| agent_reach
+    entrypoint -->|imports| agent_reach
+    entrypoint -->|imports| config
+    tests -->|imports| agent_reach
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

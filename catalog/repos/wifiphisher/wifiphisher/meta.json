@@ -1,0 +1,47 @@
+{
+  "owner": "wifiphisher",
+  "name": "wifiphisher",
+  "full_name": "wifiphisher/wifiphisher",
+  "html_url": "https://github.com/wifiphisher/wifiphisher",
+  "description": "The Rogue Access Point Framework",
+  "stars": 14972,
+  "forks": 2746,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "access-point",
+    "attack",
+    "malware",
+    "phishing",
+    "python",
+    "redteaming",
+    "rogue",
+    "security",
+    "wifi",
+    "wifiphisher"
+  ],
+  "archived": false,
+  "commit_sha": "4ae336518bf29eed13d3b09f2ee6a16e7973c997",
+  "commit_url": "https://github.com/wifiphisher/wifiphisher/commit/4ae336518bf29eed13d3b09f2ee6a16e7973c997",
+  "tree_url": "https://github.com/wifiphisher/wifiphisher/tree/4ae336518bf29eed13d3b09f2ee6a16e7973c997",
+  "analysed_at": "2026-11-14T19:09:10.388940+00:00",
+  "status": "completed",
+  "files_fetched": 102,
+  "files_analysed": 94,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "External integrations",
+    "Tests",
+    "wifiphisher package"
+  ],
+  "detections": [
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "wifiphisher/pywifiphisher.py"
+  ]
+}

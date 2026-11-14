@@ -1,0 +1,36 @@
+{
+  "owner": "KieSun",
+  "name": "all-of-frontend",
+  "full_name": "KieSun/all-of-frontend",
+  "html_url": "https://github.com/KieSun/all-of-frontend",
+  "description": "\u4f60\u60f3\u77e5\u9053\u7684\u524d\u7aef\u5185\u5bb9\u90fd\u5728\u8fd9",
+  "stars": 5266,
+  "forks": 817,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "front-end",
+    "javascript",
+    "js",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "94664fcdc38aac6880d3c075945b19734cf8d7d1",
+  "commit_url": "https://github.com/KieSun/all-of-frontend/commit/94664fcdc38aac6880d3c075945b19734cf8d7d1",
+  "tree_url": "https://github.com/KieSun/all-of-frontend/tree/94664fcdc38aac6880d3c075945b19734cf8d7d1",
+  "analysed_at": "2026-11-14T19:14:23.024505+00:00",
+  "status": "completed",
+  "files_fetched": 28,
+  "files_analysed": 23,
+  "components": [
+    "Configuration and deployment",
+    "script package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "axios"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,46 @@
+%% Repository: redis/redis-py
+%% Analysed commit: 68b1342409df85537264b50418fc8a8bcb2dd0c7
+%% Commit reference: https://github.com/redis/redis-py/commit/68b1342409df85537264b50418fc8a8bcb2dd0c7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        doctests["doctests package"]
+        redis["redis package"]
+        util["util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| redis
+    config -->|imports| data_layer
+    config -->|imports| redis
+    data_layer -->|imports| redis
+    doctests -->|imports| external_integrations
+    doctests -->|imports| redis
+    entrypoint -->|imports| config
+    entrypoint -->|imports| redis
+    external_integrations -->|imports| config
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| redis
+    redis -->|imports| config
+    redis -->|imports| data_layer
+    redis -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations
+    tests -->|imports| redis

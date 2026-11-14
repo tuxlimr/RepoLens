@@ -1,0 +1,40 @@
+{
+  "owner": "ai",
+  "name": "nanoid",
+  "full_name": "ai/nanoid",
+  "html_url": "https://github.com/ai/nanoid",
+  "description": "A tiny (118 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+  "stars": 27130,
+  "forks": 896,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "055d1700cc67ac843e3efb5235d806b419ec7b2b",
+  "commit_url": "https://github.com/ai/nanoid/commit/055d1700cc67ac843e3efb5235d806b419ec7b2b",
+  "tree_url": "https://github.com/ai/nanoid/tree/055d1700cc67ac843e3efb5235d806b419ec7b2b",
+  "analysed_at": "2026-11-14T19:10:54.278611+00:00",
+  "status": "completed",
+  "files_fetched": 45,
+  "files_analysed": 44,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "non-secure package",
+    "Tests",
+    "url-alphabet package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "bin/nanoid.js",
+    "index.js",
+    "non-secure/index.js",
+    "url-alphabet/index.js"
+  ]
+}

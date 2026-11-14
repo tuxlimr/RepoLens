@@ -1,0 +1,57 @@
+%% Repository: icloud-photos-downloader/icloud_photos_downloader
+%% Analysed commit: 3caeae584c3d8bc6fcc51a1c9f7e5413b1422fd3
+%% Commit reference: https://github.com/icloud-photos-downloader/icloud_photos_downloader/commit/3caeae584c3d8bc6fcc51a1c9f7e5413b1422fd3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        binary_dist["binary_dist package"]
+        foundation["foundation package"]
+        icloudpd["icloudpd package"]
+        npm["npm package"]
+        pyicloud_ipd["pyicloud_ipd package"]
+        scripts["scripts package"]
+        starters["starters package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| icloudpd
+    config -->|imports| pyicloud_ipd
+    entrypoint -->|imports| config
+    entrypoint -->|imports| foundation
+    entrypoint -->|imports| icloudpd
+    entrypoint -->|imports| pyicloud_ipd
+    entrypoint -->|imports| service_layer
+    foundation -->|imports| external_integrations
+    foundation -->|imports| service_layer
+    icloudpd -->|imports| config
+    icloudpd -->|imports| entrypoint
+    icloudpd -->|imports| external_integrations
+    icloudpd -->|imports| foundation
+    icloudpd -->|imports| pyicloud_ipd
+    icloudpd -->|imports| service_layer
+    pyicloud_ipd -->|imports| external_integrations
+    pyicloud_ipd -->|imports| foundation
+    pyicloud_ipd -->|imports| service_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| foundation
+    service_layer -->|imports| icloudpd
+    service_layer -->|imports| pyicloud_ipd
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| foundation
+    tests -->|imports| icloudpd
+    tests -->|imports| pyicloud_ipd
+    tests -->|imports| service_layer

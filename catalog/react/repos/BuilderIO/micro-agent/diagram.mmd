@@ -1,0 +1,15 @@
+%% Repository: BuilderIO/micro-agent
+%% Analysed commit: f33523ce9f9c52a698d13a2883eb2ba7fb4fb462
+%% Commit reference: https://github.com/BuilderIO/micro-agent/commit/f33523ce9f9c52a698d13a2883eb2ba7fb4fb462
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        cli_ts["cli.ts package"]
+        commands["commands package"]
+        helpers["helpers package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

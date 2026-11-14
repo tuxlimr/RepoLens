@@ -1,0 +1,29 @@
+%% Repository: Dao-AILab/flash-attention
+%% Analysed commit: f63c472c4dc19237c0635d6a629df065ff64796e
+%% Commit reference: https://github.com/Dao-AILab/flash-attention/commit/f63c472c4dc19237c0635d6a629df065ff64796e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        csrc["csrc package"]
+        flash_attn["flash_attn package"]
+        hopper["hopper package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| flash_attn
+    config -->|imports| flash_attn
+    data_layer -->|imports| flash_attn
+    entrypoint -->|imports| config
+    entrypoint -->|imports| flash_attn
+    flash_attn -->|imports| config
+    hopper -->|imports| flash_attn

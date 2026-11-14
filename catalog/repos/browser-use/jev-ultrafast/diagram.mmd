@@ -1,0 +1,29 @@
+%% Repository: browser-use/jev-ultrafast
+%% Analysed commit: cf3c406f0fc4becff8986ed4d4d37b7b9f102e45
+%% Commit reference: https://github.com/browser-use/jev-ultrafast/commit/cf3c406f0fc4becff8986ed4d4d37b7b9f102e45
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        jev_ultrafast["jev_ultrafast package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| jev_ultrafast
+    entrypoint -->|imports| jev_ultrafast
+    jev_ultrafast -->|imports| data_layer
+    scripts -->|imports| jev_ultrafast
+    tests -->|imports| jev_ultrafast

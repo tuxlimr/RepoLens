@@ -1,0 +1,31 @@
+%% Repository: pjialin/py12306
+%% Analysed commit: 52ccae8b206b828624f185bf8178e1057c6b5fb9
+%% Commit reference: https://github.com/pjialin/py12306/commit/52ccae8b206b828624f185bf8178e1057c6b5fb9
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        py12306["py12306 package"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| entrypoint
+    api_layer -->|imports| py12306
+    config -->|imports| entrypoint
+    config -->|imports| py12306
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| py12306
+    py12306 -->|imports| config
+    py12306 -->|imports| entrypoint
+    py12306 -->|imports| external_integrations

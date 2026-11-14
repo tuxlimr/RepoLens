@@ -1,0 +1,58 @@
+{
+  "owner": "beetbox",
+  "name": "beets",
+  "full_name": "beetbox/beets",
+  "html_url": "https://github.com/beetbox/beets",
+  "description": "music library manager and MusicBrainz tagger",
+  "stars": 15940,
+  "forks": 2194,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "hacktoberfest",
+    "music",
+    "music-library",
+    "musicbrainz",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "029ac6f37d0bc5ce478fb95e5b27547f74ac6100",
+  "commit_url": "https://github.com/beetbox/beets/commit/029ac6f37d0bc5ce478fb95e5b27547f74ac6100",
+  "tree_url": "https://github.com/beetbox/beets/tree/029ac6f37d0bc5ce478fb95e5b27547f74ac6100",
+  "analysed_at": "2026-11-14T19:08:57.957064+00:00",
+  "status": "completed",
+  "files_fetched": 498,
+  "files_analysed": 498,
+  "components": [
+    "beets package",
+    "beetsplug package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Flask",
+    "Click",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "beets/__main__.py",
+    "beets/ui/__init__.py",
+    "beets/util/functemplate.py",
+    "beetsplug/aura.py",
+    "beetsplug/bpd/__init__.py",
+    "beetsplug/bpd/gstplayer.py",
+    "beetsplug/web/__init__.py",
+    "extra/release.py"
+  ]
+}

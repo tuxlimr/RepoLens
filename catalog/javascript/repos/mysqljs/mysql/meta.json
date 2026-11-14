@@ -1,0 +1,42 @@
+{
+  "owner": "mysqljs",
+  "name": "mysql",
+  "full_name": "mysqljs/mysql",
+  "html_url": "https://github.com/mysqljs/mysql",
+  "description": "A pure node.js JavaScript Client implementing the MySQL protocol.",
+  "stars": 18606,
+  "forks": 2515,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "mysql",
+    "nodejs"
+  ],
+  "archived": false,
+  "commit_sha": "dc9c152a87ec51a1f647447268917243d2eab1fd",
+  "commit_url": "https://github.com/mysqljs/mysql/commit/dc9c152a87ec51a1f647447268917243d2eab1fd",
+  "tree_url": "https://github.com/mysqljs/mysql/tree/dc9c152a87ec51a1f647447268917243d2eab1fd",
+  "analysed_at": "2026-11-14T19:11:21.249303+00:00",
+  "status": "completed",
+  "files_fetched": 281,
+  "files_analysed": 280,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests",
+    "tool package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/protocol/packets/index.js",
+    "lib/protocol/sequences/index.js"
+  ]
+}

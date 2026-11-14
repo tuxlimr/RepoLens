@@ -1,0 +1,26 @@
+%% Repository: clintonwoo/hackernews-react-graphql
+%% Analysed commit: 6875c7233c2e0d82a910f8427c8d230f0858d048
+%% Commit reference: https://github.com/clintonwoo/hackernews-react-graphql/commit/6875c7233c2e0d82a910f8427c8d230f0858d048
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        components["components package"]
+        config_ts["config.ts package"]
+        helpers["helpers package"]
+        layouts["layouts package"]
+        pages["pages package"]
+        server["server package"]
+        tests["__tests__ package"]
+        types["@types package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

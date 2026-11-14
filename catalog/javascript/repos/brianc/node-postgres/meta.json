@@ -1,0 +1,60 @@
+{
+  "owner": "brianc",
+  "name": "node-postgres",
+  "full_name": "brianc/node-postgres",
+  "html_url": "https://github.com/brianc/node-postgres",
+  "description": "PostgreSQL client for node.js.",
+  "stars": 13236,
+  "forks": 1387,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "libpq",
+    "node-postgres",
+    "postgres",
+    "postgresql",
+    "postgresql-driver"
+  ],
+  "archived": false,
+  "commit_sha": "2a5850fb0db18f5e40a642bbb4a4743de412ab54",
+  "commit_url": "https://github.com/brianc/node-postgres/commit/2a5850fb0db18f5e40a642bbb4a4743de412ab54",
+  "tree_url": "https://github.com/brianc/node-postgres/tree/2a5850fb0db18f5e40a642bbb4a4743de412ab54",
+  "analysed_at": "2026-11-14T19:11:59.263922+00:00",
+  "status": "completed",
+  "files_fetched": 365,
+  "files_analysed": 359,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Next.js",
+    "React",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "docs/next.config.js",
+    "packages/pg-connection-string/index.js",
+    "packages/pg-cursor/index.js",
+    "packages/pg-native/index.js",
+    "packages/pg-pool/index.js",
+    "packages/pg-cloudflare/src/index.ts",
+    "packages/pg-native/bench/index.js",
+    "packages/pg-protocol/esm/index.js",
+    "packages/pg-protocol/src/index.ts",
+    "packages/pg-query-stream/src/index.ts",
+    "packages/pg/lib/index.js"
+  ]
+}

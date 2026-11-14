@@ -1,0 +1,32 @@
+{
+  "owner": "mattboldt",
+  "name": "typed.js",
+  "full_name": "mattboldt/typed.js",
+  "html_url": "https://github.com/mattboldt/typed.js",
+  "description": "A JavaScript Typing Animation Library",
+  "stars": 16272,
+  "forks": 1737,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b2d6a7d9af6d9cd39830701f6b6a7cd98a37e13f",
+  "commit_url": "https://github.com/mattboldt/typed.js/commit/b2d6a7d9af6d9cd39830701f6b6a7cd98a37e13f",
+  "tree_url": "https://github.com/mattboldt/typed.js/tree/b2d6a7d9af6d9cd39830701f6b6a7cd98a37e13f",
+  "analysed_at": "2026-11-14T19:11:33.544101+00:00",
+  "status": "completed",
+  "files_fetched": 78,
+  "files_analysed": 75,
+  "components": [
+    "assets package",
+    "Configuration and deployment",
+    "Core modules",
+    "defaults.js package",
+    "html-parser.js package",
+    "initializer.js package",
+    "typed.js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

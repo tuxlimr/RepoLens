@@ -1,0 +1,44 @@
+%% Repository: ant-design/ant-design-pro
+%% Analysed commit: 42f2cb1d303380909ea04c73b5e60679d09c321a
+%% Commit reference: https://github.com/ant-design/ant-design-pro/commit/42f2cb1d303380909ea04c73b5e60679d09c321a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        access_test_ts["access.test.ts package"]
+        access_ts["access.ts package"]
+        app_test_tsx["app.test.tsx package"]
+        app_tsx["app.tsx package"]
+        cloudflare_worker["cloudflare-worker package"]
+        components["components package"]
+        e2e["e2e package"]
+        global_style_ts["global.style.ts package"]
+        global_tsx["global.tsx package"]
+        loading_tsx["loading.tsx package"]
+        locales["locales package"]
+        mock["mock package"]
+        pages["pages package"]
+        public["public package"]
+        requesterrorconfig_test_ts["requestErrorConfig.test.ts package"]
+        scripts["scripts package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (3 merged)"]
+    %% Note: 3 smaller component(s) merged into 'other' to keep the diagram readable.

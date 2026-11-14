@@ -1,0 +1,46 @@
+{
+  "owner": "zai-org",
+  "name": "ChatGLM2-6B",
+  "full_name": "zai-org/ChatGLM2-6B",
+  "html_url": "https://github.com/zai-org/ChatGLM2-6B",
+  "description": "ChatGLM2-6B: An Open Bilingual Chat LLM | \u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
+  "stars": 15475,
+  "forks": 1775,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "chatglm",
+    "chatglm-6b",
+    "large-language-models",
+    "llm"
+  ],
+  "archived": false,
+  "commit_sha": "cb8e8b43c0951b32614f25c03e1ab593a0603a1c",
+  "commit_url": "https://github.com/zai-org/ChatGLM2-6B/commit/cb8e8b43c0951b32614f25c03e1ab593a0603a1c",
+  "tree_url": "https://github.com/zai-org/ChatGLM2-6B/tree/cb8e8b43c0951b32614f25c03e1ab593a0603a1c",
+  "analysed_at": "2026-11-14T19:09:02.410523+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "evaluation package",
+    "ptuning package"
+  ],
+  "detections": [
+    "FastAPI",
+    "NumPy",
+    "Pydantic",
+    "Uvicorn"
+  ],
+  "entry_points": [
+    "api.py",
+    "cli_demo.py",
+    "openai_api.py",
+    "ptuning/main.py",
+    "ptuning/web_demo.py"
+  ]
+}

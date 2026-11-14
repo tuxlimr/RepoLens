@@ -1,0 +1,33 @@
+%% Repository: maotoumao/MusicFreeDesktop
+%% Analysed commit: f3b526a6c1ea9313b277810a8e12003605a98982
+%% Commit reference: https://github.com/maotoumao/MusicFreeDesktop/commit/f3b526a6c1ea9313b277810a8e12003605a98982
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        common["common package"]
+        hooks["hooks package"]
+        main["main package"]
+        preload["preload package"]
+        renderer["renderer package"]
+        renderer_lrc["renderer-lrc package"]
+        renderer_minimode["renderer-minimode package"]
+        res["res package"]
+        scripts["scripts package"]
+        shared["shared package"]
+        types["types package"]
+        webworkers["webworkers package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

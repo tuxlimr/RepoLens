@@ -1,0 +1,22 @@
+%% Repository: verl-project/verl
+%% Analysed commit: 4191e7f910d85d69acb8c45f4840f10faa535165
+%% Commit reference: https://github.com/verl-project/verl/commit/4191e7f910d85d69acb8c45f4840f10faa535165
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| scripts
+    tests -->|imports| external_integrations

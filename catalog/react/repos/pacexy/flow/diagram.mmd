@@ -1,0 +1,23 @@
+%% Repository: pacexy/flow
+%% Analysed commit: 36f3cc7c4581f62ff6d72b75641c674020bb1e9f
+%% Commit reference: https://github.com/pacexy/flow/commit/36f3cc7c4581f62ff6d72b75641c674020bb1e9f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

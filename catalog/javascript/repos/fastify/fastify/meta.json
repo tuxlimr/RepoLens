@@ -1,0 +1,48 @@
+{
+  "owner": "fastify",
+  "name": "fastify",
+  "full_name": "fastify/fastify",
+  "html_url": "https://github.com/fastify/fastify",
+  "description": "Fast and low overhead web framework, for Node.js",
+  "stars": 37419,
+  "forks": 3057,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "fastify",
+    "fastify-core",
+    "hacktoberfest",
+    "nodejs",
+    "performance",
+    "speed",
+    "webframework"
+  ],
+  "archived": false,
+  "commit_sha": "7e0c8febb2a1ba4d55309cdc2ccd51694eca46d3",
+  "commit_url": "https://github.com/fastify/fastify/commit/7e0c8febb2a1ba4d55309cdc2ccd51694eca46d3",
+  "tree_url": "https://github.com/fastify/fastify/tree/7e0c8febb2a1ba4d55309cdc2ccd51694eca46d3",
+  "analysed_at": "2026-11-14T19:10:41.688343+00:00",
+  "status": "completed",
+  "files_fetched": 397,
+  "files_analysed": 391,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "lib package",
+    "scripts package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "fastify.js",
+    "integration/server.js",
+    "lib/server.js"
+  ]
+}

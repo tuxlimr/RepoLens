@@ -1,0 +1,40 @@
+{
+  "owner": "resemble-ai",
+  "name": "chatterbox",
+  "full_name": "resemble-ai/chatterbox",
+  "html_url": "https://github.com/resemble-ai/chatterbox",
+  "description": "SoTA open-source TTS",
+  "stars": 27817,
+  "forks": 3745,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ab55923c27757c90cfcc407baa57dc25a7d25217",
+  "commit_url": "https://github.com/resemble-ai/chatterbox/commit/ab55923c27757c90cfcc407baa57dc25a7d25217",
+  "tree_url": "https://github.com/resemble-ai/chatterbox/tree/ab55923c27757c90cfcc407baa57dc25a7d25217",
+  "analysed_at": "2026-11-14T19:07:18.304042+00:00",
+  "status": "completed",
+  "files_fetched": 64,
+  "files_analysed": 64,
+  "components": [
+    "chatterbox package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": [
+    "src/chatterbox/models/s3gen/utils/intmeanflow.py",
+    "gradio_tts_app.py",
+    "gradio_tts_turbo_app.py",
+    "gradio_vc_app.py"
+  ]
+}

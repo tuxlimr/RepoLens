@@ -1,0 +1,33 @@
+%% Repository: Kludex/starlette
+%% Analysed commit: 271c277da0ff64e2048a4d46ecc812b9d61db5f6
+%% Commit reference: https://github.com/Kludex/starlette/commit/271c277da0ff64e2048a4d46ecc812b9d61db5f6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        starlette["starlette package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| starlette
+    data_layer -->|imports| starlette
+    entrypoint -->|imports| starlette
+    starlette -->|imports| external_integrations
+    tests -->|imports| benchmarks
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| starlette

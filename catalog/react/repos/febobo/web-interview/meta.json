@@ -1,0 +1,33 @@
+{
+  "owner": "febobo",
+  "name": "web-interview",
+  "full_name": "febobo/web-interview",
+  "html_url": "https://github.com/febobo/web-interview",
+  "description": "\u8bed\u97f3\u6253\u5361\u793e\u7fa4\u7ef4\u62a4\u7684\u524d\u7aef\u9762\u8bd5\u9898\u5e93\uff0c\u5305\u542b\u4e0d\u9650\u4e8eVue\u9762\u8bd5\u9898\uff0cReact\u9762\u8bd5\u9898\uff0cJS\u9762\u8bd5\u9898\uff0cHTTP\u9762\u8bd5\u9898\uff0c\u5de5\u7a0b\u5316\u9762\u8bd5\u9898\uff0cCSS\u9762\u8bd5\u9898\uff0c\u7b97\u6cd5\u9762\u8bd5\u9898\uff0c\u5927\u5382\u9762\u8bd5\u9898\uff0c\u9ad8\u9891\u9762\u8bd5\u9898",
+  "stars": 11889,
+  "forks": 1740,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "react",
+    "typescript",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "7a688c8d941d3b9622fdb95f4c1089a1749b3630",
+  "commit_url": "https://github.com/febobo/web-interview/commit/7a688c8d941d3b9622fdb95f4c1089a1749b3630",
+  "tree_url": "https://github.com/febobo/web-interview/tree/7a688c8d941d3b9622fdb95f4c1089a1749b3630",
+  "analysed_at": "2026-11-14T19:13:24.506601+00:00",
+  "status": "completed",
+  "files_fetched": 271,
+  "files_analysed": 271,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

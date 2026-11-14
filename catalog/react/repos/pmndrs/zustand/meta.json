@@ -1,0 +1,55 @@
+{
+  "owner": "pmndrs",
+  "name": "zustand",
+  "full_name": "pmndrs/zustand",
+  "html_url": "https://github.com/pmndrs/zustand",
+  "description": "\ud83d\udc3b Bear necessities for state management in React",
+  "stars": 58924,
+  "forks": 2191,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "hacktoberfest",
+    "hooks",
+    "react",
+    "react-context",
+    "reactjs",
+    "redux",
+    "state-management"
+  ],
+  "archived": false,
+  "commit_sha": "9fed2eb2f3af672da9f7bf694b996df3831fc207",
+  "commit_url": "https://github.com/pmndrs/zustand/commit/9fed2eb2f3af672da9f7bf694b996df3831fc207",
+  "tree_url": "https://github.com/pmndrs/zustand/tree/9fed2eb2f3af672da9f7bf694b996df3831fc207",
+  "analysed_at": "2026-11-14T19:12:57.140007+00:00",
+  "status": "completed",
+  "files_fetched": 132,
+  "files_analysed": 131,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "middleware package",
+    "middleware.ts package",
+    "react package",
+    "react.ts package",
+    "shallow.ts package",
+    "Tests",
+    "traditional.ts package",
+    "types.d.ts package",
+    "vanilla package",
+    "vanilla.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Redux",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

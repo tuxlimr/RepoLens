@@ -1,0 +1,47 @@
+{
+  "owner": "dip",
+  "name": "cmdk",
+  "full_name": "dip/cmdk",
+  "html_url": "https://github.com/dip/cmdk",
+  "description": "Fast, unstyled command menu React component.",
+  "stars": 13147,
+  "forks": 383,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "combobox",
+    "command-menu",
+    "command-palette",
+    "radix-ui",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+  "commit_url": "https://github.com/dip/cmdk/commit/dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+  "tree_url": "https://github.com/dip/cmdk/tree/dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+  "analysed_at": "2026-11-14T19:13:19.443084+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 70,
+  "components": [
+    "cmdk package",
+    "Configuration and deployment",
+    "Core modules",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "cmdk/src/index.tsx",
+    "website/components/code/index.tsx",
+    "website/components/icons/index.tsx",
+    "website/components/index.ts",
+    "website/pages/index.tsx"
+  ]
+}

@@ -1,0 +1,111 @@
+%% Repository: JoeanAmier/TikTokDownloader
+%% Analysed commit: f766a6eff25b76fe4d737f10c27258e4da65df7d
+%% Commit reference: https://github.com/JoeanAmier/TikTokDownloader/commit/f766a6eff25b76fe4d737f10c27258e4da65df7d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        application["application package"]
+        cli_edition["cli_edition package"]
+        custom["custom package"]
+        downloader["downloader package"]
+        encrypt["encrypt package"]
+        extract["extract package"]
+        gui_edition["gui_edition package"]
+        interface["interface package"]
+        link["link package"]
+        locale["locale package"]
+        manager["manager package"]
+        module["module package"]
+        record["record package"]
+        static["static package"]
+        testers["testers package"]
+        tools["tools package"]
+        translation["translation package"]
+        tui_edition["tui_edition package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    application -->|imports| config
+    application -->|imports| custom
+    application -->|imports| data_layer
+    application -->|imports| downloader
+    application -->|imports| extract
+    application -->|imports| interface
+    application -->|imports| link
+    application -->|imports| manager
+    application -->|imports| module
+    application -->|imports| tools
+    application -->|imports| translation
+    config -->|imports| custom
+    config -->|imports| data_layer
+    config -->|imports| encrypt
+    config -->|imports| extract
+    config -->|imports| interface
+    config -->|imports| manager
+    config -->|imports| module
+    config -->|imports| record
+    config -->|imports| tools
+    config -->|imports| translation
+    data_layer -->|imports| config
+    data_layer -->|imports| custom
+    data_layer -->|imports| manager
+    data_layer -->|imports| tools
+    data_layer -->|imports| translation
+    downloader -->|imports| config
+    downloader -->|imports| custom
+    downloader -->|imports| manager
+    downloader -->|imports| module
+    downloader -->|imports| record
+    downloader -->|imports| tools
+    downloader -->|imports| translation
+    encrypt -->|imports| custom
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| translation
+    extract -->|imports| config
+    extract -->|imports| custom
+    extract -->|imports| data_layer
+    extract -->|imports| record
+    extract -->|imports| tools
+    extract -->|imports| translation
+    interface -->|imports| config
+    interface -->|imports| custom
+    interface -->|imports| encrypt
+    interface -->|imports| entrypoint
+    interface -->|imports| testers
+    interface -->|imports| tools
+    interface -->|imports| translation
+    link -->|imports| config
+    link -->|imports| custom
+    link -->|imports| tools
+    manager -->|imports| config
+    manager -->|imports| custom
+    manager -->|imports| data_layer
+    manager -->|imports| tools
+    manager -->|imports| translation
+    module -->|imports| config
+    module -->|imports| tools
+    module -->|imports| translation
+    record -->|imports| custom
+    record -->|imports| tools
+    tools -->|imports| config
+    tools -->|imports| custom
+    tools -->|imports| module
+    tools -->|imports| record
+    tools -->|imports| testers
+    tools -->|imports| translation

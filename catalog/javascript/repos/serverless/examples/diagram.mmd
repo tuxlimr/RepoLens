@@ -1,0 +1,42 @@
+%% Repository: serverless/examples
+%% Analysed commit: 424fe6f7737bd45aeea4e5b40d7beda3422ffa54
+%% Commit reference: https://github.com/serverless/examples/commit/424fe6f7737bd45aeea4e5b40d7beda3422ffa54
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        aws_bedrock_agentcore["aws-bedrock-agentcore package"]
+        aws_dotnet_rest_api_with_dynamodb["aws-dotnet-rest-api-with-dynamodb package"]
+        aws_golang_auth_examples["aws-golang-auth-examples package"]
+        aws_golang_googlemap["aws-golang-googlemap package"]
+        aws_golang_http_get_post["aws-golang-http-get-post package"]
+        aws_golang_rest_api_with_dynamodb["aws-golang-rest-api-with-dynamodb package"]
+        aws_java_simple_http_endpoint["aws-java-simple-http-endpoint package"]
+        aws_node_env_variables_encrypted_in_a_file["aws-node-env-variables-encrypted-in-a-f… package"]
+        aws_node_http_api_dynamodb["aws-node-http-api-dynamodb package"]
+        aws_node_http_api_dynamodb_local["aws-node-http-api-dynamodb-local package"]
+        aws_node_http_api_typescript_dynamodb["aws-node-http-api-typescript-dynamodb package"]
+        aws_node_rest_api_typescript["aws-node-rest-api-typescript package"]
+        aws_node_rest_api_with_dynamodb["aws-node-rest-api-with-dynamodb package"]
+        aws_node_rest_api_with_dynamodb_and_offline["aws-node-rest-api-with-dynamodb-and-off… package"]
+        aws_node_shared_gateway["aws-node-shared-gateway package"]
+        aws_node_typescript_apollo_lambda["aws-node-typescript-apollo-lambda package"]
+        aws_node_typescript_nest["aws-node-typescript-nest package"]
+        aws_node_typescript_rest_api_with_dynamodb["aws-node-typescript-rest-api-with-dynam… package"]
+        aws_node_web_app_custom_domain["aws-node-web-app-custom-domain package"]
+        aws_python_http_api_with_dynamodb["aws-python-http-api-with-dynamodb package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (59 merged)"]
+    %% Note: 59 smaller component(s) merged into 'other' to keep the diagram readable.
+    aws_python_http_api_with_dynamodb -->|imports| other
+    entrypoint -->|imports| other

@@ -1,0 +1,19 @@
+%% Repository: wangshub/wechat_jump_game
+%% Analysed commit: 3cbbb07957901821542fcfc231a09b4f3c9318c9
+%% Commit reference: https://github.com/wangshub/wechat_jump_game/commit/3cbbb07957901821542fcfc231a09b4f3c9318c9
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        common["common package"]
+        jump_bot["jump_bot package"]
+    end
+    config -->|imports| common
+    entrypoint -->|imports| common

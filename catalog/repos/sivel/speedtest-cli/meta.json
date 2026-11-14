@@ -1,0 +1,39 @@
+{
+  "owner": "sivel",
+  "name": "speedtest-cli",
+  "full_name": "sivel/speedtest-cli",
+  "html_url": "https://github.com/sivel/speedtest-cli",
+  "description": "Command line interface for testing internet bandwidth using speedtest.net",
+  "stars": 14036,
+  "forks": 1903,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "python",
+    "python-library",
+    "python-script",
+    "speedtest"
+  ],
+  "archived": true,
+  "commit_sha": "22210ca35228f0bbcef75a7c14587c4ecb875ab4",
+  "commit_url": "https://github.com/sivel/speedtest-cli/commit/22210ca35228f0bbcef75a7c14587c4ecb875ab4",
+  "tree_url": "https://github.com/sivel/speedtest-cli/tree/22210ca35228f0bbcef75a7c14587c4ecb875ab4",
+  "analysed_at": "2026-11-14T19:09:35.229121+00:00",
+  "status": "completed",
+  "files_fetched": 12,
+  "files_analysed": 12,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "setuptools"
+  ],
+  "entry_points": [
+    "speedtest.py",
+    "speedtest.py"
+  ]
+}

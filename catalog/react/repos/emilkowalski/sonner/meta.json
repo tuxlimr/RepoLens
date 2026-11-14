@@ -1,0 +1,44 @@
+{
+  "owner": "emilkowalski",
+  "name": "sonner",
+  "full_name": "emilkowalski/sonner",
+  "html_url": "https://github.com/emilkowalski/sonner",
+  "description": "An opinionated toast component for React.",
+  "stars": 13217,
+  "forks": 472,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "notifications",
+    "react",
+    "toast"
+  ],
+  "archived": false,
+  "commit_sha": "8e4662b39255120b62138312058f5d77c0139a5e",
+  "commit_url": "https://github.com/emilkowalski/sonner/commit/8e4662b39255120b62138312058f5d77c0139a5e",
+  "tree_url": "https://github.com/emilkowalski/sonner/tree/8e4662b39255120b62138312058f5d77c0139a5e",
+  "analysed_at": "2026-11-14T19:13:19.368668+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 28,
+  "components": [
+    "assets.tsx package",
+    "Configuration and deployment",
+    "Core modules",
+    "hooks.tsx package",
+    "index.tsx package",
+    "state.ts package",
+    "Tests",
+    "types.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.tsx"
+  ]
+}

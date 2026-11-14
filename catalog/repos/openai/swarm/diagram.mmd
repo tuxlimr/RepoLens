@@ -1,0 +1,17 @@
+%% Repository: openai/swarm
+%% Analysed commit: 6af0b4caf37dca4526dfd98e9fbd8ce36e7eeb22
+%% Commit reference: https://github.com/openai/swarm/commit/6af0b4caf37dca4526dfd98e9fbd8ce36e7eeb22
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        swarm["swarm package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| swarm

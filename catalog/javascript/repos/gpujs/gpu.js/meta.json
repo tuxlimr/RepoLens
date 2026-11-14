@@ -1,0 +1,53 @@
+{
+  "owner": "gpujs",
+  "name": "gpu.js",
+  "full_name": "gpujs/gpu.js",
+  "html_url": "https://github.com/gpujs/gpu.js",
+  "description": "GPU Accelerated JavaScript",
+  "stars": 15530,
+  "forks": 667,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [
+    "glsl",
+    "gpgpu",
+    "gpu",
+    "javascript",
+    "math",
+    "nodejs",
+    "webgl"
+  ],
+  "archived": false,
+  "commit_sha": "290711d0f8ff1af95b291489898f73a5c1b85a7a",
+  "commit_url": "https://github.com/gpujs/gpu.js/commit/290711d0f8ff1af95b291489898f73a5c1b85a7a",
+  "tree_url": "https://github.com/gpujs/gpu.js/tree/290711d0f8ff1af95b291489898f73a5c1b85a7a",
+  "analysed_at": "2026-11-14T19:11:37.858097+00:00",
+  "status": "completed",
+  "files_fetched": 523,
+  "files_analysed": 521,
+  "components": [
+    "alias.js package",
+    "backend package",
+    "browser.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "gpu.js package",
+    "index.d.ts package",
+    "index.js package",
+    "input.js package",
+    "kernel-run-shortcut.js package",
+    "pipeline.js package",
+    "plugins package",
+    "scripts package",
+    "Tests",
+    "texture.js package",
+    "utils.js package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

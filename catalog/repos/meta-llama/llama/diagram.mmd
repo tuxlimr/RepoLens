@@ -1,0 +1,21 @@
+%% Repository: meta-llama/llama
+%% Analysed commit: 689c7f261b9c5514636ecc3c5fefefcbb3e6eed7
+%% Commit reference: https://github.com/meta-llama/llama/commit/689c7f261b9c5514636ecc3c5fefefcbb3e6eed7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        llama["llama package"]
+    end
+    entrypoint -->|imports| llama
+    llama -->|imports| data_layer

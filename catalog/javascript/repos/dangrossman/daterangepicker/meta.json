@@ -1,0 +1,39 @@
+{
+  "owner": "dangrossman",
+  "name": "daterangepicker",
+  "full_name": "dangrossman/daterangepicker",
+  "html_url": "https://github.com/dangrossman/daterangepicker",
+  "description": "JavaScript Date Range, Date and Time Picker Component",
+  "stars": 10971,
+  "forks": 3236,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "5df13653dc85dc46784950e4c4e00b8663cb7970",
+  "commit_url": "https://github.com/dangrossman/daterangepicker/commit/5df13653dc85dc46784950e4c4e00b8663cb7970",
+  "tree_url": "https://github.com/dangrossman/daterangepicker/tree/5df13653dc85dc46784950e4c4e00b8663cb7970",
+  "analysed_at": "2026-11-14T19:12:27.598409+00:00",
+  "status": "completed",
+  "files_fetched": 69,
+  "files_analysed": 66,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "dates.js package",
+    "picker.js package",
+    "scripts package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "React",
+    "Svelte",
+    "Vue",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "daterangepicker.js"
+  ]
+}

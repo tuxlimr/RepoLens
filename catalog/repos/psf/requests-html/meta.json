@@ -1,0 +1,44 @@
+{
+  "owner": "psf",
+  "name": "requests-html",
+  "full_name": "psf/requests-html",
+  "html_url": "https://github.com/psf/requests-html",
+  "description": "Pythonic HTML Parsing for Humans\u2122",
+  "stars": 13798,
+  "forks": 998,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "beautifulsoup",
+    "css-selectors",
+    "html",
+    "http",
+    "kennethreitz",
+    "lxml",
+    "pyquery",
+    "python",
+    "requests",
+    "scraping"
+  ],
+  "archived": false,
+  "commit_sha": "075ac162dc62fc532037df0d98954ab840a97516",
+  "commit_url": "https://github.com/psf/requests-html/commit/075ac162dc62fc532037df0d98954ab840a97516",
+  "tree_url": "https://github.com/psf/requests-html/tree/075ac162dc62fc532037df0d98954ab840a97516",
+  "analysed_at": "2026-11-14T19:09:42.457407+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 20,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "requests",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": []
+}

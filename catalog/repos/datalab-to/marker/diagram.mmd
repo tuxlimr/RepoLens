@@ -1,0 +1,44 @@
+%% Repository: datalab-to/marker
+%% Analysed commit: d580b63874d9c8510fa54494975b9df1e8b527d0
+%% Commit reference: https://github.com/datalab-to/marker/commit/d580b63874d9c8510fa54494975b9df1e8b527d0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        marker["marker package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| marker
+    config -->|imports| service_layer
+    data_layer -->|imports| marker
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| marker
+    marker -->|imports| config
+    marker -->|imports| data_layer
+    marker -->|imports| external_integrations
+    marker -->|imports| service_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| marker
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| marker
+    tests -->|imports| service_layer

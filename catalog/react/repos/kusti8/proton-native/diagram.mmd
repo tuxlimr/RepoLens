@@ -1,0 +1,25 @@
+%% Repository: kusti8/proton-native
+%% Analysed commit: ab482b120542951628292211b989e504fa4a3985
+%% Commit reference: https://github.com/kusti8/proton-native/commit/ab482b120542951628292211b989e504fa4a3985
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        backends["backends package"]
+        components["components package"]
+        devtools_ts["devtools.ts package"]
+        index_ts["index.ts package"]
+        misc["misc package"]
+        mocks["__mocks__ package"]
+        react_components["react-components package"]
+        reconciler["reconciler package"]
+        render["render package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

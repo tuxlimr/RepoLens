@@ -1,0 +1,35 @@
+%% Repository: mdx-editor/editor
+%% Analysed commit: 0d0cfbaabcee8e6dc69b78e4f3517829f9c4fcce
+%% Commit reference: https://github.com/mdx-editor/editor/commit/0d0cfbaabcee8e6dc69b78e4f3517829f9c4fcce
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        defaultsvgicons_tsx["defaultSvgIcons.tsx package"]
+        directive_editors["directive-editors package"]
+        examples["examples package"]
+        exportmarkdownfromlexical_ts["exportMarkdownFromLexical.ts package"]
+        formatconstants_ts["FormatConstants.ts package"]
+        importmarkdowntolexical_ts["importMarkdownToLexical.ts package"]
+        index_ts["index.ts package"]
+        jsx_editors["jsx-editors package"]
+        mdastutilhtmlcomment_ts["mdastUtilHtmlComment.ts package"]
+        mdxeditor_tsx["MDXEditor.tsx package"]
+        plugins["plugins package"]
+        realmsession_ts["realmSession.ts package"]
+        realmwithplugins_tsx["RealmWithPlugins.tsx package"]
+        scripts["scripts package"]
+        styles["styles package"]
+        types["@types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

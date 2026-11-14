@@ -1,0 +1,40 @@
+{
+  "owner": "jantimon",
+  "name": "html-webpack-plugin",
+  "full_name": "jantimon/html-webpack-plugin",
+  "html_url": "https://github.com/jantimon/html-webpack-plugin",
+  "description": "Simplifies creation of HTML files to serve your webpack bundles",
+  "stars": 10723,
+  "forks": 1284,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "html-webpack-plugin",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "9e342d2202e18cd37d5ccc1428c46ad049e24733",
+  "commit_url": "https://github.com/jantimon/html-webpack-plugin/commit/9e342d2202e18cd37d5ccc1428c46ad049e24733",
+  "tree_url": "https://github.com/jantimon/html-webpack-plugin/tree/9e342d2202e18cd37d5ccc1428c46ad049e24733",
+  "analysed_at": "2026-11-14T19:12:33.265123+00:00",
+  "status": "completed",
+  "files_fetched": 187,
+  "files_analysed": 138,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "spec package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "spec/fixtures/index.js"
+  ]
+}

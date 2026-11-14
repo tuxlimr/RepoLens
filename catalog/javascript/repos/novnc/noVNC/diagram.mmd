@@ -1,0 +1,21 @@
+%% Repository: novnc/noVNC
+%% Analysed commit: e8b5024d4603587b29ffede4fbd28b1fa2939829
+%% Commit reference: https://github.com/novnc/noVNC/commit/e8b5024d4603587b29ffede4fbd28b1fa2939829
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app["app package"]
+        snap["snap package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

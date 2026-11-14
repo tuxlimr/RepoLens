@@ -1,0 +1,28 @@
+%% Repository: codemirror/codemirror5
+%% Analysed commit: 9b4f0603cb042286a7ac2262b98245493d0d7e4b
+%% Commit reference: https://github.com/codemirror/codemirror5/commit/9b4f0603cb042286a7ac2262b98245493d0d7e4b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        addon["addon package"]
+        bin["bin package"]
+        codemirror_js["codemirror.js package"]
+        display["display package"]
+        edit["edit package"]
+        input["input package"]
+        keymap["keymap package"]
+        line["line package"]
+        measurement["measurement package"]
+        mode["mode package"]
+        model["model package"]
+        modes_js["modes.js package"]
+        util["util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

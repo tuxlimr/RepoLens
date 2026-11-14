@@ -1,0 +1,39 @@
+%% Repository: searx/searx
+%% Analysed commit: 00abe3df3857f70875543e766223bc7bc0ccce93
+%% Commit reference: https://github.com/searx/searx/commit/00abe3df3857f70875543e766223bc7bc0ccce93
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dockerfiles["dockerfiles package"]
+        searx["searx package"]
+        searx_extra["searx_extra package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| searx
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| searx
+    entrypoint -->|imports| tests
+    external_integrations -->|imports| searx
+    searx -->|imports| data_layer
+    searx -->|imports| external_integrations
+    searx_extra -->|imports| external_integrations
+    searx_extra -->|imports| searx
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| searx
+    tests -->|imports| searx_extra
+    utils -->|imports| searx

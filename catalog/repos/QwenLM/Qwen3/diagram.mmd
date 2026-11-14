@@ -1,0 +1,18 @@
+%% Repository: QwenLM/Qwen3
+%% Analysed commit: 7a2f61ffc7a20d47efcd2bf97f6f2bf52729042e
+%% Commit reference: https://github.com/QwenLM/Qwen3/commit/7a2f61ffc7a20d47efcd2bf97f6f2bf52729042e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        eval["eval package"]
+    end
+    entrypoint -->|imports| external_integrations

@@ -1,0 +1,25 @@
+%% Repository: chathub-dev/chathub
+%% Analysed commit: 852efba00ca7f2888093510b3add33f3ee01dc9b
+%% Commit reference: https://github.com/chathub-dev/chathub/commit/852efba00ca7f2888093510b3add33f3ee01dc9b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        background["background package"]
+        content_script["content-script package"]
+        public["public package"]
+        types["types package"]
+        utils["utils package"]
+        vite_env_d_ts["vite-env.d.ts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

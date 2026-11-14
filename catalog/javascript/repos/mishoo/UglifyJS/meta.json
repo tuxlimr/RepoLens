@@ -1,0 +1,34 @@
+{
+  "owner": "mishoo",
+  "name": "UglifyJS",
+  "full_name": "mishoo/UglifyJS",
+  "html_url": "https://github.com/mishoo/UglifyJS",
+  "description": " JavaScript parser / mangler / compressor / beautifier toolkit",
+  "stars": 13365,
+  "forks": 1223,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "111746bbae5f55c88e3b82b42f14fd0f3129ea53",
+  "commit_url": "https://github.com/mishoo/UglifyJS/commit/111746bbae5f55c88e3b82b42f14fd0f3129ea53",
+  "tree_url": "https://github.com/mishoo/UglifyJS/tree/111746bbae5f55c88e3b82b42f14fd0f3129ea53",
+  "analysed_at": "2026-11-14T19:11:58.025128+00:00",
+  "status": "completed",
+  "files_fetched": 278,
+  "files_analysed": 278,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "tools/node.js",
+    "bin/uglifyjs"
+  ]
+}

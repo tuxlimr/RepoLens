@@ -1,0 +1,32 @@
+{
+  "owner": "electron",
+  "name": "minimal-repro",
+  "full_name": "electron/minimal-repro",
+  "html_url": "https://github.com/electron/minimal-repro",
+  "description": "Clone to try a simple Electron app",
+  "stars": 11429,
+  "forks": 4854,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "afcc34c164dbc24415221c158ed8151a54268523",
+  "commit_url": "https://github.com/electron/minimal-repro/commit/afcc34c164dbc24415221c158ed8151a54268523",
+  "tree_url": "https://github.com/electron/minimal-repro/tree/afcc34c164dbc24415221c158ed8151a54268523",
+  "analysed_at": "2026-11-14T19:12:18.583407+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 12,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron"
+  ],
+  "entry_points": [
+    "main.js"
+  ]
+}

@@ -1,0 +1,18 @@
+%% Repository: google-research/bert
+%% Analysed commit: eedf5716ce1268e56f0a50264a88cafad334ac61
+%% Commit reference: https://github.com/google-research/bert/commit/eedf5716ce1268e56f0a50264a88cafad334ac61
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| core
+    tests -->|imports| core

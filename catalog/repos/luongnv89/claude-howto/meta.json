@@ -1,0 +1,56 @@
+{
+  "owner": "luongnv89",
+  "name": "claude-howto",
+  "full_name": "luongnv89/claude-howto",
+  "html_url": "https://github.com/luongnv89/claude-howto",
+  "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+  "stars": 47197,
+  "forks": 5750,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "claude-code",
+    "guide",
+    "tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "5609e68a6ce838579e15fd31ceb6025be08841df",
+  "commit_url": "https://github.com/luongnv89/claude-howto/commit/5609e68a6ce838579e15fd31ceb6025be08841df",
+  "tree_url": "https://github.com/luongnv89/claude-howto/tree/5609e68a6ce838579e15fd31ceb6025be08841df",
+  "analysed_at": "2026-11-14T19:06:37.662901+00:00",
+  "status": "completed",
+  "files_fetched": 683,
+  "files_analysed": 683,
+  "components": [
+    "06-hooks package",
+    "07-plugins package",
+    "Configuration and deployment",
+    "Application entry point",
+    "ja package",
+    "scripts package",
+    "Tests",
+    "uk package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "03-skills/code-review-specialist/scripts/analyze-metrics.py",
+    "03-skills/code-review-specialist/scripts/compare-complexity.py",
+    "03-skills/doc-generator/generate-docs.py",
+    "03-skills/refactor/scripts/analyze-complexity.py",
+    "03-skills/refactor/scripts/detect-smells.py",
+    "06-hooks/context-tracker-tiktoken.py",
+    "06-hooks/context-tracker.py",
+    "09-advanced-features/setup-auto-mode-permissions.py",
+    "scripts/build_epub.py",
+    "scripts/build_website.py",
+    "scripts/check_cross_references.py",
+    "scripts/check_epub_diagrams.py"
+  ]
+}

@@ -1,0 +1,55 @@
+%% Repository: nikopueringer/CorridorKey
+%% Analysed commit: 97e55a453060745bead1befd293f6e523c4b845c
+%% Commit reference: https://github.com/nikopueringer/CorridorKey/commit/97e55a453060745bead1befd293f6e523c4b845c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        birefnetmodule["BiRefNetModule package"]
+        corridorkeymodule["CorridorKeyModule package"]
+        gvm_core["gvm_core package"]
+        videomamainferencemodule["VideoMaMaInferenceModule package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    backend -->|imports| service_layer
+    corridorkeymodule -->|imports| service_layer
+    entrypoint -->|imports| backend
+    entrypoint -->|imports| birefnetmodule
+    entrypoint -->|imports| core
+    entrypoint -->|imports| corridorkeymodule
+    entrypoint -->|imports| gvm_core
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| videomamainferencemodule
+    gvm_core -->|imports| data_layer
+    service_layer -->|imports| backend
+    service_layer -->|imports| core
+    service_layer -->|imports| corridorkeymodule
+    service_layer -->|imports| gvm_core
+    service_layer -->|imports| videomamainferencemodule
+    tests -->|imports| backend
+    tests -->|imports| core
+    tests -->|imports| corridorkeymodule
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| gvm_core
+    tests -->|imports| service_layer
+    tests -->|imports| videomamainferencemodule

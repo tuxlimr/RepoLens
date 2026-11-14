@@ -1,0 +1,58 @@
+{
+  "owner": "Shopify",
+  "name": "draggable",
+  "full_name": "Shopify/draggable",
+  "html_url": "https://github.com/Shopify/draggable",
+  "description": "The JavaScript Drag & Drop library your grandparents warned you about.",
+  "stars": 18456,
+  "forks": 1115,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "drag-and-drop",
+    "draggable",
+    "es6",
+    "javascript"
+  ],
+  "archived": true,
+  "commit_sha": "8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d",
+  "commit_url": "https://github.com/Shopify/draggable/commit/8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d",
+  "tree_url": "https://github.com/Shopify/draggable/tree/8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d",
+  "analysed_at": "2026-11-14T19:11:21.789435+00:00",
+  "status": "completed",
+  "files_fetched": 347,
+  "files_analysed": 347,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Draggable package",
+    "Droppable package",
+    "index.js package",
+    "Plugins package",
+    "shared package",
+    "Sortable package",
+    "Swappable package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/tools/index.js",
+    "src/Draggable/DragEvent/index.ts",
+    "src/Draggable/DraggableEvent/index.ts",
+    "src/Draggable/Emitter/index.ts",
+    "src/Draggable/Plugins/index.js",
+    "src/Draggable/Sensors/index.js",
+    "src/Draggable/index.js",
+    "src/Droppable/DroppableEvent/index.ts",
+    "src/Droppable/index.js",
+    "src/Plugins/Collidable/index.js",
+    "src/Plugins/ResizeMirror/index.ts",
+    "src/Plugins/Snappable/index.js"
+  ]
+}

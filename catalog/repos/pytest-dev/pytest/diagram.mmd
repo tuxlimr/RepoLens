@@ -1,0 +1,38 @@
+%% Repository: pytest-dev/pytest
+%% Analysed commit: fc9a7ef678f64d17f1c03b619f3842ea1d127e74
+%% Commit reference: https://github.com/pytest-dev/pytest/commit/fc9a7ef678f64d17f1c03b619f3842ea1d127e74
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bench["bench package"]
+        py_py["py.py package"]
+        pytest["_pytest package"]
+        testing["testing package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    bench -->|imports| pytest
+    config -->|imports| pytest
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| pytest
+    py_py -->|imports| pytest
+    pytest -->|imports| config
+    pytest -->|imports| entrypoint
+    pytest -->|imports| py_py
+    testing -->|imports| config
+    testing -->|imports| entrypoint
+    testing -->|imports| pytest
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| py_py
+    tests -->|imports| pytest

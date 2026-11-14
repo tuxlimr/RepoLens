@@ -1,0 +1,61 @@
+{
+  "owner": "KKKKhazix",
+  "name": "khazix-skills",
+  "full_name": "KKKKhazix/khazix-skills",
+  "html_url": "https://github.com/KKKKhazix/khazix-skills",
+  "description": "\u6570\u5b57\u751f\u547d\u5361\u5179\u514b\u5f00\u6e90\u7684 AI Skills \u5408\u96c6 | Agent Skills: leader\uff08\u5e2e\u4f60\u5b9a\u4e49\u76ee\u6807\uff09, neat-freak \u6d01\u7656, hv-analysis, khazix-writer & more \u2014 Claude Code, Codex & 40+ agents",
+  "stars": 22253,
+  "forks": 2338,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "llm",
+    "skills",
+    "vibe-coding"
+  ],
+  "archived": false,
+  "commit_sha": "71cd50ffe1f1f4d400b54be967dc6b59379aff8f",
+  "commit_url": "https://github.com/KKKKhazix/khazix-skills/commit/71cd50ffe1f1f4d400b54be967dc6b59379aff8f",
+  "tree_url": "https://github.com/KKKKhazix/khazix-skills/tree/71cd50ffe1f1f4d400b54be967dc6b59379aff8f",
+  "analysed_at": "2026-11-14T19:07:53.071600+00:00",
+  "status": "completed",
+  "files_fetched": 129,
+  "files_analysed": 127,
+  "components": [
+    "aihot package",
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "neat-freak package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Database (unspecified)",
+    "Express",
+    "FastAPI",
+    "Flask",
+    "React",
+    "TypeScript",
+    "unittest",
+    "Vite"
+  ],
+  "entry_points": [
+    "neat-freak/evals/fixtures/eval-5-governance/workspace/pdf-tools/src/app.py",
+    "hv-analysis/scripts/md_to_pdf.py",
+    "neat-freak/evals/fixtures/eval-11-unknown-platform/project/main.py",
+    "neat-freak/evals/validate.py",
+    "storage-analyzer/scripts/build_report.py",
+    "storage-analyzer/scripts/scan.py",
+    "storage-analyzer/scripts/server.py"
+  ]
+}

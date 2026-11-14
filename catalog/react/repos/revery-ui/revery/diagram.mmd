@@ -1,0 +1,16 @@
+%% Repository: revery-ui/revery
+%% Analysed commit: 141f70f69d6abd69674b46d805a783411b38cd79
+%% Commit reference: https://github.com/revery-ui/revery/commit/141f70f69d6abd69674b46d805a783411b38cd79
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        include["include package"]
+        native["Native package"]
+        packages["packages package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,49 @@
+{
+  "owner": "mac-s-g",
+  "name": "react-json-view",
+  "full_name": "mac-s-g/react-json-view",
+  "html_url": "https://github.com/mac-s-g/react-json-view",
+  "description": "JSON viewer for react",
+  "stars": 3658,
+  "forks": 493,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "json",
+    "json-inspector",
+    "json-tree",
+    "json-viewer",
+    "json-visualization",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "443465ebdaa236da8c5d0e7bda2b7e57ca5d5a7b",
+  "commit_url": "https://github.com/mac-s-g/react-json-view/commit/443465ebdaa236da8c5d0e7bda2b7e57ca5d5a7b",
+  "tree_url": "https://github.com/mac-s-g/react-json-view/tree/443465ebdaa236da8c5d0e7bda2b7e57ca5d5a7b",
+  "analysed_at": "2026-11-14T19:15:10.718240+00:00",
+  "status": "completed",
+  "files_fetched": 110,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "dev-server package",
+    "docker package",
+    "js package",
+    "Tests",
+    "webpack package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "webpack"
+  ],
+  "entry_points": [
+    "demo/src/js/index.js",
+    "dev-server/src/index.js",
+    "src/js/index.js"
+  ]
+}

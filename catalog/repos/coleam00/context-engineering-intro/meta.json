@@ -1,0 +1,52 @@
+{
+  "owner": "coleam00",
+  "name": "context-engineering-intro",
+  "full_name": "coleam00/context-engineering-intro",
+  "html_url": "https://github.com/coleam00/context-engineering-intro",
+  "description": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!",
+  "stars": 13913,
+  "forks": 2704,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "a2d84b021cee1e2f4e77ba854bba0be8cb319035",
+  "commit_url": "https://github.com/coleam00/context-engineering-intro/commit/a2d84b021cee1e2f4e77ba854bba0be8cb319035",
+  "tree_url": "https://github.com/coleam00/context-engineering-intro/tree/a2d84b021cee1e2f4e77ba854bba0be8cb319035",
+  "analysed_at": "2026-11-14T19:09:38.894609+00:00",
+  "status": "completed",
+  "files_fetched": 242,
+  "files_analysed": 242,
+  "components": [
+    "claude-code-full-guide package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "use-cases package"
+  ],
+  "detections": [
+    "Database (unspecified)",
+    "PostgreSQL",
+    "aiohttp",
+    "Click",
+    "httpx",
+    "Pydantic",
+    "Docker",
+    "pytest",
+    "TypeScript",
+    "unittest",
+    "Vitest"
+  ],
+  "entry_points": [
+    "use-cases/agent-factory-with-subagents/agents/rag_agent/cli.py",
+    "use-cases/agent-factory-with-subagents/agents/rag_agent/ingestion/chunker.py",
+    "use-cases/agent-factory-with-subagents/agents/rag_agent/ingestion/embedder.py",
+    "use-cases/agent-factory-with-subagents/agents/rag_agent/ingestion/ingest.py",
+    "use-cases/mcp-server/copy_template.py",
+    "use-cases/pydantic-ai/copy_template.py",
+    "use-cases/mcp-server/src/index.ts"
+  ]
+}

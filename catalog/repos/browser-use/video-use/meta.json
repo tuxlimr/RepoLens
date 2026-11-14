@@ -1,0 +1,43 @@
+{
+  "owner": "browser-use",
+  "name": "video-use",
+  "full_name": "browser-use/video-use",
+  "html_url": "https://github.com/browser-use/video-use",
+  "description": "Edit videos with coding agents",
+  "stars": 31051,
+  "forks": 3597,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "43cfc566833548093455c9d4a46bd69913b7e552",
+  "commit_url": "https://github.com/browser-use/video-use/commit/43cfc566833548093455c9d4a46bd69913b7e552",
+  "tree_url": "https://github.com/browser-use/video-use/tree/43cfc566833548093455c9d4a46bd69913b7e552",
+  "analysed_at": "2026-11-14T19:07:08.758794+00:00",
+  "status": "completed",
+  "files_fetched": 35,
+  "files_analysed": 35,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "helpers/grade.py",
+    "helpers/pack_transcripts.py",
+    "helpers/render.py",
+    "helpers/timeline_view.py",
+    "helpers/transcribe.py",
+    "helpers/transcribe_batch.py"
+  ]
+}

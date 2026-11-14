@@ -1,0 +1,61 @@
+{
+  "owner": "react-boilerplate",
+  "name": "react-boilerplate",
+  "full_name": "react-boilerplate/react-boilerplate",
+  "html_url": "https://github.com/react-boilerplate/react-boilerplate",
+  "description": "\ud83d\udd25 A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.",
+  "stars": 29440,
+  "forks": 5958,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "i18n",
+    "immer",
+    "offline-first",
+    "react",
+    "react-boilerplate",
+    "redux",
+    "redux-saga",
+    "scaffolding",
+    "styled-components",
+    "webpack4"
+  ],
+  "archived": false,
+  "commit_sha": "d19099afeff64ecfb09133c06c1cb18c0d40887e",
+  "commit_url": "https://github.com/react-boilerplate/react-boilerplate/commit/d19099afeff64ecfb09133c06c1cb18c0d40887e",
+  "tree_url": "https://github.com/react-boilerplate/react-boilerplate/tree/d19099afeff64ecfb09133c06c1cb18c0d40887e",
+  "analysed_at": "2026-11-14T19:10:47.553118+00:00",
+  "status": "completed",
+  "files_fetched": 325,
+  "files_analysed": 325,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "internals package",
+    "server package",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "webpack"
+  ],
+  "entry_points": [
+    "app/app.js",
+    "app/components/A/index.js",
+    "app/components/Button/index.js",
+    "app/components/Footer/index.js",
+    "app/components/H1/index.js",
+    "app/components/H2/index.js",
+    "app/components/H3/index.js",
+    "app/components/Header/index.js",
+    "app/components/Img/index.js",
+    "app/components/IssueIcon/index.js",
+    "app/components/List/index.js",
+    "app/components/ListItem/index.js"
+  ]
+}

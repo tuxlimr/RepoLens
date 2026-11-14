@@ -1,0 +1,68 @@
+%% Repository: jiji262/douyin-downloader
+%% Analysed commit: 7c4b8b2252acbfe24728664cc77364bb75a24ecb
+%% Commit reference: https://github.com/jiji262/douyin-downloader/commit/7c4b8b2252acbfe24728664cc77364bb75a24ecb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        auth["auth package"]
+        cli["cli package"]
+        control["control package"]
+        server["server package"]
+        tools["tools package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    auth -->|imports| utils
+    cli -->|imports| entrypoint
+    cli -->|imports| utils
+    config -->|imports| utils
+    control -->|imports| utils
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| utils
+    entrypoint -->|imports| auth
+    entrypoint -->|imports| cli
+    entrypoint -->|imports| config
+    entrypoint -->|imports| control
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| server
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| utils
+    external_integrations -->|imports| auth
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| utils
+    service_layer -->|imports| auth
+    service_layer -->|imports| config
+    service_layer -->|imports| control
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| utils
+    tests -->|imports| auth
+    tests -->|imports| cli
+    tests -->|imports| config
+    tests -->|imports| control
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| server
+    tests -->|imports| service_layer
+    tests -->|imports| utils
+    utils -->|imports| external_integrations

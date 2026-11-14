@@ -1,0 +1,43 @@
+{
+  "owner": "saltyshiomix",
+  "name": "nextron",
+  "full_name": "saltyshiomix/nextron",
+  "html_url": "https://github.com/saltyshiomix/nextron",
+  "description": "\u26a1 Next.js + Electron \u26a1",
+  "stars": 4439,
+  "forks": 252,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "electron",
+    "nextjs",
+    "nextron",
+    "react",
+    "reactjs",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "d128307b62cca08c3711a1556e0a0f564c5eb766",
+  "commit_url": "https://github.com/saltyshiomix/nextron/commit/d128307b62cca08c3711a1556e0a0f564c5eb766",
+  "tree_url": "https://github.com/saltyshiomix/nextron/tree/d128307b62cca08c3711a1556e0a0f564c5eb766",
+  "analysed_at": "2026-11-14T19:14:46.670754+00:00",
+  "status": "completed",
+  "files_fetched": 188,
+  "files_analysed": 188,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package"
+  ],
+  "detections": [
+    "Electron",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": []
+}

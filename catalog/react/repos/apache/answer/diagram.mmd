@@ -1,0 +1,22 @@
+%% Repository: apache/answer
+%% Analysed commit: 6744295fa888e0621fc9f9a8ace04f1a4daf8554
+%% Commit reference: https://github.com/apache/answer/commit/6744295fa888e0621fc9f9a8ace04f1a4daf8554
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        cmd["cmd package"]
+        i18n["i18n package"]
+        internal["internal package"]
+        pkg["pkg package"]
+        plugin["plugin package"]
+        script["script package"]
+        ui["ui package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

@@ -1,0 +1,51 @@
+{
+  "owner": "lllyasviel",
+  "name": "stable-diffusion-webui-forge",
+  "full_name": "lllyasviel/stable-diffusion-webui-forge",
+  "html_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+  "description": null,
+  "stars": 13126,
+  "forks": 1787,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "dfdcbab685e57677014f05a3309b48cc87383167",
+  "commit_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge/commit/dfdcbab685e57677014f05a3309b48cc87383167",
+  "tree_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge/tree/dfdcbab685e57677014f05a3309b48cc87383167",
+  "analysed_at": "2026-11-14T19:09:57.697372+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "backend package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "extensions-builtin package",
+    "External integrations",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "unittest"
+  ],
+  "entry_points": [
+    "extensions-builtin/forge_legacy_preprocessors/annotator/leres/leres/network_auxi.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/leres/pix2pix/util/html.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/mmpkg/mmseg/utils/collect_env.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/data/datasets/cityscapes.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/data/datasets/coco.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/data/datasets/coco_panoptic.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/data/datasets/lvis.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/evaluation/panoptic_evaluation.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/utils/collect_env.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/detectron2/utils/colormap.py",
+    "extensions-builtin/forge_legacy_preprocessors/annotator/oneformer/oneformer/demo/colormap.py"
+  ]
+}

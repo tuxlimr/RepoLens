@@ -1,0 +1,62 @@
+{
+  "owner": "cleanlab",
+  "name": "cleanlab",
+  "full_name": "cleanlab/cleanlab",
+  "html_url": "https://github.com/cleanlab/cleanlab",
+  "description": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels.",
+  "stars": 11742,
+  "forks": 944,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "active-learning",
+    "annotation",
+    "anomaly-detection",
+    "data-annotation",
+    "data-centric-ai",
+    "data-cleaning",
+    "data-curation",
+    "data-labeling",
+    "data-profiling",
+    "data-quality",
+    "data-science",
+    "data-validation",
+    "datasets",
+    "exploratory-data-analysis",
+    "labeling",
+    "machine-learning",
+    "noisy-labels",
+    "out-of-distribution-detection",
+    "outlier-detection",
+    "weak-supervision"
+  ],
+  "archived": false,
+  "commit_sha": "750625747de1b26d8530954f51f0530bd0b51d3c",
+  "commit_url": "https://github.com/cleanlab/cleanlab/commit/750625747de1b26d8530954f51f0530bd0b51d3c",
+  "tree_url": "https://github.com/cleanlab/cleanlab/tree/750625747de1b26d8530954f51f0530bd0b51d3c",
+  "analysed_at": "2026-11-14T19:10:26.590301+00:00",
+  "status": "completed",
+  "files_fetched": 304,
+  "files_analysed": 304,
+  "components": [
+    "cleanlab package",
+    "Configuration and deployment",
+    "Data layer",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    ".github/get_min_dependencies.py"
+  ]
+}

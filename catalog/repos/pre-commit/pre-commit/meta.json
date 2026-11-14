@@ -1,0 +1,52 @@
+{
+  "owner": "pre-commit",
+  "name": "pre-commit",
+  "full_name": "pre-commit/pre-commit",
+  "html_url": "https://github.com/pre-commit/pre-commit",
+  "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+  "stars": 15696,
+  "forks": 1019,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "git",
+    "linter",
+    "pre-commit",
+    "python",
+    "refactoring"
+  ],
+  "archived": false,
+  "commit_sha": "ba5c4209a6d561b0dff5db24620778d2133d068e",
+  "commit_url": "https://github.com/pre-commit/pre-commit/commit/ba5c4209a6d561b0dff5db24620778d2133d068e",
+  "tree_url": "https://github.com/pre-commit/pre-commit/tree/ba5c4209a6d561b0dff5db24620778d2133d068e",
+  "analysed_at": "2026-11-14T19:08:59.330982+00:00",
+  "status": "completed",
+  "files_fetched": 197,
+  "files_analysed": 197,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "pre_commit package",
+    "testing package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "pre_commit/__main__.py",
+    "pre_commit/commands/hazmat.py",
+    "pre_commit/languages/pygrep.py",
+    "pre_commit/main.py",
+    "pre_commit/meta_hooks/check_hooks_apply.py",
+    "pre_commit/meta_hooks/check_useless_excludes.py",
+    "pre_commit/meta_hooks/identity.py"
+  ]
+}

@@ -1,0 +1,30 @@
+%% Repository: QwenAudio/CosyVoice
+%% Analysed commit: 074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc
+%% Commit reference: https://github.com/QwenAudio/CosyVoice/commit/074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cosyvoice["cosyvoice package"]
+        runtime["runtime package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    cosyvoice -->|imports| data_layer
+    cosyvoice -->|imports| entrypoint
+    data_layer -->|imports| cosyvoice
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| external_integrations
+    entrypoint -->|imports| cosyvoice
+    entrypoint -->|imports| external_integrations

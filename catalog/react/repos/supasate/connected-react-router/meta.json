@@ -1,0 +1,58 @@
+{
+  "owner": "supasate",
+  "name": "connected-react-router",
+  "full_name": "supasate/connected-react-router",
+  "html_url": "https://github.com/supasate/connected-react-router",
+  "description": "A Redux binding for React Router v4",
+  "stars": 4681,
+  "forks": 580,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-router",
+    "redux"
+  ],
+  "archived": false,
+  "commit_sha": "5d4c197043deb89238f9b380a6a1ef4d909f14a7",
+  "commit_url": "https://github.com/supasate/connected-react-router/commit/5d4c197043deb89238f9b380a6a1ef4d909f14a7",
+  "tree_url": "https://github.com/supasate/connected-react-router/tree/5d4c197043deb89238f9b380a6a1ef4d909f14a7",
+  "analysed_at": "2026-11-14T19:14:38.820275+00:00",
+  "status": "completed",
+  "files_fetched": 154,
+  "files_analysed": 152,
+  "components": [
+    "actions.js package",
+    "Configuration and deployment",
+    "ConnectedRouter.js package",
+    "Core modules",
+    "immutable.js package",
+    "index.js package",
+    "middleware.js package",
+    "reducer.js package",
+    "seamless-immutable.js package",
+    "selectors.js package",
+    "structure package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/basic/src/index.js",
+    "examples/immutable/src/index.js",
+    "examples/typescript/src/index.tsx",
+    "src/index.js",
+    "src/structure/immutable/index.js",
+    "src/structure/plain/index.js",
+    "src/structure/seamless-immutable/index.js"
+  ]
+}

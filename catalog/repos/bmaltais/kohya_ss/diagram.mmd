@@ -1,0 +1,29 @@
+%% Repository: bmaltais/kohya_ss
+%% Analysed commit: 45088f04af78e11cec5407ff4652ea3ed2c14422
+%% Commit reference: https://github.com/bmaltais/kohya_ss/commit/45088f04af78e11cec5407ff4652ea3ed2c14422
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        kohya_gui["kohya_gui package"]
+        setup["setup package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| kohya_gui
+    tests -->|imports| entrypoint
+    tests -->|imports| kohya_gui

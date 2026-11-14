@@ -1,0 +1,55 @@
+{
+  "owner": "openai",
+  "name": "chatgpt-retrieval-plugin",
+  "full_name": "openai/chatgpt-retrieval-plugin",
+  "html_url": "https://github.com/openai/chatgpt-retrieval-plugin",
+  "description": "The ChatGPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language.",
+  "stars": 21282,
+  "forks": 3567,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "chatgpt",
+    "chatgpt-plugins"
+  ],
+  "archived": true,
+  "commit_sha": "b28ddce58474441da332d4e15c6dd60ddaa953ab",
+  "commit_url": "https://github.com/openai/chatgpt-retrieval-plugin/commit/b28ddce58474441da332d4e15c6dd60ddaa953ab",
+  "tree_url": "https://github.com/openai/chatgpt-retrieval-plugin/tree/b28ddce58474441da332d4e15c6dd60ddaa953ab",
+  "analysed_at": "2026-11-14T19:08:00.580926+00:00",
+  "status": "completed",
+  "files_fetched": 116,
+  "files_analysed": 116,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "datastore package",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "MongoDB",
+    "PostgreSQL",
+    "Redis",
+    "FastAPI",
+    "Starlette",
+    "httpx",
+    "NumPy",
+    "Pydantic",
+    "Uvicorn",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "local_server/main.py",
+    "scripts/process_json/process_json.py",
+    "scripts/process_jsonl/process_jsonl.py",
+    "scripts/process_zip/process_zip.py",
+    "server/main.py"
+  ]
+}

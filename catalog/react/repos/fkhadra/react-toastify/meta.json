@@ -1,0 +1,61 @@
+{
+  "owner": "fkhadra",
+  "name": "react-toastify",
+  "full_name": "fkhadra/react-toastify",
+  "html_url": "https://github.com/fkhadra/react-toastify",
+  "description": "React notification made easy \ud83d\ude80 !",
+  "stars": 13439,
+  "forks": 742,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "notification",
+    "react",
+    "react-component",
+    "reactjs",
+    "snackbar",
+    "toast"
+  ],
+  "archived": false,
+  "commit_sha": "f3069891e0f2309cd53a691f38012b8960afc98b",
+  "commit_url": "https://github.com/fkhadra/react-toastify/commit/f3069891e0f2309cd53a691f38012b8960afc98b",
+  "tree_url": "https://github.com/fkhadra/react-toastify/tree/f3069891e0f2309cd53a691f38012b8960afc98b",
+  "analysed_at": "2026-11-14T19:13:18.547527+00:00",
+  "status": "completed",
+  "files_fetched": 84,
+  "files_analysed": 83,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "css.d.ts package",
+    "cypress package",
+    "hooks package",
+    "index.ts package",
+    "packages package",
+    "playground package",
+    "Service / domain layer",
+    "tests.cy.tsx package",
+    "types.ts package",
+    "unstyled.ts package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/use-notification-center/src/index.ts",
+    "playground/src/components/App.tsx",
+    "playground/src/main.tsx",
+    "src/components/index.tsx",
+    "src/core/index.ts",
+    "src/hooks/index.ts",
+    "src/index.ts",
+    "src/utils/index.ts"
+  ]
+}

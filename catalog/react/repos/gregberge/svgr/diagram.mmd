@@ -1,0 +1,22 @@
+%% Repository: gregberge/svgr
+%% Analysed commit: 975215efe85805cecafc920c103a827d864d2580
+%% Commit reference: https://github.com/gregberge/svgr/commit/975215efe85805cecafc920c103a827d864d2580
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        deprecated_packages["deprecated-packages package"]
+        fixtures["__fixtures__ package"]
+        packages["packages package"]
+        website["website package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

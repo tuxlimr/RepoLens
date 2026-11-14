@@ -1,0 +1,36 @@
+{
+  "owner": "ccampbell",
+  "name": "mousetrap",
+  "full_name": "ccampbell/mousetrap",
+  "html_url": "https://github.com/ccampbell/mousetrap",
+  "description": "Simple library for handling keyboard shortcuts in Javascript",
+  "stars": 11770,
+  "forks": 948,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "keyboard",
+    "keyboard-shortcuts",
+    "mousetrap"
+  ],
+  "archived": false,
+  "commit_sha": "2f9a476ba6158ba69763e4fcf914966cc72ef433",
+  "commit_url": "https://github.com/ccampbell/mousetrap/commit/2f9a476ba6158ba69763e4fcf914966cc72ef433",
+  "tree_url": "https://github.com/ccampbell/mousetrap/tree/2f9a476ba6158ba69763e4fcf914966cc72ef433",
+  "analysed_at": "2026-11-14T19:12:15.501485+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "plugins package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "mousetrap.js"
+  ]
+}

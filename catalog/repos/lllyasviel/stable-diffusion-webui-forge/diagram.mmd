@@ -1,0 +1,44 @@
+%% Repository: lllyasviel/stable-diffusion-webui-forge
+%% Analysed commit: dfdcbab685e57677014f05a3309b48cc87383167
+%% Commit reference: https://github.com/lllyasviel/stable-diffusion-webui-forge/commit/dfdcbab685e57677014f05a3309b48cc87383167
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        extensions_builtin["extensions-builtin package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| extensions_builtin
+    config -->|imports| extensions_builtin
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| extensions_builtin
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| extensions_builtin
+    extensions_builtin -->|imports| api_layer
+    extensions_builtin -->|imports| config
+    extensions_builtin -->|imports| entrypoint
+    extensions_builtin -->|imports| external_integrations
+    service_layer -->|imports| extensions_builtin
+    tests -->|imports| extensions_builtin

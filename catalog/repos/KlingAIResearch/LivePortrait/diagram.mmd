@@ -1,0 +1,47 @@
+%% Repository: KlingAIResearch/LivePortrait
+%% Analysed commit: 9b294b3d0536135442ea73cb01e6cb3ca7029dd3
+%% Commit reference: https://github.com/KlingAIResearch/LivePortrait/commit/9b294b3d0536135442ea73cb01e6cb3ca7029dd3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        gradio_pipeline_py["gradio_pipeline.py package"]
+        live_portrait_pipeline_animal_py["live_portrait_pipeline_animal.py package"]
+        live_portrait_pipeline_py["live_portrait_pipeline.py package"]
+        live_portrait_wrapper_py["live_portrait_wrapper.py package"]
+        modules["modules package"]
+        utils["utils package"]
+    end
+    config -->|imports| utils
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| utils
+    entrypoint -->|imports| utils
+    gradio_pipeline_py -->|imports| config
+    gradio_pipeline_py -->|imports| live_portrait_pipeline_animal_py
+    gradio_pipeline_py -->|imports| live_portrait_pipeline_py
+    gradio_pipeline_py -->|imports| utils
+    live_portrait_pipeline_animal_py -->|imports| config
+    live_portrait_pipeline_animal_py -->|imports| live_portrait_wrapper_py
+    live_portrait_pipeline_animal_py -->|imports| utils
+    live_portrait_pipeline_py -->|imports| config
+    live_portrait_pipeline_py -->|imports| live_portrait_wrapper_py
+    live_portrait_pipeline_py -->|imports| utils
+    live_portrait_wrapper_py -->|imports| config
+    live_portrait_wrapper_py -->|imports| utils
+    utils -->|imports| config
+    utils -->|imports| data_layer
+    utils -->|imports| external_integrations
+    utils -->|imports| modules

@@ -1,0 +1,54 @@
+{
+  "owner": "rahuldkjain",
+  "name": "github-profile-readme-generator",
+  "full_name": "rahuldkjain/github-profile-readme-generator",
+  "html_url": "https://github.com/rahuldkjain/github-profile-readme-generator",
+  "description": "\ud83d\ude80 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.",
+  "stars": 24481,
+  "forks": 8422,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "gatsby",
+    "generator",
+    "github",
+    "hacktoberfest",
+    "markdown",
+    "react",
+    "readme"
+  ],
+  "archived": false,
+  "commit_sha": "5ae90bfcbd7ab2f69809b094601f7975c32ae077",
+  "commit_url": "https://github.com/rahuldkjain/github-profile-readme-generator/commit/5ae90bfcbd7ab2f69809b094601f7975c32ae077",
+  "tree_url": "https://github.com/rahuldkjain/github-profile-readme-generator/tree/5ae90bfcbd7ab2f69809b094601f7975c32ae077",
+  "analysed_at": "2026-11-14T19:13:06.236710+00:00",
+  "status": "completed",
+  "files_fetched": 284,
+  "files_analysed": 284,
+  "components": [
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "constants package",
+    "Core modules",
+    "hooks package",
+    "lib package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/app/about/page.tsx",
+    "src/app/addons/page.tsx",
+    "src/app/page.tsx",
+    "src/app/support/page.tsx"
+  ]
+}

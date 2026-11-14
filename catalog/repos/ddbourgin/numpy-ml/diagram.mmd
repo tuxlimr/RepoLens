@@ -1,0 +1,23 @@
+%% Repository: ddbourgin/numpy-ml
+%% Analysed commit: b0359af5285fbf9699d64fd5ec059493228af03e
+%% Commit reference: https://github.com/ddbourgin/numpy-ml/commit/b0359af5285fbf9699d64fd5ec059493228af03e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        numpy_ml["numpy_ml package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| numpy_ml
+    entrypoint -->|imports| numpy_ml
+    tests -->|imports| data_layer
+    tests -->|imports| numpy_ml

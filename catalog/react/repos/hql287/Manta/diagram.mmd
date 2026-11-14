@@ -1,0 +1,28 @@
+%% Repository: hql287/Manta
+%% Analysed commit: c530133998a99dae1010931055c52906ae410a9e
+%% Commit reference: https://github.com/hql287/Manta/commit/c530133998a99dae1010931055c52906ae410a9e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app["app package"]
+        helpers["helpers package"]
+        i18n["i18n package"]
+        libs["libs package"]
+        main["main package"]
+        mocks["__mocks__ package"]
+        modal["modal package"]
+        preview["preview package"]
+        static["static package"]
+        tour["tour package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

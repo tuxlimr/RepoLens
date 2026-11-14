@@ -1,0 +1,42 @@
+{
+  "owner": "s0md3v",
+  "name": "XSStrike",
+  "full_name": "s0md3v/XSStrike",
+  "html_url": "https://github.com/s0md3v/XSStrike",
+  "description": "Most advanced XSS scanner.",
+  "stars": 15264,
+  "forks": 2098,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "waf-detection",
+    "xss",
+    "xss-bruteforce",
+    "xss-detection",
+    "xss-exploit",
+    "xss-python",
+    "xss-scanner",
+    "xsstrike"
+  ],
+  "archived": false,
+  "commit_sha": "ab27955d367432f944d8f29897e09c15356e76f7",
+  "commit_url": "https://github.com/s0md3v/XSStrike/commit/ab27955d367432f944d8f29897e09c15356e76f7",
+  "tree_url": "https://github.com/s0md3v/XSStrike/tree/ab27955d367432f944d8f29897e09c15356e76f7",
+  "analysed_at": "2026-11-14T19:09:05.109965+00:00",
+  "status": "completed",
+  "files_fetched": 39,
+  "files_analysed": 39,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "modes package",
+    "plugins package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "requests"
+  ],
+  "entry_points": []
+}

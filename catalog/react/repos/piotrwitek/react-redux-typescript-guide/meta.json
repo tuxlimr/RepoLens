@@ -1,0 +1,59 @@
+{
+  "owner": "piotrwitek",
+  "name": "react-redux-typescript-guide",
+  "full_name": "piotrwitek/react-redux-typescript-guide",
+  "html_url": "https://github.com/piotrwitek/react-redux-typescript-guide",
+  "description": "The complete guide to static typing in \"React & Redux\" apps using TypeScript",
+  "stars": 13254,
+  "forks": 1094,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "flow",
+    "guide",
+    "guidelines",
+    "patterns",
+    "react",
+    "redux",
+    "static-typing",
+    "style-guide",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "43a22a97c407ab742f24368af4686582df6a60f0",
+  "commit_url": "https://github.com/piotrwitek/react-redux-typescript-guide/commit/43a22a97c407ab742f24368af4686582df6a60f0",
+  "tree_url": "https://github.com/piotrwitek/react-redux-typescript-guide/tree/43a22a97c407ab742f24368af4686582df6a60f0",
+  "analysed_at": "2026-11-14T19:13:19.255708+00:00",
+  "status": "completed",
+  "files_fetched": 174,
+  "files_analysed": 173,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "playground package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router",
+    "Redux",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "playground/src/index.tsx",
+    "playground/src-old/App.tsx",
+    "playground/src-old/index.tsx",
+    "playground/src/api/index.ts",
+    "playground/src/app.tsx",
+    "playground/src/components/index.ts",
+    "playground/src/connected/index.ts",
+    "playground/src/hoc/index.ts",
+    "playground/src/models/index.ts",
+    "playground/src/services/index.ts",
+    "playground/src/store/index.ts"
+  ]
+}

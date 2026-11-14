@@ -1,0 +1,32 @@
+%% Repository: huggingface/smolagents
+%% Analysed commit: 96f33faaf028479119ec8d34507b47694cf14e34
+%% Commit reference: https://github.com/huggingface/smolagents/commit/96f33faaf028479119ec8d34507b47694cf14e34
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        smolagents["smolagents package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| smolagents
+    entrypoint -->|imports| smolagents
+    external_integrations -->|imports| smolagents
+    smolagents -->|imports| data_layer
+    smolagents -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| smolagents

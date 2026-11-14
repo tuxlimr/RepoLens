@@ -1,0 +1,61 @@
+{
+  "owner": "pytest-dev",
+  "name": "pytest",
+  "full_name": "pytest-dev/pytest",
+  "html_url": "https://github.com/pytest-dev/pytest",
+  "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+  "stars": 14685,
+  "forks": 3629,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "hacktoberfest",
+    "python",
+    "test",
+    "testing",
+    "unit-testing"
+  ],
+  "archived": false,
+  "commit_sha": "fc9a7ef678f64d17f1c03b619f3842ea1d127e74",
+  "commit_url": "https://github.com/pytest-dev/pytest/commit/fc9a7ef678f64d17f1c03b619f3842ea1d127e74",
+  "tree_url": "https://github.com/pytest-dev/pytest/tree/fc9a7ef678f64d17f1c03b619f3842ea1d127e74",
+  "analysed_at": "2026-11-14T19:09:19.905635+00:00",
+  "status": "completed",
+  "files_fetched": 633,
+  "files_analysed": 632,
+  "components": [
+    "bench package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "py.py package",
+    "_pytest package",
+    "testing package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Django",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/_pytest/config/__init__.py",
+    "src/_pytest/config/__init__.py",
+    "src/pytest/__main__.py",
+    "bench/bench.py",
+    "bench/bench_argcomplete.py",
+    "extra/get_issues.py",
+    "scripts/diff-assert-rewrite.py",
+    "scripts/generate-gh-release-notes.py",
+    "scripts/prepare-release-pr.py",
+    "scripts/release.py",
+    "scripts/update-plugin-list.py",
+    "testing/example_scripts/perf_examples/collect_stats/generate_folders.py"
+  ]
+}

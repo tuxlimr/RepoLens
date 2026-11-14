@@ -1,0 +1,35 @@
+%% Repository: huggingface/trl
+%% Analysed commit: 8ad18ec1b6493b85cf9fffbd87d376767ceb8611
+%% Commit reference: https://github.com/huggingface/trl/commit/8ad18ec1b6493b85cf9fffbd87d376767ceb8611
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        trl["trl package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| trl
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| trl
+    external_integrations -->|imports| trl
+    scripts -->|imports| trl
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| trl
+    trl -->|imports| data_layer
+    trl -->|imports| entrypoint
+    trl -->|imports| external_integrations

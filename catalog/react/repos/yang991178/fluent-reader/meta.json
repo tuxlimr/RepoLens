@@ -1,0 +1,59 @@
+{
+  "owner": "yang991178",
+  "name": "fluent-reader",
+  "full_name": "yang991178/fluent-reader",
+  "html_url": "https://github.com/yang991178/fluent-reader",
+  "description": "Modern desktop RSS reader built with Electron, React, and Fluent UI",
+  "stars": 9792,
+  "forks": 552,
+  "license": "BSD-3-Clause",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "electron",
+    "linux",
+    "macos",
+    "react",
+    "rss",
+    "rss-reader",
+    "typescript",
+    "windows"
+  ],
+  "archived": false,
+  "commit_sha": "5912070309759eff37204a5046caba3c780fa4c0",
+  "commit_url": "https://github.com/yang991178/fluent-reader/commit/5912070309759eff37204a5046caba3c780fa4c0",
+  "tree_url": "https://github.com/yang991178/fluent-reader/tree/5912070309759eff37204a5046caba3c780fa4c0",
+  "analysed_at": "2026-11-14T19:13:32.863695+00:00",
+  "status": "completed",
+  "files_fetched": 171,
+  "files_analysed": 146,
+  "components": [
+    "bridges package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "electron.ts package",
+    "index.tsx package",
+    "main package",
+    "preload.ts package",
+    "schema-types.ts package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "React",
+    "Redux",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/components/page.tsx",
+    "src/components/settings/app.tsx",
+    "src/index.tsx",
+    "src/scripts/models/app.ts",
+    "src/scripts/models/page.ts"
+  ]
+}

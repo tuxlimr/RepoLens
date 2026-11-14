@@ -1,0 +1,30 @@
+%% Repository: Snouzy/workout-cool
+%% Analysed commit: d52f9f62d2a5fcbb78d67a95dc8763f9a34dbf9e
+%% Commit reference: https://github.com/Snouzy/workout-cool/commit/d52f9f62d2a5fcbb78d67a95dc8763f9a34dbf9e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        emails["emails package"]
+        entities["entities package"]
+        env_ts["env.ts package"]
+        features["features package"]
+        index_d_ts["index.d.ts package"]
+        locales["locales package"]
+        public["public package"]
+        scripts["scripts package"]
+        shared["shared package"]
+        widgets["widgets package"]
+    end

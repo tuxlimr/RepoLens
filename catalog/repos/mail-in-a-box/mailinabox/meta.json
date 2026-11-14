@@ -1,0 +1,55 @@
+{
+  "owner": "mail-in-a-box",
+  "name": "mailinabox",
+  "full_name": "mail-in-a-box/mailinabox",
+  "html_url": "https://github.com/mail-in-a-box/mailinabox",
+  "description": "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.",
+  "stars": 15468,
+  "forks": 1569,
+  "license": "CC0-1.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "email",
+    "mail",
+    "server",
+    "smtp"
+  ],
+  "archived": false,
+  "commit_sha": "b71c2e1ca6df9c56392ba0a2adbb05e02569d4c1",
+  "commit_url": "https://github.com/mail-in-a-box/mailinabox/commit/b71c2e1ca6df9c56392ba0a2adbb05e02569d4c1",
+  "tree_url": "https://github.com/mail-in-a-box/mailinabox/tree/b71c2e1ca6df9c56392ba0a2adbb05e02569d4c1",
+  "analysed_at": "2026-11-14T19:09:02.285653+00:00",
+  "status": "completed",
+  "files_fetched": 110,
+  "files_analysed": 110,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "management package",
+    "setup package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "SQLite",
+    "Flask",
+    "AWS (boto3)",
+    "requests",
+    "Poetry"
+  ],
+  "entry_points": [
+    "management/backup.py",
+    "management/daemon.py",
+    "management/dns_update.py",
+    "management/mail_log.py",
+    "management/mailconfig.py",
+    "management/ssl_certificates.py",
+    "management/status_checks.py",
+    "management/utils.py",
+    "management/wsgi.py",
+    "setup/migrate.py",
+    "tools/readable_bash.py"
+  ]
+}

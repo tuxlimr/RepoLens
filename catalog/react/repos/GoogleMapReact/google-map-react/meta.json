@@ -1,0 +1,51 @@
+{
+  "owner": "GoogleMapReact",
+  "name": "google-map-react",
+  "full_name": "GoogleMapReact/google-map-react",
+  "html_url": "https://github.com/GoogleMapReact/google-map-react",
+  "description": "Google map library for react that allows rendering components as markers :tada:",
+  "stars": 6480,
+  "forks": 843,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "component",
+    "google",
+    "map",
+    "maps",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "ba0ef4df4351c511e3dce67d0214f4c5270dcf52",
+  "commit_url": "https://github.com/GoogleMapReact/google-map-react/commit/ba0ef4df4351c511e3dce67d0214f4c5270dcf52",
+  "tree_url": "https://github.com/GoogleMapReact/google-map-react/tree/ba0ef4df4351c511e3dce67d0214f4c5270dcf52",
+  "analysed_at": "2026-11-14T19:14:04.981903+00:00",
+  "status": "completed",
+  "files_fetched": 56,
+  "files_analysed": 56,
+  "components": [
+    "Configuration and deployment",
+    "google_heatmap.js package",
+    "google_map.js package",
+    "google_map_map.js package",
+    "google_map_markers.js package",
+    "google_map_markers_prerender.js package",
+    "index.cjs.js package",
+    "index.js package",
+    "lib package",
+    "loaders package",
+    "marker_dispatcher.js package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React"
+  ],
+  "entry_points": [
+    "src/index.js",
+    "src/lib/geo/index.js",
+    "src/lib/index.js"
+  ]
+}

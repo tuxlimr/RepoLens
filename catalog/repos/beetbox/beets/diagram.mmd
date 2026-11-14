@@ -1,0 +1,44 @@
+%% Repository: beetbox/beets
+%% Analysed commit: 029ac6f37d0bc5ce478fb95e5b27547f74ac6100
+%% Commit reference: https://github.com/beetbox/beets/commit/029ac6f37d0bc5ce478fb95e5b27547f74ac6100
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        beets["beets package"]
+        beetsplug["beetsplug package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    beets -->|imports| config
+    beets -->|imports| data_layer
+    beets -->|imports| external_integrations
+    beetsplug -->|imports| beets
+    beetsplug -->|imports| config
+    beetsplug -->|imports| data_layer
+    beetsplug -->|imports| external_integrations
+    config -->|imports| beets
+    data_layer -->|imports| beets
+    data_layer -->|imports| entrypoint
+    entrypoint -->|imports| beets
+    entrypoint -->|imports| beetsplug
+    entrypoint -->|imports| external_integrations
+    external_integrations -->|imports| beets
+    external_integrations -->|imports| beetsplug
+    tests -->|imports| beets
+    tests -->|imports| beetsplug
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

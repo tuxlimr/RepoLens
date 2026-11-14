@@ -1,0 +1,39 @@
+{
+  "owner": "zenorocha",
+  "name": "clipboard.js",
+  "full_name": "zenorocha/clipboard.js",
+  "html_url": "https://github.com/zenorocha/clipboard.js",
+  "description": ":scissors: Modern copy to clipboard. No Flash. Just 3kb gzipped :clipboard:",
+  "stars": 34078,
+  "forks": 3894,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "clipboard",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "899378dee9681dcf4cb3d702c23a3f3cd9f473d8",
+  "commit_url": "https://github.com/zenorocha/clipboard.js/commit/899378dee9681dcf4cb3d702c23a3f3cd9f473d8",
+  "tree_url": "https://github.com/zenorocha/clipboard.js/tree/899378dee9681dcf4cb3d702c23a3f3cd9f473d8",
+  "analysed_at": "2026-11-14T19:10:44.246876+00:00",
+  "status": "completed",
+  "files_fetched": 53,
+  "files_analysed": 52,
+  "components": [
+    "actions package",
+    "clipboard.d.ts package",
+    "clipboard.js package",
+    "clipboard.test-d.ts package",
+    "common package",
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "webpack"
+  ],
+  "entry_points": []
+}

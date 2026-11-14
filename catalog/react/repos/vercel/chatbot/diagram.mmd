@@ -1,0 +1,26 @@
+%% Repository: vercel/chatbot
+%% Analysed commit: a8989b522fa3672a2ae52f053105e40993b36ca1
+%% Commit reference: https://github.com/vercel/chatbot/commit/a8989b522fa3672a2ae52f053105e40993b36ca1
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        artifacts["artifacts package"]
+        components["components package"]
+        hooks["hooks package"]
+        lib["lib package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

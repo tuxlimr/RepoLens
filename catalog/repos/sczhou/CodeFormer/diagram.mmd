@@ -1,0 +1,32 @@
+%% Repository: sczhou/CodeFormer
+%% Analysed commit: b33cc7d639d6545bfcccc7e0bc6ae51f24e79c2b
+%% Commit reference: https://github.com/sczhou/CodeFormer/commit/b33cc7d639d6545bfcccc7e0bc6ae51f24e79c2b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        basicsr["basicsr package"]
+        facelib["facelib package"]
+        web_demos["web-demos package"]
+    end
+    basicsr -->|imports| external_integrations
+    data_layer -->|imports| basicsr
+    data_layer -->|imports| facelib
+    entrypoint -->|imports| basicsr
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| facelib
+    facelib -->|imports| basicsr
+    facelib -->|imports| data_layer
+    facelib -->|imports| entrypoint
+    web_demos -->|imports| basicsr
+    web_demos -->|imports| facelib

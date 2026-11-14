@@ -1,0 +1,45 @@
+{
+  "owner": "jsx-eslint",
+  "name": "eslint-plugin-react",
+  "full_name": "jsx-eslint/eslint-plugin-react",
+  "html_url": "https://github.com/jsx-eslint/eslint-plugin-react",
+  "description": "React-specific linting rules for ESLint",
+  "stars": 9291,
+  "forks": 2736,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "development",
+    "ecmascript",
+    "eslint",
+    "javascript",
+    "lint",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "61b91b612eed65386e1d2bda39b9afeb7c92c708",
+  "commit_url": "https://github.com/jsx-eslint/eslint-plugin-react/commit/61b91b612eed65386e1d2bda39b9afeb7c92c708",
+  "tree_url": "https://github.com/jsx-eslint/eslint-plugin-react/tree/61b91b612eed65386e1d2bda39b9afeb7c92c708",
+  "analysed_at": "2026-11-14T19:13:34.659777+00:00",
+  "status": "completed",
+  "files_fetched": 425,
+  "files_analysed": 412,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "test-published-types package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/rules/index.js",
+    "test-published-types/index.js"
+  ]
+}

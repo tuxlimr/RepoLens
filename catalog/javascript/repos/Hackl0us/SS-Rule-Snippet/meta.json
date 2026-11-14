@@ -1,0 +1,45 @@
+{
+  "owner": "Hackl0us",
+  "name": "SS-Rule-Snippet",
+  "full_name": "Hackl0us/SS-Rule-Snippet",
+  "html_url": "https://github.com/Hackl0us/SS-Rule-Snippet",
+  "description": "\u641c\u96c6\u3001\u6574\u7406\u3001\u7ef4\u62a4 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) \u5b9e\u7528\u89c4\u5219\u3002",
+  "stars": 11197,
+  "forks": 1757,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "clash",
+    "clashx",
+    "gfw",
+    "gfwlist",
+    "hackl0us",
+    "macos",
+    "proxy",
+    "quantumult",
+    "shadowrocket",
+    "shadowsocks",
+    "shadowsocksr",
+    "ss-rule-snippet",
+    "surfboard",
+    "surge",
+    "trojan"
+  ],
+  "archived": false,
+  "commit_sha": "6fb5c342fbe3c63a3baa4f0e8bb32046631809f6",
+  "commit_url": "https://github.com/Hackl0us/SS-Rule-Snippet/commit/6fb5c342fbe3c63a3baa4f0e8bb32046631809f6",
+  "tree_url": "https://github.com/Hackl0us/SS-Rule-Snippet/tree/6fb5c342fbe3c63a3baa4f0e8bb32046631809f6",
+  "analysed_at": "2026-11-14T19:12:24.626874+00:00",
+  "status": "completed",
+  "files_fetched": 105,
+  "files_analysed": 105,
+  "components": [
+    "Configuration and deployment",
+    "Scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,51 @@
+{
+  "owner": "0x4m4",
+  "name": "hexstrike-ai",
+  "full_name": "0x4m4/hexstrike-ai",
+  "html_url": "https://github.com/0x4m4/hexstrike-ai",
+  "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+  "stars": 13594,
+  "forks": 2756,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "0x4m4",
+    "ai",
+    "ai-agents",
+    "ai-cybersecurity",
+    "ai-hacking",
+    "ai-penetration-testing",
+    "ai-security-tool",
+    "artificial-intelligence",
+    "ctf-tools",
+    "generative-ai",
+    "hexstrike",
+    "kali-linux",
+    "kali-tools",
+    "llm",
+    "llm-integration",
+    "mcp",
+    "mcp-server",
+    "mcp-tools",
+    "pentesting",
+    "pentesting-tools"
+  ],
+  "archived": false,
+  "commit_sha": "d689933ff579d839c676c82b231f8e98326c5f04",
+  "commit_url": "https://github.com/0x4m4/hexstrike-ai/commit/d689933ff579d839c676c82b231f8e98326c5f04",
+  "tree_url": "https://github.com/0x4m4/hexstrike-ai/tree/d689933ff579d839c676c82b231f8e98326c5f04",
+  "analysed_at": "2026-11-14T19:09:46.751299+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "Flask",
+    "aiohttp",
+    "requests"
+  ],
+  "entry_points": []
+}

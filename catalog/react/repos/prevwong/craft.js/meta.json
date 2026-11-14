@@ -1,0 +1,61 @@
+{
+  "owner": "prevwong",
+  "name": "craft.js",
+  "full_name": "prevwong/craft.js",
+  "html_url": "https://github.com/prevwong/craft.js",
+  "description": "\ud83d\ude80 A React Framework for building extensible drag and drop page editors",
+  "stars": 8767,
+  "forks": 838,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "draft-js",
+    "drag-and-drop",
+    "html-builder",
+    "page-builder",
+    "react",
+    "site-builder",
+    "web-builder",
+    "wysiwyg"
+  ],
+  "archived": false,
+  "commit_sha": "23f44f3208ebf78d1632ec4aa7094001f513eb41",
+  "commit_url": "https://github.com/prevwong/craft.js/commit/23f44f3208ebf78d1632ec4aa7094001f513eb41",
+  "tree_url": "https://github.com/prevwong/craft.js/tree/23f44f3208ebf78d1632ec4aa7094001f513eb41",
+  "analysed_at": "2026-11-14T19:13:38.585979+00:00",
+  "status": "completed",
+  "files_fetched": 355,
+  "files_analysed": 355,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "cypress package",
+    "experimental package",
+    "External integrations",
+    "jest package",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "cypress/plugins/index.js",
+    "cypress/support/index.ts",
+    "experimental/slate/src/index.ts",
+    "packages/core/src/index.tsx",
+    "packages/layers/src/index.tsx",
+    "packages/utils/src/index.ts",
+    "site/src/components/index.js",
+    "site/src/pages/index.js"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "nswbmw",
+  "name": "N-blog",
+  "full_name": "nswbmw/N-blog",
+  "html_url": "https://github.com/nswbmw/N-blog",
+  "description": "\u300a\u4e00\u8d77\u5b66 Node.js\u300b",
+  "stars": 15350,
+  "forks": 4520,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "blog",
+    "course",
+    "express",
+    "javascript",
+    "mongodb",
+    "mongolass",
+    "nodejs",
+    "tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "c842ec496fd90667bcb1acd8c9dd42aa3985526d",
+  "commit_url": "https://github.com/nswbmw/N-blog/commit/c842ec496fd90667bcb1acd8c9dd42aa3985526d",
+  "tree_url": "https://github.com/nswbmw/N-blog/tree/c842ec496fd90667bcb1acd8c9dd42aa3985526d",
+  "analysed_at": "2026-11-14T19:11:38.976217+00:00",
+  "status": "completed",
+  "files_fetched": 64,
+  "files_analysed": 64,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "middlewares package",
+    "Tests"
+  ],
+  "detections": [
+    "Express"
+  ],
+  "entry_points": [
+    "index.js",
+    "routes/index.js"
+  ]
+}

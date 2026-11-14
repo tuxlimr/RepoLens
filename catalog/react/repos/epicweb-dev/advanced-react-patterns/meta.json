@@ -1,0 +1,56 @@
+{
+  "owner": "epicweb-dev",
+  "name": "advanced-react-patterns",
+  "full_name": "epicweb-dev/advanced-react-patterns",
+  "html_url": "https://github.com/epicweb-dev/advanced-react-patterns",
+  "description": "This is the latest advanced react patterns workshop",
+  "stars": 3517,
+  "forks": 1060,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "epicreact-dev",
+    "epicweb-dev",
+    "kcd-edu",
+    "react",
+    "react-components",
+    "react-patterns",
+    "workshop"
+  ],
+  "archived": false,
+  "commit_sha": "97a160158526e54f5829854b59b7281bfc777b91",
+  "commit_url": "https://github.com/epicweb-dev/advanced-react-patterns/commit/97a160158526e54f5829854b59b7281bfc777b91",
+  "tree_url": "https://github.com/epicweb-dev/advanced-react-patterns/tree/97a160158526e54f5829854b59b7281bfc777b91",
+  "analysed_at": "2026-11-14T19:15:16.460209+00:00",
+  "status": "completed",
+  "files_fetched": 218,
+  "files_analysed": 216,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "epicshop package",
+    "exercises package",
+    "shared package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "exercises/01.composition/01.problem.compose/index.tsx",
+    "exercises/01.composition/01.solution.compose/index.tsx",
+    "exercises/02.latest-ref/01.problem.ref/index.tsx",
+    "exercises/02.latest-ref/01.solution.ref/index.tsx",
+    "exercises/03.compound-components/01.problem.context/app.tsx",
+    "exercises/03.compound-components/01.problem.context/index.tsx",
+    "exercises/03.compound-components/01.solution.context/app.tsx",
+    "exercises/03.compound-components/01.solution.context/index.tsx",
+    "exercises/03.compound-components/02.problem.validation/app.tsx",
+    "exercises/03.compound-components/02.problem.validation/index.tsx",
+    "exercises/03.compound-components/02.solution.validation/app.tsx",
+    "exercises/03.compound-components/02.solution.validation/index.tsx"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "owner": "psf",
+  "name": "requests",
+  "full_name": "psf/requests",
+  "html_url": "https://github.com/psf/requests",
+  "description": "A simple, yet elegant, HTTP library.",
+  "stars": 54700,
+  "forks": 10778,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "client",
+    "cookies",
+    "forhumans",
+    "http",
+    "humans",
+    "python",
+    "python-requests",
+    "requests"
+  ],
+  "archived": false,
+  "commit_sha": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "commit_url": "https://github.com/psf/requests/commit/3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "tree_url": "https://github.com/psf/requests/tree/3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "analysed_at": "2026-11-14T19:06:29.576577+00:00",
+  "status": "completed",
+  "files_fetched": 121,
+  "files_analysed": 114,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "requests package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/requests/certs.py",
+    "src/requests/help.py"
+  ]
+}

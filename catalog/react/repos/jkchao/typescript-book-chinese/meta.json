@@ -1,0 +1,37 @@
+{
+  "owner": "jkchao",
+  "name": "typescript-book-chinese",
+  "full_name": "jkchao/typescript-book-chinese",
+  "html_url": "https://github.com/jkchao/typescript-book-chinese",
+  "description": "TypeScript Deep Dive \u4e2d\u6587\u7248 ",
+  "stars": 6638,
+  "forks": 664,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "book",
+    "react",
+    "redux",
+    "typescript",
+    "typescript-javascript",
+    "vue",
+    "vuepress"
+  ],
+  "archived": false,
+  "commit_sha": "f1e40c10e31be2f3599174dd22d95e4d3ab9cf55",
+  "commit_url": "https://github.com/jkchao/typescript-book-chinese/commit/f1e40c10e31be2f3599174dd22d95e4d3ab9cf55",
+  "tree_url": "https://github.com/jkchao/typescript-book-chinese/tree/f1e40c10e31be2f3599174dd22d95e4d3ab9cf55",
+  "analysed_at": "2026-11-14T19:14:02.791402+00:00",
+  "status": "completed",
+  "files_fetched": 122,
+  "files_analysed": 122,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

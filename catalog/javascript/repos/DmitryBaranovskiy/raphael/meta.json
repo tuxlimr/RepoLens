@@ -1,0 +1,31 @@
+{
+  "owner": "DmitryBaranovskiy",
+  "name": "raphael",
+  "full_name": "DmitryBaranovskiy/raphael",
+  "html_url": "https://github.com/DmitryBaranovskiy/raphael",
+  "description": "JavaScript Vector Library",
+  "stars": 11256,
+  "forks": 1628,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b5fdbdc9850827eb49622cd0bc81b26025f8128a",
+  "commit_url": "https://github.com/DmitryBaranovskiy/raphael/commit/b5fdbdc9850827eb49622cd0bc81b26025f8128a",
+  "tree_url": "https://github.com/DmitryBaranovskiy/raphael/tree/b5fdbdc9850827eb49622cd0bc81b26025f8128a",
+  "analysed_at": "2026-11-14T19:12:23.203947+00:00",
+  "status": "completed",
+  "files_fetched": 20,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "dev package",
+    "Tests"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": []
+}

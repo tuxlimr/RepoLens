@@ -1,0 +1,44 @@
+{
+  "owner": "sdelements",
+  "name": "lets-chat",
+  "full_name": "sdelements/lets-chat",
+  "html_url": "https://github.com/sdelements/lets-chat",
+  "description": "Self-hosted chat app for small teams",
+  "stars": 9787,
+  "forks": 1552,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "617207ff3c0c0bf8e3c7a915bd9ec03f1dd8390c",
+  "commit_url": "https://github.com/sdelements/lets-chat/commit/617207ff3c0c0bf8e3c7a915bd9ec03f1dd8390c",
+  "tree_url": "https://github.com/sdelements/lets-chat/tree/617207ff3c0c0bf8e3c7a915bd9ec03f1dd8390c",
+  "analysed_at": "2026-11-14T19:12:52.980479+00:00",
+  "status": "completed",
+  "files_fetched": 351,
+  "files_analysed": 170,
+  "components": [
+    "API layer",
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "media package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "MongoDB",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "app.js",
+    "app/auth/index.js",
+    "app/controllers/index.js",
+    "app/core/index.js",
+    "app/middlewares/index.js",
+    "app/models/index.js",
+    "app/xmpp/index.js"
+  ]
+}

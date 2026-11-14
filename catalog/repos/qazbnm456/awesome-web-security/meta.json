@@ -1,0 +1,50 @@
+{
+  "owner": "qazbnm456",
+  "name": "awesome-web-security",
+  "full_name": "qazbnm456/awesome-web-security",
+  "html_url": "https://github.com/qazbnm456/awesome-web-security",
+  "description": "\ud83d\udc36 A curated list of Web Security materials and resources.",
+  "stars": 14059,
+  "forks": 1850,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list",
+    "penetration-testing",
+    "security",
+    "web",
+    "websecurity"
+  ],
+  "archived": false,
+  "commit_sha": "23b4ecc5ec5949dcae14bd2178c81172bb6ac862",
+  "commit_url": "https://github.com/qazbnm456/awesome-web-security/commit/23b4ecc5ec5949dcae14bd2178c81172bb6ac862",
+  "tree_url": "https://github.com/qazbnm456/awesome-web-security/tree/23b4ecc5ec5949dcae14bd2178c81172bb6ac862",
+  "analysed_at": "2026-11-14T19:09:35.542394+00:00",
+  "status": "completed",
+  "files_fetched": 130,
+  "files_analysed": 130,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "scripts/ci/archive.py",
+    "scripts/ci/check_content_drift.py",
+    "scripts/ci/port_legacy_pr.py",
+    "scripts/ci/pr_review.py",
+    "scripts/ci/publish_review.py",
+    "scripts/ci/triage_dead_links.py",
+    "scripts/generate.py",
+    "scripts/migrate.py",
+    "scripts/verify_anchors.py",
+    "scripts/verify_schema.py"
+  ]
+}

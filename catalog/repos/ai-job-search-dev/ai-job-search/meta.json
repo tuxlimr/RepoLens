@@ -1,0 +1,58 @@
+{
+  "owner": "ai-job-search-dev",
+  "name": "ai-job-search",
+  "full_name": "ai-job-search-dev/ai-job-search",
+  "html_url": "https://github.com/ai-job-search-dev/ai-job-search",
+  "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+  "stars": 71723,
+  "forks": 23134,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "career",
+    "claude-code",
+    "cover-letter",
+    "cv",
+    "interview-preparation",
+    "job-application",
+    "job-hunting",
+    "job-search",
+    "latex",
+    "resume"
+  ],
+  "archived": false,
+  "commit_sha": "0d0d1a907a21454affa1b694acc4e2c5008a0d21",
+  "commit_url": "https://github.com/ai-job-search-dev/ai-job-search/commit/0d0d1a907a21454affa1b694acc4e2c5008a0d21",
+  "tree_url": "https://github.com/ai-job-search-dev/ai-job-search/tree/0d0d1a907a21454affa1b694acc4e2c5008a0d21",
+  "analysed_at": "2026-11-14T19:06:13.960413+00:00",
+  "status": "completed",
+  "files_fetched": 296,
+  "files_analysed": 296,
+  "components": [
+    "Application entry point",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "unittest"
+  ],
+  "entry_points": [
+    "salary_lookup.py",
+    "tools/check_framework_version.py",
+    "tools/check_upstream_updates.py",
+    "tools/convert_salary_excel.py",
+    "tools/fetch_page.py",
+    "tools/install_portal_clis.py",
+    "tools/job_key.py",
+    "tools/lint_skills.py",
+    "tools/posting_guard.py",
+    "tools/rank_state.py",
+    "tools/robots_check.py",
+    "tools/scrape_state.py"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "owner": "Meituan-Dianping",
+  "name": "mpvue",
+  "full_name": "Meituan-Dianping/mpvue",
+  "html_url": "https://github.com/Meituan-Dianping/mpvue",
+  "description": "\u57fa\u4e8e Vue.js \u7684\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u6846\u67b6\uff0c\u4ece\u5e95\u5c42\u652f\u6301 Vue.js \u8bed\u6cd5\u548c\u6784\u5efa\u5de5\u5177\u4f53\u7cfb\u3002",
+  "stars": 20209,
+  "forks": 2015,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "mini",
+    "mpvue",
+    "vue",
+    "weapp",
+    "wxmp"
+  ],
+  "archived": false,
+  "commit_sha": "6c5d78ee04f58c6d782c456dfcf0fe63c0b7f89b",
+  "commit_url": "https://github.com/Meituan-Dianping/mpvue/commit/6c5d78ee04f58c6d782c456dfcf0fe63c0b7f89b",
+  "tree_url": "https://github.com/Meituan-Dianping/mpvue/tree/6c5d78ee04f58c6d782c456dfcf0fe63c0b7f89b",
+  "analysed_at": "2026-11-14T19:11:14.704993+00:00",
+  "status": "completed",
+  "files_fetched": 507,
+  "files_analysed": 491,
+  "components": [
+    "benchmarks package",
+    "compiler package",
+    "Configuration and deployment",
+    "flow package",
+    "packages package",
+    "platforms package",
+    "server package",
+    "Service / domain layer",
+    "sfc package",
+    "shared package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "Vue",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/mpvue-template-compiler/index.js",
+    "packages/mpvue/index.js",
+    "packages/vue-server-renderer/index.js",
+    "packages/vue-template-compiler/index.js",
+    "packages/weex-template-compiler/index.js",
+    "packages/weex-vue-framework/index.js",
+    "benchmarks/dbmon/app.js",
+    "src/compiler/codegen/index.js",
+    "src/compiler/directives/index.js",
+    "src/compiler/index.js",
+    "src/compiler/parser/index.js",
+    "src/core/components/index.js"
+  ]
+}

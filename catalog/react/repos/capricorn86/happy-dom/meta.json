@@ -1,0 +1,60 @@
+{
+  "owner": "capricorn86",
+  "name": "happy-dom",
+  "full_name": "capricorn86/happy-dom",
+  "html_url": "https://github.com/capricorn86/happy-dom",
+  "description": "A JavaScript implementation of a web browser without its graphical user interface",
+  "stars": 4743,
+  "forks": 380,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "browser",
+    "bun",
+    "dom",
+    "hacktoberfest",
+    "hacktoberfest2025",
+    "html",
+    "javascript",
+    "jest",
+    "lit-element",
+    "lit-html",
+    "nodejs",
+    "react",
+    "svelte",
+    "testing-library",
+    "typescript",
+    "vitest",
+    "vue",
+    "web-components",
+    "whatwg"
+  ],
+  "archived": false,
+  "commit_sha": "5e100dedb73111a276f75a3daff3a506e2524759",
+  "commit_url": "https://github.com/capricorn86/happy-dom/commit/5e100dedb73111a276f75a3daff3a506e2524759",
+  "tree_url": "https://github.com/capricorn86/happy-dom/tree/5e100dedb73111a276f75a3daff3a506e2524759",
+  "analysed_at": "2026-11-14T19:14:37.512406+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "Vue",
+    "Jest",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/happy-dom/src/index.ts"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "owner": "KittenML",
+  "name": "KittenTTS",
+  "full_name": "KittenML/KittenTTS",
+  "html_url": "https://github.com/KittenML/KittenTTS",
+  "description": "Open-source State-of-the-art TTS model which runs on a CPU \ud83d\ude3b ",
+  "stars": 16873,
+  "forks": 1063,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d13d8c978a8f17d441977d714b75853ae6bd4423",
+  "commit_url": "https://github.com/KittenML/KittenTTS/commit/d13d8c978a8f17d441977d714b75853ae6bd4423",
+  "tree_url": "https://github.com/KittenML/KittenTTS/tree/d13d8c978a8f17d441977d714b75853ae6bd4423",
+  "analysed_at": "2026-11-14T19:08:39.628105+00:00",
+  "status": "completed",
+  "files_fetched": 88,
+  "files_analysed": 88,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "kittenml package",
+    "Tests"
+  ],
+  "detections": [
+    "FastAPI",
+    "NumPy",
+    "Pydantic",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "gradio_demo.py",
+    "kittenml/kittentts2/docker/server.py",
+    "kittenml/kittentts2/s3gen.py",
+    "kittenml/kittentts2_tiny/frontend/tts_norm.py",
+    "kittenml/preprocess.py"
+  ]
+}

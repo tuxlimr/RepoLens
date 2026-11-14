@@ -1,0 +1,61 @@
+{
+  "owner": "al1abb",
+  "name": "invoify",
+  "full_name": "al1abb/invoify",
+  "html_url": "https://github.com/al1abb/invoify",
+  "description": "An invoice generator app built using Next.js, Typescript, and Shadcn",
+  "stars": 6391,
+  "forks": 751,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "invoice-app",
+    "invoice-generator",
+    "nextjs",
+    "nextjs13",
+    "react",
+    "react-hook-form",
+    "shadcn-ui",
+    "typescript",
+    "zod"
+  ],
+  "archived": false,
+  "commit_sha": "3859b3cbae28ca4ec559db5ef87e41b798740340",
+  "commit_url": "https://github.com/al1abb/invoify/commit/3859b3cbae28ca4ec559db5ef87e41b798740340",
+  "tree_url": "https://github.com/al1abb/invoify/tree/3859b3cbae28ca4ec559db5ef87e41b798740340",
+  "analysed_at": "2026-11-14T19:14:07.052661+00:00",
+  "status": "completed",
+  "files_fetched": 195,
+  "files_analysed": 195,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "contexts package",
+    "Core modules",
+    "e2e package",
+    "External integrations",
+    "hooks package",
+    "i18n package",
+    "lib package",
+    "scripts package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/[locale]/[...rest]/page.tsx",
+    "app/[locale]/guide/page.tsx",
+    "app/[locale]/page.tsx",
+    "app/components/index.ts",
+    "app/page.tsx"
+  ]
+}

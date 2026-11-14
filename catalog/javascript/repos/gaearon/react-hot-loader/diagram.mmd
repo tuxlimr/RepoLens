@@ -1,0 +1,40 @@
+%% Repository: gaearon/react-hot-loader
+%% Analysed commit: 07d1f4e080f18dd83273be5bd02863ce1caf892e
+%% Commit reference: https://github.com/gaearon/react-hot-loader/commit/07d1f4e080f18dd83273be5bd02863ce1caf892e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        appcontainer_dev_js["AppContainer.dev.js package"]
+        appcontainer_prod_js["AppContainer.prod.js package"]
+        babel_dev_js["babel.dev.js package"]
+        babel_prod_js["babel.prod.js package"]
+        configuration_js["configuration.js package"]
+        errorreporter_js["errorReporter.js package"]
+        fresh["fresh package"]
+        global["global package"]
+        hot_dev_js["hot.dev.js package"]
+        hot_prod_js["hot.prod.js package"]
+        index_dev_js["index.dev.js package"]
+        index_prod_js["index.prod.js package"]
+        internal["internal package"]
+        logger_js["logger.js package"]
+        proxy["proxy package"]
+        reacthotloader_js["reactHotLoader.js package"]
+        reconciler["reconciler package"]
+        scripts["scripts package"]
+        testconfig["testConfig package"]
+        webpack["webpack package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (3 merged)"]
+    %% Note: 3 smaller component(s) merged into 'other' to keep the diagram readable.

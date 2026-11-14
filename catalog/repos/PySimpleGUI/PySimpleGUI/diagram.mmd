@@ -1,0 +1,21 @@
+%% Repository: PySimpleGUI/PySimpleGUI
+%% Analysed commit: 00de5ab857f56014294cb0a5c725a96d32eb7af6
+%% Commit reference: https://github.com/PySimpleGUI/PySimpleGUI/commit/00de5ab857f56014294cb0a5c725a96d32eb7af6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        demoprograms["DemoPrograms package"]
+        pysimplegui["PySimpleGUI package"]
+    end
+    demoprograms -->|imports| external_integrations
+    demoprograms -->|imports| pysimplegui
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| pysimplegui

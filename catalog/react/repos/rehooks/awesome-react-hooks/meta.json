@@ -1,0 +1,30 @@
+{
+  "owner": "rehooks",
+  "name": "awesome-react-hooks",
+  "full_name": "rehooks/awesome-react-hooks",
+  "html_url": "https://github.com/rehooks/awesome-react-hooks",
+  "description": "Awesome React Hooks",
+  "stars": 10272,
+  "forks": 769,
+  "license": "CC0-1.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "hooks",
+    "react",
+    "react-hooks"
+  ],
+  "archived": false,
+  "commit_sha": "33424d3e810c864ca69e379b74d195094b08a8e3",
+  "commit_url": "https://github.com/rehooks/awesome-react-hooks/commit/33424d3e810c864ca69e379b74d195094b08a8e3",
+  "tree_url": "https://github.com/rehooks/awesome-react-hooks/tree/33424d3e810c864ca69e379b74d195094b08a8e3",
+  "analysed_at": "2026-11-14T19:13:31.761266+00:00",
+  "status": "completed",
+  "files_fetched": 2,
+  "files_analysed": 2,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

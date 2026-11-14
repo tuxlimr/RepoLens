@@ -1,0 +1,50 @@
+{
+  "owner": "jvalen",
+  "name": "pixel-art-react",
+  "full_name": "jvalen/pixel-art-react",
+  "html_url": "https://github.com/jvalen/pixel-art-react",
+  "description": "Pixel art animation and drawing web app powered by React",
+  "stars": 6062,
+  "forks": 333,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "css",
+    "draw",
+    "javascript",
+    "pixel-art",
+    "react",
+    "redux"
+  ],
+  "archived": false,
+  "commit_sha": "73b57b6b2305146b5a9f94ec9786ea701749c356",
+  "commit_url": "https://github.com/jvalen/pixel-art-react/commit/73b57b6b2305146b5a9f94ec9786ea701749c356",
+  "tree_url": "https://github.com/jvalen/pixel-art-react/tree/73b57b6b2305146b5a9f94ec9786ea701749c356",
+  "analysed_at": "2026-11-14T19:14:10.130180+00:00",
+  "status": "completed",
+  "files_fetched": 156,
+  "files_analysed": 155,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.jsx package",
+    "store package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/components/App.jsx",
+    "src/components/loadFromFile/index.jsx",
+    "src/index.jsx"
+  ]
+}

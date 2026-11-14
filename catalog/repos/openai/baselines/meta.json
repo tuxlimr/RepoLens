@@ -1,0 +1,50 @@
+{
+  "owner": "openai",
+  "name": "baselines",
+  "full_name": "openai/baselines",
+  "html_url": "https://github.com/openai/baselines",
+  "description": "OpenAI Baselines: high-quality implementations of reinforcement learning algorithms",
+  "stars": 16780,
+  "forks": 4916,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ea25b9e8b234e6ee1bca43083f8f3cf974143998",
+  "commit_url": "https://github.com/openai/baselines/commit/ea25b9e8b234e6ee1bca43083f8f3cf974143998",
+  "tree_url": "https://github.com/openai/baselines/tree/ea25b9e8b234e6ee1bca43083f8f3cf974143998",
+  "analysed_at": "2026-11-14T19:08:44.173915+00:00",
+  "status": "completed",
+  "files_fetched": 169,
+  "files_analysed": 169,
+  "components": [
+    "baselines package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "Click",
+    "NumPy",
+    "pandas",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "baselines/common/mpi_adam.py",
+    "baselines/common/mpi_running_mean_std.py",
+    "baselines/common/running_mean_std.py",
+    "baselines/deepq/experiments/custom_cartpole.py",
+    "baselines/deepq/experiments/enjoy_cartpole.py",
+    "baselines/deepq/experiments/enjoy_mountaincar.py",
+    "baselines/deepq/experiments/enjoy_pong.py",
+    "baselines/deepq/experiments/train_cartpole.py",
+    "baselines/deepq/experiments/train_mountaincar.py",
+    "baselines/deepq/experiments/train_pong.py",
+    "baselines/gail/behavior_clone.py",
+    "baselines/gail/dataset/mujoco_dset.py"
+  ]
+}

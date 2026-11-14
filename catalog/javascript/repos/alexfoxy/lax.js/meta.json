@@ -1,0 +1,35 @@
+{
+  "owner": "alexfoxy",
+  "name": "lax.js",
+  "full_name": "alexfoxy/lax.js",
+  "html_url": "https://github.com/alexfoxy/lax.js",
+  "description": "Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.",
+  "stars": 10456,
+  "forks": 478,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [
+    "animation",
+    "css",
+    "effects",
+    "parallax",
+    "scroll",
+    "transitions"
+  ],
+  "archived": true,
+  "commit_sha": "5d6d4c37727d3effdca7d00e8d4cf42f4bee4ece",
+  "commit_url": "https://github.com/alexfoxy/lax.js/commit/5d6d4c37727d3effdca7d00e8d4cf42f4bee4ece",
+  "tree_url": "https://github.com/alexfoxy/lax.js/tree/5d6d4c37727d3effdca7d00e8d4cf42f4bee4ece",
+  "analysed_at": "2026-11-14T19:12:39.395623+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 20,
+  "components": [
+    "Configuration and deployment",
+    "lax.js package",
+    "lib package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

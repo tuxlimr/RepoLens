@@ -1,0 +1,41 @@
+{
+  "owner": "forwardemail",
+  "name": "supertest",
+  "full_name": "forwardemail/supertest",
+  "html_url": "https://github.com/forwardemail/supertest",
+  "description": "\ud83d\udd77 Super-agent driven library for testing node.js HTTP servers using a fluent API.   Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs.",
+  "stars": 14410,
+  "forks": 788,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "assertions",
+    "node",
+    "superagent",
+    "supertest"
+  ],
+  "archived": false,
+  "commit_sha": "aff97e7c8eed2ff88d650f6b451f04a321790f88",
+  "commit_url": "https://github.com/forwardemail/supertest/commit/aff97e7c8eed2ff88d650f6b451f04a321790f88",
+  "tree_url": "https://github.com/forwardemail/supertest/tree/aff97e7c8eed2ff88d650f6b451f04a321790f88",
+  "analysed_at": "2026-11-14T19:11:45.076699+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 20,
+  "components": [
+    "ci package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/cookies/index.js"
+  ]
+}

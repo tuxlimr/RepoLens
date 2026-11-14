@@ -1,0 +1,49 @@
+{
+  "owner": "ShareDropio",
+  "name": "sharedrop",
+  "full_name": "ShareDropio/sharedrop",
+  "html_url": "https://github.com/ShareDropio/sharedrop",
+  "description": "Easy P2P file transfer powered by WebRTC - inspired by Apple AirDrop",
+  "stars": 10768,
+  "forks": 862,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "ember",
+    "ember-cli",
+    "file-sharing",
+    "javascript",
+    "peer-to-peer",
+    "webrtc"
+  ],
+  "archived": false,
+  "commit_sha": "2b6a9fe5e6cada786d1a1f319612537305b204c7",
+  "commit_url": "https://github.com/ShareDropio/sharedrop/commit/2b6a9fe5e6cada786d1a1f319612537305b204c7",
+  "tree_url": "https://github.com/ShareDropio/sharedrop/tree/2b6a9fe5e6cada786d1a1f319612537305b204c7",
+  "analysed_at": "2026-11-14T19:12:31.970540+00:00",
+  "status": "completed",
+  "files_fetched": 125,
+  "files_analysed": 123,
+  "components": [
+    "API layer",
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "Docker"
+  ],
+  "entry_points": [
+    "app/app.js",
+    "app/controllers/index.js",
+    "app/routes/index.js",
+    "lib/google-analytics/index.js",
+    "server.js"
+  ]
+}

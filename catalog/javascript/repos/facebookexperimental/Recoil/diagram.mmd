@@ -1,0 +1,21 @@
+%% Repository: facebookexperimental/Recoil
+%% Analysed commit: c1b97f3a0117cad76cbc6ab3cb06d89a9ce717af
+%% Commit reference: https://github.com/facebookexperimental/Recoil/commit/c1b97f3a0117cad76cbc6ab3cb06d89a9ce717af
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        eslint_rules["eslint-rules package"]
+        flow_typed["flow-typed package"]
+        packages["packages package"]
+        packages_ext["packages-ext package"]
+        scripts["scripts package"]
+        typescript["typescript package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

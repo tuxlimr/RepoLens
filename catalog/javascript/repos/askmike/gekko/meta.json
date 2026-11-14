@@ -1,0 +1,56 @@
+{
+  "owner": "askmike",
+  "name": "gekko",
+  "full_name": "askmike/gekko",
+  "html_url": "https://github.com/askmike/gekko",
+  "description": "A bitcoin trading bot written in node - https://gekko.wizb.it/",
+  "stars": 10177,
+  "forks": 3755,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [
+    "bitcoin",
+    "exchange",
+    "gekko",
+    "trading-bot",
+    "trading-strategies"
+  ],
+  "archived": true,
+  "commit_sha": "ff5698f1ae6329bab5729f145c35a74161e82bac",
+  "commit_url": "https://github.com/askmike/gekko/commit/ff5698f1ae6329bab5729f145c35a74161e82bac",
+  "tree_url": "https://github.com/askmike/gekko/tree/ff5698f1ae6329bab5729f145c35a74161e82bac",
+  "analysed_at": "2026-11-14T19:12:43.841578+00:00",
+  "status": "completed",
+  "files_fetched": 373,
+  "files_analysed": 358,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "exchange package",
+    "importers package",
+    "plugins package",
+    "Service / domain layer",
+    "strategies package",
+    "Tests",
+    "web package"
+  ],
+  "detections": [
+    "PostgreSQL",
+    "Redis",
+    "SQLite",
+    "Koa",
+    "Vue",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "exchange/gekkoBroker.js",
+    "exchange/orders/index.js",
+    "exchange/triggers/index.js",
+    "web/server.js",
+    "web/vue/src/main.js"
+  ]
+}

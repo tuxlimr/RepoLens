@@ -1,0 +1,62 @@
+{
+  "owner": "geist-org",
+  "name": "geist-ui",
+  "full_name": "geist-org/geist-ui",
+  "html_url": "https://github.com/geist-org/geist-ui",
+  "description": "A design system for building modern websites and applications.",
+  "stars": 4543,
+  "forks": 335,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "design-system",
+    "design-systems",
+    "geist",
+    "geist-ui",
+    "hacktoberfest",
+    "react",
+    "react-components"
+  ],
+  "archived": true,
+  "commit_sha": "6894bfdf12bca17ae292617cf2b69c63731fd5d4",
+  "commit_url": "https://github.com/geist-org/geist-ui/commit/6894bfdf12bca17ae292617cf2b69c63731fd5d4",
+  "tree_url": "https://github.com/geist-org/geist-ui/tree/6894bfdf12bca17ae292617cf2b69c63731fd5d4",
+  "analysed_at": "2026-11-14T19:14:42.996984+00:00",
+  "status": "completed",
+  "files_fetched": 756,
+  "files_analysed": 752,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "pages package",
+    "scripts package",
+    "Tests",
+    "typings package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "components/auto-complete/index.ts",
+    "components/avatar/index.ts",
+    "components/badge/index.ts",
+    "components/breadcrumbs/index.ts",
+    "components/button-dropdown/index.ts",
+    "components/button-group/index.ts",
+    "components/button/index.ts",
+    "components/capacity/index.ts",
+    "components/card/index.ts",
+    "components/checkbox/index.ts",
+    "components/code/index.ts",
+    "components/col/index.ts"
+  ]
+}

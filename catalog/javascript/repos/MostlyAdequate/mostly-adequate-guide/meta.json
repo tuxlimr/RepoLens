@@ -1,0 +1,39 @@
+{
+  "owner": "MostlyAdequate",
+  "name": "mostly-adequate-guide",
+  "full_name": "MostlyAdequate/mostly-adequate-guide",
+  "html_url": "https://github.com/MostlyAdequate/mostly-adequate-guide",
+  "description": "Mostly adequate guide to FP (in javascript)",
+  "stars": 23817,
+  "forks": 1865,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "functional-programming",
+    "javascript",
+    "reactive-programming",
+    "tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "239468e9bc4ce1f0143722f312eb2487cac846ea",
+  "commit_url": "https://github.com/MostlyAdequate/mostly-adequate-guide/commit/239468e9bc4ce1f0143722f312eb2487cac846ea",
+  "tree_url": "https://github.com/MostlyAdequate/mostly-adequate-guide/tree/239468e9bc4ce1f0143722f312eb2487cac846ea",
+  "analysed_at": "2026-11-14T19:11:03.841995+00:00",
+  "status": "completed",
+  "files_fetched": 124,
+  "files_analysed": 124,
+  "components": [
+    "Configuration and deployment",
+    "exercises package",
+    "support package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "support/index.js",
+    "exercises/ch06/main.js"
+  ]
+}

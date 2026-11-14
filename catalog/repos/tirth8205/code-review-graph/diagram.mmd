@@ -1,0 +1,30 @@
+%% Repository: tirth8205/code-review-graph
+%% Analysed commit: bbdda4b9e4b4818a9f04d7ef96ac0e50da13f208
+%% Commit reference: https://github.com/tirth8205/code-review-graph/commit/bbdda4b9e4b4818a9f04d7ef96ac0e50da13f208
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        code_review_graph["code_review_graph package"]
+        code_review_graph_vscode["code-review-graph-vscode package"]
+        hooks["hooks package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    code_review_graph -->|imports| external_integrations
+    entrypoint -->|imports| code_review_graph
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| code_review_graph
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

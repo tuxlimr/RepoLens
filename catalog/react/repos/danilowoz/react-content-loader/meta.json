@@ -1,0 +1,52 @@
+{
+  "owner": "danilowoz",
+  "name": "react-content-loader",
+  "full_name": "danilowoz/react-content-loader",
+  "html_url": "https://github.com/danilowoz/react-content-loader",
+  "description": "\u26aa SVG-Powered component to easily create skeleton loadings.",
+  "stars": 13997,
+  "forks": 421,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "facebook-cards-loaders",
+    "hacktoberfest",
+    "loader",
+    "loading",
+    "placeholder",
+    "react",
+    "react-native",
+    "react-native-components",
+    "skeleton",
+    "skeleton-screen",
+    "svg"
+  ],
+  "archived": false,
+  "commit_sha": "c8a6b6c6669d7e663f9d7e1efecec08e876b0e5d",
+  "commit_url": "https://github.com/danilowoz/react-content-loader/commit/c8a6b6c6669d7e663f9d7e1efecec08e876b0e5d",
+  "tree_url": "https://github.com/danilowoz/react-content-loader/tree/c8a6b6c6669d7e663f9d7e1efecec08e876b0e5d",
+  "analysed_at": "2026-11-14T19:13:17.554079+00:00",
+  "status": "completed",
+  "files_fetched": 74,
+  "files_analysed": 74,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "__mocks__ package",
+    "native package",
+    "shared package",
+    "web package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    ".storybook/main.ts",
+    "src/native/index.ts",
+    "src/web/index.ts"
+  ]
+}

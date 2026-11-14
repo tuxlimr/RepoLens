@@ -1,0 +1,29 @@
+%% Repository: AhmadHassan-BTed/Ledgerify
+%% Analysed commit: 6e3c40379d762ef2a9b76d4ce48051e9cac04cbe
+%% Commit reference: https://github.com/AhmadHassan-BTed/Ledgerify/commit/6e3c40379d762ef2a9b76d4ce48051e9cac04cbe
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app_tsx["App.tsx package"]
+        components["components package"]
+        context["context package"]
+        main_tsx["main.tsx package"]
+        scripts["scripts package"]
+        styles["styles package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

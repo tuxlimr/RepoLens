@@ -1,0 +1,52 @@
+{
+  "owner": "plouc",
+  "name": "mozaik",
+  "full_name": "plouc/mozaik",
+  "html_url": "https://github.com/plouc/mozaik",
+  "description": "Moza\u00efk is a tool based on nodejs / react / redux / nivo / d3 to easily craft beautiful dashboards",
+  "stars": 3596,
+  "forks": 352,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "d3",
+    "dashboard",
+    "dataviz",
+    "metrics",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "5fc9070d9c3aeb1c53ef1719daa3a7239c23a31b",
+  "commit_url": "https://github.com/plouc/mozaik/commit/5fc9070d9c3aeb1c53ef1719daa3a7239c23a31b",
+  "tree_url": "https://github.com/plouc/mozaik/tree/5fc9070d9c3aeb1c53ef1719daa3a7239c23a31b",
+  "analysed_at": "2026-11-14T19:15:12.350134+00:00",
+  "status": "completed",
+  "files_fetched": 237,
+  "files_analysed": 232,
+  "components": [
+    "Configuration and deployment",
+    "demo package",
+    "packages package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Redux",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "demo/server.js",
+    "demo/src/index.js",
+    "packages/babel-preset/index.js",
+    "packages/server/src/index.ts",
+    "packages/themes/src/index.js",
+    "packages/ui/src/App.js",
+    "packages/ui/src/index.js",
+    "website/src/layouts/index.js",
+    "website/src/pages/index.js"
+  ]
+}

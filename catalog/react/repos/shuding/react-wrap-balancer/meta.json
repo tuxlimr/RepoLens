@@ -1,0 +1,45 @@
+{
+  "owner": "shuding",
+  "name": "react-wrap-balancer",
+  "full_name": "shuding/react-wrap-balancer",
+  "html_url": "https://github.com/shuding/react-wrap-balancer",
+  "description": "Simple React Component That Makes Titles More Readable",
+  "stars": 4214,
+  "forks": 60,
+  "license": "MIT",
+  "language": "HTML",
+  "default_branch": "main",
+  "topics": [
+    "react",
+    "typography",
+    "wrapping"
+  ],
+  "archived": false,
+  "commit_sha": "152d219fac2dd00f2698dda1e1de532a5efb2a0e",
+  "commit_url": "https://github.com/shuding/react-wrap-balancer/commit/152d219fac2dd00f2698dda1e1de532a5efb2a0e",
+  "tree_url": "https://github.com/shuding/react-wrap-balancer/tree/152d219fac2dd00f2698dda1e1de532a5efb2a0e",
+  "analysed_at": "2026-11-14T19:14:51.257738+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 41,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.tsx package",
+    "Tests",
+    "utils.tsx package",
+    "website package"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.tsx",
+    "website/app/page.tsx",
+    "website/src/components/index.ts",
+    "website/src/icons/index.ts",
+    "website/src/sections/index.ts"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "owner": "webrtc",
+  "name": "samples",
+  "full_name": "webrtc/samples",
+  "html_url": "https://github.com/webrtc/samples",
+  "description": "WebRTC Web demos and samples",
+  "stars": 14645,
+  "forks": 5652,
+  "license": "BSD-3-Clause",
+  "language": "JavaScript",
+  "default_branch": "gh-pages",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6bd116932df29815b39ebcbba3415366a6202662",
+  "commit_url": "https://github.com/webrtc/samples/commit/6bd116932df29815b39ebcbba3415366a6202662",
+  "tree_url": "https://github.com/webrtc/samples/tree/6bd116932df29815b39ebcbba3415366a6202662",
+  "analysed_at": "2026-11-14T19:11:44.541392+00:00",
+  "status": "completed",
+  "files_fetched": 236,
+  "files_analysed": 235,
+  "components": [
+    "Configuration and deployment",
+    "content package",
+    "js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": []
+}

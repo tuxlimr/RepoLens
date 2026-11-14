@@ -1,0 +1,37 @@
+{
+  "owner": "APSL",
+  "name": "react-native-keyboard-aware-scroll-view",
+  "full_name": "APSL/react-native-keyboard-aware-scroll-view",
+  "html_url": "https://github.com/APSL/react-native-keyboard-aware-scroll-view",
+  "description": "A ScrollView component that handles keyboard appearance and automatically scrolls to focused TextInput.",
+  "stars": 5366,
+  "forks": 638,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "keyboard",
+    "react",
+    "react-components",
+    "react-native",
+    "scroll-view",
+    "scrollview-component"
+  ],
+  "archived": false,
+  "commit_sha": "9eee405f7b3e261faf86a0fc8e495288d91c853e",
+  "commit_url": "https://github.com/APSL/react-native-keyboard-aware-scroll-view/commit/9eee405f7b3e261faf86a0fc8e495288d91c853e",
+  "tree_url": "https://github.com/APSL/react-native-keyboard-aware-scroll-view/tree/9eee405f7b3e261faf86a0fc8e495288d91c853e",
+  "analysed_at": "2026-11-14T19:14:21.871054+00:00",
+  "status": "completed",
+  "files_fetched": 17,
+  "files_analysed": 16,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

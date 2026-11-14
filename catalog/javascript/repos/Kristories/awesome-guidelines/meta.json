@@ -1,0 +1,39 @@
+{
+  "owner": "Kristories",
+  "name": "awesome-guidelines",
+  "full_name": "Kristories/awesome-guidelines",
+  "html_url": "https://github.com/Kristories/awesome-guidelines",
+  "description": "Programming style, best practices, and coding conventions.",
+  "stars": 11263,
+  "forks": 614,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "awesome",
+    "awesome-guidelines",
+    "awesome-list",
+    "code-quality",
+    "coding-conventions",
+    "guidelines",
+    "hacktoberfest",
+    "style-conventions",
+    "style-guide"
+  ],
+  "archived": false,
+  "commit_sha": "a27b09da1f53cbfff7a82b87c4043a4509dd40e1",
+  "commit_url": "https://github.com/Kristories/awesome-guidelines/commit/a27b09da1f53cbfff7a82b87c4043a4509dd40e1",
+  "tree_url": "https://github.com/Kristories/awesome-guidelines/tree/a27b09da1f53cbfff7a82b87c4043a4509dd40e1",
+  "analysed_at": "2026-11-14T19:12:20.263000+00:00",
+  "status": "completed",
+  "files_fetched": 14,
+  "files_analysed": 14,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,61 @@
+{
+  "owner": "Datalux",
+  "name": "Osintgram",
+  "full_name": "Datalux/Osintgram",
+  "html_url": "https://github.com/Datalux/Osintgram",
+  "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
+  "stars": 15628,
+  "forks": 3282,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "analysis",
+    "hacking",
+    "information-gathering",
+    "instagram",
+    "instagram-account",
+    "instagram-api",
+    "nickname",
+    "osint",
+    "osint-python",
+    "penetration-testing",
+    "python",
+    "python3",
+    "tool"
+  ],
+  "archived": false,
+  "commit_sha": "a560498be79a3bf40d7f3b203ad174661b8e81e7",
+  "commit_url": "https://github.com/Datalux/Osintgram/commit/a560498be79a3bf40d7f3b203ad174661b8e81e7",
+  "tree_url": "https://github.com/Datalux/Osintgram/tree/a560498be79a3bf40d7f3b203ad174661b8e81e7",
+  "analysed_at": "2026-11-14T19:09:00.137825+00:00",
+  "status": "completed",
+  "files_fetched": 39,
+  "files_analysed": 39,
+  "components": [
+    "artwork.py package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "instagrapi_backend.py package",
+    "Service / domain layer",
+    "Tests",
+    "web package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "FastAPI",
+    "httpx",
+    "Pydantic",
+    "Uvicorn",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "src/web/app.py",
+    "scripts/instagrapi_login.py",
+    "scripts/set_session.py"
+  ]
+}

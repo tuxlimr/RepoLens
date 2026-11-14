@@ -1,0 +1,33 @@
+{
+  "owner": "browserslist",
+  "name": "browserslist",
+  "full_name": "browserslist/browserslist",
+  "html_url": "https://github.com/browserslist/browserslist",
+  "description": "\ud83e\udd94 Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env",
+  "stars": 13588,
+  "forks": 798,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "8253b7071aae92f6ea755aee54bc93dee47048a1",
+  "commit_url": "https://github.com/browserslist/browserslist/commit/8253b7071aae92f6ea755aee54bc93dee47048a1",
+  "tree_url": "https://github.com/browserslist/browserslist/tree/8253b7071aae92f6ea755aee54bc93dee47048a1",
+  "analysed_at": "2026-11-14T19:11:55.862248+00:00",
+  "status": "completed",
+  "files_fetched": 97,
+  "files_analysed": 96,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "cli.js",
+    "index.js"
+  ]
+}

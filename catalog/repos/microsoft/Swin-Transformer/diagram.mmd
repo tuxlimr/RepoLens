@@ -1,0 +1,26 @@
+%% Repository: microsoft/Swin-Transformer
+%% Analysed commit: f82860bfb5225915aca09c3227159ee9e1df874d
+%% Commit reference: https://github.com/microsoft/Swin-Transformer/commit/f82860bfb5225915aca09c3227159ee9e1df874d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        kernels["kernels package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| kernels
+    entrypoint -->|imports| config
+    entrypoint -->|imports| core
+    entrypoint -->|imports| data_layer

@@ -1,0 +1,61 @@
+{
+  "owner": "bvaughn",
+  "name": "react-resizable-panels",
+  "full_name": "bvaughn/react-resizable-panels",
+  "html_url": "https://github.com/bvaughn/react-resizable-panels",
+  "description": null,
+  "stars": 5481,
+  "forks": 238,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "group",
+    "layout",
+    "panel",
+    "react",
+    "resizable"
+  ],
+  "archived": false,
+  "commit_sha": "6b22da07c2fa712327059f5c0848e7c90d0fc3c3",
+  "commit_url": "https://github.com/bvaughn/react-resizable-panels/commit/6b22da07c2fa712327059f5c0848e7c90d0fc3c3",
+  "tree_url": "https://github.com/bvaughn/react-resizable-panels/tree/6b22da07c2fa712327059f5c0848e7c90d0fc3c3",
+  "analysed_at": "2026-11-14T19:14:18.797524+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "API layer",
+    "App.tsx package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "embeds package",
+    "External integrations",
+    "hooks package",
+    "lib package",
+    "routes.ts package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Next.js",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "integrations/tests/src/index.ts",
+    "index.tsx",
+    "integrations/next/app/page.tsx",
+    "integrations/vite/src/main.tsx",
+    "lib/index.ts",
+    "src/App.tsx"
+  ]
+}

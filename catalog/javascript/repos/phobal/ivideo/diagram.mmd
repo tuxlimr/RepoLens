@@ -1,0 +1,18 @@
+%% Repository: phobal/ivideo
+%% Analysed commit: e9a26b66177a643f53bbadeb89da45dfee821abc
+%% Commit reference: https://github.com/phobal/ivideo/commit/e9a26b66177a643f53bbadeb89da45dfee821abc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app["app package"]
+        flow_typed["flow-typed package"]
+        internals["internals package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

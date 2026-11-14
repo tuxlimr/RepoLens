@@ -1,0 +1,17 @@
+%% Repository: sub-store-org/Sub-Store
+%% Analysed commit: 2e7a63c6f4d5f067415eefc12bbbf012123e7f8d
+%% Commit reference: https://github.com/sub-store-org/Sub-Store/commit/2e7a63c6f4d5f067415eefc12bbbf012123e7f8d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

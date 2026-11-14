@@ -1,0 +1,56 @@
+{
+  "owner": "ksky521",
+  "name": "nodeppt",
+  "full_name": "ksky521/nodeppt",
+  "html_url": "https://github.com/ksky521/nodeppt",
+  "description": "This is probably the best web presentation tool so far!",
+  "stars": 10329,
+  "forks": 2017,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "css3",
+    "html-presentation",
+    "html5",
+    "javascript",
+    "javascript-library",
+    "keynote",
+    "markdown",
+    "markdown-it",
+    "posthtml",
+    "ppt",
+    "presentation",
+    "slides",
+    "slideshow",
+    "webpack",
+    "webslide"
+  ],
+  "archived": true,
+  "commit_sha": "44f4babb6586d3d0f2dad830e9956a1e39507d47",
+  "commit_url": "https://github.com/ksky521/nodeppt/commit/44f4babb6586d3d0f2dad830e9956a1e39507d47",
+  "tree_url": "https://github.com/ksky521/nodeppt/tree/44f4babb6586d3d0f2dad830e9956a1e39507d47",
+  "analysed_at": "2026-11-14T19:12:41.471270+00:00",
+  "status": "completed",
+  "files_fetched": 170,
+  "files_analysed": 170,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "site package"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/nodeppt-js/index.js",
+    "packages/nodeppt-parser/index.js",
+    "packages/nodeppt-serve/index.js",
+    "packages/nodeppt-shared-utils/index.js",
+    "packages/nodeppt/bin/nodeppt",
+    "packages/nodeppt-serve/config/app.js",
+    "packages/nodeppt-serve/template/main.js"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "bokuweb",
+  "name": "react-rnd",
+  "full_name": "bokuweb/react-rnd",
+  "html_url": "https://github.com/bokuweb/react-rnd",
+  "description": "\ud83d\uddb1  A resizable and draggable component for React.",
+  "stars": 4326,
+  "forks": 327,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "component",
+    "drag",
+    "draggable",
+    "react",
+    "resizable",
+    "resize"
+  ],
+  "archived": false,
+  "commit_sha": "fec7303134ab0f0bbe83fdf975ddc15c340f7e5d",
+  "commit_url": "https://github.com/bokuweb/react-rnd/commit/fec7303134ab0f0bbe83fdf975ddc15c340f7e5d",
+  "tree_url": "https://github.com/bokuweb/react-rnd/tree/fec7303134ab0f0bbe83fdf975ddc15c340f7e5d",
+  "analysed_at": "2026-11-14T19:14:48.887881+00:00",
+  "status": "completed",
+  "files_fetched": 87,
+  "files_analysed": 86,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.test.tsx package",
+    "index.tsx package",
+    "scripts package",
+    "stories package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/index.tsx",
+    "stories/index.tsx"
+  ]
+}

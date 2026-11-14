@@ -1,0 +1,49 @@
+{
+  "owner": "chokcoco",
+  "name": "iCSS",
+  "full_name": "chokcoco/iCSS",
+  "html_url": "https://github.com/chokcoco/iCSS",
+  "description": "\u4e0d\u6b62\u4e8e CSS",
+  "stars": 20623,
+  "forks": 2041,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "css",
+    "css3"
+  ],
+  "archived": false,
+  "commit_sha": "e03eb3e59021dff1e51434cc81626e8a53c525cc",
+  "commit_url": "https://github.com/chokcoco/iCSS/commit/e03eb3e59021dff1e51434cc81626e8a53c525cc",
+  "tree_url": "https://github.com/chokcoco/iCSS/tree/e03eb3e59021dff1e51434cc81626e8a53c525cc",
+  "analysed_at": "2026-11-14T19:11:12.527425+00:00",
+  "status": "completed",
+  "files_fetched": 55,
+  "files_analysed": 53,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "MCP package",
+    "website package"
+  ],
+  "detections": [
+    "SQLite",
+    "Next.js",
+    "React",
+    "axios",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "MCP/server.js",
+    "MCP/bin/icss-mcp.js",
+    "MCP/bin/install.js",
+    "website/app/page.tsx",
+    "website/app/test-api/page.tsx",
+    "website/app/test-demo/page.tsx",
+    "website/app/test-fixes/page.tsx",
+    "website/app/test-theme-lang/page.tsx"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "owner": "sub-store-org",
+  "name": "Sub-Store",
+  "full_name": "sub-store-org/Sub-Store",
+  "html_url": "https://github.com/sub-store-org/Sub-Store",
+  "description": "Advanced Subscription Manager for QX, Loon, Surge, Stash, Egern and Shadowrocket!",
+  "stars": 10904,
+  "forks": 1440,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "clash",
+    "http",
+    "loon",
+    "quantumultx",
+    "shadowrocket",
+    "shadowsocks",
+    "shadowsocksr",
+    "ssr",
+    "stash",
+    "surge4",
+    "trojan",
+    "vmess"
+  ],
+  "archived": false,
+  "commit_sha": "2e7a63c6f4d5f067415eefc12bbbf012123e7f8d",
+  "commit_url": "https://github.com/sub-store-org/Sub-Store/commit/2e7a63c6f4d5f067415eefc12bbbf012123e7f8d",
+  "tree_url": "https://github.com/sub-store-org/Sub-Store/tree/2e7a63c6f4d5f067415eefc12bbbf012123e7f8d",
+  "analysed_at": "2026-11-14T19:12:28.636510+00:00",
+  "status": "completed",
+  "files_fetched": 188,
+  "files_analysed": 179,
+  "components": [
+    "backend package",
+    "Configuration and deployment",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express"
+  ],
+  "entry_points": [
+    "backend/src/main.js",
+    "backend/src/core/app.js",
+    "backend/src/restful/index.js",
+    "backend/src/utils/index.js"
+  ]
+}

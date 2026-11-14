@@ -1,0 +1,41 @@
+{
+  "owner": "jaredhanson",
+  "name": "passport",
+  "full_name": "jaredhanson/passport",
+  "html_url": "https://github.com/jaredhanson/passport",
+  "description": "Simple, unobtrusive authentication for Node.js.",
+  "stars": 23518,
+  "forks": 1245,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "express",
+    "nodejs",
+    "oauth",
+    "oauth2",
+    "openid",
+    "openid-connect",
+    "passport",
+    "saml"
+  ],
+  "archived": false,
+  "commit_sha": "217018dbc46dcd4118dd6f2c60c8d97010c587f8",
+  "commit_url": "https://github.com/jaredhanson/passport/commit/217018dbc46dcd4118dd6f2c60c8d97010c587f8",
+  "tree_url": "https://github.com/jaredhanson/passport/tree/217018dbc46dcd4118dd6f2c60c8d97010c587f8",
+  "analysed_at": "2026-11-14T19:11:04.886420+00:00",
+  "status": "completed",
+  "files_fetched": 53,
+  "files_analysed": 53,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "lib/index.js"
+  ]
+}

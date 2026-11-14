@@ -1,0 +1,39 @@
+{
+  "owner": "composio-community",
+  "name": "awesome-codex-skills",
+  "full_name": "composio-community/awesome-codex-skills",
+  "html_url": "https://github.com/composio-community/awesome-codex-skills",
+  "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+  "stars": 17322,
+  "forks": 1768,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-lists",
+    "awesome-resources",
+    "codex",
+    "codex-cli",
+    "codex-skills",
+    "coding-agent-skills",
+    "coding-agents",
+    "gpt-5-1-codex",
+    "gpt-5-codex",
+    "llm",
+    "skills"
+  ],
+  "archived": false,
+  "commit_sha": "0930e1373789d2eda449039f7ac154b33031de89",
+  "commit_url": "https://github.com/composio-community/awesome-codex-skills/commit/0930e1373789d2eda449039f7ac154b33031de89",
+  "tree_url": "https://github.com/composio-community/awesome-codex-skills/tree/0930e1373789d2eda449039f7ac154b33031de89",
+  "analysed_at": "2026-11-14T19:08:36.385922+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

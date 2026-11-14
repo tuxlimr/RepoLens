@@ -1,0 +1,21 @@
+%% Repository: gitalk/gitalk
+%% Analysed commit: b1b478e877fac68d6632b843b00c33d3f32c2dad
+%% Commit reference: https://github.com/gitalk/gitalk/commit/b1b478e877fac68d6632b843b00c33d3f32c2dad
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        packages["packages package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

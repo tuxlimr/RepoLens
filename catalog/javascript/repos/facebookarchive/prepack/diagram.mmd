@@ -1,0 +1,38 @@
+%% Repository: facebookarchive/prepack
+%% Analysed commit: 5beedbe85bd5b9d2de1264abafbb3b76f8584297
+%% Commit reference: https://github.com/facebookarchive/prepack/commit/5beedbe85bd5b9d2de1264abafbb3b76f8584297
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        benchmarker_js["benchmarker.js package"]
+        bin["bin package"]
+        completions_js["completions.js package"]
+        construct_realm_js["construct_realm.js package"]
+        debugger["debugger package"]
+        descriptors_js["descriptors.js package"]
+        domains["domains package"]
+        environment_js["environment.js package"]
+        errors_js["errors.js package"]
+        evaluators["evaluators package"]
+        flow_typed["flow-typed package"]
+        fuzzer["fuzzer package"]
+        globals_js["globals.js package"]
+        initialize_singletons_js["initialize-singletons.js package"]
+        intrinsics["intrinsics package"]
+        methods["methods package"]
+        react["react package"]
+        scripts["scripts package"]
+        serializer["serializer package"]
+        utils["utils package"]
+        values["values package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (13 merged)"]
+    %% Note: 13 smaller component(s) merged into 'other' to keep the diagram readable.

@@ -1,0 +1,49 @@
+{
+  "owner": "reactjs",
+  "name": "react-transition-group",
+  "full_name": "reactjs/react-transition-group",
+  "html_url": "https://github.com/reactjs/react-transition-group",
+  "description": "An easy way to perform animations when a React component enters or leaves the DOM",
+  "stars": 10213,
+  "forks": 638,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "2989b5b87b4b4d1001f21c8efa503049ffb4fe8d",
+  "commit_url": "https://github.com/reactjs/react-transition-group/commit/2989b5b87b4b4d1001f21c8efa503049ffb4fe8d",
+  "tree_url": "https://github.com/reactjs/react-transition-group/tree/2989b5b87b4b4d1001f21c8efa503049ffb4fe8d",
+  "analysed_at": "2026-11-14T19:12:42.564626+00:00",
+  "status": "completed",
+  "files_fetched": 69,
+  "files_analysed": 68,
+  "components": [
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "CSSTransition.js package",
+    "index.js package",
+    "ReplaceTransition.js package",
+    "stories package",
+    "SwitchTransition.js package",
+    "Tests",
+    "Transition.js package",
+    "TransitionGroup.js package",
+    "TransitionGroupContext.js package",
+    "utils package",
+    "www package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    ".storybook/main.js",
+    "src/index.js",
+    "stories/index.js",
+    "www/src/pages/index.js"
+  ]
+}

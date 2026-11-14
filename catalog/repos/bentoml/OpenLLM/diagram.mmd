@@ -1,0 +1,27 @@
+%% Repository: bentoml/OpenLLM
+%% Analysed commit: 200b37fbf6f75b174e0737b937b886af460495e9
+%% Commit reference: https://github.com/bentoml/OpenLLM/commit/200b37fbf6f75b174e0737b937b886af460495e9
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        openllm["openllm package"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| openllm
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| openllm
+    openllm -->|imports| external_integrations

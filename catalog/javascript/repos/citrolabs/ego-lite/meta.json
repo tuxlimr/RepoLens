@@ -1,0 +1,48 @@
+{
+  "owner": "citrolabs",
+  "name": "ego-lite",
+  "full_name": "citrolabs/ego-lite",
+  "html_url": "https://github.com/citrolabs/ego-lite",
+  "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+  "stars": 22877,
+  "forks": 1293,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-agent",
+    "automation",
+    "browser",
+    "browser-automation",
+    "claude-code",
+    "codex",
+    "hermes-agent",
+    "skills",
+    "skills-sh"
+  ],
+  "archived": false,
+  "commit_sha": "bacaece43900e8ca68eea3b6f1663835ea38df9e",
+  "commit_url": "https://github.com/citrolabs/ego-lite/commit/bacaece43900e8ca68eea3b6f1663835ea38df9e",
+  "tree_url": "https://github.com/citrolabs/ego-lite/tree/bacaece43900e8ca68eea3b6f1663835ea38df9e",
+  "analysed_at": "2026-11-14T19:11:06.371010+00:00",
+  "status": "completed",
+  "files_fetched": 243,
+  "files_analysed": 242,
+  "components": [
+    "Configuration and deployment",
+    "package package",
+    "plugins package",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    ".github/star-history/postprocess-svg.py",
+    "package/ego-browser/src/index.ts",
+    "plugins/ego/index.js"
+  ]
+}

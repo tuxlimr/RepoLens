@@ -1,0 +1,38 @@
+%% Repository: mlfoundations/open_clip
+%% Analysed commit: 4cc208d3a44a2fb6d6435006a46f520d2ccc29b1
+%% Commit reference: https://github.com/mlfoundations/open_clip/commit/4cc208d3a44a2fb6d6435006a46f520d2ccc29b1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        open_clip["open_clip package"]
+        open_clip_train["open_clip_train package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| open_clip
+    entrypoint -->|imports| open_clip
+    entrypoint -->|imports| open_clip_train
+    open_clip -->|imports| config
+    open_clip -->|imports| data_layer
+    open_clip -->|imports| open_clip_train
+    open_clip_train -->|imports| external_integrations
+    open_clip_train -->|imports| open_clip
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| open_clip
+    tests -->|imports| open_clip_train

@@ -1,0 +1,53 @@
+{
+  "owner": "typicode",
+  "name": "json-server",
+  "full_name": "typicode/json-server",
+  "html_url": "https://github.com/typicode/json-server",
+  "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+  "stars": 75743,
+  "forks": 7278,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "api",
+    "fake",
+    "frontend",
+    "json",
+    "mock",
+    "rest",
+    "test"
+  ],
+  "archived": false,
+  "commit_sha": "89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+  "commit_url": "https://github.com/typicode/json-server/commit/89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+  "tree_url": "https://github.com/typicode/json-server/tree/89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+  "analysed_at": "2026-11-14T19:10:33.483654+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 32,
+  "components": [
+    "app.test.ts package",
+    "app.ts package",
+    "bin.ts package",
+    "Configuration and deployment",
+    "External integrations",
+    "matches-where.test.ts package",
+    "matches-where.ts package",
+    "paginate.test.ts package",
+    "paginate.ts package",
+    "parse-where.test.ts package",
+    "parse-where.ts package",
+    "random-id.ts package",
+    "service.test.ts package",
+    "service.ts package",
+    "where-operators.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/app.ts"
+  ]
+}

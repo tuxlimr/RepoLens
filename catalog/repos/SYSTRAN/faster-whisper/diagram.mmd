@@ -1,0 +1,21 @@
+%% Repository: SYSTRAN/faster-whisper
+%% Analysed commit: 6cb639e70786aea42b9233006ae60eaf07190bdb
+%% Commit reference: https://github.com/SYSTRAN/faster-whisper/commit/6cb639e70786aea42b9233006ae60eaf07190bdb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        benchmark["benchmark package"]
+        docker["docker package"]
+        faster_whisper["faster_whisper package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmark -->|imports| faster_whisper
+    docker -->|imports| faster_whisper
+    tests -->|imports| faster_whisper

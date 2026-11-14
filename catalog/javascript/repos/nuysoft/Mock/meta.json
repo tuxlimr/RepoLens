@@ -1,0 +1,39 @@
+{
+  "owner": "nuysoft",
+  "name": "Mock",
+  "full_name": "nuysoft/Mock",
+  "html_url": "https://github.com/nuysoft/Mock",
+  "description": "A simulation data generator",
+  "stars": 19546,
+  "forks": 2625,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "refactoring",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "00ce04b92eb464e664a4438430903f2de96efb47",
+  "commit_url": "https://github.com/nuysoft/Mock/commit/00ce04b92eb464e664a4438430903f2de96efb47",
+  "tree_url": "https://github.com/nuysoft/Mock/tree/00ce04b92eb464e664a4438430903f2de96efb47",
+  "analysed_at": "2026-11-14T19:11:17.477367+00:00",
+  "status": "completed",
+  "files_fetched": 57,
+  "files_analysed": 56,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "mock package",
+    "mock.js package",
+    "Tests"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": [
+    "bin/random",
+    "src/mock/random/index.js",
+    "src/mock/regexp/index.js",
+    "src/mock/schema/index.js",
+    "src/mock/valid/index.js",
+    "src/mock/xhr/index.js"
+  ]
+}

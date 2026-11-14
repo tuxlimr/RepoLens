@@ -1,0 +1,47 @@
+{
+  "owner": "you-dont-need",
+  "name": "You-Dont-Need-Lodash-Underscore",
+  "full_name": "you-dont-need/You-Dont-Need-Lodash-Underscore",
+  "html_url": "https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore",
+  "description": "List of JavaScript methods which you can use natively + ESLint Plugin",
+  "stars": 19113,
+  "forks": 814,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "alternatives",
+    "eslint-plugin",
+    "findindex",
+    "hacktoberfest",
+    "isnan",
+    "javascript",
+    "javascript-methods",
+    "lastindexof",
+    "lodash",
+    "native",
+    "reduceright",
+    "underscore",
+    "utilities"
+  ],
+  "archived": false,
+  "commit_sha": "8baa6bf52cf339b3e80ac72294ba848b5f31a38b",
+  "commit_url": "https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/commit/8baa6bf52cf339b3e80ac72294ba848b5f31a38b",
+  "tree_url": "https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/tree/8baa6bf52cf339b3e80ac72294ba848b5f31a38b",
+  "analysed_at": "2026-11-14T19:11:18.056831+00:00",
+  "status": "completed",
+  "files_fetched": 19,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

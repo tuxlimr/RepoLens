@@ -1,0 +1,24 @@
+%% Repository: magic-wormhole/magic-wormhole
+%% Analysed commit: 657bd5d51c67db2109219ff57b7d997afa57261f
+%% Commit reference: https://github.com/magic-wormhole/magic-wormhole/commit/657bd5d51c67db2109219ff57b7d997afa57261f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        misc["misc package"]
+        wormhole["wormhole package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| entrypoint
+    entrypoint -->|imports| wormhole
+    tests -->|imports| wormhole
+    wormhole -->|imports| external_integrations

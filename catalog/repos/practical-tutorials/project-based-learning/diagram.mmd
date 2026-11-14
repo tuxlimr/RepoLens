@@ -1,0 +1,11 @@
+%% Repository: practical-tutorials/project-based-learning
+%% Analysed commit: 322fb30147c809574ed71d1c34e3480e80a6b0e8
+%% Commit reference: https://github.com/practical-tutorials/project-based-learning/commit/322fb30147c809574ed71d1c34e3480e80a6b0e8
+flowchart TD
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    entrypoint -->|imports| external_integrations

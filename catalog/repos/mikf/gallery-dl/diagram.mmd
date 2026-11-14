@@ -1,0 +1,28 @@
+%% Repository: mikf/gallery-dl
+%% Analysed commit: 26dfd4eea885577fef45e9b614538e5a7d24583a
+%% Commit reference: https://github.com/mikf/gallery-dl/commit/26dfd4eea885577fef45e9b614538e5a7d24583a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        gallery_dl["gallery_dl package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| gallery_dl
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| gallery_dl
+    entrypoint -->|imports| tests
+    gallery_dl -->|imports| external_integrations
+    scripts -->|imports| gallery_dl
+    scripts -->|imports| tests
+    tests -->|imports| gallery_dl

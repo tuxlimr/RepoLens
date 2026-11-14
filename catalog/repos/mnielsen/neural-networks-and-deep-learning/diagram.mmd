@@ -1,0 +1,23 @@
+%% Repository: mnielsen/neural-networks-and-deep-learning
+%% Analysed commit: 72db53d750f571bef8804de4a52224e44dcab3a1
+%% Commit reference: https://github.com/mnielsen/neural-networks-and-deep-learning/commit/72db53d750f571bef8804de4a52224e44dcab3a1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        conv_py["conv.py package"]
+        expand_mnist_py["expand_mnist.py package"]
+        fig["fig package"]
+        mnist_average_darkness_py["mnist_average_darkness.py package"]
+        mnist_loader_py["mnist_loader.py package"]
+        mnist_svm_py["mnist_svm.py package"]
+        network2_py["network2.py package"]
+        network3_py["network3.py package"]
+        network_py["network.py package"]
+    end
+    entrypoint -->|imports| mnist_loader_py
+    fig -->|imports| mnist_loader_py

@@ -1,0 +1,46 @@
+{
+  "owner": "SimulatedGREG",
+  "name": "electron-vue",
+  "full_name": "SimulatedGREG/electron-vue",
+  "html_url": "https://github.com/SimulatedGREG/electron-vue",
+  "description": "An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack.",
+  "stars": 15341,
+  "forks": 1500,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "babel",
+    "boilerplate",
+    "documentation",
+    "electron",
+    "electron-builder",
+    "electron-packager",
+    "end-to-end-testing",
+    "es6",
+    "unit-testing",
+    "vue",
+    "vue-cli",
+    "webpack"
+  ],
+  "archived": true,
+  "commit_sha": "8d4ed607d65300381a8f47d97923eb07832b1a9a",
+  "commit_url": "https://github.com/SimulatedGREG/electron-vue/commit/8d4ed607d65300381a8f47d97923eb07832b1a9a",
+  "tree_url": "https://github.com/SimulatedGREG/electron-vue/tree/8d4ed607d65300381a8f47d97923eb07832b1a9a",
+  "analysed_at": "2026-11-14T19:11:39.072747+00:00",
+  "status": "completed",
+  "files_fetched": 207,
+  "files_analysed": 205,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "template package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "meta.js",
+    "template/src/main/index.js",
+    "template/src/renderer/main.js"
+  ]
+}

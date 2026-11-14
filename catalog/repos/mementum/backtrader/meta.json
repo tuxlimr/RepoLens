@@ -1,0 +1,55 @@
+{
+  "owner": "mementum",
+  "name": "backtrader",
+  "full_name": "mementum/backtrader",
+  "html_url": "https://github.com/mementum/backtrader",
+  "description": "Python Backtesting library for trading strategies",
+  "stars": 23740,
+  "forks": 5327,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "backtesting",
+    "metaclass",
+    "python",
+    "trading"
+  ],
+  "archived": false,
+  "commit_sha": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+  "commit_url": "https://github.com/mementum/backtrader/commit/b853d7c90b6721476eb5a5ea3135224e33db1f14",
+  "tree_url": "https://github.com/mementum/backtrader/tree/b853d7c90b6721476eb5a5ea3135224e33db1f14",
+  "analysed_at": "2026-11-14T19:07:47.204502+00:00",
+  "status": "completed",
+  "files_fetched": 372,
+  "files_analysed": 372,
+  "components": [
+    "backtrader package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "samples package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "backtrader/btrun/__init__.py",
+    "backtrader/btrun/btrun.py",
+    "contrib/samples/pair-trading/pair-trading.py",
+    "contrib/utils/influxdb-import.py",
+    "contrib/utils/iqfeed-to-influxdb.py",
+    "samples/analyzer-annualreturn/analyzer-annualreturn.py",
+    "samples/bidask-to-ohlc/bidask-to-ohlc.py",
+    "samples/bracket/bracket.py",
+    "samples/btfd/btfd.py",
+    "samples/calendar-days/calendar-days.py",
+    "samples/calmar/calmar-test.py",
+    "samples/cheat-on-open/cheat-on-open.py"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "owner": "sanic-org",
+  "name": "sanic",
+  "full_name": "sanic-org/sanic",
+  "html_url": "https://github.com/sanic-org/sanic",
+  "description": " Accelerate your web app development  | Build fast. Run fast.",
+  "stars": 18633,
+  "forks": 1618,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "api-server",
+    "asgi",
+    "asyncio",
+    "framework",
+    "python",
+    "sanic",
+    "web",
+    "web-framework",
+    "web-server"
+  ],
+  "archived": false,
+  "commit_sha": "5ffc7b3710838eaf016d2f9612a86a08626915e5",
+  "commit_url": "https://github.com/sanic-org/sanic/commit/5ffc7b3710838eaf016d2f9612a86a08626915e5",
+  "tree_url": "https://github.com/sanic-org/sanic/tree/5ffc7b3710838eaf016d2f9612a86a08626915e5",
+  "analysed_at": "2026-11-14T19:08:22.599429+00:00",
+  "status": "completed",
+  "files_fetched": 642,
+  "files_analysed": 635,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "guide package",
+    "sanic package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "httpx",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "guide/content/en/migrate.py",
+    "sanic/__main__.py",
+    "scripts/changelog.py",
+    "scripts/release.py"
+  ]
+}

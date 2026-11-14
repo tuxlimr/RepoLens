@@ -1,0 +1,34 @@
+{
+  "owner": "vitejs",
+  "name": "awesome-vite",
+  "full_name": "vitejs/awesome-vite",
+  "html_url": "https://github.com/vitejs/awesome-vite",
+  "description": "\u26a1\ufe0f A curated list of awesome things related to Vite.js",
+  "stars": 17295,
+  "forks": 1341,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "vite",
+    "vitejs"
+  ],
+  "archived": false,
+  "commit_sha": "ec6b41d8295ed4a18a58778a1219aa430bb55963",
+  "commit_url": "https://github.com/vitejs/awesome-vite/commit/ec6b41d8295ed4a18a58778a1219aa430bb55963",
+  "tree_url": "https://github.com/vitejs/awesome-vite/tree/ec6b41d8295ed4a18a58778a1219aa430bb55963",
+  "analysed_at": "2026-11-14T19:11:28.400431+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

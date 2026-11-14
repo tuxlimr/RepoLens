@@ -1,0 +1,53 @@
+{
+  "owner": "waditu",
+  "name": "tushare",
+  "full_name": "waditu/tushare",
+  "html_url": "https://github.com/waditu/tushare",
+  "description": "TuShare is a utility for crawling historical data of China stocks",
+  "stars": 15493,
+  "forks": 4419,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "finance",
+    "fintech",
+    "pandas",
+    "python",
+    "realtime-quotes-data",
+    "stock-data",
+    "stock-market",
+    "tushare"
+  ],
+  "archived": false,
+  "commit_sha": "093856995af0811d3ebbe8c179b8febf4ae706f0",
+  "commit_url": "https://github.com/waditu/tushare/commit/093856995af0811d3ebbe8c179b8febf4ae706f0",
+  "tree_url": "https://github.com/waditu/tushare/tree/093856995af0811d3ebbe8c179b8febf4ae706f0",
+  "analysed_at": "2026-11-14T19:09:01.847535+00:00",
+  "status": "completed",
+  "files_fetched": 91,
+  "files_analysed": 91,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "tushare package"
+  ],
+  "detections": [
+    "MongoDB",
+    "NumPy",
+    "pandas",
+    "requests",
+    "SQLAlchemy",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "test_unittest.py",
+    "tushare/bond/bonds.py",
+    "tushare/pro/data_pro.py",
+    "tushare/stock/trendline.py"
+  ]
+}

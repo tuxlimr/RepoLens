@@ -1,0 +1,25 @@
+%% Repository: chaskiq/chaskiq
+%% Analysed commit: 46dfdd11c63c6849ecde16a0dcc54d388e2613a3
+%% Commit reference: https://github.com/chaskiq/chaskiq/commit/46dfdd11c63c6849ecde16a0dcc54d388e2613a3
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

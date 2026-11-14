@@ -1,0 +1,29 @@
+%% Repository: ixartz/SaaS-Boilerplate
+%% Analysed commit: e3952a7ed5b0ef172ac4363c4644b8c334d1094b
+%% Commit reference: https://github.com/ixartz/SaaS-Boilerplate/commit/e3952a7ed5b0ef172ac4363c4644b8c334d1094b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        features["features package"]
+        hooks["hooks package"]
+        instrumentation_client_ts["instrumentation-client.ts package"]
+        instrumentation_ts["instrumentation.ts package"]
+        libs["libs package"]
+        proxy_ts["proxy.ts package"]
+        templates["templates package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

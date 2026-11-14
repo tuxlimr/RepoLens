@@ -1,0 +1,46 @@
+{
+  "owner": "anthropics",
+  "name": "financial-services",
+  "full_name": "anthropics/financial-services",
+  "html_url": "https://github.com/anthropics/financial-services",
+  "description": null,
+  "stars": 41287,
+  "forks": 5753,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f",
+  "commit_url": "https://github.com/anthropics/financial-services/commit/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f",
+  "tree_url": "https://github.com/anthropics/financial-services/tree/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f",
+  "analysed_at": "2026-11-14T19:06:40.822197+00:00",
+  "status": "completed",
+  "files_fetched": 363,
+  "files_analysed": 362,
+  "components": [
+    "claude-for-msft-365-install package",
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "requests",
+    "Uvicorn"
+  ],
+  "entry_points": [
+    "plugins/agent-plugins/model-builder/skills/dcf-model/scripts/validate_dcf.py",
+    "plugins/agent-plugins/pitch-agent/skills/dcf-model/scripts/validate_dcf.py",
+    "plugins/agent-plugins/pitch-agent/skills/ib-check-deck/scripts/extract_numbers.py",
+    "plugins/vertical-plugins/financial-analysis/skills/dcf-model/scripts/validate_dcf.py",
+    "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/scripts/extract_numbers.py",
+    "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/init_skill.py",
+    "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/package_skill.py",
+    "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/quick_validate.py",
+    "scripts/orchestrate.py",
+    "scripts/validate.py",
+    "scripts/version_bump.py"
+  ]
+}

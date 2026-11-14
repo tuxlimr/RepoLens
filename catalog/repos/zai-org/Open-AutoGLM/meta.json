@@ -1,0 +1,42 @@
+{
+  "owner": "zai-org",
+  "name": "Open-AutoGLM",
+  "full_name": "zai-org/Open-AutoGLM",
+  "html_url": "https://github.com/zai-org/Open-AutoGLM",
+  "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+  "stars": 26592,
+  "forks": 4062,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "phone-use-agent"
+  ],
+  "archived": false,
+  "commit_sha": "86f55382982fb054e8fc98ca80609dff8a2cdc3c",
+  "commit_url": "https://github.com/zai-org/Open-AutoGLM/commit/86f55382982fb054e8fc98ca80609dff8a2cdc3c",
+  "tree_url": "https://github.com/zai-org/Open-AutoGLM/tree/86f55382982fb054e8fc98ca80609dff8a2cdc3c",
+  "analysed_at": "2026-11-14T19:07:21.836686+00:00",
+  "status": "completed",
+  "files_fetched": 55,
+  "files_analysed": 55,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "phone_agent package"
+  ],
+  "detections": [
+    "requests",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "ios.py",
+    "main.py",
+    "phone_agent/hdc/device.py",
+    "scripts/check_deployment_cn.py",
+    "scripts/check_deployment_en.py"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "owner": "vasturiano",
+  "name": "react-force-graph",
+  "full_name": "vasturiano/react-force-graph",
+  "html_url": "https://github.com/vasturiano/react-force-graph",
+  "description": "React component for 2D, 3D, VR and AR force directed graphs",
+  "stars": 3364,
+  "forks": 356,
+  "license": "MIT",
+  "language": "HTML",
+  "default_branch": "master",
+  "topics": [
+    "3d",
+    "augmented-reality",
+    "canvas",
+    "d3-force",
+    "force-directed-graphs",
+    "react",
+    "vr",
+    "webgl"
+  ],
+  "archived": false,
+  "commit_sha": "8c301c7a05b22c489b5724301bec52911b51d966",
+  "commit_url": "https://github.com/vasturiano/react-force-graph/commit/8c301c7a05b22c489b5724301bec52911b51d966",
+  "tree_url": "https://github.com/vasturiano/react-force-graph/tree/8c301c7a05b22c489b5724301bec52911b51d966",
+  "analysed_at": "2026-11-14T19:15:22.015747+00:00",
+  "status": "completed",
+  "files_fetched": 66,
+  "files_analysed": 66,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "forcegraph-proptypes.js package",
+    "index.d.ts package",
+    "index.js package",
+    "packages package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.js",
+    "src/packages/react-force-graph-2d/index.js",
+    "src/packages/react-force-graph-3d/index.js",
+    "src/packages/react-force-graph-ar/index.js",
+    "src/packages/react-force-graph-vr/index.js"
+  ]
+}

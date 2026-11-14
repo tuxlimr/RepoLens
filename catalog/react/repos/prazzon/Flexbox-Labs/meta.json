@@ -1,0 +1,44 @@
+{
+  "owner": "prazzon",
+  "name": "Flexbox-Labs",
+  "full_name": "prazzon/Flexbox-Labs",
+  "html_url": "https://github.com/prazzon/Flexbox-Labs",
+  "description": "A web app for creating flexible layouts with the power of CSS Flexbox.",
+  "stars": 4061,
+  "forks": 366,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "framer-motion",
+    "react",
+    "sass",
+    "typescript",
+    "typescript-react",
+    "vite"
+  ],
+  "archived": false,
+  "commit_sha": "39416e136100825caf10e1963579e6bd3c19f873",
+  "commit_url": "https://github.com/prazzon/Flexbox-Labs/commit/39416e136100825caf10e1963579e6bd3c19f873",
+  "tree_url": "https://github.com/prazzon/Flexbox-Labs/tree/39416e136100825caf10e1963579e6bd3c19f873",
+  "analysed_at": "2026-11-14T19:14:55.585152+00:00",
+  "status": "completed",
+  "files_fetched": 171,
+  "files_analysed": 171,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Redux Toolkit",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/(playground)/flexbox/page.tsx",
+    "app/(playground)/grid/page.tsx",
+    "app/page.tsx"
+  ]
+}

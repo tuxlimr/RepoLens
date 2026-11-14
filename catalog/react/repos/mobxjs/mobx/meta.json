@@ -1,0 +1,49 @@
+{
+  "owner": "mobxjs",
+  "name": "mobx",
+  "full_name": "mobxjs/mobx",
+  "html_url": "https://github.com/mobxjs/mobx",
+  "description": "Simple, scalable state management.",
+  "stars": 28211,
+  "forks": 1811,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "mobx",
+    "react",
+    "reactive-programming",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "bf94b8e866c58995f78189c5412cf06042012720",
+  "commit_url": "https://github.com/mobxjs/mobx/commit/bf94b8e866c58995f78189c5412cf06042012720",
+  "tree_url": "https://github.com/mobxjs/mobx/tree/bf94b8e866c58995f78189c5412cf06042012720",
+  "analysed_at": "2026-11-14T19:13:04.458929+00:00",
+  "status": "completed",
+  "files_fetched": 370,
+  "files_analysed": 366,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/mobx-undecorate/cli.js",
+    "packages/eslint-plugin-mobx/src/index.ts",
+    "packages/mobx-react-lite/src/index.ts",
+    "packages/mobx-react/src/index.ts",
+    "scripts/size/index.js"
+  ]
+}

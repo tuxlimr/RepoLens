@@ -1,0 +1,46 @@
+{
+  "owner": "xnimorz",
+  "name": "use-debounce",
+  "full_name": "xnimorz/use-debounce",
+  "html_url": "https://github.com/xnimorz/use-debounce",
+  "description": "A debounce hook for react",
+  "stars": 3381,
+  "forks": 119,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "debounce",
+    "react",
+    "react-hook",
+    "react-hooks",
+    "react-use",
+    "usedebounce"
+  ],
+  "archived": false,
+  "commit_sha": "771f915e21bf5d8f4cab626b6cb7bebbec2681fb",
+  "commit_url": "https://github.com/xnimorz/use-debounce/commit/771f915e21bf5d8f4cab626b6cb7bebbec2681fb",
+  "tree_url": "https://github.com/xnimorz/use-debounce/tree/771f915e21bf5d8f4cab626b6cb7bebbec2681fb",
+  "analysed_at": "2026-11-14T19:15:21.463804+00:00",
+  "status": "completed",
+  "files_fetched": 20,
+  "files_analysed": 20,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "Tests",
+    "useDebounce.ts package",
+    "useDebouncedCallback.ts package",
+    "useThrottledCallback.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "owner": "postcss",
+  "name": "autoprefixer",
+  "full_name": "postcss/autoprefixer",
+  "html_url": "https://github.com/postcss/autoprefixer",
+  "description": " Parse CSS and add vendor prefixes to rules by Can I Use",
+  "stars": 22197,
+  "forks": 1289,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "postcss-plugins",
+    "prefixer"
+  ],
+  "archived": false,
+  "commit_sha": "58135fad52420576fce568223603ab1e382329ea",
+  "commit_url": "https://github.com/postcss/autoprefixer/commit/58135fad52420576fce568223603ab1e382329ea",
+  "tree_url": "https://github.com/postcss/autoprefixer/tree/58135fad52420576fce568223603ab1e382329ea",
+  "analysed_at": "2026-11-14T19:11:09.015375+00:00",
+  "status": "completed",
+  "files_fetched": 279,
+  "files_analysed": 278,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "lib/autoprefixer.js",
+    "bin/autoprefixer"
+  ]
+}

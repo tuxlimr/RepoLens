@@ -1,0 +1,46 @@
+{
+  "owner": "GoogleChromeLabs",
+  "name": "quicklink",
+  "full_name": "GoogleChromeLabs/quicklink",
+  "html_url": "https://github.com/GoogleChromeLabs/quicklink",
+  "description": "\u26a1\ufe0fFaster subsequent page-loads by prefetching in-viewport links during idle time",
+  "stars": 11306,
+  "forks": 428,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "performance",
+    "prefetch",
+    "prefetcher",
+    "speed",
+    "web-performance"
+  ],
+  "archived": false,
+  "commit_sha": "e2f081b78f518a108a47b9046428a36f96f74f1e",
+  "commit_url": "https://github.com/GoogleChromeLabs/quicklink/commit/e2f081b78f518a108a47b9046428a36f96f74f1e",
+  "tree_url": "https://github.com/GoogleChromeLabs/quicklink/tree/e2f081b78f518a108a47b9046428a36f96f74f1e",
+  "analysed_at": "2026-11-14T19:12:19.961599+00:00",
+  "status": "completed",
+  "files_fetched": 164,
+  "files_analysed": 161,
+  "components": [
+    "API layer",
+    "chunks.mjs package",
+    "Configuration and deployment",
+    "Core modules",
+    "demos package",
+    "index.mjs package",
+    "prefetch.mjs package",
+    "prerender.mjs package",
+    "react-chunks.js package",
+    "request-idle-callback.mjs package",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React"
+  ],
+  "entry_points": []
+}

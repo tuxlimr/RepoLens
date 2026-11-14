@@ -1,0 +1,47 @@
+{
+  "owner": "huggingface",
+  "name": "smolagents",
+  "full_name": "huggingface/smolagents",
+  "html_url": "https://github.com/huggingface/smolagents",
+  "description": "\ud83e\udd17 smolagents: a barebones library for agents that think in code.",
+  "stars": 30369,
+  "forks": 3216,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "96f33faaf028479119ec8d34507b47694cf14e34",
+  "commit_url": "https://github.com/huggingface/smolagents/commit/96f33faaf028479119ec8d34507b47694cf14e34",
+  "tree_url": "https://github.com/huggingface/smolagents/tree/96f33faaf028479119ec8d34507b47694cf14e34",
+  "analysed_at": "2026-11-14T19:07:09.658024+00:00",
+  "status": "completed",
+  "files_fetched": 184,
+  "files_analysed": 184,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "smolagents package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Starlette",
+    "AWS (boto3)",
+    "NumPy",
+    "pandas",
+    "requests",
+    "SQLAlchemy",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/smolagents/cli.py",
+    "src/smolagents/vision_web_browser.py"
+  ]
+}

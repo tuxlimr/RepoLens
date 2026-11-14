@@ -1,0 +1,41 @@
+{
+  "owner": "adrianhajdin",
+  "name": "project_chat_application",
+  "full_name": "adrianhajdin/project_chat_application",
+  "html_url": "https://github.com/adrianhajdin/project_chat_application",
+  "description": "This is a code repository for the corresponding YouTube video. In this tutorial we are going to build and deploy a real time chat application. Covered topics: React.js, Node.js, Express.js, and Socket.io.",
+  "stars": 4132,
+  "forks": 1849,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-hooks",
+    "react-project",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "c0b49d1e66cbe78d238419ed2746259ec84be8e8",
+  "commit_url": "https://github.com/adrianhajdin/project_chat_application/commit/c0b49d1e66cbe78d238419ed2746259ec84be8e8",
+  "tree_url": "https://github.com/adrianhajdin/project_chat_application/tree/c0b49d1e66cbe78d238419ed2746259ec84be8e8",
+  "analysed_at": "2026-11-14T19:14:52.337002+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 31,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "server package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "React Router"
+  ],
+  "entry_points": [
+    "server/index.js",
+    "client/src/App.js",
+    "client/src/index.js"
+  ]
+}

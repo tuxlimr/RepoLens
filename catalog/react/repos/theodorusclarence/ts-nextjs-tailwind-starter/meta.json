@@ -1,0 +1,63 @@
+{
+  "owner": "theodorusclarence",
+  "name": "ts-nextjs-tailwind-starter",
+  "full_name": "theodorusclarence/ts-nextjs-tailwind-starter",
+  "html_url": "https://github.com/theodorusclarence/ts-nextjs-tailwind-starter",
+  "description": "\ud83d\udd0b Next.js + Tailwind CSS + TypeScript starter and boilerplate packed with useful development features",
+  "stars": 3405,
+  "forks": 607,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "absolute-imports",
+    "boilerplate",
+    "boilerplate-template",
+    "eslint",
+    "github-actions",
+    "husky",
+    "jest",
+    "nextjs",
+    "nextjs-boilerplate",
+    "nextjs-starter",
+    "react",
+    "snippets",
+    "starter",
+    "starter-template",
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-starter-kit",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "749ead17ba98170f713da39de0e5b2306f7e86bf",
+  "commit_url": "https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/commit/749ead17ba98170f713da39de0e5b2306f7e86bf",
+  "tree_url": "https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/tree/749ead17ba98170f713da39de0e5b2306f7e86bf",
+  "analysed_at": "2026-11-14T19:15:19.921363+00:00",
+  "status": "completed",
+  "files_fetched": 66,
+  "files_analysed": 65,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "constant package",
+    "Core modules",
+    "lib package",
+    "__mocks__ package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/app/components/page.tsx",
+    "src/app/page.tsx"
+  ]
+}

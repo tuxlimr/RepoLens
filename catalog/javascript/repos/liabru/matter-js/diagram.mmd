@@ -1,0 +1,26 @@
+%% Repository: liabru/matter-js
+%% Analysed commit: b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5
+%% Commit reference: https://github.com/liabru/matter-js/commit/b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        body["body package"]
+        collision["collision package"]
+        constraint["constraint package"]
+        demo["demo package"]
+        factory["factory package"]
+        geometry["geometry package"]
+        module["module package"]
+        render["render package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

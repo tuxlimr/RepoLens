@@ -1,0 +1,41 @@
+{
+  "owner": "browsh-org",
+  "name": "browsh",
+  "full_name": "browsh-org/browsh",
+  "html_url": "https://github.com/browsh-org/browsh",
+  "description": "A fully-modern text-based browser, rendering to TTY and browsers",
+  "stars": 19128,
+  "forks": 480,
+  "license": "LGPL-2.1",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "bandwidth-saver",
+    "http-performance",
+    "mosh",
+    "ssh",
+    "tty",
+    "vnc"
+  ],
+  "archived": false,
+  "commit_sha": "e6325957514665db86428088b280fc7909334b91",
+  "commit_url": "https://github.com/browsh-org/browsh/commit/e6325957514665db86428088b280fc7909334b91",
+  "tree_url": "https://github.com/browsh-org/browsh/tree/e6325957514665db86428088b280fc7909334b91",
+  "analysed_at": "2026-11-14T19:11:18.140263+00:00",
+  "status": "completed",
+  "files_fetched": 88,
+  "files_analysed": 88,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "interfacer package",
+    "Tests",
+    "webext package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "webpack"
+  ],
+  "entry_points": []
+}

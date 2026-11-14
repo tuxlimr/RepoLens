@@ -1,0 +1,59 @@
+{
+  "owner": "BoostIO",
+  "name": "BoostNote-Legacy",
+  "full_name": "BoostIO/BoostNote-Legacy",
+  "html_url": "https://github.com/BoostIO/BoostNote-Legacy",
+  "description": "This repository is outdated and new Boost Note app is available! We've launched a new Boost Note app which supports real-time collaborative writing. https://github.com/BoostIO/BoostNote-App",
+  "stars": 16867,
+  "forks": 1439,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "electron",
+    "linux",
+    "macos",
+    "open-source",
+    "react",
+    "stylus",
+    "windows"
+  ],
+  "archived": true,
+  "commit_sha": "789926bc760628ecedbd0051ca96d190a2be234f",
+  "commit_url": "https://github.com/BoostIO/BoostNote-Legacy/commit/789926bc760628ecedbd0051ca96d190a2be234f",
+  "tree_url": "https://github.com/BoostIO/BoostNote-Legacy/tree/789926bc760628ecedbd0051ca96d190a2be234f",
+  "analysed_at": "2026-11-14T19:11:29.632938+00:00",
+  "status": "completed",
+  "files_fetched": 408,
+  "files_analysed": 408,
+  "components": [
+    "browser package",
+    "Configuration and deployment",
+    "Core modules",
+    "dev-scripts package",
+    "extra_scripts package",
+    "lib package",
+    "__mocks__ package",
+    "Tests"
+  ],
+  "detections": [
+    "Electron",
+    "React",
+    "React Router",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "browser/main/Detail/index.js",
+    "browser/main/DevTools/index.js",
+    "browser/main/Main.js",
+    "browser/main/NewNoteButton/index.js",
+    "browser/main/NoteList/index.js",
+    "browser/main/SideNav/index.js",
+    "browser/main/StatusBar/index.js",
+    "browser/main/TopBar/index.js",
+    "browser/main/index.js"
+  ]
+}

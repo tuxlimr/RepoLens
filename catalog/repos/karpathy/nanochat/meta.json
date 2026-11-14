@@ -1,0 +1,47 @@
+{
+  "owner": "karpathy",
+  "name": "nanochat",
+  "full_name": "karpathy/nanochat",
+  "html_url": "https://github.com/karpathy/nanochat",
+  "description": "The best ChatGPT that $100 can buy.",
+  "stars": 60555,
+  "forks": 8500,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+  "commit_url": "https://github.com/karpathy/nanochat/commit/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+  "tree_url": "https://github.com/karpathy/nanochat/tree/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+  "analysed_at": "2026-11-14T19:06:22.449336+00:00",
+  "status": "completed",
+  "files_fetched": 50,
+  "files_analysed": 50,
+  "components": [
+    "Configuration and deployment",
+    "dev package",
+    "Application entry point",
+    "External integrations",
+    "nanochat package",
+    "runs package",
+    "scripts package",
+    "tasks package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "nanochat/dataset.py",
+    "nanochat/engine.py",
+    "scripts/base_eval.py",
+    "scripts/chat_eval.py",
+    "scripts/infer_bench.py",
+    "tasks/common.py"
+  ]
+}

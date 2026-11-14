@@ -1,0 +1,23 @@
+%% Repository: sdelements/lets-chat
+%% Analysed commit: 617207ff3c0c0bf8e3c7a915bd9ec03f1dd8390c
+%% Commit reference: https://github.com/sdelements/lets-chat/commit/617207ff3c0c0bf8e3c7a915bd9ec03f1dd8390c
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        media["media package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

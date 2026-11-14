@@ -1,0 +1,46 @@
+%% Repository: microsoft/data-formulator
+%% Analysed commit: 5477f0e236426dc8f74a498ec400414fba7fbc0f
+%% Commit reference: https://github.com/microsoft/data-formulator/commit/5477f0e236426dc8f74a498ec400414fba7fbc0f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        dataoperations["dataOperations package"]
+        i18n["i18n package"]
+        icons_tsx["icons.tsx package"]
+        index_tsx["index.tsx package"]
+        mui_d_ts["mui.d.ts package"]
+        packaging["packaging package"]
+        py_src["py-src package"]
+        types_d_ts["types.d.ts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations
+    py_src -->|imports| data_layer
+    py_src -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations

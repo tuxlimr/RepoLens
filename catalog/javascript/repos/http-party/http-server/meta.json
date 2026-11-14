@@ -1,0 +1,46 @@
+{
+  "owner": "http-party",
+  "name": "http-server",
+  "full_name": "http-party/http-server",
+  "html_url": "https://github.com/http-party/http-server",
+  "description": "A simple, zero-configuration, command-line http server",
+  "stars": 14239,
+  "forks": 1558,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "command-line",
+    "hacktoberfest",
+    "hosting",
+    "http",
+    "http-server",
+    "server",
+    "static",
+    "static-server"
+  ],
+  "archived": false,
+  "commit_sha": "0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b",
+  "commit_url": "https://github.com/http-party/http-server/commit/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b",
+  "tree_url": "https://github.com/http-party/http-server/tree/0d3b7bb5b6e8a59fd450ae2dca65870009cfcd8b",
+  "analysed_at": "2026-11-14T19:11:46.126385+00:00",
+  "status": "completed",
+  "files_fetched": 123,
+  "files_analysed": 121,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Docker"
+  ],
+  "entry_points": [
+    "bin/http-server",
+    "lib/core/index.js",
+    "lib/core/show-dir/index.js"
+  ]
+}

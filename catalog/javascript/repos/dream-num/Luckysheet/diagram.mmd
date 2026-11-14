@@ -1,0 +1,30 @@
+%% Repository: dream-num/Luckysheet
+%% Analysed commit: 5b3fe58f5ad2aaa6a3cef15c6d567f5e10ea1f37
+%% Commit reference: https://github.com/dream-num/Luckysheet/commit/5b3fe58f5ad2aaa6a3cef15c6d567f5e10ea1f37
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        config_js["config.js package"]
+        core_js["core.js package"]
+        demodata["demoData package"]
+        expendplugins["expendPlugins package"]
+        function["function package"]
+        global["global package"]
+        index_js["index.js package"]
+        locale["locale package"]
+        methods["methods package"]
+        store["store package"]
+        utils["utils package"]
+    end

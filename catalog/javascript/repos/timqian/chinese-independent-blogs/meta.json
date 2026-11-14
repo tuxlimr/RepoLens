@@ -1,0 +1,37 @@
+{
+  "owner": "timqian",
+  "name": "chinese-independent-blogs",
+  "full_name": "timqian/chinese-independent-blogs",
+  "html_url": "https://github.com/timqian/chinese-independent-blogs",
+  "description": "\u4e2d\u6587\u72ec\u7acb\u535a\u5ba2\u5217\u8868",
+  "stars": 24470,
+  "forks": 2777,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "blog",
+    "china",
+    "rss"
+  ],
+  "archived": false,
+  "commit_sha": "6efc52fec8a2dc34650ba126ecd7b366d9ec109b",
+  "commit_url": "https://github.com/timqian/chinese-independent-blogs/commit/6efc52fec8a2dc34650ba126ecd7b366d9ec109b",
+  "tree_url": "https://github.com/timqian/chinese-independent-blogs/tree/6efc52fec8a2dc34650ba126ecd7b366d9ec109b",
+  "analysed_at": "2026-11-14T19:11:02.356552+00:00",
+  "status": "completed",
+  "files_fetched": 38,
+  "files_analysed": 37,
+  "components": [
+    "Configuration and deployment",
+    "frontend package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "frontend/public/app.js",
+    "frontend/worker/index.js"
+  ]
+}

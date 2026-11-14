@@ -1,0 +1,41 @@
+{
+  "owner": "zhongsp",
+  "name": "TypeScript",
+  "full_name": "zhongsp/TypeScript",
+  "html_url": "https://github.com/zhongsp/TypeScript",
+  "description": "TypeScript \u4f7f\u7528\u624b\u518c\uff08\u4e2d\u6587\u7248\uff09\u7ffb\u8bd1\u3002http://www.typescriptlang.org",
+  "stars": 7413,
+  "forks": 1103,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "dev",
+  "topics": [
+    "angular",
+    "angular2",
+    "javascript",
+    "javascript-typescript",
+    "react",
+    "ts",
+    "typescript",
+    "typescript-handbook",
+    "zh",
+    "zh-cn",
+    "zh-hans"
+  ],
+  "archived": false,
+  "commit_sha": "63d9d9c821b726946d60be40bb09b4a1154f95f0",
+  "commit_url": "https://github.com/zhongsp/TypeScript/commit/63d9d9c821b726946d60be40bb09b4a1154f95f0",
+  "tree_url": "https://github.com/zhongsp/TypeScript/tree/63d9d9c821b726946d60be40bb09b4a1154f95f0",
+  "analysed_at": "2026-11-14T19:13:51.522668+00:00",
+  "status": "completed",
+  "files_fetched": 323,
+  "files_analysed": 321,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

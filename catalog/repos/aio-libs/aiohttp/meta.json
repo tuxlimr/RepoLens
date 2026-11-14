@@ -1,0 +1,62 @@
+{
+  "owner": "aio-libs",
+  "name": "aiohttp",
+  "full_name": "aio-libs/aiohttp",
+  "html_url": "https://github.com/aio-libs/aiohttp",
+  "description": "Asynchronous HTTP client/server framework for asyncio and Python",
+  "stars": 16607,
+  "forks": 2524,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "aiohttp",
+    "async",
+    "asyncio",
+    "hacktoberfest",
+    "http",
+    "http-client",
+    "http-server",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "fe099491d275ef2c21bf683e024e34d51ac05d43",
+  "commit_url": "https://github.com/aio-libs/aiohttp/commit/fe099491d275ef2c21bf683e024e34d51ac05d43",
+  "tree_url": "https://github.com/aio-libs/aiohttp/tree/fe099491d275ef2c21bf683e024e34d51ac05d43",
+  "analysed_at": "2026-11-14T19:08:44.946563+00:00",
+  "status": "completed",
+  "files_fetched": 504,
+  "files_analysed": 502,
+  "components": [
+    "aiohttp package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "requirements package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "Gunicorn",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "aiohttp/web.py",
+    "fuzzers/http_parser.py",
+    "fuzzers/http_payload_parser.py",
+    "fuzzers/multipart.py",
+    "fuzzers/payload_url.py",
+    "fuzzers/set_cookie.py",
+    "fuzzers/web_request.py",
+    "tools/check_changes.py",
+    "tools/check_sum.py",
+    "tools/cleanup_changes.py"
+  ]
+}

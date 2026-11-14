@@ -1,0 +1,41 @@
+%% Repository: louislam/uptime-kuma
+%% Analysed commit: 7e5075d12c85f7282f9c7b7d6821d56aa3acc688
+%% Commit reference: https://github.com/louislam/uptime-kuma/commit/7e5075d12c85f7282f9c7b7d6821d56aa3acc688
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app_vue["App.vue package"]
+        auth_client_ts["auth-client.ts package"]
+        beat_state_ts["beat-state.ts package"]
+        beat_version_throttle_ts["beat-version-throttle.ts package"]
+        components["components package"]
+        dashboard_progress_ts["dashboard-progress.ts package"]
+        extra["extra package"]
+        heartbeat_history_ts["heartbeat-history.ts package"]
+        i18n_js["i18n.js package"]
+        icon_js["icon.js package"]
+        layouts["layouts package"]
+        main_js["main.js package"]
+        mixins["mixins package"]
+        monitor_list_window_ts["monitor-list-window.ts package"]
+        pages["pages package"]
+        public["public package"]
+        router_js["router.js package"]
+        server["server package"]
+        util_frontend_ts["util-frontend.ts package"]
+        util_ts["util.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

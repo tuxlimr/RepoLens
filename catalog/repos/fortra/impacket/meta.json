@@ -1,0 +1,55 @@
+{
+  "owner": "fortra",
+  "name": "impacket",
+  "full_name": "fortra/impacket",
+  "html_url": "https://github.com/fortra/impacket",
+  "description": "Impacket is a collection of Python classes for working with network protocols.",
+  "stars": 16263,
+  "forks": 3989,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "dcerpc",
+    "dcom",
+    "impacket",
+    "kerberos",
+    "msrpc",
+    "netbios",
+    "pass-the-hash",
+    "python",
+    "smb",
+    "wmi"
+  ],
+  "archived": false,
+  "commit_sha": "5648c3776b3ebbfc2d3aff645b6c572afa398597",
+  "commit_url": "https://github.com/fortra/impacket/commit/5648c3776b3ebbfc2d3aff645b6c572afa398597",
+  "tree_url": "https://github.com/fortra/impacket/tree/5648c3776b3ebbfc2d3aff645b6c572afa398597",
+  "analysed_at": "2026-11-14T19:08:50.647705+00:00",
+  "status": "completed",
+  "files_fetched": 374,
+  "files_analysed": 374,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "impacket package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Flask",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "impacket/dcerpc/v5/dcom/wmi.py",
+    "impacket/dcerpc/v5/drsuapi.py",
+    "impacket/dcerpc/v5/mimilib.py",
+    "impacket/krb5/ccache.py",
+    "impacket/krb5/types.py",
+    "impacket/mqtt.py"
+  ]
+}

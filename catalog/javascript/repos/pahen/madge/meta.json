@@ -1,0 +1,45 @@
+{
+  "owner": "pahen",
+  "name": "madge",
+  "full_name": "pahen/madge",
+  "html_url": "https://github.com/pahen/madge",
+  "description": "Create graphs from your CommonJS, AMD or ES6 module dependencies",
+  "stars": 10184,
+  "forks": 351,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "amd",
+    "commonjs",
+    "dependencies",
+    "es6",
+    "graph",
+    "graphviz",
+    "less",
+    "madge",
+    "sass",
+    "stylus"
+  ],
+  "archived": false,
+  "commit_sha": "456057b85c2d063dad9c10147d7686ded4fc5ce5",
+  "commit_url": "https://github.com/pahen/madge/commit/456057b85c2d063dad9c10147d7686ded4fc5ce5",
+  "tree_url": "https://github.com/pahen/madge/tree/456057b85c2d063dad9c10147d7686ded4fc5ce5",
+  "analysed_at": "2026-11-14T19:12:43.609304+00:00",
+  "status": "completed",
+  "files_fetched": 141,
+  "files_analysed": 130,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "bin/cli.js"
+  ]
+}

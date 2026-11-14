@@ -1,0 +1,26 @@
+%% Repository: checkly/headless-recorder
+%% Analysed commit: 4fb93c125f40bceb2dd9aac403e200a3ade5a8d9
+%% Commit reference: https://github.com/checkly/headless-recorder/commit/4fb93c125f40bceb2dd9aac403e200a3ade5a8d9
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        background["background package"]
+        components["components package"]
+        content_scripts["content-scripts package"]
+        modules["modules package"]
+        options["options package"]
+        popup["popup package"]
+        store["store package"]
+        tests["__tests__ package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

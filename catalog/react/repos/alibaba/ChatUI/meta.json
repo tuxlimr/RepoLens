@@ -1,0 +1,57 @@
+{
+  "owner": "alibaba",
+  "name": "ChatUI",
+  "full_name": "alibaba/ChatUI",
+  "html_url": "https://github.com/alibaba/ChatUI",
+  "description": "The UI design language and React library for Conversational UI",
+  "stars": 4464,
+  "forks": 426,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "chat",
+    "chatbot",
+    "react",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "06c3126ad25a0735c9b48f40582075371ad04cf3",
+  "commit_url": "https://github.com/alibaba/ChatUI/commit/06c3126ad25a0735c9b48f40582075371ad04cf3",
+  "tree_url": "https://github.com/alibaba/ChatUI/tree/06c3126ad25a0735c9b48f40582075371ad04cf3",
+  "analysed_at": "2026-11-14T19:14:44.827285+00:00",
+  "status": "completed",
+  "files_fetched": 510,
+  "files_analysed": 510,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "global.d.ts package",
+    "hooks package",
+    "index.ts package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "demo/src/components/index.ts",
+    "demo/src/demo/index.ts",
+    "demo/src/main.tsx",
+    "demo/src/utils/index.ts",
+    "src/components/Avatar/index.tsx",
+    "src/components/BackBottom/index.tsx",
+    "src/components/Backdrop/index.tsx",
+    "src/components/Bubble/index.tsx",
+    "src/components/Button/index.tsx",
+    "src/components/Card/index.ts",
+    "src/components/Carousel/index.tsx",
+    "src/components/Chat/index.tsx"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "listen1",
+  "name": "listen1_desktop",
+  "full_name": "listen1/listen1_desktop",
+  "html_url": "https://github.com/listen1/listen1_desktop",
+  "description": "one for all free music in china (Windows, Mac, Linux desktop)",
+  "stars": 11452,
+  "forks": 1524,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "desktop-app",
+    "music-player"
+  ],
+  "archived": false,
+  "commit_sha": "bbc38654bd593d4ae70143230ea7814b34d09128",
+  "commit_url": "https://github.com/listen1/listen1_desktop/commit/bbc38654bd593d4ae70143230ea7814b34d09128",
+  "tree_url": "https://github.com/listen1/listen1_desktop/tree/bbc38654bd593d4ae70143230ea7814b34d09128",
+  "analysed_at": "2026-11-14T19:12:18.487724+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 12,
+  "components": [
+    "app package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron"
+  ],
+  "entry_points": [
+    "app/main.js"
+  ]
+}

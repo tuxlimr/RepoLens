@@ -1,0 +1,47 @@
+{
+  "owner": "meta",
+  "name": "stylex",
+  "full_name": "meta/stylex",
+  "html_url": "https://github.com/meta/stylex",
+  "description": "StyleX is the styling system for ambitious user interfaces.",
+  "stars": 10495,
+  "forks": 511,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6d7464dee9374f3ab99ddd37ae4de3accdc53ba3",
+  "commit_url": "https://github.com/meta/stylex/commit/6d7464dee9374f3ab99ddd37ae4de3accdc53ba3",
+  "tree_url": "https://github.com/meta/stylex/tree/6d7464dee9374f3ab99ddd37ae4de3accdc53ba3",
+  "analysed_at": "2026-11-14T19:12:38.745174+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment",
+    "flow-typed package",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Next.js",
+    "React",
+    "Svelte",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/example-bun/src/App.jsx",
+    "examples/example-esbuild/src/App.jsx",
+    "packages/@stylexjs/atoms/src/index.js",
+    "packages/@stylexjs/postcss-plugin/src/index.js",
+    "packages/compiler-conformance/src/index.js"
+  ]
+}

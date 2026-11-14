@@ -1,0 +1,33 @@
+%% Repository: pytorch/examples
+%% Analysed commit: acc295dc7b90714f1bf47f06004fc19a7fe235c4
+%% Commit reference: https://github.com/pytorch/examples/commit/acc295dc7b90714f1bf47f06004fc19a7fe235c4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cpp["cpp package"]
+        distributed["distributed package"]
+        fast_neural_style["fast_neural_style package"]
+        fx["fx package"]
+        imagenet["imagenet package"]
+        legacy["legacy package"]
+        mnist_hogwild["mnist_hogwild package"]
+        super_resolution["super_resolution package"]
+        time_sequence_prediction["time_sequence_prediction package"]
+        word_language_model["word_language_model package"]
+    end
+    distributed -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations

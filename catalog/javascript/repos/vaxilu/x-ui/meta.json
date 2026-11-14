@@ -1,0 +1,43 @@
+{
+  "owner": "vaxilu",
+  "name": "x-ui",
+  "full_name": "vaxilu/x-ui",
+  "html_url": "https://github.com/vaxilu/x-ui",
+  "description": "\u652f\u6301\u591a\u534f\u8bae\u591a\u7528\u6237\u7684 xray \u9762\u677f",
+  "stars": 19078,
+  "forks": 7168,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "v2-ui",
+    "x-ui",
+    "xray",
+    "xray-core",
+    "xray-panel"
+  ],
+  "archived": false,
+  "commit_sha": "9c1be8c57a53953b47ee7c09a93554e73816f907",
+  "commit_url": "https://github.com/vaxilu/x-ui/commit/9c1be8c57a53953b47ee7c09a93554e73816f907",
+  "tree_url": "https://github.com/vaxilu/x-ui/tree/9c1be8c57a53953b47ee7c09a93554e73816f907",
+  "analysed_at": "2026-11-14T19:11:21.457643+00:00",
+  "status": "completed",
+  "files_fetched": 108,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "logger package",
+    "Service / domain layer",
+    "util package",
+    "v2ui package",
+    "web package",
+    "xray package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "newren",
+  "name": "git-filter-repo",
+  "full_name": "newren/git-filter-repo",
+  "html_url": "https://github.com/newren/git-filter-repo",
+  "description": "Quickly rewrite git repository history (filter-branch replacement)",
+  "stars": 13521,
+  "forks": 1023,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d7b75aca907380f608892cc289e616f195427b99",
+  "commit_url": "https://github.com/newren/git-filter-repo/commit/d7b75aca907380f608892cc289e616f195427b99",
+  "tree_url": "https://github.com/newren/git-filter-repo/tree/d7b75aca907380f608892cc289e616f195427b99",
+  "analysed_at": "2026-11-14T19:09:48.425445+00:00",
+  "status": "completed",
+  "files_fetched": 72,
+  "files_analysed": 72,
+  "components": [
+    "Configuration and deployment",
+    "t package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": []
+}

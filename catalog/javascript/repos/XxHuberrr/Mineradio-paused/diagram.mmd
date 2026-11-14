@@ -1,0 +1,21 @@
+%% Repository: XxHuberrr/Mineradio-paused
+%% Analysed commit: 649c787d22fd283b5431899eca3ee6a509319247
+%% Commit reference: https://github.com/XxHuberrr/Mineradio-paused/commit/649c787d22fd283b5431899eca3ee6a509319247
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        cuefield["cuefield package"]
+        desktop["desktop package"]
+        public["public package"]
+        qishui_audio_decryptor["qishui-audio-decryptor package"]
+        qishui_auth_v6["qishui-auth-v6 package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

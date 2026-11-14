@@ -1,0 +1,32 @@
+{
+  "owner": "bobeff",
+  "name": "open-source-games",
+  "full_name": "bobeff/open-source-games",
+  "html_url": "https://github.com/bobeff/open-source-games",
+  "description": "A list of open source games.",
+  "stars": 18320,
+  "forks": 1733,
+  "license": "CC0-1.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "awesome-list",
+    "games",
+    "open-source"
+  ],
+  "archived": false,
+  "commit_sha": "3a9ab8fc892a2cdadf8989a72ba7624a11e39cec",
+  "commit_url": "https://github.com/bobeff/open-source-games/commit/3a9ab8fc892a2cdadf8989a72ba7624a11e39cec",
+  "tree_url": "https://github.com/bobeff/open-source-games/tree/3a9ab8fc892a2cdadf8989a72ba7624a11e39cec",
+  "analysed_at": "2026-11-14T19:08:26.172321+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [
+    "Application entry point"
+  ],
+  "detections": [],
+  "entry_points": [
+    "scripts/coauthor.py"
+  ]
+}

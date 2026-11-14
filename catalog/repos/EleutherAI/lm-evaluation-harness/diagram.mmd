@@ -1,0 +1,36 @@
+%% Repository: EleutherAI/lm-evaluation-harness
+%% Analysed commit: d6de81643928d653435c431bae19945d41d32520
+%% Commit reference: https://github.com/EleutherAI/lm-evaluation-harness/commit/d6de81643928d653435c431bae19945d41d32520
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        lm_eval["lm_eval package"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| lm_eval
+    config -->|imports| api_layer
+    config -->|imports| lm_eval
+    data_layer -->|imports| api_layer
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| lm_eval
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| lm_eval
+    lm_eval -->|imports| api_layer
+    lm_eval -->|imports| config
+    lm_eval -->|imports| entrypoint

@@ -1,0 +1,45 @@
+%% Repository: oobabooga/textgen
+%% Analysed commit: c93f8871239550de2ccfe1e95d469aa82616f07e
+%% Commit reference: https://github.com/oobabooga/textgen/commit/c93f8871239550de2ccfe1e95d469aa82616f07e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        desktop["desktop package"]
+        extensions["extensions package"]
+        js["js package"]
+        modules["modules package"]
+        user_data["user_data package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| modules
+    data_layer -->|imports| modules
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| modules
+    extensions -->|imports| data_layer
+    extensions -->|imports| external_integrations
+    extensions -->|imports| modules
+    modules -->|imports| data_layer
+    modules -->|imports| external_integrations
+    user_data -->|imports| modules

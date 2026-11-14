@@ -1,0 +1,37 @@
+{
+  "owner": "meta-llama",
+  "name": "llama3",
+  "full_name": "meta-llama/llama3",
+  "html_url": "https://github.com/meta-llama/llama3",
+  "description": "The official Meta Llama 3 GitHub site",
+  "stars": 29145,
+  "forks": 3517,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "a0940f9cf7065d45bb6675660f80d305c041a754",
+  "commit_url": "https://github.com/meta-llama/llama3/commit/a0940f9cf7065d45bb6675660f80d305c041a754",
+  "tree_url": "https://github.com/meta-llama/llama3/tree/a0940f9cf7065d45bb6675660f80d305c041a754",
+  "analysed_at": "2026-11-14T19:07:14.290131+00:00",
+  "status": "completed",
+  "files_fetched": 19,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "llama package",
+    "Tests"
+  ],
+  "detections": [
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "example_chat_completion.py",
+    "example_text_completion.py"
+  ]
+}

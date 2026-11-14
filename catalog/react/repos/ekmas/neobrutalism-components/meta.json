@@ -1,0 +1,62 @@
+{
+  "owner": "ekmas",
+  "name": "neobrutalism-components",
+  "full_name": "ekmas/neobrutalism-components",
+  "html_url": "https://github.com/ekmas/neobrutalism-components",
+  "description": "A collection of neobrutalism-styled Tailwind components.",
+  "stars": 5651,
+  "forks": 192,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "neobrutalism",
+    "neobrutalism-components",
+    "nextjs",
+    "react",
+    "react-component-library",
+    "react-components",
+    "react-typescript",
+    "react-ui-components",
+    "shadcn",
+    "shadcn-components",
+    "shadcn-theme",
+    "shadcn-ui",
+    "tailwind",
+    "ui-library"
+  ],
+  "archived": false,
+  "commit_sha": "3306a802724874a85f93079702b2795370a279d4",
+  "commit_url": "https://github.com/ekmas/neobrutalism-components/commit/3306a802724874a85f93079702b2795370a279d4",
+  "tree_url": "https://github.com/ekmas/neobrutalism-components/tree/3306a802724874a85f93079702b2795370a279d4",
+  "analysed_at": "2026-11-14T19:14:15.441745+00:00",
+  "status": "completed",
+  "files_fetched": 747,
+  "files_analysed": 747,
+  "components": [
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "examples package",
+    "hooks package",
+    "lib package",
+    "scripts package"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/app/charts/page.tsx",
+    "src/app/page.tsx",
+    "src/app/showcase/page.tsx",
+    "src/app/stars/page.tsx",
+    "src/app/styling/page.tsx",
+    "src/app/templates/page.tsx",
+    "src/components/app/page.tsx"
+  ]
+}

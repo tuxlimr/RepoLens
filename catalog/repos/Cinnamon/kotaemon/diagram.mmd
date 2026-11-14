@@ -1,0 +1,36 @@
+%% Repository: Cinnamon/kotaemon
+%% Analysed commit: 9ad3e4e49aa35b8acddd235918a5d9753c1cfdf9
+%% Commit reference: https://github.com/Cinnamon/kotaemon/commit/9ad3e4e49aa35b8acddd235918a5d9753c1cfdf9
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        libs["libs package"]
+        scripts["scripts package"]
+        templates["templates package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| external_integrations
+    config -->|imports| libs
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| libs
+    libs -->|imports| core
+    libs -->|imports| data_layer
+    libs -->|imports| entrypoint
+    libs -->|imports| external_integrations
+    tests -->|imports| data_layer

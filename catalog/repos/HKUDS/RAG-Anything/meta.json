@@ -1,0 +1,50 @@
+{
+  "owner": "HKUDS",
+  "name": "RAG-Anything",
+  "full_name": "HKUDS/RAG-Anything",
+  "html_url": "https://github.com/HKUDS/RAG-Anything",
+  "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+  "stars": 24533,
+  "forks": 2869,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "multi-modal-rag",
+    "retrieval-augmented-generation"
+  ],
+  "archived": false,
+  "commit_sha": "eb7a670f724e59056b6a08f7016d753226a865ee",
+  "commit_url": "https://github.com/HKUDS/RAG-Anything/commit/eb7a670f724e59056b6a08f7016d753226a865ee",
+  "tree_url": "https://github.com/HKUDS/RAG-Anything/tree/eb7a670f724e59056b6a08f7016d753226a865ee",
+  "analysed_at": "2026-11-14T19:07:37.916686+00:00",
+  "status": "completed",
+  "files_fetched": 154,
+  "files_analysed": 154,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "raganything package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "NumPy",
+    "pandas",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "raganything/batch_parser.py",
+    "raganything/enhanced_markdown.py",
+    "raganything/parser.py",
+    "reproduce/index.py",
+    "reproduce/llm_answer_evaluator.py",
+    "reproduce/query.py"
+  ]
+}

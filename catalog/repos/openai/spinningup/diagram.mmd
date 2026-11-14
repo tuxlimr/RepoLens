@@ -1,0 +1,22 @@
+%% Repository: openai/spinningup
+%% Analysed commit: 038665d62d569055401d91856abb287263096178
+%% Commit reference: https://github.com/openai/spinningup/commit/038665d62d569055401d91856abb287263096178
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        spinup["spinup package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| spinup
+    spinup -->|imports| entrypoint
+    tests -->|imports| spinup

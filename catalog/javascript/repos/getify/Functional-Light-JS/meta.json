@@ -1,0 +1,33 @@
+{
+  "owner": "getify",
+  "name": "Functional-Light-JS",
+  "full_name": "getify/Functional-Light-JS",
+  "html_url": "https://github.com/getify/Functional-Light-JS",
+  "description": "Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.",
+  "stars": 16715,
+  "forks": 1905,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "book",
+    "education",
+    "functional-programming",
+    "javascript",
+    "training-materials",
+    "training-providers"
+  ],
+  "archived": false,
+  "commit_sha": "40a68612275b23904c7b37abdb724b250bdf75e7",
+  "commit_url": "https://github.com/getify/Functional-Light-JS/commit/40a68612275b23904c7b37abdb724b250bdf75e7",
+  "tree_url": "https://github.com/getify/Functional-Light-JS/tree/40a68612275b23904c7b37abdb724b250bdf75e7",
+  "analysed_at": "2026-11-14T19:11:31.094297+00:00",
+  "status": "completed",
+  "files_fetched": 53,
+  "files_analysed": 53,
+  "components": [
+    "ch11-code package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,31 @@
+{
+  "owner": "onmyway133",
+  "name": "awesome-ios-architecture",
+  "full_name": "onmyway133/awesome-ios-architecture",
+  "html_url": "https://github.com/onmyway133/awesome-ios-architecture",
+  "description": ":japanese_castle: Better ways to structure iOS apps",
+  "stars": 5270,
+  "forks": 521,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "architecture",
+    "ios",
+    "mvvm",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "6f67b0706defad34baa5efc584b0963257550170",
+  "commit_url": "https://github.com/onmyway133/awesome-ios-architecture/commit/6f67b0706defad34baa5efc584b0963257550170",
+  "tree_url": "https://github.com/onmyway133/awesome-ios-architecture/tree/6f67b0706defad34baa5efc584b0963257550170",
+  "analysed_at": "2026-11-14T19:14:22.372809+00:00",
+  "status": "completed",
+  "files_fetched": 8,
+  "files_analysed": 8,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

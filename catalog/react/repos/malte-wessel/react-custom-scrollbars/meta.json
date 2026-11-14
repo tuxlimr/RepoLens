@@ -1,0 +1,43 @@
+{
+  "owner": "malte-wessel",
+  "name": "react-custom-scrollbars",
+  "full_name": "malte-wessel/react-custom-scrollbars",
+  "html_url": "https://github.com/malte-wessel/react-custom-scrollbars",
+  "description": "React scrollbars component",
+  "stars": 3212,
+  "forks": 556,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "customizable",
+    "react",
+    "scrollbars",
+    "scrolling"
+  ],
+  "archived": false,
+  "commit_sha": "b353cc4956d6154d6a100f34c3a6202c75434186",
+  "commit_url": "https://github.com/malte-wessel/react-custom-scrollbars/commit/b353cc4956d6154d6a100f34c3a6202c75434186",
+  "tree_url": "https://github.com/malte-wessel/react-custom-scrollbars/tree/b353cc4956d6154d6a100f34c3a6202c75434186",
+  "analysed_at": "2026-11-14T19:15:27.956913+00:00",
+  "status": "completed",
+  "files_fetched": 66,
+  "files_analysed": 64,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "Scrollbars package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/simple/server.js",
+    "src/Scrollbars/index.js",
+    "src/index.js"
+  ]
+}

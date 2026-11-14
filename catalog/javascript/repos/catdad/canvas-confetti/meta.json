@@ -1,0 +1,44 @@
+{
+  "owner": "catdad",
+  "name": "canvas-confetti",
+  "full_name": "catdad/canvas-confetti",
+  "html_url": "https://github.com/catdad/canvas-confetti",
+  "description": "\ud83c\udf89 performant confetti animation in the browser",
+  "stars": 12860,
+  "forks": 471,
+  "license": "ISC",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "burst",
+    "canvas",
+    "canvas-confetti",
+    "confetti",
+    "fireworks",
+    "hacktoberfest",
+    "jsdelivr",
+    "particles",
+    "snow"
+  ],
+  "archived": false,
+  "commit_sha": "20eebad51dde793070c373d594099a7ed8d96e22",
+  "commit_url": "https://github.com/catdad/canvas-confetti/commit/20eebad51dde793070c373d594099a7ed8d96e22",
+  "tree_url": "https://github.com/catdad/canvas-confetti/tree/20eebad51dde793070c373d594099a7ed8d96e22",
+  "analysed_at": "2026-11-14T19:12:02.710438+00:00",
+  "status": "completed",
+  "files_fetched": 26,
+  "files_analysed": 22,
+  "components": [
+    "bin package",
+    "confetti.js package",
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/confetti.js"
+  ]
+}

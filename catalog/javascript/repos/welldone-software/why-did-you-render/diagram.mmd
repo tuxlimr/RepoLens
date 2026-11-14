@@ -1,0 +1,33 @@
+%% Repository: welldone-software/why-did-you-render
+%% Analysed commit: 3ec3512d750c49448fe2241e26d05db9e42f0c21
+%% Commit reference: https://github.com/welldone-software/why-did-you-render/commit/3ec3512d750c49448fe2241e26d05db9e42f0c21
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        calculatedeepequaldiffs_js["calculateDeepEqualDiffs.js package"]
+        consts_js["consts.js package"]
+        cypress["cypress package"]
+        defaultnotifier_js["defaultNotifier.js package"]
+        demo["demo package"]
+        findobjectsdifferences_js["findObjectsDifferences.js package"]
+        getdefaultprops_js["getDefaultProps.js package"]
+        getdisplayname_js["getDisplayName.js package"]
+        getupdateinfo_js["getUpdateInfo.js package"]
+        helpers_js["helpers.js package"]
+        index_js["index.js package"]
+        normalizeoptions_js["normalizeOptions.js package"]
+        patches["patches package"]
+        printdiff_js["printDiff.js package"]
+        shouldtrack_js["shouldTrack.js package"]
+        utils_js["utils.js package"]
+        wdyrstore_js["wdyrStore.js package"]
+        whydidyourender_js["whyDidYouRender.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

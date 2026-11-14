@@ -1,0 +1,47 @@
+{
+  "owner": "myliang",
+  "name": "x-spreadsheet",
+  "full_name": "myliang/x-spreadsheet",
+  "html_url": "https://github.com/myliang/x-spreadsheet",
+  "description": "The project has been migrated to @wolf-table/table https://github.com/wolf-table/table",
+  "stars": 14571,
+  "forks": 1747,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "es6",
+    "excel",
+    "javascript",
+    "js",
+    "spreadsheet"
+  ],
+  "archived": false,
+  "commit_sha": "0c55f3ee1e708002eaef280432d6efeaeabdc886",
+  "commit_url": "https://github.com/myliang/x-spreadsheet/commit/0c55f3ee1e708002eaef280432d6efeaeabdc886",
+  "tree_url": "https://github.com/myliang/x-spreadsheet/tree/0c55f3ee1e708002eaef280432d6efeaeabdc886",
+  "analysed_at": "2026-11-14T19:11:44.230066+00:00",
+  "status": "completed",
+  "files_fetched": 150,
+  "files_analysed": 128,
+  "components": [
+    "algorithm package",
+    "canvas package",
+    "component package",
+    "Configuration and deployment",
+    "config.js package",
+    "index.d.ts package",
+    "index.js package",
+    "locale package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js",
+    "src/component/toolbar/index.js"
+  ]
+}

@@ -1,0 +1,26 @@
+%% Repository: g1879/DrissionPage
+%% Analysed commit: 7761b855300a2dc4efc32c000be8150b60d21b97
+%% Commit reference: https://github.com/g1879/DrissionPage/commit/7761b855300a2dc4efc32c000be8150b60d21b97
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        drissionpage["DrissionPage package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| drissionpage
+    drissionpage -->|imports| config
+    drissionpage -->|imports| external_integrations
+    entrypoint -->|imports| drissionpage
+    tests -->|imports| config
+    tests -->|imports| drissionpage
+    tests -->|imports| external_integrations

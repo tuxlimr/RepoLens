@@ -1,0 +1,52 @@
+%% Repository: usestrix/strix
+%% Analysed commit: 4719329d1c3eb0db796714397551945c514a2301
+%% Commit reference: https://github.com/usestrix/strix/commit/4719329d1c3eb0db796714397551945c514a2301
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        containers["containers package"]
+        scripts["scripts package"]
+        strix["strix package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| external_integrations
+    config -->|imports| strix
+    data_layer -->|imports| config
+    data_layer -->|imports| strix
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| strix
+    external_integrations -->|imports| config
+    external_integrations -->|imports| strix
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| strix
+    strix -->|imports| config
+    strix -->|imports| data_layer
+    strix -->|imports| entrypoint
+    strix -->|imports| external_integrations
+    strix -->|imports| service_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer
+    tests -->|imports| strix

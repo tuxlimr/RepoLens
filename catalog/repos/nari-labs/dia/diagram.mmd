@@ -1,0 +1,23 @@
+%% Repository: nari-labs/dia
+%% Analysed commit: 876125e461a03b157ec905b0fe8b57a0f8b9e7a0
+%% Commit reference: https://github.com/nari-labs/dia/commit/876125e461a03b157ec905b0fe8b57a0f8b9e7a0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        dia["dia package"]
+    end
+    data_layer -->|imports| config
+    data_layer -->|imports| dia
+    dia -->|imports| config
+    entrypoint -->|imports| data_layer

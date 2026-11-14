@@ -1,0 +1,40 @@
+{
+  "owner": "soimort",
+  "name": "you-get",
+  "full_name": "soimort/you-get",
+  "html_url": "https://github.com/soimort/you-get",
+  "description": ":arrow_double_down: Dumb downloader that scrapes the web",
+  "stars": 56849,
+  "forks": 9652,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "develop",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "049548f3f3f35e67ba8d3181c71fdc71d11cf260",
+  "commit_url": "https://github.com/soimort/you-get/commit/049548f3f3f35e67ba8d3181c71fdc71d11cf260",
+  "tree_url": "https://github.com/soimort/you-get/tree/049548f3f3f35e67ba8d3181c71fdc71d11cf260",
+  "analysed_at": "2026-11-14T19:06:26.176103+00:00",
+  "status": "completed",
+  "files_fetched": 155,
+  "files_analysed": 155,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "you_get package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/you_get/__main__.py",
+    "src/you_get/processor/join_flv.py",
+    "src/you_get/processor/join_mp4.py",
+    "src/you_get/processor/join_ts.py"
+  ]
+}

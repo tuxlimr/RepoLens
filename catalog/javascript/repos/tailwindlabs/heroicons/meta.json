@@ -1,0 +1,26 @@
+{
+  "owner": "tailwindlabs",
+  "name": "heroicons",
+  "full_name": "tailwindlabs/heroicons",
+  "html_url": "https://github.com/tailwindlabs/heroicons",
+  "description": "A set of free MIT-licensed high-quality SVG icons for UI development.",
+  "stars": 23910,
+  "forks": 1315,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "616b7a4dbbf3d011760af8066262cd5c6b3868f3",
+  "commit_url": "https://github.com/tailwindlabs/heroicons/commit/616b7a4dbbf3d011760af8066262cd5c6b3868f3",
+  "tree_url": "https://github.com/tailwindlabs/heroicons/tree/616b7a4dbbf3d011760af8066262cd5c6b3868f3",
+  "analysed_at": "2026-11-14T19:11:03.680343+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

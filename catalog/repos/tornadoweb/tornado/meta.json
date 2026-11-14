@@ -1,0 +1,59 @@
+{
+  "owner": "tornadoweb",
+  "name": "tornado",
+  "full_name": "tornadoweb/tornado",
+  "html_url": "https://github.com/tornadoweb/tornado",
+  "description": "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.",
+  "stars": 22164,
+  "forks": 5607,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "asynchronous",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "48f6645edfd0ae1fc2ef58902c98876f1f5a37b7",
+  "commit_url": "https://github.com/tornadoweb/tornado/commit/48f6645edfd0ae1fc2ef58902c98876f1f5a37b7",
+  "tree_url": "https://github.com/tornadoweb/tornado/tree/48f6645edfd0ae1fc2ef58902c98876f1f5a37b7",
+  "analysed_at": "2026-11-14T19:07:54.605167+00:00",
+  "status": "completed",
+  "files_fetched": 331,
+  "files_analysed": 330,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demos package",
+    "Application entry point",
+    "External integrations",
+    "maint package",
+    "Tests",
+    "tornado package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Click",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "unittest"
+  ],
+  "entry_points": [
+    "demos/blog/blog.py",
+    "demos/chat/chatdemo.py",
+    "demos/facebook/facebook.py",
+    "demos/file_upload/file_receiver.py",
+    "demos/file_upload/file_uploader.py",
+    "demos/google_auth/main.py",
+    "demos/helloworld/helloworld.py",
+    "demos/tcpecho/client.py",
+    "demos/tcpecho/server.py",
+    "demos/websocket/chatdemo.py",
+    "demos/webspider/webspider.py",
+    "maint/benchmark/benchmark.py"
+  ]
+}

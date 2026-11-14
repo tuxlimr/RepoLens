@@ -1,0 +1,45 @@
+{
+  "owner": "mkdocs",
+  "name": "mkdocs",
+  "full_name": "mkdocs/mkdocs",
+  "html_url": "https://github.com/mkdocs/mkdocs",
+  "description": "Project documentation with Markdown.",
+  "stars": 22550,
+  "forks": 2663,
+  "license": "BSD-2-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "documentation",
+    "markdown",
+    "mkdocs",
+    "python",
+    "static-site-generator"
+  ],
+  "archived": false,
+  "commit_sha": "2862536793b3c67d9d83c33e0dd6d50a791928f8",
+  "commit_url": "https://github.com/mkdocs/mkdocs/commit/2862536793b3c67d9d83c33e0dd6d50a791928f8",
+  "tree_url": "https://github.com/mkdocs/mkdocs/tree/2862536793b3c67d9d83c33e0dd6d50a791928f8",
+  "analysed_at": "2026-11-14T19:07:52.205412+00:00",
+  "status": "completed",
+  "files_fetched": 234,
+  "files_analysed": 230,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "mkdocs package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "Poetry",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "mkdocs/__main__.py"
+  ]
+}

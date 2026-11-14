@@ -1,0 +1,44 @@
+{
+  "owner": "cosscom",
+  "name": "ui",
+  "full_name": "cosscom/ui",
+  "html_url": "https://github.com/cosscom/ui",
+  "description": "coss.com/ui is the official design system of Cal.com",
+  "stars": 10858,
+  "forks": 566,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "base-ui",
+    "nextjs",
+    "radix-ui",
+    "react",
+    "shadcn",
+    "shadcn-ui",
+    "tailwindcss",
+    "tanstack-table"
+  ],
+  "archived": false,
+  "commit_sha": "0da83f8508d3d5fa5ea757015dbf50a73ecd089d",
+  "commit_url": "https://github.com/cosscom/ui/commit/0da83f8508d3d5fa5ea757015dbf50a73ecd089d",
+  "tree_url": "https://github.com/cosscom/ui/tree/0da83f8508d3d5fa5ea757015dbf50a73ecd089d",
+  "analysed_at": "2026-11-14T19:13:29.548385+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "apps package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "apps/origin/app/page.tsx"
+  ]
+}

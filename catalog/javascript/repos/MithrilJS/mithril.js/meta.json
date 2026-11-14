@@ -1,0 +1,50 @@
+{
+  "owner": "MithrilJS",
+  "name": "mithril.js",
+  "full_name": "MithrilJS/mithril.js",
+  "html_url": "https://github.com/MithrilJS/mithril.js",
+  "description": "A JavaScript Framework for Building Brilliant Applications",
+  "stars": 14516,
+  "forks": 923,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "framework",
+    "javascript",
+    "mithril",
+    "router",
+    "vdom",
+    "virtual-dom",
+    "xhr"
+  ],
+  "archived": false,
+  "commit_sha": "092989a259f2eba05b406a024cca89bd97417f92",
+  "commit_url": "https://github.com/MithrilJS/mithril.js/commit/092989a259f2eba05b406a024cca89bd97417f92",
+  "tree_url": "https://github.com/MithrilJS/mithril.js/tree/092989a259f2eba05b406a024cca89bd97417f92",
+  "analysed_at": "2026-11-14T19:11:44.970636+00:00",
+  "status": "completed",
+  "files_fetched": 138,
+  "files_analysed": 137,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "pathname package",
+    "performance package",
+    "querystring package",
+    "render package",
+    "request package",
+    "scripts package",
+    "stream package",
+    "test-utils package",
+    "Tests",
+    "util package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

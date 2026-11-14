@@ -1,0 +1,38 @@
+%% Repository: ctrlplusb/easy-peasy
+%% Analysed commit: c1ffaf3937746ac8456e24187b46c4aa3890b699
+%% Commit reference: https://github.com/ctrlplusb/easy-peasy/commit/c1ffaf3937746ac8456e24187b46c4aa3890b699
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        actions_js["actions.js package"]
+        computed_properties_js["computed-properties.js package"]
+        constants_js["constants.js package"]
+        context_js["context.js package"]
+        create_context_store_js["create-context-store.js package"]
+        create_reducer_js["create-reducer.js package"]
+        create_store_js["create-store.js package"]
+        create_transform_js["create-transform.js package"]
+        effects_js["effects.js package"]
+        extract_data_from_model_js["extract-data-from-model.js package"]
+        helpers_js["helpers.js package"]
+        hooks_js["hooks.js package"]
+        index_js["index.js package"]
+        lib_js["lib.js package"]
+        listeners_js["listeners.js package"]
+        migrations_js["migrations.js package"]
+        persistence_js["persistence.js package"]
+        provider_js["provider.js package"]
+        server_js["server.js package"]
+        thunks_js["thunks.js package"]
+        transitions_js["transitions.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (2 merged)"]
+    %% Note: 2 smaller component(s) merged into 'other' to keep the diagram readable.

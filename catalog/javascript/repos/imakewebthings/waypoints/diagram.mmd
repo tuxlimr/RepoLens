@@ -1,0 +1,24 @@
+%% Repository: imakewebthings/waypoints
+%% Analysed commit: 34d9f6d77016cb9ed7884963c522e140fb8f8dc3
+%% Commit reference: https://github.com/imakewebthings/waypoints/commit/34d9f6d77016cb9ed7884963c522e140fb8f8dc3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        context_js["context.js package"]
+        debug_js["debug.js package"]
+        group_js["group.js package"]
+        lib["lib package"]
+        shortcuts["shortcuts package"]
+        waypoint_js["waypoint.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

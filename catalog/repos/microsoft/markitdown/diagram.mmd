@@ -1,0 +1,27 @@
+%% Repository: microsoft/markitdown
+%% Analysed commit: ed178952a6672abdfd35b5f9e76a80b6cefc086e
+%% Commit reference: https://github.com/microsoft/markitdown/commit/ed178952a6672abdfd35b5f9e76a80b6cefc086e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| packages
+    packages -->|imports| external_integrations
+    packages -->|imports| service_layer
+    tests -->|imports| external_integrations

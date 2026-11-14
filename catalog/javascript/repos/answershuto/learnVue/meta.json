@@ -1,0 +1,50 @@
+{
+  "owner": "answershuto",
+  "name": "learnVue",
+  "full_name": "answershuto/learnVue",
+  "html_url": "https://github.com/answershuto/learnVue",
+  "description": ":octocat:Vue.js \u6e90\u7801\u89e3\u6790",
+  "stars": 12637,
+  "forks": 2511,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "diff",
+    "dom",
+    "dom-nexttick",
+    "vue",
+    "vue-router",
+    "vue-template",
+    "vuex"
+  ],
+  "archived": false,
+  "commit_sha": "1c0371909bbc1a4d9954470513c8ef6b408ef42f",
+  "commit_url": "https://github.com/answershuto/learnVue/commit/1c0371909bbc1a4d9954470513c8ef6b408ef42f",
+  "tree_url": "https://github.com/answershuto/learnVue/tree/1c0371909bbc1a4d9954470513c8ef6b408ef42f",
+  "analysed_at": "2026-11-14T19:12:04.152163+00:00",
+  "status": "completed",
+  "files_fetched": 201,
+  "files_analysed": 201,
+  "components": [
+    "Service / domain layer",
+    "vue-router-src package",
+    "vue-src package",
+    "vuex-src package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "vue-router-src/index.js",
+    "vue-src/compiler/codegen/index.js",
+    "vue-src/compiler/directives/index.js",
+    "vue-src/compiler/index.js",
+    "vue-src/compiler/parser/index.js",
+    "vue-src/core/components/index.js",
+    "vue-src/core/global-api/index.js",
+    "vue-src/core/index.js",
+    "vue-src/core/instance/index.js",
+    "vue-src/core/observer/index.js",
+    "vue-src/core/util/index.js",
+    "vue-src/server/template-renderer/index.js"
+  ]
+}

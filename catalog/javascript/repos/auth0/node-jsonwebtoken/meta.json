@@ -1,0 +1,33 @@
+{
+  "owner": "auth0",
+  "name": "node-jsonwebtoken",
+  "full_name": "auth0/node-jsonwebtoken",
+  "html_url": "https://github.com/auth0/node-jsonwebtoken",
+  "description": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html",
+  "stars": 18183,
+  "forks": 1294,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b924272f29192e12926b5414546f7c5bfcc9579d",
+  "commit_url": "https://github.com/auth0/node-jsonwebtoken/commit/b924272f29192e12926b5414546f7c5bfcc9579d",
+  "tree_url": "https://github.com/auth0/node-jsonwebtoken/tree/b924272f29192e12926b5414546f7c5bfcc9579d",
+  "analysed_at": "2026-11-14T19:11:22.527161+00:00",
+  "status": "completed",
+  "files_fetched": 84,
+  "files_analysed": 67,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

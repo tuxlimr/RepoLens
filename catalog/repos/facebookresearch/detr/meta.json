@@ -1,0 +1,44 @@
+{
+  "owner": "facebookresearch",
+  "name": "detr",
+  "full_name": "facebookresearch/detr",
+  "html_url": "https://github.com/facebookresearch/detr",
+  "description": "End-to-End Object Detection with Transformers",
+  "stars": 15344,
+  "forks": 2678,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+  "commit_url": "https://github.com/facebookresearch/detr/commit/29901c51d7fe8712168b8d0d64351170bc0f83e0",
+  "tree_url": "https://github.com/facebookresearch/detr/tree/29901c51d7fe8712168b8d0d64351170bc0f83e0",
+  "analysed_at": "2026-11-14T19:09:04.661149+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 42,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "d2 package",
+    "Data layer",
+    "datasets package",
+    "Application entry point",
+    "Tests",
+    "util package"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "Docker",
+    "unittest"
+  ],
+  "entry_points": [
+    "d2/converter.py",
+    "d2/train_net.py",
+    "main.py",
+    "run_with_submitit.py",
+    "test_all.py"
+  ]
+}

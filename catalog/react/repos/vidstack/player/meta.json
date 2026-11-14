@@ -1,0 +1,62 @@
+{
+  "owner": "vidstack",
+  "name": "player",
+  "full_name": "vidstack/player",
+  "html_url": "https://github.com/vidstack/player",
+  "description": "Deprecated in favour of Video.js 10; security fixes only until January 2028. UI components and hooks for building video and audio players on the web.",
+  "stars": 3735,
+  "forks": 230,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "accessibility",
+    "analytics",
+    "audio",
+    "deprecated",
+    "hls",
+    "html",
+    "javascript",
+    "media",
+    "player",
+    "react",
+    "solid-js",
+    "svelte",
+    "typescript",
+    "ui",
+    "video",
+    "videojs",
+    "vimeo",
+    "vue",
+    "web-components",
+    "youtube"
+  ],
+  "archived": false,
+  "commit_sha": "0133da67e4f84a5aaad59c63853b12c6cda0a6a9",
+  "commit_url": "https://github.com/vidstack/player/commit/0133da67e4f84a5aaad59c63853b12c6cda0a6a9",
+  "tree_url": "https://github.com/vidstack/player/tree/0133da67e4f84a5aaad59c63853b12c6cda0a6a9",
+  "analysed_at": "2026-11-14T19:15:09.505127+00:00",
+  "status": "completed",
+  "files_fetched": 600,
+  "files_analysed": 597,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Svelte",
+    "Vue",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/react/src/index.ts",
+    "packages/vidstack/src/index.ts"
+  ]
+}

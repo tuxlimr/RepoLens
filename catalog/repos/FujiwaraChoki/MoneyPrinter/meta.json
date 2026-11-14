@@ -1,0 +1,52 @@
+{
+  "owner": "FujiwaraChoki",
+  "name": "MoneyPrinter",
+  "full_name": "FujiwaraChoki/MoneyPrinter",
+  "html_url": "https://github.com/FujiwaraChoki/MoneyPrinter",
+  "description": "Automate Creation of YouTube Shorts using MoviePy.",
+  "stars": 14198,
+  "forks": 1842,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "automation",
+    "chatgpt",
+    "moviepy",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
+  "commit_url": "https://github.com/FujiwaraChoki/MoneyPrinter/commit/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
+  "tree_url": "https://github.com/FujiwaraChoki/MoneyPrinter/tree/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
+  "analysed_at": "2026-11-14T19:09:31.278420+00:00",
+  "status": "completed",
+  "files_fetched": 41,
+  "files_analysed": 41,
+  "components": [
+    "Backend package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Frontend package",
+    "Tests"
+  ],
+  "detections": [
+    "Database (unspecified)",
+    "PostgreSQL",
+    "Flask",
+    "requests",
+    "SQLAlchemy",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "Backend/main.py",
+    "Backend/worker.py",
+    "Frontend/app.js"
+  ]
+}

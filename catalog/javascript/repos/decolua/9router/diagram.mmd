@@ -1,0 +1,27 @@
+%% Repository: decolua/9router
+%% Analysed commit: 1855aa44473e88feac9d3f131b9c0c5fc9706b68
+%% Commit reference: https://github.com/decolua/9router/commit/1855aa44473e88feac9d3f131b9c0c5fc9706b68
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        cli["cli package"]
+        gitbook["gitbook package"]
+        open_sse["open-sse package"]
+        public["public package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

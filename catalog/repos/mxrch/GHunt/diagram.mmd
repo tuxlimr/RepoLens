@@ -1,0 +1,23 @@
+%% Repository: mxrch/GHunt
+%% Analysed commit: 5ee893929c51c7a8a665b199bbae04ce85a662b4
+%% Commit reference: https://github.com/mxrch/GHunt/commit/5ee893929c51c7a8a665b199bbae04ce85a662b4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ghunt["ghunt package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    entrypoint -->|imports| ghunt
+    ghunt -->|imports| entrypoint
+    ghunt -->|imports| external_integrations
+    ghunt -->|imports| service_layer

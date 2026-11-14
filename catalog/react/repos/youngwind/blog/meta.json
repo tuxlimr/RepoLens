@@ -1,0 +1,29 @@
+{
+  "owner": "youngwind",
+  "name": "blog",
+  "full_name": "youngwind/blog",
+  "html_url": "https://github.com/youngwind/blog",
+  "description": "\u6881\u5c11\u5cf0\u7684\u4e2a\u4eba\u535a\u5ba2",
+  "stars": 4648,
+  "forks": 378,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "blog",
+    "react",
+    "vue",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "0b2010f1d46709caaad815cc39426732a9597504",
+  "commit_url": "https://github.com/youngwind/blog/commit/0b2010f1d46709caaad815cc39426732a9597504",
+  "tree_url": "https://github.com/youngwind/blog/tree/0b2010f1d46709caaad815cc39426732a9597504",
+  "analysed_at": "2026-11-14T19:14:39.600028+00:00",
+  "status": "completed",
+  "files_fetched": 3,
+  "files_analysed": 3,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,42 @@
+{
+  "owner": "oblador",
+  "name": "react-native-animatable",
+  "full_name": "oblador/react-native-animatable",
+  "html_url": "https://github.com/oblador/react-native-animatable",
+  "description": "Standard set of easy to use animations and declarative transitions for React Native",
+  "stars": 9924,
+  "forks": 688,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "react-native",
+    "transition"
+  ],
+  "archived": false,
+  "commit_sha": "dfd7413734eb693358defcac536b0b32e9dc0b8c",
+  "commit_url": "https://github.com/oblador/react-native-animatable/commit/dfd7413734eb693358defcac536b0b32e9dc0b8c",
+  "tree_url": "https://github.com/oblador/react-native-animatable/tree/dfd7413734eb693358defcac536b0b32e9dc0b8c",
+  "analysed_at": "2026-11-14T19:12:47.188560+00:00",
+  "status": "completed",
+  "files_fetched": 137,
+  "files_analysed": 137,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "definitions package",
+    "__tests__ package",
+    "typings package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "definitions/index.js"
+  ]
+}

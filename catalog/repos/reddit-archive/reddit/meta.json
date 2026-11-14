@@ -1,0 +1,48 @@
+{
+  "owner": "reddit-archive",
+  "name": "reddit",
+  "full_name": "reddit-archive/reddit",
+  "html_url": "https://github.com/reddit-archive/reddit",
+  "description": "historical code from reddit.com",
+  "stars": 16949,
+  "forks": 2842,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "python",
+    "reddit"
+  ],
+  "archived": true,
+  "commit_sha": "753b17407e9a9dca09558526805922de24133d53",
+  "commit_url": "https://github.com/reddit-archive/reddit/commit/753b17407e9a9dca09558526805922de24133d53",
+  "tree_url": "https://github.com/reddit-archive/reddit/tree/753b17407e9a9dca09558526805922de24133d53",
+  "analysed_at": "2026-11-14T19:08:39.997456+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "install package",
+    "r2 package",
+    "Tests"
+  ],
+  "detections": [
+    "Gunicorn",
+    "requests",
+    "SQLAlchemy",
+    "unittest"
+  ],
+  "entry_points": [
+    "r2/r2/lib/contrib/rcssmin.py",
+    "r2/r2/lib/einhorn.py",
+    "r2/r2/lib/static.py",
+    "r2/r2/lib/totp.py"
+  ]
+}

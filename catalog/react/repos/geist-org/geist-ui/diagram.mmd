@@ -1,0 +1,23 @@
+%% Repository: geist-org/geist-ui
+%% Analysed commit: 6894bfdf12bca17ae292617cf2b69c63731fd5d4
+%% Commit reference: https://github.com/geist-org/geist-ui/commit/6894bfdf12bca17ae292617cf2b69c63731fd5d4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        components["components package"]
+        lib["lib package"]
+        pages["pages package"]
+        scripts["scripts package"]
+        typings["typings package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

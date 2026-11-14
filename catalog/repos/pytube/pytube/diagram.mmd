@@ -1,0 +1,24 @@
+%% Repository: pytube/pytube
+%% Analysed commit: a32fff39058a6f7e5e59ecd06a7467b71197ce35
+%% Commit reference: https://github.com/pytube/pytube/commit/a32fff39058a6f7e5e59ecd06a7467b71197ce35
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        pytube["pytube package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| pytube
+    pytube -->|imports| entrypoint
+    pytube -->|imports| external_integrations
+    tests -->|imports| external_integrations
+    tests -->|imports| pytube

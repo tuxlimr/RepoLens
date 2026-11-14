@@ -1,0 +1,50 @@
+{
+  "owner": "lxieyang",
+  "name": "chrome-extension-boilerplate-react",
+  "full_name": "lxieyang/chrome-extension-boilerplate-react",
+  "html_url": "https://github.com/lxieyang/chrome-extension-boilerplate-react",
+  "description": "A Chrome Extensions boilerplate using React 18 and Webpack 5.",
+  "stars": 3921,
+  "forks": 1134,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "boilerplate",
+    "chrome-extension",
+    "javascript",
+    "npm",
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "archived": true,
+  "commit_sha": "f7b0a5b89059ea943eaccd94aad3a429fb744644",
+  "commit_url": "https://github.com/lxieyang/chrome-extension-boilerplate-react/commit/f7b0a5b89059ea943eaccd94aad3a429fb744644",
+  "tree_url": "https://github.com/lxieyang/chrome-extension-boilerplate-react/tree/f7b0a5b89059ea943eaccd94aad3a429fb744644",
+  "analysed_at": "2026-11-14T19:14:58.294684+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 43,
+  "components": [
+    "Configuration and deployment",
+    "containers package",
+    "Core modules",
+    "pages package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/pages/Background/index.js",
+    "src/pages/Content/index.js",
+    "src/pages/Devtools/index.js",
+    "src/pages/Newtab/index.jsx",
+    "src/pages/Options/index.jsx",
+    "src/pages/Panel/index.jsx",
+    "src/pages/Popup/index.jsx"
+  ]
+}

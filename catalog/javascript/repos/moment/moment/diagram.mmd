@@ -1,0 +1,21 @@
+%% Repository: moment/moment
+%% Analysed commit: c2a703a4d84aa57ee2722ff8fb4a8016279fb3c4
+%% Commit reference: https://github.com/moment/moment/commit/c2a703a4d84aa57ee2722ff8fb4a8016279fb3c4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        lib["lib package"]
+        locale["locale package"]
+        meteor["meteor package"]
+        moment_js["moment.js package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

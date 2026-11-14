@@ -1,0 +1,38 @@
+%% Repository: tgbot-collection/YYeTsBot
+%% Analysed commit: de73b9c1aa9aad7affdf4228f6d1d0198195921d
+%% Commit reference: https://github.com/tgbot-collection/YYeTsBot/commit/de73b9c1aa9aad7affdf4228f6d1d0198195921d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        yyets["yyets package"]
+        yyetsbot["yyetsbot package"]
+        yyetsweb["yyetsweb package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    service_layer -->|imports| external_integrations
+    yyets -->|imports| data_layer
+    yyetsbot -->|imports| data_layer
+    yyetsweb -->|imports| data_layer
+    yyetsweb -->|imports| external_integrations

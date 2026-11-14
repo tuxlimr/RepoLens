@@ -1,0 +1,27 @@
+%% Repository: PKU-YuanGroup/Open-Sora-Plan
+%% Analysed commit: f7fa604f4e3a523d6b973e4c89a5620ed1aff65a
+%% Commit reference: https://github.com/PKU-YuanGroup/Open-Sora-Plan/commit/f7fa604f4e3a523d6b973e4c89a5620ed1aff65a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        opensora["opensora package"]
+        scripts["scripts package"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| opensora
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| opensora
+    opensora -->|imports| data_layer
+    opensora -->|imports| entrypoint
+    opensora -->|imports| external_integrations

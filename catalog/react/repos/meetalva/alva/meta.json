@@ -1,0 +1,57 @@
+{
+  "owner": "meetalva",
+  "name": "alva",
+  "full_name": "meetalva/alva",
+  "html_url": "https://github.com/meetalva/alva",
+  "description": "Create living prototypes with code components.",
+  "stars": 3689,
+  "forks": 214,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "components",
+    "design",
+    "design-system",
+    "react"
+  ],
+  "archived": true,
+  "commit_sha": "bfdb6aef4a55b5d99ed154a1dcced1acf9aca894",
+  "commit_url": "https://github.com/meetalva/alva/commit/bfdb6aef4a55b5d99ed154a1dcced1acf9aca894",
+  "tree_url": "https://github.com/meetalva/alva/tree/bfdb6aef4a55b5d99ed154a1dcced1acf9aca894",
+  "analysed_at": "2026-11-14T19:15:10.333096+00:00",
+  "status": "completed",
+  "files_fetched": 642,
+  "files_analysed": 641,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "External integrations",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "Electron",
+    "Express",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/core/bin/alva.js",
+    "packages/tools/alva-dependencies.js",
+    "packages/tools/alva-deploy.js",
+    "packages/tools/alva-trigger.js",
+    "packages/tools/alva-version.js",
+    "packages/tools/alva-release.js",
+    "packages/analyzer/index.js",
+    "packages/analyzer/src/index.ts",
+    "packages/components/index.js",
+    "packages/components/src/index.ts",
+    "packages/essentials/src/index.ts",
+    "packages/essentials/src/page.tsx"
+  ]
+}

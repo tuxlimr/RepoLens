@@ -1,0 +1,19 @@
+%% Repository: apprenticeharper/DeDRM_tools
+%% Analysed commit: 776f146ca00d11b24575f4fd6e8202df30a2b7ea
+%% Commit reference: https://github.com/apprenticeharper/DeDRM_tools/commit/776f146ca00d11b24575f4fd6e8202df30a2b7ea
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dedrm_plugin["DeDRM_plugin package"]
+        obok_plugin["Obok_plugin package"]
+        other_tools["Other_Tools package"]
+    end
+    config -->|imports| dedrm_plugin

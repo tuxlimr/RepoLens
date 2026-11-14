@@ -1,0 +1,59 @@
+{
+  "owner": "trailofbits",
+  "name": "algo",
+  "full_name": "trailofbits/algo",
+  "html_url": "https://github.com/trailofbits/algo",
+  "description": "Set up a personal VPN in the cloud",
+  "stars": 30470,
+  "forks": 2375,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ansible",
+    "encryption",
+    "ikev2",
+    "ipsec",
+    "security",
+    "ssh-tunnel",
+    "strongswan",
+    "vpn",
+    "vpn-client",
+    "vpn-server",
+    "wireguard"
+  ],
+  "archived": false,
+  "commit_sha": "4a1be750cb3f8e509663c1a389f9c55bb0e6a05c",
+  "commit_url": "https://github.com/trailofbits/algo/commit/4a1be750cb3f8e509663c1a389f9c55bb0e6a05c",
+  "tree_url": "https://github.com/trailofbits/algo/tree/4a1be750cb3f8e509663c1a389f9c55bb0e6a05c",
+  "analysed_at": "2026-11-14T19:07:09.572717+00:00",
+  "status": "completed",
+  "files_fetched": 276,
+  "files_analysed": 276,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "files package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "AWS (boto3)",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "library/gcp_compute_location_info.py",
+    "library/lightsail_region_facts.py",
+    "library/scaleway_instance.py",
+    "library/x25519_pubkey.py",
+    "scripts/list_servers.py"
+  ]
+}

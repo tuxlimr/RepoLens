@@ -1,0 +1,53 @@
+{
+  "owner": "pypa",
+  "name": "pipx",
+  "full_name": "pypa/pipx",
+  "html_url": "https://github.com/pypa/pipx",
+  "description": "Install and Run Python Applications in Isolated Environments",
+  "stars": 13001,
+  "forks": 647,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "cli",
+    "pip",
+    "pypi",
+    "python",
+    "venv"
+  ],
+  "archived": false,
+  "commit_sha": "3ce2b3c742ee06b0d89d19a230e7b08043b75de9",
+  "commit_url": "https://github.com/pypa/pipx/commit/3ce2b3c742ee06b0d89d19a230e7b08043b75de9",
+  "tree_url": "https://github.com/pypa/pipx/tree/3ce2b3c742ee06b0d89d19a230e7b08043b75de9",
+  "analysed_at": "2026-11-14T19:09:56.431591+00:00",
+  "status": "completed",
+  "files_fetched": 233,
+  "files_analysed": 233,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "pipx package",
+    "testdata package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "src/pipx/__main__.py",
+    "src/pipx/main.py",
+    "get-pipx.py",
+    "scripts/check_distribution_manpage.py",
+    "scripts/generate_man.py",
+    "scripts/list_test_packages.py",
+    "scripts/migrate_pipsi_to_pipx.py",
+    "scripts/release.py",
+    "scripts/update_package_cache.py",
+    "testdata/empty_project/empty_project/main.py"
+  ]
+}

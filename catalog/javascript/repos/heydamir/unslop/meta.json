@@ -1,0 +1,28 @@
+{
+  "owner": "heydamir",
+  "name": "unslop",
+  "full_name": "heydamir/unslop",
+  "html_url": "https://github.com/heydamir/unslop",
+  "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+  "stars": 15941,
+  "forks": 927,
+  "license": "CC-BY-4.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+  "commit_url": "https://github.com/heydamir/unslop/commit/97daa3eb365670ea3f87ed85356cbfcee18105a5",
+  "tree_url": "https://github.com/heydamir/unslop/tree/97daa3eb365670ea3f87ed85356cbfcee18105a5",
+  "analysed_at": "2026-11-14T19:11:34.760992+00:00",
+  "status": "completed",
+  "files_fetched": 17,
+  "files_analysed": 17,
+  "components": [
+    "Configuration and deployment",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": []
+}

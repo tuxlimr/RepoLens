@@ -1,0 +1,26 @@
+%% Repository: microsoft/Bringing-Old-Photos-Back-to-Life
+%% Analysed commit: 33875eccf4ebcd3665cf38cc56f3a0ce563d3a9c
+%% Commit reference: https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/commit/33875eccf4ebcd3665cf38cc56f3a0ce563d3a9c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        face_enhancement["Face_Enhancement package"]
+        global["Global package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| entrypoint
+    tests -->|imports| face_enhancement
+    tests -->|imports| global

@@ -1,0 +1,34 @@
+{
+  "owner": "janl",
+  "name": "mustache.js",
+  "full_name": "janl/mustache.js",
+  "html_url": "https://github.com/janl/mustache.js",
+  "description": "Minimal templating with {{mustaches}} in JavaScript",
+  "stars": 16723,
+  "forks": 2336,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "972fd2b27a036888acfcb60d6119317744fac7ee",
+  "commit_url": "https://github.com/janl/mustache.js/commit/972fd2b27a036888acfcb60d6119317744fac7ee",
+  "tree_url": "https://github.com/janl/mustache.js/tree/972fd2b27a036888acfcb60d6119317744fac7ee",
+  "analysed_at": "2026-11-14T19:11:30.313238+00:00",
+  "status": "completed",
+  "files_fetched": 249,
+  "files_analysed": 249,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "spec package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "mustache.js",
+    "bin/mustache"
+  ]
+}

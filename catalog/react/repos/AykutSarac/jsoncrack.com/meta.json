@@ -1,0 +1,52 @@
+{
+  "owner": "AykutSarac",
+  "name": "jsoncrack.com",
+  "full_name": "AykutSarac/jsoncrack.com",
+  "html_url": "https://github.com/AykutSarac/jsoncrack.com",
+  "description": "\u2728 Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.",
+  "stars": 44595,
+  "forks": 3588,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "csv",
+    "diagrams",
+    "graph",
+    "json",
+    "nextjs",
+    "react",
+    "tool",
+    "visualization",
+    "yaml"
+  ],
+  "archived": false,
+  "commit_sha": "a46d0d0adb098e12e577a083e87ead7f61f90098",
+  "commit_url": "https://github.com/AykutSarac/jsoncrack.com/commit/a46d0d0adb098e12e577a083e87ead7f61f90098",
+  "tree_url": "https://github.com/AykutSarac/jsoncrack.com/tree/a46d0d0adb098e12e577a083e87ead7f61f90098",
+  "analysed_at": "2026-11-14T19:12:58.408759+00:00",
+  "status": "completed",
+  "files_fetched": 186,
+  "files_analysed": 183,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "apps/vscode/src/App.tsx",
+    "apps/vscode/src/index.tsx",
+    "packages/jsoncrack-react/src/index.ts"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "owner": "wangshub",
+  "name": "wechat_jump_game",
+  "full_name": "wangshub/wechat_jump_game",
+  "html_url": "https://github.com/wangshub/wechat_jump_game",
+  "description": "\u5fae\u4fe1\u300a\u8df3\u4e00\u8df3\u300bPython \u8f85\u52a9",
+  "stars": 13847,
+  "forks": 4211,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "adb",
+    "python",
+    "wechat-app"
+  ],
+  "archived": false,
+  "commit_sha": "3cbbb07957901821542fcfc231a09b4f3c9318c9",
+  "commit_url": "https://github.com/wangshub/wechat_jump_game/commit/3cbbb07957901821542fcfc231a09b4f3c9318c9",
+  "tree_url": "https://github.com/wangshub/wechat_jump_game/tree/3cbbb07957901821542fcfc231a09b4f3c9318c9",
+  "analysed_at": "2026-11-14T19:09:41.787845+00:00",
+  "status": "completed",
+  "files_fetched": 63,
+  "files_analysed": 63,
+  "components": [
+    "common package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "jump_bot package"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas"
+  ],
+  "entry_points": [
+    "jump_bot/jumpbot/bot.py",
+    "wechat_jump_auto.py",
+    "wechat_jump_auto_ai.py",
+    "wechat_jump_auto_curves.py",
+    "wechat_jump_auto_iOS.py",
+    "wechat_jump_auto_slim.py"
+  ]
+}

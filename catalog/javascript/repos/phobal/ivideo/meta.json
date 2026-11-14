@@ -1,0 +1,44 @@
+{
+  "owner": "phobal",
+  "name": "ivideo",
+  "full_name": "phobal/ivideo",
+  "html_url": "https://github.com/phobal/ivideo",
+  "description": "\u4e00\u4e2a\u53ef\u4ee5\u89c2\u770b\u56fd\u5185\u4e3b\u6d41\u89c6\u9891\u5e73\u53f0\u6240\u6709\u89c6\u9891\u7684\u5ba2\u6237\u7aef\uff08Mac\u3001Windows\u3001Linux\uff09 A client that can watch video of domestic(China) mainstream video platform",
+  "stars": 11816,
+  "forks": 3132,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "e9a26b66177a643f53bbadeb89da45dfee821abc",
+  "commit_url": "https://github.com/phobal/ivideo/commit/e9a26b66177a643f53bbadeb89da45dfee821abc",
+  "tree_url": "https://github.com/phobal/ivideo/tree/e9a26b66177a643f53bbadeb89da45dfee821abc",
+  "analysed_at": "2026-11-14T19:12:14.431291+00:00",
+  "status": "completed",
+  "files_fetched": 68,
+  "files_analysed": 66,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "flow-typed package",
+    "internals package",
+    "Tests"
+  ],
+  "detections": [
+    "Electron",
+    "Express",
+    "React",
+    "axios",
+    "React Router",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "app/containers/App.js",
+    "app/index.js",
+    "app/reducers/index.js"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "owner": "angular",
+  "name": "angular-seed",
+  "full_name": "angular/angular-seed",
+  "html_url": "https://github.com/angular/angular-seed",
+  "description": "Seed project for angular apps. ",
+  "stars": 13055,
+  "forks": 6742,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "8c695627a6c3f1e62233d9b1f21a301d338a2d15",
+  "commit_url": "https://github.com/angular/angular-seed/commit/8c695627a6c3f1e62233d9b1f21a301d338a2d15",
+  "tree_url": "https://github.com/angular/angular-seed/tree/8c695627a6c3f1e62233d9b1f21a301d338a2d15",
+  "analysed_at": "2026-11-14T19:12:01.285273+00:00",
+  "status": "completed",
+  "files_fetched": 26,
+  "files_analysed": 25,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "e2e-tests package",
+    "Service / domain layer"
+  ],
+  "detections": [],
+  "entry_points": [
+    "app/app.js"
+  ]
+}

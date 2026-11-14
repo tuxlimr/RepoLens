@@ -1,0 +1,50 @@
+{
+  "owner": "shiyu-coder",
+  "name": "Kronos",
+  "full_name": "shiyu-coder/Kronos",
+  "html_url": "https://github.com/shiyu-coder/Kronos",
+  "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+  "stars": 47794,
+  "forks": 7907,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+  "commit_url": "https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+  "tree_url": "https://github.com/shiyu-coder/Kronos/tree/67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+  "analysed_at": "2026-11-14T19:06:34.718262+00:00",
+  "status": "completed",
+  "files_fetched": 78,
+  "files_analysed": 78,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "finetune package",
+    "finetune_csv package",
+    "model package",
+    "Tests",
+    "webui package"
+  ],
+  "detections": [
+    "Flask",
+    "NumPy",
+    "pandas",
+    "requests",
+    "pytest"
+  ],
+  "entry_points": [
+    "finetune/dataset.py",
+    "finetune/qlib_data_preprocess.py",
+    "finetune/qlib_test.py",
+    "finetune/train_predictor.py",
+    "finetune/train_tokenizer.py",
+    "finetune_csv/finetune_base_model.py",
+    "finetune_csv/finetune_tokenizer.py",
+    "finetune_csv/train_sequential.py",
+    "webui/app.py",
+    "webui/run.py"
+  ]
+}

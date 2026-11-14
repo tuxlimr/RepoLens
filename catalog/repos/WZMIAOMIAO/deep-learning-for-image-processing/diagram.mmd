@@ -1,0 +1,31 @@
+%% Repository: WZMIAOMIAO/deep-learning-for-image-processing
+%% Analysed commit: 1ec3fe6f374fc9969973a61f819de25658595afa
+%% Commit reference: https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/commit/1ec3fe6f374fc9969973a61f819de25658595afa
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        deploying_service["deploying_service package"]
+        others_project["others_project package"]
+        pytorch_classification["pytorch_classification package"]
+        pytorch_keypoint["pytorch_keypoint package"]
+        pytorch_object_detection["pytorch_object_detection package"]
+        pytorch_segmentation["pytorch_segmentation package"]
+        tensorflow_classification["tensorflow_classification package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| pytorch_keypoint
+    pytorch_keypoint -->|imports| entrypoint

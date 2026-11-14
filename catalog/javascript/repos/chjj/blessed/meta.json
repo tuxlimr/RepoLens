@@ -1,0 +1,36 @@
+{
+  "owner": "chjj",
+  "name": "blessed",
+  "full_name": "chjj/blessed",
+  "html_url": "https://github.com/chjj/blessed",
+  "description": "A high-level terminal interface library for node.js.",
+  "stars": 11883,
+  "forks": 560,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "eab243fc7ad27f1d2932db6134f7382825ee3488",
+  "commit_url": "https://github.com/chjj/blessed/commit/eab243fc7ad27f1d2932db6134f7382825ee3488",
+  "tree_url": "https://github.com/chjj/blessed/tree/eab243fc7ad27f1d2932db6134f7382825ee3488",
+  "analysed_at": "2026-11-14T19:12:14.253671+00:00",
+  "status": "completed",
+  "files_fetched": 122,
+  "files_analysed": 121,
+  "components": [
+    "bin package",
+    "browser package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "example/ansi-viewer/index.js",
+    "lib/blessed.js",
+    "bin/tput.js",
+    "index.js"
+  ]
+}

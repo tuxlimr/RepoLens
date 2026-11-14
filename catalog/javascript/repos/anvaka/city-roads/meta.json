@@ -1,0 +1,40 @@
+{
+  "owner": "anvaka",
+  "name": "city-roads",
+  "full_name": "anvaka/city-roads",
+  "html_url": "https://github.com/anvaka/city-roads",
+  "description": "Visualization of all roads within any city",
+  "stars": 9821,
+  "forks": 761,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "4677b4e146190697c8d96d6ab901c7ac90fc633a",
+  "commit_url": "https://github.com/anvaka/city-roads/commit/4677b4e146190697c8d96d6ab901c7ac90fc633a",
+  "tree_url": "https://github.com/anvaka/city-roads/tree/4677b4e146190697c8d96d6ab901c7ac90fc633a",
+  "analysed_at": "2026-11-14T19:12:52.559615+00:00",
+  "status": "completed",
+  "files_fetched": 54,
+  "files_analysed": 54,
+  "components": [
+    "App.vue package",
+    "components package",
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "createOverlayManager.js package",
+    "lib package",
+    "main.js package",
+    "NoWebGL.vue package",
+    "proto package"
+  ],
+  "detections": [
+    "Vue",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/main.js"
+  ]
+}

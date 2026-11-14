@@ -1,0 +1,30 @@
+%% Repository: chriskiehl/Gooey
+%% Analysed commit: c541920465c7bcaaefa47a15a858eb477d2666fd
+%% Commit reference: https://github.com/chriskiehl/Gooey/commit/c541920465c7bcaaefa47a15a858eb477d2666fd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        gooey["gooey package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| gooey
+    entrypoint -->|imports| gooey
+    gooey -->|imports| config
+    gooey -->|imports| entrypoint
+    gooey -->|imports| service_layer
+    service_layer -->|imports| gooey
+    tests -->|imports| gooey
+    tests -->|imports| service_layer

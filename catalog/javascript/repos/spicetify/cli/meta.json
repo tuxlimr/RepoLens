@@ -1,0 +1,56 @@
+{
+  "owner": "spicetify",
+  "name": "cli",
+  "full_name": "spicetify/cli",
+  "html_url": "https://github.com/spicetify/cli",
+  "description": "Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.",
+  "stars": 25510,
+  "forks": 1010,
+  "license": "LGPL-2.1",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "command-line",
+    "command-line-tool",
+    "customization",
+    "golang",
+    "hacktoberfest",
+    "linux",
+    "macos",
+    "spicetify-cli",
+    "spicetify-extensions",
+    "spotify",
+    "windows"
+  ],
+  "archived": false,
+  "commit_sha": "867df4af012a07f0b9d5c6b4bc8d7c29badb8ca9",
+  "commit_url": "https://github.com/spicetify/cli/commit/867df4af012a07f0b9d5c6b4bc8d7c29badb8ca9",
+  "tree_url": "https://github.com/spicetify/cli/tree/867df4af012a07f0b9d5c6b4bc8d7c29badb8ca9",
+  "analysed_at": "2026-11-14T19:10:59.860003+00:00",
+  "status": "completed",
+  "files_fetched": 134,
+  "files_analysed": 132,
+  "components": [
+    "apply package",
+    "backup package",
+    "cmd package",
+    "Configuration and deployment",
+    "Core modules",
+    "CustomApps package",
+    "Extensions package",
+    "jsHelper package",
+    "preprocess package",
+    "scripts package",
+    "status package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "CustomApps/lyrics-plus/index.js",
+    "CustomApps/new-releases/index.js",
+    "CustomApps/reddit/index.js",
+    "src/jsHelper/spicetifyWrapper/index.js"
+  ]
+}

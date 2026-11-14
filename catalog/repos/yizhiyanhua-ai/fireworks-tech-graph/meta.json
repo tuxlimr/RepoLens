@@ -1,0 +1,54 @@
+{
+  "owner": "yizhiyanhua-ai",
+  "name": "fireworks-tech-graph",
+  "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
+  "html_url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+  "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+  "stars": 11992,
+  "forks": 937,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-workflows",
+    "ai",
+    "claude-code",
+    "developer-tools",
+    "diagrams",
+    "svg"
+  ],
+  "archived": false,
+  "commit_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
+  "commit_url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph/commit/1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
+  "tree_url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph/tree/1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
+  "analysed_at": "2026-11-14T19:10:18.877071+00:00",
+  "status": "completed",
+  "files_fetched": 241,
+  "files_analysed": 241,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package",
+    "skills package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/export-interactive-html.py",
+    "scripts/fireworks.py",
+    "scripts/generate-from-template.py",
+    "scripts/interactive_html.py",
+    "scripts/svg_canvas.py",
+    "scripts/validate_svg.py",
+    "skills/fireworks-tech-graph/scripts/export-interactive-html.py",
+    "skills/fireworks-tech-graph/scripts/fireworks.py",
+    "skills/fireworks-tech-graph/scripts/generate-from-template.py",
+    "skills/fireworks-tech-graph/scripts/interactive_html.py",
+    "skills/fireworks-tech-graph/scripts/svg_canvas.py",
+    "skills/fireworks-tech-graph/scripts/validate_svg.py"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "owner": "elayadesign",
+  "name": "ai-design-skills",
+  "full_name": "elayadesign/ai-design-skills",
+  "html_url": "https://github.com/elayadesign/ai-design-skills",
+  "description": null,
+  "stars": 15534,
+  "forks": 1195,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "commit_url": "https://github.com/elayadesign/ai-design-skills/commit/456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "tree_url": "https://github.com/elayadesign/ai-design-skills/tree/456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "analysed_at": "2026-11-14T19:09:01.036530+00:00",
+  "status": "completed",
+  "files_fetched": 8,
+  "files_analysed": 8,
+  "components": [
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/validate_skills.py"
+  ]
+}

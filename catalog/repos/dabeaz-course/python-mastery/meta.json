@@ -1,0 +1,48 @@
+{
+  "owner": "dabeaz-course",
+  "name": "python-mastery",
+  "full_name": "dabeaz-course/python-mastery",
+  "html_url": "https://github.com/dabeaz-course/python-mastery",
+  "description": "Advanced Python Mastery (course by @dabeaz)",
+  "stars": 13356,
+  "forks": 2317,
+  "license": "CC-BY-SA-4.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "python",
+    "python-tutorial",
+    "tutorial"
+  ],
+  "archived": true,
+  "commit_sha": "96209506334b14f879b413620d564b0ec458e4de",
+  "commit_url": "https://github.com/dabeaz-course/python-mastery/commit/96209506334b14f879b413620d564b0ec458e4de",
+  "tree_url": "https://github.com/dabeaz-course/python-mastery/tree/96209506334b14f879b413620d564b0ec458e4de",
+  "analysed_at": "2026-11-14T19:09:52.434833+00:00",
+  "status": "completed",
+  "files_fetched": 254,
+  "files_analysed": 254,
+  "components": [
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Solutions package"
+  ],
+  "detections": [
+    "unittest"
+  ],
+  "entry_points": [
+    "Solutions/1_1/art.py",
+    "Solutions/1_6/pcost.py",
+    "Solutions/2_1/readrides.py",
+    "Solutions/2_2/readrides.py",
+    "Solutions/2_5/readrides.py",
+    "Solutions/2_6/colreader.py",
+    "Solutions/3_1/stock.py",
+    "Solutions/3_2/stock.py",
+    "Solutions/3_3/stock.py",
+    "Solutions/3_5/stock.py",
+    "Solutions/3_6/stock.py",
+    "Solutions/3_7/stock.py"
+  ]
+}

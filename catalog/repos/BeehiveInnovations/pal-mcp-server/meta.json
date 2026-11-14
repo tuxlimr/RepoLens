@@ -1,0 +1,53 @@
+{
+  "owner": "BeehiveInnovations",
+  "name": "pal-mcp-server",
+  "full_name": "BeehiveInnovations/pal-mcp-server",
+  "html_url": "https://github.com/BeehiveInnovations/pal-mcp-server",
+  "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+  "stars": 11838,
+  "forks": 1038,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7afc7c1cc96e23992c8f105f960132c657883bb1",
+  "commit_url": "https://github.com/BeehiveInnovations/pal-mcp-server/commit/7afc7c1cc96e23992c8f105f960132c657883bb1",
+  "tree_url": "https://github.com/BeehiveInnovations/pal-mcp-server/tree/7afc7c1cc96e23992c8f105f960132c657883bb1",
+  "analysed_at": "2026-11-14T19:10:22.056049+00:00",
+  "status": "completed",
+  "files_fetched": 361,
+  "files_analysed": 361,
+  "components": [
+    "clink package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "docker package",
+    "Application entry point",
+    "External integrations",
+    "providers package",
+    "simulator_tests package",
+    "systemprompts package",
+    "Tests",
+    "tools package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "communication_simulator_test.py",
+    "docker/scripts/healthcheck.py",
+    "scripts/sync_version.py",
+    "server.py"
+  ]
+}

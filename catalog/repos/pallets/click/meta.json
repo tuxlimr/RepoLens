@@ -1,0 +1,34 @@
+{
+  "owner": "pallets",
+  "name": "click",
+  "full_name": "pallets/click",
+  "html_url": "https://github.com/pallets/click",
+  "description": "Python composable command line interface toolkit",
+  "stars": 16000,
+  "forks": 1400,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "e38188e9e205005d5af5f9e59df51904c984586a",
+  "commit_url": "https://github.com/pallets/click/commit/e38188e9e205005d5af5f9e59df51904c984586a",
+  "tree_url": "https://github.com/pallets/click/tree/e38188e9e205005d5af5f9e59df51904c984586a",
+  "analysed_at": "2026-11-14T19:02:12.841719+00:00",
+  "status": "completed",
+  "files_fetched": 176,
+  "files_analysed": 176,
+  "components": [
+    "click package",
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,14 @@
+%% Repository: dbader/schedule
+%% Analysed commit: 82a43db1b938d8fdf60103bd41f329e06c8d3651
+%% Commit reference: https://github.com/dbader/schedule/commit/82a43db1b938d8fdf60103bd41f329e06c8d3651
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        schedule["schedule package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| schedule

@@ -1,0 +1,21 @@
+%% Repository: ActivityWatch/activitywatch
+%% Analysed commit: b1dbd358ef6e284baa33aa075a885716538f1e1a
+%% Commit reference: https://github.com/ActivityWatch/activitywatch/commit/b1dbd358ef6e284baa33aa075a885716538f1e1a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| external_integrations

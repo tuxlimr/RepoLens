@@ -1,0 +1,34 @@
+{
+  "owner": "SesameAILabs",
+  "name": "csm",
+  "full_name": "SesameAILabs/csm",
+  "html_url": "https://github.com/SesameAILabs/csm",
+  "description": "A Conversational Speech Generation Model",
+  "stars": 14749,
+  "forks": 1474,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "daed31e6d42cf71873999075de204fa37d2acec3",
+  "commit_url": "https://github.com/SesameAILabs/csm/commit/daed31e6d42cf71873999075de204fa37d2acec3",
+  "tree_url": "https://github.com/SesameAILabs/csm/tree/daed31e6d42cf71873999075de204fa37d2acec3",
+  "analysed_at": "2026-11-14T19:09:17.163480+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point"
+  ],
+  "detections": [
+    "setuptools"
+  ],
+  "entry_points": [
+    "run_csm.py",
+    "watermarking.py"
+  ]
+}

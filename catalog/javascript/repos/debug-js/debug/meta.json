@@ -1,0 +1,41 @@
+{
+  "owner": "debug-js",
+  "name": "debug",
+  "full_name": "debug-js/debug",
+  "html_url": "https://github.com/debug-js/debug",
+  "description": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers",
+  "stars": 11458,
+  "forks": 995,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "browser",
+    "debug",
+    "debugging",
+    "javascript",
+    "logging",
+    "node",
+    "node-js"
+  ],
+  "archived": false,
+  "commit_sha": "666dbc50680933bde9e7fde3a6c3241102e8f60b",
+  "commit_url": "https://github.com/debug-js/debug/commit/666dbc50680933bde9e7fde3a6c3241102e8f60b",
+  "tree_url": "https://github.com/debug-js/debug/tree/666dbc50680933bde9e7fde3a6c3241102e8f60b",
+  "analysed_at": "2026-11-14T19:12:18.132913+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 13,
+  "components": [
+    "browser.js package",
+    "common.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "node.js package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

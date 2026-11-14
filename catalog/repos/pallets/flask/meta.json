@@ -1,0 +1,50 @@
+{
+  "owner": "pallets",
+  "name": "flask",
+  "full_name": "pallets/flask",
+  "html_url": "https://github.com/pallets/flask",
+  "description": "The Python micro framework for building web applications.",
+  "stars": 75116,
+  "forks": 17330,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "flask",
+    "jinja",
+    "pallets",
+    "python",
+    "web-framework",
+    "werkzeug",
+    "wsgi"
+  ],
+  "archived": false,
+  "commit_sha": "49943b5a94413a530761350f04e896f76e8d620e",
+  "commit_url": "https://github.com/pallets/flask/commit/49943b5a94413a530761350f04e896f76e8d620e",
+  "tree_url": "https://github.com/pallets/flask/tree/49943b5a94413a530761350f04e896f76e8d620e",
+  "analysed_at": "2026-11-14T19:06:13.197322+00:00",
+  "status": "completed",
+  "files_fetched": 230,
+  "files_analysed": 229,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "flask package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "SQLite",
+    "Flask",
+    "Celery",
+    "Click",
+    "Kombu",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "src/flask/cli.py"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "owner": "NVlabs",
+  "name": "stylegan",
+  "full_name": "NVlabs/stylegan",
+  "html_url": "https://github.com/NVlabs/stylegan",
+  "description": "StyleGAN - Official TensorFlow Implementation",
+  "stars": 14411,
+  "forks": 3123,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "1e0d5c781384ef12b50ef20a62fee5d78b38e88f",
+  "commit_url": "https://github.com/NVlabs/stylegan/commit/1e0d5c781384ef12b50ef20a62fee5d78b38e88f",
+  "tree_url": "https://github.com/NVlabs/stylegan/tree/1e0d5c781384ef12b50ef20a62fee5d78b38e88f",
+  "analysed_at": "2026-11-14T19:09:26.891881+00:00",
+  "status": "completed",
+  "files_fetched": 31,
+  "files_analysed": 31,
+  "components": [
+    "Configuration and deployment",
+    "dnnlib package",
+    "Application entry point",
+    "External integrations",
+    "metrics package",
+    "training package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests"
+  ],
+  "entry_points": [
+    "dataset_tool.py",
+    "generate_figures.py",
+    "pretrained_example.py",
+    "run_metrics.py",
+    "train.py"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "owner": "47ng",
+  "name": "nuqs",
+  "full_name": "47ng/nuqs",
+  "html_url": "https://github.com/47ng/nuqs",
+  "description": "Type-safe search params state manager for React frameworks - Like useState, but stored in the URL query string.",
+  "stars": 10907,
+  "forks": 298,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "next",
+  "topics": [
+    "query-params",
+    "react",
+    "search-params",
+    "state-management",
+    "type-safe",
+    "type-safety",
+    "url-parameters",
+    "url-params",
+    "url-state"
+  ],
+  "archived": false,
+  "commit_sha": "149906a2a6388adf79e868786581eec9cfb16c00",
+  "commit_url": "https://github.com/47ng/nuqs/commit/149906a2a6388adf79e868786581eec9cfb16c00",
+  "tree_url": "https://github.com/47ng/nuqs/tree/149906a2a6388adf79e868786581eec9cfb16c00",
+  "analysed_at": "2026-11-14T19:13:29.818820+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "External integrations",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": []
+}

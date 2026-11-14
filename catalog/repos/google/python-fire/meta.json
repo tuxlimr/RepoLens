@@ -1,0 +1,51 @@
+{
+  "owner": "google",
+  "name": "python-fire",
+  "full_name": "google/python-fire",
+  "html_url": "https://github.com/google/python-fire",
+  "description": "Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.",
+  "stars": 28225,
+  "forks": 1501,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "716bbc23d7eca949fdb682172283c8d18f742cb6",
+  "commit_url": "https://github.com/google/python-fire/commit/716bbc23d7eca949fdb682172283c8d18f742cb6",
+  "tree_url": "https://github.com/google/python-fire/tree/716bbc23d7eca949fdb682172283c8d18f742cb6",
+  "analysed_at": "2026-11-14T19:07:17.446977+00:00",
+  "status": "completed",
+  "files_fetched": 79,
+  "files_analysed": 79,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "fire package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "fire/__main__.py",
+    "fire/completion_test.py",
+    "fire/core_test.py",
+    "fire/custom_descriptions_test.py",
+    "fire/decorators_test.py",
+    "fire/docstrings_fuzz_test.py",
+    "fire/docstrings_test.py",
+    "fire/fire_import_test.py",
+    "fire/fire_test.py",
+    "fire/formatting_test.py",
+    "fire/helptext_test.py",
+    "fire/inspectutils_test.py"
+  ]
+}

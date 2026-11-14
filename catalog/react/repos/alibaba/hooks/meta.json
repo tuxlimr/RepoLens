@@ -1,0 +1,46 @@
+{
+  "owner": "alibaba",
+  "name": "hooks",
+  "full_name": "alibaba/hooks",
+  "html_url": "https://github.com/alibaba/hooks",
+  "description": "A high-quality & reliable React Hooks library.   https://alibaba.github.io/hooks/",
+  "stars": 14979,
+  "forks": 2756,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "ahooks",
+    "hooks-library",
+    "react",
+    "react-hooks",
+    "umi-hooks"
+  ],
+  "archived": false,
+  "commit_sha": "a0c33c21caefda40753fe4b3cbb3b1efbabd1a79",
+  "commit_url": "https://github.com/alibaba/hooks/commit/a0c33c21caefda40753fe4b3cbb3b1efbabd1a79",
+  "tree_url": "https://github.com/alibaba/hooks/tree/a0c33c21caefda40753fe4b3cbb3b1efbabd1a79",
+  "analysed_at": "2026-11-14T19:13:16.365071+00:00",
+  "status": "completed",
+  "files_fetched": 665,
+  "files_analysed": 664,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "public package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "TypeScript",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/hooks/src/index.ts",
+    "packages/use-url-state/src/index.ts"
+  ]
+}

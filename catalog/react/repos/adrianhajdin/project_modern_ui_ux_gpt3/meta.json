@@ -1,0 +1,42 @@
+{
+  "owner": "adrianhajdin",
+  "name": "project_modern_ui_ux_gpt3",
+  "full_name": "adrianhajdin/project_modern_ui_ux_gpt3",
+  "html_url": "https://github.com/adrianhajdin/project_modern_ui_ux_gpt3",
+  "description": "Master the creation of Modern UX/UI Websites",
+  "stars": 3837,
+  "forks": 866,
+  "license": null,
+  "language": "CSS",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "react",
+    "ui",
+    "ux"
+  ],
+  "archived": false,
+  "commit_sha": "16457b4ebf5c96aad723519a86076b8d339ce024",
+  "commit_url": "https://github.com/adrianhajdin/project_modern_ui_ux_gpt3/commit/16457b4ebf5c96aad723519a86076b8d339ce024",
+  "tree_url": "https://github.com/adrianhajdin/project_modern_ui_ux_gpt3/tree/16457b4ebf5c96aad723519a86076b8d339ce024",
+  "analysed_at": "2026-11-14T19:15:04.286381+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "App.js package",
+    "components package",
+    "Configuration and deployment",
+    "containers package",
+    "index.js package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "src/App.js",
+    "src/components/index.js",
+    "src/containers/index.js",
+    "src/index.js"
+  ]
+}

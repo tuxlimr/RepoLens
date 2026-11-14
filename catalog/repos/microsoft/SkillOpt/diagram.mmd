@@ -1,0 +1,37 @@
+%% Repository: microsoft/SkillOpt
+%% Analysed commit: 45f65ca04f5f6713bca7b9797b495696ba812751
+%% Commit reference: https://github.com/microsoft/SkillOpt/commit/45f65ca04f5f6713bca7b9797b495696ba812751
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        plugins["plugins package"]
+        scripts["scripts package"]
+        skillopt["skillopt package"]
+        skillopt_sleep["skillopt_sleep package"]
+        skillopt_webui["skillopt_webui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| skillopt
+    entrypoint -->|imports| skillopt_sleep
+    plugins -->|imports| skillopt_sleep
+    skillopt -->|imports| external_integrations
+    skillopt_sleep -->|imports| config
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| scripts
+    tests -->|imports| skillopt
+    tests -->|imports| skillopt_sleep
+    tests -->|imports| skillopt_webui

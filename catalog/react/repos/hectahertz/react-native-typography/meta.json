@@ -1,0 +1,46 @@
+{
+  "owner": "hectahertz",
+  "name": "react-native-typography",
+  "full_name": "hectahertz/react-native-typography",
+  "html_url": "https://github.com/hectahertz/react-native-typography",
+  "description": "Pixel\u2013perfect, native\u2013looking typographic styles for React Native \u2712\ufe0f",
+  "stars": 3558,
+  "forks": 112,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "android",
+    "ios",
+    "react",
+    "react-native",
+    "typography",
+    "typography-themes"
+  ],
+  "archived": false,
+  "commit_sha": "c66b2e8b8e4b73983e95016e53f42ec8327823fb",
+  "commit_url": "https://github.com/hectahertz/react-native-typography/commit/c66b2e8b8e4b73983e95016e53f42ec8327823fb",
+  "tree_url": "https://github.com/hectahertz/react-native-typography/tree/c66b2e8b8e4b73983e95016e53f42ec8327823fb",
+  "analysed_at": "2026-11-14T19:15:15.229780+00:00",
+  "status": "completed",
+  "files_fetched": 61,
+  "files_analysed": 60,
+  "components": [
+    "collections package",
+    "Configuration and deployment",
+    "demo package",
+    "helpers package",
+    "index.d.ts package",
+    "index.js package",
+    "internal package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "demo/app/index.tsx",
+    "src/index.js"
+  ]
+}

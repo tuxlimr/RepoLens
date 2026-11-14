@@ -1,0 +1,26 @@
+%% Repository: GoogleChromeLabs/quicklink
+%% Analysed commit: e2f081b78f518a108a47b9046428a36f96f74f1e
+%% Commit reference: https://github.com/GoogleChromeLabs/quicklink/commit/e2f081b78f518a108a47b9046428a36f96f74f1e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        chunks_mjs["chunks.mjs package"]
+        demos["demos package"]
+        index_mjs["index.mjs package"]
+        prefetch_mjs["prefetch.mjs package"]
+        prerender_mjs["prerender.mjs package"]
+        react_chunks_js["react-chunks.js package"]
+        request_idle_callback_mjs["request-idle-callback.mjs package"]
+        site["site package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

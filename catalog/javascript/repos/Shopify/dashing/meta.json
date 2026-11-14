@@ -1,0 +1,30 @@
+{
+  "owner": "Shopify",
+  "name": "dashing",
+  "full_name": "Shopify/dashing",
+  "html_url": "https://github.com/Shopify/dashing",
+  "description": "The exceptionally handsome dashboard framework in Ruby and Coffeescript.",
+  "stars": 10893,
+  "forks": 1143,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "bc1c106e42d52d3bfc042cba7bb0181d09413068",
+  "commit_url": "https://github.com/Shopify/dashing/commit/bc1c106e42d52d3bfc042cba7bb0181d09413068",
+  "tree_url": "https://github.com/Shopify/dashing/tree/bc1c106e42d52d3bfc042cba7bb0181d09413068",
+  "analysed_at": "2026-11-14T19:12:29.184491+00:00",
+  "status": "completed",
+  "files_fetched": 74,
+  "files_analysed": 73,
+  "components": [
+    "Configuration and deployment",
+    "javascripts package",
+    "lib package",
+    "templates package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": []
+}

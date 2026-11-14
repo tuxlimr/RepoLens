@@ -1,0 +1,57 @@
+{
+  "owner": "alvarotrigo",
+  "name": "fullPage.js",
+  "full_name": "alvarotrigo/fullPage.js",
+  "html_url": "https://github.com/alvarotrigo/fullPage.js",
+  "description": "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple",
+  "stars": 35355,
+  "forks": 7055,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "fullpage",
+    "fullscreen",
+    "javascript",
+    "jquery",
+    "mousewheel",
+    "onepage",
+    "scrolling",
+    "sections",
+    "slide",
+    "slideshow",
+    "snap",
+    "swipe"
+  ],
+  "archived": false,
+  "commit_sha": "49f15effa7b195def295a36f872c28153cf9fb00",
+  "commit_url": "https://github.com/alvarotrigo/fullPage.js/commit/49f15effa7b195def295a36f872c28153cf9fb00",
+  "tree_url": "https://github.com/alvarotrigo/fullPage.js/tree/49f15effa7b195def295a36f872c28153cf9fb00",
+  "analysed_at": "2026-11-14T19:10:43.004912+00:00",
+  "status": "completed",
+  "files_fetched": 262,
+  "files_analysed": 257,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "gulp package",
+    "js package",
+    "Tests",
+    "types package",
+    "vendors package"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": [
+    "src/js/anchors/index.js",
+    "src/js/app.js",
+    "src/js/beyondFullpage/index.js",
+    "src/js/keyboard/index.js",
+    "src/js/menu/index.js",
+    "src/js/nav/index.js",
+    "src/js/polyfills/index.js",
+    "src/js/scroll/index.js",
+    "src/js/slides/index.js"
+  ]
+}

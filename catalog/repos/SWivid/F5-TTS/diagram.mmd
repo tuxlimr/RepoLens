@@ -1,0 +1,22 @@
+%% Repository: SWivid/F5-TTS
+%% Analysed commit: 600e5fdfbf319f84735557aca80a7aaf60d487e6
+%% Commit reference: https://github.com/SWivid/F5-TTS/commit/600e5fdfbf319f84735557aca80a7aaf60d487e6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        f5_tts["f5_tts package"]
+    end
+    data_layer -->|imports| f5_tts
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| f5_tts

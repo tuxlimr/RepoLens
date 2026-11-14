@@ -1,0 +1,16 @@
+%% Repository: donnemartin/awesome-aws
+%% Analysed commit: 5a49af5f118cef44bd91cdcb7aafe045ef31ad60
+%% Commit reference: https://github.com/donnemartin/awesome-aws/commit/5a49af5f118cef44bd91cdcb7aafe045ef31ad60
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        awesome["awesome package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| awesome
+    tests -->|imports| awesome

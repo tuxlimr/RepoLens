@@ -1,0 +1,28 @@
+%% Repository: gpujs/gpu.js
+%% Analysed commit: 290711d0f8ff1af95b291489898f73a5c1b85a7a
+%% Commit reference: https://github.com/gpujs/gpu.js/commit/290711d0f8ff1af95b291489898f73a5c1b85a7a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        alias_js["alias.js package"]
+        backend["backend package"]
+        browser_js["browser.js package"]
+        gpu_js["gpu.js package"]
+        index_d_ts["index.d.ts package"]
+        index_js["index.js package"]
+        input_js["input.js package"]
+        kernel_run_shortcut_js["kernel-run-shortcut.js package"]
+        pipeline_js["pipeline.js package"]
+        plugins["plugins package"]
+        scripts["scripts package"]
+        texture_js["texture.js package"]
+        utils_js["utils.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

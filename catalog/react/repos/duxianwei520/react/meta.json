@@ -1,0 +1,51 @@
+{
+  "owner": "duxianwei520",
+  "name": "react",
+  "full_name": "duxianwei520/react",
+  "html_url": "https://github.com/duxianwei520/react",
+  "description": " React+vite+redux+ant design+axios+less\u5168\u5bb6\u6876\u540e\u53f0\u7ba1\u7406\u6846\u67b6",
+  "stars": 5339,
+  "forks": 1824,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "ant-design-pro",
+    "antd",
+    "babel",
+    "es6",
+    "es7",
+    "react",
+    "redux",
+    "vite"
+  ],
+  "archived": false,
+  "commit_sha": "a385305a9b281949dac3525edd940cec5089e2f6",
+  "commit_url": "https://github.com/duxianwei520/react/commit/a385305a9b281949dac3525edd940cec5089e2f6",
+  "tree_url": "https://github.com/duxianwei520/react/tree/a385305a9b281949dac3525edd940cec5089e2f6",
+  "analysed_at": "2026-11-14T19:14:22.193888+00:00",
+  "status": "completed",
+  "files_fetched": 107,
+  "files_analysed": 107,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router",
+    "Redux",
+    "Redux Toolkit",
+    "Vite"
+  ],
+  "entry_points": [
+    "app/middleware/index.js",
+    "app/pages/base/app.js",
+    "app/pages/base/index.js",
+    "app/pages/menu/index.js",
+    "app/pages/set/index.js",
+    "app/redux/reducers/index.js"
+  ]
+}

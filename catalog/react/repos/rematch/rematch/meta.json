@@ -1,0 +1,61 @@
+{
+  "owner": "rematch",
+  "name": "rematch",
+  "full_name": "rematch/rematch",
+  "html_url": "https://github.com/rematch/rematch",
+  "description": "The Redux Framework",
+  "stars": 8390,
+  "forks": 408,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "angular",
+    "hacktoberfest",
+    "immer",
+    "javascript",
+    "react",
+    "react-native",
+    "react-redux",
+    "redux",
+    "redux-best-practices",
+    "redux-made-easy",
+    "rematch",
+    "state-management",
+    "typescript",
+    "vue"
+  ],
+  "archived": true,
+  "commit_sha": "bde199f08c7709e81458394d2bb9374ad95600a2",
+  "commit_url": "https://github.com/rematch/rematch/commit/bde199f08c7709e81458394d2bb9374ad95600a2",
+  "tree_url": "https://github.com/rematch/rematch/tree/bde199f08c7709e81458394d2bb9374ad95600a2",
+  "analysed_at": "2026-11-14T19:13:42.091270+00:00",
+  "status": "completed",
+  "files_fetched": 285,
+  "files_analysed": 274,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Redux",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/core/src/index.ts",
+    "packages/immer/src/index.ts",
+    "packages/loading/src/index.ts",
+    "packages/persist/src/index.ts",
+    "packages/select/src/index.ts",
+    "packages/typed-state/src/index.ts",
+    "packages/updated/src/index.ts",
+    "website/src/pages/index.tsx"
+  ]
+}

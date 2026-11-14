@@ -1,0 +1,59 @@
+{
+  "owner": "google",
+  "name": "elephant-goldfish-model",
+  "full_name": "google/elephant-goldfish-model",
+  "html_url": "https://github.com/google/elephant-goldfish-model",
+  "description": "Open-source plugin for designing and reviewing software with agents",
+  "stars": 19058,
+  "forks": 1416,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "codex-plugin",
+    "coding-agents",
+    "context-engineering",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "multi-agent",
+    "prompt-engineering",
+    "spec-driven-development"
+  ],
+  "archived": false,
+  "commit_sha": "e4747323aab66157812cd3a71755f6447b2803a2",
+  "commit_url": "https://github.com/google/elephant-goldfish-model/commit/e4747323aab66157812cd3a71755f6447b2803a2",
+  "tree_url": "https://github.com/google/elephant-goldfish-model/tree/e4747323aab66157812cd3a71755f6447b2803a2",
+  "analysed_at": "2026-11-14T19:08:17.392286+00:00",
+  "status": "completed",
+  "files_fetched": 270,
+  "files_analysed": 269,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Poetry",
+    "pytest",
+    "TypeScript",
+    "unittest"
+  ],
+  "entry_points": [
+    ".github/scripts/review_pr.py",
+    "adapters/opencode/install.py",
+    "scripts/pack_plugin.py",
+    "scripts/prepare_release.py"
+  ]
+}

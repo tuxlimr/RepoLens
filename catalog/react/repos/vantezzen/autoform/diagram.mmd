@@ -1,0 +1,18 @@
+%% Repository: vantezzen/autoform
+%% Analysed commit: 96bd1b7408465345ee715ad1491214d4ba1570e5
+%% Commit reference: https://github.com/vantezzen/autoform/commit/96bd1b7408465345ee715ad1491214d4ba1570e5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        packages["packages package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

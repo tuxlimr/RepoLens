@@ -1,0 +1,60 @@
+{
+  "owner": "ekzhang",
+  "name": "rustpad",
+  "full_name": "ekzhang/rustpad",
+  "html_url": "https://github.com/ekzhang/rustpad",
+  "description": "Efficient and minimal collaborative code editor, self-hosted, no database required",
+  "stars": 4085,
+  "forks": 222,
+  "license": "MIT",
+  "language": "Rust",
+  "default_branch": "main",
+  "topics": [
+    "async",
+    "code-editor",
+    "collaborative-editing",
+    "distributed-systems",
+    "operational-transformation",
+    "react",
+    "rust",
+    "self-hosted",
+    "tokio",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "54e4a9383c84d7317af42a7ddb177ce8bcba058d",
+  "commit_url": "https://github.com/ekzhang/rustpad/commit/54e4a9383c84d7317af42a7ddb177ce8bcba058d",
+  "tree_url": "https://github.com/ekzhang/rustpad/tree/54e4a9383c84d7317af42a7ddb177ce8bcba058d",
+  "analysed_at": "2026-11-14T19:14:54.406022+00:00",
+  "status": "completed",
+  "files_fetched": 49,
+  "files_analysed": 46,
+  "components": [
+    "App.tsx package",
+    "Configuration and deployment",
+    "ConnectionStatus.tsx package",
+    "Core modules",
+    "Footer.tsx package",
+    "index.tsx package",
+    "ReadCodeConfirm.tsx package",
+    "rustpad-server package",
+    "rustpad.ts package",
+    "rustpad-wasm package",
+    "Sidebar.tsx package",
+    "Tests",
+    "useHash.ts package",
+    "User.tsx package",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/App.tsx",
+    "src/index.tsx"
+  ]
+}

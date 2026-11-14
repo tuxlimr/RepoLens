@@ -1,0 +1,35 @@
+%% Repository: reactive-python/reactpy
+%% Analysed commit: 4b765d44986a29071d7b09cbeb63b2826da6e411
+%% Commit reference: https://github.com/reactive-python/reactpy/commit/4b765d44986a29071d7b09cbeb63b2826da6e411
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        build_scripts["build_scripts package"]
+        js["js package"]
+        reactpy["reactpy package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| reactpy
+    entrypoint -->|imports| reactpy
+    reactpy -->|imports| config
+    reactpy -->|imports| external_integrations
+    reactpy -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| reactpy
+    tests -->|imports| config
+    tests -->|imports| external_integrations
+    tests -->|imports| reactpy
+    tests -->|imports| service_layer

@@ -1,0 +1,61 @@
+{
+  "owner": "JordanKnott",
+  "name": "taskcafe",
+  "full_name": "JordanKnott/taskcafe",
+  "html_url": "https://github.com/JordanKnott/taskcafe",
+  "description": "An open source project management tool with Kanban boards",
+  "stars": 5221,
+  "forks": 475,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "golang",
+    "gqlgen",
+    "graphql",
+    "kanban-board",
+    "project-management",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "998db2a5da497a7902198a728ddc040fcacbacd6",
+  "commit_url": "https://github.com/JordanKnott/taskcafe/commit/998db2a5da497a7902198a728ddc040fcacbacd6",
+  "tree_url": "https://github.com/JordanKnott/taskcafe/tree/998db2a5da497a7902198a728ddc040fcacbacd6",
+  "analysed_at": "2026-11-14T19:14:23.651281+00:00",
+  "status": "completed",
+  "files_fetched": 494,
+  "files_analysed": 491,
+  "components": [
+    "cmd package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "frontend package",
+    "internal package",
+    "scripts package"
+  ],
+  "detections": [
+    "PostgreSQL",
+    "React",
+    "axios",
+    "React Router",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "frontend/.storybook/main.js",
+    "frontend/src/Admin/index.tsx",
+    "frontend/src/App/index.tsx",
+    "frontend/src/Auth/index.tsx",
+    "frontend/src/Confirm/index.tsx",
+    "frontend/src/Dashboard/index.tsx",
+    "frontend/src/MyTasks/index.tsx",
+    "frontend/src/Profile/index.tsx",
+    "frontend/src/Projects/index.tsx",
+    "frontend/src/Register/index.tsx",
+    "frontend/src/Teams/index.tsx",
+    "frontend/src/index.tsx"
+  ]
+}

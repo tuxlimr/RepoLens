@@ -1,0 +1,33 @@
+{
+  "owner": "git-tips",
+  "name": "tips",
+  "full_name": "git-tips/tips",
+  "html_url": "https://github.com/git-tips/tips",
+  "description": "Most commonly used git tips and tricks.",
+  "stars": 21721,
+  "forks": 1704,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "git",
+    "tips",
+    "tips-and-tricks"
+  ],
+  "archived": false,
+  "commit_sha": "727551c5dab24c7b1d63814222a06f9d01546bc4",
+  "commit_url": "https://github.com/git-tips/tips/commit/727551c5dab24c7b1d63814222a06f9d01546bc4",
+  "tree_url": "https://github.com/git-tips/tips/tree/727551c5dab24c7b1d63814222a06f9d01546bc4",
+  "analysed_at": "2026-11-14T19:11:10.623428+00:00",
+  "status": "completed",
+  "files_fetched": 26,
+  "files_analysed": 25,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

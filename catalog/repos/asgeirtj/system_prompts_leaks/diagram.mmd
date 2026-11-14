@@ -1,0 +1,17 @@
+%% Repository: asgeirtj/system_prompts_leaks
+%% Analysed commit: bb4c9c5a8bcbe281e2fbe3fd1fa961e514c0a93f
+%% Commit reference: https://github.com/asgeirtj/system_prompts_leaks/commit/bb4c9c5a8bcbe281e2fbe3fd1fa961e514c0a93f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        anthropic["Anthropic package"]
+    end
+    entrypoint -->|imports| external_integrations

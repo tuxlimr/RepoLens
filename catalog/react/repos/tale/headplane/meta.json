@@ -1,0 +1,57 @@
+{
+  "owner": "tale",
+  "name": "headplane",
+  "full_name": "tale/headplane",
+  "html_url": "https://github.com/tale/headplane",
+  "description": "A feature-complete Web UI for Headscale",
+  "stars": 3304,
+  "forks": 269,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "headscale",
+    "react",
+    "tailscale"
+  ],
+  "archived": false,
+  "commit_sha": "c8c192dbf0ade31f5947777fa4f46e45885edb49",
+  "commit_url": "https://github.com/tale/headplane/commit/c8c192dbf0ade31f5947777fa4f46e45885edb49",
+  "tree_url": "https://github.com/tale/headplane/tree/c8c192dbf0ade31f5947777fa4f46e45885edb49",
+  "analysed_at": "2026-11-14T19:15:25.889189+00:00",
+  "status": "completed",
+  "files_fetched": 435,
+  "files_analysed": 434,
+  "components": [
+    "API layer",
+    "app package",
+    "cmd package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "External integrations",
+    "internal package",
+    "nix package",
+    "runtime package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "app/layout/app.tsx",
+    "app/routes/ssh/page.tsx",
+    "app/server/app.ts",
+    "app/server/main.ts",
+    "app/types/index.ts"
+  ]
+}

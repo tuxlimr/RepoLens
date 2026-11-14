@@ -1,0 +1,40 @@
+%% Repository: crimx/ext-saladict
+%% Analysed commit: 1673df15690842847f4c5369f8113f26d4aa2604
+%% Commit reference: https://github.com/crimx/ext-saladict/commit/1673df15690842847f4c5369f8113f26d4aa2604
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app_config["app-config package"]
+        assets["assets package"]
+        audio_control["audio-control package"]
+        background["background package"]
+        components["components package"]
+        content["content package"]
+        helpers["_helpers package"]
+        history["history package"]
+        locales["_locales package"]
+        manifest["manifest package"]
+        notebook["notebook package"]
+        offscreen["offscreen package"]
+        options["options package"]
+        popup["popup package"]
+        quick_search["quick-search package"]
+        scripts["scripts package"]
+        selection["selection package"]
+        typings["typings package"]
+        word_editor["word-editor package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

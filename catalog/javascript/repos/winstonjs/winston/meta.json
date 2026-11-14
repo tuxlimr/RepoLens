@@ -1,0 +1,36 @@
+{
+  "owner": "winstonjs",
+  "name": "winston",
+  "full_name": "winstonjs/winston",
+  "html_url": "https://github.com/winstonjs/winston",
+  "description": "A logger for just about everything.",
+  "stars": 24526,
+  "forks": 1859,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ff0b79de8562bb322c390fbc82fe71c11f373428",
+  "commit_url": "https://github.com/winstonjs/winston/commit/ff0b79de8562bb322c390fbc82fe71c11f373428",
+  "tree_url": "https://github.com/winstonjs/winston/tree/ff0b79de8562bb322c390fbc82fe71c11f373428",
+  "analysed_at": "2026-11-14T19:11:01.816202+00:00",
+  "status": "completed",
+  "files_fetched": 115,
+  "files_analysed": 113,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": [
+    "lib/winston.js",
+    "lib/winston/config/index.js",
+    "lib/winston/transports/index.js"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "metafizzy",
+  "name": "zdog",
+  "full_name": "metafizzy/zdog",
+  "html_url": "https://github.com/metafizzy/zdog",
+  "description": "Flat, round, designer-friendly pseudo-3D engine for canvas & SVG",
+  "stars": 10698,
+  "forks": 412,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "3d",
+    "canvas",
+    "svg"
+  ],
+  "archived": false,
+  "commit_sha": "dde8684be686bc6d3cbedb6be49875c0a03a14c0",
+  "commit_url": "https://github.com/metafizzy/zdog/commit/dde8684be686bc6d3cbedb6be49875c0a03a14c0",
+  "tree_url": "https://github.com/metafizzy/zdog/tree/dde8684be686bc6d3cbedb6be49875c0a03a14c0",
+  "analysed_at": "2026-11-14T19:12:33.438786+00:00",
+  "status": "completed",
+  "files_fetched": 68,
+  "files_analysed": 66,
+  "components": [
+    "Configuration and deployment",
+    "demos package",
+    "js package",
+    "tasks package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "js/index.js"
+  ]
+}

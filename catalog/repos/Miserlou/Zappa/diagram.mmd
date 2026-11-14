@@ -1,0 +1,30 @@
+%% Repository: Miserlou/Zappa
+%% Analysed commit: 5a11c17f5ecf0568bdb73b4baf6fb08ff0184f39
+%% Commit reference: https://github.com/Miserlou/Zappa/commit/5a11c17f5ecf0568bdb73b4baf6fb08ff0184f39
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        zappa["zappa package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| zappa
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| zappa
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| zappa
+    zappa -->|imports| entrypoint
+    zappa -->|imports| external_integrations

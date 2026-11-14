@@ -1,0 +1,58 @@
+{
+  "owner": "TanStack",
+  "name": "virtual",
+  "full_name": "TanStack/virtual",
+  "html_url": "https://github.com/TanStack/virtual",
+  "description": "\ud83e\udd16 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte",
+  "stars": 7198,
+  "forks": 495,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "performance",
+    "react",
+    "reactjs",
+    "scrolling",
+    "solid",
+    "solidjs",
+    "svelte",
+    "virtualization",
+    "virtualized",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "54a3f7d3cc32b373187b3802d81cb4b24ae08b0b",
+  "commit_url": "https://github.com/TanStack/virtual/commit/54a3f7d3cc32b373187b3802d81cb4b24ae08b0b",
+  "tree_url": "https://github.com/TanStack/virtual/tree/54a3f7d3cc32b373187b3802d81cb4b24ae08b0b",
+  "analysed_at": "2026-11-14T19:13:58.811761+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "API layer",
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Svelte",
+    "Vue",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "benchmarks/src/main.tsx",
+    "packages/angular-virtual/src/index.ts",
+    "packages/lit-virtual/src/index.ts",
+    "packages/marko-virtual/src/index.ts",
+    "packages/react-virtual/src/index.tsx",
+    "packages/solid-virtual/src/index.tsx"
+  ]
+}

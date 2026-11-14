@@ -1,0 +1,30 @@
+{
+  "owner": "Advanced-Frontend",
+  "name": "Daily-Interview-Question",
+  "full_name": "Advanced-Frontend/Daily-Interview-Question",
+  "html_url": "https://github.com/Advanced-Frontend/Daily-Interview-Question",
+  "description": "\u6211\u662f\u4f9d\u626c\uff08\u6728\u6613\u6768\uff09\uff0c\u516c\u4f17\u53f7\u300c\u9ad8\u7ea7\u524d\u7aef\u8fdb\u9636\u300d\u4f5c\u8005\uff0c\u6bcf\u5929\u641e\u5b9a\u4e00\u9053\u524d\u7aef\u5927\u5382\u9762\u8bd5\u9898\uff0c\u795d\u5927\u5bb6\u5929\u5929\u8fdb\u6b65\uff0c\u4e00\u5e74\u540e\u4f1a\u770b\u5230\u4e0d\u4e00\u6837\u7684\u81ea\u5df1\u3002",
+  "stars": 27324,
+  "forks": 3212,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "css",
+    "interview",
+    "javascript",
+    "react",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "46a268536dc0918c2dd466d1b8421f78f4d99c0d",
+  "commit_url": "https://github.com/Advanced-Frontend/Daily-Interview-Question/commit/46a268536dc0918c2dd466d1b8421f78f4d99c0d",
+  "tree_url": "https://github.com/Advanced-Frontend/Daily-Interview-Question/tree/46a268536dc0918c2dd466d1b8421f78f4d99c0d",
+  "analysed_at": "2026-11-14T19:10:51.538326+00:00",
+  "status": "completed",
+  "files_fetched": 5,
+  "files_analysed": 5,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

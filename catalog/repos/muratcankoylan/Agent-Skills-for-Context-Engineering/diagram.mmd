@@ -1,0 +1,20 @@
+%% Repository: muratcankoylan/Agent-Skills-for-Context-Engineering
+%% Analysed commit: 9ff0c99108b36d3b886defd825d8ac1f47dba374
+%% Commit reference: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/commit/9ff0c99108b36d3b886defd825d8ac1f47dba374
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        researcher["researcher package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| researcher
+    researcher -->|imports| entrypoint
+    tests -->|imports| entrypoint
+    tests -->|imports| researcher

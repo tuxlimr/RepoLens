@@ -1,0 +1,45 @@
+{
+  "owner": "pugjs",
+  "name": "pug",
+  "full_name": "pugjs/pug",
+  "html_url": "https://github.com/pugjs/pug",
+  "description": "Pug \u2013 robust, elegant, feature rich template engine for Node.js",
+  "stars": 21818,
+  "forks": 1932,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c323ed3e630b931bc04790efb509d34ac5927040",
+  "commit_url": "https://github.com/pugjs/pug/commit/c323ed3e630b931bc04790efb509d34ac5927040",
+  "tree_url": "https://github.com/pugjs/pug/tree/c323ed3e630b931bc04790efb509d34ac5927040",
+  "analysed_at": "2026-11-14T19:11:10.546771+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/pug-attrs/index.js",
+    "packages/pug-code-gen/index.js",
+    "packages/pug-error/src/index.ts",
+    "packages/pug-filters/index.js",
+    "packages/pug-lexer/index.js",
+    "packages/pug-linker/index.js",
+    "packages/pug-load/index.js",
+    "packages/pug-parser/index.js",
+    "packages/pug-runtime/index.js",
+    "packages/pug-strip-comments/index.js",
+    "packages/pug-walk/index.js",
+    "packages/pug/lib/index.js"
+  ]
+}

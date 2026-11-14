@@ -1,0 +1,47 @@
+{
+  "owner": "google-research",
+  "name": "bert",
+  "full_name": "google-research/bert",
+  "html_url": "https://github.com/google-research/bert",
+  "description": "TensorFlow code and pre-trained models for BERT",
+  "stars": 40029,
+  "forks": 9654,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "google",
+    "natural-language-processing",
+    "natural-language-understanding",
+    "nlp",
+    "tensorflow"
+  ],
+  "archived": true,
+  "commit_sha": "eedf5716ce1268e56f0a50264a88cafad334ac61",
+  "commit_url": "https://github.com/google-research/bert/commit/eedf5716ce1268e56f0a50264a88cafad334ac61",
+  "tree_url": "https://github.com/google-research/bert/tree/eedf5716ce1268e56f0a50264a88cafad334ac61",
+  "analysed_at": "2026-11-14T19:06:42.711315+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "create_pretraining_data.py",
+    "extract_features.py",
+    "modeling_test.py",
+    "optimization_test.py",
+    "run_classifier.py",
+    "run_classifier_with_tfhub.py",
+    "run_pretraining.py",
+    "run_squad.py",
+    "tokenization_test.py"
+  ]
+}

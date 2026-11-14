@@ -1,0 +1,40 @@
+{
+  "owner": "wting",
+  "name": "autojump",
+  "full_name": "wting/autojump",
+  "html_url": "https://github.com/wting/autojump",
+  "description": "A cd command that learns - easily navigate directories from the command line",
+  "stars": 16961,
+  "forks": 704,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "autojump",
+    "command-line-tool",
+    "filesystem",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "ee21082751da739c65fe0ec2d02ca95d4266aebc",
+  "commit_url": "https://github.com/wting/autojump/commit/ee21082751da739c65fe0ec2d02ca95d4266aebc",
+  "tree_url": "https://github.com/wting/autojump/tree/ee21082751da739c65fe0ec2d02ca95d4266aebc",
+  "analysed_at": "2026-11-14T19:08:38.974019+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "pytest"
+  ],
+  "entry_points": [
+    "install.py",
+    "uninstall.py"
+  ]
+}

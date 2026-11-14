@@ -1,0 +1,46 @@
+{
+  "owner": "eriklindernoren",
+  "name": "ML-From-Scratch",
+  "full_name": "eriklindernoren/ML-From-Scratch",
+  "html_url": "https://github.com/eriklindernoren/ML-From-Scratch",
+  "description": "Machine Learning From Scratch. Bare bones NumPy implementations of machine learning models and algorithms with a focus on accessibility. Aims to cover everything from linear regression to deep learning.",
+  "stars": 33359,
+  "forks": 5546,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "data-mining",
+    "data-science",
+    "deep-learning",
+    "deep-reinforcement-learning",
+    "genetic-algorithm",
+    "machine-learning",
+    "machine-learning-from-scratch"
+  ],
+  "archived": false,
+  "commit_sha": "a2806c6732eee8d27762edd6d864e0c179d8e9e8",
+  "commit_url": "https://github.com/eriklindernoren/ML-From-Scratch/commit/a2806c6732eee8d27762edd6d864e0c179d8e9e8",
+  "tree_url": "https://github.com/eriklindernoren/ML-From-Scratch/tree/a2806c6732eee8d27762edd6d864e0c179d8e9e8",
+  "analysed_at": "2026-11-14T19:07:01.164470+00:00",
+  "status": "completed",
+  "files_fetched": 89,
+  "files_analysed": 89,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "mlfromscratch package"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "setuptools"
+  ],
+  "entry_points": [
+    "mlfromscratch/supervised_learning/adaboost.py",
+    "mlfromscratch/supervised_learning/multilayer_perceptron.py",
+    "mlfromscratch/unsupervised_learning/autoencoder.py",
+    "mlfromscratch/unsupervised_learning/dcgan.py",
+    "mlfromscratch/unsupervised_learning/generative_adversarial_network.py"
+  ]
+}

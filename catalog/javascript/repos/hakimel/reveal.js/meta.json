@@ -1,0 +1,53 @@
+{
+  "owner": "hakimel",
+  "name": "reveal.js",
+  "full_name": "hakimel/reveal.js",
+  "html_url": "https://github.com/hakimel/reveal.js",
+  "description": "The HTML Presentation Framework",
+  "stars": 72579,
+  "forks": 17024,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "presentations",
+    "slides",
+    "slideshow"
+  ],
+  "archived": false,
+  "commit_sha": "e240e175232fa2de660a02bc0d7bf5f655b159bb",
+  "commit_url": "https://github.com/hakimel/reveal.js/commit/e240e175232fa2de660a02bc0d7bf5f655b159bb",
+  "tree_url": "https://github.com/hakimel/reveal.js/tree/e240e175232fa2de660a02bc0d7bf5f655b159bb",
+  "analysed_at": "2026-11-14T19:10:34.159111+00:00",
+  "status": "completed",
+  "files_fetched": 215,
+  "files_analysed": 172,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "plugin package",
+    "react package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "js/index.ts",
+    "plugin/highlight/index.ts",
+    "plugin/markdown/index.ts",
+    "plugin/math/index.ts",
+    "plugin/notes/index.ts",
+    "plugin/search/index.ts",
+    "plugin/zoom/index.ts",
+    "react/demo/src/main.tsx",
+    "react/src/index.ts"
+  ]
+}

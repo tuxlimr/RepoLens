@@ -1,0 +1,53 @@
+{
+  "owner": "cruip",
+  "name": "open-react-template",
+  "full_name": "cruip/open-react-template",
+  "html_url": "https://github.com/cruip/open-react-template",
+  "description": "A free React / Next.js landing page template designed to showcase open source projects, SaaS products, online services, and more. Made by",
+  "stars": 4716,
+  "forks": 2078,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "free",
+    "landing",
+    "landing-page",
+    "nextjs",
+    "page",
+    "react",
+    "reactjs",
+    "startup",
+    "startups",
+    "template",
+    "templates"
+  ],
+  "archived": false,
+  "commit_sha": "9da36763df216be7840f3c063edcdcaf7862401e",
+  "commit_url": "https://github.com/cruip/open-react-template/commit/9da36763df216be7840f3c063edcdcaf7862401e",
+  "tree_url": "https://github.com/cruip/open-react-template/tree/9da36763df216be7840f3c063edcdcaf7862401e",
+  "analysed_at": "2026-11-14T19:14:38.245002+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 47,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "utils package"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/(auth)/reset-password/page.tsx",
+    "app/(auth)/signin/page.tsx",
+    "app/(auth)/signup/page.tsx",
+    "app/(default)/page.tsx"
+  ]
+}

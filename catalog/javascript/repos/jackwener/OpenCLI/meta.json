@@ -1,0 +1,44 @@
+{
+  "owner": "jackwener",
+  "name": "OpenCLI",
+  "full_name": "jackwener/OpenCLI",
+  "html_url": "https://github.com/jackwener/OpenCLI",
+  "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+  "stars": 31079,
+  "forks": 3040,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "browser-use",
+    "cli",
+    "playwright"
+  ],
+  "archived": false,
+  "commit_sha": "9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8",
+  "commit_url": "https://github.com/jackwener/OpenCLI/commit/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8",
+  "tree_url": "https://github.com/jackwener/OpenCLI/tree/9bc5f5ca132ec4d4e48d7ee517d4303bf159e8e8",
+  "analysed_at": "2026-11-14T19:10:46.975073+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "autoresearch package",
+    "clis package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "autoresearch/presets/index.ts",
+    "clis/bloomberg/main.js",
+    "clis/confluence/page.js",
+    "clis/flathub/app.js",
+    "clis/gitee/index.js"
+  ]
+}

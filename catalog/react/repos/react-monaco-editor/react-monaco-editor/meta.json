@@ -1,0 +1,42 @@
+{
+  "owner": "react-monaco-editor",
+  "name": "react-monaco-editor",
+  "full_name": "react-monaco-editor/react-monaco-editor",
+  "html_url": "https://github.com/react-monaco-editor/react-monaco-editor",
+  "description": "Monaco Editor for React.",
+  "stars": 4216,
+  "forks": 387,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "editor",
+    "monaco-editor",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "5d3e35ac981b6ad41407168805222275a83d643d",
+  "commit_url": "https://github.com/react-monaco-editor/react-monaco-editor/commit/5d3e35ac981b6ad41407168805222275a83d643d",
+  "tree_url": "https://github.com/react-monaco-editor/react-monaco-editor/tree/5d3e35ac981b6ad41407168805222275a83d643d",
+  "analysed_at": "2026-11-14T19:14:50.636242+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "diff.tsx package",
+    "editor.tsx package",
+    "index.ts package",
+    "types.ts package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

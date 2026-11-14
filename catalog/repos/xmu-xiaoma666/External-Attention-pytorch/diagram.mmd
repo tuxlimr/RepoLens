@@ -1,0 +1,14 @@
+%% Repository: xmu-xiaoma666/External-Attention-pytorch
+%% Analysed commit: c413dae1f053ac2bbff9e2d668e1d7a62f07c335
+%% Commit reference: https://github.com/xmu-xiaoma666/External-Attention-pytorch/commit/c413dae1f053ac2bbff9e2d668e1d7a62f07c335
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        model["model package"]
+    end
+    model -->|imports| entrypoint

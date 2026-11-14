@@ -1,0 +1,60 @@
+{
+  "owner": "JCodesMore",
+  "name": "ai-website-cloner-template",
+  "full_name": "JCodesMore/ai-website-cloner-template",
+  "html_url": "https://github.com/JCodesMore/ai-website-cloner-template",
+  "description": "Clone any website with one command using AI coding agents",
+  "stars": 39142,
+  "forks": 5818,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "ai-tools",
+    "automation",
+    "boilerplate",
+    "claude",
+    "claude-code",
+    "clone",
+    "developer-tools",
+    "nextjs",
+    "react",
+    "reverse-engineering",
+    "shadcn-ui",
+    "skills",
+    "tailwindcss",
+    "template",
+    "typescript",
+    "web-scraping",
+    "website-clone"
+  ],
+  "archived": false,
+  "commit_sha": "5426e0e2ec35dbc173a7a18f47a3dfe2a765313e",
+  "commit_url": "https://github.com/JCodesMore/ai-website-cloner-template/commit/5426e0e2ec35dbc173a7a18f47a3dfe2a765313e",
+  "tree_url": "https://github.com/JCodesMore/ai-website-cloner-template/tree/5426e0e2ec35dbc173a7a18f47a3dfe2a765313e",
+  "analysed_at": "2026-11-14T19:13:00.109392+00:00",
+  "status": "completed",
+  "files_fetched": 44,
+  "files_analysed": 44,
+  "components": [
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/app/page.tsx"
+  ]
+}

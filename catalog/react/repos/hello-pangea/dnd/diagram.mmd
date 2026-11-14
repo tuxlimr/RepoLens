@@ -1,0 +1,37 @@
+%% Repository: hello-pangea/dnd
+%% Analysed commit: 28c47a7a0139a09b1bf0a77a010e7121c39246d4
+%% Commit reference: https://github.com/hello-pangea/dnd/commit/28c47a7a0139a09b1bf0a77a010e7121c39246d4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        animation_ts["animation.ts package"]
+        are_inputs_equal_ts["are-inputs-equal.ts package"]
+        csp_server["csp-server package"]
+        cypress["cypress package"]
+        debug["debug package"]
+        dev_warning_ts["dev-warning.ts package"]
+        empty_ts["empty.ts package"]
+        global_d_ts["global.d.ts package"]
+        index_ts["index.ts package"]
+        invariant_ts["invariant.ts package"]
+        lib_types_ts["lib-types.ts package"]
+        memoize_one_ts["memoize-one.ts package"]
+        query_selector_all_ts["query-selector-all.ts package"]
+        screen_reader_message_preset_ts["screen-reader-message-preset.ts package"]
+        state["state package"]
+        stories["stories package"]
+        types_ts["types.ts package"]
+        use_memo_one_ts["use-memo-one.ts package"]
+        view["view package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

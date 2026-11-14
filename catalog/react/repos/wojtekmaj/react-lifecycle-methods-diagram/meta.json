@@ -1,0 +1,56 @@
+{
+  "owner": "wojtekmaj",
+  "name": "react-lifecycle-methods-diagram",
+  "full_name": "wojtekmaj/react-lifecycle-methods-diagram",
+  "html_url": "https://github.com/wojtekmaj/react-lifecycle-methods-diagram",
+  "description": "Interactive React Lifecycle Methods diagram.",
+  "stars": 3930,
+  "forks": 327,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "cheatsheet",
+    "diagram",
+    "react",
+    "react-lifecycle"
+  ],
+  "archived": false,
+  "commit_sha": "e2ce0072a6c77e56c77b85be08debd1d560c157a",
+  "commit_url": "https://github.com/wojtekmaj/react-lifecycle-methods-diagram/commit/e2ce0072a6c77e56c77b85be08debd1d560c157a",
+  "tree_url": "https://github.com/wojtekmaj/react-lifecycle-methods-diagram/tree/e2ce0072a6c77e56c77b85be08debd1d560c157a",
+  "analysed_at": "2026-11-14T19:14:58.247670+00:00",
+  "status": "completed",
+  "files_fetched": 92,
+  "files_analysed": 91,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Diagram.tsx package",
+    "diagramElements package",
+    "DiagramWithLegend.tsx package",
+    "Footer.tsx package",
+    "GitHub.tsx package",
+    "i18n package",
+    "index.tsx package",
+    "Legend.tsx package",
+    "legendElements package",
+    "Options.tsx package",
+    "reactVersions.ts package",
+    "Root.tsx package",
+    "shared package",
+    "types.ts package",
+    "versions package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/index.tsx",
+    "src/versions/16.3/index.ts",
+    "src/versions/16.4/index.ts"
+  ]
+}

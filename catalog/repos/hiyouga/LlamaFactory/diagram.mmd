@@ -1,0 +1,51 @@
+%% Repository: hiyouga/LlamaFactory
+%% Analysed commit: 5f1f6ad537e69216e0604671223cc1eeecbb7ba6
+%% Commit reference: https://github.com/hiyouga/LlamaFactory/commit/5f1f6ad537e69216e0604671223cc1eeecbb7ba6
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        llamafactory["llamafactory package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| llamafactory
+    config -->|imports| llamafactory
+    data_layer -->|imports| llamafactory
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| llamafactory
+    entrypoint -->|imports| service_layer
+    llamafactory -->|imports| config
+    llamafactory -->|imports| data_layer
+    llamafactory -->|imports| entrypoint
+    llamafactory -->|imports| external_integrations
+    llamafactory -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| llamafactory
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| llamafactory
+    tests -->|imports| service_layer

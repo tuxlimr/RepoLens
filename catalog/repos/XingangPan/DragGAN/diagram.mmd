@@ -1,0 +1,55 @@
+%% Repository: XingangPan/DragGAN
+%% Analysed commit: 336f120ce126aca6f55dc58537e76c10d19eabd0
+%% Commit reference: https://github.com/XingangPan/DragGAN/commit/336f120ce126aca6f55dc58537e76c10d19eabd0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dnnlib["dnnlib package"]
+        gradio_utils["gradio_utils package"]
+        gui_utils["gui_utils package"]
+        scripts["scripts package"]
+        stylegan_human["stylegan_human package"]
+        torch_utils["torch_utils package"]
+        training["training package"]
+        viz["viz package"]
+    end
+    core -->|imports| dnnlib
+    core -->|imports| gradio_utils
+    core -->|imports| viz
+    data_layer -->|imports| stylegan_human
+    dnnlib -->|imports| external_integrations
+    entrypoint -->|imports| dnnlib
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| gui_utils
+    entrypoint -->|imports| torch_utils
+    entrypoint -->|imports| training
+    entrypoint -->|imports| viz
+    gui_utils -->|imports| dnnlib
+    stylegan_human -->|imports| dnnlib
+    stylegan_human -->|imports| entrypoint
+    stylegan_human -->|imports| torch_utils
+    torch_utils -->|imports| dnnlib
+    training -->|imports| dnnlib
+    training -->|imports| entrypoint
+    training -->|imports| torch_utils
+    viz -->|imports| dnnlib
+    viz -->|imports| entrypoint
+    viz -->|imports| external_integrations
+    viz -->|imports| gui_utils
+    viz -->|imports| stylegan_human
+    viz -->|imports| torch_utils
+    viz -->|imports| training

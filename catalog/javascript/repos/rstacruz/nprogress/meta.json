@@ -1,0 +1,30 @@
+{
+  "owner": "rstacruz",
+  "name": "nprogress",
+  "full_name": "rstacruz/nprogress",
+  "html_url": "https://github.com/rstacruz/nprogress",
+  "description": "For slim progress bars like on YouTube, Medium, etc",
+  "stars": 26332,
+  "forks": 1762,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "e1a8b7fb6e059085df5f83c45d3c2308a147ca18",
+  "commit_url": "https://github.com/rstacruz/nprogress/commit/e1a8b7fb6e059085df5f83c45d3c2308a147ca18",
+  "tree_url": "https://github.com/rstacruz/nprogress/tree/e1a8b7fb6e059085df5f83c45d3c2308a147ca18",
+  "analysed_at": "2026-11-14T19:10:54.785019+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "nprogress.js"
+  ]
+}

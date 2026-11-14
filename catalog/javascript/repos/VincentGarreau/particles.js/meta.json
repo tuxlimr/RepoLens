@@ -1,0 +1,30 @@
+{
+  "owner": "VincentGarreau",
+  "name": "particles.js",
+  "full_name": "VincentGarreau/particles.js",
+  "html_url": "https://github.com/VincentGarreau/particles.js",
+  "description": "A lightweight JavaScript library for creating particles",
+  "stars": 30184,
+  "forks": 4799,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d01286d6dcd61f497d07cc62bd48e692f6508ad5",
+  "commit_url": "https://github.com/VincentGarreau/particles.js/commit/d01286d6dcd61f497d07cc62bd48e692f6508ad5",
+  "tree_url": "https://github.com/VincentGarreau/particles.js/tree/d01286d6dcd61f497d07cc62bd48e692f6508ad5",
+  "analysed_at": "2026-11-14T19:10:47.598050+00:00",
+  "status": "completed",
+  "files_fetched": 11,
+  "files_analysed": 11,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "demo/js/app.js"
+  ]
+}

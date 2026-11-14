@@ -1,0 +1,28 @@
+%% Repository: BrasilAPI/BrasilAPI
+%% Analysed commit: 0c229b4e56d0c8f789e1162b6a71d6ea1d54fc8b
+%% Commit reference: https://github.com/BrasilAPI/BrasilAPI/commit/0c229b4e56d0c8f789e1162b6a71d6ea1d54fc8b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        components["components package"]
+        errors["errors package"]
+        lib["lib package"]
+        middlewares["middlewares package"]
+        pages["pages package"]
+        scripts["scripts package"]
+        util["util package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

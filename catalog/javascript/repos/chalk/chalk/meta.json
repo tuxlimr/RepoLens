@@ -1,0 +1,46 @@
+{
+  "owner": "chalk",
+  "name": "chalk",
+  "full_name": "chalk/chalk",
+  "html_url": "https://github.com/chalk/chalk",
+  "description": "\ud83d\udd8d Terminal string styling done right",
+  "stars": 23338,
+  "forks": 1442,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "ansi",
+    "ansi-escape-codes",
+    "chalk",
+    "cli",
+    "color",
+    "commandline",
+    "console",
+    "javascript",
+    "strip-ansi",
+    "terminal",
+    "terminal-emulators"
+  ],
+  "archived": false,
+  "commit_sha": "72110019e147683f60e13fa0ff5c14a0c27cd9fe",
+  "commit_url": "https://github.com/chalk/chalk/commit/72110019e147683f60e13fa0ff5c14a0c27cd9fe",
+  "tree_url": "https://github.com/chalk/chalk/tree/72110019e147683f60e13fa0ff5c14a0c27cd9fe",
+  "analysed_at": "2026-11-14T19:11:05.074727+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 26,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "source package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "source/index.js"
+  ]
+}

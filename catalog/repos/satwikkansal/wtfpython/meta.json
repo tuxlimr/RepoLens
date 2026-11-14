@@ -1,0 +1,44 @@
+{
+  "owner": "satwikkansal",
+  "name": "wtfpython",
+  "full_name": "satwikkansal/wtfpython",
+  "html_url": "https://github.com/satwikkansal/wtfpython",
+  "description": "What the f*ck Python? \ud83d\ude31",
+  "stars": 37144,
+  "forks": 2649,
+  "license": "WTFPL",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "documentation",
+    "gotchas",
+    "interview-questions",
+    "pitfalls",
+    "python",
+    "python-interview-questions",
+    "snippets",
+    "wats",
+    "wtf"
+  ],
+  "archived": false,
+  "commit_sha": "9323b863218670404405e0a0b9f54d2841a7452e",
+  "commit_url": "https://github.com/satwikkansal/wtfpython/commit/9323b863218670404405e0a0b9f54d2841a7452e",
+  "tree_url": "https://github.com/satwikkansal/wtfpython/tree/9323b863218670404405e0a0b9f54d2841a7452e",
+  "analysed_at": "2026-11-14T19:06:54.156467+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 42,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "irrelevant package",
+    "snippets package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry"
+  ],
+  "entry_points": []
+}

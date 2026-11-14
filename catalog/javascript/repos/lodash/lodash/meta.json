@@ -1,0 +1,39 @@
+{
+  "owner": "lodash",
+  "name": "lodash",
+  "full_name": "lodash/lodash",
+  "html_url": "https://github.com/lodash/lodash",
+  "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+  "stars": 61355,
+  "forks": 7269,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "lodash",
+    "modules",
+    "utilities"
+  ],
+  "archived": false,
+  "commit_sha": "2b5e6f7399a7b48005140b5d5c6bc6c0e62919a8",
+  "commit_url": "https://github.com/lodash/lodash/commit/2b5e6f7399a7b48005140b5d5c6bc6c0e62919a8",
+  "tree_url": "https://github.com/lodash/lodash/tree/2b5e6f7399a7b48005140b5d5c6bc6c0e62919a8",
+  "analysed_at": "2026-11-14T19:10:35.863218+00:00",
+  "status": "completed",
+  "files_fetched": 94,
+  "files_analysed": 61,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "fp package",
+    "lib package",
+    "perf package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "webpack"
+  ],
+  "entry_points": []
+}

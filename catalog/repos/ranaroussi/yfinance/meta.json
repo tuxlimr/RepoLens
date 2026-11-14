@@ -1,0 +1,50 @@
+{
+  "owner": "ranaroussi",
+  "name": "yfinance",
+  "full_name": "ranaroussi/yfinance",
+  "html_url": "https://github.com/ranaroussi/yfinance",
+  "description": "Download market data from Yahoo! Finance's API",
+  "stars": 25918,
+  "forks": 3494,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "financial-data",
+    "fix-yahoo-finance",
+    "market-data",
+    "pandas",
+    "python",
+    "stock-data",
+    "yahoo-finance",
+    "yahoo-finance-api"
+  ],
+  "archived": false,
+  "commit_sha": "2492a853aee975b4f39f230ad763298f039e37ae",
+  "commit_url": "https://github.com/ranaroussi/yfinance/commit/2492a853aee975b4f39f230ad763298f039e37ae",
+  "tree_url": "https://github.com/ranaroussi/yfinance/tree/2492a853aee975b4f39f230ad763298f039e37ae",
+  "analysed_at": "2026-11-14T19:07:28.218882+00:00",
+  "status": "completed",
+  "files_fetched": 218,
+  "files_analysed": 218,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "maintainer package",
+    "Service / domain layer",
+    "Tests",
+    "yfinance package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "Peewee",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,51 @@
+{
+  "owner": "ultrafunkamsterdam",
+  "name": "undetected-chromedriver",
+  "full_name": "ultrafunkamsterdam/undetected-chromedriver",
+  "html_url": "https://github.com/ultrafunkamsterdam/undetected-chromedriver",
+  "description": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)",
+  "stars": 12907,
+  "forks": 1345,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "anti-bot",
+    "anti-detection",
+    "automation",
+    "bot-detection",
+    "browser",
+    "captcha",
+    "chrome",
+    "chromedriver",
+    "cloudflare",
+    "cloudflare-bypass",
+    "distil",
+    "navigator",
+    "python3",
+    "scraping",
+    "selenium",
+    "testing",
+    "webdriver"
+  ],
+  "archived": false,
+  "commit_sha": "757ed6a22052f0674bb7c9f765ca884d15dcb780",
+  "commit_url": "https://github.com/ultrafunkamsterdam/undetected-chromedriver/commit/757ed6a22052f0674bb7c9f765ca884d15dcb780",
+  "tree_url": "https://github.com/ultrafunkamsterdam/undetected-chromedriver/tree/757ed6a22052f0674bb7c9f765ca884d15dcb780",
+  "analysed_at": "2026-11-14T19:09:57.434198+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 15,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "Tests",
+    "undetected_chromedriver package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": []
+}

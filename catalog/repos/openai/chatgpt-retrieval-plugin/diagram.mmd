@@ -1,0 +1,36 @@
+%% Repository: openai/chatgpt-retrieval-plugin
+%% Analysed commit: b28ddce58474441da332d4e15c6dd60ddaa953ab
+%% Commit reference: https://github.com/openai/chatgpt-retrieval-plugin/commit/b28ddce58474441da332d4e15c6dd60ddaa953ab
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        datastore["datastore package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    datastore -->|imports| data_layer
+    datastore -->|imports| service_layer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| datastore
+    entrypoint -->|imports| service_layer
+    service_layer -->|imports| data_layer
+    tests -->|imports| data_layer
+    tests -->|imports| datastore
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

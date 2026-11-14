@@ -1,0 +1,34 @@
+%% Repository: gotify/server
+%% Analysed commit: 01086b95a8b69ee87383f6e8bcae601d8c33384b
+%% Commit reference: https://github.com/gotify/server/commit/01086b95a8b69ee87383f6e8bcae601d8c33384b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        auth["auth package"]
+        decaymap["decaymap package"]
+        error["error package"]
+        fracdex["fracdex package"]
+        mode["mode package"]
+        model["model package"]
+        plugin["plugin package"]
+        router["router package"]
+        runner["runner package"]
+        ui["ui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

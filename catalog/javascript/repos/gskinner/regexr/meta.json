@@ -1,0 +1,35 @@
+{
+  "owner": "gskinner",
+  "name": "regexr",
+  "full_name": "gskinner/regexr",
+  "html_url": "https://github.com/gskinner/regexr",
+  "description": "RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.",
+  "stars": 10388,
+  "forks": 1002,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d18630d02372b38614f220576bd1888326cf8e78",
+  "commit_url": "https://github.com/gskinner/regexr/commit/d18630d02372b38614f220576bd1888326cf8e78",
+  "tree_url": "https://github.com/gskinner/regexr/tree/d18630d02372b38614f220576bd1888326cf8e78",
+  "analysed_at": "2026-11-14T19:12:40.976123+00:00",
+  "status": "completed",
+  "files_fetched": 153,
+  "files_analysed": 152,
+  "components": [
+    "API layer",
+    "assets package",
+    "Configuration and deployment",
+    "Core modules",
+    "dev package",
+    "server package",
+    "Service / domain layer"
+  ],
+  "detections": [],
+  "entry_points": [
+    "dev/src/app.js",
+    "dev/src/net/Server.js"
+  ]
+}

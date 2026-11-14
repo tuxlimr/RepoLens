@@ -1,0 +1,61 @@
+{
+  "owner": "enzymejs",
+  "name": "enzyme",
+  "full_name": "enzymejs/enzyme",
+  "html_url": "https://github.com/enzymejs/enzyme",
+  "description": "JavaScript Testing utilities for React",
+  "stars": 19800,
+  "forks": 1959,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "assertion-library",
+    "assertions",
+    "ava",
+    "chai",
+    "enzyme",
+    "jest",
+    "mocha",
+    "react",
+    "react-components",
+    "test",
+    "test-runner",
+    "test-runners",
+    "testing",
+    "traversal"
+  ],
+  "archived": false,
+  "commit_sha": "61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0",
+  "commit_url": "https://github.com/enzymejs/enzyme/commit/61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0",
+  "tree_url": "https://github.com/enzymejs/enzyme/tree/61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0",
+  "analysed_at": "2026-11-14T19:11:16.431076+00:00",
+  "status": "completed",
+  "files_fetched": 403,
+  "files_analysed": 399,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/enzyme-adapter-react-13/src/index.js",
+    "packages/enzyme-adapter-react-14/src/index.js",
+    "packages/enzyme-adapter-react-15.4/src/index.js",
+    "packages/enzyme-adapter-react-15/src/index.js",
+    "packages/enzyme-adapter-react-16.1/src/index.js",
+    "packages/enzyme-adapter-react-16.2/src/index.js",
+    "packages/enzyme-adapter-react-16.3/src/index.js",
+    "packages/enzyme-adapter-react-16/src/index.js",
+    "packages/enzyme-adapter-react-helper/src/index.js",
+    "packages/enzyme-adapter-utils/src/index.js",
+    "packages/enzyme-shallow-equal/src/index.js",
+    "packages/enzyme/src/index.js"
+  ]
+}

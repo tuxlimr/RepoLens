@@ -1,0 +1,58 @@
+{
+  "owner": "ianstormtaylor",
+  "name": "slate",
+  "full_name": "ianstormtaylor/slate",
+  "html_url": "https://github.com/ianstormtaylor/slate",
+  "description": "A completely customizable framework for building rich text editors. (Currently in beta.)",
+  "stars": 31745,
+  "forks": 3305,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "browser",
+    "editor",
+    "framework",
+    "javascript",
+    "react",
+    "rich-text",
+    "slate",
+    "text-editor"
+  ],
+  "archived": false,
+  "commit_sha": "0c2c0b02b7726a7a59ac344b5f7a68608cc2ec44",
+  "commit_url": "https://github.com/ianstormtaylor/slate/commit/0c2c0b02b7726a7a59ac344b5f7a68608cc2ec44",
+  "tree_url": "https://github.com/ianstormtaylor/slate/tree/0c2c0b02b7726a7a59ac344b5f7a68608cc2ec44",
+  "analysed_at": "2026-11-14T19:13:02.825324+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    ".yarn/sdks/eslint/lib/api.js",
+    ".yarn/sdks/eslint/bin/eslint.js",
+    ".yarn/sdks/prettier/index.cjs",
+    ".yarn/sdks/prettier/bin/prettier.cjs",
+    ".yarn/sdks/typescript/lib/typescript.js",
+    ".yarn/sdks/typescript/bin/tsc",
+    ".yarn/sdks/typescript/bin/tsserver",
+    "packages/slate-dom/src/index.ts",
+    "packages/slate-history/src/index.ts",
+    "packages/slate-hyperscript/src/index.ts",
+    "packages/slate-react/src/index.ts",
+    "packages/slate/src/index.ts"
+  ]
+}

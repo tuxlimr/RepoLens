@@ -1,0 +1,41 @@
+{
+  "owner": "apachecn",
+  "name": "apachecn-algo-zh",
+  "full_name": "apachecn/apachecn-algo-zh",
+  "html_url": "https://github.com/apachecn/apachecn-algo-zh",
+  "description": "ApacheCN \u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u8bd1\u6587\u96c6",
+  "stars": 11167,
+  "forks": 2161,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "algorithm",
+    "coding",
+    "data-structure",
+    "geeker",
+    "hacker",
+    "interview",
+    "leetcode",
+    "leetcode-solutions",
+    "offer",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "ca52c3b386331be95ac1f1313dcf0d484cf89c04",
+  "commit_url": "https://github.com/apachecn/apachecn-algo-zh/commit/ca52c3b386331be95ac1f1313dcf0d484cf89c04",
+  "tree_url": "https://github.com/apachecn/apachecn-algo-zh/tree/ca52c3b386331be95ac1f1313dcf0d484cf89c04",
+  "analysed_at": "2026-11-14T19:12:25.624527+00:00",
+  "status": "completed",
+  "files_fetched": 704,
+  "files_analysed": 703,
+  "components": [
+    "asset package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Docker"
+  ],
+  "entry_points": []
+}

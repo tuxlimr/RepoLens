@@ -1,0 +1,22 @@
+%% Repository: callstack/linaria
+%% Analysed commit: 63a958afeebb0be3bb66cc8f31a0b1a54238b36e
+%% Commit reference: https://github.com/callstack/linaria/commit/63a958afeebb0be3bb66cc8f31a0b1a54238b36e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        babel_plugins["babel-plugins package"]
+        packages["packages package"]
+        scripts["scripts package"]
+        website["website package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

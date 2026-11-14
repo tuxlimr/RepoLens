@@ -1,0 +1,21 @@
+%% Repository: mouredev/python-web
+%% Analysed commit: f732469c2d3e0fae80ce893417c82220730f5bb0
+%% Commit reference: https://github.com/mouredev/python-web/commit/f732469c2d3e0fae80ce893417c82220730f5bb0
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        link_bio["link_bio package"]
+    end
+    api_layer -->|imports| external_integrations
+    entrypoint -->|imports| api_layer

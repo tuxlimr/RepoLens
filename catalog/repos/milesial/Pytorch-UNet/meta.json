@@ -1,0 +1,50 @@
+{
+  "owner": "milesial",
+  "name": "Pytorch-UNet",
+  "full_name": "milesial/Pytorch-UNet",
+  "html_url": "https://github.com/milesial/Pytorch-UNet",
+  "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
+  "stars": 11764,
+  "forks": 2770,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "convolutional-networks",
+    "convolutional-neural-networks",
+    "deep-learning",
+    "kaggle",
+    "pytorch",
+    "pytorch-unet",
+    "semantic-segmentation",
+    "tensorboard",
+    "unet",
+    "wandb",
+    "weights-and-biases"
+  ],
+  "archived": false,
+  "commit_sha": "21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "commit_url": "https://github.com/milesial/Pytorch-UNet/commit/21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "tree_url": "https://github.com/milesial/Pytorch-UNet/tree/21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "analysed_at": "2026-11-14T19:10:25.262129+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "scripts package",
+    "unet package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Docker"
+  ],
+  "entry_points": [
+    "predict.py",
+    "train.py"
+  ]
+}

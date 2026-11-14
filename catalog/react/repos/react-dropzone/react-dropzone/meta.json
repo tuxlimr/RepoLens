@@ -1,0 +1,45 @@
+{
+  "owner": "react-dropzone",
+  "name": "react-dropzone",
+  "full_name": "react-dropzone/react-dropzone",
+  "html_url": "https://github.com/react-dropzone/react-dropzone",
+  "description": "Simple HTML5 drag-drop zone with React.js.",
+  "stars": 11023,
+  "forks": 799,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "drag-and-drop",
+    "file",
+    "file-upload",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "512bcf2bf28498d13e05aef70c3e9147d752612a",
+  "commit_url": "https://github.com/react-dropzone/react-dropzone/commit/512bcf2bf28498d13e05aef70c3e9147d752612a",
+  "tree_url": "https://github.com/react-dropzone/react-dropzone/tree/512bcf2bf28498d13e05aef70c3e9147d752612a",
+  "analysed_at": "2026-11-14T19:13:27.808664+00:00",
+  "status": "completed",
+  "files_fetched": 69,
+  "files_analysed": 68,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "e2e package",
+    "index.spec.tsx package",
+    "index.tsx package",
+    "type-tests package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.tsx",
+    "src/utils/index.ts"
+  ]
+}

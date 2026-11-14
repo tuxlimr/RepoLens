@@ -1,0 +1,14 @@
+%% Repository: exaloop/codon
+%% Analysed commit: 1aeec848835cb7fba3026c393c72eb73b2399791
+%% Commit reference: https://github.com/exaloop/codon/commit/1aeec848835cb7fba3026c393c72eb73b2399791
+flowchart TD
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        bench["bench package"]
+        codon["codon package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

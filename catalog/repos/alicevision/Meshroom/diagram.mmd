@@ -1,0 +1,38 @@
+%% Repository: alicevision/Meshroom
+%% Analysed commit: d787a6bf29f5e318f0e32d22d6e7109b065dad4c
+%% Commit reference: https://github.com/alicevision/Meshroom/commit/d787a6bf29f5e318f0e32d22d6e7109b065dad4c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        localfarm["localfarm package"]
+        meshroom["meshroom package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| meshroom
+    entrypoint -->|imports| localfarm
+    entrypoint -->|imports| meshroom
+    entrypoint -->|imports| service_layer
+    localfarm -->|imports| external_integrations
+    meshroom -->|imports| localfarm
+    meshroom -->|imports| service_layer
+    service_layer -->|imports| meshroom
+    tests -->|imports| entrypoint
+    tests -->|imports| meshroom
+    tests -->|imports| service_layer

@@ -1,0 +1,42 @@
+{
+  "owner": "yunjey",
+  "name": "pytorch-tutorial",
+  "full_name": "yunjey/pytorch-tutorial",
+  "html_url": "https://github.com/yunjey/pytorch-tutorial",
+  "description": "PyTorch Tutorial for Deep Learning Researchers",
+  "stars": 32520,
+  "forks": 8187,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "neural-networks",
+    "pytorch",
+    "pytorch-tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "0500d3df5a2a8080ccfccbc00aca0eacc21818db",
+  "commit_url": "https://github.com/yunjey/pytorch-tutorial/commit/0500d3df5a2a8080ccfccbc00aca0eacc21818db",
+  "tree_url": "https://github.com/yunjey/pytorch-tutorial/tree/0500d3df5a2a8080ccfccbc00aca0eacc21818db",
+  "analysed_at": "2026-11-14T19:07:05.017505+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 32,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "tutorials package"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "tutorials/03-advanced/image_captioning/build_vocab.py",
+    "tutorials/03-advanced/image_captioning/resize.py",
+    "tutorials/03-advanced/image_captioning/sample.py",
+    "tutorials/03-advanced/image_captioning/train.py",
+    "tutorials/03-advanced/neural_style_transfer/main.py"
+  ]
+}

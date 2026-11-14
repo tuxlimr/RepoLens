@@ -1,0 +1,45 @@
+{
+  "owner": "stereobooster",
+  "name": "react-snap",
+  "full_name": "stereobooster/react-snap",
+  "html_url": "https://github.com/stereobooster/react-snap",
+  "description": "\ud83d\udc7b Zero-configuration framework-agnostic static prerendering for SPAs",
+  "stars": 5123,
+  "forks": 394,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "prerender",
+    "react",
+    "seo",
+    "server-side-rendering",
+    "ssr",
+    "static-site-generator",
+    "vue",
+    "zero-configuration"
+  ],
+  "archived": false,
+  "commit_sha": "e2746ebe63cc75a4943d076585fff5aa5b50751d",
+  "commit_url": "https://github.com/stereobooster/react-snap/commit/e2746ebe63cc75a4943d076585fff5aa5b50751d",
+  "tree_url": "https://github.com/stereobooster/react-snap/tree/e2746ebe63cc75a4943d076585fff5aa5b50751d",
+  "analysed_at": "2026-11-14T19:14:27.937395+00:00",
+  "status": "completed",
+  "files_fetched": 58,
+  "files_analysed": 57,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "puppeteer_utils.js package",
+    "Tests",
+    "tracker.js package"
+  ],
+  "detections": [
+    "Express",
+    "Jest"
+  ],
+  "entry_points": [
+    "index.js",
+    "run.js"
+  ]
+}

@@ -1,0 +1,36 @@
+%% Repository: FlashML-org/FreeToken
+%% Analysed commit: 4b71d4d928e968c7036024c089f81050134a680b
+%% Commit reference: https://github.com/FlashML-org/FreeToken/commit/4b71d4d928e968c7036024c089f81050134a680b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        freetoken_kernel_cache["freetoken-kernel-cache package"]
+        python["python package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| python
+    data_layer -->|imports| python
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| python
+    external_integrations -->|imports| python
+    python -->|imports| config
+    python -->|imports| entrypoint
+    python -->|imports| external_integrations
+    tests -->|imports| external_integrations

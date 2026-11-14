@@ -1,0 +1,40 @@
+%% Repository: copy/v86
+%% Analysed commit: 315b2b0b758703ef0e6cc7b4088d6068f83f3c20
+%% Commit reference: https://github.com/copy/v86/commit/315b2b0b758703ef0e6cc7b4088d6068f83f3c20
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        acpi_js["acpi.js package"]
+        bios["bios package"]
+        browser["browser package"]
+        buffer_js["buffer.js package"]
+        bus_js["bus.js package"]
+        cjs_js["cjs.js package"]
+        const_js["const.js package"]
+        cpu_js["cpu.js package"]
+        dma_js["dma.js package"]
+        elf_js["elf.js package"]
+        externs_js["externs.js package"]
+        floppy_js["floppy.js package"]
+        gen["gen package"]
+        ide_js["ide.js package"]
+        io_js["io.js package"]
+        iso9660_js["iso9660.js package"]
+        kernel_js["kernel.js package"]
+        lib["lib package"]
+        rust["rust package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (18 merged)"]
+    %% Note: 18 smaller component(s) merged into 'other' to keep the diagram readable.

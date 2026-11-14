@@ -1,0 +1,38 @@
+%% Repository: QwenLM/Qwen-Agent
+%% Analysed commit: 31a4d36d123688581a9e9744427272b33ce940e0
+%% Commit reference: https://github.com/QwenLM/Qwen-Agent/commit/31a4d36d123688581a9e9744427272b33ce940e0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmark["benchmark package"]
+        browser_qwen["browser_qwen package"]
+        qwen_agent["qwen_agent package"]
+        qwen_agent_docs["qwen-agent-docs package"]
+        qwen_server["qwen_server package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmark -->|imports| qwen_agent
+    entrypoint -->|imports| benchmark
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| qwen_agent
+    entrypoint -->|imports| qwen_server
+    qwen_agent -->|imports| config
+    qwen_agent -->|imports| entrypoint
+    qwen_agent -->|imports| external_integrations
+    qwen_server -->|imports| qwen_agent
+    tests -->|imports| entrypoint
+    tests -->|imports| qwen_agent
+    tests -->|imports| qwen_server

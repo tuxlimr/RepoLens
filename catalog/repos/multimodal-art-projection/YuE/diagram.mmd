@@ -1,0 +1,21 @@
+%% Repository: multimodal-art-projection/YuE
+%% Analysed commit: 1116bea76032bee5668e5f097294d082fa0b84f0
+%% Commit reference: https://github.com/multimodal-art-projection/YuE/commit/1116bea76032bee5668e5f097294d082fa0b84f0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        skills["skills package"]
+        yue2["yue2 package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| yue2
+    tests -->|imports| entrypoint
+    tests -->|imports| yue2
+    yue2 -->|imports| entrypoint

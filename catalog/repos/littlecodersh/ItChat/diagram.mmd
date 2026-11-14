@@ -1,0 +1,21 @@
+%% Repository: littlecodersh/ItChat
+%% Analysed commit: d5ce5db32ca15cef8eefa548a438a9fcc4502a6d
+%% Commit reference: https://github.com/littlecodersh/ItChat/commit/d5ce5db32ca15cef8eefa548a438a9fcc4502a6d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        itchat["itchat package"]
+    end
+    config -->|imports| itchat
+    data_layer -->|imports| itchat
+    itchat -->|imports| config
+    itchat -->|imports| data_layer
+    itchat -->|imports| external_integrations

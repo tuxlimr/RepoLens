@@ -1,0 +1,43 @@
+{
+  "owner": "ycm-core",
+  "name": "YouCompleteMe",
+  "full_name": "ycm-core/YouCompleteMe",
+  "html_url": "https://github.com/ycm-core/YouCompleteMe",
+  "description": "A code-completion engine for Vim",
+  "stars": 25875,
+  "forks": 2740,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "code-analysis",
+    "code-completion",
+    "semantic-engine",
+    "vim"
+  ],
+  "archived": false,
+  "commit_sha": "d4c91430b70a21ce471c8572400b647d313995b4",
+  "commit_url": "https://github.com/ycm-core/YouCompleteMe/commit/d4c91430b70a21ce471c8572400b647d313995b4",
+  "tree_url": "https://github.com/ycm-core/YouCompleteMe/tree/d4c91430b70a21ce471c8572400b647d313995b4",
+  "analysed_at": "2026-11-14T19:07:30.070318+00:00",
+  "status": "completed",
+  "files_fetched": 140,
+  "files_analysed": 140,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "python package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "unittest"
+  ],
+  "entry_points": [
+    "install.py",
+    "run_tests.py"
+  ]
+}

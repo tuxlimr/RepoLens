@@ -1,0 +1,57 @@
+{
+  "owner": "typicode",
+  "name": "hotel",
+  "full_name": "typicode/hotel",
+  "html_url": "https://github.com/typicode/hotel",
+  "description": "\ud83c\udfe9 A simple process manager for developers. Start apps from your browser and access them using local domains",
+  "stars": 9986,
+  "forks": 440,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "devtools",
+    "front-end",
+    "https",
+    "local",
+    "local-domain",
+    "process-manager",
+    "proxy"
+  ],
+  "archived": false,
+  "commit_sha": "bcbdade4a5ce5f9f8ac0d66def7ba0a4efec2366",
+  "commit_url": "https://github.com/typicode/hotel/commit/bcbdade4a5ce5f9f8ac0d66def7ba0a4efec2366",
+  "tree_url": "https://github.com/typicode/hotel/tree/bcbdade4a5ce5f9f8ac0d66def7ba0a4efec2366",
+  "analysed_at": "2026-11-14T19:12:46.407200+00:00",
+  "status": "completed",
+  "files_fetched": 76,
+  "files_analysed": 76,
+  "components": [
+    "API layer",
+    "app package",
+    "bin package",
+    "cli package",
+    "common.js package",
+    "conf.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "daemon package",
+    "get-cmd.js package",
+    "pid-file.js package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/app/index.tsx",
+    "src/cli/index.js",
+    "src/daemon/app.js",
+    "src/daemon/index.js",
+    "src/daemon/routers/index.js"
+  ]
+}

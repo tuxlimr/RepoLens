@@ -1,0 +1,42 @@
+{
+  "owner": "pallets",
+  "name": "jinja",
+  "full_name": "pallets/jinja",
+  "html_url": "https://github.com/pallets/jinja",
+  "description": "A very fast and expressive template engine.",
+  "stars": 11817,
+  "forks": 1891,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "jinja",
+    "jinja2",
+    "pallets",
+    "python",
+    "template-engine",
+    "templates"
+  ],
+  "archived": false,
+  "commit_sha": "5ef70112a1ff19c05324ff889dd30405b1002044",
+  "commit_url": "https://github.com/pallets/jinja/commit/5ef70112a1ff19c05324ff889dd30405b1002044",
+  "tree_url": "https://github.com/pallets/jinja/tree/5ef70112a1ff19c05324ff889dd30405b1002044",
+  "analysed_at": "2026-11-14T19:10:23.335089+00:00",
+  "status": "completed",
+  "files_fetched": 106,
+  "files_analysed": 105,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "jinja2 package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "scripts/generate_identifier_pattern.py"
+  ]
+}

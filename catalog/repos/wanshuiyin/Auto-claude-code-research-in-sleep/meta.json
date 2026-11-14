@@ -1,0 +1,60 @@
+{
+  "owner": "wanshuiyin",
+  "name": "Auto-claude-code-research-in-sleep",
+  "full_name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+  "html_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "description": "ARIS \u2694\ufe0f (Auto-Research-In-Sleep) \u2014 Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in \u2014 works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+  "stars": 19197,
+  "forks": 1548,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai-research",
+    "ai-tools",
+    "aris",
+    "autonomous-agent",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "deep-learning",
+    "gpt",
+    "idea-generation",
+    "llm",
+    "machine-learning",
+    "mcp",
+    "mcp-server",
+    "ml-research",
+    "openai",
+    "paper-review",
+    "paper-writing",
+    "research-automation"
+  ],
+  "archived": false,
+  "commit_sha": "9f30e834d24a337dbdd06fb20a1150d4376dfa59",
+  "commit_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/commit/9f30e834d24a337dbdd06fb20a1150d4376dfa59",
+  "tree_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/9f30e834d24a337dbdd06fb20a1150d4376dfa59",
+  "analysed_at": "2026-11-14T19:08:16.785737+00:00",
+  "status": "completed",
+  "files_fetched": 202,
+  "files_analysed": 202,
+  "components": [
+    "aris-monitor package",
+    "Configuration and deployment",
+    "Application entry point",
+    "mcp-servers package",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "pytest"
+  ],
+  "entry_points": [
+    "aris-monitor/scanner.py",
+    "aris-monitor/ticker.py",
+    "aris-monitor/widget.py"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "owner": "margelo",
+  "name": "react-native-mmkv",
+  "full_name": "margelo/react-native-mmkv",
+  "html_url": "https://github.com/margelo/react-native-mmkv",
+  "description": "\u26a1\ufe0f The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
+  "stars": 8530,
+  "forks": 346,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "android",
+    "cpp",
+    "database",
+    "fast",
+    "ios",
+    "jni",
+    "jsi",
+    "localstorage",
+    "mmkv",
+    "native-module",
+    "nitro",
+    "react",
+    "react-native",
+    "storage",
+    "turbomodule"
+  ],
+  "archived": false,
+  "commit_sha": "0ec4c96323aee2601f921b1cb8361f6adfc65e13",
+  "commit_url": "https://github.com/margelo/react-native-mmkv/commit/0ec4c96323aee2601f921b1cb8361f6adfc65e13",
+  "tree_url": "https://github.com/margelo/react-native-mmkv/tree/0ec4c96323aee2601f921b1cb8361f6adfc65e13",
+  "analysed_at": "2026-11-14T19:13:41.015622+00:00",
+  "status": "completed",
+  "files_fetched": 178,
+  "files_analysed": 178,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/react-native-mmkv/src/index.ts"
+  ]
+}

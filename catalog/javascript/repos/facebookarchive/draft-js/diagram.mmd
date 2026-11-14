@@ -1,0 +1,25 @@
+%% Repository: facebookarchive/draft-js
+%% Analysed commit: afdb5c3177c13fd26cb0abbdc439488f3e21b73b
+%% Commit reference: https://github.com/facebookarchive/draft-js/commit/afdb5c3177c13fd26cb0abbdc439488f3e21b73b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        component["component package"]
+        draft_js["Draft.js package"]
+        flowlib["flowlib package"]
+        mocks["__mocks__ package"]
+        model["model package"]
+        nonasciistringsnapshotserializer_js["NonASCIIStringSnapshotSerializer.js package"]
+        scripts["scripts package"]
+        stubs["stubs package"]
+        util["util package"]
+        website["website package"]
+    end

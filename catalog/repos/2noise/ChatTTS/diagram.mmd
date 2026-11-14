@@ -1,0 +1,21 @@
+%% Repository: 2noise/ChatTTS
+%% Analysed commit: 77b89ee281cd479f5b1a787ada330dc975ca1f2a
+%% Commit reference: https://github.com/2noise/ChatTTS/commit/77b89ee281cd479f5b1a787ada330dc975ca1f2a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        chattts["ChatTTS package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    chattts -->|imports| config
+    chattts -->|imports| external_integrations
+    tests -->|imports| chattts
+    tests -->|imports| tools

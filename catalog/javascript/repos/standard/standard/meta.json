@@ -1,0 +1,47 @@
+{
+  "owner": "standard",
+  "name": "standard",
+  "full_name": "standard/standard",
+  "html_url": "https://github.com/standard/standard",
+  "description": "\ud83c\udf1f JavaScript Style Guide, with linter & automatic code fixer",
+  "stars": 29428,
+  "forks": 2298,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "development",
+    "ecmascript",
+    "es6",
+    "eslint",
+    "javascript",
+    "linter",
+    "nodejs",
+    "standard",
+    "static-code-analysis",
+    "style-guide"
+  ],
+  "archived": false,
+  "commit_sha": "753309b21bfd7c98e208e3fb45910ffd1bb95409",
+  "commit_url": "https://github.com/standard/standard/commit/753309b21bfd7c98e208e3fb45910ffd1bb95409",
+  "tree_url": "https://github.com/standard/standard/tree/753309b21bfd7c98e208e3fb45910ffd1bb95409",
+  "analysed_at": "2026-11-14T19:10:48.057984+00:00",
+  "status": "completed",
+  "files_fetched": 53,
+  "files_analysed": 52,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/cmd.cjs"
+  ]
+}

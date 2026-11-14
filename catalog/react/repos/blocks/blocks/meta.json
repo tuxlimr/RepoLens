@@ -1,0 +1,52 @@
+{
+  "owner": "blocks",
+  "name": "blocks",
+  "full_name": "blocks/blocks",
+  "html_url": "https://github.com/blocks/blocks",
+  "description": "A JSX-based page builder for creating beautiful websites without writing code",
+  "stars": 5096,
+  "forks": 325,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "jsx",
+    "lowcode",
+    "mdx",
+    "nocode",
+    "react",
+    "visual-editor",
+    "wysiwyg"
+  ],
+  "archived": false,
+  "commit_sha": "70bee97e65353fd3e2ad0ba7040a07f2637b9b97",
+  "commit_url": "https://github.com/blocks/blocks/commit/70bee97e65353fd3e2ad0ba7040a07f2637b9b97",
+  "tree_url": "https://github.com/blocks/blocks/tree/70bee97e65353fd3e2ad0ba7040a07f2637b9b97",
+  "analysed_at": "2026-11-14T19:14:28.566814+00:00",
+  "status": "completed",
+  "files_fetched": 189,
+  "files_analysed": 188,
+  "components": [
+    "blocks.js package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "gatsby-plugin-theme-ui package",
+    "nav.js package",
+    "packages package",
+    "pages package",
+    "templates package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest"
+  ],
+  "entry_points": [
+    "packages/blocks-ui/src/index.js",
+    "packages/gatsby-plugin-blocks/index.js",
+    "packages/property-controls/src/index.js",
+    "packages/react/src/index.js",
+    "src/gatsby-plugin-theme-ui/index.js"
+  ]
+}

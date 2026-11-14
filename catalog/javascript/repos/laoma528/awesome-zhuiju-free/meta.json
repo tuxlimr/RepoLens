@@ -1,0 +1,50 @@
+{
+  "owner": "laoma528",
+  "name": "awesome-zhuiju-free",
+  "full_name": "laoma528/awesome-zhuiju-free",
+  "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
+  "description": "\u514d\u8d39\u65e0\u5e7f\u544a\u7684\u8ffd\u5267\u8d44\u6e90\u6307\u5357\uff0c\u4eba\u5de5\u7cbe\u9009\u8d44\u6e90\u3001\u6bcf\u5929\u68c0\u6d4b\u8d44\u6e90\u6709\u6548\u6027\u3002\u6536\u5f55\u5728\u7ebf\u5f71\u89c6\u3001\u5f71\u89c6APP\u3001\u7f51\u76d8\u641c\u7d22\u3001\u78c1\u529bBT\u3001\u5b57\u5e55\u3001TVBox / \u5f71\u89c6\u4ed3\u7a7a\u58f3\u8f6f\u4ef6/\u914d\u7f6e\u5730\u5740\u3001IPTV\u76f4\u64ad\u6e90\u3001\u4f1a\u5458\u62fc\u56e2\u3001\u5f71\u89c6\u76f8\u5173\u5f00\u6e90\u9879\u76ee\u3002\u5f00\u6e90\uff0c\u793e\u533a\u5171\u540c\u7ef4\u62a4\u3002",
+  "stars": 15620,
+  "forks": 1127,
+  "license": "CC-BY-4.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "awesome-list",
+    "bt-search",
+    "chinese",
+    "cloud-drive-search",
+    "free",
+    "free-streaming",
+    "iptv",
+    "magnet-search",
+    "media-player",
+    "movie",
+    "movie-guide",
+    "movie-resources",
+    "no-ads",
+    "subtitles",
+    "tvbox",
+    "tvbox-config"
+  ],
+  "archived": false,
+  "commit_sha": "bacc0f32b72313b31f4cfc18d0a8b3c7ffb76904",
+  "commit_url": "https://github.com/laoma528/awesome-zhuiju-free/commit/bacc0f32b72313b31f4cfc18d0a8b3c7ffb76904",
+  "tree_url": "https://github.com/laoma528/awesome-zhuiju-free/tree/bacc0f32b72313b31f4cfc18d0a8b3c7ffb76904",
+  "analysed_at": "2026-11-14T19:11:36.550584+00:00",
+  "status": "completed",
+  "files_fetched": 51,
+  "files_analysed": 51,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "scripts/publish-typecho.py"
+  ]
+}

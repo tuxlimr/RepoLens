@@ -1,0 +1,46 @@
+{
+  "owner": "ant-design",
+  "name": "x",
+  "full_name": "ant-design/x",
+  "html_url": "https://github.com/ant-design/x",
+  "description": "Craft AI-driven interface effortlessly\ud83e\udd16",
+  "stars": 4847,
+  "forks": 1175,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "antd",
+    "chat-ui",
+    "copilot",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "da08db16714b608d7f5db248c2b2fcc30a756660",
+  "commit_url": "https://github.com/ant-design/x/commit/da08db16714b608d7f5db248c2b2fcc30a756660",
+  "tree_url": "https://github.com/ant-design/x/tree/da08db16714b608d7f5db248c2b2fcc30a756660",
+  "analysed_at": "2026-11-14T19:14:34.851015+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/x-card/src/index.ts",
+    "packages/x-markdown/src/index.ts",
+    "packages/x-sdk/src/index.ts",
+    "packages/x-skill/src/index.ts",
+    "packages/x/components/index.ts"
+  ]
+}

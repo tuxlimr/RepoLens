@@ -1,0 +1,57 @@
+{
+  "owner": "webpack",
+  "name": "webpack-bundle-analyzer",
+  "full_name": "webpack/webpack-bundle-analyzer",
+  "html_url": "https://github.com/webpack/webpack-bundle-analyzer",
+  "description": "Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap",
+  "stars": 12655,
+  "forks": 519,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "analyze",
+    "bundle",
+    "chart",
+    "interactive",
+    "size",
+    "treemap",
+    "webpack",
+    "webpack-bundle-analyzer"
+  ],
+  "archived": false,
+  "commit_sha": "f65668c9ab4ffe4b1989e5badbba3e0e871e1a24",
+  "commit_url": "https://github.com/webpack/webpack-bundle-analyzer/commit/f65668c9ab4ffe4b1989e5badbba3e0e871e1a24",
+  "tree_url": "https://github.com/webpack/webpack-bundle-analyzer/tree/f65668c9ab4ffe4b1989e5badbba3e0e871e1a24",
+  "analysed_at": "2026-11-14T19:12:04.053105+00:00",
+  "status": "completed",
+  "files_fetched": 224,
+  "files_analysed": 224,
+  "components": [
+    "analyzer.js package",
+    "bin package",
+    "BundleAnalyzerPlugin.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "index.js package",
+    "Logger.js package",
+    "parseUtils.js package",
+    "sizeUtils.js package",
+    "statsUtils.js package",
+    "template.js package",
+    "Tests",
+    "tree package",
+    "utils.js package",
+    "viewer.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

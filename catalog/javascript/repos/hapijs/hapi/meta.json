@@ -1,0 +1,40 @@
+{
+  "owner": "hapijs",
+  "name": "hapi",
+  "full_name": "hapijs/hapi",
+  "html_url": "https://github.com/hapijs/hapi",
+  "description": "The Simple, Secure Framework Developers Trust",
+  "stars": 14798,
+  "forks": 1352,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "application",
+    "framework",
+    "hapi",
+    "http",
+    "nodejs"
+  ],
+  "archived": false,
+  "commit_sha": "f2837a006535a6fbbcf33692067c1bd497ba8124",
+  "commit_url": "https://github.com/hapijs/hapi/commit/f2837a006535a6fbbcf33692067c1bd497ba8124",
+  "tree_url": "https://github.com/hapijs/hapi/tree/f2837a006535a6fbbcf33692067c1bd497ba8124",
+  "analysed_at": "2026-11-14T19:11:42.672170+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 70,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "lib/index.js",
+    "lib/server.js"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "owner": "vercel",
+  "name": "ncc",
+  "full_name": "vercel/ncc",
+  "html_url": "https://github.com/vercel/ncc",
+  "description": "Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.",
+  "stars": 9844,
+  "forks": 328,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "cb1f1f058bfa7de4cb63f2411e14a724e714e260",
+  "commit_url": "https://github.com/vercel/ncc/commit/cb1f1f058bfa7de4cb63f2411e14a724e714e260",
+  "tree_url": "https://github.com/vercel/ncc/tree/cb1f1f058bfa7de4cb63f2411e14a724e714e260",
+  "analysed_at": "2026-11-14T19:12:48.952930+00:00",
+  "status": "completed",
+  "files_fetched": 295,
+  "files_analysed": 285,
+  "components": [
+    "cli.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "index.js package",
+    "loaders package",
+    "@@notfound.js package",
+    "scripts package",
+    "Tests",
+    "typescript.js package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MongoDB",
+    "MySQL",
+    "Redis",
+    "Express",
+    "Koa",
+    "React",
+    "Vue",
+    "axios",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

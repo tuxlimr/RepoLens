@@ -1,0 +1,23 @@
+%% Repository: FredrikNoren/ungit
+%% Analysed commit: b1df1a168b9208766342070ebd42782036dfd18d
+%% Commit reference: https://github.com/FredrikNoren/ungit/commit/b1df1a168b9208766342070ebd42782036dfd18d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        clicktests["clicktests package"]
+        components["components package"]
+        public["public package"]
+        scripts["scripts package"]
+        source["source package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

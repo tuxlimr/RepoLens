@@ -1,0 +1,43 @@
+{
+  "owner": "cool-RR",
+  "name": "PySnooper",
+  "full_name": "cool-RR/PySnooper",
+  "html_url": "https://github.com/cool-RR/PySnooper",
+  "description": "Never use print for debugging again",
+  "stars": 16576,
+  "forks": 971,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "debug",
+    "debugger",
+    "introspection",
+    "logging",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "4be5c156ffc3315011c42ba521c4d8487052d289",
+  "commit_url": "https://github.com/cool-RR/PySnooper/commit/4be5c156ffc3315011c42ba521c4d8487052d289",
+  "tree_url": "https://github.com/cool-RR/PySnooper/tree/4be5c156ffc3315011c42ba521c4d8487052d289",
+  "analysed_at": "2026-11-14T19:08:46.141684+00:00",
+  "status": "completed",
+  "files_fetched": 44,
+  "files_analysed": 44,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "pysnooper package",
+    "Tests"
+  ],
+  "detections": [
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "misc/generate_authors.py"
+  ]
+}

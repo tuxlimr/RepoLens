@@ -1,0 +1,22 @@
+%% Repository: langchain-ai/open_deep_research
+%% Analysed commit: 1b7d2e80db9faa586165c60e09096dbbfd483a64
+%% Commit reference: https://github.com/langchain-ai/open_deep_research/commit/1b7d2e80db9faa586165c60e09096dbbfd483a64
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        legacy["legacy package"]
+        open_deep_research["open_deep_research package"]
+        security["security package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    legacy -->|imports| external_integrations
+    open_deep_research -->|imports| external_integrations
+    tests -->|imports| legacy
+    tests -->|imports| open_deep_research

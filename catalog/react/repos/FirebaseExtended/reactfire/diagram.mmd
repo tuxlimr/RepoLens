@@ -1,0 +1,30 @@
+%% Repository: FirebaseExtended/reactfire
+%% Analysed commit: 9b2bb79824d69ffc6368658a9569643c7013b4a1
+%% Commit reference: https://github.com/FirebaseExtended/reactfire/commit/9b2bb79824d69ffc6368658a9569643c7013b4a1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        auth_tsx["auth.tsx package"]
+        database_tsx["database.tsx package"]
+        firebaseapp_tsx["firebaseApp.tsx package"]
+        firestore_tsx["firestore.tsx package"]
+        functions["functions package"]
+        functions_tsx["functions.tsx package"]
+        index_ts["index.ts package"]
+        performance_tsx["performance.tsx package"]
+        remote_config_tsx["remote-config.tsx package"]
+        sdk_tsx["sdk.tsx package"]
+        storage_tsx["storage.tsx package"]
+        suspensesubject_ts["SuspenseSubject.ts package"]
+        telemetry_ts["telemetry.ts package"]
+        useobservable_ts["useObservable.ts package"]
+        utils_ts["utils.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

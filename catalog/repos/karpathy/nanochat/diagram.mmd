@@ -1,0 +1,34 @@
+%% Repository: karpathy/nanochat
+%% Analysed commit: 92d63d4e8bb4df75c3b71618f31ddde2378b2bcd
+%% Commit reference: https://github.com/karpathy/nanochat/commit/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dev["dev package"]
+        nanochat["nanochat package"]
+        runs["runs package"]
+        scripts["scripts package"]
+        tasks["tasks package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| nanochat
+    entrypoint -->|imports| tasks
+    nanochat -->|imports| entrypoint
+    scripts -->|imports| entrypoint
+    scripts -->|imports| nanochat
+    scripts -->|imports| tasks
+    tasks -->|imports| entrypoint
+    tasks -->|imports| nanochat
+    tests -->|imports| entrypoint
+    tests -->|imports| nanochat

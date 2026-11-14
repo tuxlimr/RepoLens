@@ -1,0 +1,46 @@
+{
+  "owner": "exaloop",
+  "name": "codon",
+  "full_name": "exaloop/codon",
+  "html_url": "https://github.com/exaloop/codon",
+  "description": "A high-performance, zero-overhead, extensible Python compiler with built-in NumPy support",
+  "stars": 16861,
+  "forks": 606,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "develop",
+  "topics": [
+    "compiler",
+    "gpu-programming",
+    "high-performance",
+    "llvm",
+    "numpy",
+    "parallel-programming",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "1aeec848835cb7fba3026c393c72eb73b2399791",
+  "commit_url": "https://github.com/exaloop/codon/commit/1aeec848835cb7fba3026c393c72eb73b2399791",
+  "tree_url": "https://github.com/exaloop/codon/tree/1aeec848835cb7fba3026c393c72eb73b2399791",
+  "analysed_at": "2026-11-14T19:08:40.572348+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "bench package",
+    "codon package",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Docker",
+    "unittest"
+  ],
+  "entry_points": [
+    "bench/codon/go.py",
+    "bench/export.py",
+    "bench/refresh.py"
+  ]
+}

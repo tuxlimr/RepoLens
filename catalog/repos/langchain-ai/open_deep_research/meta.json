@@ -1,0 +1,41 @@
+{
+  "owner": "langchain-ai",
+  "name": "open_deep_research",
+  "full_name": "langchain-ai/open_deep_research",
+  "html_url": "https://github.com/langchain-ai/open_deep_research",
+  "description": null,
+  "stars": 12677,
+  "forks": 1863,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+  "commit_url": "https://github.com/langchain-ai/open_deep_research/commit/1b7d2e80db9faa586165c60e09096dbbfd483a64",
+  "tree_url": "https://github.com/langchain-ai/open_deep_research/tree/1b7d2e80db9faa586165c60e09096dbbfd483a64",
+  "analysed_at": "2026-11-14T19:10:02.656739+00:00",
+  "status": "completed",
+  "files_fetched": 41,
+  "files_analysed": 41,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "legacy package",
+    "open_deep_research package",
+    "security package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "httpx",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,57 @@
+{
+  "owner": "junyanz",
+  "name": "pytorch-CycleGAN-and-pix2pix",
+  "full_name": "junyanz/pytorch-CycleGAN-and-pix2pix",
+  "html_url": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+  "description": "Image-to-Image Translation in PyTorch",
+  "stars": 25278,
+  "forks": 6554,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "computer-graphics",
+    "computer-vision",
+    "cyclegan",
+    "deep-learning",
+    "gan",
+    "gans",
+    "generative-adversarial-network",
+    "image-generation",
+    "image-manipulation",
+    "pix2pix",
+    "pytorch"
+  ],
+  "archived": false,
+  "commit_sha": "2a7afba2895d52556dd5dfe07e8555ef657ced6f",
+  "commit_url": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/commit/2a7afba2895d52556dd5dfe07e8555ef657ced6f",
+  "tree_url": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/2a7afba2895d52556dd5dfe07e8555ef657ced6f",
+  "analysed_at": "2026-11-14T19:07:32.442861+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 71,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "datasets package",
+    "Application entry point",
+    "External integrations",
+    "options package",
+    "scripts package",
+    "Tests",
+    "util package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "datasets/make_dataset_aligned.py",
+    "datasets/prepare_cityscapes_dataset.py",
+    "test.py",
+    "train.py",
+    "util/html.py"
+  ]
+}

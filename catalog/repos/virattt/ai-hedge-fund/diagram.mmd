@@ -1,0 +1,34 @@
+%% Repository: virattt/ai-hedge-fund
+%% Analysed commit: 5c553b5222044f6a5527bd377b4104c50ee0ad28
+%% Commit reference: https://github.com/virattt/ai-hedge-fund/commit/5c553b5222044f6a5527bd377b4104c50ee0ad28
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        hedge_fund["hedge_fund package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| hedge_fund
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| hedge_fund
+    external_integrations -->|imports| hedge_fund
+    hedge_fund -->|imports| data_layer
+    hedge_fund -->|imports| external_integrations
+    hedge_fund -->|imports| tests
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| hedge_fund

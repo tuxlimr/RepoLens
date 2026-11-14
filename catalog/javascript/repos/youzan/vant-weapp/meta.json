@@ -1,0 +1,49 @@
+{
+  "owner": "youzan",
+  "name": "vant-weapp",
+  "full_name": "youzan/vant-weapp",
+  "html_url": "https://github.com/youzan/vant-weapp",
+  "description": "\u8f7b\u91cf\u3001\u53ef\u9760\u7684\u5c0f\u7a0b\u5e8f UI \u7ec4\u4ef6\u5e93",
+  "stars": 18478,
+  "forks": 3451,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [
+    "miniprogram",
+    "ui",
+    "vant",
+    "weapp",
+    "weixin"
+  ],
+  "archived": false,
+  "commit_sha": "5856ed6b1bc4fc8e9cdac73e61ebbf0df0be134f",
+  "commit_url": "https://github.com/youzan/vant-weapp/commit/5856ed6b1bc4fc8e9cdac73e61ebbf0df0be134f",
+  "tree_url": "https://github.com/youzan/vant-weapp/tree/5856ed6b1bc4fc8e9cdac73e61ebbf0df0be134f",
+  "analysed_at": "2026-11-14T19:11:21.962126+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 326,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "example/functions/foo/index.js",
+    "lib/action-sheet/index.js",
+    "lib/area/index.js",
+    "lib/button/index.js",
+    "lib/calendar/index.js",
+    "lib/card/index.js",
+    "lib/cascader/index.js",
+    "lib/cell-group/index.js",
+    "lib/cell/index.js",
+    "lib/checkbox-group/index.js",
+    "lib/checkbox/index.js",
+    "lib/circle/index.js"
+  ]
+}

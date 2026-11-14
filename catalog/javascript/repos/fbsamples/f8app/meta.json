@@ -1,0 +1,47 @@
+{
+  "owner": "fbsamples",
+  "name": "f8app",
+  "full_name": "fbsamples/f8app",
+  "html_url": "https://github.com/fbsamples/f8app",
+  "description": "Source code of the official F8 app of 2017, powered by React Native and other Facebook open source projects.",
+  "stars": 13869,
+  "forks": 2449,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "119f062943c9d7dfa2892a178199435d6854a06f",
+  "commit_url": "https://github.com/fbsamples/f8app/commit/119f062943c9d7dfa2892a178199435d6854a06f",
+  "tree_url": "https://github.com/fbsamples/f8app/tree/119f062943c9d7dfa2892a178199435d6854a06f",
+  "analysed_at": "2026-11-14T19:11:49.718353+00:00",
+  "status": "completed",
+  "files_fetched": 305,
+  "files_analysed": 303,
+  "components": [
+    "android package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "ios package",
+    "js package",
+    "__mocks__ package",
+    "scripts package",
+    "server package"
+  ],
+  "detections": [
+    "MongoDB",
+    "Express",
+    "React",
+    "Redux",
+    "Docker",
+    "Docker Compose",
+    "Jest"
+  ],
+  "entry_points": [
+    "js/actions/index.js",
+    "js/reducers/index.js",
+    "server/graphql/src/index.js",
+    "server/parse-server/cloud/index.js"
+  ]
+}

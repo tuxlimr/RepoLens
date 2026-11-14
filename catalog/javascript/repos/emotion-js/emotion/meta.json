@@ -1,0 +1,60 @@
+{
+  "owner": "emotion-js",
+  "name": "emotion",
+  "full_name": "emotion-js/emotion",
+  "html_url": "https://github.com/emotion-js/emotion",
+  "description": "\ud83d\udc69\u200d\ud83c\udfa4 CSS-in-JS library designed for high performance style composition",
+  "stars": 18025,
+  "forks": 1137,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "babel-plugin",
+    "css",
+    "css-in-js",
+    "emotion",
+    "react",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "b882bcba85132554992e4bd49e94c95939bbf810",
+  "commit_url": "https://github.com/emotion-js/emotion/commit/b882bcba85132554992e4bd49e94c95939bbf810",
+  "tree_url": "https://github.com/emotion-js/emotion/tree/b882bcba85132554992e4bd49e94c95939bbf810",
+  "analysed_at": "2026-11-14T19:11:23.301591+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "flow-typed package",
+    "__mocks__ package",
+    "packages package",
+    "playgrounds package",
+    "scripts package",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "scripts/babel-tester/src/index.ts",
+    "packages/babel-plugin-jsx-pragmatic/src/index.ts",
+    "packages/babel-plugin/src/index.js",
+    "packages/babel-preset-css-prop/src/index.js",
+    "packages/cache/src/index.ts",
+    "packages/css-prettifier/src/index.ts",
+    "packages/css/src/index.ts",
+    "packages/eslint-plugin/src/index.ts",
+    "packages/hash/src/index.ts",
+    "packages/is-prop-valid/src/index.ts",
+    "packages/jest/src/index.js",
+    "packages/memoize/src/index.ts"
+  ]
+}

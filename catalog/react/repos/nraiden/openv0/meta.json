@@ -1,0 +1,54 @@
+{
+  "owner": "nraiden",
+  "name": "openv0",
+  "full_name": "nraiden/openv0",
+  "html_url": "https://github.com/nraiden/openv0",
+  "description": "AI generated UI components",
+  "stars": 3955,
+  "forks": 341,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "generative",
+    "javascript",
+    "react",
+    "tailwind",
+    "typescript",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "8d87809b09a4c65d5af7b0fa8ee7c9475b378286",
+  "commit_url": "https://github.com/nraiden/openv0/commit/8d87809b09a4c65d5af7b0fa8ee7c9475b378286",
+  "tree_url": "https://github.com/nraiden/openv0/tree/8d87809b09a4c65d5af7b0fa8ee7c9475b378286",
+  "analysed_at": "2026-11-14T19:14:57.770152+00:00",
+  "status": "completed",
+  "files_fetched": 375,
+  "files_analysed": 352,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "npx package",
+    "server package",
+    "webapps-starters package"
+  ],
+  "detections": [
+    "MongoDB",
+    "SQLite",
+    "Express",
+    "React",
+    "Svelte",
+    "axios",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "npx/bin.js",
+    "server/modules/log/index.js",
+    "server/modules/multipass/index.js"
+  ]
+}

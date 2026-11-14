@@ -1,0 +1,21 @@
+%% Repository: cure53/DOMPurify
+%% Analysed commit: 027a09f844af3bdc7b5d21f9a97b69635b7c2dfc
+%% Commit reference: https://github.com/cure53/DOMPurify/commit/027a09f844af3bdc7b5d21f9a97b69635b7c2dfc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        attrs_ts["attrs.ts package"]
+        config_ts["config.ts package"]
+        purify_ts["purify.ts package"]
+        regexp_ts["regexp.ts package"]
+        scripts["scripts package"]
+        tags_ts["tags.ts package"]
+        types_ts["types.ts package"]
+        typescript["typescript package"]
+        utils_ts["utils.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

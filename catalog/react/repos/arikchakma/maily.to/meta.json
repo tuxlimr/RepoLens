@@ -1,0 +1,50 @@
+{
+  "owner": "arikchakma",
+  "name": "maily.to",
+  "full_name": "arikchakma/maily.to",
+  "html_url": "https://github.com/arikchakma/maily.to",
+  "description": "Craft beautiful emails effortlessly with Maily, the powerful email editor that ensures impeccable communication across all major clients.",
+  "stars": 4000,
+  "forks": 253,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "email-editor",
+    "nexjts",
+    "react",
+    "shadcn-ui",
+    "tiptap",
+    "tiptap-email",
+    "wysiwyg"
+  ],
+  "archived": false,
+  "commit_sha": "042d13169b39e0ae8c692a25693bebdbb9b894c0",
+  "commit_url": "https://github.com/arikchakma/maily.to/commit/042d13169b39e0ae8c692a25693bebdbb9b894c0",
+  "tree_url": "https://github.com/arikchakma/maily.to/tree/042d13169b39e0ae8c692a25693bebdbb9b894c0",
+  "analysed_at": "2026-11-14T19:14:56.302176+00:00",
+  "status": "completed",
+  "files_fetched": 248,
+  "files_analysed": 247,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/core/src/index.ts",
+    "packages/render/src/index.ts",
+    "packages/shared/src/index.ts"
+  ]
+}

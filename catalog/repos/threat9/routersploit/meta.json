@@ -1,0 +1,55 @@
+{
+  "owner": "threat9",
+  "name": "routersploit",
+  "full_name": "threat9/routersploit",
+  "html_url": "https://github.com/threat9/routersploit",
+  "description": "Exploitation Framework for Embedded Devices",
+  "stars": 13304,
+  "forks": 2401,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "bruteforce",
+    "creds",
+    "dictionary-attack",
+    "embedded",
+    "exploits",
+    "infosec",
+    "python",
+    "router",
+    "router-exploitation-framework",
+    "routersploit",
+    "routersploit-framework",
+    "scanner",
+    "security"
+  ],
+  "archived": false,
+  "commit_sha": "723b574c36ae202857e3f93e4f3c2ab9a1638ed4",
+  "commit_url": "https://github.com/threat9/routersploit/commit/723b574c36ae202857e3f93e4f3c2ab9a1638ed4",
+  "tree_url": "https://github.com/threat9/routersploit/tree/723b574c36ae202857e3f93e4f3c2ab9a1638ed4",
+  "analysed_at": "2026-11-14T19:09:52.928978+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 791,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "routersploit package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "Flask",
+    "requests",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "rsf.py"
+  ]
+}

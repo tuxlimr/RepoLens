@@ -1,0 +1,14 @@
+%% Repository: Delgan/loguru
+%% Analysed commit: 28349be3cd740867bc947eef741c69370ca45735
+%% Commit reference: https://github.com/Delgan/loguru/commit/28349be3cd740867bc947eef741c69370ca45735
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        loguru["loguru package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| loguru

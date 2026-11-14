@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+backend/repolens.db
+repolens.db
+frontend/node_modules/
+frontend/.next/
+uvicorn.log
+uvicorn.err
+next.log
+next.err

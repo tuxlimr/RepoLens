@@ -1,0 +1,56 @@
+{
+  "owner": "openai",
+  "name": "openai-python",
+  "full_name": "openai/openai-python",
+  "html_url": "https://github.com/openai/openai-python",
+  "description": "The official Python library for the OpenAI API",
+  "stars": 32158,
+  "forks": 5883,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "openai",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "3dae6090cc31cc64a437fe0bcee740b6d81ed2cc",
+  "commit_url": "https://github.com/openai/openai-python/commit/3dae6090cc31cc64a437fe0bcee740b6d81ed2cc",
+  "tree_url": "https://github.com/openai/openai-python/tree/3dae6090cc31cc64a437fe0bcee740b6d81ed2cc",
+  "analysed_at": "2026-11-14T19:07:05.825373+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 798,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "openai package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/check-example-security.py",
+    "scripts/check-python-version-policy.py",
+    "scripts/detect-breaking-changes.py",
+    "scripts/fixtures/computer_use_smoke.py",
+    "scripts/utils/ruffen-docs.py",
+    "scripts/utils/validate-bedrock-wheel.py",
+    "scripts/utils/validate-httpx2-wheel.py",
+    "scripts/utils/validate-python-version-wheel.py",
+    "scripts/utils/validate-vertex-wheel.py"
+  ]
+}

@@ -1,0 +1,20 @@
+%% Repository: browser-use/video-use
+%% Analysed commit: 43cfc566833548093455c9d4a46bd69913b7e552
+%% Commit reference: https://github.com/browser-use/video-use/commit/43cfc566833548093455c9d4a46bd69913b7e552
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        skills["skills package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations

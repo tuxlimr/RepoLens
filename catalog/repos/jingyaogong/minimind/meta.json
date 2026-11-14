@@ -1,0 +1,54 @@
+{
+  "owner": "jingyaogong",
+  "name": "minimind",
+  "full_name": "jingyaogong/minimind",
+  "html_url": "https://github.com/jingyaogong/minimind",
+  "description": "\ud83e\udde0 Train a 64M-parameter LLM from scratch in just 2h!",
+  "stars": 65229,
+  "forks": 8541,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "artificial-intelligence",
+    "large-language-model"
+  ],
+  "archived": false,
+  "commit_sha": "233d00fa068ec2b8c0d4f07b703934d6391a5a73",
+  "commit_url": "https://github.com/jingyaogong/minimind/commit/233d00fa068ec2b8c0d4f07b703934d6391a5a73",
+  "tree_url": "https://github.com/jingyaogong/minimind/tree/233d00fa068ec2b8c0d4f07b703934d6391a5a73",
+  "analysed_at": "2026-11-14T19:06:19.689503+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Configuration and deployment",
+    "dataset package",
+    "Application entry point",
+    "External integrations",
+    "model package",
+    "trainer package"
+  ],
+  "detections": [
+    "FastAPI",
+    "Flask",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "Uvicorn"
+  ],
+  "entry_points": [
+    "dataset/lm_dataset.py",
+    "eval_llm.py",
+    "scripts/convert_model.py",
+    "scripts/eval_toolcall.py",
+    "scripts/serve_openai_api.py",
+    "scripts/web_demo.py",
+    "trainer/train_agent.py",
+    "trainer/train_distillation.py",
+    "trainer/train_dpo.py",
+    "trainer/train_full_sft.py",
+    "trainer/train_grpo.py",
+    "trainer/train_lora.py"
+  ]
+}

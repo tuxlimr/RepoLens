@@ -1,0 +1,54 @@
+{
+  "owner": "AhmadHassan-BTed",
+  "name": "Ledgerify",
+  "full_name": "AhmadHassan-BTed/Ledgerify",
+  "html_url": "https://github.com/AhmadHassan-BTed/Ledgerify",
+  "description": "Shopify Excel Ledger intelligence platform with dark aesthetic, multi-sheet workbook analysis, 7 departmental dashboards, and live comparative benchmarking.",
+  "stars": 4771,
+  "forks": 0,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "excel-analytics",
+    "react",
+    "shopify",
+    "tailwind-css",
+    "typescript",
+    "vite"
+  ],
+  "archived": false,
+  "commit_sha": "6e3c40379d762ef2a9b76d4ce48051e9cac04cbe",
+  "commit_url": "https://github.com/AhmadHassan-BTed/Ledgerify/commit/6e3c40379d762ef2a9b76d4ce48051e9cac04cbe",
+  "tree_url": "https://github.com/AhmadHassan-BTed/Ledgerify/tree/6e3c40379d762ef2a9b76d4ce48051e9cac04cbe",
+  "analysed_at": "2026-11-14T19:14:36.254580+00:00",
+  "status": "completed",
+  "files_fetched": 81,
+  "files_analysed": 80,
+  "components": [
+    "API layer",
+    "App.tsx package",
+    "components package",
+    "Configuration and deployment",
+    "context package",
+    "Core modules",
+    "Data layer",
+    "main.tsx package",
+    "scripts package",
+    "Service / domain layer",
+    "styles package",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/App.tsx",
+    "src/main.tsx"
+  ]
+}

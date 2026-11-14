@@ -1,0 +1,23 @@
+%% Repository: ben-rogerson/twin.macro
+%% Analysed commit: e1b2f7abe8da358669d0c49995ecda6912cd1476
+%% Commit reference: https://github.com/ben-rogerson/twin.macro/commit/e1b2f7abe8da358669d0c49995ecda6912cd1476
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        macro["macro package"]
+        macro_ts["macro.ts package"]
+        sandbox["sandbox package"]
+        suggestions["suggestions package"]
+        types["types package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

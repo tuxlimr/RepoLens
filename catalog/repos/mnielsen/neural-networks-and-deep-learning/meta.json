@@ -1,0 +1,41 @@
+{
+  "owner": "mnielsen",
+  "name": "neural-networks-and-deep-learning",
+  "full_name": "mnielsen/neural-networks-and-deep-learning",
+  "html_url": "https://github.com/mnielsen/neural-networks-and-deep-learning",
+  "description": "Code samples for my book \"Neural Networks and Deep Learning\"",
+  "stars": 18067,
+  "forks": 7115,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "72db53d750f571bef8804de4a52224e44dcab3a1",
+  "commit_url": "https://github.com/mnielsen/neural-networks-and-deep-learning/commit/72db53d750f571bef8804de4a52224e44dcab3a1",
+  "tree_url": "https://github.com/mnielsen/neural-networks-and-deep-learning/tree/72db53d750f571bef8804de4a52224e44dcab3a1",
+  "analysed_at": "2026-11-14T19:08:27.671555+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 43,
+  "components": [
+    "Configuration and deployment",
+    "conv.py package",
+    "Application entry point",
+    "expand_mnist.py package",
+    "fig package",
+    "mnist_average_darkness.py package",
+    "mnist_loader.py package",
+    "mnist_svm.py package",
+    "network2.py package",
+    "network3.py package",
+    "network.py package"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "fig/mnist.py",
+    "fig/overfitting.py"
+  ]
+}

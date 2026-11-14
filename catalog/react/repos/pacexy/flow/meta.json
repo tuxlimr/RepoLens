@@ -1,0 +1,54 @@
+{
+  "owner": "pacexy",
+  "name": "flow",
+  "full_name": "pacexy/flow",
+  "html_url": "https://github.com/pacexy/flow",
+  "description": "Browser-based ePub reader",
+  "stars": 3385,
+  "forks": 295,
+  "license": "AGPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "epub",
+    "epub-reader",
+    "nextjs",
+    "pwa",
+    "react",
+    "reactjs",
+    "reader",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "36f3cc7c4581f62ff6d72b75641c674020bb1e9f",
+  "commit_url": "https://github.com/pacexy/flow/commit/36f3cc7c4581f62ff6d72b75641c674020bb1e9f",
+  "tree_url": "https://github.com/pacexy/flow/tree/36f3cc7c4581f62ff6d72b75641c674020bb1e9f",
+  "analysed_at": "2026-11-14T19:15:21.658900+00:00",
+  "status": "completed",
+  "files_fetched": 299,
+  "files_analysed": 296,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/epubjs/src/index.js",
+    "packages/internal/src/index.ts",
+    "packages/tailwind/src/index.js",
+    "apps/reader/locales/index.ts"
+  ]
+}

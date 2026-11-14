@@ -1,0 +1,32 @@
+{
+  "owner": "alexjc",
+  "name": "neural-enhance",
+  "full_name": "alexjc/neural-enhance",
+  "html_url": "https://github.com/alexjc/neural-enhance",
+  "description": "Super Resolution for images using deep learning.",
+  "stars": 11853,
+  "forks": 1347,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "2fd67de7eddae3e8dc48f8abdc791ddbcc867112",
+  "commit_url": "https://github.com/alexjc/neural-enhance/commit/2fd67de7eddae3e8dc48f8abdc791ddbcc867112",
+  "tree_url": "https://github.com/alexjc/neural-enhance/tree/2fd67de7eddae3e8dc48f8abdc791ddbcc867112",
+  "analysed_at": "2026-11-14T19:10:21.644051+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "train package"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "enhance.py"
+  ]
+}

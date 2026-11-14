@@ -1,0 +1,56 @@
+{
+  "owner": "MoonHighway",
+  "name": "learning-react",
+  "full_name": "MoonHighway/learning-react",
+  "html_url": "https://github.com/MoonHighway/learning-react",
+  "description": "The code samples for Learning React by Alex Banks and Eve Porcello, published by O'Reilly Media",
+  "stars": 3749,
+  "forks": 1268,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "second-edition",
+  "topics": [
+    "functional-js",
+    "jest",
+    "react",
+    "redux"
+  ],
+  "archived": false,
+  "commit_sha": "b783c09ad4c8aa283e4e7adb98605148170e3708",
+  "commit_url": "https://github.com/MoonHighway/learning-react/commit/b783c09ad4c8aa283e4e7adb98605148170e3708",
+  "tree_url": "https://github.com/MoonHighway/learning-react/tree/b783c09ad4c8aa283e4e7adb98605148170e3708",
+  "analysed_at": "2026-11-14T19:15:06.316679+00:00",
+  "status": "completed",
+  "files_fetched": 522,
+  "files_analysed": 519,
+  "components": [
+    "chapter-03 package",
+    "chapter-05 package",
+    "chapter-10 package",
+    "chapter-11 package",
+    "chapter-12 package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "Express",
+    "Next.js",
+    "React",
+    "React Router",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "chapter-12/node-fetching/index.js",
+    "chapter-05/recipe-app/src/index.js",
+    "chapter-10/my-type/src/App.tsx",
+    "chapter-10/my-type/src/index.tsx",
+    "chapter-10/star-testing/src/index.js",
+    "chapter-10/testing/src/index.js",
+    "chapter-11/color-organizer/src/index.js",
+    "chapter-11/company-website/src/App.js",
+    "chapter-11/company-website/src/index.js",
+    "chapter-12/pets-next/pages/index.js",
+    "chapter-12/recipes/server-build/index.js",
+    "chapter-12/recipes/server/index.js"
+  ]
+}

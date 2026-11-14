@@ -1,0 +1,63 @@
+{
+  "owner": "bentoml",
+  "name": "OpenLLM",
+  "full_name": "bentoml/OpenLLM",
+  "html_url": "https://github.com/bentoml/OpenLLM",
+  "description": "Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.",
+  "stars": 12600,
+  "forks": 848,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "bentoml",
+    "fine-tuning",
+    "llama",
+    "llama2",
+    "llama3-1",
+    "llama3-2",
+    "llama3-2-vision",
+    "llm",
+    "llm-inference",
+    "llm-ops",
+    "llm-serving",
+    "llmops",
+    "mistral",
+    "mlops",
+    "model-inference",
+    "open-source-llm",
+    "openllm",
+    "vicuna"
+  ],
+  "archived": false,
+  "commit_sha": "200b37fbf6f75b174e0737b937b886af460495e9",
+  "commit_url": "https://github.com/bentoml/OpenLLM/commit/200b37fbf6f75b174e0737b937b886af460495e9",
+  "tree_url": "https://github.com/bentoml/OpenLLM/tree/200b37fbf6f75b174e0737b937b886af460495e9",
+  "analysed_at": "2026-11-14T19:10:03.880603+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "openllm package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "Click",
+    "httpx",
+    "Pydantic",
+    "Poetry"
+  ],
+  "entry_points": [
+    "src/openllm/__main__.py",
+    "src/openllm/clean.py",
+    "src/openllm/model.py",
+    "src/openllm/repo.py",
+    "gen_readme.py"
+  ]
+}

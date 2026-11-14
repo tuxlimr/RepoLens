@@ -1,0 +1,55 @@
+{
+  "owner": "ashishpatel26",
+  "name": "500-AI-Agents-Projects",
+  "full_name": "ashishpatel26/500-AI-Agents-Projects",
+  "html_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+  "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+  "stars": 39871,
+  "forks": 7154,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai-agents",
+    "genai"
+  ],
+  "archived": false,
+  "commit_sha": "e48f78ccf182746d4f01e2093fe2ccd884269656",
+  "commit_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects/commit/e48f78ccf182746d4f01e2093fe2ccd884269656",
+  "tree_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects/tree/e48f78ccf182746d4f01e2093fe2ccd884269656",
+  "analysed_at": "2026-11-14T19:06:43.287415+00:00",
+  "status": "completed",
+  "files_fetched": 142,
+  "files_analysed": 142,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "web package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "React",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "pytest",
+    "Vite"
+  ],
+  "entry_points": [
+    "agents/01-web-research-agent/agent.py",
+    "agents/02-code-review-agent/agent.py",
+    "agents/03-pdf-qa-agent/agent.py",
+    "agents/04-sql-query-agent/agent.py",
+    "agents/05-email-drafting-agent/agent.py",
+    "agents/06-news-summarizer-agent/agent.py",
+    "agents/07-github-issue-triager/agent.py",
+    "agents/08-data-analysis-agent/agent.py",
+    "agents/09-resume-parser-agent/agent.py",
+    "agents/10-meeting-notes-agent/agent.py",
+    "agents/11-stock-research-agent/agent.py",
+    "agents/12-travel-planner-agent/agent.py"
+  ]
+}

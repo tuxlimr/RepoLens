@@ -1,0 +1,39 @@
+{
+  "owner": "waydroid",
+  "name": "waydroid",
+  "full_name": "waydroid/waydroid",
+  "html_url": "https://github.com/waydroid/waydroid",
+  "description": "Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.",
+  "stars": 12534,
+  "forks": 563,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "android",
+    "linux"
+  ],
+  "archived": false,
+  "commit_sha": "db7294c4c2bd43157bab94cf8a3015e22d9f1ad8",
+  "commit_url": "https://github.com/waydroid/waydroid/commit/db7294c4c2bd43157bab94cf8a3015e22d9f1ad8",
+  "tree_url": "https://github.com/waydroid/waydroid/tree/db7294c4c2bd43157bab94cf8a3015e22d9f1ad8",
+  "analysed_at": "2026-11-14T19:10:05.277523+00:00",
+  "status": "completed",
+  "files_fetched": 81,
+  "files_analysed": 81,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "Service / domain layer",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry"
+  ],
+  "entry_points": [
+    "tools/__init__.py",
+    "waydroid.py"
+  ]
+}

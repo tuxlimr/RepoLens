@@ -1,0 +1,24 @@
+%% Repository: bailicangdu/node-elm
+%% Analysed commit: 32ea999c63f59db4f6fb05e3227bc305663782f0
+%% Commit reference: https://github.com/bailicangdu/node-elm/commit/32ea999c63f59db4f6fb05e3227bc305663782f0
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        controller["controller package"]
+        initdata["InitData package"]
+        middlewares["middlewares package"]
+        mongodb["mongodb package"]
+        prototype["prototype package"]
+        public["public package"]
+    end

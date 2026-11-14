@@ -1,0 +1,22 @@
+%% Repository: vercel/next-forge
+%% Analysed commit: f189de79ceef7c1ef69f61f12e272f99b4cdb699
+%% Commit reference: https://github.com/vercel/next-forge/commit/f189de79ceef7c1ef69f61f12e272f99b4cdb699
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        packages["packages package"]
+        scripts["scripts package"]
+        turbo["turbo package"]
+    end

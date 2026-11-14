@@ -1,0 +1,18 @@
+%% Repository: satwikkansal/wtfpython
+%% Analysed commit: 9323b863218670404405e0a0b9f54d2841a7452e
+%% Commit reference: https://github.com/satwikkansal/wtfpython/commit/9323b863218670404405e0a0b9f54d2841a7452e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        irrelevant["irrelevant package"]
+        snippets["snippets package"]
+    end
+    irrelevant -->|imports| external_integrations

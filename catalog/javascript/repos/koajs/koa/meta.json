@@ -1,0 +1,35 @@
+{
+  "owner": "koajs",
+  "name": "koa",
+  "full_name": "koajs/koa",
+  "html_url": "https://github.com/koajs/koa",
+  "description": "Expressive middleware for node.js using ES2017 async functions",
+  "stars": 35683,
+  "forks": 3249,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "koa"
+  ],
+  "archived": false,
+  "commit_sha": "7c6bfe7744bbeaf021c2e17c0556f26c36a7d690",
+  "commit_url": "https://github.com/koajs/koa/commit/7c6bfe7744bbeaf021c2e17c0556f26c36a7d690",
+  "tree_url": "https://github.com/koajs/koa/tree/7c6bfe7744bbeaf021c2e17c0556f26c36a7d690",
+  "analysed_at": "2026-11-14T19:10:42.339141+00:00",
+  "status": "completed",
+  "files_fetched": 109,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "lib package",
+    "test-helpers package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "lib/application.js"
+  ]
+}

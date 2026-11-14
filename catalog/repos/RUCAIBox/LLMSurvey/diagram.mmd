@@ -1,0 +1,25 @@
+%% Repository: RUCAIBox/LLMSurvey
+%% Analysed commit: 4a468e40e417fd3541d190c056e260da322ef4de
+%% Commit reference: https://github.com/RUCAIBox/LLMSurvey/commit/4a468e40e417fd3541d190c056e260da322ef4de
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        experiments["Experiments package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    experiments -->|imports| data_layer
+    experiments -->|imports| external_integrations

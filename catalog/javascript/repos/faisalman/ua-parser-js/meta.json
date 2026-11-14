@@ -1,0 +1,50 @@
+{
+  "owner": "faisalman",
+  "name": "ua-parser-js",
+  "full_name": "faisalman/ua-parser-js",
+  "html_url": "https://github.com/faisalman/ua-parser-js",
+  "description": "UAParser.js: The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser or Node",
+  "stars": 10212,
+  "forks": 1215,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "analytics",
+    "bot-detection",
+    "browser-detection",
+    "client-hints",
+    "device-detection",
+    "mobile-detection",
+    "user-agent",
+    "user-agent-parser"
+  ],
+  "archived": false,
+  "commit_sha": "8b7f9284d56fdfa9f94d3a1939029db197b94cf2",
+  "commit_url": "https://github.com/faisalman/ua-parser-js/commit/8b7f9284d56fdfa9f94d3a1939029db197b94cf2",
+  "tree_url": "https://github.com/faisalman/ua-parser-js/tree/8b7f9284d56fdfa9f94d3a1939029db197b94cf2",
+  "analysed_at": "2026-11-14T19:12:42.806674+00:00",
+  "status": "completed",
+  "files_fetched": 546,
+  "files_analysed": 393,
+  "components": [
+    "bot-detection package",
+    "browser-detection package",
+    "Configuration and deployment",
+    "device-detection package",
+    "enums package",
+    "extensions package",
+    "helpers package",
+    "main package",
+    "script package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": [
+    "src/main/ua-parser.js",
+    "script/cli.js"
+  ]
+}

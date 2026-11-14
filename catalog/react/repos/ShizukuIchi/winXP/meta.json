@@ -1,0 +1,54 @@
+{
+  "owner": "ShizukuIchi",
+  "name": "winXP",
+  "full_name": "ShizukuIchi/winXP",
+  "html_url": "https://github.com/ShizukuIchi/winXP",
+  "description": "\ud83c\udfc1 Web based Windows XP desktop recreation. ",
+  "stars": 5865,
+  "forks": 475,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "hooks",
+    "javascript",
+    "react",
+    "reimplementation",
+    "web-desktop",
+    "windows-xp"
+  ],
+  "archived": false,
+  "commit_sha": "856bb554b3667f62078010b4cee10cc2645761e1",
+  "commit_url": "https://github.com/ShizukuIchi/winXP/commit/856bb554b3667f62078010b4cee10cc2645761e1",
+  "tree_url": "https://github.com/ShizukuIchi/winXP/tree/856bb554b3667f62078010b4cee10cc2645761e1",
+  "analysed_at": "2026-11-14T19:14:14.203392+00:00",
+  "status": "completed",
+  "files_fetched": 55,
+  "files_analysed": 55,
+  "components": [
+    "App.js package",
+    "components package",
+    "Configuration and deployment",
+    "hooks package",
+    "index.js package",
+    "serviceWorker.js package",
+    "WinXP package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "src/App.js",
+    "src/WinXP/Footer/index.js",
+    "src/WinXP/Icons/index.js",
+    "src/WinXP/Modal/index.js",
+    "src/WinXP/Windows/index.js",
+    "src/WinXP/apps/index.js",
+    "src/WinXP/constants/index.js",
+    "src/WinXP/index.js",
+    "src/components/Balloon/index.js",
+    "src/components/DashedBox/index.js",
+    "src/components/Google/Main.js",
+    "src/components/Google/index.js"
+  ]
+}

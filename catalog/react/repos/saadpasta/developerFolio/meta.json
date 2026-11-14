@@ -1,0 +1,59 @@
+{
+  "owner": "saadpasta",
+  "name": "developerFolio",
+  "full_name": "saadpasta/developerFolio",
+  "html_url": "https://github.com/saadpasta/developerFolio",
+  "description": "\ud83d\ude80 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer. (This is currently not being actively maintained)",
+  "stars": 6648,
+  "forks": 3885,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "developer-folio",
+    "developer-portfolio",
+    "hacktoberfest",
+    "portfolio",
+    "portfolio-site",
+    "portfolio-template",
+    "portfolio-website",
+    "portfolios",
+    "react",
+    "reactjs",
+    "reactjs-template",
+    "template"
+  ],
+  "archived": false,
+  "commit_sha": "fc693405936fae6f5e5a4ba4c1da11513732f748",
+  "commit_url": "https://github.com/saadpasta/developerFolio/commit/fc693405936fae6f5e5a4ba4c1da11513732f748",
+  "tree_url": "https://github.com/saadpasta/developerFolio/tree/fc693405936fae6f5e5a4ba4c1da11513732f748",
+  "analysed_at": "2026-11-14T19:14:02.278250+00:00",
+  "status": "completed",
+  "files_fetched": 111,
+  "files_analysed": 111,
+  "components": [
+    "App.js package",
+    "App.test.js package",
+    "components package",
+    "Configuration and deployment",
+    "containers package",
+    "contexts package",
+    "Core modules",
+    "hooks package",
+    "index.js package",
+    "portfolio.js package",
+    "serviceWorker.js package",
+    "setupTests.js package",
+    "utils.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker"
+  ],
+  "entry_points": [
+    "src/App.js",
+    "src/containers/Main.js",
+    "src/index.js"
+  ]
+}

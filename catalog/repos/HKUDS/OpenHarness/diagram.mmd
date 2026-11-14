@@ -1,0 +1,71 @@
+%% Repository: HKUDS/OpenHarness
+%% Analysed commit: 9b2efd795c6aa09f88b0c257d269a9e518da6ae7
+%% Commit reference: https://github.com/HKUDS/OpenHarness/commit/9b2efd795c6aa09f88b0c257d269a9e518da6ae7
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        autopilot_dashboard["autopilot-dashboard package"]
+        frontend["frontend package"]
+        init_py["__init__.py package"]
+        ohmo["ohmo package"]
+        openharness["openharness package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| openharness
+    config -->|imports| data_layer
+    config -->|imports| ohmo
+    config -->|imports| openharness
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| ohmo
+    entrypoint -->|imports| openharness
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| openharness
+    ohmo -->|imports| api_layer
+    ohmo -->|imports| config
+    ohmo -->|imports| openharness
+    ohmo -->|imports| service_layer
+    openharness -->|imports| api_layer
+    openharness -->|imports| config
+    openharness -->|imports| data_layer
+    openharness -->|imports| entrypoint
+    openharness -->|imports| external_integrations
+    openharness -->|imports| ohmo
+    openharness -->|imports| service_layer
+    service_layer -->|imports| api_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| ohmo
+    service_layer -->|imports| openharness
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| ohmo
+    tests -->|imports| openharness
+    tests -->|imports| service_layer

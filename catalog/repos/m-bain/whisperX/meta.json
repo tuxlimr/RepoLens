@@ -1,0 +1,45 @@
+{
+  "owner": "m-bain",
+  "name": "whisperX",
+  "full_name": "m-bain/whisperX",
+  "html_url": "https://github.com/m-bain/whisperX",
+  "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+  "stars": 25269,
+  "forks": 2548,
+  "license": "BSD-2-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "asr",
+    "speech",
+    "speech-recognition",
+    "speech-to-text",
+    "whisper"
+  ],
+  "archived": false,
+  "commit_sha": "b904f02b7e1f26fd10fb04840d655ff27e88e464",
+  "commit_url": "https://github.com/m-bain/whisperX/commit/b904f02b7e1f26fd10fb04840d655ff27e88e464",
+  "tree_url": "https://github.com/m-bain/whisperX/tree/b904f02b7e1f26fd10fb04840d655ff27e88e464",
+  "analysed_at": "2026-11-14T19:07:33.401967+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 32,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests",
+    "whisperx package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "whisperx/__main__.py"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "transitive-bullshit",
+  "name": "nextjs-notion-starter-kit",
+  "full_name": "transitive-bullshit/nextjs-notion-starter-kit",
+  "html_url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
+  "stars": 7041,
+  "forks": 5634,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "blog",
+    "nextjs",
+    "notion",
+    "portfolio",
+    "react",
+    "react-notion-x"
+  ],
+  "archived": false,
+  "commit_sha": "e787e7b594f1ca6fe7445e1866d4d4668c533737",
+  "commit_url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit/commit/e787e7b594f1ca6fe7445e1866d4d4668c533737",
+  "tree_url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit/tree/e787e7b594f1ca6fe7445e1866d4d4668c533737",
+  "analysed_at": "2026-11-14T19:14:00.235721+00:00",
+  "status": "completed",
+  "files_fetched": 86,
+  "files_analysed": 85,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/[pageId]/page.tsx",
+    "app/page.tsx"
+  ]
+}

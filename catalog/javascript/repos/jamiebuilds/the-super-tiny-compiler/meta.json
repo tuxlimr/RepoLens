@@ -1,0 +1,29 @@
+{
+  "owner": "jamiebuilds",
+  "name": "the-super-tiny-compiler",
+  "full_name": "jamiebuilds/the-super-tiny-compiler",
+  "html_url": "https://github.com/jamiebuilds/the-super-tiny-compiler",
+  "description": ":snowman: Possibly the smallest compiler ever",
+  "stars": 28545,
+  "forks": 2842,
+  "license": "CC-BY-4.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d8d40130459d1537f6117a927947cd46c83182b0",
+  "commit_url": "https://github.com/jamiebuilds/the-super-tiny-compiler/commit/d8d40130459d1537f6117a927947cd46c83182b0",
+  "tree_url": "https://github.com/jamiebuilds/the-super-tiny-compiler/tree/d8d40130459d1537f6117a927947cd46c83182b0",
+  "analysed_at": "2026-11-14T19:10:49.082770+00:00",
+  "status": "completed",
+  "files_fetched": 5,
+  "files_analysed": 5,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": [
+    "the-super-tiny-compiler.js"
+  ]
+}

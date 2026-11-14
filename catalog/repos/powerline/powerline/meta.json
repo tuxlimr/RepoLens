@@ -1,0 +1,55 @@
+{
+  "owner": "powerline",
+  "name": "powerline",
+  "full_name": "powerline/powerline",
+  "html_url": "https://github.com/powerline/powerline",
+  "description": "Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile.",
+  "stars": 14844,
+  "forks": 996,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "develop",
+  "topics": [
+    "bash",
+    "fish",
+    "ipython",
+    "powerline",
+    "prompt",
+    "python",
+    "statusline",
+    "tmux",
+    "vim",
+    "zsh"
+  ],
+  "archived": false,
+  "commit_sha": "11808cbe5c16e4621edcaefa916b5add81eab799",
+  "commit_url": "https://github.com/powerline/powerline/commit/11808cbe5c16e4621edcaefa916b5add81eab799",
+  "tree_url": "https://github.com/powerline/powerline/tree/11808cbe5c16e4621edcaefa916b5add81eab799",
+  "analysed_at": "2026-11-14T19:09:12.325385+00:00",
+  "status": "completed",
+  "files_fetched": 367,
+  "files_analysed": 366,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "powerline package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "powerline/bindings/awesome/powerline-awesome.py",
+    "powerline/bindings/bar/powerline-bar.py",
+    "powerline/bindings/i3/powerline-i3.py",
+    "powerline/bindings/lemonbar/powerline-lemonbar.py",
+    "powerline/bindings/pdb/__main__.py",
+    "scripts/powerline-release.py",
+    "tools/generate_gradients.py",
+    "tools/purge-PRs.py"
+  ]
+}

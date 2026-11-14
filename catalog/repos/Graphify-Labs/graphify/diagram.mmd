@@ -1,0 +1,32 @@
+%% Repository: Graphify-Labs/graphify
+%% Analysed commit: 52cb28218eea0c68d80a9f4b2ae102d2fa63e267
+%% Commit reference: https://github.com/Graphify-Labs/graphify/commit/52cb28218eea0c68d80a9f4b2ae102d2fa63e267
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        graphify["graphify package"]
+        scripts["scripts package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| graphify
+    graphify -->|imports| data_layer
+    graphify -->|imports| entrypoint
+    graphify -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| graphify
+    tests -->|imports| tools

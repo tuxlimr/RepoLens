@@ -1,0 +1,59 @@
+{
+  "owner": "Vincentwei1021",
+  "name": "anything2explainer",
+  "full_name": "Vincentwei1021/anything2explainer",
+  "html_url": "https://github.com/Vincentwei1021/anything2explainer",
+  "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+  "stars": 3317,
+  "forks": 423,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-video",
+    "claude-code",
+    "claude-code-skill",
+    "codex",
+    "edge-tts",
+    "educational-video",
+    "explainer-video",
+    "kokoro",
+    "motion-graphics",
+    "multi-agent",
+    "react",
+    "remotion",
+    "text-to-video",
+    "tts",
+    "typescript",
+    "video-generation"
+  ],
+  "archived": false,
+  "commit_sha": "0b85f6c7bfc4ef094ee1afb6c68c06fcf329cfab",
+  "commit_url": "https://github.com/Vincentwei1021/anything2explainer/commit/0b85f6c7bfc4ef094ee1afb6c68c06fcf329cfab",
+  "tree_url": "https://github.com/Vincentwei1021/anything2explainer/tree/0b85f6c7bfc4ef094ee1afb6c68c06fcf329cfab",
+  "analysed_at": "2026-11-14T19:15:24.285187+00:00",
+  "status": "completed",
+  "files_fetched": 171,
+  "files_analysed": 171,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "template package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "NumPy",
+    "TypeScript",
+    "unittest"
+  ],
+  "entry_points": [
+    "template/scripts/tts_build.py",
+    "template/src/Main.tsx",
+    "template/src/common/index.ts",
+    "template/src/index.ts",
+    "template/src/overlay/index.ts"
+  ]
+}

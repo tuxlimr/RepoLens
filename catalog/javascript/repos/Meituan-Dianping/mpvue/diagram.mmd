@@ -1,0 +1,24 @@
+%% Repository: Meituan-Dianping/mpvue
+%% Analysed commit: 6c5d78ee04f58c6d782c456dfcf0fe63c0b7f89b
+%% Commit reference: https://github.com/Meituan-Dianping/mpvue/commit/6c5d78ee04f58c6d782c456dfcf0fe63c0b7f89b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        compiler["compiler package"]
+        flow["flow package"]
+        packages["packages package"]
+        platforms["platforms package"]
+        server["server package"]
+        sfc["sfc package"]
+        shared["shared package"]
+        types["types package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

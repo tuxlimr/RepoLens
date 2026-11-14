@@ -1,0 +1,26 @@
+%% Repository: nvbn/thefuck
+%% Analysed commit: c7e7e1d884d3bb241ea6448f72a989434c2a35ec
+%% Commit reference: https://github.com/nvbn/thefuck/commit/c7e7e1d884d3bb241ea6448f72a989434c2a35ec
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        thefuck["thefuck package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| core
+    entrypoint -->|imports| thefuck
+    tests -->|imports| thefuck
+    thefuck -->|imports| external_integrations

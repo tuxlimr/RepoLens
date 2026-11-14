@@ -1,0 +1,50 @@
+{
+  "owner": "jsdoc",
+  "name": "jsdoc",
+  "full_name": "jsdoc/jsdoc",
+  "html_url": "https://github.com/jsdoc/jsdoc",
+  "description": "An API documentation generator for JavaScript.",
+  "stars": 15473,
+  "forks": 1489,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "api",
+    "docs",
+    "documentation",
+    "javascript",
+    "jsdoc"
+  ],
+  "archived": false,
+  "commit_sha": "536d8502494e4ee6722627ce88996f87cb4544d6",
+  "commit_url": "https://github.com/jsdoc/jsdoc/commit/536d8502494e4ee6722627ce88996f87cb4544d6",
+  "tree_url": "https://github.com/jsdoc/jsdoc/tree/536d8502494e4ee6722627ce88996f87cb4544d6",
+  "analysed_at": "2026-11-14T19:11:38.466189+00:00",
+  "status": "completed",
+  "files_fetched": 653,
+  "files_analysed": 653,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "packages/jsdoc-eslint-config/index.js",
+    "packages/jsdoc-parse/index.js",
+    "packages/jsdoc-prettier-config/index.js",
+    "packages/jsdoc-template-legacy/publish.js",
+    "packages/jsdoc/jsdoc.js",
+    "packages/jsdoc-ast/index.js",
+    "packages/jsdoc-cli/index.js",
+    "packages/jsdoc-core/index.js",
+    "packages/jsdoc-doclet/index.js",
+    "packages/jsdoc-name/index.js",
+    "packages/jsdoc-salty/index.js",
+    "packages/jsdoc-tag/index.js"
+  ]
+}

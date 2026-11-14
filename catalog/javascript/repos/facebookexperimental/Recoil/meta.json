@@ -1,0 +1,47 @@
+{
+  "owner": "facebookexperimental",
+  "name": "Recoil",
+  "full_name": "facebookexperimental/Recoil",
+  "html_url": "https://github.com/facebookexperimental/Recoil",
+  "description": "Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.",
+  "stars": 19400,
+  "forks": 1207,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "c1b97f3a0117cad76cbc6ab3cb06d89a9ce717af",
+  "commit_url": "https://github.com/facebookexperimental/Recoil/commit/c1b97f3a0117cad76cbc6ab3cb06d89a9ce717af",
+  "tree_url": "https://github.com/facebookexperimental/Recoil/tree/c1b97f3a0117cad76cbc6ab3cb06d89a9ce717af",
+  "analysed_at": "2026-11-14T19:11:17.536507+00:00",
+  "status": "completed",
+  "files_fetched": 345,
+  "files_analysed": 345,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "eslint-rules package",
+    "flow-typed package",
+    "packages package",
+    "packages-ext package",
+    "scripts package",
+    "Service / domain layer",
+    "typescript package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/recoil-relay/RecoilRelay_index.js",
+    "packages/recoil-sync/RecoilSync_index.js",
+    "packages/recoil/Recoil_index.js",
+    "packages/refine/Refine_index.js",
+    "packages-ext/todo-example/src/App.js",
+    "packages-ext/todo-example/src/index.js"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "owner": "adam-p",
+  "name": "markdown-here",
+  "full_name": "adam-p/markdown-here",
+  "html_url": "https://github.com/adam-p/markdown-here",
+  "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+  "stars": 60243,
+  "forks": 10980,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "e00d005299922198aef968e0cd42b275525c20a6",
+  "commit_url": "https://github.com/adam-p/markdown-here/commit/e00d005299922198aef968e0cd42b275525c20a6",
+  "tree_url": "https://github.com/adam-p/markdown-here/tree/e00d005299922198aef968e0cd42b275525c20a6",
+  "analysed_at": "2026-11-14T19:10:36.632706+00:00",
+  "status": "completed",
+  "files_fetched": 380,
+  "files_analysed": 379,
+  "components": [
+    "chrome package",
+    "common package",
+    "Configuration and deployment",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

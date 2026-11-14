@@ -1,0 +1,49 @@
+{
+  "owner": "timolins",
+  "name": "react-hot-toast",
+  "full_name": "timolins/react-hot-toast",
+  "html_url": "https://github.com/timolins/react-hot-toast",
+  "description": "Smoking Hot React Notifications \ud83d\udd25 ",
+  "stars": 10993,
+  "forks": 376,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "notifications",
+    "react",
+    "snackbar",
+    "toast-notifications"
+  ],
+  "archived": false,
+  "commit_sha": "e725d38e0faec05f7b8fb10644b616ef978d2f4d",
+  "commit_url": "https://github.com/timolins/react-hot-toast/commit/e725d38e0faec05f7b8fb10644b616ef978d2f4d",
+  "tree_url": "https://github.com/timolins/react-hot-toast/tree/e725d38e0faec05f7b8fb10644b616ef978d2f4d",
+  "analysed_at": "2026-11-14T19:13:28.544588+00:00",
+  "status": "completed",
+  "files_fetched": 67,
+  "files_analysed": 65,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "headless package",
+    "index.ts package",
+    "Service / domain layer",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "site/pages/index.tsx",
+    "src/headless/index.ts",
+    "src/index.ts"
+  ]
+}

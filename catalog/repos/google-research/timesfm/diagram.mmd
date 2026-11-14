@@ -1,0 +1,34 @@
+%% Repository: google-research/timesfm
+%% Analysed commit: 918df02c9d366b2145bc5876135fa2131d3ed2a6
+%% Commit reference: https://github.com/google-research/timesfm/commit/918df02c9d366b2145bc5876135fa2131d3ed2a6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        timesfm["timesfm package"]
+        timesfm3["timesfm3 package"]
+        timesfm3_usage["timesfm3-usage package"]
+        timesfm_forecasting["timesfm-forecasting package"]
+        v1["v1 package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| timesfm3
+    entrypoint -->|imports| timesfm
+    entrypoint -->|imports| timesfm3
+    entrypoint -->|imports| v1
+    tests -->|imports| data_layer
+    tests -->|imports| timesfm
+    tests -->|imports| timesfm3
+    timesfm -->|imports| timesfm3
+    timesfm3 -->|imports| data_layer
+    timesfm_forecasting -->|imports| timesfm
+    v1 -->|imports| timesfm

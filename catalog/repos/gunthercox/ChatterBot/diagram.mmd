@@ -1,0 +1,37 @@
+%% Repository: gunthercox/ChatterBot
+%% Analysed commit: be68629cedb8a40f072bb2e456f7af2d4ea91998
+%% Commit reference: https://github.com/gunthercox/ChatterBot/commit/be68629cedb8a40f072bb2e456f7af2d4ea91998
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        chatterbot["chatterbot package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    chatterbot -->|imports| data_layer
+    chatterbot -->|imports| external_integrations
+    chatterbot -->|imports| service_layer
+    config -->|imports| chatterbot
+    data_layer -->|imports| chatterbot
+    entrypoint -->|imports| chatterbot
+    service_layer -->|imports| chatterbot
+    service_layer -->|imports| data_layer
+    tests -->|imports| chatterbot
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

@@ -1,0 +1,42 @@
+{
+  "owner": "summernote",
+  "name": "summernote",
+  "full_name": "summernote/summernote",
+  "html_url": "https://github.com/summernote/summernote",
+  "description": "Super Simple WYSIWYG Editor",
+  "stars": 11841,
+  "forks": 2245,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "summernote",
+    "wysiwyg",
+    "wysiwyg-editor"
+  ],
+  "archived": false,
+  "commit_sha": "ac5460e0e9a0b622ad7deff162915a3960ff4b96",
+  "commit_url": "https://github.com/summernote/summernote/commit/ac5460e0e9a0b622ad7deff162915a3960ff4b96",
+  "tree_url": "https://github.com/summernote/summernote/tree/ac5460e0e9a0b622ad7deff162915a3960ff4b96",
+  "analysed_at": "2026-11-14T19:12:13.710667+00:00",
+  "status": "completed",
+  "files_fetched": 264,
+  "files_analysed": 264,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "public package",
+    "scripts package",
+    "Service / domain layer",
+    "styles package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": []
+}

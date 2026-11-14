@@ -1,0 +1,45 @@
+{
+  "owner": "reactjs",
+  "name": "react-rails",
+  "full_name": "reactjs/react-rails",
+  "html_url": "https://github.com/reactjs/react-rails",
+  "description": "Integrate React.js with Rails views and controllers, the asset pipeline, or webpacker.",
+  "stars": 6776,
+  "forks": 737,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "jsx",
+    "rails",
+    "react",
+    "react-rails",
+    "ruby",
+    "sprockets",
+    "webpacker"
+  ],
+  "archived": false,
+  "commit_sha": "e48a3263d6a79e544d7af92df4ebd86e5f27e213",
+  "commit_url": "https://github.com/reactjs/react-rails/commit/e48a3263d6a79e544d7af92df4ebd86e5f27e213",
+  "tree_url": "https://github.com/reactjs/react-rails/tree/e48a3263d6a79e544d7af92df4ebd86e5f27e213",
+  "analysed_at": "2026-11-14T19:14:01.557260+00:00",
+  "status": "completed",
+  "files_fetched": 258,
+  "files_analysed": 252,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "react-builds package",
+    "react_ujs package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "react_ujs/index.js"
+  ]
+}

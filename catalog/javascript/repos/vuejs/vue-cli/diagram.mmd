@@ -1,0 +1,20 @@
+%% Repository: vuejs/vue-cli
+%% Analysed commit: 7eb93c169c7520935252e2473387f923ef80d856
+%% Commit reference: https://github.com/vuejs/vue-cli/commit/7eb93c169c7520935252e2473387f923ef80d856
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        mocks["__mocks__ package"]
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

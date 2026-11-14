@@ -1,0 +1,33 @@
+%% Repository: reddit-archive/reddit
+%% Analysed commit: 753b17407e9a9dca09558526805922de24133d53
+%% Commit reference: https://github.com/reddit-archive/reddit/commit/753b17407e9a9dca09558526805922de24133d53
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        install["install package"]
+        r2["r2 package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| external_integrations
+    r2 -->|imports| data_layer
+    r2 -->|imports| external_integrations

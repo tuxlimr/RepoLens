@@ -1,0 +1,55 @@
+{
+  "owner": "tailwindlabs",
+  "name": "headlessui",
+  "full_name": "tailwindlabs/headlessui",
+  "html_url": "https://github.com/tailwindlabs/headlessui",
+  "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+  "stars": 28828,
+  "forks": 1218,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "a11y",
+    "accessibility",
+    "components",
+    "headless-ui",
+    "headlessui",
+    "react",
+    "tailwindcss",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "eea57cf46fd6767ed1059012f7073b88eb159fba",
+  "commit_url": "https://github.com/tailwindlabs/headlessui/commit/eea57cf46fd6767ed1059012f7073b88eb159fba",
+  "tree_url": "https://github.com/tailwindlabs/headlessui/tree/eea57cf46fd6767ed1059012f7073b88eb159fba",
+  "analysed_at": "2026-11-14T19:13:03.383740+00:00",
+  "status": "completed",
+  "files_fetched": 473,
+  "files_analysed": 470,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "jest package",
+    "packages package",
+    "playgrounds package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Vue",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/@headlessui-react/src/index.ts",
+    "packages/@headlessui-tailwindcss/src/index.ts",
+    "packages/@headlessui-vue/src/index.ts",
+    "playgrounds/react/app/page.tsx",
+    "playgrounds/vue/src/main.ts"
+  ]
+}

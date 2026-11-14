@@ -1,0 +1,54 @@
+%% Repository: xming521/WeClone
+%% Analysed commit: c9b346cf2a903a4112ff62bb415083497ba13f1d
+%% Commit reference: https://github.com/xming521/WeClone/commit/c9b346cf2a903a4112ff62bb415083497ba13f1d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        web["web package"]
+        weclone["weclone package"]
+        weclone_cloud["weclone-cloud package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| weclone_cloud
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| service_layer
+    data_layer -->|imports| weclone
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| tests
+    entrypoint -->|imports| weclone
+    entrypoint -->|imports| weclone_cloud
+    external_integrations -->|imports| service_layer
+    external_integrations -->|imports| weclone
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| weclone
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer
+    tests -->|imports| weclone
+    weclone -->|imports| data_layer
+    weclone -->|imports| entrypoint
+    weclone -->|imports| external_integrations
+    weclone -->|imports| service_layer
+    weclone_cloud -->|imports| config
+    weclone_cloud -->|imports| external_integrations

@@ -1,0 +1,47 @@
+{
+  "owner": "bndw",
+  "name": "wifi-card",
+  "full_name": "bndw/wifi-card",
+  "html_url": "https://github.com/bndw/wifi-card",
+  "description": "\ud83d\udcf6 Print a QR code for connecting to your WiFi (wificard.io)",
+  "stars": 7210,
+  "forks": 509,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "dogs-over-cats",
+    "qrcode",
+    "react",
+    "wifi",
+    "wificard"
+  ],
+  "archived": false,
+  "commit_sha": "7a990dd2411f6c8758ad696bf737b509f9672953",
+  "commit_url": "https://github.com/bndw/wifi-card/commit/7a990dd2411f6c8758ad696bf737b509f9672953",
+  "tree_url": "https://github.com/bndw/wifi-card/tree/7a990dd2411f6c8758ad696bf737b509f9672953",
+  "analysed_at": "2026-11-14T19:13:58.747207+00:00",
+  "status": "completed",
+  "files_fetched": 26,
+  "files_analysed": 25,
+  "components": [
+    "App.jsx package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "customStyles.js package",
+    "i18n.js package",
+    "index.jsx package",
+    "translations.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/App.jsx",
+    "src/index.jsx"
+  ]
+}

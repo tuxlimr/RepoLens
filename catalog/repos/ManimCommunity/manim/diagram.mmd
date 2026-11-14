@@ -1,0 +1,19 @@
+%% Repository: ManimCommunity/manim
+%% Analysed commit: e8afc6398bc7ac4d4beaa2debd79325f9167d374
+%% Commit reference: https://github.com/ManimCommunity/manim/commit/e8afc6398bc7ac4d4beaa2debd79325f9167d374
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        example_scenes["example_scenes package"]
+        manim["manim package"]
+    end
+    docker -->|imports| manim
+    entrypoint -->|imports| manim
+    example_scenes -->|imports| manim
+    manim -->|imports| entrypoint

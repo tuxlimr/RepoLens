@@ -1,0 +1,37 @@
+{
+  "owner": "EbookFoundation",
+  "name": "free-programming-books",
+  "full_name": "EbookFoundation/free-programming-books",
+  "html_url": "https://github.com/EbookFoundation/free-programming-books",
+  "description": ":books: Freely available programming books",
+  "stars": 401591,
+  "forks": 67849,
+  "license": "CC-BY-4.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "books",
+    "education",
+    "hacktoberfest",
+    "list",
+    "resource"
+  ],
+  "archived": false,
+  "commit_sha": "10e33dd516cc53864e6bece7e6bd51f2a035d06c",
+  "commit_url": "https://github.com/EbookFoundation/free-programming-books/commit/10e33dd516cc53864e6bece7e6bd51f2a035d06c",
+  "tree_url": "https://github.com/EbookFoundation/free-programming-books/tree/10e33dd516cc53864e6bece7e6bd51f2a035d06c",
+  "analysed_at": "2026-11-14T19:05:59.279380+00:00",
+  "status": "completed",
+  "files_fetched": 233,
+  "files_analysed": 233,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "scripts/rtl_ltr_linter.py"
+  ]
+}

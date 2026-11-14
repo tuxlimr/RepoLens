@@ -1,0 +1,39 @@
+{
+  "owner": "xifangczy",
+  "name": "cat-catch",
+  "full_name": "xifangczy/cat-catch",
+  "html_url": "https://github.com/xifangczy/cat-catch",
+  "description": "\u732b\u6293 \u6d4f\u89c8\u5668\u8d44\u6e90\u55c5\u63a2\u6269\u5c55 / cat-catch Browser Resource Sniffing Extension",
+  "stars": 22956,
+  "forks": 1989,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chrome",
+    "chrome-extension",
+    "firefox",
+    "firefox-extension",
+    "javascript",
+    "jquery",
+    "m3u8-downloader",
+    "video-downloader"
+  ],
+  "archived": false,
+  "commit_sha": "019c465794b5871701383e4485c0e9ee7be2f840",
+  "commit_url": "https://github.com/xifangczy/cat-catch/commit/019c465794b5871701383e4485c0e9ee7be2f840",
+  "tree_url": "https://github.com/xifangczy/cat-catch/tree/019c465794b5871701383e4485c0e9ee7be2f840",
+  "analysed_at": "2026-11-14T19:11:05.601632+00:00",
+  "status": "completed",
+  "files_fetched": 85,
+  "files_analysed": 85,
+  "components": [
+    "catch-script package",
+    "Configuration and deployment",
+    "js package",
+    "lib package",
+    "tools package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

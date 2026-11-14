@@ -1,0 +1,36 @@
+{
+  "owner": "gruntjs",
+  "name": "grunt",
+  "full_name": "gruntjs/grunt",
+  "html_url": "https://github.com/gruntjs/grunt",
+  "description": "Grunt: The JavaScript Task Runner",
+  "stars": 12231,
+  "forks": 1486,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "hacktoberfest"
+  ],
+  "archived": false,
+  "commit_sha": "50a8a686522b0cf1938df344b9684e843f9eae9c",
+  "commit_url": "https://github.com/gruntjs/grunt/commit/50a8a686522b0cf1938df344b9684e843f9eae9c",
+  "tree_url": "https://github.com/gruntjs/grunt/tree/50a8a686522b0cf1938df344b9684e843f9eae9c",
+  "analysed_at": "2026-11-14T19:12:07.377138+00:00",
+  "status": "completed",
+  "files_fetched": 82,
+  "files_analysed": 75,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "internal-tasks package",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "bin/grunt"
+  ]
+}

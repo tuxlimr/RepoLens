@@ -1,0 +1,35 @@
+{
+  "owner": "gsd-build",
+  "name": "get-shit-done",
+  "full_name": "gsd-build/get-shit-done",
+  "html_url": "https://github.com/gsd-build/get-shit-done",
+  "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by T\u00c2CHES.",
+  "stars": 64136,
+  "forks": 5451,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "claude-code",
+    "context-engineering",
+    "meta-prompting",
+    "spec-driven-development"
+  ],
+  "archived": true,
+  "commit_sha": "bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815",
+  "commit_url": "https://github.com/gsd-build/get-shit-done/commit/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815",
+  "tree_url": "https://github.com/gsd-build/get-shit-done/tree/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815",
+  "analysed_at": "2026-11-14T19:10:35.227408+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "get-shit-done package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

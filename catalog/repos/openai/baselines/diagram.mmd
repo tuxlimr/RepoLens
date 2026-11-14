@@ -1,0 +1,29 @@
+%% Repository: openai/baselines
+%% Analysed commit: ea25b9e8b234e6ee1bca43083f8f3cf974143998
+%% Commit reference: https://github.com/openai/baselines/commit/ea25b9e8b234e6ee1bca43083f8f3cf974143998
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        baselines["baselines package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    baselines -->|imports| data_layer
+    baselines -->|imports| entrypoint
+    baselines -->|imports| tests
+    config -->|imports| baselines
+    data_layer -->|imports| baselines
+    data_layer -->|imports| entrypoint
+    entrypoint -->|imports| baselines
+    entrypoint -->|imports| config
+    tests -->|imports| baselines
+    tests -->|imports| entrypoint

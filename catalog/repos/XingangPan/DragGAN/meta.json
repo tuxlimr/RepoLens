@@ -1,0 +1,62 @@
+{
+  "owner": "XingangPan",
+  "name": "DragGAN",
+  "full_name": "XingangPan/DragGAN",
+  "html_url": "https://github.com/XingangPan/DragGAN",
+  "description": "Official Code for DragGAN (SIGGRAPH 2023)",
+  "stars": 35696,
+  "forks": 3381,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "artificial-intelligence",
+    "generative-adversarial-network",
+    "generative-models",
+    "image-manipulation"
+  ],
+  "archived": false,
+  "commit_sha": "336f120ce126aca6f55dc58537e76c10d19eabd0",
+  "commit_url": "https://github.com/XingangPan/DragGAN/commit/336f120ce126aca6f55dc58537e76c10d19eabd0",
+  "tree_url": "https://github.com/XingangPan/DragGAN/tree/336f120ce126aca6f55dc58537e76c10d19eabd0",
+  "analysed_at": "2026-11-14T19:06:58.290540+00:00",
+  "status": "completed",
+  "files_fetched": 190,
+  "files_analysed": 190,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "dnnlib package",
+    "Application entry point",
+    "External integrations",
+    "gradio_utils package",
+    "gui_utils package",
+    "scripts package",
+    "stylegan_human package",
+    "torch_utils package",
+    "training package",
+    "viz package"
+  ],
+  "detections": [
+    "Click",
+    "NumPy",
+    "pandas",
+    "requests",
+    "Docker"
+  ],
+  "entry_points": [
+    "stylegan_human/openpose/src/body.py",
+    "gen_images.py",
+    "legacy.py",
+    "scripts/download_model.py",
+    "stylegan_human/PP_HumanSeg/export_model/download_export_model.py",
+    "stylegan_human/PP_HumanSeg/pretrained_model/download_pretrained_model.py",
+    "stylegan_human/alignment.py",
+    "stylegan_human/bg_white.py",
+    "stylegan_human/edit.py",
+    "stylegan_human/generate.py",
+    "stylegan_human/insetgan.py",
+    "stylegan_human/interpolation.py"
+  ]
+}

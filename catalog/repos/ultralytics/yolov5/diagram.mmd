@@ -1,0 +1,32 @@
+%% Repository: ultralytics/yolov5
+%% Analysed commit: cb2f17fd5d790cfdd0c07c25351904df9affbe6e
+%% Commit reference: https://github.com/ultralytics/yolov5/commit/cb2f17fd5d790cfdd0c07c25351904df9affbe6e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| utils
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| utils
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| utils
+    utils -->|imports| data_layer
+    utils -->|imports| external_integrations

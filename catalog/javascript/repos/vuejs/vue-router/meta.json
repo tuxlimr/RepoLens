@@ -1,0 +1,55 @@
+{
+  "owner": "vuejs",
+  "name": "vue-router",
+  "full_name": "vuejs/vue-router",
+  "html_url": "https://github.com/vuejs/vue-router",
+  "description": "\ud83d\udea6 The official router for Vue 2",
+  "stars": 18852,
+  "forks": 4950,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [
+    "javascript",
+    "router",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "680ccc68c506cca9be6207745043245d61fa715a",
+  "commit_url": "https://github.com/vuejs/vue-router/commit/680ccc68c506cca9be6207745043245d61fa715a",
+  "tree_url": "https://github.com/vuejs/vue-router/tree/680ccc68c506cca9be6207745043245d61fa715a",
+  "analysed_at": "2026-11-14T19:11:19.400500+00:00",
+  "status": "completed",
+  "files_fetched": 468,
+  "files_analysed": 460,
+  "components": [
+    "components package",
+    "composables package",
+    "Configuration and deployment",
+    "Core modules",
+    "create-matcher.js package",
+    "create-route-map.js package",
+    "entries package",
+    "flow package",
+    "history package",
+    "index.js package",
+    "install.js package",
+    "router.js package",
+    "scripts package",
+    "Tests",
+    "types package",
+    "util package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Vue",
+    "axios",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/composables/index.js",
+    "src/index.js"
+  ]
+}

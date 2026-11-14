@@ -1,0 +1,54 @@
+{
+  "owner": "gregberge",
+  "name": "loadable-components",
+  "full_name": "gregberge/loadable-components",
+  "html_url": "https://github.com/gregberge/loadable-components",
+  "description": "The recommended Code Splitting library for React \u2702\ufe0f\u2728",
+  "stars": 7795,
+  "forks": 386,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "code-splitting",
+    "dynamic-import",
+    "react",
+    "react-async-component",
+    "react-loadable",
+    "react-router",
+    "server-side-rendering",
+    "ssr",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "18544decdd0e9ecb3e85772708e1f2726430fdeb",
+  "commit_url": "https://github.com/gregberge/loadable-components/commit/18544decdd0e9ecb3e85772708e1f2726430fdeb",
+  "tree_url": "https://github.com/gregberge/loadable-components/tree/18544decdd0e9ecb3e85772708e1f2726430fdeb",
+  "analysed_at": "2026-11-14T19:13:45.558542+00:00",
+  "status": "completed",
+  "files_fetched": 253,
+  "files_analysed": 251,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "website package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/codemod/bin/main.js",
+    "packages/babel-plugin/src/index.js",
+    "packages/component/src/index.js",
+    "packages/server/src/index.js",
+    "packages/webpack-plugin/src/index.js",
+    "website/src/pages/index.js"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "owner": "openai",
+  "name": "swarm",
+  "full_name": "openai/swarm",
+  "html_url": "https://github.com/openai/swarm",
+  "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+  "stars": 22138,
+  "forks": 2355,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6af0b4caf37dca4526dfd98e9fbd8ce36e7eeb22",
+  "commit_url": "https://github.com/openai/swarm/commit/6af0b4caf37dca4526dfd98e9fbd8ce36e7eeb22",
+  "tree_url": "https://github.com/openai/swarm/tree/6af0b4caf37dca4526dfd98e9fbd8ce36e7eeb22",
+  "analysed_at": "2026-11-14T19:07:55.648836+00:00",
+  "status": "completed",
+  "files_fetched": 285,
+  "files_analysed": 285,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "swarm package",
+    "Tests"
+  ],
+  "detections": [
+    "SQLite",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

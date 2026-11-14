@@ -1,0 +1,43 @@
+{
+  "owner": "GeeeekExplorer",
+  "name": "nano-vllm",
+  "full_name": "GeeeekExplorer/nano-vllm",
+  "html_url": "https://github.com/GeeeekExplorer/nano-vllm",
+  "description": "Nano vLLM",
+  "stars": 16427,
+  "forks": 2863,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "deep-learning",
+    "inference",
+    "llm",
+    "nlp",
+    "pytorch",
+    "transformer"
+  ],
+  "archived": false,
+  "commit_sha": "bb823b3e06983d71485a8e1f23715ebd87d98ef8",
+  "commit_url": "https://github.com/GeeeekExplorer/nano-vllm/commit/bb823b3e06983d71485a8e1f23715ebd87d98ef8",
+  "tree_url": "https://github.com/GeeeekExplorer/nano-vllm/tree/bb823b3e06983d71485a8e1f23715ebd87d98ef8",
+  "analysed_at": "2026-11-14T19:08:47.616204+00:00",
+  "status": "completed",
+  "files_fetched": 25,
+  "files_analysed": 25,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "nanovllm package"
+  ],
+  "detections": [
+    "NumPy",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": [
+    "bench.py",
+    "example.py"
+  ]
+}

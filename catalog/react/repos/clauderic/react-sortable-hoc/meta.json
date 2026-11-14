@@ -1,0 +1,58 @@
+{
+  "owner": "clauderic",
+  "name": "react-sortable-hoc",
+  "full_name": "clauderic/react-sortable-hoc",
+  "html_url": "https://github.com/clauderic/react-sortable-hoc",
+  "description": "A set of higher-order components to turn any list into an animated, accessible and touch-friendly sortable list\u270c\ufe0f",
+  "stars": 10879,
+  "forks": 953,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "drag-and-drop",
+    "dragging",
+    "front-end",
+    "grid",
+    "higher-order-component",
+    "javascript",
+    "react",
+    "sortable",
+    "sorting"
+  ],
+  "archived": false,
+  "commit_sha": "caf3c4f5bfb30894639391ae75c1bfc2b707a127",
+  "commit_url": "https://github.com/clauderic/react-sortable-hoc/commit/caf3c4f5bfb30894639391ae75c1bfc2b707a127",
+  "tree_url": "https://github.com/clauderic/react-sortable-hoc/tree/caf3c4f5bfb30894639391ae75c1bfc2b707a127",
+  "analysed_at": "2026-11-14T19:13:28.717742+00:00",
+  "status": "completed",
+  "files_fetched": 50,
+  "files_analysed": 50,
+  "components": [
+    "AutoScroller package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "Manager package",
+    "SortableContainer package",
+    "SortableElement package",
+    "SortableHandle package",
+    ".stories package",
+    "types package",
+    "utils.js package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "src/.stories/grouping-items/index.js",
+    "src/.stories/index.js",
+    "src/.stories/interactive-elements-stress-test/index.js",
+    "src/AutoScroller/index.js",
+    "src/Manager/index.js",
+    "src/SortableContainer/index.js",
+    "src/SortableElement/index.js",
+    "src/SortableHandle/index.js",
+    "src/index.js"
+  ]
+}

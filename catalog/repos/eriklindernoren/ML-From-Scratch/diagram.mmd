@@ -1,0 +1,14 @@
+%% Repository: eriklindernoren/ML-From-Scratch
+%% Analysed commit: a2806c6732eee8d27762edd6d864e0c179d8e9e8
+%% Commit reference: https://github.com/eriklindernoren/ML-From-Scratch/commit/a2806c6732eee8d27762edd6d864e0c179d8e9e8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        mlfromscratch["mlfromscratch package"]
+    end
+    entrypoint -->|imports| mlfromscratch

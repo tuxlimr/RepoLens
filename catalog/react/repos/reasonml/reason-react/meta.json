@@ -1,0 +1,39 @@
+{
+  "owner": "reasonml",
+  "name": "reason-react",
+  "full_name": "reasonml/reason-react",
+  "html_url": "https://github.com/reasonml/reason-react",
+  "description": "Reason bindings for ReactJS",
+  "stars": 3262,
+  "forks": 344,
+  "license": "MIT",
+  "language": "Reason",
+  "default_branch": "main",
+  "topics": [
+    "melange",
+    "react",
+    "reasonml"
+  ],
+  "archived": false,
+  "commit_sha": "0206fb41ac67c4ba584409f4eb7d3e501273d431",
+  "commit_url": "https://github.com/reasonml/reason-react/commit/0206fb41ac67c4ba584409f4eb7d3e501273d431",
+  "tree_url": "https://github.com/reasonml/reason-react/tree/0206fb41ac67c4ba584409f4eb7d3e501273d431",
+  "analysed_at": "2026-11-14T19:15:26.914508+00:00",
+  "status": "completed",
+  "files_fetched": 216,
+  "files_analysed": 216,
+  "components": [
+    "Configuration and deployment",
+    "Service / domain layer",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest"
+  ],
+  "entry_points": [
+    "website/pages/en/index.js"
+  ]
+}

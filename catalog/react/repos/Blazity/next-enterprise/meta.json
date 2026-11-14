@@ -1,0 +1,63 @@
+{
+  "owner": "Blazity",
+  "name": "next-enterprise",
+  "full_name": "Blazity/next-enterprise",
+  "html_url": "https://github.com/Blazity/next-enterprise",
+  "description": "\ud83d\udcbc An enterprise-grade Next.js boilerplate for high-performance, maintainable apps. Packed with features like Tailwind CSS, TypeScript, ESLint, Prettier, testing tools, and more to accelerate your development.",
+  "stars": 7472,
+  "forks": 1941,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "boilerplate",
+    "chatgpt",
+    "cva",
+    "eslint",
+    "jamstack",
+    "javascript-ai",
+    "next",
+    "next-js",
+    "next-theme",
+    "nextjs",
+    "nextjs13",
+    "radix-ui",
+    "react",
+    "react-enterprise-boilerplate",
+    "seo",
+    "starter-kit",
+    "starter-template",
+    "tailwindcss",
+    "typescript",
+    "vercel"
+  ],
+  "archived": false,
+  "commit_sha": "97c4f3ed6be0a5b255d0e71606c7b355138281a9",
+  "commit_url": "https://github.com/Blazity/next-enterprise/commit/97c4f3ed6be0a5b255d0e71606c7b355138281a9",
+  "tree_url": "https://github.com/Blazity/next-enterprise/tree/97c4f3ed6be0a5b255d0e71606c7b355138281a9",
+  "analysed_at": "2026-11-14T19:13:50.360462+00:00",
+  "status": "completed",
+  "files_fetched": 44,
+  "files_analysed": 44,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "e2e package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    ".storybook/main.ts",
+    "app/page.tsx"
+  ]
+}

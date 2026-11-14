@@ -1,0 +1,33 @@
+{
+  "owner": "markerikson",
+  "name": "redux-ecosystem-links",
+  "full_name": "markerikson/redux-ecosystem-links",
+  "html_url": "https://github.com/markerikson/redux-ecosystem-links",
+  "description": "A categorized list of Redux-related addons, libraries, and utilities",
+  "stars": 5193,
+  "forks": 360,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "action",
+    "addons",
+    "async",
+    "middleware",
+    "react",
+    "reducer",
+    "redux",
+    "store"
+  ],
+  "archived": false,
+  "commit_sha": "53e8c490613d6d208f0825a4caabbe1a83af4150",
+  "commit_url": "https://github.com/markerikson/redux-ecosystem-links/commit/53e8c490613d6d208f0825a4caabbe1a83af4150",
+  "tree_url": "https://github.com/markerikson/redux-ecosystem-links/tree/53e8c490613d6d208f0825a4caabbe1a83af4150",
+  "analysed_at": "2026-11-14T19:14:25.191205+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 32,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,57 @@
+{
+  "owner": "commitizen",
+  "name": "cz-cli",
+  "full_name": "commitizen/cz-cli",
+  "html_url": "https://github.com/commitizen/cz-cli",
+  "description": "The commitizen command line utility. #BlackLivesMatter",
+  "stars": 17504,
+  "forks": 564,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "command-line",
+    "commit-hooks",
+    "commitizen",
+    "commitizen-adapter",
+    "git",
+    "javascript",
+    "node",
+    "semantic-release",
+    "semantic-versioning",
+    "utilities"
+  ],
+  "archived": false,
+  "commit_sha": "1a8c49c02c9d52d1b4ef8cdabefb538088ddea03",
+  "commit_url": "https://github.com/commitizen/cz-cli/commit/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03",
+  "tree_url": "https://github.com/commitizen/cz-cli/tree/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03",
+  "analysed_at": "2026-11-14T19:11:27.400434+00:00",
+  "status": "completed",
+  "files_fetched": 71,
+  "files_analysed": 70,
+  "components": [
+    "bin package",
+    "cli package",
+    "commitizen package",
+    "commitizen.js package",
+    "common package",
+    "Configuration and deployment",
+    "configLoader package",
+    "configLoader.js package",
+    "Core modules",
+    "git package",
+    "git.js package",
+    "index.js package",
+    "logo package",
+    "npm.js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "bin/git-cz",
+    "bin/commitizen",
+    "src/index.js"
+  ]
+}

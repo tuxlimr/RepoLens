@@ -1,0 +1,34 @@
+{
+  "owner": "markerikson",
+  "name": "react-redux-links",
+  "full_name": "markerikson/react-redux-links",
+  "html_url": "https://github.com/markerikson/react-redux-links",
+  "description": "Curated tutorial and resource links I've collected on React, Redux, ES6, and more",
+  "stars": 22493,
+  "forks": 2441,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "es6",
+    "javascript",
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "65d47d9099b697e23a36b9df617410c217a14dbb",
+  "commit_url": "https://github.com/markerikson/react-redux-links/commit/65d47d9099b697e23a36b9df617410c217a14dbb",
+  "tree_url": "https://github.com/markerikson/react-redux-links/tree/65d47d9099b697e23a36b9df617410c217a14dbb",
+  "analysed_at": "2026-11-14T19:13:07.929764+00:00",
+  "status": "completed",
+  "files_fetched": 50,
+  "files_analysed": 50,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,43 @@
+{
+  "owner": "nari-labs",
+  "name": "dia",
+  "full_name": "nari-labs/dia",
+  "html_url": "https://github.com/nari-labs/dia",
+  "description": "A TTS model capable of generating ultra-realistic dialogue in one pass.",
+  "stars": 19409,
+  "forks": 1693,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "open-weight",
+    "text-to-speech"
+  ],
+  "archived": false,
+  "commit_sha": "876125e461a03b157ec905b0fe8b57a0f8b9e7a0",
+  "commit_url": "https://github.com/nari-labs/dia/commit/876125e461a03b157ec905b0fe8b57a0f8b9e7a0",
+  "tree_url": "https://github.com/nari-labs/dia/tree/876125e461a03b157ec905b0fe8b57a0f8b9e7a0",
+  "analysed_at": "2026-11-14T19:08:12.103651+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 24,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "dia package",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Pydantic",
+    "Poetry",
+    "Docker"
+  ],
+  "entry_points": [
+    "app.py",
+    "cli.py"
+  ]
+}

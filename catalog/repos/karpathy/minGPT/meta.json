@@ -1,0 +1,40 @@
+{
+  "owner": "karpathy",
+  "name": "minGPT",
+  "full_name": "karpathy/minGPT",
+  "html_url": "https://github.com/karpathy/minGPT",
+  "description": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+  "stars": 25024,
+  "forks": 3330,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "37baab71b9abea1b76ab957409a1cc2fbfba8a26",
+  "commit_url": "https://github.com/karpathy/minGPT/commit/37baab71b9abea1b76ab957409a1cc2fbfba8a26",
+  "tree_url": "https://github.com/karpathy/minGPT/tree/37baab71b9abea1b76ab957409a1cc2fbfba8a26",
+  "analysed_at": "2026-11-14T19:07:33.951251+00:00",
+  "status": "completed",
+  "files_fetched": 17,
+  "files_analysed": 17,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "mingpt package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "mingpt/bpe.py",
+    "projects/adder/adder.py",
+    "projects/chargpt/chargpt.py"
+  ]
+}

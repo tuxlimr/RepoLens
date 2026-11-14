@@ -1,0 +1,63 @@
+{
+  "owner": "puckeditor",
+  "name": "puck",
+  "full_name": "puckeditor/puck",
+  "html_url": "https://github.com/puckeditor/puck",
+  "description": "The visual editor for React.",
+  "stars": 13708,
+  "forks": 1054,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "builder",
+    "drag-and-drop",
+    "draganddrop",
+    "no-code",
+    "nocode",
+    "page-builder",
+    "pagebuilder",
+    "react",
+    "visual-editor"
+  ],
+  "archived": false,
+  "commit_sha": "ab5624ddcb0435cc9575b5154433be7aadf84809",
+  "commit_url": "https://github.com/puckeditor/puck/commit/ab5624ddcb0435cc9575b5154433be7aadf84809",
+  "tree_url": "https://github.com/puckeditor/puck/tree/ab5624ddcb0435cc9575b5154433be7aadf84809",
+  "analysed_at": "2026-11-14T19:13:18.006789+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "packages package",
+    "recipes package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/create-puck-app/index.js",
+    "packages/eslint-config-custom/index.mjs",
+    "apps/demo/app/page.tsx",
+    "apps/demo/config/index.tsx",
+    "packages/core/bundle/index.ts",
+    "packages/core/index.ts",
+    "packages/core/lib/index.ts",
+    "packages/core/reducer/index.ts",
+    "packages/core/store/index.ts",
+    "packages/core/types/index.ts",
+    "packages/field-contentful/index.ts",
+    "packages/plugin-emotion-cache/index.tsx"
+  ]
+}

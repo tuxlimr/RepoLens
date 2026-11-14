@@ -1,0 +1,56 @@
+{
+  "owner": "carbon-app",
+  "name": "carbon",
+  "full_name": "carbon-app/carbon",
+  "html_url": "https://github.com/carbon-app/carbon",
+  "description": ":black_heart: Create and share beautiful images of your source code",
+  "stars": 36148,
+  "forks": 1973,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "beautiful",
+    "carbon",
+    "education",
+    "github-gist",
+    "javascript",
+    "presentation",
+    "sharing",
+    "snippets",
+    "tweet"
+  ],
+  "archived": false,
+  "commit_sha": "3e9efcc506bdccb6d3834f66f30f8e883f80e49d",
+  "commit_url": "https://github.com/carbon-app/carbon/commit/3e9efcc506bdccb6d3834f66f30f8e883f80e49d",
+  "tree_url": "https://github.com/carbon-app/carbon/tree/3e9efcc506bdccb6d3834f66f30f8e883f80e49d",
+  "analysed_at": "2026-11-14T19:10:42.039410+00:00",
+  "status": "completed",
+  "files_fetched": 160,
+  "files_analysed": 153,
+  "components": [
+    "API layer",
+    "bin package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "cypress package",
+    "External integrations",
+    "lib package",
+    "pages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "axios"
+  ],
+  "entry_points": [
+    "components/Page.js",
+    "components/Themes/index.js",
+    "cypress/plugins/index.js",
+    "cypress/support/index.js",
+    "pages/embed/index.js",
+    "pages/index.js"
+  ]
+}

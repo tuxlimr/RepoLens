@@ -1,0 +1,60 @@
+{
+  "owner": "advplyr",
+  "name": "audiobookshelf",
+  "full_name": "advplyr/audiobookshelf",
+  "html_url": "https://github.com/advplyr/audiobookshelf",
+  "description": "Self-hosted audiobook and podcast server",
+  "stars": 15005,
+  "forks": 1260,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "audiobook-manager",
+    "audiobooks",
+    "audiobookshelf",
+    "podcasts",
+    "self-hosted"
+  ],
+  "archived": false,
+  "commit_sha": "c5e6e463e44de153006ea5aa739021d9a769e82b",
+  "commit_url": "https://github.com/advplyr/audiobookshelf/commit/c5e6e463e44de153006ea5aa739021d9a769e82b",
+  "tree_url": "https://github.com/advplyr/audiobookshelf/tree/c5e6e463e44de153006ea5aa739021d9a769e82b",
+  "analysed_at": "2026-11-14T19:11:41.708323+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 791,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "External integrations",
+    "server package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Express",
+    "axios",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "client/store/index.js",
+    "index.js",
+    "server/Server.js",
+    "server/libs/archiver/index.js",
+    "server/libs/async/index.js",
+    "server/libs/bcryptjs/index.js",
+    "server/libs/busboy/index.js",
+    "server/libs/commandLineArgs/index.js",
+    "server/libs/dateAndTime/index.js",
+    "server/libs/expressFileupload/index.js",
+    "server/libs/fastSort/index.js",
+    "server/libs/fluentFfmpeg/index.js"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "owner": "greatfrontend",
+  "name": "top-javascript-interview-questions",
+  "full_name": "greatfrontend/top-javascript-interview-questions",
+  "html_url": "https://github.com/greatfrontend/top-javascript-interview-questions",
+  "description": "Top JavaScript interview questions and answers for Frontend Engineers (updated for 2026)",
+  "stars": 10159,
+  "forks": 532,
+  "license": null,
+  "language": "MDX",
+  "default_branch": "main",
+  "topics": [
+    "front-end-development",
+    "greatfrontend",
+    "interviews",
+    "javascript",
+    "javascript-interview-questions",
+    "react",
+    "reactjs",
+    "web-development"
+  ],
+  "archived": false,
+  "commit_sha": "f0cd67fe97539416c11f068d692344163f752940",
+  "commit_url": "https://github.com/greatfrontend/top-javascript-interview-questions/commit/f0cd67fe97539416c11f068d692344163f752940",
+  "tree_url": "https://github.com/greatfrontend/top-javascript-interview-questions/tree/f0cd67fe97539416c11f068d692344163f752940",
+  "analysed_at": "2026-11-14T19:13:32.549107+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

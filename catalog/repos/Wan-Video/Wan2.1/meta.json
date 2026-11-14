@@ -1,0 +1,49 @@
+{
+  "owner": "Wan-Video",
+  "name": "Wan2.1",
+  "full_name": "Wan-Video/Wan2.1",
+  "html_url": "https://github.com/Wan-Video/Wan2.1",
+  "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "stars": 17435,
+  "forks": 4061,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "aigc",
+    "videogeneration"
+  ],
+  "archived": false,
+  "commit_sha": "9737cba9c1c3c4d04b33fcad41c111989865d315",
+  "commit_url": "https://github.com/Wan-Video/Wan2.1/commit/9737cba9c1c3c4d04b33fcad41c111989865d315",
+  "tree_url": "https://github.com/Wan-Video/Wan2.1/tree/9737cba9c1c3c4d04b33fcad41c111989865d315",
+  "analysed_at": "2026-11-14T19:08:34.475519+00:00",
+  "status": "completed",
+  "files_fetched": 46,
+  "files_analysed": 46,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "wan package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "generate.py",
+    "gradio/fl2v_14B_singleGPU.py",
+    "gradio/i2v_14B_singleGPU.py",
+    "gradio/t2i_14B_singleGPU.py",
+    "gradio/t2v_1.3B_singleGPU.py",
+    "gradio/t2v_14B_singleGPU.py",
+    "gradio/vace.py",
+    "wan/utils/prompt_extend.py"
+  ]
+}

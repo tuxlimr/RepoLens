@@ -1,0 +1,47 @@
+{
+  "owner": "apprenticeharper",
+  "name": "DeDRM_tools",
+  "full_name": "apprenticeharper/DeDRM_tools",
+  "html_url": "https://github.com/apprenticeharper/DeDRM_tools",
+  "description": "DeDRM tools for ebooks",
+  "stars": 15404,
+  "forks": 1715,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "776f146ca00d11b24575f4fd6e8202df30a2b7ea",
+  "commit_url": "https://github.com/apprenticeharper/DeDRM_tools/commit/776f146ca00d11b24575f4fd6e8202df30a2b7ea",
+  "tree_url": "https://github.com/apprenticeharper/DeDRM_tools/tree/776f146ca00d11b24575f4fd6e8202df30a2b7ea",
+  "analysed_at": "2026-11-14T19:09:02.880261+00:00",
+  "status": "completed",
+  "files_fetched": 103,
+  "files_analysed": 103,
+  "components": [
+    "Configuration and deployment",
+    "DeDRM_plugin package",
+    "Application entry point",
+    "External integrations",
+    "Obok_plugin package",
+    "Other_Tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite"
+  ],
+  "entry_points": [
+    "DeDRM_plugin/adobekey.py",
+    "DeDRM_plugin/androidkindlekey.py",
+    "DeDRM_plugin/convert2xml.py",
+    "DeDRM_plugin/epubtest.py",
+    "DeDRM_plugin/erdr2pml.py",
+    "DeDRM_plugin/genbook.py",
+    "DeDRM_plugin/ignobleepub.py",
+    "DeDRM_plugin/ignoblekey.py",
+    "DeDRM_plugin/ignoblekeyfetch.py",
+    "DeDRM_plugin/ignoblekeygen.py",
+    "DeDRM_plugin/ignoblepdf.py",
+    "DeDRM_plugin/ineptepub.py"
+  ]
+}

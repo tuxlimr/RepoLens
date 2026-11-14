@@ -1,0 +1,37 @@
+{
+  "owner": "2025Emma",
+  "name": "vibe-coding-cn",
+  "full_name": "2025Emma/vibe-coding-cn",
+  "html_url": "https://github.com/2025Emma/vibe-coding-cn",
+  "description": null,
+  "stars": 23166,
+  "forks": 2426,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "9b42dd10ddf3fff58f8c7a4d347175db107d7bf9",
+  "commit_url": "https://github.com/2025Emma/vibe-coding-cn/commit/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9",
+  "tree_url": "https://github.com/2025Emma/vibe-coding-cn/tree/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9",
+  "analysed_at": "2026-11-14T19:07:52.537166+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "i18n package",
+    "libs package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "libs/common/utils/backups/\u5feb\u901f\u5907\u4efd.py",
+    "libs/external/XHS-image-to-PDF-conversion/pdf.py",
+    "libs/external/l10n-tool/bulk_translate.py",
+    "libs/external/l10n-tool/translate.py",
+    "libs/external/prompts-library/main.py"
+  ]
+}

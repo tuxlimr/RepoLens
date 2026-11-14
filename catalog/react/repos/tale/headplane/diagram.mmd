@@ -1,0 +1,30 @@
+%% Repository: tale/headplane
+%% Analysed commit: c8c192dbf0ade31f5947777fa4f46e45885edb49
+%% Commit reference: https://github.com/tale/headplane/commit/c8c192dbf0ade31f5947777fa4f46e45885edb49
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        cmd["cmd package"]
+        internal["internal package"]
+        nix["nix package"]
+        runtime["runtime package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

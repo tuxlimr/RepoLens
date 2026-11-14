@@ -1,0 +1,22 @@
+%% Repository: XiaoMi/ha_xiaomi_home
+%% Analysed commit: 75b3acb6325a3a8d295688b13904737d6738a6a5
+%% Commit reference: https://github.com/XiaoMi/ha_xiaomi_home/commit/75b3acb6325a3a8d295688b13904737d6738a6a5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        custom_components["custom_components package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    custom_components -->|imports| external_integrations
+    external_integrations -->|imports| custom_components

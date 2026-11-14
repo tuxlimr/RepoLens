@@ -1,0 +1,54 @@
+{
+  "owner": "stackryze",
+  "name": "FreeDomains",
+  "full_name": "stackryze/FreeDomains",
+  "html_url": "https://github.com/stackryze/FreeDomains",
+  "description": "Stackryze Domains: Free Domain for Everyone, Claim yours today.",
+  "stars": 14635,
+  "forks": 300,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "developer-tools",
+    "dns",
+    "domain",
+    "freedomain",
+    "homelab",
+    "hosting",
+    "opensource"
+  ],
+  "archived": false,
+  "commit_sha": "2ef23a775dfe06f5d4b1a80e9a28e62f45313827",
+  "commit_url": "https://github.com/stackryze/FreeDomains/commit/2ef23a775dfe06f5d4b1a80e9a28e62f45313827",
+  "tree_url": "https://github.com/stackryze/FreeDomains/tree/2ef23a775dfe06f5d4b1a80e9a28e62f45313827",
+  "analysed_at": "2026-11-14T19:11:44.075077+00:00",
+  "status": "completed",
+  "files_fetched": 120,
+  "files_analysed": 119,
+  "components": [
+    "App.jsx package",
+    "components package",
+    "Configuration and deployment",
+    "context package",
+    "Core modules",
+    "ErrorBoundary.jsx package",
+    "hooks package",
+    "layouts package",
+    "lib package",
+    "main.jsx package",
+    "pages package"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router",
+    "Tailwind CSS",
+    "Docker",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/App.jsx",
+    "src/main.jsx"
+  ]
+}

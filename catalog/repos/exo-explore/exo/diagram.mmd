@@ -1,0 +1,36 @@
+%% Repository: exo-explore/exo
+%% Analysed commit: a60b95698ca81737d367443674dd5563cbc9559b
+%% Commit reference: https://github.com/exo-explore/exo/commit/a60b95698ca81737d367443674dd5563cbc9559b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        dashboard["dashboard package"]
+        exo["exo package"]
+        packaging["packaging package"]
+        rust["rust package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| exo
+    api_layer -->|imports| external_integrations
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| exo
+    entrypoint -->|imports| external_integrations
+    exo -->|imports| external_integrations
+    tests -->|imports| api_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| exo
+    tests -->|imports| external_integrations

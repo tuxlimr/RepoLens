@@ -1,0 +1,28 @@
+%% Repository: eyaltoledano/claude-task-master
+%% Analysed commit: c0c98d367c55296bfe69e65680625b6db437af02
+%% Commit reference: https://github.com/eyaltoledano/claude-task-master/commit/c0c98d367c55296bfe69e65680625b6db437af02
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        bin["bin package"]
+        mcp_server["mcp-server package"]
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

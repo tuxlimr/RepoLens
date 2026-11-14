@@ -1,0 +1,23 @@
+%% Repository: codelucas/newspaper
+%% Analysed commit: 745dfe3abe9ef5608461d335163c93c9e6c172fa
+%% Commit reference: https://github.com/codelucas/newspaper/commit/745dfe3abe9ef5608461d335163c93c9e6c172fa
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        newspaper["newspaper package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| newspaper
+    newspaper -->|imports| config
+    newspaper -->|imports| external_integrations
+    tests -->|imports| newspaper

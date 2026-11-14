@@ -1,0 +1,41 @@
+{
+  "owner": "openai",
+  "name": "gym",
+  "full_name": "openai/gym",
+  "html_url": "https://github.com/openai/gym",
+  "description": "A toolkit for developing and comparing reinforcement learning algorithms.",
+  "stars": 37236,
+  "forks": 8663,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "bc212954b6713d5db303b3ead124de6cba66063e",
+  "commit_url": "https://github.com/openai/gym/commit/bc212954b6713d5db303b3ead124de6cba66063e",
+  "tree_url": "https://github.com/openai/gym/tree/bc212954b6713d5db303b3ead124de6cba66063e",
+  "analysed_at": "2026-11-14T19:06:54.203821+00:00",
+  "status": "completed",
+  "files_fetched": 219,
+  "files_analysed": 219,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "gym package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "gym/envs/box2d/bipedal_walker.py",
+    "gym/envs/box2d/car_racing.py",
+    "gym/envs/box2d/lunar_lander.py"
+  ]
+}

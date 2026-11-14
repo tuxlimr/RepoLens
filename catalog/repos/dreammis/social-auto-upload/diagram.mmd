@@ -1,0 +1,52 @@
+%% Repository: dreammis/social-auto-upload
+%% Analysed commit: 3847fff01f5434a8a32829833163cd6723cabc59
+%% Commit reference: https://github.com/dreammis/social-auto-upload/commit/3847fff01f5434a8a32829833163cd6723cabc59
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        myutils["myUtils package"]
+        sau_commands["sau_commands package"]
+        sau_frontend["sau_frontend package"]
+        skills["skills package"]
+        uploader["uploader package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| myutils
+    entrypoint -->|imports| sau_commands
+    entrypoint -->|imports| uploader
+    entrypoint -->|imports| utils
+    myutils -->|imports| data_layer
+    myutils -->|imports| entrypoint
+    myutils -->|imports| utils
+    sau_commands -->|imports| entrypoint
+    sau_commands -->|imports| uploader
+    sau_commands -->|imports| utils
+    tests -->|imports| entrypoint
+    tests -->|imports| sau_commands
+    tests -->|imports| uploader
+    tests -->|imports| utils
+    uploader -->|imports| entrypoint
+    uploader -->|imports| external_integrations
+    uploader -->|imports| utils

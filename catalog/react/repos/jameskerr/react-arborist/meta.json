@@ -1,0 +1,46 @@
+{
+  "owner": "jameskerr",
+  "name": "react-arborist",
+  "full_name": "jameskerr/react-arborist",
+  "html_url": "https://github.com/jameskerr/react-arborist",
+  "description": "The complete tree view component for React",
+  "stars": 3717,
+  "forks": 188,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "arborist",
+    "react",
+    "tree",
+    "treeview",
+    "treeview-component"
+  ],
+  "archived": false,
+  "commit_sha": "b44e01af4907cab7cf0738288e25d09acdd0c4d0",
+  "commit_url": "https://github.com/jameskerr/react-arborist/commit/b44e01af4907cab7cf0738288e25d09acdd0c4d0",
+  "tree_url": "https://github.com/jameskerr/react-arborist/tree/b44e01af4907cab7cf0738288e25d09acdd0c4d0",
+  "analysed_at": "2026-11-14T19:15:07.759308+00:00",
+  "status": "completed",
+  "files_fetched": 179,
+  "files_analysed": 178,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Data layer",
+    "modules package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Redux",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "modules/react-arborist/src/index.ts",
+    "modules/showcase/pages/index.tsx"
+  ]
+}

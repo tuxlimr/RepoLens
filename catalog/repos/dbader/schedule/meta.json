@@ -1,0 +1,35 @@
+{
+  "owner": "dbader",
+  "name": "schedule",
+  "full_name": "dbader/schedule",
+  "html_url": "https://github.com/dbader/schedule",
+  "description": "Python job scheduling for humans.",
+  "stars": 12265,
+  "forks": 1024,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+  "commit_url": "https://github.com/dbader/schedule/commit/82a43db1b938d8fdf60103bd41f329e06c8d3651",
+  "tree_url": "https://github.com/dbader/schedule/tree/82a43db1b938d8fdf60103bd41f329e06c8d3651",
+  "analysed_at": "2026-11-14T19:10:11.412081+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 32,
+  "components": [
+    "Configuration and deployment",
+    "schedule package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

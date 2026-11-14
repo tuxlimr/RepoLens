@@ -1,0 +1,30 @@
+{
+  "owner": "requirejs",
+  "name": "requirejs",
+  "full_name": "requirejs/requirejs",
+  "html_url": "https://github.com/requirejs/requirejs",
+  "description": "A file and module loader for JavaScript",
+  "stars": 12899,
+  "forks": 2309,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7faea6492e190f0ff2ded4b86a76f11eaf1ae6d9",
+  "commit_url": "https://github.com/requirejs/requirejs/commit/7faea6492e190f0ff2ded4b86a76f11eaf1ae6d9",
+  "tree_url": "https://github.com/requirejs/requirejs/tree/7faea6492e190f0ff2ded4b86a76f11eaf1ae6d9",
+  "analysed_at": "2026-11-14T19:12:02.973897+00:00",
+  "status": "completed",
+  "files_fetched": 650,
+  "files_analysed": 633,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "require.js"
+  ]
+}

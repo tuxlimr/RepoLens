@@ -1,0 +1,40 @@
+{
+  "owner": "mxrch",
+  "name": "GHunt",
+  "full_name": "mxrch/GHunt",
+  "html_url": "https://github.com/mxrch/GHunt",
+  "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Offensive Google framework.",
+  "stars": 19849,
+  "forks": 1752,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "google",
+    "hideandsec",
+    "osint"
+  ],
+  "archived": false,
+  "commit_sha": "5ee893929c51c7a8a665b199bbae04ce85a662b4",
+  "commit_url": "https://github.com/mxrch/GHunt/commit/5ee893929c51c7a8a665b199bbae04ce85a662b4",
+  "tree_url": "https://github.com/mxrch/GHunt/tree/5ee893929c51c7a8a665b199bbae04ce85a662b4",
+  "analysed_at": "2026-11-14T19:08:06.037245+00:00",
+  "status": "completed",
+  "files_fetched": 91,
+  "files_analysed": 90,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "ghunt package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "Poetry"
+  ],
+  "entry_points": [
+    "main.py"
+  ]
+}

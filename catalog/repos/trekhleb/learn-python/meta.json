@@ -1,0 +1,40 @@
+{
+  "owner": "trekhleb",
+  "name": "learn-python",
+  "full_name": "trekhleb/learn-python",
+  "html_url": "https://github.com/trekhleb/learn-python",
+  "description": "\ud83d\udcda Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.",
+  "stars": 18509,
+  "forks": 2996,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "learning",
+    "learning-by-doing",
+    "learning-python",
+    "programming-language",
+    "python",
+    "python3"
+  ],
+  "archived": false,
+  "commit_sha": "5e4fad5903ce5a76cc1f90838d69a220968e1494",
+  "commit_url": "https://github.com/trekhleb/learn-python/commit/5e4fad5903ce5a76cc1f90838d69a220968e1494",
+  "tree_url": "https://github.com/trekhleb/learn-python/tree/5e4fad5903ce5a76cc1f90838d69a220968e1494",
+  "analysed_at": "2026-11-14T19:08:23.407582+00:00",
+  "status": "completed",
+  "files_fetched": 82,
+  "files_analysed": 82,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "modules package",
+    "Tests"
+  ],
+  "detections": [
+    "pytest"
+  ],
+  "entry_points": [
+    "src/modules/fibonacci_module.py"
+  ]
+}

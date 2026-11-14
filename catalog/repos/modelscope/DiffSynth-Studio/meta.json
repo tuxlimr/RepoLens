@@ -1,0 +1,41 @@
+{
+  "owner": "modelscope",
+  "name": "DiffSynth-Studio",
+  "full_name": "modelscope/DiffSynth-Studio",
+  "html_url": "https://github.com/modelscope/DiffSynth-Studio",
+  "description": "Enjoy the magic of Diffusion models!",
+  "stars": 13367,
+  "forks": 1335,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "28638042df62d206486a8bcff3ef22973c84e414",
+  "commit_url": "https://github.com/modelscope/DiffSynth-Studio/commit/28638042df62d206486a8bcff3ef22973c84e414",
+  "tree_url": "https://github.com/modelscope/DiffSynth-Studio/tree/28638042df62d206486a8bcff3ef22973c84e414",
+  "analysed_at": "2026-11-14T19:09:51.220533+00:00",
+  "status": "completed",
+  "files_fetched": 666,
+  "files_analysed": 666,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "diffsynth package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "NumPy",
+    "pandas"
+  ],
+  "entry_points": [
+    ".agents/skills/diffsynth-user-dataset/scripts/check_dataset.py",
+    ".agents/skills/diffsynth-user-inference/scripts/probe_environment.py",
+    ".agents/skills/diffsynth-user-inference/scripts/validate_outputs.py",
+    ".agents/skills/diffsynth-user-setup/scripts/probe_environment.py",
+    ".agents/skills/diffsynth-user-training/scripts/probe_environment.py"
+  ]
+}

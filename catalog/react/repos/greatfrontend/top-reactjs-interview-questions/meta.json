@@ -1,0 +1,39 @@
+{
+  "owner": "greatfrontend",
+  "name": "top-reactjs-interview-questions",
+  "full_name": "greatfrontend/top-reactjs-interview-questions",
+  "html_url": "https://github.com/greatfrontend/top-reactjs-interview-questions",
+  "description": "Most important React.js interview questions for busy Frontend Engineers (updated for 2026)",
+  "stars": 6109,
+  "forks": 189,
+  "license": null,
+  "language": "MDX",
+  "default_branch": "main",
+  "topics": [
+    "front-end-development",
+    "greatfrontend",
+    "interviews",
+    "javascript",
+    "react",
+    "react-interview-questions",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "63863b1221bdaaf9922688f8066120eb5dff4ef8",
+  "commit_url": "https://github.com/greatfrontend/top-reactjs-interview-questions/commit/63863b1221bdaaf9922688f8066120eb5dff4ef8",
+  "tree_url": "https://github.com/greatfrontend/top-reactjs-interview-questions/tree/63863b1221bdaaf9922688f8066120eb5dff4ef8",
+  "analysed_at": "2026-11-14T19:14:09.852131+00:00",
+  "status": "completed",
+  "files_fetched": 212,
+  "files_analysed": 211,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

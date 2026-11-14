@@ -1,0 +1,28 @@
+%% Repository: fauxpilot/fauxpilot
+%% Analysed commit: 788edd44f29b3a3c33136f956c8c20d055604438
+%% Commit reference: https://github.com/fauxpilot/fauxpilot/commit/788edd44f29b3a3c33136f956c8c20d055604438
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        converter["converter package"]
+        copilot_proxy["copilot_proxy package"]
+        python_backend["python_backend package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| external_integrations

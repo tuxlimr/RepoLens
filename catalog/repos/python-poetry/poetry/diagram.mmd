@@ -1,0 +1,37 @@
+%% Repository: python-poetry/poetry
+%% Analysed commit: 4acc75e19f128c8340c6f977a35e53b5f7f39071
+%% Commit reference: https://github.com/python-poetry/poetry/commit/4acc75e19f128c8340c6f977a35e53b5f7f39071
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        poetry["poetry package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| data_layer
+    config -->|imports| poetry
+    data_layer -->|imports| config
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| poetry
+    entrypoint -->|imports| poetry
+    poetry -->|imports| config
+    poetry -->|imports| data_layer
+    poetry -->|imports| entrypoint
+    poetry -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| poetry

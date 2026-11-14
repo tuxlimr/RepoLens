@@ -1,0 +1,45 @@
+{
+  "owner": "facebookarchive",
+  "name": "flux",
+  "full_name": "facebookarchive/flux",
+  "html_url": "https://github.com/facebookarchive/flux",
+  "description": "Application Architecture for Building User Interfaces",
+  "stars": 17435,
+  "forks": 3363,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "4ee8c50865c357e005cb40ea03cdd403533aad26",
+  "commit_url": "https://github.com/facebookarchive/flux/commit/4ee8c50865c357e005cb40ea03cdd403533aad26",
+  "tree_url": "https://github.com/facebookarchive/flux/tree/4ee8c50865c357e005cb40ea03cdd403533aad26",
+  "analysed_at": "2026-11-14T19:11:27.765482+00:00",
+  "status": "completed",
+  "files_fetched": 160,
+  "files_analysed": 158,
+  "components": [
+    "Configuration and deployment",
+    "container package",
+    "Core modules",
+    "Dispatcher.js package",
+    "FluxMixinLegacy.js package",
+    "FluxStoreGroup.js package",
+    "scripts package",
+    "stores package",
+    "__tests__ package",
+    "utils package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "website/src/pages/index.js"
+  ]
+}

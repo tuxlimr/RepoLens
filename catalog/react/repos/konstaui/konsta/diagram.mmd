@@ -1,0 +1,25 @@
+%% Repository: konstaui/konsta
+%% Analysed commit: 5b8e54d35ba7ace274cca450f808af570d258f57
+%% Commit reference: https://github.com/konstaui/konsta/commit/5b8e54d35ba7ace274cca450f808af570d258f57
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        color_utils["color-utils package"]
+        kitchen_sink["kitchen-sink package"]
+        plugin_colors_js["plugin-colors.js package"]
+        react["react package"]
+        scripts["scripts package"]
+        shared["shared package"]
+        svelte["svelte package"]
+        theme_css_d_ts["theme.css.d.ts package"]
+        types["types package"]
+        vue["vue package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

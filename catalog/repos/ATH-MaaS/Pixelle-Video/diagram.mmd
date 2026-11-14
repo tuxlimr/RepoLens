@@ -1,0 +1,55 @@
+%% Repository: ATH-MaaS/Pixelle-Video
+%% Analysed commit: 848b054e4fae40dabc62ec58e960b573e83793ac
+%% Commit reference: https://github.com/ATH-MaaS/Pixelle-Video/commit/848b054e4fae40dabc62ec58e960b573e83793ac
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        pixelle_video["pixelle_video package"]
+        web["web package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    api_layer -->|imports| pixelle_video
+    api_layer -->|imports| service_layer
+    config -->|imports| external_integrations
+    config -->|imports| pixelle_video
+    config -->|imports| web
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| web
+    external_integrations -->|imports| config
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| service_layer
+    pixelle_video -->|imports| config
+    pixelle_video -->|imports| data_layer
+    pixelle_video -->|imports| external_integrations
+    pixelle_video -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| pixelle_video
+    web -->|imports| config
+    web -->|imports| data_layer
+    web -->|imports| external_integrations
+    web -->|imports| pixelle_video
+    web -->|imports| service_layer

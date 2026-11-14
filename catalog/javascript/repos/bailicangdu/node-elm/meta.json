@@ -1,0 +1,47 @@
+{
+  "owner": "bailicangdu",
+  "name": "node-elm",
+  "full_name": "bailicangdu/node-elm",
+  "html_url": "https://github.com/bailicangdu/node-elm",
+  "description": "Backend system based on node.js + Mongodb.  \u57fa\u4e8e node.js + Mongodb \u6784\u5efa\u7684\u540e\u53f0\u7cfb\u7edf",
+  "stars": 12318,
+  "forks": 3659,
+  "license": "GPL-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "node"
+  ],
+  "archived": false,
+  "commit_sha": "32ea999c63f59db4f6fb05e3227bc305663782f0",
+  "commit_url": "https://github.com/bailicangdu/node-elm/commit/32ea999c63f59db4f6fb05e3227bc305663782f0",
+  "tree_url": "https://github.com/bailicangdu/node-elm/tree/32ea999c63f59db4f6fb05e3227bc305663782f0",
+  "analysed_at": "2026-11-14T19:12:06.267468+00:00",
+  "status": "completed",
+  "files_fetched": 91,
+  "files_analysed": 90,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "controller package",
+    "Core modules",
+    "Data layer",
+    "InitData package",
+    "middlewares package",
+    "mongodb package",
+    "prototype package",
+    "public package"
+  ],
+  "detections": [
+    "MongoDB",
+    "Express"
+  ],
+  "entry_points": [
+    "index.js",
+    "app.js",
+    "routes/index.js"
+  ]
+}

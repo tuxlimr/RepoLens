@@ -1,0 +1,33 @@
+{
+  "owner": "gabrielecirulli",
+  "name": "2048",
+  "full_name": "gabrielecirulli/2048",
+  "html_url": "https://github.com/gabrielecirulli/2048",
+  "description": "The source code for 2048 ",
+  "stars": 13475,
+  "forks": 17706,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "2048",
+    "2048-game",
+    "game",
+    "javascript",
+    "online-game",
+    "puzzle-game"
+  ],
+  "archived": false,
+  "commit_sha": "478b6ec346e3787f589e4af751378d06ded4cbbc",
+  "commit_url": "https://github.com/gabrielecirulli/2048/commit/478b6ec346e3787f589e4af751378d06ded4cbbc",
+  "tree_url": "https://github.com/gabrielecirulli/2048/tree/478b6ec346e3787f589e4af751378d06ded4cbbc",
+  "analysed_at": "2026-11-14T19:11:55.817543+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 24,
+  "components": [
+    "js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

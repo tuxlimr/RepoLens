@@ -1,0 +1,40 @@
+{
+  "owner": "jquery-validation",
+  "name": "jquery-validation",
+  "full_name": "jquery-validation/jquery-validation",
+  "html_url": "https://github.com/jquery-validation/jquery-validation",
+  "description": "jQuery Validation Plugin library sources",
+  "stars": 10314,
+  "forks": 2694,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "inline-validation",
+    "javascript",
+    "jquery",
+    "jquery-validation"
+  ],
+  "archived": false,
+  "commit_sha": "436597edef7a96fa4f428f5c3b93c0f6fb95203f",
+  "commit_url": "https://github.com/jquery-validation/jquery-validation/commit/436597edef7a96fa4f428f5c3b93c0f6fb95203f",
+  "tree_url": "https://github.com/jquery-validation/jquery-validation/tree/436597edef7a96fa4f428f5c3b93c0f6fb95203f",
+  "analysed_at": "2026-11-14T19:12:41.581659+00:00",
+  "status": "completed",
+  "files_fetched": 175,
+  "files_analysed": 174,
+  "components": [
+    "additional package",
+    "ajax.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "core.js package",
+    "lib package",
+    "localization package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,52 @@
+{
+  "owner": "emilkowalski",
+  "name": "vaul",
+  "full_name": "emilkowalski/vaul",
+  "html_url": "https://github.com/emilkowalski/vaul",
+  "description": "A drawer component for React.",
+  "stars": 8737,
+  "forks": 371,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "dialog",
+    "drawer",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "3e97aac6a38e4481bade71d7233ed6002e80f9b0",
+  "commit_url": "https://github.com/emilkowalski/vaul/commit/3e97aac6a38e4481bade71d7233ed6002e80f9b0",
+  "tree_url": "https://github.com/emilkowalski/vaul/tree/3e97aac6a38e4481bade71d7233ed6002e80f9b0",
+  "analysed_at": "2026-11-14T19:13:39.107700+00:00",
+  "status": "completed",
+  "files_fetched": 68,
+  "files_analysed": 67,
+  "components": [
+    "browser.ts package",
+    "Configuration and deployment",
+    "constants.ts package",
+    "context.ts package",
+    "Core modules",
+    "helpers.ts package",
+    "index.tsx package",
+    "Tests",
+    "types.ts package",
+    "use-composed-refs.ts package",
+    "use-controllable-state.ts package",
+    "use-position-fixed.ts package",
+    "use-prevent-scroll.ts package",
+    "use-scale-background.ts package",
+    "use-snap-points.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.tsx"
+  ]
+}

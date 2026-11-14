@@ -1,0 +1,55 @@
+{
+  "owner": "makerspet",
+  "name": "oomwoo",
+  "full_name": "makerspet/oomwoo",
+  "html_url": "https://github.com/makerspet/oomwoo",
+  "description": "Open-source vacuum robot cleaner",
+  "stars": 13098,
+  "forks": 824,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "3d-printing",
+    "arduino",
+    "diy-electronics",
+    "diy-project",
+    "esp32",
+    "esp32-arduino",
+    "home-assistant",
+    "lidar",
+    "lidar-slam",
+    "raspberry-pi",
+    "ros2",
+    "slam",
+    "vacuum-cleaner",
+    "vacuum-robot"
+  ],
+  "archived": false,
+  "commit_sha": "108e9d34575f84d8547298fd594a7ea513f35093",
+  "commit_url": "https://github.com/makerspet/oomwoo/commit/108e9d34575f84d8547298fd594a7ea513f35093",
+  "tree_url": "https://github.com/makerspet/oomwoo/tree/108e9d34575f84d8547298fd594a7ea513f35093",
+  "analysed_at": "2026-11-14T19:09:55.449574+00:00",
+  "status": "completed",
+  "files_fetched": 107,
+  "files_analysed": 107,
+  "components": [
+    "Configuration and deployment",
+    "contributions package",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    ".github/scripts/gen_star_history.py",
+    "contributions/dock-cycle/xbattlax/tools/sim_dock_ir_scenario.py",
+    "contributions/io-board-interface/smailzhu/conformance/generate_gate_vectors.py",
+    "contributions/io-board-interface/xbattlax/conformance/generate_vectors.py",
+    "contributions/io-board-interface/xbattlax/tools/sim_mcu.py"
+  ]
+}

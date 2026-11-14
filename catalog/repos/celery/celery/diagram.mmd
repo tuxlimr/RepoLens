@@ -1,0 +1,39 @@
+%% Repository: celery/celery
+%% Analysed commit: 9c2f238334331db43f15956f131235fd3bb70fd1
+%% Commit reference: https://github.com/celery/celery/commit/9c2f238334331db43f15956f131235fd3bb70fd1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        celery["celery package"]
+        docker["docker package"]
+        extra["extra package"]
+        t["t package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    celery -->|imports| data_layer
+    celery -->|imports| entrypoint
+    celery -->|imports| external_integrations
+    data_layer -->|imports| celery
+    entrypoint -->|imports| celery
+    external_integrations -->|imports| celery
+    external_integrations -->|imports| data_layer
+    t -->|imports| celery
+    t -->|imports| external_integrations
+    tests -->|imports| celery
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| t

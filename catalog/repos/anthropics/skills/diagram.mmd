@@ -1,0 +1,20 @@
+%% Repository: anthropics/skills
+%% Analysed commit: 1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064
+%% Commit reference: https://github.com/anthropics/skills/commit/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        skills["skills package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    entrypoint -->|imports| external_integrations

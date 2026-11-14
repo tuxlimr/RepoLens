@@ -1,0 +1,38 @@
+{
+  "owner": "walter201230",
+  "name": "Python",
+  "full_name": "walter201230/Python",
+  "html_url": "https://github.com/walter201230/Python",
+  "description": "\u5c0f\u767d python \u6559\u7a0b",
+  "stars": 28570,
+  "forks": 5582,
+  "license": "CC-BY-4.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "python",
+    "python3"
+  ],
+  "archived": false,
+  "commit_sha": "2cde4c0fe0b05eabba27591fea9d4985d74985b9",
+  "commit_url": "https://github.com/walter201230/Python/commit/2cde4c0fe0b05eabba27591fea9d4985d74985b9",
+  "tree_url": "https://github.com/walter201230/Python/tree/2cde4c0fe0b05eabba27591fea9d4985d74985b9",
+  "analysed_at": "2026-11-14T19:07:16.246768+00:00",
+  "status": "completed",
+  "files_fetched": 132,
+  "files_analysed": 132,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "unittest"
+  ],
+  "entry_points": [
+    "tools/check_course_targets.py",
+    "tools/example_runner.py"
+  ]
+}

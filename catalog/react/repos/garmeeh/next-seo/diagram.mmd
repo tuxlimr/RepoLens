@@ -1,0 +1,23 @@
+%% Repository: garmeeh/next-seo
+%% Analysed commit: 738ef7e774ee6216f6e90c26a3b5b99dd5d166b4
+%% Commit reference: https://github.com/garmeeh/next-seo/commit/738ef7e774ee6216f6e90c26a3b5b99dd5d166b4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        components["components package"]
+        index_ts["index.ts package"]
+        pages["pages package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

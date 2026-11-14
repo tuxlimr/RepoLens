@@ -1,0 +1,56 @@
+{
+  "owner": "yusufkaraaslan",
+  "name": "Skill_Seekers",
+  "full_name": "yusufkaraaslan/Skill_Seekers",
+  "html_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+  "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+  "stars": 15309,
+  "forks": 1557,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "development",
+  "topics": [
+    "ai-tools",
+    "ast-parser",
+    "automation",
+    "claude-ai",
+    "claude-skills",
+    "code-analysis",
+    "conflict-detection",
+    "documentation",
+    "documentation-generator",
+    "github",
+    "github-scraper",
+    "mcp",
+    "mcp-server",
+    "multi-source",
+    "ocr",
+    "pdf",
+    "python",
+    "web-scraping"
+  ],
+  "archived": false,
+  "commit_sha": "5b5d8dfca263fa76e6daae9f292890b311ef36aa",
+  "commit_url": "https://github.com/yusufkaraaslan/Skill_Seekers/commit/5b5d8dfca263fa76e6daae9f292890b311ef36aa",
+  "tree_url": "https://github.com/yusufkaraaslan/Skill_Seekers/tree/5b5d8dfca263fa76e6daae9f292890b311ef36aa",
+  "analysed_at": "2026-11-14T19:09:05.976585+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "Uvicorn",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "api/main.py"
+  ]
+}

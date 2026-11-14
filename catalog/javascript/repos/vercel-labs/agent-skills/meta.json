@@ -1,0 +1,33 @@
+{
+  "owner": "vercel-labs",
+  "name": "agent-skills",
+  "full_name": "vercel-labs/agent-skills",
+  "html_url": "https://github.com/vercel-labs/agent-skills",
+  "description": "Vercel's official collection of agent skills",
+  "stars": 34058,
+  "forks": 2970,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+  "commit_url": "https://github.com/vercel-labs/agent-skills/commit/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+  "tree_url": "https://github.com/vercel-labs/agent-skills/tree/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+  "analysed_at": "2026-11-14T19:10:44.183549+00:00",
+  "status": "completed",
+  "files_fetched": 429,
+  "files_analysed": 427,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

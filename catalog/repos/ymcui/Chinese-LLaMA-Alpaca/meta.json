@@ -1,0 +1,58 @@
+{
+  "owner": "ymcui",
+  "name": "Chinese-LLaMA-Alpaca",
+  "full_name": "ymcui/Chinese-LLaMA-Alpaca",
+  "html_url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca",
+  "description": "\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b+\u672c\u5730CPU/GPU\u8bad\u7ec3\u90e8\u7f72 (Chinese LLaMA & Alpaca LLMs)",
+  "stars": 18911,
+  "forks": 1831,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "alpaca",
+    "alpaca-2",
+    "large-language-models",
+    "llama",
+    "llama-2",
+    "llm",
+    "lora",
+    "nlp",
+    "plm",
+    "pre-trained-language-models",
+    "quantization"
+  ],
+  "archived": false,
+  "commit_sha": "5b8bb552e8b738da0f19a8e2cedf6db6b5c3fd14",
+  "commit_url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/commit/5b8bb552e8b738da0f19a8e2cedf6db6b5c3fd14",
+  "tree_url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/tree/5b8bb552e8b738da0f19a8e2cedf6db6b5c3fd14",
+  "analysed_at": "2026-11-14T19:08:21.891353+00:00",
+  "status": "completed",
+  "files_fetched": 89,
+  "files_analysed": 89,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "Uvicorn"
+  ],
+  "entry_points": [
+    "scripts/ceval/eval.py",
+    "scripts/crawl_prompt.py",
+    "scripts/inference/inference_hf.py",
+    "scripts/langchain/langchain_qa.py",
+    "scripts/langchain/langchain_sum.py",
+    "scripts/merge_llama_with_chinese_lora.py",
+    "scripts/merge_llama_with_chinese_lora_low_mem.py",
+    "scripts/openai_server_demo/openai_api_server.py",
+    "scripts/training/run_clm_pt_with_peft.py",
+    "scripts/training/run_clm_sft_with_peft.py"
+  ]
+}

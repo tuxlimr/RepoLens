@@ -1,0 +1,38 @@
+%% Repository: mlc-ai/mlc-llm
+%% Analysed commit: 3b7663abb6962c1ac1be0337630321fd7bfcf9ff
+%% Commit reference: https://github.com/mlc-ai/mlc-llm/commit/3b7663abb6962c1ac1be0337630321fd7bfcf9ff
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        android["android package"]
+        ci["ci package"]
+        cpp["cpp package"]
+        ios["ios package"]
+        python["python package"]
+        scripts["scripts package"]
+        web["web package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| python
+    data_layer -->|imports| python
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| python
+    python -->|imports| config
+    python -->|imports| external_integrations
+    tests -->|imports| external_integrations

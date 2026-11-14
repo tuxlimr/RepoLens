@@ -1,0 +1,53 @@
+{
+  "owner": "varHarrie",
+  "name": "varharrie.github.io",
+  "full_name": "varHarrie/varharrie.github.io",
+  "html_url": "https://github.com/varHarrie/varharrie.github.io",
+  "description": ":blue_book: Personal blog site based on github issues.",
+  "stars": 3671,
+  "forks": 538,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "v2",
+  "topics": [
+    "blog",
+    "issues",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "5e592ebac9c6eb6642121b49487889ebbc01fb87",
+  "commit_url": "https://github.com/varHarrie/varharrie.github.io/commit/5e592ebac9c6eb6642121b49487889ebbc01fb87",
+  "tree_url": "https://github.com/varHarrie/varharrie.github.io/tree/5e592ebac9c6eb6642121b49487889ebbc01fb87",
+  "analysed_at": "2026-11-14T19:15:10.051527+00:00",
+  "status": "completed",
+  "files_fetched": 55,
+  "files_analysed": 54,
+  "components": [
+    "API layer",
+    "App.tsx package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "hooks package",
+    "i18n package",
+    "main.tsx package",
+    "Service / domain layer",
+    "styles package",
+    "types package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/App.tsx",
+    "src/i18n/index.ts",
+    "src/main.tsx",
+    "src/views/Main.tsx"
+  ]
+}

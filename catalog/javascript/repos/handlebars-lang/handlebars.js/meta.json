@@ -1,0 +1,46 @@
+{
+  "owner": "handlebars-lang",
+  "name": "handlebars.js",
+  "full_name": "handlebars-lang/handlebars.js",
+  "html_url": "https://github.com/handlebars-lang/handlebars.js",
+  "description": "Minimal templating on steroids.",
+  "stars": 18692,
+  "forks": 2080,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "handlebars",
+    "mustache",
+    "templates"
+  ],
+  "archived": false,
+  "commit_sha": "13a7a679910d2adbfe7f6fad61ce8f98426b0378",
+  "commit_url": "https://github.com/handlebars-lang/handlebars.js/commit/13a7a679910d2adbfe7f6fad61ce8f98426b0378",
+  "tree_url": "https://github.com/handlebars-lang/handlebars.js/tree/13a7a679910d2adbfe7f6fad61ce8f98426b0378",
+  "analysed_at": "2026-11-14T19:11:20.747600+00:00",
+  "status": "completed",
+  "files_fetched": 144,
+  "files_analysed": 143,
+  "components": [
+    "bin package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "spec package",
+    "tasks package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "lib/index.js",
+    "bin/handlebars.js"
+  ]
+}

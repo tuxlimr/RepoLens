@@ -1,0 +1,31 @@
+%% Repository: KittenML/KittenTTS
+%% Analysed commit: d13d8c978a8f17d441977d714b75853ae6bd4423
+%% Commit reference: https://github.com/KittenML/KittenTTS/commit/d13d8c978a8f17d441977d714b75853ae6bd4423
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        kittenml["kittenml package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| kittenml
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| kittenml
+    entrypoint -->|imports| kittenml
+    kittenml -->|imports| data_layer
+    kittenml -->|imports| entrypoint
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| kittenml

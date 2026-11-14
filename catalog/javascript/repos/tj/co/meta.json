@@ -1,0 +1,30 @@
+{
+  "owner": "tj",
+  "name": "co",
+  "full_name": "tj/co",
+  "html_url": "https://github.com/tj/co",
+  "description": "The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)",
+  "stars": 11823,
+  "forks": 778,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "249bbdc72da24ae44076afd716349d2089b31c4c",
+  "commit_url": "https://github.com/tj/co/commit/249bbdc72da24ae44076afd716349d2089b31c4c",
+  "tree_url": "https://github.com/tj/co/tree/249bbdc72da24ae44076afd716349d2089b31c4c",
+  "analysed_at": "2026-11-14T19:12:13.666970+00:00",
+  "status": "completed",
+  "files_fetched": 19,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,32 @@
+%% Repository: fastapi/typer
+%% Analysed commit: 73500169e87b4e31717d687818c5ed955b584c18
+%% Commit reference: https://github.com/fastapi/typer/commit/73500169e87b4e31717d687818c5ed955b584c18
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        docs_src["docs_src package"]
+        scripts["scripts package"]
+        typer["typer package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| typer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| docs_src
+    entrypoint -->|imports| typer
+    tests -->|imports| data_layer
+    tests -->|imports| docs_src
+    tests -->|imports| entrypoint
+    tests -->|imports| typer
+    typer -->|imports| data_layer
+    typer -->|imports| entrypoint

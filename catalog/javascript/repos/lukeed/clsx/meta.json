@@ -1,0 +1,38 @@
+{
+  "owner": "lukeed",
+  "name": "clsx",
+  "full_name": "lukeed/clsx",
+  "html_url": "https://github.com/lukeed/clsx",
+  "description": "A tiny (239B) utility for constructing `className` strings conditionally.",
+  "stars": 9848,
+  "forks": 189,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "925494cf31bcd97d3337aacd34e659e80cae7fe2",
+  "commit_url": "https://github.com/lukeed/clsx/commit/925494cf31bcd97d3337aacd34e659e80cae7fe2",
+  "tree_url": "https://github.com/lukeed/clsx/tree/925494cf31bcd97d3337aacd34e659e80cae7fe2",
+  "analysed_at": "2026-11-14T19:12:48.677419+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "bench package",
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package",
+    "lite.js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "bench/index.js",
+    "bin/index.js",
+    "src/index.js"
+  ]
+}

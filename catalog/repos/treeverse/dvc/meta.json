@@ -1,0 +1,59 @@
+{
+  "owner": "treeverse",
+  "name": "dvc",
+  "full_name": "treeverse/dvc",
+  "html_url": "https://github.com/treeverse/dvc",
+  "description": "\ud83e\udd89 Data Versioning and ML Experiments",
+  "stars": 15973,
+  "forks": 1343,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "data-science",
+    "data-version-control",
+    "developer-tools",
+    "machine-learning",
+    "reproducibility",
+    "unstructured-data"
+  ],
+  "archived": false,
+  "commit_sha": "b59add99ee667f2b352cc1be337619f965fe3fea",
+  "commit_url": "https://github.com/treeverse/dvc/commit/b59add99ee667f2b352cc1be337619f965fe3fea",
+  "tree_url": "https://github.com/treeverse/dvc/tree/b59add99ee667f2b352cc1be337619f965fe3fea",
+  "analysed_at": "2026-11-14T19:08:57.112310+00:00",
+  "status": "completed",
+  "files_fetched": 590,
+  "files_analysed": 589,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "dvc package",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Celery",
+    "Kombu",
+    "pandas",
+    "requests",
+    "SQLAlchemy",
+    "Poetry",
+    "setuptools",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "dvc/__main__.py",
+    "dvc/cli/__init__.py",
+    "dvc/parsing/context.py",
+    "dvc/ui/__init__.py"
+  ]
+}

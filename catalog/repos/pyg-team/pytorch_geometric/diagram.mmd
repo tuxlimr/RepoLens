@@ -1,0 +1,22 @@
+%% Repository: pyg-team/pytorch_geometric
+%% Analysed commit: d1f2f8642387b6e0563d6aee227c39130746c738
+%% Commit reference: https://github.com/pyg-team/pytorch_geometric/commit/d1f2f8642387b6e0563d6aee227c39130746c738
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmark["benchmark package"]
+        graphgym["graphgym package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| benchmark
+    tests -->|imports| external_integrations

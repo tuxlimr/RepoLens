@@ -1,0 +1,53 @@
+{
+  "owner": "Dao-AILab",
+  "name": "flash-attention",
+  "full_name": "Dao-AILab/flash-attention",
+  "html_url": "https://github.com/Dao-AILab/flash-attention",
+  "description": "Fast and memory-efficient exact attention",
+  "stars": 25293,
+  "forks": 3229,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "f63c472c4dc19237c0635d6a629df065ff64796e",
+  "commit_url": "https://github.com/Dao-AILab/flash-attention/commit/f63c472c4dc19237c0635d6a629df065ff64796e",
+  "tree_url": "https://github.com/Dao-AILab/flash-attention/tree/f63c472c4dc19237c0635d6a629df065ff64796e",
+  "analysed_at": "2026-11-14T19:07:31.514120+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "csrc package",
+    "Data layer",
+    "Application entry point",
+    "flash_attn package",
+    "hopper package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "csrc/flash_attn/src/generate_kernels.py",
+    ".github/scripts/bump_beta_tag.py",
+    "AI/parse_clc_log.py",
+    "AI/racecheck_repro_1d_bulk.py",
+    "AI/racecheck_repro_1d_tensor.py",
+    "benchmarks/bench_sm90.py",
+    "benchmarks/benchmark_attn.py",
+    "benchmarks/benchmark_decode_sm100.py",
+    "benchmarks/benchmark_sparse_mla_fwd.py",
+    "benchmarks/benchmark_varlen_sched.py",
+    "benchmarks/clc_bench.py",
+    "benchmarks/fwd_config_bench.py"
+  ]
+}

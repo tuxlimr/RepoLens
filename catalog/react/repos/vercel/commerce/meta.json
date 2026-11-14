@@ -1,0 +1,51 @@
+{
+  "owner": "vercel",
+  "name": "commerce",
+  "full_name": "vercel/commerce",
+  "html_url": "https://github.com/vercel/commerce",
+  "description": "Next.js Commerce",
+  "stars": 14309,
+  "forks": 5449,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ecommerce",
+    "nextjs",
+    "react",
+    "shopify"
+  ],
+  "archived": true,
+  "commit_sha": "f7521d57d29f0eb3d23c1399cf9bb299d61fcd21",
+  "commit_url": "https://github.com/vercel/commerce/commit/f7521d57d29f0eb3d23c1399cf9bb299d61fcd21",
+  "tree_url": "https://github.com/vercel/commerce/tree/f7521d57d29f0eb3d23c1399cf9bb299d61fcd21",
+  "analysed_at": "2026-11-14T19:13:16.986142+00:00",
+  "status": "completed",
+  "files_fetched": 76,
+  "files_analysed": 75,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/[page]/page.tsx",
+    "app/page.tsx",
+    "app/product/[handle]/page.tsx",
+    "app/search/[collection]/page.tsx",
+    "app/search/page.tsx",
+    "components/grid/index.tsx",
+    "components/layout/navbar/index.tsx",
+    "lib/shopify/index.ts",
+    "lib/shopify/queries/page.ts"
+  ]
+}

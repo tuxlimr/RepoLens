@@ -1,0 +1,14 @@
+%% Repository: tatsu-lab/stanford_alpaca
+%% Analysed commit: 761dc5bfbdeeffa89b8bff5d038781a4055f796a
+%% Commit reference: https://github.com/tatsu-lab/stanford_alpaca/commit/761dc5bfbdeeffa89b8bff5d038781a4055f796a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    entrypoint -->|imports| core

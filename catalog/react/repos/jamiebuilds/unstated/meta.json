@@ -1,0 +1,39 @@
+{
+  "owner": "jamiebuilds",
+  "name": "unstated",
+  "full_name": "jamiebuilds/unstated",
+  "html_url": "https://github.com/jamiebuilds/unstated",
+  "description": "State so simple, it goes without saying",
+  "stars": 7709,
+  "forks": 259,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "management",
+    "react",
+    "state"
+  ],
+  "archived": false,
+  "commit_sha": "0c8b3102d2ed404672a641d768f888804a2e7d2e",
+  "commit_url": "https://github.com/jamiebuilds/unstated/commit/0c8b3102d2ed404672a641d768f888804a2e7d2e",
+  "tree_url": "https://github.com/jamiebuilds/unstated/tree/0c8b3102d2ed404672a641d768f888804a2e7d2e",
+  "analysed_at": "2026-11-14T19:13:49.756863+00:00",
+  "status": "completed",
+  "files_fetched": 22,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "flow-typed package",
+    "__tests__ package",
+    "unstated.d.ts package",
+    "unstated.js package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

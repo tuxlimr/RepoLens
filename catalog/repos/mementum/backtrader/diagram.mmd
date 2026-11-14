@@ -1,0 +1,28 @@
+%% Repository: mementum/backtrader
+%% Analysed commit: b853d7c90b6721476eb5a5ea3135224e33db1f14
+%% Commit reference: https://github.com/mementum/backtrader/commit/b853d7c90b6721476eb5a5ea3135224e33db1f14
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backtrader["backtrader package"]
+        samples["samples package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    backtrader -->|imports| external_integrations
+    entrypoint -->|imports| backtrader
+    entrypoint -->|imports| external_integrations
+    samples -->|imports| backtrader
+    tests -->|imports| backtrader

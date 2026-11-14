@@ -1,0 +1,40 @@
+%% Repository: NVIDIA/SkillSpector
+%% Analysed commit: c81615007d40e86051a302a3cf897f8a05264928
+%% Commit reference: https://github.com/NVIDIA/SkillSpector/commit/c81615007d40e86051a302a3cf897f8a05264928
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        contrib["contrib package"]
+        extensions["extensions package"]
+        skillspector["skillspector package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    contrib -->|imports| data_layer
+    contrib -->|imports| external_integrations
+    contrib -->|imports| skillspector
+    data_layer -->|imports| skillspector
+    entrypoint -->|imports| contrib
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| skillspector
+    external_integrations -->|imports| skillspector
+    skillspector -->|imports| data_layer
+    skillspector -->|imports| external_integrations
+    tests -->|imports| contrib
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| skillspector

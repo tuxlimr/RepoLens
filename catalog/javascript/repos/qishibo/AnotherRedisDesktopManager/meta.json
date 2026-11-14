@@ -1,0 +1,56 @@
+{
+  "owner": "qishibo",
+  "name": "AnotherRedisDesktopManager",
+  "full_name": "qishibo/AnotherRedisDesktopManager",
+  "html_url": "https://github.com/qishibo/AnotherRedisDesktopManager",
+  "description": "\ud83d\ude80\ud83d\ude80\ud83d\ude80A faster, better and more stable Redis desktop manager [GUI client], compatible with Linux, Windows, Mac.",
+  "stars": 34860,
+  "forks": 2718,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "redis",
+    "redis-client",
+    "redis-cluster",
+    "redis-desktop-manager",
+    "redis-gui"
+  ],
+  "archived": false,
+  "commit_sha": "c149855106628babcdfb7675a8e7ba9434d2492a",
+  "commit_url": "https://github.com/qishibo/AnotherRedisDesktopManager/commit/c149855106628babcdfb7675a8e7ba9434d2492a",
+  "tree_url": "https://github.com/qishibo/AnotherRedisDesktopManager/tree/c149855106628babcdfb7675a8e7ba9434d2492a",
+  "analysed_at": "2026-11-14T19:10:43.560486+00:00",
+  "status": "completed",
+  "files_fetched": 124,
+  "files_analysed": 117,
+  "components": [
+    "addon.js package",
+    "App.vue package",
+    "Aside.vue package",
+    "bus.js package",
+    "commands.js package",
+    "components package",
+    "Configuration and deployment",
+    "i18n package",
+    "main.js package",
+    "pack package",
+    "redisClient.js package",
+    "router package",
+    "shortcut.js package",
+    "storage.js package",
+    "util.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "Vue",
+    "webpack"
+  ],
+  "entry_points": [
+    "pack/electron/electron-main.js",
+    "config/index.js",
+    "src/main.js",
+    "src/router/index.js"
+  ]
+}

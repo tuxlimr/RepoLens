@@ -1,0 +1,19 @@
+%% Repository: owainlewis/awesome-artificial-intelligence
+%% Analysed commit: ab1c3cceef8ab906586505a7a7a293f434280862
+%% Commit reference: https://github.com/owainlewis/awesome-artificial-intelligence/commit/ab1c3cceef8ab906586505a7a7a293f434280862
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

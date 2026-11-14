@@ -1,0 +1,60 @@
+{
+  "owner": "TheR1D",
+  "name": "shell_gpt",
+  "full_name": "TheR1D/shell_gpt",
+  "html_url": "https://github.com/TheR1D/shell_gpt",
+  "description": "A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.",
+  "stars": 12309,
+  "forks": 971,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "chatgpt",
+    "cheat-sheet",
+    "cli",
+    "commands",
+    "gpt-3",
+    "gpt-4",
+    "gpt-5",
+    "linux",
+    "llama",
+    "llm",
+    "ollama",
+    "openai",
+    "productivity",
+    "python",
+    "shell",
+    "terminal"
+  ],
+  "archived": false,
+  "commit_sha": "a082bd5327ce0c4ef5a0284d9060e833be9444a6",
+  "commit_url": "https://github.com/TheR1D/shell_gpt/commit/a082bd5327ce0c4ef5a0284d9060e833be9444a6",
+  "tree_url": "https://github.com/TheR1D/shell_gpt/tree/a082bd5327ce0c4ef5a0284d9060e833be9444a6",
+  "analysed_at": "2026-11-14T19:10:10.354291+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 42,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package",
+    "sgpt package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "Click",
+    "Pydantic",
+    "Poetry",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "sgpt/__init__.py",
+    "sgpt/app.py"
+  ]
+}

@@ -1,0 +1,29 @@
+%% Repository: yoheinakajima/babyagi
+%% Analysed commit: fa8930ebe72a82e5ad57b356e7cbec96290e5bb2
+%% Commit reference: https://github.com/yoheinakajima/babyagi/commit/fa8930ebe72a82e5ad57b356e7cbec96290e5bb2
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        babyagi["babyagi package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    babyagi -->|imports| entrypoint
+    babyagi -->|imports| external_integrations
+    babyagi -->|imports| service_layer
+    service_layer -->|imports| data_layer

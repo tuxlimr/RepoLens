@@ -1,0 +1,28 @@
+%% Repository: SuperClaude-Org/SuperClaude_Framework
+%% Analysed commit: fe68862c8ed9e2afb8120c2d9e27d0c3a7ce73a2
+%% Commit reference: https://github.com/SuperClaude-Org/SuperClaude_Framework/commit/fe68862c8ed9e2afb8120c2d9e27d0c3a7ce73a2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        plugins["plugins package"]
+        scripts["scripts package"]
+        skills["skills package"]
+        superclaude["superclaude package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| superclaude
+    tests -->|imports| entrypoint
+    tests -->|imports| superclaude

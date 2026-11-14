@@ -1,0 +1,63 @@
+{
+  "owner": "elrumordelaluz",
+  "name": "reactour",
+  "full_name": "elrumordelaluz/reactour",
+  "html_url": "https://github.com/elrumordelaluz/reactour",
+  "description": "Tourist Guide into your React Components",
+  "stars": 4098,
+  "forks": 350,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "getting-started",
+    "guide",
+    "guided-tours",
+    "hacktoberfest",
+    "intro",
+    "introduction",
+    "joyride",
+    "onboarding",
+    "presentation",
+    "product-intro",
+    "product-onboarding",
+    "react",
+    "react-components",
+    "reactjs",
+    "step-by-step",
+    "tour",
+    "tourist-guide",
+    "walkthrough"
+  ],
+  "archived": false,
+  "commit_sha": "f38832ffd0b610e98dbed01d9dff6b058b1ec1a4",
+  "commit_url": "https://github.com/elrumordelaluz/reactour/commit/f38832ffd0b610e98dbed01d9dff6b058b1ec1a4",
+  "tree_url": "https://github.com/elrumordelaluz/reactour/tree/f38832ffd0b610e98dbed01d9dff6b058b1ec1a4",
+  "analysed_at": "2026-11-14T19:14:53.188806+00:00",
+  "status": "completed",
+  "files_fetched": 197,
+  "files_analysed": 197,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "apps/web/icons/index.tsx",
+    "apps/web/pages/index.tsx",
+    "packages/mask/index.tsx",
+    "packages/popover/index.tsx",
+    "packages/tour/components/index.tsx",
+    "packages/tour/index.tsx",
+    "packages/utils/index.tsx"
+  ]
+}

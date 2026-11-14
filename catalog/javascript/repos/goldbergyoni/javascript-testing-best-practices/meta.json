@@ -1,0 +1,49 @@
+{
+  "owner": "goldbergyoni",
+  "name": "javascript-testing-best-practices",
+  "full_name": "goldbergyoni/javascript-testing-best-practices",
+  "html_url": "https://github.com/goldbergyoni/javascript-testing-best-practices",
+  "description": "\ud83d\udcd7\ud83c\udf10 \ud83d\udea2 Comprehensive and exhaustive JavaScript & Node.js testing best practices (August 2025)",
+  "stars": 24612,
+  "forks": 2079,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "chai",
+    "ci",
+    "cicd",
+    "contract-testing",
+    "e2e",
+    "e2e-tests",
+    "express",
+    "integration-testing",
+    "javascript",
+    "jest",
+    "mocha",
+    "mutation",
+    "mutation-testing",
+    "nodejs",
+    "react",
+    "test",
+    "testing",
+    "unittest"
+  ],
+  "archived": false,
+  "commit_sha": "63a2bb07bb718d0a34a9c1249ef0df9b1266dad8",
+  "commit_url": "https://github.com/goldbergyoni/javascript-testing-best-practices/commit/63a2bb07bb718d0a34a9c1249ef0df9b1266dad8",
+  "tree_url": "https://github.com/goldbergyoni/javascript-testing-best-practices/tree/63a2bb07bb718d0a34a9c1249ef0df9b1266dad8",
+  "analysed_at": "2026-11-14T19:11:01.365140+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

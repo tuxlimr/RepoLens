@@ -1,0 +1,48 @@
+{
+  "owner": "lokalise",
+  "name": "i18n-ally",
+  "full_name": "lokalise/i18n-ally",
+  "html_url": "https://github.com/lokalise/i18n-ally",
+  "description": "\ud83c\udf0d All in one i18n extension for VS Code",
+  "stars": 4901,
+  "forks": 413,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "angular",
+    "i10n",
+    "i18n",
+    "i18next",
+    "locales",
+    "react",
+    "translation",
+    "vscode",
+    "vscode-extension",
+    "vue",
+    "vue-i18n"
+  ],
+  "archived": false,
+  "commit_sha": "4c504c93cec6c4697134eca379f1476d0eb1c9f6",
+  "commit_url": "https://github.com/lokalise/i18n-ally/commit/4c504c93cec6c4697134eca379f1476d0eb1c9f6",
+  "tree_url": "https://github.com/lokalise/i18n-ally/tree/4c504c93cec6c4697134eca379f1476d0eb1c9f6",
+  "analysed_at": "2026-11-14T19:14:34.289912+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "assets package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Svelte",
+    "Vue",
+    "axios",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": []
+}

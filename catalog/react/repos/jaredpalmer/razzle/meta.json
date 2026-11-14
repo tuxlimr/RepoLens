@@ -1,0 +1,56 @@
+{
+  "owner": "jaredpalmer",
+  "name": "razzle",
+  "full_name": "jaredpalmer/razzle",
+  "html_url": "https://github.com/jaredpalmer/razzle",
+  "description": "\u2728 Create server-rendered universal JavaScript applications with no configuration",
+  "stars": 11019,
+  "forks": 840,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "isomorphic",
+    "javascript",
+    "parallel",
+    "preact",
+    "react",
+    "typescript",
+    "universal",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "54724b7bb810d06bb418951ada3f90ae3f135668",
+  "commit_url": "https://github.com/jaredpalmer/razzle/commit/54724b7bb810d06bb418951ada3f90ae3f135668",
+  "tree_url": "https://github.com/jaredpalmer/razzle/tree/54724b7bb810d06bb418951ada3f90ae3f135668",
+  "analysed_at": "2026-11-14T19:13:28.398584+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 788,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Express",
+    "Fastify",
+    "Koa",
+    "React",
+    "Vue",
+    "axios",
+    "React Router",
+    "Redux",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/babel-preset-razzle/index.js",
+    "packages/create-razzle-app/index.js",
+    "packages/create-razzle-app/lib/index.js"
+  ]
+}

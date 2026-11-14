@@ -1,0 +1,41 @@
+{
+  "owner": "viatsko",
+  "name": "awesome-vscode",
+  "full_name": "viatsko/awesome-vscode",
+  "html_url": "https://github.com/viatsko/awesome-vscode",
+  "description": "\ud83c\udfa8 A curated list of delightful VS Code packages and resources.",
+  "stars": 29230,
+  "forks": 1454,
+  "license": "CC0-1.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list",
+    "visual-studio",
+    "visual-studio-code",
+    "visual-studio-code-extension",
+    "visual-studio-code-theme",
+    "visualstudio",
+    "vscode",
+    "vscode-extension",
+    "vscode-theme"
+  ],
+  "archived": false,
+  "commit_sha": "9c3bf848287d3967a744e7c057ea49ec9e89b396",
+  "commit_url": "https://github.com/viatsko/awesome-vscode/commit/9c3bf848287d3967a744e7c057ea49ec9e89b396",
+  "tree_url": "https://github.com/viatsko/awesome-vscode/tree/9c3bf848287d3967a744e7c057ea49ec9e89b396",
+  "analysed_at": "2026-11-14T19:10:48.544186+00:00",
+  "status": "completed",
+  "files_fetched": 11,
+  "files_analysed": 11,
+  "components": [
+    "Configuration and deployment",
+    "themes package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

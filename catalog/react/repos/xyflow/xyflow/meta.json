@@ -1,0 +1,56 @@
+{
+  "owner": "xyflow",
+  "name": "xyflow",
+  "full_name": "xyflow/xyflow",
+  "html_url": "https://github.com/xyflow/xyflow",
+  "description": "React Flow |\u00a0Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+  "stars": 39015,
+  "forks": 2580,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "flowchart",
+    "graph",
+    "javascript",
+    "node-based-ui",
+    "react",
+    "react-flow",
+    "svelte",
+    "svelte-flow",
+    "typescript",
+    "typescript-library",
+    "workflow"
+  ],
+  "archived": false,
+  "commit_sha": "1bc405cd113618c17fd181b931a9fe573bec9fee",
+  "commit_url": "https://github.com/xyflow/xyflow/commit/1bc405cd113618c17fd181b931a9fe573bec9fee",
+  "tree_url": "https://github.com/xyflow/xyflow/tree/1bc405cd113618c17fd181b931a9fe573bec9fee",
+  "analysed_at": "2026-11-14T19:13:00.163662+00:00",
+  "status": "completed",
+  "files_fetched": 705,
+  "files_analysed": 699,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "packages package",
+    "Tests",
+    "tooling package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Svelte",
+    "React Router",
+    "Redux",
+    "Redux Toolkit",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "tooling/eslint-config/src/index.js",
+    "tooling/rollup-config/src/index.js",
+    "packages/react/src/index.ts",
+    "packages/system/src/index.ts"
+  ]
+}

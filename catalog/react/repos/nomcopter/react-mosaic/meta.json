@@ -1,0 +1,43 @@
+{
+  "owner": "nomcopter",
+  "name": "react-mosaic",
+  "full_name": "nomcopter/react-mosaic",
+  "html_url": "https://github.com/nomcopter/react-mosaic",
+  "description": "A React tiling window manager",
+  "stars": 4803,
+  "forks": 244,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "tiling-window-manager",
+    "typescript",
+    "window-manager"
+  ],
+  "archived": false,
+  "commit_sha": "a189cd943d6d602672bc111163157697b8befd41",
+  "commit_url": "https://github.com/nomcopter/react-mosaic/commit/a189cd943d6d602672bc111163157697b8befd41",
+  "tree_url": "https://github.com/nomcopter/react-mosaic/tree/a189cd943d6d602672bc111163157697b8befd41",
+  "analysed_at": "2026-11-14T19:14:35.511067+00:00",
+  "status": "completed",
+  "files_fetched": 176,
+  "files_analysed": 174,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "libs package",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "libs/react-mosaic-component/src/index.ts"
+  ]
+}

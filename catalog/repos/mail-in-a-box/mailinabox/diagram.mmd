@@ -1,0 +1,23 @@
+%% Repository: mail-in-a-box/mailinabox
+%% Analysed commit: b71c2e1ca6df9c56392ba0a2adbb05e02569d4c1
+%% Commit reference: https://github.com/mail-in-a-box/mailinabox/commit/b71c2e1ca6df9c56392ba0a2adbb05e02569d4c1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        management["management package"]
+        setup["setup package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| external_integrations

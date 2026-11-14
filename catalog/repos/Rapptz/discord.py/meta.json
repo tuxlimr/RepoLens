@@ -1,0 +1,53 @@
+{
+  "owner": "Rapptz",
+  "name": "discord.py",
+  "full_name": "Rapptz/discord.py",
+  "html_url": "https://github.com/Rapptz/discord.py",
+  "description": "An API wrapper for Discord written in Python.",
+  "stars": 16210,
+  "forks": 3898,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "bot",
+    "discord",
+    "discord-api",
+    "discord-bot",
+    "discord-py",
+    "python",
+    "python-3"
+  ],
+  "archived": false,
+  "commit_sha": "65232c38702be5844cf2ce865a4777eb1928b5d0",
+  "commit_url": "https://github.com/Rapptz/discord.py/commit/65232c38702be5844cf2ce865a4777eb1928b5d0",
+  "tree_url": "https://github.com/Rapptz/discord.py/tree/65232c38702be5844cf2ce865a4777eb1928b5d0",
+  "analysed_at": "2026-11-14T19:08:54.839374+00:00",
+  "status": "completed",
+  "files_fetched": 279,
+  "files_analysed": 279,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "discord package",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "aiohttp",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "discord/__main__.py",
+    "discord/app_commands/commands.py",
+    "discord/app_commands/tree.py",
+    "discord/ext/commands/cog.py"
+  ]
+}

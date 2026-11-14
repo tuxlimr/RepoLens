@@ -1,0 +1,45 @@
+{
+  "owner": "iamvishnusankar",
+  "name": "next-sitemap",
+  "full_name": "iamvishnusankar/next-sitemap",
+  "html_url": "https://github.com/iamvishnusankar/next-sitemap",
+  "description": "Sitemap generator for next.js. Generate sitemap(s) and robots.txt for all static/pre-rendered/dynamic/server-side pages.",
+  "stars": 3751,
+  "forks": 138,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "next-sitemap",
+    "nextjs",
+    "react",
+    "seo",
+    "sitemap",
+    "sitemap-generator",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "144fad921e8ee30f03c73ed72208bfa7355eb75d",
+  "commit_url": "https://github.com/iamvishnusankar/next-sitemap/commit/144fad921e8ee30f03c73ed72208bfa7355eb75d",
+  "tree_url": "https://github.com/iamvishnusankar/next-sitemap/tree/144fad921e8ee30f03c73ed72208bfa7355eb75d",
+  "analysed_at": "2026-11-14T19:15:05.822875+00:00",
+  "status": "completed",
+  "files_fetched": 236,
+  "files_analysed": 235,
+  "components": [
+    "Configuration and deployment",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/next-sitemap/bin/next-sitemap.mjs",
+    "packages/next-sitemap/bin/next-sitemap.cjs",
+    "packages/next-sitemap/src/index.ts"
+  ]
+}

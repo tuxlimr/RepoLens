@@ -1,0 +1,40 @@
+{
+  "owner": "nginx-proxy",
+  "name": "nginx-proxy",
+  "full_name": "nginx-proxy/nginx-proxy",
+  "html_url": "https://github.com/nginx-proxy/nginx-proxy",
+  "description": "Automated Nginx Reverse Proxy for Docker",
+  "stars": 19942,
+  "forks": 3037,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "docker",
+    "docker-gen",
+    "nginx",
+    "reverse-proxy"
+  ],
+  "archived": false,
+  "commit_sha": "bff2cddfece8e4f2c6d00b62ba45b8214c4727c5",
+  "commit_url": "https://github.com/nginx-proxy/nginx-proxy/commit/bff2cddfece8e4f2c6d00b62ba45b8214c4727c5",
+  "tree_url": "https://github.com/nginx-proxy/nginx-proxy/tree/bff2cddfece8e4f2c6d00b62ba45b8214c4727c5",
+  "analysed_at": "2026-11-14T19:08:04.879237+00:00",
+  "status": "completed",
+  "files_fetched": 338,
+  "files_analysed": 304,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,52 @@
+{
+  "owner": "google",
+  "name": "skills",
+  "full_name": "google/skills",
+  "html_url": "https://github.com/google/skills",
+  "description": "Agent Skills for Google products and technologies",
+  "stars": 24235,
+  "forks": 2014,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "google",
+    "googlecloud",
+    "skills"
+  ],
+  "archived": false,
+  "commit_sha": "e3c591afe426ea585e4c21799e5199d6d47cd1be",
+  "commit_url": "https://github.com/google/skills/commit/e3c591afe426ea585e4c21799e5199d6d47cd1be",
+  "tree_url": "https://github.com/google/skills/tree/e3c591afe426ea585e4c21799e5199d6d47cd1be",
+  "analysed_at": "2026-11-14T19:07:38.511136+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "pandas",
+    "requests",
+    "unittest"
+  ],
+  "entry_points": [
+    "skills/cloud/cloud-trace-querying/scripts/fetch_entire_trace/src/main.py",
+    "skills/cloud/cloud-trace-querying/scripts/fetch_related_logs/src/main.py",
+    "skills/cloud/cloud-trace-querying/scripts/fetch_trace_span/src/main.py",
+    "skills/cloud/cloud-trace-querying/scripts/generate_links/src/main.py",
+    "skills/cloud/cloud-trace-querying/scripts/get_trace_project/src/main.py",
+    "skills/cloud/cloud-trace-querying/scripts/run_python_with_deps/src/cleanup_env.py",
+    "skills/cloud/cloud-trace-querying/scripts/run_python_with_deps/src/manage_venv.py",
+    "skills/cloud/cloud-trace-querying/scripts/search_traces/src/main.py",
+    "skills/cloud/agent-platform-alert-configuration/scripts/analyze_traffic.py",
+    "skills/cloud/agent-platform-alert-configuration/scripts/analyze_traffic_test.py",
+    "skills/cloud/agent-platform-alert-configuration/scripts/check_telemetry.py",
+    "skills/cloud/agent-platform-alert-configuration/scripts/check_telemetry_test.py"
+  ]
+}

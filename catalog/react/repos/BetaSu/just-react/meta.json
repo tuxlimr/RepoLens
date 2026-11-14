@@ -1,0 +1,35 @@
+{
+  "owner": "BetaSu",
+  "name": "just-react",
+  "full_name": "BetaSu/just-react",
+  "html_url": "https://github.com/BetaSu/just-react",
+  "description": "\u300cReact\u6280\u672f\u63ed\u79d8\u300d  \u4e00\u672c\u81ea\u9876\u5411\u4e0b\u7684React\u6e90\u7801\u5206\u6790\u4e66",
+  "stars": 6380,
+  "forks": 552,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "fiber",
+    "hooks",
+    "react",
+    "reactjs",
+    "source-code"
+  ],
+  "archived": false,
+  "commit_sha": "45a85e238fa07050d5c6fb672d60aeced7f6b77f",
+  "commit_url": "https://github.com/BetaSu/just-react/commit/45a85e238fa07050d5c6fb672d60aeced7f6b77f",
+  "tree_url": "https://github.com/BetaSu/just-react/tree/45a85e238fa07050d5c6fb672d60aeced7f6b77f",
+  "analysed_at": "2026-11-14T19:14:06.896598+00:00",
+  "status": "completed",
+  "files_fetched": 52,
+  "files_analysed": 52,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Docker"
+  ],
+  "entry_points": []
+}

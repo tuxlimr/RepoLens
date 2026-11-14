@@ -1,0 +1,28 @@
+%% Repository: modelscope/DiffSynth-Studio
+%% Analysed commit: 28638042df62d206486a8bcff3ef22973c84e414
+%% Commit reference: https://github.com/modelscope/DiffSynth-Studio/commit/28638042df62d206486a8bcff3ef22973c84e414
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        diffsynth["diffsynth package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| diffsynth
+    config -->|imports| service_layer
+    data_layer -->|imports| config
+    data_layer -->|imports| diffsynth
+    data_layer -->|imports| service_layer
+    diffsynth -->|imports| data_layer
+    diffsynth -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| diffsynth

@@ -1,0 +1,22 @@
+%% Repository: myliang/x-spreadsheet
+%% Analysed commit: 0c55f3ee1e708002eaef280432d6efeaeabdc886
+%% Commit reference: https://github.com/myliang/x-spreadsheet/commit/0c55f3ee1e708002eaef280432d6efeaeabdc886
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        algorithm["algorithm package"]
+        canvas["canvas package"]
+        component["component package"]
+        config_js["config.js package"]
+        index_d_ts["index.d.ts package"]
+        index_js["index.js package"]
+        locale["locale package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

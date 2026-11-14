@@ -1,0 +1,60 @@
+{
+  "owner": "pmndrs",
+  "name": "valtio",
+  "full_name": "pmndrs/valtio",
+  "html_url": "https://github.com/pmndrs/valtio",
+  "description": "\ud83e\uddd9 Valtio makes proxy-state simple  for React and Vanilla",
+  "stars": 10245,
+  "forks": 294,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "mutable",
+    "proxy",
+    "react",
+    "state"
+  ],
+  "archived": false,
+  "commit_sha": "26d8ca8cb6e5bb3b9516d429e50bc5aab1f42e0d",
+  "commit_url": "https://github.com/pmndrs/valtio/commit/26d8ca8cb6e5bb3b9516d429e50bc5aab1f42e0d",
+  "tree_url": "https://github.com/pmndrs/valtio/tree/26d8ca8cb6e5bb3b9516d429e50bc5aab1f42e0d",
+  "analysed_at": "2026-11-14T19:13:32.157996+00:00",
+  "status": "completed",
+  "files_fetched": 228,
+  "files_analysed": 227,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "react package",
+    "react.ts package",
+    "Tests",
+    "types.d.ts package",
+    "utils.ts package",
+    "vanilla package",
+    "vanilla.ts package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Redux",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts",
+    "website/_utils/index.ts",
+    "website/components/MDXRenderer/index.ts",
+    "website/components/SEO/index.ts",
+    "website/components/ToggleTheme/index.ts",
+    "website/components/layouts/index.ts",
+    "website/hooks/index.ts",
+    "website/pages/index.tsx",
+    "website/state/index.ts"
+  ]
+}

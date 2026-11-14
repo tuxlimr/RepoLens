@@ -1,0 +1,43 @@
+{
+  "owner": "rany2",
+  "name": "edge-tts",
+  "full_name": "rany2/edge-tts",
+  "html_url": "https://github.com/rany2/edge-tts",
+  "description": "Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge",
+  "stars": 12541,
+  "forks": 1185,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "speech-synthesis",
+    "text-to-speech",
+    "tts"
+  ],
+  "archived": false,
+  "commit_sha": "bd44c1d1aaebdc1db7f47456ee12431b42ec7cac",
+  "commit_url": "https://github.com/rany2/edge-tts/commit/bd44c1d1aaebdc1db7f47456ee12431b42ec7cac",
+  "tree_url": "https://github.com/rany2/edge-tts/tree/bd44c1d1aaebdc1db7f47456ee12431b42ec7cac",
+  "analysed_at": "2026-11-14T19:10:04.392758+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 42,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "edge_playback package",
+    "edge_tts package",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "setuptools"
+  ],
+  "entry_points": [
+    "src/edge_playback/__main__.py",
+    "src/edge_tts/__main__.py",
+    "src/edge_tts/util.py"
+  ]
+}

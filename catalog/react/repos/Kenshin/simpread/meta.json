@@ -1,0 +1,51 @@
+{
+  "owner": "Kenshin",
+  "name": "simpread",
+  "full_name": "Kenshin/simpread",
+  "html_url": "https://github.com/Kenshin/simpread",
+  "description": "\u7b80\u60a6 ( SimpRead ) - \u8ba9\u4f60\u77ac\u95f4\u8fdb\u5165\u6c89\u6d78\u5f0f\u9605\u8bfb\u7684\u6269\u5c55",
+  "stars": 8751,
+  "forks": 557,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chrome",
+    "chrome-extension",
+    "crx",
+    "firefox",
+    "firefox-addon",
+    "firefox-extension",
+    "react",
+    "readability",
+    "reader",
+    "reading-list"
+  ],
+  "archived": false,
+  "commit_sha": "d6534a7d67ab606e0390ff7172360fac88af4422",
+  "commit_url": "https://github.com/Kenshin/simpread/commit/d6534a7d67ab606e0390ff7172360fac88af4422",
+  "tree_url": "https://github.com/Kenshin/simpread/tree/d6534a7d67ab606e0390ff7172360fac88af4422",
+  "analysed_at": "2026-11-14T19:13:39.139357+00:00",
+  "status": "completed",
+  "files_fetched": 140,
+  "files_analysed": 138,
+  "components": [
+    "background.js package",
+    "Configuration and deployment",
+    "contentscripts.js package",
+    "Core modules",
+    "ext package",
+    "focus package",
+    "ga.js package",
+    "module package",
+    "options package",
+    "read package",
+    "Service / domain layer",
+    "vender package"
+  ],
+  "detections": [
+    "React",
+    "webpack"
+  ],
+  "entry_points": []
+}

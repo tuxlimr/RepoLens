@@ -1,0 +1,57 @@
+{
+  "owner": "donnemartin",
+  "name": "awesome-aws",
+  "full_name": "donnemartin/awesome-aws",
+  "html_url": "https://github.com/donnemartin/awesome-aws",
+  "description": "A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome.",
+  "stars": 14200,
+  "forks": 1912,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "aws",
+    "aws-cli",
+    "aws-sdk",
+    "cloud",
+    "cloud-management",
+    "cloudformation",
+    "cloudwatch",
+    "dynamodb",
+    "ec2",
+    "ecs",
+    "elasticsearch",
+    "iam",
+    "kinesis",
+    "lambda",
+    "machine-learning",
+    "rds",
+    "redshift",
+    "route53",
+    "s3",
+    "serverless"
+  ],
+  "archived": false,
+  "commit_sha": "5a49af5f118cef44bd91cdcb7aafe045ef31ad60",
+  "commit_url": "https://github.com/donnemartin/awesome-aws/commit/5a49af5f118cef44bd91cdcb7aafe045ef31ad60",
+  "tree_url": "https://github.com/donnemartin/awesome-aws/tree/5a49af5f118cef44bd91cdcb7aafe045ef31ad60",
+  "analysed_at": "2026-11-14T19:09:30.987209+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 37,
+  "components": [
+    "awesome package",
+    "Configuration and deployment",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "Click",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "awesome/awesome_cli.py"
+  ]
+}

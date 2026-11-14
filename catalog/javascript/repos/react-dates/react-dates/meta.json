@@ -1,0 +1,53 @@
+{
+  "owner": "react-dates",
+  "name": "react-dates",
+  "full_name": "react-dates/react-dates",
+  "html_url": "https://github.com/react-dates/react-dates",
+  "description": "An easily internationalizable, mobile-friendly datepicker library for the web",
+  "stars": 12160,
+  "forks": 1662,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "calendar",
+    "datepicker",
+    "dates",
+    "react",
+    "react-component",
+    "react-dates"
+  ],
+  "archived": false,
+  "commit_sha": "b7bad38dcff024d374ee98f972b55b3de9e61289",
+  "commit_url": "https://github.com/react-dates/react-dates/commit/b7bad38dcff024d374ee98f972b55b3de9e61289",
+  "tree_url": "https://github.com/react-dates/react-dates/tree/b7bad38dcff024d374ee98f972b55b3de9e61289",
+  "analysed_at": "2026-11-14T19:12:08.915307+00:00",
+  "status": "completed",
+  "files_fetched": 199,
+  "files_analysed": 198,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "constants.js package",
+    "Core modules",
+    "defaultPhrases.js package",
+    "index.js package",
+    "initialize.js package",
+    "scripts package",
+    "shapes package",
+    "stories package",
+    "Tests",
+    "theme package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/index.js"
+  ]
+}

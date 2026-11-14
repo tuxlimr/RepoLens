@@ -1,0 +1,21 @@
+%% Repository: cleanlab/cleanlab
+%% Analysed commit: 750625747de1b26d8530954f51f0530bd0b51d3c
+%% Commit reference: https://github.com/cleanlab/cleanlab/commit/750625747de1b26d8530954f51f0530bd0b51d3c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cleanlab["cleanlab package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| cleanlab
+    tests -->|imports| external_integrations

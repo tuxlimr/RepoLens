@@ -1,0 +1,88 @@
+%% Repository: Thysrael/Horizon
+%% Analysed commit: ae30765a45ea97f082f6913181289ddd49566eeb
+%% Commit reference: https://github.com/Thysrael/Horizon/commit/ae30765a45ea97f082f6913181289ddd49566eeb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ai["ai package"]
+        cli_py["_cli.py package"]
+        collection_window_py["collection_window.py package"]
+        console_icons_py["console_icons.py package"]
+        extractors["extractors package"]
+        file_utils_py["_file_utils.py package"]
+        init_py["__init__.py package"]
+        logging_config_py["logging_config.py package"]
+        mcp["mcp package"]
+        orchestrator_py["orchestrator.py package"]
+        processing["processing package"]
+        scrapers["scrapers package"]
+        scripts["scripts package"]
+        setup["setup package"]
+        url_security_py["url_security.py package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    ai -->|imports| data_layer
+    ai -->|imports| external_integrations
+    ai -->|imports| processing
+    data_layer -->|imports| file_utils_py
+    entrypoint -->|imports| ai
+    entrypoint -->|imports| cli_py
+    entrypoint -->|imports| collection_window_py
+    entrypoint -->|imports| console_icons_py
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| logging_config_py
+    entrypoint -->|imports| mcp
+    entrypoint -->|imports| orchestrator_py
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| ai
+    external_integrations -->|imports| data_layer
+    extractors -->|imports| data_layer
+    extractors -->|imports| external_integrations
+    extractors -->|imports| url_security_py
+    mcp -->|imports| data_layer
+    mcp -->|imports| file_utils_py
+    orchestrator_py -->|imports| ai
+    orchestrator_py -->|imports| console_icons_py
+    orchestrator_py -->|imports| data_layer
+    orchestrator_py -->|imports| external_integrations
+    orchestrator_py -->|imports| extractors
+    orchestrator_py -->|imports| processing
+    orchestrator_py -->|imports| scrapers
+    orchestrator_py -->|imports| service_layer
+    processing -->|imports| data_layer
+    scrapers -->|imports| data_layer
+    scrapers -->|imports| external_integrations
+    scrapers -->|imports| extractors
+    service_layer -->|imports| ai
+    service_layer -->|imports| collection_window_py
+    service_layer -->|imports| console_icons_py
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| file_utils_py
+    service_layer -->|imports| mcp
+    service_layer -->|imports| orchestrator_py
+    service_layer -->|imports| processing
+    service_layer -->|imports| url_security_py
+    setup -->|imports| ai
+    setup -->|imports| cli_py
+    setup -->|imports| data_layer
+    setup -->|imports| external_integrations
+    setup -->|imports| logging_config_py
+    tests -->|imports| external_integrations
+    url_security_py -->|imports| external_integrations

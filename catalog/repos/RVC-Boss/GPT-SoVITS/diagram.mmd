@@ -1,0 +1,44 @@
+%% Repository: RVC-Boss/GPT-SoVITS
+%% Analysed commit: 6d51ffceafbf240145619af4c92408a6e54b7924
+%% Commit reference: https://github.com/RVC-Boss/GPT-SoVITS/commit/6d51ffceafbf240145619af4c92408a6e54b7924
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["Docker package"]
+        gpt_sovits["GPT_SoVITS package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| entrypoint
+    core -->|imports| config
+    core -->|imports| entrypoint
+    core -->|imports| tools
+    data_layer -->|imports| gpt_sovits
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| gpt_sovits
+    entrypoint -->|imports| tools
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| gpt_sovits
+    gpt_sovits -->|imports| entrypoint
+    gpt_sovits -->|imports| external_integrations
+    gpt_sovits -->|imports| tools
+    tests -->|imports| gpt_sovits
+    tools -->|imports| entrypoint
+    tools -->|imports| gpt_sovits

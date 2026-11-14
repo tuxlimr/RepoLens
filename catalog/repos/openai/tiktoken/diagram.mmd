@@ -1,0 +1,32 @@
+%% Repository: openai/tiktoken
+%% Analysed commit: 79dc2c0533685b893616c78160b5d9e40876e724
+%% Commit reference: https://github.com/openai/tiktoken/commit/79dc2c0533685b893616c78160b5d9e40876e724
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        lib_rs["lib.rs package"]
+        py_rs["py.rs package"]
+        scripts["scripts package"]
+        tiktoken["tiktoken package"]
+        tiktoken_ext["tiktoken_ext package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| tiktoken
+    entrypoint -->|imports| external_integrations
+    scripts -->|imports| tiktoken
+    tests -->|imports| tiktoken
+    tiktoken -->|imports| external_integrations
+    tiktoken_ext -->|imports| tiktoken

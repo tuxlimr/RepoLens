@@ -1,0 +1,22 @@
+%% Repository: wifiphisher/wifiphisher
+%% Analysed commit: 4ae336518bf29eed13d3b09f2ee6a16e7973c997
+%% Commit reference: https://github.com/wifiphisher/wifiphisher/commit/4ae336518bf29eed13d3b09f2ee6a16e7973c997
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        wifiphisher["wifiphisher package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| wifiphisher
+    tests -->|imports| wifiphisher
+    wifiphisher -->|imports| external_integrations

@@ -1,0 +1,27 @@
+%% Repository: AgriciDaniel/claude-seo
+%% Analysed commit: 2e40a5fa6220fc846fcc56d666831fd1315bedc7
+%% Commit reference: https://github.com/AgriciDaniel/claude-seo/commit/2e40a5fa6220fc846fcc56d666831fd1315bedc7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        extensions["extensions package"]
+        hooks["hooks package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    scripts -->|imports| external_integrations
+    tests -->|imports| external_integrations

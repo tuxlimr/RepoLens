@@ -1,0 +1,50 @@
+{
+  "owner": "svgdotjs",
+  "name": "svg.js",
+  "full_name": "svgdotjs/svg.js",
+  "html_url": "https://github.com/svgdotjs/svg.js",
+  "description": "The lightweight library for manipulating and animating SVG",
+  "stars": 11924,
+  "forks": 1094,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "javascript",
+    "svg",
+    "svgjs"
+  ],
+  "archived": false,
+  "commit_sha": "4b8809b1554c44a84f8992cdbda60480336cc040",
+  "commit_url": "https://github.com/svgdotjs/svg.js/commit/4b8809b1554c44a84f8992cdbda60480336cc040",
+  "tree_url": "https://github.com/svgdotjs/svg.js/tree/4b8809b1554c44a84f8992cdbda60480336cc040",
+  "analysed_at": "2026-11-14T19:12:12.921590+00:00",
+  "status": "completed",
+  "files_fetched": 210,
+  "files_analysed": 209,
+  "components": [
+    "animation package",
+    "bench package",
+    "Configuration and deployment",
+    "Core modules",
+    "elements package",
+    "main.js package",
+    "modules package",
+    "playgrounds package",
+    "polyfills package",
+    "Service / domain layer",
+    "spec package",
+    "svg.js package",
+    "Tests",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "TypeScript"
+  ],
+  "entry_points": [
+    "playgrounds/colors/main.js",
+    "src/main.js"
+  ]
+}

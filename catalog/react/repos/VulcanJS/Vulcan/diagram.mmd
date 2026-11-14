@@ -1,0 +1,25 @@
+%% Repository: VulcanJS/Vulcan
+%% Analysed commit: 5b81976dc67a5af280131ce093d889a29a736d93
+%% Commit reference: https://github.com/VulcanJS/Vulcan/commit/5b81976dc67a5af280131ce093d889a29a736d93
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

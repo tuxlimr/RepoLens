@@ -1,0 +1,35 @@
+%% Repository: 9001/copyparty
+%% Analysed commit: 1af7efeca858dcfa29f797d7ae93f22eb2fdecf0
+%% Commit reference: https://github.com/9001/copyparty/commit/1af7efeca858dcfa29f797d7ae93f22eb2fdecf0
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        contrib["contrib package"]
+        copyparty["copyparty package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| copyparty
+    api_layer -->|imports| external_integrations
+    bin -->|imports| copyparty
+    copyparty -->|imports| external_integrations
+    entrypoint -->|imports| copyparty
+    entrypoint -->|imports| external_integrations
+    scripts -->|imports| entrypoint
+    tests -->|imports| copyparty
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

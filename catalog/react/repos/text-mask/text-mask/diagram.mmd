@@ -1,0 +1,27 @@
+%% Repository: text-mask/text-mask
+%% Analysed commit: 120393e0de2c4c7742fb600ff8c5a72ddf3e58cf
+%% Commit reference: https://github.com/text-mask/text-mask/commit/120393e0de2c4c7742fb600ff8c5a72ddf3e58cf
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        addons["addons package"]
+        angular1["angular1 package"]
+        angular2["angular2 package"]
+        common["common package"]
+        ember["ember package"]
+        react["react package"]
+        vanilla["vanilla package"]
+        vue["vue package"]
+        website["website package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

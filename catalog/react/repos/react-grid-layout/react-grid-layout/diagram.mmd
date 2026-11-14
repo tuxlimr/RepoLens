@@ -1,0 +1,24 @@
+%% Repository: react-grid-layout/react-grid-layout
+%% Analysed commit: f0dd77c5b2fee2d2cb09541d220c00d6814c7242
+%% Commit reference: https://github.com/react-grid-layout/react-grid-layout/commit/f0dd77c5b2fee2d2cb09541d220c00d6814c7242
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        extras["extras package"]
+        index_ts["index.ts package"]
+        legacy["legacy package"]
+        mocks["__mocks__ package"]
+        react["react package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

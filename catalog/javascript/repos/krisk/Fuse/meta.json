@@ -1,0 +1,55 @@
+{
+  "owner": "krisk",
+  "name": "Fuse",
+  "full_name": "krisk/Fuse",
+  "html_url": "https://github.com/krisk/Fuse",
+  "description": "Lightweight fuzzy-search, in JavaScript",
+  "stars": 20530,
+  "forks": 828,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "bitap",
+    "javascript",
+    "lightweight-fuzzy-search",
+    "weighted-search"
+  ],
+  "archived": false,
+  "commit_sha": "edf2fb608eca0461508d1d71317e6e58309ffada",
+  "commit_url": "https://github.com/krisk/Fuse/commit/edf2fb608eca0461508d1d71317e6e58309ffada",
+  "tree_url": "https://github.com/krisk/Fuse/tree/edf2fb608eca0461508d1d71317e6e58309ffada",
+  "analysed_at": "2026-11-14T19:11:13.399863+00:00",
+  "status": "completed",
+  "files_fetched": 172,
+  "files_analysed": 154,
+  "components": [
+    "bench package",
+    "Configuration and deployment",
+    "Core modules",
+    "entry.ts package",
+    "env.d.ts package",
+    "helpers package",
+    "scripts package",
+    "search package",
+    "Service / domain layer",
+    "Tests",
+    "tools package",
+    "types.ts package",
+    "workers package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/core/index.ts",
+    "src/search/bitap/index.ts",
+    "src/search/extended/index.ts",
+    "src/search/index.ts",
+    "src/search/token/index.ts",
+    "src/workers/index.ts"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "owner": "restify",
+  "name": "node-restify",
+  "full_name": "restify/node-restify",
+  "html_url": "https://github.com/restify/node-restify",
+  "description": "The future of Node.js REST development",
+  "stars": 10687,
+  "forks": 976,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "rest-api",
+    "restify",
+    "server"
+  ],
+  "archived": false,
+  "commit_sha": "71e09da528112619ec42b600a2bbab240e3eff60",
+  "commit_url": "https://github.com/restify/node-restify/commit/71e09da528112619ec42b600a2bbab240e3eff60",
+  "tree_url": "https://github.com/restify/node-restify/tree/71e09da528112619ec42b600a2bbab240e3eff60",
+  "analysed_at": "2026-11-14T19:12:34.383348+00:00",
+  "status": "completed",
+  "files_fetched": 194,
+  "files_analysed": 188,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "lib package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "benchmark/index.js",
+    "examples/sockio/sockio.js",
+    "examples/todoapp/main.js",
+    "lib/index.js",
+    "bin/report-latency",
+    "lib/formatters/index.js",
+    "lib/plugins/index.js",
+    "lib/server.js"
+  ]
+}

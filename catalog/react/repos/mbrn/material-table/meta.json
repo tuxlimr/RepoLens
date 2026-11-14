@@ -1,0 +1,51 @@
+{
+  "owner": "mbrn",
+  "name": "material-table",
+  "full_name": "mbrn/material-table",
+  "html_url": "https://github.com/mbrn/material-table",
+  "description": "Datatable for React based on material-ui's table with additional features",
+  "stars": 3479,
+  "forks": 988,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "datagrid",
+    "datatable",
+    "material",
+    "material-ui",
+    "react",
+    "table"
+  ],
+  "archived": false,
+  "commit_sha": "dc776f55ab38e4a0bd95a827922169bd664e1113",
+  "commit_url": "https://github.com/mbrn/material-table/commit/dc776f55ab38e4a0bd95a827922169bd664e1113",
+  "tree_url": "https://github.com/mbrn/material-table/tree/dc776f55ab38e4a0bd95a827922169bd664e1113",
+  "analysed_at": "2026-11-14T19:15:17.592970+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 48,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "default-props.js package",
+    "demo package",
+    "index.js package",
+    "material-table.js package",
+    "prop-types.js package",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/components/index.js",
+    "src/index.js",
+    "src/utils/index.js",
+    "src/utils/polyfill/index.js"
+  ]
+}

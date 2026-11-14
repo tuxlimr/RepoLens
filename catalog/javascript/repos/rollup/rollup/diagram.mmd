@@ -1,0 +1,34 @@
+%% Repository: rollup/rollup
+%% Analysed commit: 0c5497fb4d86cc769380d4945574488113e08ac2
+%% Commit reference: https://github.com/rollup/rollup/commit/0c5497fb4d86cc769380d4945574488113e08ac2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        ast["ast package"]
+        browser["browser package"]
+        browser_entry_ts["browser-entry.ts package"]
+        build_plugins["build-plugins package"]
+        bundle_ts["Bundle.ts package"]
+        chunk_ts["Chunk.ts package"]
+        cli["cli package"]
+        externalchunk_ts["ExternalChunk.ts package"]
+        externalmodule_ts["ExternalModule.ts package"]
+        finalisers["finalisers package"]
+        graph_ts["Graph.ts package"]
+        module_ts["Module.ts package"]
+        moduleloader_ts["ModuleLoader.ts package"]
+        node_entry_ts["node-entry.ts package"]
+        rollup["rollup package"]
+        rust["rust package"]
+        scripts["scripts package"]
+        utils["utils package"]
+        watch["watch package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

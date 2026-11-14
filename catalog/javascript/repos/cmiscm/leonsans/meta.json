@@ -1,0 +1,33 @@
+{
+  "owner": "cmiscm",
+  "name": "leonsans",
+  "full_name": "cmiscm/leonsans",
+  "html_url": "https://github.com/cmiscm/leonsans",
+  "description": "Leon Sans is a geometric sans-serif typeface made with code in 2019 by Jongmin Kim.",
+  "stars": 10172,
+  "forks": 517,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "f8c03c92d80552f9210a9c5a54a1b1ee81252129",
+  "commit_url": "https://github.com/cmiscm/leonsans/commit/f8c03c92d80552f9210a9c5a54a1b1ee81252129",
+  "tree_url": "https://github.com/cmiscm/leonsans/tree/f8c03c92d80552f9210a9c5a54a1b1ee81252129",
+  "analysed_at": "2026-11-14T19:12:43.888937+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 47,
+  "components": [
+    "draw package",
+    "font package",
+    "index.js package",
+    "leonsans.js package",
+    "Service / domain layer"
+  ],
+  "detections": [],
+  "entry_points": [
+    "src/font/index.js",
+    "src/index.js"
+  ]
+}

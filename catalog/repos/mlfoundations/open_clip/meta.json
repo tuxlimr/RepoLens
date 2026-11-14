@@ -1,0 +1,62 @@
+{
+  "owner": "mlfoundations",
+  "name": "open_clip",
+  "full_name": "mlfoundations/open_clip",
+  "html_url": "https://github.com/mlfoundations/open_clip",
+  "description": "An open source implementation of CLIP.",
+  "stars": 14265,
+  "forks": 1337,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "computer-vision",
+    "contrastive-loss",
+    "deep-learning",
+    "language-model",
+    "multi-modal-learning",
+    "pretrained-models",
+    "pytorch",
+    "zero-shot-classification"
+  ],
+  "archived": false,
+  "commit_sha": "4cc208d3a44a2fb6d6435006a46f520d2ccc29b1",
+  "commit_url": "https://github.com/mlfoundations/open_clip/commit/4cc208d3a44a2fb6d6435006a46f520d2ccc29b1",
+  "tree_url": "https://github.com/mlfoundations/open_clip/tree/4cc208d3a44a2fb6d6435006a46f520d2ccc29b1",
+  "analysed_at": "2026-11-14T19:09:29.338111+00:00",
+  "status": "completed",
+  "files_fetched": 387,
+  "files_analysed": 387,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "open_clip package",
+    "open_clip_train package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/open_clip/push_to_hf_hub.py",
+    "src/open_clip_train/legacy_main.py",
+    "src/open_clip_train/main.py",
+    "src/open_clip_train/profiler.py",
+    "scripts/clap_zeroshot.py",
+    "scripts/convert_audio_patch_layout.py",
+    "scripts/genlip_attentive_probe.py",
+    "scripts/genlip_caption_stats.py",
+    "scripts/genlip_zeroshot.py",
+    "scripts/linear_probe.py",
+    "scripts/multilabel_zeroshot.py"
+  ]
+}

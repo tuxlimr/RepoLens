@@ -1,0 +1,58 @@
+{
+  "owner": "alibaba",
+  "name": "designable",
+  "full_name": "alibaba/designable",
+  "html_url": "https://github.com/alibaba/designable",
+  "description": "\ud83e\udde9 Make everything designable \ud83e\udde9 ",
+  "stars": 3522,
+  "forks": 728,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "builder",
+    "designable",
+    "designer",
+    "editor",
+    "form",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "3e961de947011df6ac5cd092c1084140494f5fc2",
+  "commit_url": "https://github.com/alibaba/designable/commit/3e961de947011df6ac5cd092c1084140494f5fc2",
+  "tree_url": "https://github.com/alibaba/designable/tree/3e961de947011df6ac5cd092c1084140494f5fc2",
+  "analysed_at": "2026-11-14T19:15:15.934912+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "formily package",
+    "packages package",
+    "scripts package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "formily/antd/playground/main.tsx",
+    "formily/antd/src/index.ts",
+    "formily/next/playground/main.tsx",
+    "formily/next/src/index.ts",
+    "formily/setters/src/index.ts",
+    "formily/transformer/src/index.ts",
+    "packages/core/src/index.ts",
+    "packages/react-sandbox/src/index.ts",
+    "packages/react-settings-form/src/index.ts",
+    "packages/react/src/index.ts",
+    "packages/shared/src/index.ts",
+    "scripts/build-style/index.ts"
+  ]
+}

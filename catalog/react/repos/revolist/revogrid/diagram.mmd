@@ -1,0 +1,33 @@
+%% Repository: revolist/revogrid
+%% Analysed commit: 07e7c11f14e82d2d89418dac95d4b60e516d20ba
+%% Commit reference: https://github.com/revolist/revogrid/commit/07e7c11f14e82d2d89418dac95d4b60e516d20ba
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        components["components package"]
+        components_d_ts["components.d.ts package"]
+        e2e["e2e package"]
+        index_ts["index.ts package"]
+        merged_tests["merged-tests package"]
+        plugins["plugins package"]
+        scripts["scripts package"]
+        serve["serve package"]
+        store["store package"]
+        thememanager["themeManager package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

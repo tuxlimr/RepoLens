@@ -1,0 +1,44 @@
+{
+  "owner": "JohannesKlauss",
+  "name": "react-hotkeys-hook",
+  "full_name": "JohannesKlauss/react-hotkeys-hook",
+  "html_url": "https://github.com/JohannesKlauss/react-hotkeys-hook",
+  "description": "React hook for using keyboard shortcuts in components.",
+  "stars": 3504,
+  "forks": 169,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "hook",
+    "hooks",
+    "hotkey",
+    "hotkeys",
+    "javascript",
+    "react",
+    "react-hooks",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "7a9378447013b2cf29704c4cec88bb8cd28fa919",
+  "commit_url": "https://github.com/JohannesKlauss/react-hotkeys-hook/commit/7a9378447013b2cf29704c4cec88bb8cd28fa919",
+  "tree_url": "https://github.com/JohannesKlauss/react-hotkeys-hook/tree/7a9378447013b2cf29704c4cec88bb8cd28fa919",
+  "analysed_at": "2026-11-14T19:15:17.028878+00:00",
+  "status": "completed",
+  "files_fetched": 133,
+  "files_analysed": 132,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": []
+}

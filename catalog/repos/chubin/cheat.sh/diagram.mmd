@@ -1,0 +1,23 @@
+%% Repository: chubin/cheat.sh
+%% Analysed commit: 06af0000259bde1a347da368225c5962d7ffed3e
+%% Commit reference: https://github.com/chubin/cheat.sh/commit/06af0000259bde1a347da368225c5962d7ffed3e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        lib["lib package"]
+        share["share package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    lib -->|imports| external_integrations

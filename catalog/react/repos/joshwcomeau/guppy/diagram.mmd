@@ -1,0 +1,31 @@
+%% Repository: joshwcomeau/guppy
+%% Analysed commit: 72d84495d9c15d22053b0010ac1fd9a1061a7054
+%% Commit reference: https://github.com/joshwcomeau/guppy/commit/72d84495d9c15d22053b0010ac1fd9a1061a7054
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        actions["actions package"]
+        components["components package"]
+        constants_js["constants.js package"]
+        electron_js["electron.js package"]
+        electron_test_js["electron.test.js package"]
+        global_styles_js["global-styles.js package"]
+        index_js["index.js package"]
+        mocks["__mocks__ package"]
+        reducers["reducers package"]
+        sagas["sagas package"]
+        scripts["scripts package"]
+        store["store package"]
+        stories["stories package"]
+        test_helpers["test-helpers package"]
+        types_js["types.js package"]
+        utils_js["utils.js package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

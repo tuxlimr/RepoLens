@@ -1,0 +1,49 @@
+{
+  "owner": "NVIDIA",
+  "name": "personaplex",
+  "full_name": "NVIDIA/personaplex",
+  "html_url": "https://github.com/NVIDIA/personaplex",
+  "description": "PersonaPlex code.",
+  "stars": 12130,
+  "forks": 1636,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "16419a2ef7b98611f58c9df07477d00e5ad61d5f",
+  "commit_url": "https://github.com/NVIDIA/personaplex/commit/16419a2ef7b98611f58c9df07477d00e5ad61d5f",
+  "tree_url": "https://github.com/NVIDIA/personaplex/tree/16419a2ef7b98611f58c9df07477d00e5ad61d5f",
+  "analysed_at": "2026-11-14T19:10:14.962299+00:00",
+  "status": "completed",
+  "files_fetched": 98,
+  "files_analysed": 96,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "moshi package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "aiohttp",
+    "NumPy",
+    "React Router",
+    "Tailwind CSS",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "moshi/moshi/modules/streaming.py",
+    "moshi/moshi/offline.py",
+    "moshi/moshi/utils/sampling.py",
+    "client/src/app.tsx"
+  ]
+}

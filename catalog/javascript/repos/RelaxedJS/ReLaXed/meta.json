@@ -1,0 +1,55 @@
+{
+  "owner": "RelaxedJS",
+  "name": "ReLaXed",
+  "full_name": "RelaxedJS/ReLaXed",
+  "html_url": "https://github.com/RelaxedJS/ReLaXed",
+  "description": "Create PDF documents using web technologies",
+  "stars": 11789,
+  "forks": 418,
+  "license": "ISC",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chromium",
+    "converter",
+    "html",
+    "pdf-document",
+    "pug",
+    "scss"
+  ],
+  "archived": false,
+  "commit_sha": "9e31cd446150afcaa1f2be1df09870ad4b444bfa",
+  "commit_url": "https://github.com/RelaxedJS/ReLaXed/commit/9e31cd446150afcaa1f2be1df09870ad4b444bfa",
+  "tree_url": "https://github.com/RelaxedJS/ReLaXed/tree/9e31cd446150afcaa1f2be1df09870ad4b444bfa",
+  "analysed_at": "2026-11-14T19:12:14.958494+00:00",
+  "status": "completed",
+  "files_fetched": 65,
+  "files_analysed": 65,
+  "components": [
+    "builtin_plugins package",
+    "cli-tools package",
+    "Configuration and deployment",
+    "index.js package",
+    "masterToPDF.js package",
+    "parseLocals.js package",
+    "plugins.js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/masterToPDF.js",
+    "src/index.js",
+    "src/cli-tools/pretty-pdf-thumbnail.js",
+    "src/cli-tools/pdf2gif.js",
+    "src/builtin_plugins/chartjs/index.js",
+    "src/builtin_plugins/flowchart/index.js",
+    "src/builtin_plugins/index.js",
+    "src/builtin_plugins/katex/index.js",
+    "src/builtin_plugins/markdown/index.js",
+    "src/builtin_plugins/mathjax/index.js",
+    "src/builtin_plugins/mermaid/index.js",
+    "src/builtin_plugins/scss/index.js"
+  ]
+}

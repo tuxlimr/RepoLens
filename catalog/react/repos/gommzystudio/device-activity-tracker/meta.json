@@ -1,0 +1,58 @@
+{
+  "owner": "gommzystudio",
+  "name": "device-activity-tracker",
+  "full_name": "gommzystudio/device-activity-tracker",
+  "html_url": "https://github.com/gommzystudio/device-activity-tracker",
+  "description": "A phone number can reveal whether a device is active, in standby or offline (and more). This PoC demonstrates how delivery receipts + RTT timing leak sensitive device-activity patterns. (WhatsApp / Signal)",
+  "stars": 5241,
+  "forks": 711,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "baileys",
+    "exploit",
+    "messenger",
+    "nodejs",
+    "phone-number",
+    "poc",
+    "privacy",
+    "react",
+    "signal",
+    "tracking",
+    "typescript",
+    "vulnerability",
+    "whatsapp"
+  ],
+  "archived": false,
+  "commit_sha": "a6e90350fefca2e5bc2190b530be8d6a48399ecf",
+  "commit_url": "https://github.com/gommzystudio/device-activity-tracker/commit/a6e90350fefca2e5bc2190b530be8d6a48399ecf",
+  "tree_url": "https://github.com/gommzystudio/device-activity-tracker/tree/a6e90350fefca2e5bc2190b530be8d6a48399ecf",
+  "analysed_at": "2026-11-14T19:14:24.486731+00:00",
+  "status": "completed",
+  "files_fetched": 38,
+  "files_analysed": 38,
+  "components": [
+    "Configuration and deployment",
+    "External integrations",
+    "index.ts package",
+    "scripts package",
+    "server.ts package",
+    "signal-tracker.ts package",
+    "tracker.ts package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "client/src/App.tsx",
+    "client/src/index.tsx",
+    "src/index.ts",
+    "src/server.ts"
+  ]
+}

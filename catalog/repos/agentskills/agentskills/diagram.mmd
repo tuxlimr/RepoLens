@@ -1,0 +1,21 @@
+%% Repository: agentskills/agentskills
+%% Analysed commit: 83021e2be457a9b6679148719c1f6074f0ad975e
+%% Commit reference: https://github.com/agentskills/agentskills/commit/83021e2be457a9b6679148719c1f6074f0ad975e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        skills_ref["skills-ref package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| skills_ref
+    skills_ref -->|imports| data_layer

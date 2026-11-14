@@ -1,0 +1,26 @@
+{
+  "owner": "dnshe",
+  "name": "DNSHE-FreeDomains",
+  "full_name": "dnshe/DNSHE-FreeDomains",
+  "html_url": "https://github.com/dnshe/DNSHE-FreeDomains",
+  "description": "\ud83c\udf10 DNSHE \u2014 Free subdomains for developers, with Anycast DNS, a REST API, and free renewal within 180 days before expiry. Available suffixes: us.ci, cc.cd, de5.net, ccwu.cc.",
+  "stars": 22850,
+  "forks": 521,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "19530755ffb9b5b99e0e71c9bd13494c54a56a37",
+  "commit_url": "https://github.com/dnshe/DNSHE-FreeDomains/commit/19530755ffb9b5b99e0e71c9bd13494c54a56a37",
+  "tree_url": "https://github.com/dnshe/DNSHE-FreeDomains/tree/19530755ffb9b5b99e0e71c9bd13494c54a56a37",
+  "analysed_at": "2026-11-14T19:11:06.707578+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "scripts package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

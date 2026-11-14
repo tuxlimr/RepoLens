@@ -1,0 +1,48 @@
+{
+  "owner": "dvdzkwsk",
+  "name": "react-redux-starter-kit",
+  "full_name": "dvdzkwsk/react-redux-starter-kit",
+  "html_url": "https://github.com/dvdzkwsk/react-redux-starter-kit",
+  "description": "Get started with React, Redux, and React-Router.",
+  "stars": 10212,
+  "forks": 2107,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "ea1cca81f18c4dd6cc1d679205a1a37610294d97",
+  "commit_url": "https://github.com/dvdzkwsk/react-redux-starter-kit/commit/ea1cca81f18c4dd6cc1d679205a1a37610294d97",
+  "tree_url": "https://github.com/dvdzkwsk/react-redux-starter-kit/tree/ea1cca81f18c4dd6cc1d679205a1a37610294d97",
+  "analysed_at": "2026-11-14T19:12:43.178420+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 43,
+  "components": [
+    "API layer",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "layouts package",
+    "main.js package",
+    "normalize.js package",
+    "server package",
+    "store package",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "webpack"
+  ],
+  "entry_points": [
+    "server/main.js",
+    "src/components/App.js",
+    "src/main.js",
+    "src/routes/Counter/index.js",
+    "src/routes/Home/index.js",
+    "src/routes/index.js"
+  ]
+}

@@ -1,0 +1,24 @@
+%% Repository: avajs/ava
+%% Analysed commit: a4fb2094052078faca5094fbe8cab7cbf18c785b
+%% Commit reference: https://github.com/avajs/ava/commit/a4fb2094052078faca5094fbe8cab7cbf18c785b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        entrypoints["entrypoints package"]
+        lib["lib package"]
+        media["media package"]
+        scripts["scripts package"]
+        test_tap["test-tap package"]
+        test_types["test-types package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

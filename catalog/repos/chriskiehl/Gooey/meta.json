@@ -1,0 +1,39 @@
+{
+  "owner": "chriskiehl",
+  "name": "Gooey",
+  "full_name": "chriskiehl/Gooey",
+  "html_url": "https://github.com/chriskiehl/Gooey",
+  "description": "Turn (almost) any Python command line program into a full GUI application with one line",
+  "stars": 21897,
+  "forks": 1048,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c541920465c7bcaaefa47a15a858eb477d2666fd",
+  "commit_url": "https://github.com/chriskiehl/Gooey/commit/c541920465c7bcaaefa47a15a858eb477d2666fd",
+  "tree_url": "https://github.com/chriskiehl/Gooey/tree/c541920465c7bcaaefa47a15a858eb477d2666fd",
+  "analysed_at": "2026-11-14T19:07:56.655521+00:00",
+  "status": "completed",
+  "files_fetched": 221,
+  "files_analysed": 221,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "gooey package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "gooey/gui/components/options/validators.py",
+    "gooey/gui/imageutil.py",
+    "gooey/python_bindings/parser_exceptions.py"
+  ]
+}

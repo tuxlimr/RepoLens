@@ -1,0 +1,39 @@
+{
+  "owner": "ramda",
+  "name": "ramda",
+  "full_name": "ramda/ramda",
+  "html_url": "https://github.com/ramda/ramda",
+  "description": ":ram: Practical functional Javascript",
+  "stars": 24051,
+  "forks": 1457,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "ramda"
+  ],
+  "archived": false,
+  "commit_sha": "f4b2e35ff433e18c751326b82acc3c6ab3585e18",
+  "commit_url": "https://github.com/ramda/ramda/commit/f4b2e35ff433e18c751326b82acc3c6ab3585e18",
+  "tree_url": "https://github.com/ramda/ramda/tree/f4b2e35ff433e18c751326b82acc3c6ab3585e18",
+  "analysed_at": "2026-11-14T19:11:03.741384+00:00",
+  "status": "completed",
+  "files_fetched": 713,
+  "files_analysed": 713,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package",
+    "source package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "lib/sauce/server.js",
+    "source/index.js"
+  ]
+}

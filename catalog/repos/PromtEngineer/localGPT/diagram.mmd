@@ -1,0 +1,30 @@
+%% Repository: PromtEngineer/localGPT
+%% Analysed commit: 34f3107f56a88203859092312231b945a711c619
+%% Commit reference: https://github.com/PromtEngineer/localGPT/commit/34f3107f56a88203859092312231b945a711c619
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        lib["lib package"]
+        rag_system["rag_system package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| rag_system
+    rag_system -->|imports| entrypoint
+    rag_system -->|imports| external_integrations

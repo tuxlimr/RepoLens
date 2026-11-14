@@ -1,0 +1,60 @@
+{
+  "owner": "suren-atoyan",
+  "name": "monaco-react",
+  "full_name": "suren-atoyan/monaco-react",
+  "html_url": "https://github.com/suren-atoyan/monaco-react",
+  "description": "Monaco Editor for React - use the monaco-editor in any React application without needing to use webpack (or rollup/parcel/etc) configuration files / plugins",
+  "stars": 4756,
+  "forks": 322,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "editor",
+    "monaco",
+    "react",
+    "vscode"
+  ],
+  "archived": false,
+  "commit_sha": "f7ef2e686c83449babaea49815c69db3668d2ab7",
+  "commit_url": "https://github.com/suren-atoyan/monaco-react/commit/f7ef2e686c83449babaea49815c69db3668d2ab7",
+  "tree_url": "https://github.com/suren-atoyan/monaco-react/tree/f7ef2e686c83449babaea49815c69db3668d2ab7",
+  "analysed_at": "2026-11-14T19:14:36.876903+00:00",
+  "status": "completed",
+  "files_fetched": 158,
+  "files_analysed": 94,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "DiffEditor package",
+    "Editor package",
+    "hooks package",
+    "index.ts package",
+    "Loading package",
+    "MonacoContainer package",
+    "playground package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "demo/src/App.tsx",
+    "demo/src/DiffEditor/index.ts",
+    "demo/src/Editor/index.ts",
+    "demo/src/ErrorBoundary/index.ts",
+    "demo/src/config/index.ts",
+    "demo/src/main.tsx",
+    "playground/src/App.tsx",
+    "playground/src/main.tsx",
+    "src/DiffEditor/index.ts",
+    "src/Editor/index.ts",
+    "src/Loading/index.ts",
+    "src/MonacoContainer/index.ts"
+  ]
+}

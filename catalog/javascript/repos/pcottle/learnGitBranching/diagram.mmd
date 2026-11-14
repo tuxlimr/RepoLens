@@ -1,0 +1,22 @@
+%% Repository: pcottle/learnGitBranching
+%% Analysed commit: 6b9db44494ad62922c73936c5cef14b57492ae94
+%% Commit reference: https://github.com/pcottle/learnGitBranching/commit/6b9db44494ad62922c73936c5cef14b57492ae94
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        js["js package"]
+        levels["levels package"]
+        scripts["scripts package"]
+        tests["__tests__ package"]
+    end

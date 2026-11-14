@@ -1,0 +1,23 @@
+%% Repository: bregman-arie/devops-exercises
+%% Analysed commit: 9e49ef97f16377d901db01f3562187394828ca6a
+%% Commit reference: https://github.com/bregman-arie/devops-exercises/commit/9e49ef97f16377d901db01f3562187394828ca6a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        topics["topics package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    scripts -->|imports| entrypoint
+    scripts -->|imports| external_integrations
+    tests -->|imports| entrypoint

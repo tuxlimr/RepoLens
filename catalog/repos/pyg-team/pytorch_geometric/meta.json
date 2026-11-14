@@ -1,0 +1,56 @@
+{
+  "owner": "pyg-team",
+  "name": "pytorch_geometric",
+  "full_name": "pyg-team/pytorch_geometric",
+  "html_url": "https://github.com/pyg-team/pytorch_geometric",
+  "description": "Graph Neural Network Library for PyTorch",
+  "stars": 24142,
+  "forks": 4102,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "geometric-deep-learning",
+    "graph-convolutional-networks",
+    "graph-neural-networks",
+    "pytorch"
+  ],
+  "archived": false,
+  "commit_sha": "d1f2f8642387b6e0563d6aee227c39130746c738",
+  "commit_url": "https://github.com/pyg-team/pytorch_geometric/commit/d1f2f8642387b6e0563d6aee227c39130746c738",
+  "tree_url": "https://github.com/pyg-team/pytorch_geometric/tree/d1f2f8642387b6e0563d6aee227c39130746c738",
+  "analysed_at": "2026-11-14T19:07:41.329553+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "graphgym package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "Click",
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "benchmark/inference/inference_benchmark.py",
+    "benchmark/loader/neighbor_loader.py",
+    "benchmark/multi_gpu/training/training_benchmark_cuda.py",
+    "benchmark/multi_gpu/training/training_benchmark_xpu.py",
+    "benchmark/training/training_benchmark.py",
+    "graphgym/main.py"
+  ]
+}

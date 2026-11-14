@@ -1,0 +1,42 @@
+{
+  "owner": "jlmakes",
+  "name": "scrollreveal",
+  "full_name": "jlmakes/scrollreveal",
+  "html_url": "https://github.com/jlmakes/scrollreveal",
+  "description": "Animate elements as they scroll into view.",
+  "stars": 22469,
+  "forks": 2191,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "css",
+    "javascript",
+    "reveal",
+    "scroll",
+    "scrollreveal",
+    "transform",
+    "transition"
+  ],
+  "archived": false,
+  "commit_sha": "411043d3fd1d13d21a824f9c3e24e3f180197bd5",
+  "commit_url": "https://github.com/jlmakes/scrollreveal/commit/411043d3fd1d13d21a824f9c3e24e3f180197bd5",
+  "tree_url": "https://github.com/jlmakes/scrollreveal/tree/411043d3fd1d13d21a824f9c3e24e3f180197bd5",
+  "analysed_at": "2026-11-14T19:11:08.725689+00:00",
+  "status": "completed",
+  "files_fetched": 54,
+  "files_analysed": 50,
+  "components": [
+    "Configuration and deployment",
+    "index.js package",
+    "instance package",
+    "polyfills package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

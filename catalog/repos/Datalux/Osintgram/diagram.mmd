@@ -1,0 +1,28 @@
+%% Repository: Datalux/Osintgram
+%% Analysed commit: a560498be79a3bf40d7f3b203ad174661b8e81e7
+%% Commit reference: https://github.com/Datalux/Osintgram/commit/a560498be79a3bf40d7f3b203ad174661b8e81e7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        artwork_py["artwork.py package"]
+        instagrapi_backend_py["instagrapi_backend.py package"]
+        web["web package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    service_layer -->|imports| external_integrations
+    tests -->|imports| external_integrations
+    web -->|imports| external_integrations

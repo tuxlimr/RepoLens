@@ -1,0 +1,63 @@
+{
+  "owner": "bvaughn",
+  "name": "react-virtualized",
+  "full_name": "bvaughn/react-virtualized",
+  "html_url": "https://github.com/bvaughn/react-virtualized",
+  "description": "React components for efficiently rendering large lists and tabular data",
+  "stars": 27067,
+  "forks": 3009,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "grid",
+    "list",
+    "listview",
+    "performance",
+    "react",
+    "react-components",
+    "tabular-data",
+    "virtualization",
+    "windowing"
+  ],
+  "archived": false,
+  "commit_sha": "d54281d5d4f0e93746009a5513ce350ced8ef4bf",
+  "commit_url": "https://github.com/bvaughn/react-virtualized/commit/d54281d5d4f0e93746009a5513ce350ced8ef4bf",
+  "tree_url": "https://github.com/bvaughn/react-virtualized/tree/d54281d5d4f0e93746009a5513ce350ced8ef4bf",
+  "analysed_at": "2026-11-14T19:13:04.696652+00:00",
+  "status": "completed",
+  "files_fetched": 408,
+  "files_analysed": 404,
+  "components": [
+    "API layer",
+    "App.tsx package",
+    "codemods package",
+    "components package",
+    "Configuration and deployment",
+    "constants.ts package",
+    "Core modules",
+    "External integrations",
+    "lib package",
+    "routes.ts package",
+    "scripts package",
+    "Tests",
+    "utils package",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "integrations/tests/src/index.ts",
+    "index.tsx",
+    "integrations/vite/src/main.tsx",
+    "lib/index.ts",
+    "src/App.tsx"
+  ]
+}

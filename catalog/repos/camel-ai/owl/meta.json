@@ -1,0 +1,60 @@
+{
+  "owner": "camel-ai",
+  "name": "owl",
+  "full_name": "camel-ai/owl",
+  "html_url": "https://github.com/camel-ai/owl",
+  "description": "\ud83e\udd89 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+  "stars": 20193,
+  "forks": 2287,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "artificial-intelligence",
+    "multi-agent-systems",
+    "task-automation",
+    "web-interaction"
+  ],
+  "archived": false,
+  "commit_sha": "5dbabd348c87278060a9885ae3080e3d312eac84",
+  "commit_url": "https://github.com/camel-ai/owl/commit/5dbabd348c87278060a9885ae3080e3d312eac84",
+  "tree_url": "https://github.com/camel-ai/owl/tree/5dbabd348c87278060a9885ae3080e3d312eac84",
+  "analysed_at": "2026-11-14T19:08:03.945858+00:00",
+  "status": "completed",
+  "files_fetched": 131,
+  "files_analysed": 131,
+  "components": [
+    "community_usecase package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "owl package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "community_usecase/a_share_investment_agent_camel/src/main.py",
+    "community_usecase/Airbnb-MCP/Airbnb_MCP.py",
+    "community_usecase/Mcp_use_case/Content_curator.py",
+    "community_usecase/Notion-MCP/notion_manager.py",
+    "community_usecase/OWL Interview Preparation Assistant/app.py",
+    "community_usecase/OWL Interview Preparation Assistant/main.py",
+    "community_usecase/PHI_Sanitization_Summarization_and_Article_Writing/project.py",
+    "community_usecase/Puppeteer MCP/demo.py",
+    "community_usecase/Whatsapp-MCP/app.py",
+    "community_usecase/cooking-assistant/run_gpt4o.py",
+    "community_usecase/excel_analyzer/data_analyzer_en.py",
+    "community_usecase/excel_analyzer/data_analyzer_zh.py"
+  ]
+}

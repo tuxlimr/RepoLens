@@ -1,0 +1,59 @@
+{
+  "owner": "caronc",
+  "name": "apprise",
+  "full_name": "caronc/apprise",
+  "html_url": "https://github.com/caronc/apprise",
+  "description": "Apprise - Push Notifications that work with just about every platform!",
+  "stars": 17765,
+  "forks": 700,
+  "license": "BSD-2-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "alerts",
+    "apprise",
+    "framework",
+    "notification-api",
+    "notification-hub",
+    "notification-service",
+    "notifications",
+    "notifier",
+    "notify",
+    "push-notifications",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "c6f76f3599ec9bc1591abfd4fc8c27a5124f88fa",
+  "commit_url": "https://github.com/caronc/apprise/commit/c6f76f3599ec9bc1591abfd4fc8c27a5124f88fa",
+  "tree_url": "https://github.com/caronc/apprise/tree/c6f76f3599ec9bc1591abfd4fc8c27a5124f88fa",
+  "analysed_at": "2026-11-14T19:08:29.435237+00:00",
+  "status": "completed",
+  "files_fetched": 391,
+  "files_analysed": 390,
+  "components": [
+    "apprise package",
+    "bin package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "packaging package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "RabbitMQ (pika)",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "apprise/cli.py",
+    "packaging/i18n_status.py",
+    "packaging/verify_translations.py"
+  ]
+}

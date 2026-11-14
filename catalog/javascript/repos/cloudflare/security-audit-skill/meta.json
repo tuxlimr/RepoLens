@@ -1,0 +1,27 @@
+{
+  "owner": "cloudflare",
+  "name": "security-audit-skill",
+  "full_name": "cloudflare/security-audit-skill",
+  "html_url": "https://github.com/cloudflare/security-audit-skill",
+  "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+  "stars": 72484,
+  "forks": 4840,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+  "commit_url": "https://github.com/cloudflare/security-audit-skill/commit/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+  "tree_url": "https://github.com/cloudflare/security-audit-skill/tree/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+  "analysed_at": "2026-11-14T19:10:33.869637+00:00",
+  "status": "completed",
+  "files_fetched": 22,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "skills package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

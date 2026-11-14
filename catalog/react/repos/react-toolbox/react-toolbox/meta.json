@@ -1,0 +1,44 @@
+{
+  "owner": "react-toolbox",
+  "name": "react-toolbox",
+  "full_name": "react-toolbox/react-toolbox",
+  "html_url": "https://github.com/react-toolbox/react-toolbox",
+  "description": "A set of React components implementing Google's Material Design specification with the power of CSS Modules",
+  "stars": 8603,
+  "forks": 972,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "css-modules",
+    "material-design",
+    "react",
+    "ui-kits"
+  ],
+  "archived": false,
+  "commit_sha": "799da67838531b6ea35e464c4817edb189f925ca",
+  "commit_url": "https://github.com/react-toolbox/react-toolbox/commit/799da67838531b6ea35e464c4817edb189f925ca",
+  "tree_url": "https://github.com/react-toolbox/react-toolbox/tree/799da67838531b6ea35e464c4817edb189f925ca",
+  "analysed_at": "2026-11-14T19:13:40.771110+00:00",
+  "status": "completed",
+  "files_fetched": 407,
+  "files_analysed": 407,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/react-toolbox/src/index.ts"
+  ]
+}

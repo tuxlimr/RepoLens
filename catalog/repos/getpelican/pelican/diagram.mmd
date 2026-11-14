@@ -1,0 +1,28 @@
+%% Repository: getpelican/pelican
+%% Analysed commit: e8748aba9ad0907a8801646e957b37a02709240d
+%% Commit reference: https://github.com/getpelican/pelican/commit/e8748aba9ad0907a8801646e957b37a02709240d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        pelican["pelican package"]
+        samples["samples package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| entrypoint
+    config -->|imports| pelican
+    entrypoint -->|imports| pelican
+    pelican -->|imports| config
+    pelican -->|imports| entrypoint
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| pelican

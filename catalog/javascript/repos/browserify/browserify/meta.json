@@ -1,0 +1,43 @@
+{
+  "owner": "browserify",
+  "name": "browserify",
+  "full_name": "browserify/browserify",
+  "html_url": "https://github.com/browserify/browserify",
+  "description": "browser-side require() the node.js way",
+  "stars": 14690,
+  "forks": 1201,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "browser",
+    "bundler",
+    "commonjs",
+    "javascript",
+    "module-bundler",
+    "modules"
+  ],
+  "archived": false,
+  "commit_sha": "cd60f059d7a8432f2c3acea7d4dfcb81b97e7a3d",
+  "commit_url": "https://github.com/browserify/browserify/commit/cd60f059d7a8432f2c3acea7d4dfcb81b97e7a3d",
+  "tree_url": "https://github.com/browserify/browserify/tree/cd60f059d7a8432f2c3acea7d4dfcb81b97e7a3d",
+  "analysed_at": "2026-11-14T19:11:43.535155+00:00",
+  "status": "completed",
+  "files_fetched": 507,
+  "files_analysed": 433,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js",
+    "bin/cmd.js",
+    "test/subdep/index.js"
+  ]
+}

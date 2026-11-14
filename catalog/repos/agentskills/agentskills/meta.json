@@ -1,0 +1,38 @@
+{
+  "owner": "agentskills",
+  "name": "agentskills",
+  "full_name": "agentskills/agentskills",
+  "html_url": "https://github.com/agentskills/agentskills",
+  "description": "Specification and documentation for Agent Skills",
+  "stars": 27291,
+  "forks": 2031,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills"
+  ],
+  "archived": false,
+  "commit_sha": "83021e2be457a9b6679148719c1f6074f0ad975e",
+  "commit_url": "https://github.com/agentskills/agentskills/commit/83021e2be457a9b6679148719c1f6074f0ad975e",
+  "tree_url": "https://github.com/agentskills/agentskills/tree/83021e2be457a9b6679148719c1f6074f0ad975e",
+  "analysed_at": "2026-11-14T19:07:21.437089+00:00",
+  "status": "completed",
+  "files_fetched": 134,
+  "files_analysed": 133,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "skills-ref package",
+    "Tests"
+  ],
+  "detections": [
+    "Click",
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "skills-ref/src/skills_ref/cli.py"
+  ]
+}

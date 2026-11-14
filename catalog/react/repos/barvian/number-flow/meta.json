@@ -1,0 +1,55 @@
+{
+  "owner": "barvian",
+  "name": "number-flow",
+  "full_name": "barvian/number-flow",
+  "html_url": "https://github.com/barvian/number-flow",
+  "description": "An animated number component for React, Vue, Svelte, and TS/JS.",
+  "stars": 7809,
+  "forks": 164,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "accessible",
+    "animation",
+    "odometer",
+    "react",
+    "svelte",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "c5906cf35c86583e756a6b91e043291c10b416e0",
+  "commit_url": "https://github.com/barvian/number-flow/commit/c5906cf35c86583e756a6b91e043291c10b416e0",
+  "tree_url": "https://github.com/barvian/number-flow/tree/c5906cf35c86583e756a6b91e043291c10b416e0",
+  "analysed_at": "2026-11-14T19:13:45.499680+00:00",
+  "status": "completed",
+  "files_fetched": 373,
+  "files_analysed": 371,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "packages package",
+    "site package",
+    "test-suites package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Svelte",
+    "Vue",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/number-flow/src/index.ts",
+    "packages/react/src/index.tsx",
+    "packages/vue/src/index.ts"
+  ]
+}

@@ -1,0 +1,23 @@
+%% Repository: soimort/you-get
+%% Analysed commit: 049548f3f3f35e67ba8d3181c71fdc71d11cf260
+%% Commit reference: https://github.com/soimort/you-get/commit/049548f3f3f35e67ba8d3181c71fdc71d11cf260
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        you_get["you_get package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| you_get
+    tests -->|imports| you_get
+    you_get -->|imports| entrypoint
+    you_get -->|imports| external_integrations

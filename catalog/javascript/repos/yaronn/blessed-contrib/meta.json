@@ -1,0 +1,31 @@
+{
+  "owner": "yaronn",
+  "name": "blessed-contrib",
+  "full_name": "yaronn/blessed-contrib",
+  "html_url": "https://github.com/yaronn/blessed-contrib",
+  "description": "Build terminal dashboards using ascii/ansi art and javascript",
+  "stars": 15772,
+  "forks": 832,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "587d0efc4c63166a1cf3274f7bdc4dd8a8d9da1e",
+  "commit_url": "https://github.com/yaronn/blessed-contrib/commit/587d0efc4c63166a1cf3274f7bdc4dd8a8d9da1e",
+  "tree_url": "https://github.com/yaronn/blessed-contrib/tree/587d0efc4c63166a1cf3274f7bdc4dd8a8d9da1e",
+  "analysed_at": "2026-11-14T19:11:35.955845+00:00",
+  "status": "completed",
+  "files_fetched": 66,
+  "files_analysed": 65,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "owner": "gitalk",
+  "name": "gitalk",
+  "full_name": "gitalk/gitalk",
+  "html_url": "https://github.com/gitalk/gitalk",
+  "description": "Gitalk \u2014 a comment component based on GitHub Discussions (current, 2.x). The GitHub Issues based 1.x line is end-of-life.",
+  "stars": 7154,
+  "forks": 614,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "comment",
+    "github",
+    "github-issues",
+    "plugin",
+    "preact",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "b1b478e877fac68d6632b843b00c33d3f32c2dad",
+  "commit_url": "https://github.com/gitalk/gitalk/commit/b1b478e877fac68d6632b843b00c33d3f32c2dad",
+  "tree_url": "https://github.com/gitalk/gitalk/tree/b1b478e877fac68d6632b843b00c33d3f32c2dad",
+  "analysed_at": "2026-11-14T19:13:59.630771+00:00",
+  "status": "completed",
+  "files_fetched": 191,
+  "files_analysed": 189,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "Tailwind CSS",
+    "Docker",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/proxy-core/src/index.ts",
+    "apps/demo-react/src/app.tsx",
+    "apps/demo-react/src/main.tsx",
+    "apps/demo-vue/src/main.ts",
+    "apps/landing/src/app.tsx",
+    "apps/landing/src/main.tsx",
+    "packages/core/src/index.ts",
+    "packages/proxy-node/src/server.ts",
+    "packages/proxy-worker/src/index.ts",
+    "packages/react/src/index.tsx",
+    "packages/vue/src/index.ts"
+  ]
+}

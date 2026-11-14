@@ -1,0 +1,57 @@
+{
+  "owner": "evanw",
+  "name": "esbuild",
+  "full_name": "evanw/esbuild",
+  "html_url": "https://github.com/evanw/esbuild",
+  "description": "An extremely fast bundler for the web",
+  "stars": 40133,
+  "forks": 1380,
+  "license": "MIT",
+  "language": "Go",
+  "default_branch": "main",
+  "topics": [
+    "bundler",
+    "commonjs",
+    "compiler",
+    "css",
+    "esm",
+    "javascript",
+    "jsx",
+    "minifier",
+    "react",
+    "tsx",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+  "commit_url": "https://github.com/evanw/esbuild/commit/f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+  "tree_url": "https://github.com/evanw/esbuild/tree/f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+  "analysed_at": "2026-11-14T19:12:59.974958+00:00",
+  "status": "completed",
+  "files_fetched": 331,
+  "files_analysed": 322,
+  "components": [
+    "API layer",
+    "cmd package",
+    "compat-table package",
+    "Configuration and deployment",
+    "Core modules",
+    "internal package",
+    "lib package",
+    "pkg package",
+    "require package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "compat-table/src/index.ts",
+    "require/yarnpnp/bar/index.js",
+    "require/yarnpnp/foo/index.js"
+  ]
+}

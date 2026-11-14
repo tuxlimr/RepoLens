@@ -1,0 +1,49 @@
+{
+  "owner": "mixmark-io",
+  "name": "turndown",
+  "full_name": "mixmark-io/turndown",
+  "html_url": "https://github.com/mixmark-io/turndown",
+  "description": "\ud83d\udecf An HTML to Markdown converter written in JavaScript",
+  "stars": 11511,
+  "forks": 1002,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "browser",
+    "commonmark",
+    "gfm",
+    "html",
+    "html-to-markdown",
+    "javascript",
+    "markdown",
+    "node"
+  ],
+  "archived": false,
+  "commit_sha": "b86e2b18539fa4922acf7001902255e2ce5bf0b9",
+  "commit_url": "https://github.com/mixmark-io/turndown/commit/b86e2b18539fa4922acf7001902255e2ce5bf0b9",
+  "tree_url": "https://github.com/mixmark-io/turndown/tree/b86e2b18539fa4922acf7001902255e2ce5bf0b9",
+  "analysed_at": "2026-11-14T19:12:17.417710+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "bench package",
+    "collapse-whitespace.js package",
+    "commonmark-rules.js package",
+    "Configuration and deployment",
+    "html-parser.js package",
+    "node.js package",
+    "root-node.js package",
+    "rules.js package",
+    "Tests",
+    "turndown.js package",
+    "utilities.js package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "bench/index.js"
+  ]
+}

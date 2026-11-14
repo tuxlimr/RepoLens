@@ -1,0 +1,46 @@
+{
+  "owner": "ayghri",
+  "name": "i-have-adhd",
+  "full_name": "ayghri/i-have-adhd",
+  "html_url": "https://github.com/ayghri/i-have-adhd",
+  "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+  "stars": 61183,
+  "forks": 3587,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "adhd",
+    "claude-",
+    "claude-code-plugin",
+    "claude-skills",
+    "developer-tools",
+    "productivity"
+  ],
+  "archived": false,
+  "commit_sha": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+  "commit_url": "https://github.com/ayghri/i-have-adhd/commit/1ecea1993b7fce257ffbd686c070948b5e07eda6",
+  "tree_url": "https://github.com/ayghri/i-have-adhd/tree/1ecea1993b7fce257ffbd686c070948b5e07eda6",
+  "analysed_at": "2026-11-14T19:06:20.928338+00:00",
+  "status": "completed",
+  "files_fetched": 73,
+  "files_analysed": 73,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "extensions package",
+    "hooks package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/check_pi_extension.py",
+    "scripts/judge.py",
+    "scripts/run_evals.py",
+    "scripts/run_scenario_eval.py"
+  ]
+}

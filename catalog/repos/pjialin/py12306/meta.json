@@ -1,0 +1,44 @@
+{
+  "owner": "pjialin",
+  "name": "py12306",
+  "full_name": "pjialin/py12306",
+  "html_url": "https://github.com/pjialin/py12306",
+  "description": "\ud83d\ude82 12306 \u8d2d\u7968\u52a9\u624b\uff0c\u652f\u6301\u96c6\u7fa4\uff0c\u591a\u8d26\u53f7\uff0c\u591a\u4efb\u52a1\u8d2d\u7968\u4ee5\u53ca Web \u9875\u9762\u7ba1\u7406 ",
+  "stars": 14970,
+  "forks": 3564,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "52ccae8b206b828624f185bf8178e1057c6b5fb9",
+  "commit_url": "https://github.com/pjialin/py12306/commit/52ccae8b206b828624f185bf8178e1057c6b5fb9",
+  "tree_url": "https://github.com/pjialin/py12306/tree/52ccae8b206b828624f185bf8178e1057c6b5fb9",
+  "analysed_at": "2026-11-14T19:09:10.590130+00:00",
+  "status": "completed",
+  "files_fetched": 68,
+  "files_analysed": 68,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "py12306 package"
+  ],
+  "detections": [
+    "Redis",
+    "Flask",
+    "Click",
+    "requests",
+    "Docker"
+  ],
+  "entry_points": [
+    "main.py",
+    "py12306/helpers/OCR.py",
+    "py12306/helpers/auth_code.py",
+    "py12306/helpers/cdn.py",
+    "py12306/helpers/notification.py",
+    "py12306/vender/ruokuai/main.py",
+    "py12306/web/web.py"
+  ]
+}

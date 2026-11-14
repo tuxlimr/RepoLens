@@ -1,0 +1,21 @@
+%% Repository: middleapi/orpc
+%% Analysed commit: ab64ed68ffadeb2b7da6a7a5ae008e1a05205ffc
+%% Commit reference: https://github.com/middleapi/orpc/commit/ab64ed68ffadeb2b7da6a7a5ae008e1a05205ffc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        benches["benches package"]
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

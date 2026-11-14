@@ -1,0 +1,27 @@
+%% Repository: xinntao/Real-ESRGAN
+%% Analysed commit: a4abfb2979a7bbff3f69f58f58ae324608821e27
+%% Commit reference: https://github.com/xinntao/Real-ESRGAN/commit/a4abfb2979a7bbff3f69f58f58ae324608821e27
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        realesrgan["realesrgan package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| realesrgan
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| realesrgan
+    tests -->|imports| data_layer
+    tests -->|imports| realesrgan

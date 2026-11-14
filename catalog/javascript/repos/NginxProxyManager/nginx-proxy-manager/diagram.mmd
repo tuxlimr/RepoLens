@@ -1,0 +1,21 @@
+%% Repository: NginxProxyManager/nginx-proxy-manager
+%% Analysed commit: 66ab4b24d1a07587ec0d481740ce57abefbebfaa
+%% Commit reference: https://github.com/NginxProxyManager/nginx-proxy-manager/commit/66ab4b24d1a07587ec0d481740ce57abefbebfaa
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        docker["docker package"]
+        frontend["frontend package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

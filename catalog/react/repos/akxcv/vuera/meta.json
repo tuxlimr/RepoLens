@@ -1,0 +1,48 @@
+{
+  "owner": "akxcv",
+  "name": "vuera",
+  "full_name": "akxcv/vuera",
+  "html_url": "https://github.com/akxcv/vuera",
+  "description": ":eyes: Vue in React, React in Vue. Seamless integration of the two. :dancers:",
+  "stars": 4278,
+  "forks": 237,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "babel-plugin",
+    "interop",
+    "migrate",
+    "react",
+    "seamless-integration",
+    "vue",
+    "vue-plugin"
+  ],
+  "archived": true,
+  "commit_sha": "6322eba843982917e9585d5ee705576a7d42788d",
+  "commit_url": "https://github.com/akxcv/vuera/commit/6322eba843982917e9585d5ee705576a7d42788d",
+  "tree_url": "https://github.com/akxcv/vuera/tree/6322eba843982917e9585d5ee705576a7d42788d",
+  "analysed_at": "2026-11-14T19:14:50.101087+00:00",
+  "status": "completed",
+  "files_fetched": 60,
+  "files_analysed": 56,
+  "components": [
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "index.js package",
+    "resolvers package",
+    "Tests",
+    "utils package",
+    "VuePlugin.js package",
+    "wrappers package"
+  ],
+  "detections": [
+    "React",
+    "Vue",
+    "Jest"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

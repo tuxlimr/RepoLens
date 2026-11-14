@@ -1,0 +1,44 @@
+{
+  "owner": "zarazhangrui",
+  "name": "frontend-slides",
+  "full_name": "zarazhangrui/frontend-slides",
+  "html_url": "https://github.com/zarazhangrui/frontend-slides",
+  "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+  "stars": 32326,
+  "forks": 2464,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "ai-slides",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "claude-skill",
+    "generative-ui",
+    "html",
+    "presentation",
+    "slides",
+    "vibe-coding"
+  ],
+  "archived": false,
+  "commit_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+  "commit_url": "https://github.com/zarazhangrui/frontend-slides/commit/9906a34d640d2111f724544cbc50f7f130569ae1",
+  "tree_url": "https://github.com/zarazhangrui/frontend-slides/tree/9906a34d640d2111f724544cbc50f7f130569ae1",
+  "analysed_at": "2026-11-14T19:10:45.237423+00:00",
+  "status": "completed",
+  "files_fetched": 163,
+  "files_analysed": 163,
+  "components": [
+    "bold-template-pack package",
+    "Configuration and deployment",
+    "Application entry point",
+    "plugins package",
+    "scripts package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "plugins/frontend-slides/skills/frontend-slides/scripts/extract-pptx.py",
+    "scripts/extract-pptx.py"
+  ]
+}

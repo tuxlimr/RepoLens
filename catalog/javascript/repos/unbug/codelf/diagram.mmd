@@ -1,0 +1,24 @@
+%% Repository: unbug/codelf
+%% Analysed commit: 0bfb88a8d297ca0f65abbf8f83f7826311df42a3
+%% Commit reference: https://github.com/unbug/codelf/commit/0bfb88a8d297ca0f65abbf8f83f7826311df42a3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app_js["App.js package"]
+        build_system["build-system package"]
+        components["components package"]
+        constants["constants package"]
+        containers["containers package"]
+        static["__static package"]
+        sw_js["sw.js package"]
+        utils["utils package"]
+        vendors["vendors package"]
+    end

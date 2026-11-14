@@ -1,0 +1,30 @@
+{
+  "owner": "jupyter",
+  "name": "jupyter",
+  "full_name": "jupyter/jupyter",
+  "html_url": "https://github.com/jupyter/jupyter",
+  "description": "Jupyter metapackage for installation and documentation",
+  "stars": 15348,
+  "forks": 4565,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6b5eb0f469c7bc3ea43d6d2a0ba1057853c9a3a5",
+  "commit_url": "https://github.com/jupyter/jupyter/commit/6b5eb0f469c7bc3ea43d6d2a0ba1057853c9a3a5",
+  "tree_url": "https://github.com/jupyter/jupyter/tree/6b5eb0f469c7bc3ea43d6d2a0ba1057853c9a3a5",
+  "analysed_at": "2026-11-14T19:09:04.047097+00:00",
+  "status": "completed",
+  "files_fetched": 200,
+  "files_analysed": 200,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools"
+  ],
+  "entry_points": []
+}

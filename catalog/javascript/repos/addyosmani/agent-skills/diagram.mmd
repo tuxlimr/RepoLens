@@ -1,0 +1,19 @@
+%% Repository: addyosmani/agent-skills
+%% Analysed commit: 39b723ceebf81474d0557c1fecd01eddab585563
+%% Commit reference: https://github.com/addyosmani/agent-skills/commit/39b723ceebf81474d0557c1fecd01eddab585563
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        evals["evals package"]
+        hooks["hooks package"]
+        scripts["scripts package"]
+        skills["skills package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

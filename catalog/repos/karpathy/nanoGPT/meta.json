@@ -1,0 +1,35 @@
+{
+  "owner": "karpathy",
+  "name": "nanoGPT",
+  "full_name": "karpathy/nanoGPT",
+  "html_url": "https://github.com/karpathy/nanoGPT",
+  "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+  "stars": 64748,
+  "forks": 11143,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+  "commit_url": "https://github.com/karpathy/nanoGPT/commit/3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+  "tree_url": "https://github.com/karpathy/nanoGPT/tree/3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+  "analysed_at": "2026-11-14T19:06:20.025838+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 23,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "NumPy",
+    "requests"
+  ],
+  "entry_points": [
+    "data/openwebtext/prepare.py"
+  ]
+}

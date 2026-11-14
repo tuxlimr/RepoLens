@@ -1,0 +1,23 @@
+%% Repository: carbon-app/carbon
+%% Analysed commit: 3e9efcc506bdccb6d3834f66f30f8e883f80e49d
+%% Commit reference: https://github.com/carbon-app/carbon/commit/3e9efcc506bdccb6d3834f66f30f8e883f80e49d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        components["components package"]
+        cypress["cypress package"]
+        lib["lib package"]
+        pages["pages package"]
+    end

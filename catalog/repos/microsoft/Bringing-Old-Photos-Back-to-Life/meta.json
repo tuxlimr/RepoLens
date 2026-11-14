@@ -1,0 +1,53 @@
+{
+  "owner": "microsoft",
+  "name": "Bringing-Old-Photos-Back-to-Life",
+  "full_name": "microsoft/Bringing-Old-Photos-Back-to-Life",
+  "html_url": "https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life",
+  "description": "Bringing Old Photo Back to Life (CVPR 2020 oral)",
+  "stars": 15691,
+  "forks": 2081,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "gans",
+    "generative-adversarial-network",
+    "image-manipulation",
+    "image-restoration",
+    "old-photo-restoration",
+    "photo-restoration",
+    "photos",
+    "pytorch"
+  ],
+  "archived": true,
+  "commit_sha": "33875eccf4ebcd3665cf38cc56f3a0ce563d3a9c",
+  "commit_url": "https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/commit/33875eccf4ebcd3665cf38cc56f3a0ce563d3a9c",
+  "tree_url": "https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/tree/33875eccf4ebcd3665cf38cc56f3a0ce563d3a9c",
+  "analysed_at": "2026-11-14T19:09:00.680177+00:00",
+  "status": "completed",
+  "files_fetched": 75,
+  "files_analysed": 75,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "Face_Enhancement package",
+    "Global package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "Docker"
+  ],
+  "entry_points": [
+    "Face_Detection/align_warp_back_multiple_dlib.py",
+    "Face_Detection/align_warp_back_multiple_dlib_HR.py",
+    "Face_Detection/detect_all_dlib.py",
+    "Face_Detection/detect_all_dlib_HR.py",
+    "Global/detection.py",
+    "Global/detection_models/networks.py",
+    "Global/test.py",
+    "run.py"
+  ]
+}

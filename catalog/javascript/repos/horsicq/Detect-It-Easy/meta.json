@@ -1,0 +1,55 @@
+{
+  "owner": "horsicq",
+  "name": "Detect-It-Easy",
+  "full_name": "horsicq/Detect-It-Easy",
+  "html_url": "https://github.com/horsicq/Detect-It-Easy",
+  "description": "Program for determining types of files for Windows, Linux and MacOS.",
+  "stars": 11950,
+  "forks": 1000,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "binary-analysis",
+    "debugger",
+    "detect",
+    "detector",
+    "disassembler",
+    "elf",
+    "entropy",
+    "hacktoberfest",
+    "hacktoberfest2023",
+    "mach-o",
+    "macho",
+    "malware-analysis",
+    "malware-research",
+    "packer",
+    "pentest",
+    "program-analysis",
+    "reverse-engineering",
+    "scanner",
+    "static-analysis",
+    "unpacker"
+  ],
+  "archived": false,
+  "commit_sha": "ed70c31e6a5e9655d1d94e717b9378ecc8019fed",
+  "commit_url": "https://github.com/horsicq/Detect-It-Easy/commit/ed70c31e6a5e9655d1d94e717b9378ecc8019fed",
+  "tree_url": "https://github.com/horsicq/Detect-It-Easy/tree/ed70c31e6a5e9655d1d94e717b9378ecc8019fed",
+  "analysed_at": "2026-11-14T19:12:12.882491+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 447,
+  "components": [
+    "autotools package",
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": [
+    "autotools/dbupdater/task.py",
+    "autotools/dbcompiler/task.js"
+  ]
+}

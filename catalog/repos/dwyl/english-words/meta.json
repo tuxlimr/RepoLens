@@ -1,0 +1,30 @@
+{
+  "owner": "dwyl",
+  "name": "english-words",
+  "full_name": "dwyl/english-words",
+  "html_url": "https://github.com/dwyl/english-words",
+  "description": ":memo: A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion",
+  "stars": 12331,
+  "forks": 2014,
+  "license": "Unlicense",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "20f5cc9b3f0ccc8ce45d814c532b7c2031bba31c",
+  "commit_url": "https://github.com/dwyl/english-words/commit/20f5cc9b3f0ccc8ce45d814c532b7c2031bba31c",
+  "tree_url": "https://github.com/dwyl/english-words/tree/20f5cc9b3f0ccc8ce45d814c532b7c2031bba31c",
+  "analysed_at": "2026-11-14T19:10:10.563191+00:00",
+  "status": "completed",
+  "files_fetched": 10,
+  "files_analysed": 10,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "read_english_dictionary.py"
+  ]
+}

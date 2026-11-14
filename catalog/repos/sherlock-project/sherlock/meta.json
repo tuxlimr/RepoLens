@@ -1,0 +1,59 @@
+{
+  "owner": "sherlock-project",
+  "name": "sherlock",
+  "full_name": "sherlock-project/sherlock",
+  "html_url": "https://github.com/sherlock-project/sherlock",
+  "description": "Hunt down social media accounts by username across social networks",
+  "stars": 111684,
+  "forks": 12924,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering",
+    "infosec",
+    "linux",
+    "osint",
+    "pentesting",
+    "python",
+    "python3",
+    "reconnaissance",
+    "redteam",
+    "sherlock",
+    "tools"
+  ],
+  "archived": false,
+  "commit_sha": "c588d7c8b476df9f9c84912a05d1430fb8cdcdae",
+  "commit_url": "https://github.com/sherlock-project/sherlock/commit/c588d7c8b476df9f9c84912a05d1430fb8cdcdae",
+  "tree_url": "https://github.com/sherlock-project/sherlock/tree/c588d7c8b476df9f9c84912a05d1430fb8cdcdae",
+  "analysed_at": "2026-11-14T19:06:07.117618+00:00",
+  "status": "completed",
+  "files_fetched": 51,
+  "files_analysed": 51,
+  "components": [
+    "Configuration and deployment",
+    "devel package",
+    "Application entry point",
+    "External integrations",
+    "sherlock_project package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "pandas",
+    "requests",
+    "Poetry",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "devel/summarize_site_validation.py",
+    "sherlock_project/__main__.py",
+    "sherlock_project/sherlock.py"
+  ]
+}

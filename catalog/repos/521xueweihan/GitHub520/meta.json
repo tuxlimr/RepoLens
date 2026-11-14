@@ -1,0 +1,39 @@
+{
+  "owner": "521xueweihan",
+  "name": "GitHub520",
+  "full_name": "521xueweihan/GitHub520",
+  "html_url": "https://github.com/521xueweihan/GitHub520",
+  "description": ":kissing_heart: \u8ba9\u4f60\u201c\u7231\u201d\u4e0a GitHub\uff0c\u89e3\u51b3\u8bbf\u95ee\u65f6\u56fe\u88c2\u3001\u52a0\u8f7d\u6162\u7684\u95ee\u9898\u3002\uff08\u65e0\u9700\u5b89\u88c5\uff09",
+  "stars": 30309,
+  "forks": 2773,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "dns",
+    "github",
+    "hosts"
+  ],
+  "archived": false,
+  "commit_sha": "617d378e97c54362c44d27a502611a8df72d1a0c",
+  "commit_url": "https://github.com/521xueweihan/GitHub520/commit/617d378e97c54362c44d27a502611a8df72d1a0c",
+  "tree_url": "https://github.com/521xueweihan/GitHub520/tree/617d378e97c54362c44d27a502611a8df72d1a0c",
+  "analysed_at": "2026-11-14T19:07:10.182638+00:00",
+  "status": "completed",
+  "files_fetched": 12,
+  "files_analysed": 12,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests"
+  ],
+  "entry_points": [
+    "fetch_ips.py",
+    "update_ips.py"
+  ]
+}

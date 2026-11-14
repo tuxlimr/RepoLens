@@ -1,0 +1,27 @@
+%% Repository: MithrilJS/mithril.js
+%% Analysed commit: 092989a259f2eba05b406a024cca89bd97417f92
+%% Commit reference: https://github.com/MithrilJS/mithril.js/commit/092989a259f2eba05b406a024cca89bd97417f92
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        pathname["pathname package"]
+        performance["performance package"]
+        querystring["querystring package"]
+        render["render package"]
+        request["request package"]
+        scripts["scripts package"]
+        stream["stream package"]
+        test_utils["test-utils package"]
+        util["util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

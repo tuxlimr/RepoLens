@@ -1,0 +1,21 @@
+%% Repository: mixmark-io/turndown
+%% Analysed commit: b86e2b18539fa4922acf7001902255e2ce5bf0b9
+%% Commit reference: https://github.com/mixmark-io/turndown/commit/b86e2b18539fa4922acf7001902255e2ce5bf0b9
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        bench["bench package"]
+        collapse_whitespace_js["collapse-whitespace.js package"]
+        commonmark_rules_js["commonmark-rules.js package"]
+        html_parser_js["html-parser.js package"]
+        node_js["node.js package"]
+        root_node_js["root-node.js package"]
+        rules_js["rules.js package"]
+        turndown_js["turndown.js package"]
+        utilities_js["utilities.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

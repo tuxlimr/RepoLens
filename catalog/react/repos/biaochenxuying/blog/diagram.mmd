@@ -1,0 +1,24 @@
+%% Repository: biaochenxuying/blog
+%% Analysed commit: 87e37f1b557c6613c4e7cf3d444f47e364ba7f2a
+%% Commit reference: https://github.com/biaochenxuying/blog/commit/87e37f1b557c6613c4e7cf3d444f47e364ba7f2a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        blog_gitbook["blog-gitbook package"]
+        blog_vuepress["blog-vuepress package"]
+        typescript_in_action["typescript-in-action package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

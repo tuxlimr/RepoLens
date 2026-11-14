@@ -1,0 +1,61 @@
+%% Repository: EverMind-AI/EverOS
+%% Analysed commit: 489ac7e921a81cf82cc9273674a0fa2429b861eb
+%% Commit reference: https://github.com/EverMind-AI/EverOS/commit/489ac7e921a81cf82cc9273674a0fa2429b861eb
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        deploy["deploy package"]
+        everos["everos package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| everos
+    api_layer -->|imports| service_layer
+    config -->|imports| everos
+    config -->|imports| service_layer
+    data_layer -->|imports| config
+    data_layer -->|imports| everos
+    data_layer -->|imports| service_layer
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| everos
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| tests
+    everos -->|imports| config
+    everos -->|imports| data_layer
+    everos -->|imports| entrypoint
+    everos -->|imports| external_integrations
+    everos -->|imports| service_layer
+    external_integrations -->|imports| benchmarks
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| everos
+    service_layer -->|imports| external_integrations
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| everos
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

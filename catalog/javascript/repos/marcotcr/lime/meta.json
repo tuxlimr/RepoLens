@@ -1,0 +1,40 @@
+{
+  "owner": "marcotcr",
+  "name": "lime",
+  "full_name": "marcotcr/lime",
+  "html_url": "https://github.com/marcotcr/lime",
+  "description": "Lime: Explaining the predictions of any machine learning classifier",
+  "stars": 12170,
+  "forks": 1851,
+  "license": "BSD-2-Clause",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "fd7eb2e6f760619c29fca0187c07b82157601b32",
+  "commit_url": "https://github.com/marcotcr/lime/commit/fd7eb2e6f760619c29fca0187c07b82157601b32",
+  "tree_url": "https://github.com/marcotcr/lime/tree/fd7eb2e6f760619c29fca0187c07b82157601b32",
+  "analysed_at": "2026-11-14T19:12:09.458040+00:00",
+  "status": "completed",
+  "files_fetched": 49,
+  "files_analysed": 49,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "Application entry point",
+    "lime package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "setuptools",
+    "pytest",
+    "unittest",
+    "webpack"
+  ],
+  "entry_points": [
+    "benchmark/table_perf.py",
+    "benchmark/text_perf.py",
+    "lime/js/main.js"
+  ]
+}

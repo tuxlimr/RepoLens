@@ -1,0 +1,30 @@
+{
+  "owner": "kay-is",
+  "name": "react-from-zero",
+  "full_name": "kay-is/react-from-zero",
+  "html_url": "https://github.com/kay-is/react-from-zero",
+  "description": "A simple (99% ES2015 less) tutorial for React",
+  "stars": 4578,
+  "forks": 400,
+  "license": "GPL-2.0",
+  "language": "HTML",
+  "default_branch": "master",
+  "topics": [
+    "example",
+    "learning",
+    "lesson",
+    "react",
+    "tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "cccfe1c4747f84c72ce6882fa0bbd709f632cbb5",
+  "commit_url": "https://github.com/kay-is/react-from-zero/commit/cccfe1c4747f84c72ce6882fa0bbd709f632cbb5",
+  "tree_url": "https://github.com/kay-is/react-from-zero/tree/cccfe1c4747f84c72ce6882fa0bbd709f632cbb5",
+  "analysed_at": "2026-11-14T19:14:43.055129+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

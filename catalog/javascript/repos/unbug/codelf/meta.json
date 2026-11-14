@@ -1,0 +1,51 @@
+{
+  "owner": "unbug",
+  "name": "codelf",
+  "full_name": "unbug/codelf",
+  "html_url": "https://github.com/unbug/codelf",
+  "description": "A search tool helps dev to solve the naming things problem.",
+  "stars": 14120,
+  "forks": 955,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "atom-plugin",
+    "chrome-extension",
+    "codelf",
+    "naming",
+    "vscode-extension"
+  ],
+  "archived": false,
+  "commit_sha": "0bfb88a8d297ca0f65abbf8f83f7826311df42a3",
+  "commit_url": "https://github.com/unbug/codelf/commit/0bfb88a8d297ca0f65abbf8f83f7826311df42a3",
+  "tree_url": "https://github.com/unbug/codelf/tree/0bfb88a8d297ca0f65abbf8f83f7826311df42a3",
+  "analysed_at": "2026-11-14T19:11:47.057353+00:00",
+  "status": "completed",
+  "files_fetched": 127,
+  "files_analysed": 116,
+  "components": [
+    "App.js package",
+    "build-system package",
+    "components package",
+    "Configuration and deployment",
+    "constants package",
+    "containers package",
+    "Core modules",
+    "Data layer",
+    "__static package",
+    "sw.js package",
+    "utils package",
+    "vendors package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "webpack"
+  ],
+  "entry_points": [
+    "__static/app/src/App.js",
+    "build-system/server.js",
+    "src/App.js"
+  ]
+}

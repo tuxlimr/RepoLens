@@ -1,0 +1,14 @@
+%% Repository: megadose/holehe
+%% Analysed commit: 14da70f588538936b20d238783c5e28a0772a2b3
+%% Commit reference: https://github.com/megadose/holehe/commit/14da70f588538936b20d238783c5e28a0772a2b3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        holehe["holehe package"]
+    end
+    holehe -->|imports| external_integrations

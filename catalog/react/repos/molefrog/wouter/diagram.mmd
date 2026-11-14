@@ -1,0 +1,19 @@
+%% Repository: molefrog/wouter
+%% Analysed commit: 51b55c0dc1b2a16ca07954b8728b395325598d93
+%% Commit reference: https://github.com/molefrog/wouter/commit/51b55c0dc1b2a16ca07954b8728b395325598d93
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        packages["packages package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

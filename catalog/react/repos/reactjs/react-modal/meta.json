@@ -1,0 +1,46 @@
+{
+  "owner": "reactjs",
+  "name": "react-modal",
+  "full_name": "reactjs/react-modal",
+  "html_url": "https://github.com/reactjs/react-modal",
+  "description": "Accessible modal dialog component for React",
+  "stars": 7403,
+  "forks": 808,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "modal",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "e66ab51b65e6c03d9dfa283f026da1c7f9f6c9b0",
+  "commit_url": "https://github.com/reactjs/react-modal/commit/e66ab51b65e6c03d9dfa283f026da1c7f9f6c9b0",
+  "tree_url": "https://github.com/reactjs/react-modal/tree/e66ab51b65e6c03d9dfa283f026da1c7f9f6c9b0",
+  "analysed_at": "2026-11-14T19:13:51.560036+00:00",
+  "status": "completed",
+  "files_fetched": 84,
+  "files_analysed": 83,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "helpers package",
+    "index.js package",
+    "scripts package",
+    "specs package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "webpack"
+  ],
+  "entry_points": [
+    "scripts/changelog.py",
+    "specs/index.js",
+    "src/index.js"
+  ]
+}

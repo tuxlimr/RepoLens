@@ -1,0 +1,38 @@
+{
+  "owner": "Embedding",
+  "name": "Chinese-Word-Vectors",
+  "full_name": "Embedding/Chinese-Word-Vectors",
+  "html_url": "https://github.com/Embedding/Chinese-Word-Vectors",
+  "description": "100+ Chinese Word Vectors \u4e0a\u767e\u79cd\u9884\u8bad\u7ec3\u4e2d\u6587\u8bcd\u5411\u91cf ",
+  "stars": 12252,
+  "forks": 2320,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "chinese",
+    "chinese-word-segmentation",
+    "embedding",
+    "embeddings",
+    "vectors-trained",
+    "word-embeddings"
+  ],
+  "archived": false,
+  "commit_sha": "3096a475f79f218dde7b413dcc6b507d302b7f46",
+  "commit_url": "https://github.com/Embedding/Chinese-Word-Vectors/commit/3096a475f79f218dde7b413dcc6b507d302b7f46",
+  "tree_url": "https://github.com/Embedding/Chinese-Word-Vectors/tree/3096a475f79f218dde7b413dcc6b507d302b7f46",
+  "analysed_at": "2026-11-14T19:10:12.378493+00:00",
+  "status": "completed",
+  "files_fetched": 7,
+  "files_analysed": 7,
+  "components": [
+    "Application entry point"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "evaluation/ana_eval_dense.py",
+    "evaluation/ana_eval_sparse.py"
+  ]
+}

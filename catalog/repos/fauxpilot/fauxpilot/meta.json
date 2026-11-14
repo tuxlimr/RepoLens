@@ -1,0 +1,47 @@
+{
+  "owner": "fauxpilot",
+  "name": "fauxpilot",
+  "full_name": "fauxpilot/fauxpilot",
+  "html_url": "https://github.com/fauxpilot/fauxpilot",
+  "description": "FauxPilot - an open-source alternative to GitHub Copilot server",
+  "stars": 14649,
+  "forks": 637,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "788edd44f29b3a3c33136f956c8c20d055604438",
+  "commit_url": "https://github.com/fauxpilot/fauxpilot/commit/788edd44f29b3a3c33136f956c8c20d055604438",
+  "tree_url": "https://github.com/fauxpilot/fauxpilot/tree/788edd44f29b3a3c33136f956c8c20d055604438",
+  "analysed_at": "2026-11-14T19:09:22.290822+00:00",
+  "status": "completed",
+  "files_fetched": 111,
+  "files_analysed": 111,
+  "components": [
+    "Configuration and deployment",
+    "converter package",
+    "copilot_proxy package",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "python_backend package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "Uvicorn",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "converter/huggingface_gptj_convert.py",
+    "copilot_proxy/app.py"
+  ]
+}

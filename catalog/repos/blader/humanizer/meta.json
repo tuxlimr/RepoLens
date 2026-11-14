@@ -1,0 +1,43 @@
+{
+  "owner": "blader",
+  "name": "humanizer",
+  "full_name": "blader/humanizer",
+  "html_url": "https://github.com/blader/humanizer",
+  "description": "Agent skill that removes signs of AI-generated writing from text",
+  "stars": 69103,
+  "forks": 5429,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-humanizer",
+    "ai-writing",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "cursor",
+    "humanize-ai-text",
+    "humanizer",
+    "llm",
+    "prompt-engineering",
+    "writing-tools"
+  ],
+  "archived": false,
+  "commit_sha": "b48c832f0f809c1b5658edbb838c2521b72f2413",
+  "commit_url": "https://github.com/blader/humanizer/commit/b48c832f0f809c1b5658edbb838c2521b72f2413",
+  "tree_url": "https://github.com/blader/humanizer/tree/b48c832f0f809c1b5658edbb838c2521b72f2413",
+  "analysed_at": "2026-11-14T19:06:17.737433+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 15,
+  "components": [
+    "Configuration and deployment",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

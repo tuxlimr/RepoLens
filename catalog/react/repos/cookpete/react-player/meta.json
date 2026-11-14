@@ -1,0 +1,61 @@
+{
+  "owner": "cookpete",
+  "name": "react-player",
+  "full_name": "cookpete/react-player",
+  "html_url": "https://github.com/cookpete/react-player",
+  "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+  "stars": 10291,
+  "forks": 1201,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "audio",
+    "dailymotion",
+    "dash",
+    "facebook",
+    "hls",
+    "media",
+    "player",
+    "react",
+    "soundcloud",
+    "streamable",
+    "twitch",
+    "video",
+    "vimeo",
+    "wistia",
+    "youtube"
+  ],
+  "archived": false,
+  "commit_sha": "258fce939638a295f6a429ad683935254d1bfda2",
+  "commit_url": "https://github.com/cookpete/react-player/commit/258fce939638a295f6a429ad683935254d1bfda2",
+  "tree_url": "https://github.com/cookpete/react-player/tree/258fce939638a295f6a429ad683935254d1bfda2",
+  "analysed_at": "2026-11-14T19:13:31.241800+00:00",
+  "status": "completed",
+  "files_fetched": 45,
+  "files_analysed": 44,
+  "components": [
+    "Configuration and deployment",
+    "HtmlPlayer.tsx package",
+    "index.ts package",
+    "patterns.ts package",
+    "Player.tsx package",
+    "players.ts package",
+    "Preview.tsx package",
+    "props.ts package",
+    "ReactPlayer.tsx package",
+    "scripts package",
+    "Tests",
+    "types.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "scripts/builder/builder.js",
+    "scripts/tester/tester.js",
+    "src/index.ts"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "owner": "neutrinojs",
+  "name": "neutrino",
+  "full_name": "neutrinojs/neutrino",
+  "html_url": "https://github.com/neutrinojs/neutrino",
+  "description": "Create and build modern JavaScript projects with zero initial configuration.",
+  "stars": 3903,
+  "forks": 208,
+  "license": "MPL-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "build-tool",
+    "javascript",
+    "middleware",
+    "neutrino",
+    "preact",
+    "presets",
+    "react",
+    "vue",
+    "webpack",
+    "zero-config",
+    "zero-configuration"
+  ],
+  "archived": true,
+  "commit_sha": "f9d476446983684225545159f58bbed2a93ca824",
+  "commit_url": "https://github.com/neutrinojs/neutrino/commit/f9d476446983684225545159f58bbed2a93ca824",
+  "tree_url": "https://github.com/neutrinojs/neutrino/tree/f9d476446983684225545159f58bbed2a93ca824",
+  "analysed_at": "2026-11-14T19:14:58.814177+00:00",
+  "status": "completed",
+  "files_fetched": 245,
+  "files_analysed": 244,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/airbnb-base/index.js",
+    "packages/airbnb/index.js",
+    "packages/banner/index.js",
+    "packages/clean/index.js",
+    "packages/compile-loader/index.js",
+    "packages/copy/index.js",
+    "packages/create-project/bin/create-project.js",
+    "packages/dev-server/index.js",
+    "packages/eslint/index.js",
+    "packages/font-loader/index.js",
+    "packages/html-loader/index.js",
+    "packages/html-template/index.js"
+  ]
+}

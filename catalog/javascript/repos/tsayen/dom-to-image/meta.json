@@ -1,0 +1,45 @@
+{
+  "owner": "tsayen",
+  "name": "dom-to-image",
+  "full_name": "tsayen/dom-to-image",
+  "html_url": "https://github.com/tsayen/dom-to-image",
+  "description": "Generates an image from a DOM node using HTML5 canvas",
+  "stars": 10768,
+  "forks": 1670,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "css",
+    "dom",
+    "html",
+    "image",
+    "javascript",
+    "raster",
+    "render",
+    "svg",
+    "vector"
+  ],
+  "archived": false,
+  "commit_sha": "fae625bce0970b3a039671ea7f338d05ecb3d0e8",
+  "commit_url": "https://github.com/tsayen/dom-to-image/commit/fae625bce0970b3a039671ea7f338d05ecb3d0e8",
+  "tree_url": "https://github.com/tsayen/dom-to-image/tree/fae625bce0970b3a039671ea7f338d05ecb3d0e8",
+  "analysed_at": "2026-11-14T19:12:32.906706+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 220,
+  "components": [
+    "bower_components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "bower_components/js-imagediff/imagediff.js",
+    "bower_components/js-imagediff/bin/imagediff"
+  ]
+}

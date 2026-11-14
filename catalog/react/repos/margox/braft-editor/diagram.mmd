@@ -1,0 +1,22 @@
+%% Repository: margox/braft-editor
+%% Analysed commit: 099025513256bf74ca48d98698a5f837130f6262
+%% Commit reference: https://github.com/margox/braft-editor/commit/099025513256bf74ca48d98698a5f837130f6262
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        components["components package"]
+        editor["editor package"]
+        helpers["helpers package"]
+        index_jsx["index.jsx package"]
+        languages["languages package"]
+        playground["playground package"]
+        renderers["renderers package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

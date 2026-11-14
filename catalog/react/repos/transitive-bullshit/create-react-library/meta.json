@@ -1,0 +1,46 @@
+{
+  "owner": "transitive-bullshit",
+  "name": "create-react-library",
+  "full_name": "transitive-bullshit/create-react-library",
+  "html_url": "https://github.com/transitive-bullshit/create-react-library",
+  "description": "CLI for creating reusable react libraries.",
+  "stars": 4746,
+  "forks": 287,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "babel",
+    "cli",
+    "component",
+    "create-react-app",
+    "library",
+    "preact",
+    "react",
+    "rollup"
+  ],
+  "archived": true,
+  "commit_sha": "43c4f5bcf97203b8e095558ab0d33b1e45f04182",
+  "commit_url": "https://github.com/transitive-bullshit/create-react-library/commit/43c4f5bcf97203b8e095558ab0d33b1e45f04182",
+  "tree_url": "https://github.com/transitive-bullshit/create-react-library/tree/43c4f5bcf97203b8e095558ab0d33b1e45f04182",
+  "analysed_at": "2026-11-14T19:14:37.048428+00:00",
+  "status": "completed",
+  "files_fetched": 87,
+  "files_analysed": 85,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "template package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "template/default/src/index.js",
+    "template/flow/src/index.js",
+    "template/typescript/src/index.tsx"
+  ]
+}

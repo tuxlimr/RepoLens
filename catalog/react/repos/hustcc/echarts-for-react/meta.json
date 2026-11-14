@@ -1,0 +1,45 @@
+{
+  "owner": "hustcc",
+  "name": "echarts-for-react",
+  "full_name": "hustcc/echarts-for-react",
+  "html_url": "https://github.com/hustcc/echarts-for-react",
+  "description": "\u26f3\ufe0f  Apache ECharts components for React wrapper. \u4e00\u4e2a\u7b80\u5355\u7684 Apache echarts \u7684 React \u5c01\u88c5\u3002",
+  "stars": 5009,
+  "forks": 648,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "echarts",
+    "echarts-for-react",
+    "javascript",
+    "react",
+    "react-component",
+    "visualization"
+  ],
+  "archived": false,
+  "commit_sha": "a0e9565e858824896f9bff526253e59065f57e44",
+  "commit_url": "https://github.com/hustcc/echarts-for-react/commit/a0e9565e858824896f9bff526253e59065f57e44",
+  "tree_url": "https://github.com/hustcc/echarts-for-react/tree/a0e9565e858824896f9bff526253e59065f57e44",
+  "analysed_at": "2026-11-14T19:14:29.681079+00:00",
+  "status": "completed",
+  "files_fetched": 39,
+  "files_analysed": 39,
+  "components": [
+    "Configuration and deployment",
+    "core.tsx package",
+    "helper package",
+    "index.ts package",
+    "__tests__ package",
+    "types.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

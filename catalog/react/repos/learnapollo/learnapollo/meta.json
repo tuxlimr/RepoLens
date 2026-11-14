@@ -1,0 +1,55 @@
+{
+  "owner": "learnapollo",
+  "name": "learnapollo",
+  "full_name": "learnapollo/learnapollo",
+  "html_url": "https://github.com/learnapollo/learnapollo",
+  "description": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfeb   Learn Apollo - A hands-on tutorial for Apollo GraphQL Client (created by Graphcool)",
+  "stars": 5143,
+  "forks": 63,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "angular-2",
+    "apollo",
+    "apollo-ios",
+    "apollographql",
+    "exponent",
+    "graphcool",
+    "graphql",
+    "ios",
+    "react",
+    "react-native",
+    "tutorial",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "dea1677ead6ed590599f9f29b69215d49ea6a0a9",
+  "commit_url": "https://github.com/learnapollo/learnapollo/commit/dea1677ead6ed590599f9f29b69215d49ea6a0a9",
+  "tree_url": "https://github.com/learnapollo/learnapollo/tree/dea1677ead6ed590599f9f29b69215d49ea6a0a9",
+  "analysed_at": "2026-11-14T19:14:28.189902+00:00",
+  "status": "completed",
+  "files_fetched": 101,
+  "files_analysed": 101,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.tsx package",
+    "mutations package",
+    "pages package",
+    "polyfill.ts package",
+    "routes.tsx package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/components/App/App.tsx",
+    "src/index.tsx"
+  ]
+}

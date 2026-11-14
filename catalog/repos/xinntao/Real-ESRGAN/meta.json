@@ -1,0 +1,55 @@
+{
+  "owner": "xinntao",
+  "name": "Real-ESRGAN",
+  "full_name": "xinntao/Real-ESRGAN",
+  "html_url": "https://github.com/xinntao/Real-ESRGAN",
+  "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
+  "stars": 37497,
+  "forks": 4536,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "amine",
+    "denoise",
+    "esrgan",
+    "image-restoration",
+    "jpeg-compression",
+    "pytorch",
+    "real-esrgan",
+    "super-resolution"
+  ],
+  "archived": false,
+  "commit_sha": "a4abfb2979a7bbff3f69f58f58ae324608821e27",
+  "commit_url": "https://github.com/xinntao/Real-ESRGAN/commit/a4abfb2979a7bbff3f69f58f58ae324608821e27",
+  "tree_url": "https://github.com/xinntao/Real-ESRGAN/tree/a4abfb2979a7bbff3f69f58f58ae324608821e27",
+  "analysed_at": "2026-11-14T19:06:48.095120+00:00",
+  "status": "completed",
+  "files_fetched": 67,
+  "files_analysed": 67,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "realesrgan package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "inference_realesrgan.py",
+    "inference_realesrgan_video.py",
+    "realesrgan/train.py",
+    "scripts/extract_subimages.py",
+    "scripts/generate_meta_info.py",
+    "scripts/generate_meta_info_pairdata.py",
+    "scripts/generate_multiscale_DF2K.py",
+    "scripts/pytorch2onnx.py",
+    "setup.py"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "owner": "zhongyi-tong",
+  "name": "electronic-wechat",
+  "full_name": "zhongyi-tong/electronic-wechat",
+  "html_url": "https://github.com/zhongyi-tong/electronic-wechat",
+  "description": ":speech_balloon: A better WeChat on macOS and Linux. Built with Electron by Zhongyi Tong.",
+  "stars": 13810,
+  "forks": 2645,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "electron",
+    "linux",
+    "macos",
+    "web-wechat",
+    "wechat"
+  ],
+  "archived": true,
+  "commit_sha": "dc50c871d9b5928234fdf91350ad5a90717804f3",
+  "commit_url": "https://github.com/zhongyi-tong/electronic-wechat/commit/dc50c871d9b5928234fdf91350ad5a90717804f3",
+  "tree_url": "https://github.com/zhongyi-tong/electronic-wechat/tree/dc50c871d9b5928234fdf91350ad5a90717804f3",
+  "analysed_at": "2026-11-14T19:11:50.398200+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 37,
+  "components": [
+    "API layer",
+    "common_cn.js package",
+    "common.js package",
+    "Configuration and deployment",
+    "configuration.js package",
+    "inject package",
+    "main.js package",
+    "scripts package"
+  ],
+  "detections": [
+    "Electron"
+  ],
+  "entry_points": [
+    "src/main.js"
+  ]
+}

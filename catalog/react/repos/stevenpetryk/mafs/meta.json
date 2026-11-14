@@ -1,0 +1,61 @@
+{
+  "owner": "stevenpetryk",
+  "name": "mafs",
+  "full_name": "stevenpetryk/mafs",
+  "html_url": "https://github.com/stevenpetryk/mafs",
+  "description": "React components for interactive math",
+  "stars": 3450,
+  "forks": 100,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "math",
+    "react",
+    "visualization"
+  ],
+  "archived": false,
+  "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+  "commit_url": "https://github.com/stevenpetryk/mafs/commit/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+  "tree_url": "https://github.com/stevenpetryk/mafs/tree/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+  "analysed_at": "2026-11-14T19:15:18.940160+00:00",
+  "status": "completed",
+  "files_fetched": 219,
+  "files_analysed": 217,
+  "components": [
+    "animation package",
+    "Configuration and deployment",
+    "context package",
+    "Core modules",
+    "debug package",
+    "display package",
+    "e2e package",
+    "gestures package",
+    "index.tsx package",
+    "interaction package",
+    "math.test.ts package",
+    "math.ts package",
+    "playwright package",
+    "scripts package",
+    "Tests",
+    "typings package",
+    "vec.ts package",
+    "view package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "playwright/index.ts",
+    "src/debug/index.tsx",
+    "src/display/Coordinates/index.tsx",
+    "src/index.tsx"
+  ]
+}

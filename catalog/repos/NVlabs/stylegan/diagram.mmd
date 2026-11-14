@@ -1,0 +1,27 @@
+%% Repository: NVlabs/stylegan
+%% Analysed commit: 1e0d5c781384ef12b50ef20a62fee5d78b38e88f
+%% Commit reference: https://github.com/NVlabs/stylegan/commit/1e0d5c781384ef12b50ef20a62fee5d78b38e88f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        dnnlib["dnnlib package"]
+        metrics["metrics package"]
+        training["training package"]
+    end
+    dnnlib -->|imports| external_integrations
+    entrypoint -->|imports| config
+    entrypoint -->|imports| metrics
+    entrypoint -->|imports| training
+    metrics -->|imports| config
+    metrics -->|imports| training
+    training -->|imports| config
+    training -->|imports| entrypoint
+    training -->|imports| metrics

@@ -1,0 +1,30 @@
+%% Repository: caronc/apprise
+%% Analysed commit: c6f76f3599ec9bc1591abfd4fc8c27a5124f88fa
+%% Commit reference: https://github.com/caronc/apprise/commit/c6f76f3599ec9bc1591abfd4fc8c27a5124f88fa
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        apprise["apprise package"]
+        bin["bin package"]
+        packaging["packaging package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    apprise -->|imports| config
+    apprise -->|imports| external_integrations
+    config -->|imports| apprise
+    config -->|imports| external_integrations
+    entrypoint -->|imports| apprise
+    external_integrations -->|imports| apprise
+    tests -->|imports| apprise
+    tests -->|imports| config
+    tests -->|imports| external_integrations

@@ -1,0 +1,53 @@
+{
+  "owner": "joshwcomeau",
+  "name": "react-flip-move",
+  "full_name": "joshwcomeau/react-flip-move",
+  "html_url": "https://github.com/joshwcomeau/react-flip-move",
+  "description": "Effortless animation between DOM changes (eg. list reordering) using the FLIP technique.",
+  "stars": 4135,
+  "forks": 250,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animation",
+    "flip",
+    "hardware-acceleration",
+    "react",
+    "react-flip-move",
+    "reactjs",
+    "transition-animation"
+  ],
+  "archived": false,
+  "commit_sha": "ae9bd77adaf4a21d3a0d829c4901339478384b71",
+  "commit_url": "https://github.com/joshwcomeau/react-flip-move/commit/ae9bd77adaf4a21d3a0d829c4901339478384b71",
+  "tree_url": "https://github.com/joshwcomeau/react-flip-move/tree/ae9bd77adaf4a21d3a0d829c4901339478384b71",
+  "analysed_at": "2026-11-14T19:14:52.265912+00:00",
+  "status": "completed",
+  "files_fetched": 51,
+  "files_analysed": 51,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "dom-manipulation.js package",
+    "enter-leave-presets.js package",
+    "error-messages.js package",
+    "FlipMove.js package",
+    "flow-typed package",
+    "helpers.js package",
+    "index.js package",
+    "prop-converter.js package",
+    "stories package",
+    "Tests",
+    "typings package",
+    "typings.js package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

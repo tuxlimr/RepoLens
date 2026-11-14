@@ -1,0 +1,27 @@
+%% Repository: commitizen/cz-cli
+%% Analysed commit: 1a8c49c02c9d52d1b4ef8cdabefb538088ddea03
+%% Commit reference: https://github.com/commitizen/cz-cli/commit/1a8c49c02c9d52d1b4ef8cdabefb538088ddea03
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        cli["cli package"]
+        commitizen["commitizen package"]
+        commitizen_js["commitizen.js package"]
+        common["common package"]
+        configloader["configLoader package"]
+        configloader_js["configLoader.js package"]
+        git["git package"]
+        git_js["git.js package"]
+        index_js["index.js package"]
+        logo["logo package"]
+        npm_js["npm.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

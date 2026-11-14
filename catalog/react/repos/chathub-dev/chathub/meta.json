@@ -1,0 +1,58 @@
+{
+  "owner": "chathub-dev",
+  "name": "chathub",
+  "full_name": "chathub-dev/chathub",
+  "html_url": "https://github.com/chathub-dev/chathub",
+  "description": null,
+  "stars": 10657,
+  "forks": 1108,
+  "license": "GPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "all-in-one",
+    "browser-extension",
+    "chrome-extension",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "852efba00ca7f2888093510b3add33f3ee01dc9b",
+  "commit_url": "https://github.com/chathub-dev/chathub/commit/852efba00ca7f2888093510b3add33f3ee01dc9b",
+  "tree_url": "https://github.com/chathub-dev/chathub/tree/852efba00ca7f2888093510b3add33f3ee01dc9b",
+  "analysed_at": "2026-11-14T19:13:30.433147+00:00",
+  "status": "completed",
+  "files_fetched": 255,
+  "files_analysed": 255,
+  "components": [
+    "app package",
+    "background package",
+    "Configuration and deployment",
+    "content-script package",
+    "Core modules",
+    "Data layer",
+    "public package",
+    "Service / domain layer",
+    "types package",
+    "utils package",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/app/bots/index.ts",
+    "src/app/components/Page.tsx",
+    "src/app/i18n/index.ts",
+    "src/app/main.tsx",
+    "src/app/state/index.ts",
+    "src/background/index.ts",
+    "src/services/agent/index.ts",
+    "src/types/index.ts",
+    "src/utils/index.ts"
+  ]
+}

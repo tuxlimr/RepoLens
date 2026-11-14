@@ -1,0 +1,46 @@
+{
+  "owner": "zoontek",
+  "name": "react-native-bootsplash",
+  "full_name": "zoontek/react-native-bootsplash",
+  "html_url": "https://github.com/zoontek/react-native-bootsplash",
+  "description": "\ud83d\ude80 Show a splash screen during app startup. Hide it when you are ready.",
+  "stars": 4308,
+  "forks": 290,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "bootsplash",
+    "react",
+    "react-native",
+    "splash-screen",
+    "splashscreen"
+  ],
+  "archived": false,
+  "commit_sha": "3dcb8e91edd0afa978f3bc65d92ccb77d00dd2fc",
+  "commit_url": "https://github.com/zoontek/react-native-bootsplash/commit/3dcb8e91edd0afa978f3bc65d92ccb77d00dd2fc",
+  "tree_url": "https://github.com/zoontek/react-native-bootsplash/tree/3dcb8e91edd0afa978f3bc65d92ccb77d00dd2fc",
+  "analysed_at": "2026-11-14T19:14:49.733669+00:00",
+  "status": "completed",
+  "files_fetched": 101,
+  "files_analysed": 100,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "extras package",
+    "index.ts package",
+    "ios package",
+    "specs package",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "cli.js",
+    "src/index.ts"
+  ]
+}

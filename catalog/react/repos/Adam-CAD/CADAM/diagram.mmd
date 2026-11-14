@@ -1,0 +1,35 @@
+%% Repository: Adam-CAD/CADAM
+%% Analysed commit: e339e3ad85601bb1e23a5ff9c7f33b51ddf602f5
+%% Commit reference: https://github.com/Adam-CAD/CADAM/commit/e339e3ad85601bb1e23a5ff9c7f33b51ddf602f5
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app_tsx["App.tsx package"]
+        benchmarks["benchmarks package"]
+        client_tsx["client.tsx package"]
+        components["components package"]
+        constants["constants package"]
+        contexts["contexts package"]
+        hooks["hooks package"]
+        lib["lib package"]
+        router_tsx["router.tsx package"]
+        routetree_gen_ts["routeTree.gen.ts package"]
+        scripts["scripts package"]
+        server["server package"]
+        shared["shared package"]
+        types["types package"]
+        utils["utils package"]
+        vite_env_d_ts["vite-env.d.ts package"]
+        worker["worker package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

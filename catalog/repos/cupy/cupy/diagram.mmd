@@ -1,0 +1,33 @@
+%% Repository: cupy/cupy
+%% Analysed commit: e41e2961f74ee2b1c2b50265f3104f0885e74623
+%% Commit reference: https://github.com/cupy/cupy/commit/e41e2961f74ee2b1c2b50265f3104f0885e74623
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ci["ci package"]
+        cupy["cupy package"]
+        cupy_backends["cupy_backends package"]
+        cupyx["cupyx package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    cupy -->|imports| api_layer
+    cupy -->|imports| cupy_backends
+    cupy -->|imports| cupyx
+    cupy_backends -->|imports| api_layer
+    cupyx -->|imports| api_layer
+    cupyx -->|imports| cupy
+    cupyx -->|imports| cupy_backends
+    cupyx -->|imports| external_integrations

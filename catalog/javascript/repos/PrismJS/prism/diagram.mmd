@@ -1,0 +1,32 @@
+%% Repository: PrismJS/prism
+%% Analysed commit: 59759136a1da88be0c54d98ed3152ec8135ce905
+%% Commit reference: https://github.com/PrismJS/prism/commit/59759136a1da88be0c54d98ed3152ec8135ce905
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        auto_start_js["auto-start.js package"]
+        benchmark["benchmark package"]
+        config_js["config.js package"]
+        core_js["core.js package"]
+        global_js["global.js package"]
+        index_js["index.js package"]
+        languages["languages package"]
+        load_languages_js["load-languages.js package"]
+        plugins["plugins package"]
+        scripts["scripts package"]
+        shared["shared package"]
+        shared_js["shared.js package"]
+        types_d_ts["types.d.ts package"]
+        util["util package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

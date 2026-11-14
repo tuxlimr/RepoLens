@@ -1,0 +1,60 @@
+{
+  "owner": "vueComponent",
+  "name": "ant-design-vue",
+  "full_name": "vueComponent/ant-design-vue",
+  "html_url": "https://github.com/vueComponent/ant-design-vue",
+  "description": "\ud83c\udf08  An enterprise-class UI components based on Ant Design and Vue. \ud83d\udc1c",
+  "stars": 21714,
+  "forks": 3884,
+  "license": "Other",
+  "language": "Vue",
+  "default_branch": "main",
+  "topics": [
+    "ant",
+    "ant-design",
+    "antd",
+    "antd-vue",
+    "css",
+    "enterprise",
+    "frontend",
+    "react",
+    "ui",
+    "ui-design",
+    "vue",
+    "vue-antd",
+    "vue-antd-ui",
+    "vue3",
+    "vuecomponent"
+  ],
+  "archived": false,
+  "commit_sha": "7483836f0adac76516e527df893c3d84a7cd4005",
+  "commit_url": "https://github.com/vueComponent/ant-design-vue/commit/7483836f0adac76516e527df893c3d84a7cd4005",
+  "tree_url": "https://github.com/vueComponent/ant-design-vue/tree/7483836f0adac76516e527df893c3d84a7cd4005",
+  "analysed_at": "2026-11-14T19:13:10.120965+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "antd-tools package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "antd-tools/cli/index.js",
+    "antd-tools/generator-types/index.js",
+    "antd-tools/generator-types/src/index.ts",
+    "components/_util/copy-to-clipboard/index.ts",
+    "components/_util/cssinjs/index.ts",
+    "components/_util/props-util/index.ts",
+    "components/_util/static-style-extract/index.tsx",
+    "components/_util/vue-types/index.ts",
+    "components/_util/wave/index.tsx",
+    "components/affix/index.tsx",
+    "components/affix/style/index.ts",
+    "components/alert/index.tsx"
+  ]
+}

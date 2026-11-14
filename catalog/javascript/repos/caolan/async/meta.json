@@ -1,0 +1,40 @@
+{
+  "owner": "caolan",
+  "name": "async",
+  "full_name": "caolan/async",
+  "html_url": "https://github.com/caolan/async",
+  "description": "Async utilities for node and the browser",
+  "stars": 28117,
+  "forks": 2386,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "async",
+    "callbacks",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "3921e54bd0704157dbea238fdfcc0c3619abde1a",
+  "commit_url": "https://github.com/caolan/async/commit/3921e54bd0704157dbea238fdfcc0c3619abde1a",
+  "tree_url": "https://github.com/caolan/async/tree/3921e54bd0704157dbea238fdfcc0c3619abde1a",
+  "analysed_at": "2026-11-14T19:10:50.305457+00:00",
+  "status": "completed",
+  "files_fetched": 436,
+  "files_analysed": 433,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "perf package",
+    "support package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js",
+    "lib/index.js"
+  ]
+}

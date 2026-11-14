@@ -1,0 +1,35 @@
+{
+  "owner": "Matt-Esch",
+  "name": "virtual-dom",
+  "full_name": "Matt-Esch/virtual-dom",
+  "html_url": "https://github.com/Matt-Esch/virtual-dom",
+  "description": "A Virtual DOM and diffing algorithm",
+  "stars": 11820,
+  "forks": 762,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "947ecf92b67d25bb693a0f625fa8e90c099887d5",
+  "commit_url": "https://github.com/Matt-Esch/virtual-dom/commit/947ecf92b67d25bb693a0f625fa8e90c099887d5",
+  "tree_url": "https://github.com/Matt-Esch/virtual-dom/tree/947ecf92b67d25bb693a0f625fa8e90c099887d5",
+  "analysed_at": "2026-11-14T19:12:14.278412+00:00",
+  "status": "completed",
+  "files_fetched": 81,
+  "files_analysed": 80,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests",
+    "vdom package",
+    "virtual-hyperscript package",
+    "vnode package",
+    "vtree package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js",
+    "virtual-hyperscript/index.js"
+  ]
+}

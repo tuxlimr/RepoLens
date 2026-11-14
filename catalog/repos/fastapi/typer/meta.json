@@ -1,0 +1,63 @@
+{
+  "owner": "fastapi",
+  "name": "typer",
+  "full_name": "fastapi/typer",
+  "html_url": "https://github.com/fastapi/typer",
+  "description": "Typer, build great CLIs. Easy to code. Based on Python type hints.",
+  "stars": 20353,
+  "forks": 1005,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "click",
+    "python",
+    "python3",
+    "shell",
+    "terminal",
+    "typehints",
+    "typer"
+  ],
+  "archived": false,
+  "commit_sha": "73500169e87b4e31717d687818c5ed955b584c18",
+  "commit_url": "https://github.com/fastapi/typer/commit/73500169e87b4e31717d687818c5ed955b584c18",
+  "tree_url": "https://github.com/fastapi/typer/tree/73500169e87b4e31717d687818c5ed955b584c18",
+  "analysed_at": "2026-11-14T19:08:02.870323+00:00",
+  "status": "completed",
+  "files_fetched": 778,
+  "files_analysed": 777,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "docs_src package",
+    "Application entry point",
+    "scripts package",
+    "Tests",
+    "typer package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "Pydantic",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "docs_src/app_dir/tutorial001.py",
+    "docs_src/arguments/default/tutorial001.py",
+    "docs_src/arguments/default/tutorial001_non_an.py",
+    "docs_src/arguments/default/tutorial002.py",
+    "docs_src/arguments/default/tutorial002_non_an.py",
+    "docs_src/arguments/envvar/tutorial001.py",
+    "docs_src/arguments/envvar/tutorial001_non_an.py",
+    "docs_src/arguments/envvar/tutorial002.py",
+    "docs_src/arguments/envvar/tutorial002_non_an.py",
+    "docs_src/arguments/envvar/tutorial003.py",
+    "docs_src/arguments/envvar/tutorial003_non_an.py",
+    "docs_src/arguments/help/tutorial001.py"
+  ]
+}

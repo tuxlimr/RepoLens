@@ -1,0 +1,62 @@
+{
+  "owner": "google",
+  "name": "zx",
+  "full_name": "google/zx",
+  "html_url": "https://github.com/google/zx",
+  "description": "A tool for writing better scripts",
+  "stars": 45849,
+  "forks": 1334,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "bash",
+    "child-process",
+    "cli",
+    "exec",
+    "javascript",
+    "nodejs",
+    "pipe",
+    "shell",
+    "spawn"
+  ],
+  "archived": false,
+  "commit_sha": "3b04a6ae3e34b1a7ee6b925f1efcceb901f0d8a5",
+  "commit_url": "https://github.com/google/zx/commit/3b04a6ae3e34b1a7ee6b925f1efcceb901f0d8a5",
+  "tree_url": "https://github.com/google/zx/tree/3b04a6ae3e34b1a7ee6b925f1efcceb901f0d8a5",
+  "analysed_at": "2026-11-14T19:10:38.157682+00:00",
+  "status": "completed",
+  "files_fetched": 174,
+  "files_analysed": 143,
+  "components": [
+    "cli.ts package",
+    "Configuration and deployment",
+    "core.ts package",
+    "deps.ts package",
+    "error.ts package",
+    "globals-jsr.ts package",
+    "globals.ts package",
+    "goods.ts package",
+    "index.ts package",
+    "internals.ts package",
+    "log.ts package",
+    "md.ts package",
+    "repl.ts package",
+    "scripts package",
+    "test-d package",
+    "Tests",
+    "util.ts package",
+    "vendor-core.ts package",
+    "vendor-extra.ts package",
+    "vendor.ts package",
+    "versions.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

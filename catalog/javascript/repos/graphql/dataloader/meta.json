@@ -1,0 +1,42 @@
+{
+  "owner": "graphql",
+  "name": "dataloader",
+  "full_name": "graphql/dataloader",
+  "html_url": "https://github.com/graphql/dataloader",
+  "description": "DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.",
+  "stars": 13394,
+  "forks": 523,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "batch",
+    "dataloader",
+    "graphql",
+    "nodejs"
+  ],
+  "archived": false,
+  "commit_sha": "65be452f5ffad3eede2d862dc26c96003fa87ef3",
+  "commit_url": "https://github.com/graphql/dataloader/commit/65be452f5ffad3eede2d862dc26c96003fa87ef3",
+  "tree_url": "https://github.com/graphql/dataloader/tree/65be452f5ffad3eede2d862dc26c96003fa87ef3",
+  "analysed_at": "2026-11-14T19:11:56.490149+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 33,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "flow-typed package",
+    "index.d.ts package",
+    "index.js package",
+    "resources package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

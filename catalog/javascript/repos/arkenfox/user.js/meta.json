@@ -1,0 +1,36 @@
+{
+  "owner": "arkenfox",
+  "name": "user.js",
+  "full_name": "arkenfox/user.js",
+  "html_url": "https://github.com/arkenfox/user.js",
+  "description": "Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening",
+  "stars": 12986,
+  "forks": 556,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "anti-fingerprinting",
+    "anti-tracking",
+    "arkenfox",
+    "firefox",
+    "mozilla",
+    "privacy",
+    "security",
+    "settings"
+  ],
+  "archived": false,
+  "commit_sha": "06914fb7d2d4904f078995005b65745ec9861bfc",
+  "commit_url": "https://github.com/arkenfox/user.js/commit/06914fb7d2d4904f078995005b65745ec9861bfc",
+  "tree_url": "https://github.com/arkenfox/user.js/tree/06914fb7d2d4904f078995005b65745ec9861bfc",
+  "analysed_at": "2026-11-14T19:12:02.253511+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Core modules",
+    "scratchpad-scripts package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

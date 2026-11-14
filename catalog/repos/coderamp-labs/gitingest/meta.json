@@ -1,0 +1,62 @@
+{
+  "owner": "coderamp-labs",
+  "name": "gitingest",
+  "full_name": "coderamp-labs/gitingest",
+  "html_url": "https://github.com/coderamp-labs/gitingest",
+  "description": "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase ",
+  "stars": 16139,
+  "forks": 1217,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "code",
+    "developer-tool",
+    "ingestion"
+  ],
+  "archived": false,
+  "commit_sha": "4e259a02fe72115bee538271622f1234a81c8e1a",
+  "commit_url": "https://github.com/coderamp-labs/gitingest/commit/4e259a02fe72115bee538271622f1234a81c8e1a",
+  "tree_url": "https://github.com/coderamp-labs/gitingest/tree/4e259a02fe72115bee538271622f1234a81c8e1a",
+  "analysed_at": "2026-11-14T19:08:56.277744+00:00",
+  "status": "completed",
+  "files_fetched": 120,
+  "files_analysed": 120,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "gitingest package",
+    "server package",
+    "static package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "Starlette",
+    "AWS (boto3)",
+    "Click",
+    "httpx",
+    "Pydantic",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/gitingest/__main__.py",
+    "src/server/__main__.py",
+    "src/server/main.py",
+    "src/server/metrics_server.py",
+    "src/static/js/index.js"
+  ]
+}

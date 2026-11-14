@@ -1,0 +1,14 @@
+%% Repository: pallets/click
+%% Analysed commit: e38188e9e205005d5af5f9e59df51904c984586a
+%% Commit reference: https://github.com/pallets/click/commit/e38188e9e205005d5af5f9e59df51904c984586a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        click["click package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| click

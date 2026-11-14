@@ -1,0 +1,50 @@
+{
+  "owner": "immerjs",
+  "name": "immer",
+  "full_name": "immerjs/immer",
+  "html_url": "https://github.com/immerjs/immer",
+  "description": "Create the next immutable state by mutating the current one",
+  "stars": 29003,
+  "forks": 909,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "immutable",
+    "immutables",
+    "reducer",
+    "redux",
+    "state-tree"
+  ],
+  "archived": false,
+  "commit_sha": "784c86bb234e805566481c9425fcb2a3897e8bcc",
+  "commit_url": "https://github.com/immerjs/immer/commit/784c86bb234e805566481c9425fcb2a3897e8bcc",
+  "tree_url": "https://github.com/immerjs/immer/tree/784c86bb234e805566481c9425fcb2a3897e8bcc",
+  "analysed_at": "2026-11-14T19:10:48.766282+00:00",
+  "status": "completed",
+  "files_fetched": 159,
+  "files_analysed": 158,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "immer.ts package",
+    "internal.ts package",
+    "perf-testing package",
+    "__performance_tests__ package",
+    "plugins package",
+    "Service / domain layer",
+    "__tests__ package",
+    "types package",
+    "utils package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Redux",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": []
+}

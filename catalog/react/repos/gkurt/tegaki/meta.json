@@ -1,0 +1,52 @@
+{
+  "owner": "gkurt",
+  "name": "tegaki",
+  "full_name": "gkurt/tegaki",
+  "html_url": "https://github.com/gkurt/tegaki",
+  "description": "Handwriting animation for the web. Supports any font or text.",
+  "stars": 3307,
+  "forks": 127,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "animation",
+    "calligraphy",
+    "cursive",
+    "font",
+    "handwriting",
+    "react",
+    "stroke-order",
+    "text-animation"
+  ],
+  "archived": false,
+  "commit_sha": "bf18556996d9683326e8f2130bd50e7632e9f187",
+  "commit_url": "https://github.com/gkurt/tegaki/commit/bf18556996d9683326e8f2130bd50e7632e9f187",
+  "tree_url": "https://github.com/gkurt/tegaki/tree/bf18556996d9683326e8f2130bd50e7632e9f187",
+  "analysed_at": "2026-11-14T19:15:26.214782+00:00",
+  "status": "completed",
+  "files_fetched": 663,
+  "files_analysed": 663,
+  "components": [
+    "Configuration and deployment",
+    "e2e package",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Svelte",
+    "Vue",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/generator/src/index.ts",
+    "packages/renderer/src/index.ts"
+  ]
+}

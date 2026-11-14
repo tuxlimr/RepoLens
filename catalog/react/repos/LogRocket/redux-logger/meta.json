@@ -1,0 +1,43 @@
+{
+  "owner": "LogRocket",
+  "name": "redux-logger",
+  "full_name": "LogRocket/redux-logger",
+  "html_url": "https://github.com/LogRocket/redux-logger",
+  "description": "Logger for Redux",
+  "stars": 5710,
+  "forks": 316,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "react",
+    "redux",
+    "redux-logger",
+    "redux-middleware"
+  ],
+  "archived": false,
+  "commit_sha": "5816a9fc8da9b417589380e381ed66f1114ebd9a",
+  "commit_url": "https://github.com/LogRocket/redux-logger/commit/5816a9fc8da9b417589380e381ed66f1114ebd9a",
+  "tree_url": "https://github.com/LogRocket/redux-logger/tree/5816a9fc8da9b417589380e381ed66f1114ebd9a",
+  "analysed_at": "2026-11-14T19:14:14.837219+00:00",
+  "status": "completed",
+  "files_fetched": 16,
+  "files_analysed": 15,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "core.js package",
+    "defaults.js package",
+    "diff.js package",
+    "helpers.js package",
+    "index.js package",
+    "spec package"
+  ],
+  "detections": [
+    "Redux"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

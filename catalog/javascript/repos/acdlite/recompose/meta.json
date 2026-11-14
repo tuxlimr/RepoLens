@@ -1,0 +1,40 @@
+{
+  "owner": "acdlite",
+  "name": "recompose",
+  "full_name": "acdlite/recompose",
+  "html_url": "https://github.com/acdlite/recompose",
+  "description": "A React utility belt for function components and higher-order components.",
+  "stars": 14751,
+  "forks": 1208,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "3db12ce7121a050b533476958ff3d66ded1c4bb8",
+  "commit_url": "https://github.com/acdlite/recompose/commit/3db12ce7121a050b533476958ff3d66ded1c4bb8",
+  "tree_url": "https://github.com/acdlite/recompose/tree/3db12ce7121a050b533476958ff3d66ded1c4bb8",
+  "analysed_at": "2026-11-14T19:11:43.213130+00:00",
+  "status": "completed",
+  "files_fetched": 173,
+  "files_analysed": 170,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/packages/recompose-relay/index.js",
+    "src/packages/recompose/index.js",
+    "types/flow-example/src/App.js",
+    "types/flow-example/src/index.js"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "owner": "JedWatson",
+  "name": "classnames",
+  "full_name": "JedWatson/classnames",
+  "html_url": "https://github.com/JedWatson/classnames",
+  "description": "A simple javascript utility for conditionally joining classNames together",
+  "stars": 17773,
+  "forks": 557,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "abd6314010de053a09df5acc53e474ff65cea470",
+  "commit_url": "https://github.com/JedWatson/classnames/commit/abd6314010de053a09df5acc53e474ff65cea470",
+  "tree_url": "https://github.com/JedWatson/classnames/tree/abd6314010de053a09df5acc53e474ff65cea470",
+  "analysed_at": "2026-11-14T19:11:26.653258+00:00",
+  "status": "completed",
+  "files_fetched": 28,
+  "files_analysed": 27,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "automerge",
+  "name": "automerge-classic",
+  "full_name": "automerge/automerge-classic",
+  "html_url": "https://github.com/automerge/automerge-classic",
+  "description": "A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.",
+  "stars": 14681,
+  "forks": 460,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "crdt",
+    "javascript",
+    "offline-first"
+  ],
+  "archived": false,
+  "commit_sha": "0605308926a03353eb1072c3afa2a3a8580fcef9",
+  "commit_url": "https://github.com/automerge/automerge-classic/commit/0605308926a03353eb1072c3afa2a3a8580fcef9",
+  "tree_url": "https://github.com/automerge/automerge-classic/tree/0605308926a03353eb1072c3afa2a3a8580fcef9",
+  "analysed_at": "2026-11-14T19:11:43.620375+00:00",
+  "status": "completed",
+  "files_fetched": 54,
+  "files_analysed": 54,
+  "components": [
+    "automerge.js package",
+    "backend package",
+    "common.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "frontend package",
+    "Tests",
+    "@types package",
+    "uuid.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/automerge.js",
+    "backend/index.js",
+    "frontend/index.js"
+  ]
+}

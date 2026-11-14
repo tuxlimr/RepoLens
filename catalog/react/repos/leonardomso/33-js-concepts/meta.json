@@ -1,0 +1,47 @@
+{
+  "owner": "leonardomso",
+  "name": "33-js-concepts",
+  "full_name": "leonardomso/33-js-concepts",
+  "html_url": "https://github.com/leonardomso/33-js-concepts",
+  "description": "\ud83d\udcdc 33 JavaScript concepts every developer should know.",
+  "stars": 66532,
+  "forks": 9133,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "concepts",
+    "es6",
+    "es6-javascript",
+    "hacktoberfest",
+    "javascript",
+    "javascript-closures",
+    "javascript-engines",
+    "javascript-programming",
+    "nodejs",
+    "primitive-types",
+    "programming",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "16d0d95c02b19df6a8c841f1a0012d7b7367a340",
+  "commit_url": "https://github.com/leonardomso/33-js-concepts/commit/16d0d95c02b19df6a8c841f1a0012d7b7367a340",
+  "tree_url": "https://github.com/leonardomso/33-js-concepts/tree/16d0d95c02b19df6a8c841f1a0012d7b7367a340",
+  "analysed_at": "2026-11-14T19:12:56.905093+00:00",
+  "status": "completed",
+  "files_fetched": 166,
+  "files_analysed": 165,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vitest"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

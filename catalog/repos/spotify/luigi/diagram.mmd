@@ -1,0 +1,29 @@
+%% Repository: spotify/luigi
+%% Analysed commit: f5feb7a4655ad73ef56f0ab04d7903ab43b63e12
+%% Commit reference: https://github.com/spotify/luigi/commit/f5feb7a4655ad73ef56f0ab04d7903ab43b63e12
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        luigi["luigi package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| luigi
+    entrypoint -->|imports| luigi
+    external_integrations -->|imports| luigi
+    luigi -->|imports| config
+    luigi -->|imports| entrypoint
+    luigi -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| luigi

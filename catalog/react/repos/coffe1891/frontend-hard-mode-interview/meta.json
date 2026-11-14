@@ -1,0 +1,41 @@
+{
+  "owner": "coffe1891",
+  "name": "frontend-hard-mode-interview",
+  "full_name": "coffe1891/frontend-hard-mode-interview",
+  "html_url": "https://github.com/coffe1891/frontend-hard-mode-interview",
+  "description": "\u300a\u524d\u7aef\u5185\u53c2\u300b\uff0c\u6709\u5173\u4e8eJavaScript\u3001\u7f16\u7a0b\u8303\u5f0f\u3001\u8bbe\u8ba1\u6a21\u5f0f\u3001\u8f6f\u4ef6\u5f00\u53d1\u7684\u827a\u672f\u7b49\u5927\u524d\u7aef\u8303\u7574\u5185\u7684\u77e5\u8bc6\u5206\u4eab\uff0c\u65e8\u5728\u5e2e\u52a9\u524d\u7aef\u5de5\u7a0b\u5e08\u4eec\u592f\u5b9e\u6280\u672f\u57fa\u7840\u4ee5\u901a\u8fc7\u4e00\u7ebf\u4e92\u8054\u7f51\u4f01\u4e1a\u6280\u672f\u9762\u8bd5\u3002",
+  "stars": 3519,
+  "forks": 326,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "design-patterns-js",
+    "fp",
+    "frontend-interview",
+    "interview-preparation",
+    "javascript",
+    "javascript-framework",
+    "jquery",
+    "oop",
+    "react",
+    "react-native",
+    "rxjs",
+    "vscode",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "c913ac42e5997808a97e61859a9c352596968045",
+  "commit_url": "https://github.com/coffe1891/frontend-hard-mode-interview/commit/c913ac42e5997808a97e61859a9c352596968045",
+  "tree_url": "https://github.com/coffe1891/frontend-hard-mode-interview/tree/c913ac42e5997808a97e61859a9c352596968045",
+  "analysed_at": "2026-11-14T19:15:16.820291+00:00",
+  "status": "completed",
+  "files_fetched": 101,
+  "files_analysed": 101,
+  "components": [
+    "code package",
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

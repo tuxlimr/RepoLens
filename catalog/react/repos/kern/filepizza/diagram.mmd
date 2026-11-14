@@ -1,0 +1,40 @@
+%% Repository: kern/filepizza
+%% Analysed commit: 1e4d02fa91527d8dc83f4094ca394f8c29a88b56
+%% Commit reference: https://github.com/kern/filepizza/commit/1e4d02fa91527d8dc83f4094ca394f8c29a88b56
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        bin["bin package"]
+        channel_ts["channel.ts package"]
+        components["components package"]
+        config_ts["config.ts package"]
+        coturn_ts["coturn.ts package"]
+        fs_ts["fs.ts package"]
+        hooks["hooks package"]
+        log_ts["log.ts package"]
+        messages_ts["messages.ts package"]
+        public["public package"]
+        redisclient_ts["redisClient.ts package"]
+        routes_ts["routes.ts package"]
+        scripts["scripts package"]
+        slugs_ts["slugs.ts package"]
+        toppings_ts["toppings.ts package"]
+        types_ts["types.ts package"]
+        utils["utils package"]
+        zip_stream_ts["zip-stream.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

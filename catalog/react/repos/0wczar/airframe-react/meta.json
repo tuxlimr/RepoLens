@@ -1,0 +1,58 @@
+{
+  "owner": "0wczar",
+  "name": "airframe-react",
+  "full_name": "0wczar/airframe-react",
+  "html_url": "https://github.com/0wczar/airframe-react",
+  "description": "Free Open Source High Quality Dashboard based on Bootstrap 4 & React 16: https://airframe-react-lime.vercel.app",
+  "stars": 3989,
+  "forks": 710,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "admin",
+    "admin-dashboard",
+    "airframe",
+    "boostrap4",
+    "bootstrap",
+    "dashboard",
+    "react",
+    "react-components",
+    "reactjs",
+    "ui-components"
+  ],
+  "archived": false,
+  "commit_sha": "999e89b9a8ab80056ff2afdc112cdc521e8306a8",
+  "commit_url": "https://github.com/0wczar/airframe-react/commit/999e89b9a8ab80056ff2afdc112cdc521e8306a8",
+  "tree_url": "https://github.com/0wczar/airframe-react/tree/999e89b9a8ab80056ff2afdc112cdc521e8306a8",
+  "analysed_at": "2026-11-14T19:14:57.335246+00:00",
+  "status": "completed",
+  "files_fetched": 630,
+  "files_analysed": 627,
+  "components": [
+    "API layer",
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/dashboard-style/js-modules/index.js",
+    "app/components/Accordion/index.js",
+    "app/components/App/index.js",
+    "app/components/Avatar/index.js",
+    "app/components/Card/index.js",
+    "app/components/CardHeader/index.js",
+    "app/components/Checkable/index.js",
+    "app/components/CustomInput/index.js",
+    "app/components/Divider/index.js",
+    "app/components/EmptyLayout/index.js",
+    "app/components/ExtendedDropdown/index.js",
+    "app/components/FloatGrid/index.js"
+  ]
+}

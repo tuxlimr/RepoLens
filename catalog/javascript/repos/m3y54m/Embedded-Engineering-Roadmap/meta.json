@@ -1,0 +1,45 @@
+{
+  "owner": "m3y54m",
+  "name": "Embedded-Engineering-Roadmap",
+  "full_name": "m3y54m/Embedded-Engineering-Roadmap",
+  "html_url": "https://github.com/m3y54m/Embedded-Engineering-Roadmap",
+  "description": "Comprehensive roadmap for aspiring Embedded Systems Engineers, featuring a curated list of learning resources",
+  "stars": 13899,
+  "forks": 1363,
+  "license": "CC-BY-SA-4.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "electronics",
+    "electronics-engineering",
+    "embedded",
+    "embedded-developer",
+    "embedded-engineer",
+    "embedded-software",
+    "embedded-systems",
+    "firmware",
+    "firmware-engineer",
+    "hardware",
+    "roadmap",
+    "software-engineer"
+  ],
+  "archived": false,
+  "commit_sha": "792e6cdf6cd4233c6fbd99c65c1236e5637da363",
+  "commit_url": "https://github.com/m3y54m/Embedded-Engineering-Roadmap/commit/792e6cdf6cd4233c6fbd99c65c1236e5637da363",
+  "tree_url": "https://github.com/m3y54m/Embedded-Engineering-Roadmap/tree/792e6cdf6cd4233c6fbd99c65c1236e5637da363",
+  "analysed_at": "2026-11-14T19:11:48.991601+00:00",
+  "status": "completed",
+  "files_fetched": 35,
+  "files_analysed": 35,
+  "components": [
+    "Configuration and deployment",
+    "explorer package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    ".github/scripts/check_readme.py",
+    "explorer/app.js"
+  ]
+}

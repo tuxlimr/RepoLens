@@ -1,0 +1,62 @@
+{
+  "owner": "atomiks",
+  "name": "tippyjs",
+  "full_name": "atomiks/tippyjs",
+  "html_url": "https://github.com/atomiks/tippyjs",
+  "description": "Tooltip, popover, dropdown, and menu library",
+  "stars": 12228,
+  "forks": 538,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "combobox",
+    "dropdown",
+    "menu",
+    "popover",
+    "popup",
+    "tooltip"
+  ],
+  "archived": true,
+  "commit_sha": "ad85f6feb79cf6c5853c43bf1b2a50c4fa98e7a1",
+  "commit_url": "https://github.com/atomiks/tippyjs/commit/ad85f6feb79cf6c5853c43bf1b2a50c4fa98e7a1",
+  "tree_url": "https://github.com/atomiks/tippyjs/tree/ad85f6feb79cf6c5853c43bf1b2a50c4fa98e7a1",
+  "analysed_at": "2026-11-14T19:12:08.488416+00:00",
+  "status": "completed",
+  "files_fetched": 211,
+  "files_analysed": 184,
+  "components": [
+    "addons package",
+    "_babel.d.ts package",
+    "bindGlobalEventListeners.ts package",
+    "browser.ts package",
+    "Configuration and deployment",
+    "constants.ts package",
+    "Core modules",
+    "createTippy.ts package",
+    "css.ts package",
+    "dom-utils.ts package",
+    "index.ts package",
+    "plugins package",
+    "props.ts package",
+    "template.ts package",
+    "Tests",
+    "types-internal.ts package",
+    "types.ts package",
+    "utils.ts package",
+    "validation.ts package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts",
+    "website/src/components/Main.js",
+    "website/src/css/index.js",
+    "website/src/hooks/index.js"
+  ]
+}

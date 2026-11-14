@@ -1,0 +1,24 @@
+%% Repository: puckeditor/puck
+%% Analysed commit: ab5624ddcb0435cc9575b5154433be7aadf84809
+%% Commit reference: https://github.com/puckeditor/puck/commit/ab5624ddcb0435cc9575b5154433be7aadf84809
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        packages["packages package"]
+        recipes["recipes package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

@@ -1,0 +1,45 @@
+{
+  "owner": "codemirror",
+  "name": "codemirror5",
+  "full_name": "codemirror/codemirror5",
+  "html_url": "https://github.com/codemirror/codemirror5",
+  "description": "In-browser code editor (version 5, legacy)",
+  "stars": 27192,
+  "forks": 4919,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "9b4f0603cb042286a7ac2262b98245493d0d7e4b",
+  "commit_url": "https://github.com/codemirror/codemirror5/commit/9b4f0603cb042286a7ac2262b98245493d0d7e4b",
+  "tree_url": "https://github.com/codemirror/codemirror5/tree/9b4f0603cb042286a7ac2262b98245493d0d7e4b",
+  "analysed_at": "2026-11-14T19:10:54.844949+00:00",
+  "status": "completed",
+  "files_fetched": 578,
+  "files_analysed": 578,
+  "components": [
+    "addon package",
+    "bin package",
+    "codemirror.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "display package",
+    "edit package",
+    "input package",
+    "keymap package",
+    "line package",
+    "measurement package",
+    "mode package",
+    "model package",
+    "modes.js package",
+    "Tests",
+    "util package"
+  ],
+  "detections": [
+    "Docker"
+  ],
+  "entry_points": [
+    "src/edit/main.js"
+  ]
+}

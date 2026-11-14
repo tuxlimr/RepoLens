@@ -1,0 +1,40 @@
+{
+  "owner": "alyssaxuu",
+  "name": "flowy",
+  "full_name": "alyssaxuu/flowy",
+  "html_url": "https://github.com/alyssaxuu/flowy",
+  "description": "The minimal javascript library to create flowcharts \u2728",
+  "stars": 12148,
+  "forks": 1043,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "diagrams",
+    "drag-and-drop",
+    "engine",
+    "flowchart",
+    "javascript",
+    "javascript-library",
+    "marketing",
+    "marketing-automation",
+    "minimal",
+    "zapier"
+  ],
+  "archived": false,
+  "commit_sha": "e977380e3a84043aabb32cfd25b813455df5ec6f",
+  "commit_url": "https://github.com/alyssaxuu/flowy/commit/e977380e3a84043aabb32cfd25b813455df5ec6f",
+  "tree_url": "https://github.com/alyssaxuu/flowy/tree/e977380e3a84043aabb32cfd25b813455df5ec6f",
+  "analysed_at": "2026-11-14T19:12:09.002659+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 35,
+  "components": [
+    "demo package",
+    "engine package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "demo/main.js"
+  ]
+}

@@ -1,0 +1,29 @@
+%% Repository: ahujasid/mcp-for-blender
+%% Analysed commit: 8f40787fbde8e6d8fe51c5a3553e5635fff40d2b
+%% Commit reference: https://github.com/ahujasid/mcp-for-blender/commit/8f40787fbde8e6d8fe51c5a3553e5635fff40d2b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        blender_mcp["blender_mcp package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    blender_mcp -->|imports| entrypoint
+    blender_mcp -->|imports| external_integrations
+    entrypoint -->|imports| blender_mcp
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| blender_mcp
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

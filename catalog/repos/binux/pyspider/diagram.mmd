@@ -1,0 +1,41 @@
+%% Repository: binux/pyspider
+%% Analysed commit: 897891cafb21ea5b4ac08e728ad2ea212879f7fa
+%% Commit reference: https://github.com/binux/pyspider/commit/897891cafb21ea5b4ac08e728ad2ea212879f7fa
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        pyspider["pyspider package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| entrypoint
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| pyspider
+    config -->|imports| pyspider
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| pyspider
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| pyspider
+    pyspider -->|imports| data_layer
+    pyspider -->|imports| entrypoint
+    pyspider -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| pyspider

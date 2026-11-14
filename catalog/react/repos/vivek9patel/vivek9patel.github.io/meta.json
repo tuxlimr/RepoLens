@@ -1,0 +1,45 @@
+{
+  "owner": "vivek9patel",
+  "name": "vivek9patel.github.io",
+  "full_name": "vivek9patel/vivek9patel.github.io",
+  "html_url": "https://github.com/vivek9patel/vivek9patel.github.io",
+  "description": "Web simulation of Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+  "stars": 4325,
+  "forks": 696,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "nextjs",
+    "personal-portfolio",
+    "personal-portfolio-website",
+    "portfolio-website",
+    "react",
+    "reactjs",
+    "tailwindcss",
+    "ubuntu2004"
+  ],
+  "archived": false,
+  "commit_sha": "df42a171d42789a576de91cf83fc48b85dbfbc00",
+  "commit_url": "https://github.com/vivek9patel/vivek9patel.github.io/commit/df42a171d42789a576de91cf83fc48b85dbfbc00",
+  "tree_url": "https://github.com/vivek9patel/vivek9patel.github.io/tree/df42a171d42789a576de91cf83fc48b85dbfbc00",
+  "analysed_at": "2026-11-14T19:14:49.327955+00:00",
+  "status": "completed",
+  "files_fetched": 77,
+  "files_analysed": 76,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "pages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS"
+  ],
+  "entry_points": [
+    "pages/index.js"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "deepseek-ai",
+  "name": "DeepSeek-OCR",
+  "full_name": "deepseek-ai/DeepSeek-OCR",
+  "html_url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+  "description": "Contexts Optical Compression",
+  "stars": 24162,
+  "forks": 2218,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "09eaf526153e7a01ed16c9dea8c96282aaea29c0",
+  "commit_url": "https://github.com/deepseek-ai/DeepSeek-OCR/commit/09eaf526153e7a01ed16c9dea8c96282aaea29c0",
+  "tree_url": "https://github.com/deepseek-ai/DeepSeek-OCR/tree/09eaf526153e7a01ed16c9dea8c96282aaea29c0",
+  "analysed_at": "2026-11-14T19:07:40.301703+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "DeepSeek-OCR-master package",
+    "Application entry point"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "DeepSeek-OCR-master/DeepSeek-OCR-vllm/deepencoder/clip_sdpa.py",
+    "DeepSeek-OCR-master/DeepSeek-OCR-vllm/run_dpsk_ocr_eval_batch.py",
+    "DeepSeek-OCR-master/DeepSeek-OCR-vllm/run_dpsk_ocr_image.py",
+    "DeepSeek-OCR-master/DeepSeek-OCR-vllm/run_dpsk_ocr_pdf.py"
+  ]
+}

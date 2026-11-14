@@ -1,0 +1,45 @@
+{
+  "owner": "dilanx",
+  "name": "craco",
+  "full_name": "dilanx/craco",
+  "html_url": "https://github.com/dilanx/craco",
+  "description": "Create React App Configuration Override, an easy and comprehensible configuration layer for Create React App.",
+  "stars": 7404,
+  "forks": 481,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "configuration",
+    "cra",
+    "create-react-app",
+    "customization",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "56840ceaedaa5f71cc580099e72f0048fafcc44f",
+  "commit_url": "https://github.com/dilanx/craco/commit/56840ceaedaa5f71cc580099e72f0048fafcc44f",
+  "tree_url": "https://github.com/dilanx/craco/tree/56840ceaedaa5f71cc580099e72f0048fafcc44f",
+  "analysed_at": "2026-11-14T19:13:51.013745+00:00",
+  "status": "completed",
+  "files_fetched": 168,
+  "files_analysed": 167,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/craco-types/src/index.ts",
+    "packages/craco/src/index.ts",
+    "website/src/pages/index.js"
+  ]
+}

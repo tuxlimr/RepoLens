@@ -1,0 +1,43 @@
+{
+  "owner": "bilibili",
+  "name": "flv.js",
+  "full_name": "bilibili/flv.js",
+  "html_url": "https://github.com/bilibili/flv.js",
+  "description": "HTML5 FLV Player",
+  "stars": 23169,
+  "forks": 3323,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "42343088f22619cf014a057b3878fe3d320016a6",
+  "commit_url": "https://github.com/bilibili/flv.js/commit/42343088f22619cf014a057b3878fe3d320016a6",
+  "tree_url": "https://github.com/bilibili/flv.js/tree/42343088f22619cf014a057b3878fe3d320016a6",
+  "analysed_at": "2026-11-14T19:11:05.457754+00:00",
+  "status": "completed",
+  "files_fetched": 61,
+  "files_analysed": 61,
+  "components": [
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "d.ts package",
+    "demux package",
+    "flv.js package",
+    "index.js package",
+    "io package",
+    "player package",
+    "remux package",
+    "Service / domain layer",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "black-forest-labs",
+  "name": "flux",
+  "full_name": "black-forest-labs/flux",
+  "html_url": "https://github.com/black-forest-labs/flux",
+  "description": "Official inference repo for FLUX.1 models",
+  "stars": 26058,
+  "forks": 1935,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "802fb4713906133fcbd0d8dc5351620ca4773036",
+  "commit_url": "https://github.com/black-forest-labs/flux/commit/802fb4713906133fcbd0d8dc5351620ca4773036",
+  "tree_url": "https://github.com/black-forest-labs/flux/tree/802fb4713906133fcbd0d8dc5351620ca4773036",
+  "analysed_at": "2026-11-14T19:07:27.179659+00:00",
+  "status": "completed",
+  "files_fetched": 51,
+  "files_analysed": 51,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "flux package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": [
+    "src/flux/__main__.py",
+    "src/flux/cli.py",
+    "src/flux/cli_control.py",
+    "src/flux/cli_fill.py",
+    "src/flux/cli_kontext.py",
+    "src/flux/cli_redux.py",
+    "demo_gr.py",
+    "demo_st.py",
+    "demo_st_fill.py"
+  ]
+}

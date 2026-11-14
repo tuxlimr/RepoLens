@@ -1,0 +1,57 @@
+%% Repository: FujiwaraChoki/MoneyPrinterV2
+%% Analysed commit: a734fa924adb9ffe5ab8472aa5526e469e42a8b5
+%% Commit reference: https://github.com/FujiwaraChoki/MoneyPrinterV2/commit/a734fa924adb9ffe5ab8472aa5526e469e42a8b5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        art_py["art.py package"]
+        cache_py["cache.py package"]
+        classes["classes package"]
+        constants_py["constants.py package"]
+        llm_provider_py["llm_provider.py package"]
+        post_bridge_integration_py["post_bridge_integration.py package"]
+        scripts["scripts package"]
+        status_py["status.py package"]
+        utils_py["utils.py package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    art_py -->|imports| config
+    cache_py -->|imports| config
+    classes -->|imports| cache_py
+    classes -->|imports| config
+    classes -->|imports| constants_py
+    classes -->|imports| external_integrations
+    classes -->|imports| llm_provider_py
+    classes -->|imports| status_py
+    classes -->|imports| utils_py
+    entrypoint -->|imports| art_py
+    entrypoint -->|imports| cache_py
+    entrypoint -->|imports| classes
+    entrypoint -->|imports| config
+    entrypoint -->|imports| constants_py
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| llm_provider_py
+    entrypoint -->|imports| post_bridge_integration_py
+    entrypoint -->|imports| status_py
+    entrypoint -->|imports| utils_py
+    llm_provider_py -->|imports| config
+    post_bridge_integration_py -->|imports| classes
+    post_bridge_integration_py -->|imports| config
+    post_bridge_integration_py -->|imports| status_py
+    tests -->|imports| classes
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| post_bridge_integration_py
+    utils_py -->|imports| config
+    utils_py -->|imports| external_integrations
+    utils_py -->|imports| status_py

@@ -1,0 +1,23 @@
+%% Repository: statsd/statsd
+%% Analysed commit: f7157b880631152569b04d626f631b60eec366f8
+%% Commit reference: https://github.com/statsd/statsd/commit/f7157b880631152569b04d626f631b60eec366f8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backends["backends package"]
+        debian["debian package"]
+        lib["lib package"]
+        servers["servers package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

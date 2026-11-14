@@ -1,0 +1,55 @@
+{
+  "owner": "donnemartin",
+  "name": "interactive-coding-challenges",
+  "full_name": "donnemartin/interactive-coding-challenges",
+  "html_url": "https://github.com/donnemartin/interactive-coding-challenges",
+  "description": "120+ interactive Python coding interview challenges (algorithms and data structures).  Includes Anki flashcards.",
+  "stars": 31963,
+  "forks": 4656,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "algorithm",
+    "coding",
+    "competitive-programming",
+    "data-structure",
+    "development",
+    "interview",
+    "interview-practice",
+    "interview-questions",
+    "programming",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "358f2cc60426d5c4c3d7d580910eec9a7b393fa9",
+  "commit_url": "https://github.com/donnemartin/interactive-coding-challenges/commit/358f2cc60426d5c4c3d7d580910eec9a7b393fa9",
+  "tree_url": "https://github.com/donnemartin/interactive-coding-challenges/tree/358f2cc60426d5c4c3d7d580910eec9a7b393fa9",
+  "analysed_at": "2026-11-14T19:07:05.613839+00:00",
+  "status": "completed",
+  "files_fetched": 498,
+  "files_analysed": 498,
+  "components": [
+    "arrays_strings package",
+    "bit_manipulation package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "graphs_trees package",
+    "linked_lists package",
+    "math_probability package",
+    "online_judges package",
+    "recursion_dynamic package",
+    "sorting_searching package",
+    "stacks_queues package",
+    "staging package",
+    "templates package",
+    "Tests"
+  ],
+  "detections": [
+    "unittest"
+  ],
+  "entry_points": [
+    "staging/arrays_strings/reverse_words/reverse_words_solution.py"
+  ]
+}

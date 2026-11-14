@@ -1,0 +1,47 @@
+{
+  "owner": "ironcalc",
+  "name": "IronCalc",
+  "full_name": "ironcalc/IronCalc",
+  "html_url": "https://github.com/ironcalc/IronCalc",
+  "description": "Main engine of the IronCalc ecosystem",
+  "stars": 4273,
+  "forks": 240,
+  "license": "Apache-2.0",
+  "language": "Rust",
+  "default_branch": "main",
+  "topics": [
+    "react",
+    "rust",
+    "self-hosted",
+    "spreadsheet"
+  ],
+  "archived": false,
+  "commit_sha": "53c00566515e3d67bf9b7bd2205db16771ea66e8",
+  "commit_url": "https://github.com/ironcalc/IronCalc/commit/53c00566515e3d67bf9b7bd2205db16771ea66e8",
+  "tree_url": "https://github.com/ironcalc/IronCalc/tree/53c00566515e3d67bf9b7bd2205db16771ea66e8",
+  "analysed_at": "2026-11-14T19:14:51.000421+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 796,
+  "components": [
+    "base package",
+    "bindings package",
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "bindings/wasm/fix_types.py",
+    "bindings/wasm/third_party_notices.py",
+    "bindings/nodejs/index.js"
+  ]
+}

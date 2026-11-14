@@ -1,0 +1,58 @@
+{
+  "owner": "giscus",
+  "name": "giscus",
+  "full_name": "giscus/giscus",
+  "html_url": "https://github.com/giscus/giscus",
+  "description": "A commenting system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:",
+  "stars": 12221,
+  "forks": 489,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "blog",
+    "comment-system",
+    "comments",
+    "comments-widget",
+    "giscus",
+    "github",
+    "github-discussions",
+    "hacktoberfest",
+    "javascript",
+    "nextjs",
+    "react",
+    "reactjs",
+    "utterances",
+    "widget"
+  ],
+  "archived": false,
+  "commit_sha": "3d6430237108ca4ee3eb6a1a20595201c09c72d5",
+  "commit_url": "https://github.com/giscus/giscus/commit/3d6430237108ca4ee3eb6a1a20595201c09c72d5",
+  "tree_url": "https://github.com/giscus/giscus/tree/3d6430237108ca4ee3eb6a1a20595201c09c72d5",
+  "analysed_at": "2026-11-14T19:13:21.202272+00:00",
+  "status": "completed",
+  "files_fetched": 230,
+  "files_analysed": 227,
+  "components": [
+    "API layer",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "pages package",
+    "Service / domain layer",
+    "styles package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "pages/api/discussions/index.ts",
+    "pages/index.tsx",
+    "services/cache/index.ts"
+  ]
+}

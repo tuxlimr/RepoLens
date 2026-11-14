@@ -1,0 +1,63 @@
+{
+  "owner": "jaredpalmer",
+  "name": "formik",
+  "full_name": "jaredpalmer/formik",
+  "html_url": "https://github.com/jaredpalmer/formik",
+  "description": "Build forms in React, without the tears \ud83d\ude2d ",
+  "stars": 34299,
+  "forks": 2769,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "form",
+    "formik",
+    "forms",
+    "higher-order-component",
+    "hooks",
+    "react",
+    "react-hooks",
+    "react-native",
+    "render-props"
+  ],
+  "archived": false,
+  "commit_sha": "91475adbf33579561e580eceea0c031f4ec2e992",
+  "commit_url": "https://github.com/jaredpalmer/formik/commit/91475adbf33579561e580eceea0c031f4ec2e992",
+  "tree_url": "https://github.com/jaredpalmer/formik/tree/91475adbf33579561e580eceea0c031f4ec2e992",
+  "analysed_at": "2026-11-14T19:13:01.684583+00:00",
+  "status": "completed",
+  "files_fetched": 290,
+  "files_analysed": 290,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "e2e package",
+    "External integrations",
+    "packages package",
+    "scripts package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "examples/async-submission/index.js",
+    "examples/basic-typescript/index.tsx",
+    "examples/basic/index.js",
+    "examples/checkboxes/index.js",
+    "examples/dependent-fields-async-api-request/index.js",
+    "examples/dependent-fields/index.js",
+    "examples/field-arrays/index.js",
+    "examples/field-level-validation/index.js",
+    "examples/instant-feedback/index.js",
+    "examples/radio-group/index.js",
+    "examples/with-material-ui/index.js",
+    "app/pages/index.tsx"
+  ]
+}

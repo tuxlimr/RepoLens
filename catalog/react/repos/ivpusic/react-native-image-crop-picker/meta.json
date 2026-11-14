@@ -1,0 +1,50 @@
+{
+  "owner": "ivpusic",
+  "name": "react-native-image-crop-picker",
+  "full_name": "ivpusic/react-native-image-crop-picker",
+  "html_url": "https://github.com/ivpusic/react-native-image-crop-picker",
+  "description": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
+  "stars": 6350,
+  "forks": 1611,
+  "license": "MIT",
+  "language": "Objective-C",
+  "default_branch": "master",
+  "topics": [
+    "android",
+    "crop",
+    "cropping",
+    "image",
+    "ios",
+    "react",
+    "react-native",
+    "recording",
+    "video"
+  ],
+  "archived": false,
+  "commit_sha": "a18a50d4e7935aeaf45ce44b098bdcac3365be2c",
+  "commit_url": "https://github.com/ivpusic/react-native-image-crop-picker/commit/a18a50d4e7935aeaf45ce44b098bdcac3365be2c",
+  "tree_url": "https://github.com/ivpusic/react-native-image-crop-picker/tree/a18a50d4e7935aeaf45ce44b098bdcac3365be2c",
+  "analysed_at": "2026-11-14T19:14:07.639738+00:00",
+  "status": "completed",
+  "files_fetched": 139,
+  "files_analysed": 138,
+  "components": [
+    "android package",
+    "AwesomeExample package",
+    "Configuration and deployment",
+    "Core modules",
+    "ios package",
+    "NativeImageCropPicker.ts package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js",
+    "AwesomeExample/App.tsx",
+    "AwesomeExample/index.js"
+  ]
+}

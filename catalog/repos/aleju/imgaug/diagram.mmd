@@ -1,0 +1,22 @@
+%% Repository: aleju/imgaug
+%% Analysed commit: 0101108d4fed06bc5056c4a03e2bcb0216dac326
+%% Commit reference: https://github.com/aleju/imgaug/commit/0101108d4fed06bc5056c4a03e2bcb0216dac326
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        imgaug["imgaug package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| imgaug
+    imgaug -->|imports| external_integrations
+    tests -->|imports| imgaug

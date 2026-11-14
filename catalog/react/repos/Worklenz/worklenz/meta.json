@@ -1,0 +1,61 @@
+{
+  "owner": "Worklenz",
+  "name": "worklenz",
+  "full_name": "Worklenz/worklenz",
+  "html_url": "https://github.com/Worklenz/worklenz",
+  "description": "All in one project management tool for efficient teams",
+  "stars": 3308,
+  "forks": 396,
+  "license": "AGPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "expressjs",
+    "postgresql",
+    "project-management",
+    "react",
+    "resource-management",
+    "rest-api",
+    "scheduler",
+    "task-management",
+    "time-tracking",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "c0115ed217610a03b0b2da2fc28d17ec59d3e921",
+  "commit_url": "https://github.com/Worklenz/worklenz/commit/c0115ed217610a03b0b2da2fc28d17ec59d3e921",
+  "tree_url": "https://github.com/Worklenz/worklenz/tree/c0115ed217610a03b0b2da2fc28d17ec59d3e921",
+  "analysed_at": "2026-11-14T19:15:25.309140+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 798,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "docker package",
+    "Application entry point",
+    "scripts package",
+    "security package",
+    "worklenz-backend package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Redis",
+    "Express",
+    "React",
+    "axios",
+    "Docker",
+    "Docker Compose",
+    "Jest",
+    "TypeScript",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/oss-export/scan-secrets.test.py",
+    "worklenz-backend/src/app.ts",
+    "worklenz-backend/src/cron_jobs/index.ts"
+  ]
+}

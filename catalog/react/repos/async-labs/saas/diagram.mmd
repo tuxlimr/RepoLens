@@ -1,0 +1,19 @@
+%% Repository: async-labs/saas
+%% Analysed commit: 4b27b6a0a4bb876562da6de93f0c0dd509fd5ffe
+%% Commit reference: https://github.com/async-labs/saas/commit/4b27b6a0a4bb876562da6de93f0c0dd509fd5ffe
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        book["book package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

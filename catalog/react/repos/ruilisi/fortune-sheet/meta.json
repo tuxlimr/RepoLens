@@ -1,0 +1,57 @@
+{
+  "owner": "ruilisi",
+  "name": "fortune-sheet",
+  "full_name": "ruilisi/fortune-sheet",
+  "html_url": "https://github.com/ruilisi/fortune-sheet",
+  "description": "A drop-in javascript spreadsheet library that provides rich features like Excel and Google Sheets",
+  "stars": 3751,
+  "forks": 324,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "collaborative",
+    "datagrid",
+    "excel",
+    "javascript",
+    "react",
+    "spreadsheet",
+    "typescript",
+    "xlsx"
+  ],
+  "archived": false,
+  "commit_sha": "94346608877db4747406707a177c4b8f3bacdbf9",
+  "commit_url": "https://github.com/ruilisi/fortune-sheet/commit/94346608877db4747406707a177c4b8f3bacdbf9",
+  "tree_url": "https://github.com/ruilisi/fortune-sheet/tree/94346608877db4747406707a177c4b8f3bacdbf9",
+  "analysed_at": "2026-11-14T19:15:05.378962+00:00",
+  "status": "completed",
+  "files_fetched": 326,
+  "files_analysed": 325,
+  "components": [
+    "API layer",
+    "backend-demo package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "stories package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    ".storybook/main.js",
+    "backend-demo/index.js",
+    "packages/core/src/index.ts",
+    "packages/formula-parser/src/index.js",
+    "packages/react/src/index.ts"
+  ]
+}

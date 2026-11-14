@@ -1,0 +1,52 @@
+{
+  "owner": "wesbos",
+  "name": "Advanced-React",
+  "full_name": "wesbos/Advanced-React",
+  "html_url": "https://github.com/wesbos/Advanced-React",
+  "description": "Starter Files and Solutions for Full Stack Advanced React and GraphQL ",
+  "stars": 3553,
+  "forks": 2330,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "fits",
+    "javascript",
+    "react",
+    "sick",
+    "wesbos"
+  ],
+  "archived": false,
+  "commit_sha": "64b8cd13a9b31feb47f12aed3e7aef5d0d5c8e9d",
+  "commit_url": "https://github.com/wesbos/Advanced-React/commit/64b8cd13a9b31feb47f12aed3e7aef5d0d5c8e9d",
+  "tree_url": "https://github.com/wesbos/Advanced-React/tree/64b8cd13a9b31feb47f12aed3e7aef5d0d5c8e9d",
+  "analysed_at": "2026-11-14T19:15:15.174824+00:00",
+  "status": "completed",
+  "files_fetched": 298,
+  "files_analysed": 294,
+  "components": [
+    "Configuration and deployment",
+    "finished-application package",
+    "sick-fits package",
+    "stepped-solutions package"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "finished-application/backend/mutations/index.ts",
+    "finished-application/backend/seed-data/index.ts",
+    "finished-application/frontend/components/Page.js",
+    "finished-application/frontend/pages/index.js",
+    "sick-fits/backend/seed-data/index.ts",
+    "stepped-solutions/04/index.js",
+    "stepped-solutions/06/Page.js",
+    "stepped-solutions/08/Page.js",
+    "stepped-solutions/34/products/index.js",
+    "stepped-solutions/35/products/index.js",
+    "stepped-solutions/47/mutations/index.ts"
+  ]
+}

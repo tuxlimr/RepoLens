@@ -1,0 +1,55 @@
+{
+  "owner": "easydiffusion",
+  "name": "easydiffusion",
+  "full_name": "easydiffusion/easydiffusion",
+  "html_url": "https://github.com/easydiffusion/easydiffusion",
+  "description": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",
+  "stars": 10479,
+  "forks": 860,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "art",
+    "diffusion",
+    "generative-art",
+    "gui",
+    "stable"
+  ],
+  "archived": false,
+  "commit_sha": "7caaf64acd47b6bc40ba2379571d48ea4cc29a6a",
+  "commit_url": "https://github.com/easydiffusion/easydiffusion/commit/7caaf64acd47b6bc40ba2379571d48ea4cc29a6a",
+  "tree_url": "https://github.com/easydiffusion/easydiffusion/tree/7caaf64acd47b6bc40ba2379571d48ea4cc29a6a",
+  "analysed_at": "2026-11-14T19:12:39.557536+00:00",
+  "status": "completed",
+  "files_fetched": 147,
+  "files_analysed": 145,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests",
+    "ui package"
+  ],
+  "detections": [
+    "FastAPI",
+    "Starlette",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "SQLAlchemy",
+    "Uvicorn",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/check_modules.py",
+    "scripts/webui_console.py",
+    "ui/easydiffusion/backends/webui.py",
+    "ui/easydiffusion/server.py",
+    "ui/easydiffusion/utils/model_identifier.py",
+    "ui/media/js/main.js"
+  ]
+}

@@ -1,0 +1,65 @@
+%% Repository: Evil0ctal/Douyin_TikTok_Download_API
+%% Analysed commit: 3c045e11aecd58ab076562f1246931b9dd5d909b
+%% Commit reference: https://github.com/Evil0ctal/Douyin_TikTok_Download_API/commit/3c045e11aecd58ab076562f1246931b9dd5d909b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        dtk["dtk package"]
+        install["install package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| dtk
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| service_layer
+    config -->|imports| api_layer
+    config -->|imports| data_layer
+    config -->|imports| dtk
+    config -->|imports| service_layer
+    data_layer -->|imports| service_layer
+    docker -->|imports| external_integrations
+    dtk -->|imports| api_layer
+    dtk -->|imports| config
+    dtk -->|imports| data_layer
+    dtk -->|imports| entrypoint
+    dtk -->|imports| external_integrations
+    dtk -->|imports| service_layer
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| dtk
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| dtk
+    external_integrations -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| dtk
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| dtk
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

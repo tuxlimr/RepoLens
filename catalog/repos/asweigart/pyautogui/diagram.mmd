@@ -1,0 +1,18 @@
+%% Repository: asweigart/pyautogui
+%% Analysed commit: b4255d0be42c377154c7d92337d7f8515fc63234
+%% Commit reference: https://github.com/asweigart/pyautogui/commit/b4255d0be42c377154c7d92337d7f8515fc63234
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        pyautogui["pyautogui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| pyautogui
+    tests -->|imports| pyautogui

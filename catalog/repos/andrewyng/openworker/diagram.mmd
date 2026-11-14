@@ -1,0 +1,40 @@
+%% Repository: andrewyng/openworker
+%% Analysed commit: ecb445490fc054d52b8ea610d97ba947f57033d2
+%% Commit reference: https://github.com/andrewyng/openworker/commit/ecb445490fc054d52b8ea610d97ba947f57033d2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        coworker["coworker package"]
+        deploy["deploy package"]
+        docs_site["docs-site package"]
+        harness["harness package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| coworker
+    coworker -->|imports| config
+    coworker -->|imports| data_layer
+    coworker -->|imports| entrypoint
+    coworker -->|imports| external_integrations
+    data_layer -->|imports| coworker
+    entrypoint -->|imports| config
+    entrypoint -->|imports| coworker
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    external_integrations -->|imports| config
+    external_integrations -->|imports| coworker

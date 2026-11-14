@@ -1,0 +1,27 @@
+{
+  "owner": "josephmisiti",
+  "name": "awesome-machine-learning",
+  "full_name": "josephmisiti/awesome-machine-learning",
+  "html_url": "https://github.com/josephmisiti/awesome-machine-learning",
+  "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+  "stars": 74828,
+  "forks": 15706,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "2c9222982b4fba6fd5ce135cce41f24a4f2c6983",
+  "commit_url": "https://github.com/josephmisiti/awesome-machine-learning/commit/2c9222982b4fba6fd5ce135cce41f24a4f2c6983",
+  "tree_url": "https://github.com/josephmisiti/awesome-machine-learning/tree/2c9222982b4fba6fd5ce135cce41f24a4f2c6983",
+  "analysed_at": "2026-11-14T19:06:13.351949+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment",
+    "scripts package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

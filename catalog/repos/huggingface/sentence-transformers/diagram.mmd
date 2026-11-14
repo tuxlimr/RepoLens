@@ -1,0 +1,28 @@
+%% Repository: huggingface/sentence-transformers
+%% Analysed commit: 688fd663e7b242f41f3f62296d08c69937efeb00
+%% Commit reference: https://github.com/huggingface/sentence-transformers/commit/688fd663e7b242f41f3f62296d08c69937efeb00
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        sentence_transformers["sentence_transformers package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| sentence_transformers
+    entrypoint -->|imports| sentence_transformers
+    sentence_transformers -->|imports| data_layer
+    sentence_transformers -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| sentence_transformers

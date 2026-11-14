@@ -1,0 +1,48 @@
+%% Repository: davidsandberg/facenet
+%% Analysed commit: 096ed770f163957c1e56efa7feeb194773920f6e
+%% Commit reference: https://github.com/davidsandberg/facenet/commit/096ed770f163957c1e56efa7feeb194773920f6e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        align["align package"]
+        contributed["contributed package"]
+        download_and_extract_py["download_and_extract.py package"]
+        facenet_py["facenet.py package"]
+        generative["generative package"]
+        init_py["__init__.py package"]
+        lfw_py["lfw.py package"]
+        tmp["tmp package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    contributed -->|imports| align
+    contributed -->|imports| facenet_py
+    download_and_extract_py -->|imports| external_integrations
+    entrypoint -->|imports| align
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| facenet_py
+    entrypoint -->|imports| lfw_py
+    entrypoint -->|imports| tmp
+    lfw_py -->|imports| facenet_py
+    tests -->|imports| align
+    tests -->|imports| data_layer
+    tests -->|imports| download_and_extract_py
+    tests -->|imports| facenet_py
+    tests -->|imports| lfw_py
+    tmp -->|imports| align
+    tmp -->|imports| data_layer

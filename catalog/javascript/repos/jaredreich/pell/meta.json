@@ -1,0 +1,37 @@
+{
+  "owner": "jaredreich",
+  "name": "pell",
+  "full_name": "jaredreich/pell",
+  "html_url": "https://github.com/jaredreich/pell",
+  "description": "\ud83d\udcdd the simplest and smallest WYSIWYG text editor for web, with no dependencies",
+  "stars": 12042,
+  "forks": 548,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "contenteditable",
+    "editor",
+    "javascript",
+    "rich-text-editor",
+    "text-editing",
+    "text-editor",
+    "wysiwyg",
+    "wysiwyg-editor"
+  ],
+  "archived": false,
+  "commit_sha": "d5556baa2e0bfc1411621ee4d780752200b367fd",
+  "commit_url": "https://github.com/jaredreich/pell/commit/d5556baa2e0bfc1411621ee4d780752200b367fd",
+  "tree_url": "https://github.com/jaredreich/pell/tree/d5556baa2e0bfc1411621ee4d780752200b367fd",
+  "analysed_at": "2026-11-14T19:12:11.512201+00:00",
+  "status": "completed",
+  "files_fetched": 16,
+  "files_analysed": 13,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "pell.js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

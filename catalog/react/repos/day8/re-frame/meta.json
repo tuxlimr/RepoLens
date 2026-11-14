@@ -1,0 +1,37 @@
+{
+  "owner": "day8",
+  "name": "re-frame",
+  "full_name": "day8/re-frame",
+  "html_url": "https://github.com/day8/re-frame",
+  "description": "A ClojureScript framework for building user interfaces, leveraging React",
+  "stars": 5545,
+  "forks": 709,
+  "license": "MIT",
+  "language": "Clojure",
+  "default_branch": "master",
+  "topics": [
+    "clojurescript",
+    "re-frame",
+    "react",
+    "reagent",
+    "spa"
+  ],
+  "archived": false,
+  "commit_sha": "1a1bf1df6570b17a148ebce70d500ec2da393cdc",
+  "commit_url": "https://github.com/day8/re-frame/commit/1a1bf1df6570b17a148ebce70d500ec2da393cdc",
+  "tree_url": "https://github.com/day8/re-frame/tree/1a1bf1df6570b17a148ebce70d500ec2da393cdc",
+  "analysed_at": "2026-11-14T19:14:17.120482+00:00",
+  "status": "completed",
+  "files_fetched": 211,
+  "files_analysed": 205,
+  "components": [
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker"
+  ],
+  "entry_points": []
+}

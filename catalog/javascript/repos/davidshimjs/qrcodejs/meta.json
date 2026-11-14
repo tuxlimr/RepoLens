@@ -1,0 +1,27 @@
+{
+  "owner": "davidshimjs",
+  "name": "qrcodejs",
+  "full_name": "davidshimjs/qrcodejs",
+  "html_url": "https://github.com/davidshimjs/qrcodejs",
+  "description": "Cross-browser QRCode generator for javascript",
+  "stars": 14317,
+  "forks": 4720,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "04f46c6a0708418cb7b96fc563eacae0fbf77674",
+  "commit_url": "https://github.com/davidshimjs/qrcodejs/commit/04f46c6a0708418cb7b96fc563eacae0fbf77674",
+  "tree_url": "https://github.com/davidshimjs/qrcodejs/tree/04f46c6a0708418cb7b96fc563eacae0fbf77674",
+  "analysed_at": "2026-11-14T19:11:45.443690+00:00",
+  "status": "completed",
+  "files_fetched": 8,
+  "files_analysed": 8,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

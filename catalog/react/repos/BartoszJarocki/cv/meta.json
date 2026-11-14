@@ -1,0 +1,45 @@
+{
+  "owner": "BartoszJarocki",
+  "name": "cv",
+  "full_name": "BartoszJarocki/cv",
+  "html_url": "https://github.com/BartoszJarocki/cv",
+  "description": "Print-friendly, minimalist CV page",
+  "stars": 9677,
+  "forks": 1062,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "nextjs",
+    "react",
+    "shadcn-ui",
+    "tailwindcss"
+  ],
+  "archived": false,
+  "commit_sha": "8faa527766b0504f4a016bc283dbd960b0707314",
+  "commit_url": "https://github.com/BartoszJarocki/cv/commit/8faa527766b0504f4a016bc283dbd960b0707314",
+  "tree_url": "https://github.com/BartoszJarocki/cv/tree/8faa527766b0504f4a016bc283dbd960b0707314",
+  "analysed_at": "2026-11-14T19:13:33.164203+00:00",
+  "status": "completed",
+  "files_fetched": 45,
+  "files_analysed": 44,
+  "components": [
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/app/page.tsx"
+  ]
+}

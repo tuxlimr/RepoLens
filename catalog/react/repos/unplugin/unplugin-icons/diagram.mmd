@@ -1,0 +1,31 @@
+%% Repository: unplugin/unplugin-icons
+%% Analysed commit: 9a0ca853f0c68a43fe6f1aae4c6fa156ab0eea4b
+%% Commit reference: https://github.com/unplugin/unplugin-icons/commit/9a0ca853f0c68a43fe6f1aae4c6fa156ab0eea4b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        esbuild_ts["esbuild.ts package"]
+        index_ts["index.ts package"]
+        loaders_ts["loaders.ts package"]
+        nuxt_ts["nuxt.ts package"]
+        resolver_ts["resolver.ts package"]
+        rolldown_ts["rolldown.ts package"]
+        rollup_ts["rollup.ts package"]
+        rspack_ts["rspack.ts package"]
+        scripts["scripts package"]
+        types["types package"]
+        types_ts["types.ts package"]
+        vite_ts["vite.ts package"]
+        webpack_ts["webpack.ts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

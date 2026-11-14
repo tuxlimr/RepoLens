@@ -1,0 +1,40 @@
+{
+  "owner": "fmhy",
+  "name": "edit",
+  "full_name": "fmhy/edit",
+  "html_url": "https://github.com/fmhy/edit",
+  "description": "Make changes to FMHY",
+  "stars": 12818,
+  "forks": 3339,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "fmhy",
+    "freemediaheckyeah"
+  ],
+  "archived": false,
+  "commit_sha": "0450bd41abe146ff23887131105489f5139ac730",
+  "commit_url": "https://github.com/fmhy/edit/commit/0450bd41abe146ff23887131105489f5139ac730",
+  "tree_url": "https://github.com/fmhy/edit/tree/0450bd41abe146ff23887131105489f5139ac730",
+  "analysed_at": "2026-11-14T19:12:03.533225+00:00",
+  "status": "completed",
+  "files_fetched": 319,
+  "files_analysed": 318,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "api/routes/index.ts"
+  ]
+}

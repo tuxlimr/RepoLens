@@ -1,0 +1,20 @@
+%% Repository: MagicMirrorOrg/MagicMirror
+%% Analysed commit: f138f5b690ceab6450f55c852ac81d268363f563
+%% Commit reference: https://github.com/MagicMirrorOrg/MagicMirror/commit/f138f5b690ceab6450f55c852ac81d268363f563
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        clientonly["clientonly package"]
+        defaultmodules["defaultmodules package"]
+        js["js package"]
+        serveronly["serveronly package"]
+        translations["translations package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,23 @@
+%% Repository: ritz078/transform
+%% Analysed commit: ff7557939be351706f4dc6f71cc375e3bc64c225
+%% Commit reference: https://github.com/ritz078/transform/commit/ff7557939be351706f4dc6f71cc375e3bc64c225
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        components["components package"]
+        constants["constants package"]
+        hooks["hooks package"]
+        pages["pages package"]
+        typings["typings package"]
+        utils["utils package"]
+        workers["workers package"]
+    end

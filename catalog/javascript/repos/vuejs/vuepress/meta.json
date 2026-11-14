@@ -1,0 +1,59 @@
+{
+  "owner": "vuejs",
+  "name": "vuepress",
+  "full_name": "vuejs/vuepress",
+  "html_url": "https://github.com/vuejs/vuepress",
+  "description": "\ud83d\udcdd Minimalistic Vue-powered static site generator",
+  "stars": 22716,
+  "forks": 4605,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "blog-engine",
+    "docs-generator",
+    "seo",
+    "static-site-generator",
+    "vue",
+    "vuepress"
+  ],
+  "archived": false,
+  "commit_sha": "9fb4bb00925d9409e6732118e996411c6a82c85d",
+  "commit_url": "https://github.com/vuejs/vuepress/commit/9fb4bb00925d9409e6732118e996411c6a82c85d",
+  "tree_url": "https://github.com/vuejs/vuepress/tree/9fb4bb00925d9409e6732118e996411c6a82c85d",
+  "analysed_at": "2026-11-14T19:11:07.387745+00:00",
+  "status": "completed",
+  "files_fetched": 508,
+  "files_analysed": 506,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "__mocks__ package",
+    "packages package",
+    "scripts package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue",
+    "Docker",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "__mocks__/vuepress-theme-without-index/Layout.vue",
+    "packages/@vuepress/core/lib/index.js",
+    "packages/@vuepress/markdown-loader/index.js",
+    "packages/@vuepress/markdown/index.js",
+    "packages/@vuepress/plugin-active-header-links/index.js",
+    "packages/@vuepress/plugin-back-to-top/index.js",
+    "packages/@vuepress/plugin-google-analytics/index.js",
+    "packages/@vuepress/plugin-last-updated/index.js",
+    "packages/@vuepress/plugin-medium-zoom/index.js",
+    "packages/@vuepress/plugin-nprogress/index.js",
+    "packages/@vuepress/plugin-pwa/index.js",
+    "packages/@vuepress/plugin-register-components/index.js"
+  ]
+}

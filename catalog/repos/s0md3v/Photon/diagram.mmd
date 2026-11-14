@@ -1,0 +1,27 @@
+%% Repository: s0md3v/Photon
+%% Analysed commit: c8d2566841d69a268b244609921143d84b72b0c6
+%% Commit reference: https://github.com/s0md3v/Photon/commit/c8d2566841d69a268b244609921143d84b72b0c6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        plugins["plugins package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    core -->|imports| config
+    core -->|imports| external_integrations
+    core -->|imports| plugins
+    core -->|imports| service_layer
+    plugins -->|imports| external_integrations
+    service_layer -->|imports| config
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| plugins

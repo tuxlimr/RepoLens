@@ -1,0 +1,44 @@
+{
+  "owner": "localForage",
+  "name": "localForage",
+  "full_name": "localForage/localForage",
+  "html_url": "https://github.com/localForage/localForage",
+  "description": "\ud83d\udcbe Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.",
+  "stars": 25801,
+  "forks": 1288,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "indexeddb",
+    "javascript",
+    "localforage",
+    "localstorage",
+    "offline",
+    "storage",
+    "websql"
+  ],
+  "archived": false,
+  "commit_sha": "fb78c77ee583fb727a558c439b5174aca38c5924",
+  "commit_url": "https://github.com/localForage/localForage/commit/fb78c77ee583fb727a558c439b5174aca38c5924",
+  "tree_url": "https://github.com/localForage/localForage/tree/fb78c77ee583fb727a558c439b5174aca38c5924",
+  "analysed_at": "2026-11-14T19:10:59.820267+00:00",
+  "status": "completed",
+  "files_fetched": 90,
+  "files_analysed": 87,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "drivers package",
+    "localforage.js package",
+    "Tests",
+    "typing-tests package",
+    "typings package",
+    "utils package"
+  ],
+  "detections": [
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": []
+}

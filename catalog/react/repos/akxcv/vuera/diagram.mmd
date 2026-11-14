@@ -1,0 +1,21 @@
+%% Repository: akxcv/vuera
+%% Analysed commit: 6322eba843982917e9585d5ee705576a7d42788d
+%% Commit reference: https://github.com/akxcv/vuera/commit/6322eba843982917e9585d5ee705576a7d42788d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        config_js["config.js package"]
+        index_js["index.js package"]
+        resolvers["resolvers package"]
+        utils["utils package"]
+        vueplugin_js["VuePlugin.js package"]
+        wrappers["wrappers package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

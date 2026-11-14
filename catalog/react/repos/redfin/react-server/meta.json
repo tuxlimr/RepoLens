@@ -1,0 +1,59 @@
+{
+  "owner": "redfin",
+  "name": "react-server",
+  "full_name": "redfin/react-server",
+  "html_url": "https://github.com/redfin/react-server",
+  "description": ":rocket: Blazing fast page load and seamless navigation.",
+  "stars": 3861,
+  "forks": 181,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "isomorphic",
+    "react",
+    "react-server",
+    "server",
+    "ssr",
+    "universal"
+  ],
+  "archived": false,
+  "commit_sha": "572ff229d51d25515ab4b8f13cd15a87cd787f61",
+  "commit_url": "https://github.com/redfin/react-server/commit/572ff229d51d25515ab4b8f13cd15a87cd787f61",
+  "tree_url": "https://github.com/redfin/react-server/tree/572ff229d51d25515ab4b8f13cd15a87cd787f61",
+  "analysed_at": "2026-11-14T19:15:03.036763+00:00",
+  "status": "completed",
+  "files_fetched": 542,
+  "files_analysed": 538,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Redux",
+    "Docker",
+    "Docker Compose",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/babel-preset-react-server/index.js",
+    "packages/flab/index.js",
+    "packages/generator-react-server/generators/app/index.js",
+    "packages/react-server-cli/bin/react-server-cli",
+    "packages/react-server-core-middleware/index.js",
+    "packages/react-server-examples/hello-world/HelloWorld.js",
+    "packages/react-server-gulp-module-tagger/index.js",
+    "packages/react-server-module-tagger/index.js",
+    "packages/babel-plugin-react-server/src/index.js",
+    "packages/react-server-cli/src/index.js",
+    "packages/react-server-data-bundle-cache/main.js",
+    "packages/react-server-data-bundle-cache/src/index.js"
+  ]
+}

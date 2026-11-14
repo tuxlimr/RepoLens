@@ -1,0 +1,23 @@
+%% Repository: karpathy/llm-council
+%% Analysed commit: 92e1fccb1bdcf1bab7221aa9ed90f9dc72529131
+%% Commit reference: https://github.com/karpathy/llm-council/commit/92e1fccb1bdcf1bab7221aa9ed90f9dc72529131
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        frontend["frontend package"]
+    end
+    backend -->|imports| config
+    backend -->|imports| external_integrations
+    entrypoint -->|imports| backend

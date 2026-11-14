@@ -1,0 +1,33 @@
+%% Repository: coleam00/context-engineering-intro
+%% Analysed commit: a2d84b021cee1e2f4e77ba854bba0be8cb319035
+%% Commit reference: https://github.com/coleam00/context-engineering-intro/commit/a2d84b021cee1e2f4e77ba854bba0be8cb319035
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        claude_code_full_guide["claude-code-full-guide package"]
+        use_cases["use-cases package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| use_cases
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| use_cases
+    use_cases -->|imports| config
+    use_cases -->|imports| data_layer
+    use_cases -->|imports| external_integrations

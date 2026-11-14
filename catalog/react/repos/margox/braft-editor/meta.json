@@ -1,0 +1,54 @@
+{
+  "owner": "margox",
+  "name": "braft-editor",
+  "full_name": "margox/braft-editor",
+  "html_url": "https://github.com/margox/braft-editor",
+  "description": "\u7f8e\u89c2\u6613\u7528\u7684React\u5bcc\u6587\u672c\u7f16\u8f91\u5668\uff0c\u57fa\u4e8edraft-js\u5f00\u53d1",
+  "stars": 4573,
+  "forks": 577,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "draft-js",
+    "react",
+    "rich",
+    "rich-text-editor",
+    "wysiwyg",
+    "wysiwyg-js-editor"
+  ],
+  "archived": false,
+  "commit_sha": "099025513256bf74ca48d98698a5f837130f6262",
+  "commit_url": "https://github.com/margox/braft-editor/commit/099025513256bf74ca48d98698a5f837130f6262",
+  "tree_url": "https://github.com/margox/braft-editor/tree/099025513256bf74ca48d98698a5f837130f6262",
+  "analysed_at": "2026-11-14T19:14:42.366808+00:00",
+  "status": "completed",
+  "files_fetched": 110,
+  "files_analysed": 108,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "editor package",
+    "helpers package",
+    "index.jsx package",
+    "languages package",
+    "playground package",
+    "renderers package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "playground/index.jsx",
+    "playground/server.js",
+    "src/editor/index.jsx",
+    "src/index.jsx",
+    "src/languages/index.js",
+    "src/renderers/decorators/index.js",
+    "src/renderers/index.js"
+  ]
+}

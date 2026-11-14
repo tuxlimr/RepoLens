@@ -1,0 +1,46 @@
+{
+  "owner": "novnc",
+  "name": "noVNC",
+  "full_name": "novnc/noVNC",
+  "html_url": "https://github.com/novnc/noVNC",
+  "description": "VNC client web application",
+  "stars": 14206,
+  "forks": 2705,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "arraybuffer",
+    "html",
+    "html-canvas",
+    "html5",
+    "javascript",
+    "modern-browsers",
+    "novnc",
+    "vnc-client",
+    "websockets",
+    "websockify",
+    "wss"
+  ],
+  "archived": false,
+  "commit_sha": "e8b5024d4603587b29ffede4fbd28b1fa2939829",
+  "commit_url": "https://github.com/novnc/noVNC/commit/e8b5024d4603587b29ffede4fbd28b1fa2939829",
+  "tree_url": "https://github.com/novnc/noVNC/tree/e8b5024d4603587b29ffede4fbd28b1fa2939829",
+  "analysed_at": "2026-11-14T19:11:45.979923+00:00",
+  "status": "completed",
+  "files_fetched": 206,
+  "files_analysed": 192,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "Service / domain layer",
+    "snap package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

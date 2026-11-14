@@ -1,0 +1,23 @@
+%% Repository: Yuan1z0825/nature-skills
+%% Analysed commit: 7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8
+%% Commit reference: https://github.com/Yuan1z0825/nature-skills/commit/7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        skills["skills package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    skills -->|imports| external_integrations
+    tests -->|imports| external_integrations

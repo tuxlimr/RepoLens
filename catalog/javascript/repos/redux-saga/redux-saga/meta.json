@@ -1,0 +1,61 @@
+{
+  "owner": "redux-saga",
+  "name": "redux-saga",
+  "full_name": "redux-saga/redux-saga",
+  "html_url": "https://github.com/redux-saga/redux-saga",
+  "description": "An alternative side effect model for Redux apps",
+  "stars": 22410,
+  "forks": 1929,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "effects",
+    "middleware",
+    "redux",
+    "redux-saga",
+    "sagas"
+  ],
+  "archived": false,
+  "commit_sha": "1bfaded683f1161a6b749d62c5c2a70cbcbc6a94",
+  "commit_url": "https://github.com/redux-saga/redux-saga/commit/1bfaded683f1161a6b749d62c5c2a70cbcbc6a94",
+  "tree_url": "https://github.com/redux-saga/redux-saga/tree/1bfaded683f1161a6b749d62c5c2a70cbcbc6a94",
+  "analysed_at": "2026-11-14T19:11:08.964291+00:00",
+  "status": "completed",
+  "files_fetched": 400,
+  "files_analysed": 399,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Redux",
+    "Redux Toolkit",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/counter-vanilla/index.html",
+    "packages/babel-plugin-redux-saga/src/index.js",
+    "packages/core/src/index.js",
+    "packages/deferred/src/index.js",
+    "packages/delay-p/src/index.js",
+    "packages/is/src/index.js",
+    "packages/redux-saga/src/index.js",
+    "packages/simple-saga-monitor/src/index.js",
+    "packages/symbols/src/index.js",
+    "packages/testing-utils/src/index.js",
+    "packages/types/src/index.js",
+    "packages/unplugin/src/index.js"
+  ]
+}

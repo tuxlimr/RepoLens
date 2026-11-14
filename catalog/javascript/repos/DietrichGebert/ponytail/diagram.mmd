@@ -1,0 +1,26 @@
+%% Repository: DietrichGebert/ponytail
+%% Analysed commit: 96608e078b2d5ea607c5c3b8b5a54d1c1fba6846
+%% Commit reference: https://github.com/DietrichGebert/ponytail/commit/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        hooks["hooks package"]
+        pi_extension["pi-extension package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| external_integrations

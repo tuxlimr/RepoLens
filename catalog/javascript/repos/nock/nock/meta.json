@@ -1,0 +1,42 @@
+{
+  "owner": "nock",
+  "name": "nock",
+  "full_name": "nock/nock",
+  "html_url": "https://github.com/nock/nock",
+  "description": "HTTP server mocking and expectations library for Node.js",
+  "stars": 13141,
+  "forks": 793,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "http",
+    "javascript",
+    "mock",
+    "nock",
+    "node"
+  ],
+  "archived": false,
+  "commit_sha": "3e817ab5415606cc44eab247691d4035c037c322",
+  "commit_url": "https://github.com/nock/nock/commit/3e817ab5415606cc44eab247691d4035c037c322",
+  "tree_url": "https://github.com/nock/nock/tree/3e817ab5415606cc44eab247691d4035c037c322",
+  "analysed_at": "2026-11-14T19:11:59.970155+00:00",
+  "status": "completed",
+  "files_fetched": 123,
+  "files_analysed": 121,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.ts",
+    "lib/utils/node/index.ts"
+  ]
+}

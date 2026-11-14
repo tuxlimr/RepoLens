@@ -1,0 +1,36 @@
+%% Repository: bytedance/trae-agent
+%% Analysed commit: e839e559ac61bdd0e057c375dd1dee391fee797d
+%% Commit reference: https://github.com/bytedance/trae-agent/commit/e839e559ac61bdd0e057c375dd1dee391fee797d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        evaluation["evaluation package"]
+        trae_agent["trae_agent package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| trae_agent
+    entrypoint -->|imports| config
+    entrypoint -->|imports| evaluation
+    entrypoint -->|imports| trae_agent
+    evaluation -->|imports| config
+    evaluation -->|imports| external_integrations
+    evaluation -->|imports| trae_agent
+    external_integrations -->|imports| config
+    external_integrations -->|imports| trae_agent
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| trae_agent
+    trae_agent -->|imports| config
+    trae_agent -->|imports| entrypoint
+    trae_agent -->|imports| external_integrations

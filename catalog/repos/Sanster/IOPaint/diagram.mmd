@@ -1,0 +1,33 @@
+%% Repository: Sanster/IOPaint
+%% Analysed commit: 61a759fb3f332bacdce8b2813f4837495c9b86e0
+%% Commit reference: https://github.com/Sanster/IOPaint/commit/61a759fb3f332bacdce8b2813f4837495c9b86e0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        iopaint["iopaint package"]
+        scripts["scripts package"]
+        web_app["web_app package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| iopaint
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| iopaint
+    iopaint -->|imports| data_layer
+    iopaint -->|imports| entrypoint
+    tests -->|imports| iopaint

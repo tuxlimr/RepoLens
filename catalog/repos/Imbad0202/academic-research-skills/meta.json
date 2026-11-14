@@ -1,0 +1,39 @@
+{
+  "owner": "Imbad0202",
+  "name": "academic-research-skills",
+  "full_name": "Imbad0202/academic-research-skills",
+  "html_url": "https://github.com/Imbad0202/academic-research-skills",
+  "description": "Academic Research Skills for Claude Code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize",
+  "stars": 56882,
+  "forks": 4338,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "academic-pipeline",
+    "academic-writing",
+    "ai-research",
+    "claude",
+    "claude-code",
+    "literature-review",
+    "peer-review",
+    "prompt-engineering"
+  ],
+  "archived": false,
+  "commit_sha": "ac42fc3a8635e143a6c3363f5c7132df1b6b0567",
+  "commit_url": "https://github.com/Imbad0202/academic-research-skills/commit/ac42fc3a8635e143a6c3363f5c7132df1b6b0567",
+  "tree_url": "https://github.com/Imbad0202/academic-research-skills/tree/ac42fc3a8635e143a6c3363f5c7132df1b6b0567",
+  "analysed_at": "2026-11-14T19:06:29.065569+00:00",
+  "status": "completed",
+  "files_fetched": 384,
+  "files_analysed": 384,
+  "components": [
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "pytest"
+  ],
+  "entry_points": []
+}

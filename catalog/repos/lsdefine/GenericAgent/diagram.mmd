@@ -1,0 +1,43 @@
+%% Repository: lsdefine/GenericAgent
+%% Analysed commit: 68d996a4588210aacb39cf79a4974d2743316e64
+%% Commit reference: https://github.com/lsdefine/GenericAgent/commit/68d996a4588210aacb39cf79a4974d2743316e64
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        frontends["frontends package"]
+        ga_cli["ga_cli package"]
+        memory["memory package"]
+        plugins["plugins package"]
+        reflect["reflect package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| entrypoint
+    core -->|imports| external_integrations
+    core -->|imports| plugins
+    entrypoint -->|imports| core
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| frontends
+    entrypoint -->|imports| plugins
+    frontends -->|imports| core
+    frontends -->|imports| entrypoint
+    frontends -->|imports| external_integrations
+    memory -->|imports| external_integrations
+    plugins -->|imports| core
+    reflect -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| frontends

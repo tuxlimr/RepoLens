@@ -1,0 +1,50 @@
+%% Repository: TheAlgorithms/Python
+%% Analysed commit: 30507bbe41397065728167fb09aa820f9fce8dc7
+%% Commit reference: https://github.com/TheAlgorithms/Python/commit/30507bbe41397065728167fb09aa820f9fce8dc7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        audio_filters["audio_filters package"]
+        backtracking["backtracking package"]
+        bit_manipulation["bit_manipulation package"]
+        blockchain["blockchain package"]
+        boolean_algebra["boolean_algebra package"]
+        cellular_automata["cellular_automata package"]
+        ciphers["ciphers package"]
+        computer_vision["computer_vision package"]
+        conversions["conversions package"]
+        data_compression["data_compression package"]
+        data_structures["data_structures package"]
+        digital_image_processing["digital_image_processing package"]
+        divide_and_conquer["divide_and_conquer package"]
+        dynamic_programming["dynamic_programming package"]
+        graphs["graphs package"]
+        greedy_methods["greedy_methods package"]
+        hashes["hashes package"]
+        knapsack["knapsack package"]
+        linear_algebra["linear_algebra package"]
+        machine_learning["machine_learning package"]
+        maths["maths package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (11 merged)"]
+    %% Note: 11 smaller component(s) merged into 'other' to keep the diagram readable.
+    ciphers -->|imports| maths
+    data_structures -->|imports| entrypoint
+    entrypoint -->|imports| ciphers
+    entrypoint -->|imports| data_structures
+    entrypoint -->|imports| other
+    entrypoint -->|imports| maths
+    tests -->|imports| data_structures
+    tests -->|imports| digital_image_processing
+    tests -->|imports| entrypoint
+    tests -->|imports| graphs
+    tests -->|imports| knapsack
+    tests -->|imports| linear_algebra

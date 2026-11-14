@@ -1,0 +1,32 @@
+%% Repository: psf/requests
+%% Analysed commit: 3c7baaa05ab4aa49cc819ce3a819d260de19c157
+%% Commit reference: https://github.com/psf/requests/commit/3c7baaa05ab4aa49cc819ce3a819d260de19c157
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        requests["requests package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| requests
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| requests
+    requests -->|imports| data_layer
+    requests -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| requests

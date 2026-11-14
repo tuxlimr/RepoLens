@@ -1,0 +1,28 @@
+%% Repository: Jack-Cherish/python-spider
+%% Analysed commit: 60b7ed839713ccf00bb30fe2b203a6b45d7459aa
+%% Commit reference: https://github.com/Jack-Cherish/python-spider/commit/60b7ed839713ccf00bb30fe2b203a6b45d7459aa
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        baiwan["baiwan package"]
+        c_2020["2020 package"]
+        cartoon["cartoon package"]
+        douyin["douyin package"]
+        one_hour_spider["one_hour_spider package"]
+        video_downloader["video_downloader package"]
+    end
+    c_2020 -->|imports| external_integrations
+    cartoon -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations
+    one_hour_spider -->|imports| external_integrations

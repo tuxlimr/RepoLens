@@ -1,0 +1,48 @@
+{
+  "owner": "browser-use",
+  "name": "web-ui",
+  "full_name": "browser-use/web-ui",
+  "html_url": "https://github.com/browser-use/web-ui",
+  "description": "\ud83d\udda5\ufe0f Run AI Agent in your browser.",
+  "stars": 16653,
+  "forks": 2758,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai-agent",
+    "browser-automation",
+    "browser-use-box",
+    "cloud-browser"
+  ],
+  "archived": false,
+  "commit_sha": "61962296c38a0d064e0ba02c827192b7a81d1819",
+  "commit_url": "https://github.com/browser-use/web-ui/commit/61962296c38a0d064e0ba02c827192b7a81d1819",
+  "tree_url": "https://github.com/browser-use/web-ui/tree/61962296c38a0d064e0ba02c827192b7a81d1819",
+  "analysed_at": "2026-11-14T19:08:44.594567+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "agent package",
+    "browser package",
+    "Configuration and deployment",
+    "controller package",
+    "Application entry point",
+    "External integrations",
+    "__init__.py package",
+    "Tests",
+    "utils package",
+    "webui package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Pydantic",
+    "requests",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "webui.py"
+  ]
+}

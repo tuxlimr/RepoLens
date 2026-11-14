@@ -1,0 +1,56 @@
+{
+  "owner": "keon",
+  "name": "algorithms",
+  "full_name": "keon/algorithms",
+  "html_url": "https://github.com/keon/algorithms",
+  "description": "Minimal examples of data structures and algorithms in Python",
+  "stars": 25597,
+  "forks": 4706,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "algorithm",
+    "algorithms",
+    "competitive-programming",
+    "data-structure",
+    "graph",
+    "python",
+    "search",
+    "sort",
+    "tree"
+  ],
+  "archived": false,
+  "commit_sha": "bd1d152f9ec7331c69be662831610b003b10fc7a",
+  "commit_url": "https://github.com/keon/algorithms/commit/bd1d152f9ec7331c69be662831610b003b10fc7a",
+  "tree_url": "https://github.com/keon/algorithms/tree/bd1d152f9ec7331c69be662831610b003b10fc7a",
+  "analysed_at": "2026-11-14T19:07:29.511283+00:00",
+  "status": "completed",
+  "files_fetched": 444,
+  "files_analysed": 444,
+  "components": [
+    "algorithms package",
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "algorithms/data_structures/red_black_tree.py",
+    "algorithms/searching/generalized_binary_search.py",
+    "algorithms/searching/interpolation_search.py",
+    "algorithms/tree/bst_count_left_node.py",
+    "algorithms/tree/bst_depth_sum.py",
+    "algorithms/tree/bst_height.py",
+    "algorithms/tree/bst_kth_smallest.py",
+    "algorithms/tree/bst_num_empty.py",
+    "algorithms/tree/bst_validate_bst.py",
+    "algorithms/tree/traversal_inorder.py"
+  ]
+}

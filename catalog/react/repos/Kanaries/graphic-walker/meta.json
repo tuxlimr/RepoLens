@@ -1,0 +1,63 @@
+{
+  "owner": "Kanaries",
+  "name": "graphic-walker",
+  "full_name": "Kanaries/graphic-walker",
+  "html_url": "https://github.com/Kanaries/graphic-walker",
+  "description": "An open source alternative to Tableau. Embeddable visual analytic",
+  "stars": 3292,
+  "forks": 190,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "bi",
+    "data",
+    "data-analysis",
+    "data-mining",
+    "data-visualization",
+    "eda",
+    "k6s",
+    "kanaries",
+    "low-code",
+    "pivot-table",
+    "react",
+    "tableau",
+    "tableau-alternative",
+    "typescript",
+    "vega",
+    "vega-lite",
+    "visualization"
+  ],
+  "archived": false,
+  "commit_sha": "a4b3bc1e87c059c220fa02633fd0207c01b5ad66",
+  "commit_url": "https://github.com/Kanaries/graphic-walker/commit/a4b3bc1e87c059c220fa02633fd0207c01b5ad66",
+  "tree_url": "https://github.com/Kanaries/graphic-walker/tree/a4b3bc1e87c059c220fa02633fd0207c01b5ad66",
+  "analysed_at": "2026-11-14T19:15:25.992163+00:00",
+  "status": "completed",
+  "files_fetched": 528,
+  "files_analysed": 527,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/duckdb-wasm-computation/src/index.ts",
+    "packages/graphic-walker/src/App.tsx",
+    "packages/graphic-walker/src/index.tsx",
+    "packages/graphic-walker/src/main.tsx",
+    "packages/playground/src/main.tsx",
+    "packages/worksheet-renderer/src/index.ts"
+  ]
+}

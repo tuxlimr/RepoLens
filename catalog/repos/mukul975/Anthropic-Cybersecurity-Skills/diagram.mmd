@@ -1,0 +1,14 @@
+%% Repository: mukul975/Anthropic-Cybersecurity-Skills
+%% Analysed commit: 54a798831d2266a3ca61ce68a7acb80b81160d57
+%% Commit reference: https://github.com/mukul975/Anthropic-Cybersecurity-Skills/commit/54a798831d2266a3ca61ce68a7acb80b81160d57
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    entrypoint -->|imports| external_integrations

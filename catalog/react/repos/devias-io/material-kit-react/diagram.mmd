@@ -1,0 +1,27 @@
+%% Repository: devias-io/material-kit-react
+%% Analysed commit: 6423e1a2f092c50d7e1e22f3e43344df02af41de
+%% Commit reference: https://github.com/devias-io/material-kit-react/commit/6423e1a2f092c50d7e1e22f3e43344df02af41de
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        config_ts["config.ts package"]
+        contexts["contexts package"]
+        hooks["hooks package"]
+        lib["lib package"]
+        paths_ts["paths.ts package"]
+        styles["styles package"]
+        types["types package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

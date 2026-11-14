@@ -1,0 +1,41 @@
+{
+  "owner": "reagent-project",
+  "name": "reagent",
+  "full_name": "reagent-project/reagent",
+  "html_url": "https://github.com/reagent-project/reagent",
+  "description": "A minimalistic ClojureScript interface to React.js",
+  "stars": 4897,
+  "forks": 412,
+  "license": "MIT",
+  "language": "Clojure",
+  "default_branch": "master",
+  "topics": [
+    "clojure",
+    "clojurescript",
+    "frontend",
+    "hiccup",
+    "react",
+    "reagent"
+  ],
+  "archived": false,
+  "commit_sha": "7ad8cdf2c05737256bd4583b845164d93a3becf4",
+  "commit_url": "https://github.com/reagent-project/reagent/commit/7ad8cdf2c05737256bd4583b845164d93a3becf4",
+  "tree_url": "https://github.com/reagent-project/reagent/tree/7ad8cdf2c05737256bd4583b845164d93a3becf4",
+  "analysed_at": "2026-11-14T19:14:34.014614+00:00",
+  "status": "completed",
+  "files_fetched": 219,
+  "files_analysed": 209,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "test-environments package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "webpack"
+  ],
+  "entry_points": []
+}

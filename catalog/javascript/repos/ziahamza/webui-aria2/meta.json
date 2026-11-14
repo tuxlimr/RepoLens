@@ -1,0 +1,36 @@
+{
+  "owner": "ziahamza",
+  "name": "webui-aria2",
+  "full_name": "ziahamza/webui-aria2",
+  "html_url": "https://github.com/ziahamza/webui-aria2",
+  "description": "The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser. ",
+  "stars": 10350,
+  "forks": 1452,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "109903f0e2774cf948698cd95a01f77f33d7dd2c",
+  "commit_url": "https://github.com/ziahamza/webui-aria2/commit/109903f0e2774cf948698cd95a01f77f33d7dd2c",
+  "tree_url": "https://github.com/ziahamza/webui-aria2/tree/109903f0e2774cf948698cd95a01f77f33d7dd2c",
+  "analysed_at": "2026-11-14T19:12:40.561910+00:00",
+  "status": "completed",
+  "files_fetched": 91,
+  "files_analysed": 91,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "Docker",
+    "Docker Compose",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/js/app.js",
+    "src/js/ctrls/main.js"
+  ]
+}

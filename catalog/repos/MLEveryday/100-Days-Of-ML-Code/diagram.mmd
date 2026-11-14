@@ -1,0 +1,21 @@
+%% Repository: MLEveryday/100-Days-Of-ML-Code
+%% Analysed commit: a6474a20a1cd8bb3fa3c7fab12ffadf70858810c
+%% Commit reference: https://github.com/MLEveryday/100-Days-Of-ML-Code/commit/a6474a20a1cd8bb3fa3c7fab12ffadf70858810c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        code["Code package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    code -->|imports| external_integrations

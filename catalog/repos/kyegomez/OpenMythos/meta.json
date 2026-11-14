@@ -1,0 +1,54 @@
+{
+  "owner": "kyegomez",
+  "name": "OpenMythos",
+  "full_name": "kyegomez/OpenMythos",
+  "html_url": "https://github.com/kyegomez/OpenMythos",
+  "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+  "stars": 14925,
+  "forks": 3267,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "anthropic",
+    "attention",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-mythos",
+    "claude-sonnet",
+    "deepmind",
+    "gpt-5",
+    "gpt-7",
+    "jax",
+    "looped-transformers",
+    "ml",
+    "pytorch",
+    "sonnet",
+    "torch"
+  ],
+  "archived": false,
+  "commit_sha": "155430a88d2a98322fc4c79b2a067792c3c9579a",
+  "commit_url": "https://github.com/kyegomez/OpenMythos/commit/155430a88d2a98322fc4c79b2a067792c3c9579a",
+  "tree_url": "https://github.com/kyegomez/OpenMythos/tree/155430a88d2a98322fc4c79b2a067792c3c9579a",
+  "analysed_at": "2026-11-14T19:09:11.089122+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 23,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "open_mythos package",
+    "Tests"
+  ],
+  "detections": [
+    "Poetry",
+    "pytest"
+  ],
+  "entry_points": [
+    "training/3b_fine_web_edu.py"
+  ]
+}

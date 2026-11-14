@@ -1,0 +1,27 @@
+%% Repository: OpenEthan/SMSBoom
+%% Analysed commit: 38ccbeccb05fab66442988b38b559062d7cf92d8
+%% Commit reference: https://github.com/OpenEthan/SMSBoom/commit/38ccbeccb05fab66442988b38b559062d7cf92d8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        debug["debug package"]
+        utils["utils package"]
+    end
+    data_layer -->|imports| utils
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| utils
+    utils -->|imports| data_layer
+    utils -->|imports| entrypoint
+    utils -->|imports| external_integrations

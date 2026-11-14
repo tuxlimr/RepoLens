@@ -1,0 +1,46 @@
+{
+  "owner": "vuejs",
+  "name": "vue-hackernews-2.0",
+  "full_name": "vuejs/vue-hackernews-2.0",
+  "html_url": "https://github.com/vuejs/vue-hackernews-2.0",
+  "description": "HackerNews clone built with Vue 2.0, vue-router & vuex, with server-side rendering",
+  "stars": 10837,
+  "forks": 2102,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "98399b55c6f1da4197840ba76189795b3e95be0f",
+  "commit_url": "https://github.com/vuejs/vue-hackernews-2.0/commit/98399b55c6f1da4197840ba76189795b3e95be0f",
+  "tree_url": "https://github.com/vuejs/vue-hackernews-2.0/tree/98399b55c6f1da4197840ba76189795b3e95be0f",
+  "analysed_at": "2026-11-14T19:12:30.784583+00:00",
+  "status": "completed",
+  "files_fetched": 34,
+  "files_analysed": 30,
+  "components": [
+    "API layer",
+    "app.js package",
+    "App.vue package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "entry-client.js package",
+    "entry-server.js package",
+    "router package",
+    "store package",
+    "util package"
+  ],
+  "detections": [
+    "Express",
+    "Vue",
+    "webpack"
+  ],
+  "entry_points": [
+    "server.js",
+    "src/api/index.js",
+    "src/app.js",
+    "src/router/index.js",
+    "src/store/index.js"
+  ]
+}

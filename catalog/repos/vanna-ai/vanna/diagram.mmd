@@ -1,0 +1,48 @@
+%% Repository: vanna-ai/vanna
+%% Analysed commit: 365d0617c1a4567ffee1b19b40c27feb4206bfcf
+%% Commit reference: https://github.com/vanna-ai/vanna/commit/365d0617c1a4567ffee1b19b40c27feb4206bfcf
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        frontends["frontends package"]
+        vanna["vanna package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| service_layer
+    data_layer -->|imports| service_layer
+    data_layer -->|imports| vanna
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| vanna
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| service_layer
+    external_integrations -->|imports| vanna
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| vanna
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer
+    tests -->|imports| vanna
+    vanna -->|imports| config
+    vanna -->|imports| data_layer
+    vanna -->|imports| external_integrations
+    vanna -->|imports| service_layer

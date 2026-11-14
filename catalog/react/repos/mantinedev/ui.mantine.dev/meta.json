@@ -1,0 +1,55 @@
+{
+  "owner": "mantinedev",
+  "name": "ui.mantine.dev",
+  "full_name": "mantinedev/ui.mantine.dev",
+  "html_url": "https://github.com/mantinedev/ui.mantine.dev",
+  "description": "Mantine UI website and components",
+  "stars": 3946,
+  "forks": 366,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "components",
+    "react",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "963b955c5cef4bcc6008d40a0431e46ef771c254",
+  "commit_url": "https://github.com/mantinedev/ui.mantine.dev/commit/963b955c5cef4bcc6008d40a0431e46ef771c254",
+  "tree_url": "https://github.com/mantinedev/ui.mantine.dev/tree/963b955c5cef4bcc6008d40a0431e46ef771c254",
+  "analysed_at": "2026-11-14T19:14:57.613289+00:00",
+  "status": "completed",
+  "files_fetched": 732,
+  "files_analysed": 732,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "pages package",
+    "test-utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    ".storybook/main.ts",
+    "components/GaScript/index.ts",
+    "components/HotKeysHandler/index.ts",
+    "components/PageHead/index.ts",
+    "components/Search/index.ts",
+    "components/Shell/index.ts",
+    "data/images/index.ts",
+    "data/index.ts",
+    "lib/FeaturesImages/images/index.ts",
+    "lib/ImageCheckboxes/icons/index.ts",
+    "lib/LanguagePicker/images/index.ts",
+    "lib/index.ts"
+  ]
+}

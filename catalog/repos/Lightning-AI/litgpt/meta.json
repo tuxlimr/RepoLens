@@ -1,0 +1,60 @@
+{
+  "owner": "Lightning-AI",
+  "name": "litgpt",
+  "full_name": "Lightning-AI/litgpt",
+  "html_url": "https://github.com/Lightning-AI/litgpt",
+  "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+  "stars": 13748,
+  "forks": 1548,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "artificial-intelligence",
+    "deep-learning",
+    "large-language-models",
+    "llm",
+    "llm-inference",
+    "llms"
+  ],
+  "archived": false,
+  "commit_sha": "5341568a65e918a85cb284fac038de2157eebf3f",
+  "commit_url": "https://github.com/Lightning-AI/litgpt/commit/5341568a65e918a85cb284fac038de2157eebf3f",
+  "tree_url": "https://github.com/Lightning-AI/litgpt/tree/5341568a65e918a85cb284fac038de2157eebf3f",
+  "analysed_at": "2026-11-14T19:09:42.506352+00:00",
+  "status": "completed",
+  "files_fetched": 237,
+  "files_analysed": 237,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "extensions package",
+    "External integrations",
+    "litgpt package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "extensions/thunder/pretrain.py",
+    "extensions/xla/finetune/adapter.py",
+    "extensions/xla/generate/adapter.py",
+    "extensions/xla/generate/base.py",
+    "extensions/xla/scripts/prepare_alpaca.py",
+    "litgpt/__main__.py",
+    "litgpt/data/prepare_slimpajama.py",
+    "litgpt/data/prepare_starcoder.py",
+    "tutorials/full_finetune_example.py"
+  ]
+}

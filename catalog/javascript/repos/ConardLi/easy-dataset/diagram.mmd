@@ -1,0 +1,29 @@
+%% Repository: ConardLi/easy-dataset
+%% Analysed commit: 4002b09d9c5726cafb9f61a8d12765cb96a2d94b
+%% Commit reference: https://github.com/ConardLi/easy-dataset/commit/4002b09d9c5726cafb9f61a8d12765cb96a2d94b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        constant["constant package"]
+        electron["electron package"]
+        hooks["hooks package"]
+        lib["lib package"]
+        prisma["prisma package"]
+        styles["styles package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

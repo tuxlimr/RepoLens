@@ -1,0 +1,58 @@
+{
+  "owner": "Jack-Cherish",
+  "name": "python-spider",
+  "full_name": "Jack-Cherish/python-spider",
+  "html_url": "https://github.com/Jack-Cherish/python-spider",
+  "description": ":rainbow:Python3\u7f51\u7edc\u722c\u866b\u5b9e\u6218\uff1a\u6dd8\u5b9d\u3001\u4eac\u4e1c\u3001\u7f51\u6613\u4e91\u3001B\u7ad9\u300112306\u3001\u6296\u97f3\u3001\u7b14\u8da3\u9601\u3001\u6f2b\u753b\u5c0f\u8bf4\u4e0b\u8f7d\u3001\u97f3\u4e50\u7535\u5f71\u4e0b\u8f7d\u7b49",
+  "stars": 19859,
+  "forks": 5927,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "python",
+    "python-spider",
+    "python3",
+    "webspider"
+  ],
+  "archived": false,
+  "commit_sha": "60b7ed839713ccf00bb30fe2b203a6b45d7459aa",
+  "commit_url": "https://github.com/Jack-Cherish/python-spider/commit/60b7ed839713ccf00bb30fe2b203a6b45d7459aa",
+  "tree_url": "https://github.com/Jack-Cherish/python-spider/tree/60b7ed839713ccf00bb30fe2b203a6b45d7459aa",
+  "analysed_at": "2026-11-14T19:08:05.856867+00:00",
+  "status": "completed",
+  "files_fetched": 68,
+  "files_analysed": 68,
+  "components": [
+    "API layer",
+    "baiwan package",
+    "2020 package",
+    "cartoon package",
+    "Configuration and deployment",
+    "douyin package",
+    "Application entry point",
+    "External integrations",
+    "one_hour_spider package",
+    "video_downloader package"
+  ],
+  "detections": [
+    "MySQL",
+    "Click",
+    "NumPy",
+    "requests"
+  ],
+  "entry_points": [
+    "12306.py",
+    "2020/bilibili/xml2ass.py",
+    "2020/taobao/taobao_login.py",
+    "2020/xbqg/xbqg_spider.py",
+    "Netease/Netease.py",
+    "baiduwenku.py",
+    "baiduwenku_pro_1.py",
+    "baiwan/baiwan.py",
+    "bilibili/bilibili.py",
+    "bilibili/xml2ass.py",
+    "bilibili_luckyman/bilibili_luckyman.py",
+    "biqukan.py"
+  ]
+}

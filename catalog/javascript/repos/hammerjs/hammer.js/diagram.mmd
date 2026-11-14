@@ -1,0 +1,24 @@
+%% Repository: hammerjs/hammer.js
+%% Analysed commit: ff687ea0daa3c806b9accd2ecb1a46165ea3c00a
+%% Commit reference: https://github.com/hammerjs/hammer.js/commit/ff687ea0daa3c806b9accd2ecb1a46165ea3c00a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        hammer_js["hammer.js package"]
+        input["input package"]
+        inputjs["inputjs package"]
+        main_js["main.js package"]
+        manager_js["manager.js package"]
+        recognizerjs["recognizerjs package"]
+        recognizers["recognizers package"]
+        touchactionjs["touchactionjs package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,50 @@
+{
+  "owner": "pandao",
+  "name": "editor.md",
+  "full_name": "pandao/editor.md",
+  "html_url": "https://github.com/pandao/editor.md",
+  "description": "The open source embeddable online markdown editor (component).",
+  "stars": 14311,
+  "forks": 2437,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "codemirror",
+    "commonmark",
+    "documentation",
+    "editor",
+    "flowchart",
+    "gfm",
+    "javascript",
+    "jquery",
+    "katex",
+    "markdown",
+    "markdown-editor",
+    "markdown-writer",
+    "marked",
+    "sequence-diagram",
+    "toc"
+  ],
+  "archived": false,
+  "commit_sha": "63786e671e2c1a1fd2be25b54a8910cd3bbc7c0a",
+  "commit_url": "https://github.com/pandao/editor.md/commit/63786e671e2c1a1fd2be25b54a8910cd3bbc7c0a",
+  "tree_url": "https://github.com/pandao/editor.md/tree/63786e671e2c1a1fd2be25b54a8910cd3bbc7c0a",
+  "analysed_at": "2026-11-14T19:11:45.815427+00:00",
+  "status": "completed",
+  "files_fetched": 453,
+  "files_analysed": 447,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "editormd.js package",
+    "languages package",
+    "lib package",
+    "plugins package",
+    "Tests"
+  ],
+  "detections": [
+    "Docker"
+  ],
+  "entry_points": []
+}

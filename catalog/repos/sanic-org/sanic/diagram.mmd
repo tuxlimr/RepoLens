@@ -1,0 +1,59 @@
+%% Repository: sanic-org/sanic
+%% Analysed commit: 5ffc7b3710838eaf016d2f9612a86a08626915e5
+%% Commit reference: https://github.com/sanic-org/sanic/commit/5ffc7b3710838eaf016d2f9612a86a08626915e5
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        guide["guide package"]
+        sanic["sanic package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| sanic
+    config -->|imports| sanic
+    data_layer -->|imports| api_layer
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| sanic
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| guide
+    entrypoint -->|imports| sanic
+    external_integrations -->|imports| sanic
+    guide -->|imports| api_layer
+    guide -->|imports| entrypoint
+    guide -->|imports| sanic
+    sanic -->|imports| api_layer
+    sanic -->|imports| config
+    sanic -->|imports| data_layer
+    sanic -->|imports| entrypoint
+    sanic -->|imports| external_integrations
+    sanic -->|imports| service_layer
+    service_layer -->|imports| sanic
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| sanic
+    tests -->|imports| service_layer

@@ -1,0 +1,63 @@
+{
+  "owner": "dream-num",
+  "name": "Luckysheet",
+  "full_name": "dream-num/Luckysheet",
+  "html_url": "https://github.com/dream-num/Luckysheet",
+  "description": "Luckysheet upgraded to Univer",
+  "stars": 16624,
+  "forks": 2596,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "chart",
+    "conditional-formatting",
+    "data-table",
+    "excel",
+    "formula",
+    "google-sheets",
+    "google-spreadsheet",
+    "javascript",
+    "office",
+    "pivot-tables",
+    "sparkline",
+    "spreadsheet",
+    "web-based",
+    "xlsx"
+  ],
+  "archived": true,
+  "commit_sha": "5b3fe58f5ad2aaa6a3cef15c6d567f5e10ea1f37",
+  "commit_url": "https://github.com/dream-num/Luckysheet/commit/5b3fe58f5ad2aaa6a3cef15c6d567f5e10ea1f37",
+  "tree_url": "https://github.com/dream-num/Luckysheet/tree/5b3fe58f5ad2aaa6a3cef15c6d567f5e10ea1f37",
+  "analysed_at": "2026-11-14T19:11:31.396023+00:00",
+  "status": "completed",
+  "files_fetched": 174,
+  "files_analysed": 170,
+  "components": [
+    "API layer",
+    "assets package",
+    "Configuration and deployment",
+    "config.js package",
+    "Core modules",
+    "core.js package",
+    "Data layer",
+    "demoData package",
+    "expendPlugins package",
+    "function package",
+    "global package",
+    "index.js package",
+    "locale package",
+    "methods package",
+    "store package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/controllers/server.js",
+    "src/index.js",
+    "src/store/index.js"
+  ]
+}

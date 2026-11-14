@@ -1,0 +1,28 @@
+%% Repository: twintproject/twint
+%% Analysed commit: e7c8a0c764f6879188e5c21e25fb6f1f856a7221
+%% Commit reference: https://github.com/twintproject/twint/commit/e7c8a0c764f6879188e5c21e25fb6f1f856a7221
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        twint["twint package"]
+    end
+    core -->|imports| twint
+    data_layer -->|imports| twint
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| twint
+    twint -->|imports| data_layer
+    twint -->|imports| external_integrations

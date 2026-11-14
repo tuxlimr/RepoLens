@@ -1,0 +1,44 @@
+{
+  "owner": "state-spaces",
+  "name": "mamba",
+  "full_name": "state-spaces/mamba",
+  "html_url": "https://github.com/state-spaces/mamba",
+  "description": "Mamba SSM architecture",
+  "stars": 19005,
+  "forks": 1840,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "e9594ce1c732d97440f0332fdc43170a2294dbfa",
+  "commit_url": "https://github.com/state-spaces/mamba/commit/e9594ce1c732d97440f0332fdc43170a2294dbfa",
+  "tree_url": "https://github.com/state-spaces/mamba/tree/e9594ce1c732d97440f0332fdc43170a2294dbfa",
+  "analysed_at": "2026-11-14T19:08:19.692358+00:00",
+  "status": "completed",
+  "files_fetched": 104,
+  "files_analysed": 104,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "csrc package",
+    "Data layer",
+    "Application entry point",
+    "mamba_ssm package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "evals/lm_harness_eval.py",
+    "mamba_ssm/ops/cute/mamba3/mamba3_step_fn.py",
+    "mamba_ssm/ops/triton/mamba3/mamba3_mimo_rotary_step.py",
+    "mamba_ssm/ops/triton/mamba3/mamba3_mimo_utils.py"
+  ]
+}

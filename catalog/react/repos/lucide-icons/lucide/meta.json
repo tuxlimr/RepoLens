@@ -1,0 +1,45 @@
+{
+  "owner": "lucide-icons",
+  "name": "lucide",
+  "full_name": "lucide-icons/lucide",
+  "html_url": "https://github.com/lucide-icons/lucide",
+  "description": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. ",
+  "stars": 25757,
+  "forks": 1688,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "feather-icons",
+    "figma",
+    "icons",
+    "react",
+    "svg",
+    "svg-icons",
+    "svgs",
+    "ui-components",
+    "ui-design",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "55782beff3a0133df79c417eb68f96e8f19e2404",
+  "commit_url": "https://github.com/lucide-icons/lucide/commit/55782beff3a0133df79c417eb68f96e8f19e2404",
+  "tree_url": "https://github.com/lucide-icons/lucide/tree/55782beff3a0133df79c417eb68f96e8f19e2404",
+  "analysed_at": "2026-11-14T19:13:05.623149+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "docs/.vitepress/theme/components/editors/preact/index.js"
+  ]
+}

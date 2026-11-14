@@ -1,0 +1,26 @@
+%% Repository: yang991178/fluent-reader
+%% Analysed commit: 5912070309759eff37204a5046caba3c780fa4c0
+%% Commit reference: https://github.com/yang991178/fluent-reader/commit/5912070309759eff37204a5046caba3c780fa4c0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        bridges["bridges package"]
+        components["components package"]
+        electron_ts["electron.ts package"]
+        index_tsx["index.tsx package"]
+        main["main package"]
+        preload_ts["preload.ts package"]
+        schema_types_ts["schema-types.ts package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

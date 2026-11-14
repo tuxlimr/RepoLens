@@ -1,0 +1,38 @@
+{
+  "owner": "leecade",
+  "name": "react-native-swiper",
+  "full_name": "leecade/react-native-swiper",
+  "html_url": "https://github.com/leecade/react-native-swiper",
+  "description": "The best Swiper component for React Native.",
+  "stars": 10474,
+  "forks": 2280,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-native",
+    "swipe"
+  ],
+  "archived": false,
+  "commit_sha": "98cc9060dad615e5ae31c5f575f5242ce4dd9fa5",
+  "commit_url": "https://github.com/leecade/react-native-swiper/commit/98cc9060dad615e5ae31c5f575f5242ce4dd9fa5",
+  "tree_url": "https://github.com/leecade/react-native-swiper/tree/98cc9060dad615e5ae31c5f575f5242ce4dd9fa5",
+  "analysed_at": "2026-11-14T19:12:39.203695+00:00",
+  "status": "completed",
+  "files_fetched": 81,
+  "files_analysed": 80,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.js package"
+  ],
+  "detections": [
+    "React",
+    "Jest"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/index.js"
+  ]
+}

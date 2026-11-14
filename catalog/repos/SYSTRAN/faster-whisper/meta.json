@@ -1,0 +1,49 @@
+{
+  "owner": "SYSTRAN",
+  "name": "faster-whisper",
+  "full_name": "SYSTRAN/faster-whisper",
+  "html_url": "https://github.com/SYSTRAN/faster-whisper",
+  "description": "Faster Whisper transcription with CTranslate2",
+  "stars": 26751,
+  "forks": 2244,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "inference",
+    "openai",
+    "quantization",
+    "speech-recognition",
+    "speech-to-text",
+    "transformer",
+    "whisper"
+  ],
+  "archived": false,
+  "commit_sha": "6cb639e70786aea42b9233006ae60eaf07190bdb",
+  "commit_url": "https://github.com/SYSTRAN/faster-whisper/commit/6cb639e70786aea42b9233006ae60eaf07190bdb",
+  "tree_url": "https://github.com/SYSTRAN/faster-whisper/tree/6cb639e70786aea42b9233006ae60eaf07190bdb",
+  "analysed_at": "2026-11-14T19:07:22.646424+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 32,
+  "components": [
+    "benchmark package",
+    "Configuration and deployment",
+    "docker package",
+    "Application entry point",
+    "faster_whisper package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "benchmark/memory_benchmark.py",
+    "benchmark/speed_benchmark.py"
+  ]
+}

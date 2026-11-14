@@ -1,0 +1,39 @@
+%% Repository: browser-use/browser-use
+%% Analysed commit: e717df1839a2d7368b108de6694f01e9c659b0de
+%% Commit reference: https://github.com/browser-use/browser-use/commit/e717df1839a2d7368b108de6694f01e9c659b0de
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        browser_use["browser_use package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    browser_use -->|imports| config
+    browser_use -->|imports| entrypoint
+    browser_use -->|imports| external_integrations
+    browser_use -->|imports| service_layer
+    config -->|imports| browser_use
+    entrypoint -->|imports| browser_use
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| service_layer
+    service_layer -->|imports| browser_use
+    service_layer -->|imports| config
+    tests -->|imports| browser_use
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

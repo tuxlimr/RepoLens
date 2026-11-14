@@ -1,0 +1,63 @@
+{
+  "owner": "github",
+  "name": "spec-kit",
+  "full_name": "github/spec-kit",
+  "html_url": "https://github.com/github/spec-kit",
+  "description": "\ud83d\udcab Toolkit to help you get started with SDD or any other process!",
+  "stars": 149786,
+  "forks": 13450,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "copilot",
+    "development",
+    "engineering",
+    "prd",
+    "spec",
+    "spec-driven"
+  ],
+  "archived": false,
+  "commit_sha": "2ee2b1e8005905db05f5717300a469b3068b908f",
+  "commit_url": "https://github.com/github/spec-kit/commit/2ee2b1e8005905db05f5717300a469b3068b908f",
+  "tree_url": "https://github.com/github/spec-kit/tree/2ee2b1e8005905db05f5717300a469b3068b908f",
+  "analysed_at": "2026-11-14T19:06:02.670057+00:00",
+  "status": "completed",
+  "files_fetched": 717,
+  "files_analysed": 717,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "extensions package",
+    "External integrations",
+    "scripts package",
+    "specify_cli package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "Click",
+    "Pydantic",
+    "Poetry",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/specify_cli/__init__.py",
+    "src/specify_cli/artifacts/_commands.py",
+    "src/specify_cli/artifacts/command_info.py",
+    "src/specify_cli/artifacts/command_list.py",
+    "src/specify_cli/artifacts/command_lookup.py",
+    "src/specify_cli/bundles/_commands.py",
+    "src/specify_cli/bundles/catalog/__init__.py",
+    "src/specify_cli/bundles/catalog/command_add.py",
+    "src/specify_cli/bundles/catalog/command_list.py",
+    "src/specify_cli/bundles/catalog/command_remove.py",
+    "src/specify_cli/bundles/command_add.py",
+    "src/specify_cli/bundles/command_build.py"
+  ]
+}

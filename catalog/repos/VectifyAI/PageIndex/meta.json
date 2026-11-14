@@ -1,0 +1,56 @@
+{
+  "owner": "VectifyAI",
+  "name": "PageIndex",
+  "full_name": "VectifyAI/PageIndex",
+  "html_url": "https://github.com/VectifyAI/PageIndex",
+  "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+  "stars": 40429,
+  "forks": 3474,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "ai-agents",
+    "context-engineering",
+    "information-retrieval",
+    "llm",
+    "rag",
+    "reasoning",
+    "retrieval",
+    "retrieval-augmented-generation",
+    "vector-database"
+  ],
+  "archived": false,
+  "commit_sha": "cc035e8ddcfa51633309ddf2f794b161a17d8cbc",
+  "commit_url": "https://github.com/VectifyAI/PageIndex/commit/cc035e8ddcfa51633309ddf2f794b161a17d8cbc",
+  "tree_url": "https://github.com/VectifyAI/PageIndex/tree/cc035e8ddcfa51633309ddf2f794b161a17d8cbc",
+  "analysed_at": "2026-11-14T19:06:43.948480+00:00",
+  "status": "completed",
+  "files_fetched": 150,
+  "files_analysed": 150,
+  "components": [
+    "Configuration and deployment",
+    "cookbook package",
+    "Application entry point",
+    "External integrations",
+    "pageindex package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "pageindex/page_index_md.py",
+    "pageindex/tree_optimize.py",
+    "run_pageindex.py"
+  ]
+}

@@ -1,0 +1,24 @@
+%% Repository: tadata-org/fastapi_mcp
+%% Analysed commit: e5cad13cabfc725bbcb047e526816d887d96da62
+%% Commit reference: https://github.com/tadata-org/fastapi_mcp/commit/e5cad13cabfc725bbcb047e526816d887d96da62
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        fastapi_mcp["fastapi_mcp package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| fastapi_mcp
+    fastapi_mcp -->|imports| external_integrations
+    tests -->|imports| external_integrations
+    tests -->|imports| fastapi_mcp

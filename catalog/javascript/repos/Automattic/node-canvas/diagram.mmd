@@ -1,0 +1,38 @@
+%% Repository: Automattic/node-canvas
+%% Analysed commit: efd824343c84071e26b0a132a6c6c2fcb88399fb
+%% Commit reference: https://github.com/Automattic/node-canvas/commit/efd824343c84071e26b0a132a6c6c2fcb88399fb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        backends_h["Backends.h package"]
+        benchmarks["benchmarks package"]
+        bmp["bmp package"]
+        canvas_h["Canvas.h package"]
+        canvaserror_h["CanvasError.h package"]
+        canvasgradient_h["CanvasGradient.h package"]
+        canvaspattern_h["CanvasPattern.h package"]
+        canvasrenderingcontext2d_h["CanvasRenderingContext2d.h package"]
+        chardata_h["CharData.h package"]
+        closure_h["closure.h package"]
+        color_h["color.h package"]
+        font_h["Font.h package"]
+        fontface_h["FontFace.h package"]
+        fontfaceset_h["FontFaceSet.h package"]
+        fontlayout_h["FontLayout.h package"]
+        fontmanager_h["FontManager.h package"]
+        fontmanagerlinux_h["FontManagerLinux.h package"]
+        fontmanagermacos_h["FontManagerMacos.h package"]
+        fontmanagerwindows_h["FontManagerWindows.h package"]
+        lib["lib package"]
+        util["util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (12 merged)"]
+    %% Note: 12 smaller component(s) merged into 'other' to keep the diagram readable.

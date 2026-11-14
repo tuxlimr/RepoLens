@@ -1,0 +1,59 @@
+{
+  "owner": "vercel",
+  "name": "chatbot",
+  "full_name": "vercel/chatbot",
+  "html_url": "https://github.com/vercel/chatbot",
+  "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+  "stars": 21050,
+  "forks": 6778,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "chatgpt",
+    "nextjs",
+    "react",
+    "redis",
+    "shadcn-ui",
+    "vercel"
+  ],
+  "archived": false,
+  "commit_sha": "a8989b522fa3672a2ae52f053105e40993b36ca1",
+  "commit_url": "https://github.com/vercel/chatbot/commit/a8989b522fa3672a2ae52f053105e40993b36ca1",
+  "tree_url": "https://github.com/vercel/chatbot/tree/a8989b522fa3672a2ae52f053105e40993b36ca1",
+  "analysed_at": "2026-11-14T19:13:10.750841+00:00",
+  "status": "completed",
+  "files_fetched": 176,
+  "files_analysed": 176,
+  "components": [
+    "API layer",
+    "app package",
+    "artifacts package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "hooks package",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Redis",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/(auth)/login/page.tsx",
+    "app/(auth)/register/page.tsx",
+    "app/(chat)/page.tsx",
+    "artifacts/code/server.ts",
+    "artifacts/sheet/server.ts",
+    "artifacts/text/server.ts",
+    "lib/artifacts/server.ts"
+  ]
+}

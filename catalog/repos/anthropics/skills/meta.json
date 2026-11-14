@@ -1,0 +1,47 @@
+{
+  "owner": "anthropics",
+  "name": "skills",
+  "full_name": "anthropics/skills",
+  "html_url": "https://github.com/anthropics/skills",
+  "description": "Public repository for Agent Skills",
+  "stars": 194526,
+  "forks": 22893,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills"
+  ],
+  "archived": false,
+  "commit_sha": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+  "commit_url": "https://github.com/anthropics/skills/commit/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+  "tree_url": "https://github.com/anthropics/skills/tree/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+  "analysed_at": "2026-11-14T19:06:00.645291+00:00",
+  "status": "completed",
+  "files_fetched": 388,
+  "files_analysed": 388,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Service / domain layer",
+    "skills package"
+  ],
+  "detections": [
+    "NumPy"
+  ],
+  "entry_points": [
+    "skills/claude-api/shared/preserved-thinking-migration/drop_block_probe.py",
+    "skills/claude-api/shared/preserved-thinking-migration/prefix_diff.py",
+    "skills/docx/scripts/accept_changes.py",
+    "skills/docx/scripts/comment.py",
+    "skills/docx/scripts/merge_runs.py",
+    "skills/docx/scripts/office/soffice.py",
+    "skills/docx/scripts/office/validate.py",
+    "skills/docx/scripts/office/validators/base.py",
+    "skills/docx/scripts/office/validators/docx.py",
+    "skills/docx/scripts/office/validators/pptx.py",
+    "skills/docx/scripts/office/validators/redlining.py",
+    "skills/mcp-builder/scripts/evaluation.py"
+  ]
+}

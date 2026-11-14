@@ -1,0 +1,52 @@
+{
+  "owner": "single-spa",
+  "name": "single-spa",
+  "full_name": "single-spa/single-spa",
+  "html_url": "https://github.com/single-spa/single-spa",
+  "description": "The router for easy microfrontends",
+  "stars": 13882,
+  "forks": 919,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "front-end",
+    "javascript",
+    "microfrontends",
+    "microservices",
+    "router",
+    "single-page-applications",
+    "single-spa"
+  ],
+  "archived": false,
+  "commit_sha": "297483c11265050542d7ef107d14c44936c51883",
+  "commit_url": "https://github.com/single-spa/single-spa/commit/297483c11265050542d7ef107d14c44936c51883",
+  "tree_url": "https://github.com/single-spa/single-spa/tree/297483c11265050542d7ef107d14c44936c51883",
+  "analysed_at": "2026-11-14T19:11:49.091544+00:00",
+  "status": "completed",
+  "files_fetched": 153,
+  "files_analysed": 153,
+  "components": [
+    "applications package",
+    "Configuration and deployment",
+    "Core modules",
+    "devtools package",
+    "jquery-support.js package",
+    "lifecycles package",
+    "navigation package",
+    "node-spec package",
+    "parcels package",
+    "scripts package",
+    "single-spa.js package",
+    "single-spa.profile.js package",
+    "spec package",
+    "start.js package",
+    "typings package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": []
+}

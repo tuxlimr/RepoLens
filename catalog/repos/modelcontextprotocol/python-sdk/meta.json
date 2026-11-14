@@ -1,0 +1,59 @@
+{
+  "owner": "modelcontextprotocol",
+  "name": "python-sdk",
+  "full_name": "modelcontextprotocol/python-sdk",
+  "html_url": "https://github.com/modelcontextprotocol/python-sdk",
+  "description": "The official Python SDK for Model Context Protocol servers and clients",
+  "stars": 24861,
+  "forks": 4135,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "mcp",
+    "mcp-client",
+    "mcp-server",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "77001c96f9507be0f4d009b83210a384a5e08bda",
+  "commit_url": "https://github.com/modelcontextprotocol/python-sdk/commit/77001c96f9507be0f4d009b83210a384a5e08bda",
+  "tree_url": "https://github.com/modelcontextprotocol/python-sdk/tree/77001c96f9507be0f4d009b83210a384a5e08bda",
+  "analysed_at": "2026-11-14T19:07:35.647401+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "docs_src package",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "PostgreSQL",
+    "Starlette",
+    "Click",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    ".github/actions/conformance/client.py",
+    "docs_src/apps/tutorial001_client.py",
+    "docs_src/caching/tutorial003.py",
+    "docs_src/client/tutorial001_client.py",
+    "docs_src/client/tutorial002.py",
+    "docs_src/client/tutorial003.py",
+    "docs_src/client/tutorial004.py",
+    "docs_src/client/tutorial005.py",
+    "docs_src/client/tutorial006.py",
+    "docs_src/client/tutorial007.py",
+    "docs_src/extensions/tutorial003_client.py",
+    "docs_src/extensions/tutorial004_client.py"
+  ]
+}

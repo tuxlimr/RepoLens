@@ -1,0 +1,30 @@
+%% Repository: dmlc/dgl
+%% Analysed commit: 3d16000b4170fa741ed9e9667f22ba84d3493026
+%% Commit reference: https://github.com/dmlc/dgl/commit/3d16000b4170fa741ed9e9667f22ba84d3493026
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        conda["conda package"]
+        dgl_sparse["dgl_sparse package"]
+        dglgo["dglgo package"]
+        docker["docker package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| benchmarks
+    benchmarks -->|imports| external_integrations
+    entrypoint -->|imports| benchmarks
+    entrypoint -->|imports| dglgo

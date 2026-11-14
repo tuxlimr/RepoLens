@@ -1,0 +1,29 @@
+%% Repository: Z4nzu/hackingtool
+%% Analysed commit: c3a858990f1f772e5c59f10c51f1a7aeb888ef23
+%% Commit reference: https://github.com/Z4nzu/hackingtool/commit/c3a858990f1f772e5c59f10c51f1a7aeb888ef23
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        hackingtool["hackingtool package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| hackingtool
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| hackingtool
+    hackingtool -->|imports| config
+    hackingtool -->|imports| entrypoint
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| hackingtool

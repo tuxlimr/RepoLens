@@ -1,0 +1,37 @@
+{
+  "owner": "python-telegram-bot",
+  "name": "python-telegram-bot",
+  "full_name": "python-telegram-bot/python-telegram-bot",
+  "html_url": "https://github.com/python-telegram-bot/python-telegram-bot",
+  "description": "We have made you a wrapper you can't refuse",
+  "stars": 29594,
+  "forks": 6186,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "bot",
+    "chatbot",
+    "framework",
+    "python",
+    "telegram"
+  ],
+  "archived": false,
+  "commit_sha": "41e3633bd1b4e51693ee57059828a59a9773618a",
+  "commit_url": "https://github.com/python-telegram-bot/python-telegram-bot/commit/41e3633bd1b4e51693ee57059828a59a9773618a",
+  "tree_url": "https://github.com/python-telegram-bot/python-telegram-bot/tree/41e3633bd1b4e51693ee57059828a59a9773618a",
+  "analysed_at": "2026-11-14T19:07:11.751646+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "contrib package",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "pytest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,17 @@
+%% Repository: modelcontextprotocol/python-sdk
+%% Analysed commit: 77001c96f9507be0f4d009b83210a384a5e08bda
+%% Commit reference: https://github.com/modelcontextprotocol/python-sdk/commit/77001c96f9507be0f4d009b83210a384a5e08bda
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docs_src["docs_src package"]
+    end
+    entrypoint -->|imports| docs_src

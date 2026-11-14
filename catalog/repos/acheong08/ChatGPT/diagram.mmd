@@ -1,0 +1,22 @@
+%% Repository: acheong08/ChatGPT
+%% Analysed commit: 9167b325addc7d3520987face684e8230bd62b46
+%% Commit reference: https://github.com/acheong08/ChatGPT/commit/9167b325addc7d3520987face684e8230bd62b46
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        revchatgpt["revChatGPT package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| revchatgpt
+    tests -->|imports| entrypoint

@@ -1,0 +1,52 @@
+{
+  "owner": "vikejs",
+  "name": "vike",
+  "full_name": "vikejs/vike",
+  "html_url": "https://github.com/vikejs/vike",
+  "description": "(Replaces Next.js/Nuxt) \ud83d\udd28 Build mission-critical applications with stability and development freedom.",
+  "stars": 5839,
+  "forks": 398,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "full-stack",
+    "node",
+    "react",
+    "react-ssr",
+    "server-rendering",
+    "server-side-rendering",
+    "solid",
+    "solid-ssr",
+    "ssr",
+    "static-site-generator",
+    "vite",
+    "vite-plugin",
+    "vite-ssr",
+    "vitejs",
+    "vue",
+    "vue-ssr",
+    "web-framework"
+  ],
+  "archived": false,
+  "commit_sha": "50a93575b1ee6c6e37516e7f89a75b664ab7f0da",
+  "commit_url": "https://github.com/vikejs/vike/commit/50a93575b1ee6c6e37516e7f89a75b664ab7f0da",
+  "tree_url": "https://github.com/vikejs/vike/tree/50a93575b1ee6c6e37516e7f89a75b664ab7f0da",
+  "analysed_at": "2026-11-14T19:14:13.453534+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "Vue",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,31 @@
+%% Repository: google/zx
+%% Analysed commit: 3b04a6ae3e34b1a7ee6b925f1efcceb901f0d8a5
+%% Commit reference: https://github.com/google/zx/commit/3b04a6ae3e34b1a7ee6b925f1efcceb901f0d8a5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        cli_ts["cli.ts package"]
+        core_ts["core.ts package"]
+        deps_ts["deps.ts package"]
+        error_ts["error.ts package"]
+        globals_jsr_ts["globals-jsr.ts package"]
+        globals_ts["globals.ts package"]
+        goods_ts["goods.ts package"]
+        index_ts["index.ts package"]
+        internals_ts["internals.ts package"]
+        log_ts["log.ts package"]
+        md_ts["md.ts package"]
+        repl_ts["repl.ts package"]
+        scripts["scripts package"]
+        test_d["test-d package"]
+        util_ts["util.ts package"]
+        vendor_core_ts["vendor-core.ts package"]
+        vendor_extra_ts["vendor-extra.ts package"]
+        vendor_ts["vendor.ts package"]
+        versions_ts["versions.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

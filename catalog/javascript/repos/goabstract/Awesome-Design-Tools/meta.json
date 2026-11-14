@@ -1,0 +1,40 @@
+{
+  "owner": "goabstract",
+  "name": "Awesome-Design-Tools",
+  "full_name": "goabstract/Awesome-Design-Tools",
+  "html_url": "https://github.com/goabstract/Awesome-Design-Tools",
+  "description": "The best design tools and plugins for everything \ud83d\udc49",
+  "stars": 41891,
+  "forks": 2421,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "animations",
+    "awesome",
+    "awesome-list",
+    "design",
+    "design-systems",
+    "design-tools",
+    "font-awesome",
+    "ui-design"
+  ],
+  "archived": false,
+  "commit_sha": "dc60e63c248c44acb42f09fb0c985b77b5fe4bf5",
+  "commit_url": "https://github.com/goabstract/Awesome-Design-Tools/commit/dc60e63c248c44acb42f09fb0c985b77b5fe4bf5",
+  "tree_url": "https://github.com/goabstract/Awesome-Design-Tools/tree/dc60e63c248c44acb42f09fb0c985b77b5fe4bf5",
+  "analysed_at": "2026-11-14T19:10:39.797096+00:00",
+  "status": "completed",
+  "files_fetched": 70,
+  "files_analysed": 69,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Express"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

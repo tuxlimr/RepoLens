@@ -1,0 +1,22 @@
+%% Repository: nosir/cleave.js
+%% Analysed commit: a966c95cf5193f223485a10eec8405bb32b8f6dd
+%% Commit reference: https://github.com/nosir/cleave.js/commit/a966c95cf5193f223485a10eec8405bb32b8f6dd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        addons["addons package"]
+        cleave_angular_js["Cleave.angular.js package"]
+        cleave_js["Cleave.js package"]
+        cleave_react_js["Cleave.react.js package"]
+        common["common package"]
+        gulp_tasks["gulp-tasks package"]
+        shortcuts["shortcuts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

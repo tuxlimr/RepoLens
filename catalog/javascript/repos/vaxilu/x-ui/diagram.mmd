@@ -1,0 +1,23 @@
+%% Repository: vaxilu/x-ui
+%% Analysed commit: 9c1be8c57a53953b47ee7c09a93554e73816f907
+%% Commit reference: https://github.com/vaxilu/x-ui/commit/9c1be8c57a53953b47ee7c09a93554e73816f907
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        logger["logger package"]
+        util["util package"]
+        v2ui["v2ui package"]
+        web["web package"]
+        xray["xray package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

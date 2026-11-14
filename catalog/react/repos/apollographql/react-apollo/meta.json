@@ -1,0 +1,41 @@
+{
+  "owner": "apollographql",
+  "name": "react-apollo",
+  "full_name": "apollographql/react-apollo",
+  "html_url": "https://github.com/apollographql/react-apollo",
+  "description": ":recycle: React integration for Apollo Client",
+  "stars": 6789,
+  "forks": 756,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "apollo",
+    "graphql",
+    "react",
+    "redux",
+    "ssr"
+  ],
+  "archived": true,
+  "commit_sha": "70e692dbf421b3c4c4ed106e3fcb54a5a27c2cc3",
+  "commit_url": "https://github.com/apollographql/react-apollo/commit/70e692dbf421b3c4c4ed106e3fcb54a5a27c2cc3",
+  "tree_url": "https://github.com/apollographql/react-apollo/tree/70e692dbf421b3c4c4ed106e3fcb54a5a27c2cc3",
+  "analysed_at": "2026-11-14T19:14:01.181930+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 39,
+  "components": [
+    "Configuration and deployment",
+    "packages package"
+  ],
+  "detections": [
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/components/index.js",
+    "packages/hoc/index.js",
+    "packages/hooks/index.js",
+    "packages/ssr/index.js",
+    "packages/testing/index.js"
+  ]
+}

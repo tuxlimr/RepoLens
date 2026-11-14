@@ -1,0 +1,41 @@
+{
+  "owner": "node-inspector",
+  "name": "node-inspector",
+  "full_name": "node-inspector/node-inspector",
+  "html_url": "https://github.com/node-inspector/node-inspector",
+  "description": "Node.js debugger based on Blink Developer Tools",
+  "stars": 12637,
+  "forks": 714,
+  "license": "BSD-2-Clause",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "79e01c049286374f86dd560742a614019c02402f",
+  "commit_url": "https://github.com/node-inspector/node-inspector/commit/79e01c049286374f86dd560742a614019c02402f",
+  "tree_url": "https://github.com/node-inspector/node-inspector/tree/79e01c049286374f86dd560742a614019c02402f",
+  "analysed_at": "2026-11-14T19:12:04.305659+00:00",
+  "status": "completed",
+  "files_fetched": 545,
+  "files_analysed": 545,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "front-end package",
+    "front-end-node package",
+    "lib package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "Express"
+  ],
+  "entry_points": [
+    "bin/inspector.js",
+    "bin/node-debug.js",
+    "front-end/main/App.js",
+    "front-end/main/Main.js",
+    "index.js"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "owner": "mholt",
+  "name": "PapaParse",
+  "full_name": "mholt/PapaParse",
+  "html_url": "https://github.com/mholt/PapaParse",
+  "description": "Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input",
+  "stars": 13596,
+  "forks": 1225,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "csv",
+    "csv-parser",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "7fe53c8c46cf00f7b59db403af4f2a91eaa54dc4",
+  "commit_url": "https://github.com/mholt/PapaParse/commit/7fe53c8c46cf00f7b59db403af4f2a91eaa54dc4",
+  "tree_url": "https://github.com/mholt/PapaParse/tree/7fe53c8c46cf00f7b59db403af4f2a91eaa54dc4",
+  "analysed_at": "2026-11-14T19:11:52.978802+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 42,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "player package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "papaparse.js"
+  ]
+}

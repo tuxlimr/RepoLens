@@ -1,0 +1,49 @@
+{
+  "owner": "reduxjs",
+  "name": "react-redux",
+  "full_name": "reduxjs/react-redux",
+  "html_url": "https://github.com/reduxjs/react-redux",
+  "description": "Official React bindings for Redux",
+  "stars": 23423,
+  "forks": 3319,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "redux"
+  ],
+  "archived": false,
+  "commit_sha": "8e54f5b9dbbdcc972c120ad3ce3c1c57fc2e89fd",
+  "commit_url": "https://github.com/reduxjs/react-redux/commit/8e54f5b9dbbdcc972c120ad3ce3c1c57fc2e89fd",
+  "tree_url": "https://github.com/reduxjs/react-redux/tree/8e54f5b9dbbdcc972c120ad3ce3c1c57fc2e89fd",
+  "analysed_at": "2026-11-14T19:13:07.384904+00:00",
+  "status": "completed",
+  "files_fetched": 115,
+  "files_analysed": 113,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "connect package",
+    "exports.ts package",
+    "hooks package",
+    "index-rsc.ts package",
+    "index.ts package",
+    "Tests",
+    "types.ts package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Redux",
+    "Redux Toolkit",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

@@ -1,0 +1,38 @@
+%% Repository: callstack/react-native-testing-library
+%% Analysed commit: 564a84294717d8e4b0831f3e3a5e115cc3832e01
+%% Commit reference: https://github.com/callstack/react-native-testing-library/commit/564a84294717d8e4b0831f3e3a5e115cc3832e01
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        act_ts["act.ts package"]
+        cleanup_ts["cleanup.ts package"]
+        codemods["codemods package"]
+        config_ts["config.ts package"]
+        events["events package"]
+        experiments_app["experiments-app package"]
+        flush_micro_tasks_ts["flush-micro-tasks.ts package"]
+        helpers["helpers package"]
+        index_ts["index.ts package"]
+        matchers["matchers package"]
+        matches_ts["matches.ts package"]
+        pure_ts["pure.ts package"]
+        queries["queries package"]
+        render_hook_tsx["render-hook.tsx package"]
+        render_tsx["render.tsx package"]
+        screen_ts["screen.ts package"]
+        scripts["scripts package"]
+        test_utils["test-utils package"]
+        types_ts["types.ts package"]
+        user_event["user-event package"]
+        website["website package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (3 merged)"]
+    %% Note: 3 smaller component(s) merged into 'other' to keep the diagram readable.

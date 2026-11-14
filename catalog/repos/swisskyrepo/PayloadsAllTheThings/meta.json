@@ -1,0 +1,59 @@
+{
+  "owner": "swisskyrepo",
+  "name": "PayloadsAllTheThings",
+  "full_name": "swisskyrepo/PayloadsAllTheThings",
+  "html_url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+  "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+  "stars": 82679,
+  "forks": 17582,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "bounty",
+    "bugbounty",
+    "bypass",
+    "cheatsheet",
+    "enumeration",
+    "hacking",
+    "hacktoberfest",
+    "methodology",
+    "payload",
+    "payloads",
+    "penetration-testing",
+    "pentest",
+    "privilege-escalation",
+    "redteam",
+    "security",
+    "vulnerability",
+    "web-application"
+  ],
+  "archived": false,
+  "commit_sha": "08ea40e77db3f42ef8f20c65196f3936a19b6c86",
+  "commit_url": "https://github.com/swisskyrepo/PayloadsAllTheThings/commit/08ea40e77db3f42ef8f20c65196f3936a19b6c86",
+  "tree_url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/08ea40e77db3f42ef8f20c65196f3936a19b6c86",
+  "analysed_at": "2026-11-14T19:06:09.632148+00:00",
+  "status": "completed",
+  "files_fetched": 356,
+  "files_analysed": 356,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "File Inclusion package",
+    "Insecure Deserialization package",
+    "Server Side Request Forgery package",
+    "Upload Insecure Files package",
+    "Web Sockets package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests"
+  ],
+  "entry_points": [
+    "File Inclusion/Files/phpinfolfi.py",
+    "Upload Insecure Files/CVE FFmpeg HLS/gen_avi_bypass.py",
+    "Upload Insecure Files/CVE FFmpeg HLS/gen_xbin_avi.py",
+    "Upload Insecure Files/Picture Compression/createBulletproofJPG.py"
+  ]
+}

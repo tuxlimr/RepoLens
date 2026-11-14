@@ -1,0 +1,43 @@
+{
+  "owner": "zenoamaro",
+  "name": "react-quill",
+  "full_name": "zenoamaro/react-quill",
+  "html_url": "https://github.com/zenoamaro/react-quill",
+  "description": "A Quill component for React.",
+  "stars": 6996,
+  "forks": 937,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "editor",
+    "quill",
+    "react",
+    "rich-text-editor",
+    "wysiwyg-editor"
+  ],
+  "archived": false,
+  "commit_sha": "615b4bf730e7a34c1dda1707447123c1d727f9d1",
+  "commit_url": "https://github.com/zenoamaro/react-quill/commit/615b4bf730e7a34c1dda1707447123c1d727f9d1",
+  "tree_url": "https://github.com/zenoamaro/react-quill/tree/615b4bf730e7a34c1dda1707447123c1d727f9d1",
+  "analysed_at": "2026-11-14T19:14:00.265645+00:00",
+  "status": "completed",
+  "files_fetched": 21,
+  "files_analysed": 21,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "index.tsx package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "demo/index.js",
+    "src/index.tsx"
+  ]
+}

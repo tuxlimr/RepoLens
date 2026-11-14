@@ -1,0 +1,53 @@
+{
+  "owner": "moroshko",
+  "name": "react-autosuggest",
+  "full_name": "moroshko/react-autosuggest",
+  "html_url": "https://github.com/moroshko/react-autosuggest",
+  "description": "WAI-ARIA compliant React autosuggest component",
+  "stars": 5932,
+  "forks": 565,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "accessible",
+    "autocomplete",
+    "autosuggest",
+    "react",
+    "typeahead"
+  ],
+  "archived": false,
+  "commit_sha": "e2c84d906afc7b6723d29d1c2283c3f322ee2552",
+  "commit_url": "https://github.com/moroshko/react-autosuggest/commit/e2c84d906afc7b6723d29d1c2283c3f322ee2552",
+  "tree_url": "https://github.com/moroshko/react-autosuggest/tree/e2c84d906afc7b6723d29d1c2283c3f322ee2552",
+  "analysed_at": "2026-11-14T19:14:12.200947+00:00",
+  "status": "completed",
+  "files_fetched": 116,
+  "files_analysed": 116,
+  "components": [
+    "Autosuggest.js package",
+    "Autowhatever.js package",
+    "compareObjects.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "index.js package",
+    "Item.js package",
+    "ItemList.js package",
+    "scripts package",
+    "SectionTitle.js package",
+    "Tests",
+    "theme.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "demo/src/index.js",
+    "demo/standalone/app.js",
+    "server.js",
+    "src/index.js"
+  ]
+}

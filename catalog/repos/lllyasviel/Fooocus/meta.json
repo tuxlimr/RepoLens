@@ -1,0 +1,44 @@
+{
+  "owner": "lllyasviel",
+  "name": "Fooocus",
+  "full_name": "lllyasviel/Fooocus",
+  "html_url": "https://github.com/lllyasviel/Fooocus",
+  "description": "Focus on prompting and generating",
+  "stars": 53929,
+  "forks": 8624,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ae05379cc97bc4361ec8b4ec90193dab21be763f",
+  "commit_url": "https://github.com/lllyasviel/Fooocus/commit/ae05379cc97bc4361ec8b4ec90193dab21be763f",
+  "tree_url": "https://github.com/lllyasviel/Fooocus/tree/ae05379cc97bc4361ec8b4ec90193dab21be763f",
+  "analysed_at": "2026-11-14T19:06:30.278647+00:00",
+  "status": "completed",
+  "files_fetched": 324,
+  "files_analysed": 324,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "extras package",
+    "javascript package",
+    "ldm_patched package",
+    "modules package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "NumPy",
+    "Docker",
+    "Docker Compose",
+    "unittest"
+  ],
+  "entry_points": [
+    "extras/facexlib/detection/matlab_cp2tform.py",
+    "extras/facexlib/utils/face_utils.py"
+  ]
+}

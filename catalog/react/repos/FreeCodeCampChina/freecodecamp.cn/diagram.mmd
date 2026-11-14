@@ -1,0 +1,31 @@
+%% Repository: FreeCodeCampChina/freecodecamp.cn
+%% Analysed commit: b09a3a0dec1fa0b0620601a705ff2e9b97564f97
+%% Commit reference: https://github.com/FreeCodeCampChina/freecodecamp.cn/commit/b09a3a0dec1fa0b0620601a705ff2e9b97564f97
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        common["common package"]
+        public["public package"]
+        seed["seed package"]
+        server["server package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

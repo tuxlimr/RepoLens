@@ -1,0 +1,52 @@
+{
+  "owner": "boringdesigners",
+  "name": "boring-avatars",
+  "full_name": "boringdesigners/boring-avatars",
+  "html_url": "https://github.com/boringdesigners/boring-avatars",
+  "description": "Boring avatars is an open source React library that generates custom, SVG-based avatars from any username and color palette.",
+  "stars": 6503,
+  "forks": 214,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "avatar",
+    "avatar-component",
+    "avatar-generator",
+    "avatar-placeholder",
+    "avatar-service",
+    "avatars-constructor",
+    "beautiful-avatars",
+    "javascript",
+    "open-source",
+    "random-avatars",
+    "react",
+    "svg"
+  ],
+  "archived": false,
+  "commit_sha": "d0ff2582a8921b643a89de4a4912be28938a828b",
+  "commit_url": "https://github.com/boringdesigners/boring-avatars/commit/d0ff2582a8921b643a89de4a4912be28938a828b",
+  "tree_url": "https://github.com/boringdesigners/boring-avatars/tree/d0ff2582a8921b643a89de4a4912be28938a828b",
+  "analysed_at": "2026-11-14T19:14:04.741832+00:00",
+  "status": "completed",
+  "files_fetched": 41,
+  "files_analysed": 40,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "lib package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/demo/App.tsx",
+    "src/demo/main.tsx",
+    "src/demo/ui-system/index.ts",
+    "src/lib/index.tsx"
+  ]
+}

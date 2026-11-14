@@ -1,0 +1,14 @@
+%% Repository: ai-job-search-dev/ai-job-search
+%% Analysed commit: 0d0d1a907a21454affa1b694acc4e2c5008a0d21
+%% Commit reference: https://github.com/ai-job-search-dev/ai-job-search/commit/0d0d1a907a21454affa1b694acc4e2c5008a0d21
+flowchart TD
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| entrypoint

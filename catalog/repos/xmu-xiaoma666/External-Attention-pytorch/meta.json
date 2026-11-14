@@ -1,0 +1,53 @@
+{
+  "owner": "xmu-xiaoma666",
+  "name": "External-Attention-pytorch",
+  "full_name": "xmu-xiaoma666/External-Attention-pytorch",
+  "html_url": "https://github.com/xmu-xiaoma666/External-Attention-pytorch",
+  "description": "\ud83c\udf40 Pytorch implementation of various Attention Mechanisms, MLP, Re-parameter, Convolution, which is helpful to further understand papers.\u2b50\u2b50\u2b50",
+  "stars": 12184,
+  "forks": 1932,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "attention",
+    "cbam",
+    "excitation-networks",
+    "linear-layers",
+    "paper",
+    "pytorch",
+    "squeeze",
+    "visual-tasks"
+  ],
+  "archived": false,
+  "commit_sha": "c413dae1f053ac2bbff9e2d668e1d7a62f07c335",
+  "commit_url": "https://github.com/xmu-xiaoma666/External-Attention-pytorch/commit/c413dae1f053ac2bbff9e2d668e1d7a62f07c335",
+  "tree_url": "https://github.com/xmu-xiaoma666/External-Attention-pytorch/tree/c413dae1f053ac2bbff9e2d668e1d7a62f07c335",
+  "analysed_at": "2026-11-14T19:10:13.985372+00:00",
+  "status": "completed",
+  "files_fetched": 106,
+  "files_analysed": 106,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "model package"
+  ],
+  "detections": [
+    "NumPy",
+    "setuptools"
+  ],
+  "entry_points": [
+    "main.py",
+    "model/__init__.py",
+    "model/attention/A2Atttention.py",
+    "model/attention/ACmixAttention.py",
+    "model/attention/AFT.py",
+    "model/attention/Axial_attention.py",
+    "model/attention/BAM.py",
+    "model/attention/CBAM.py",
+    "model/attention/CoAtNet.py",
+    "model/attention/CoTAttention.py",
+    "model/attention/CrissCrossAttention.py",
+    "model/attention/Crossformer.py"
+  ]
+}

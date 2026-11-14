@@ -1,0 +1,59 @@
+{
+  "owner": "microsoft",
+  "name": "SkillOpt",
+  "full_name": "microsoft/SkillOpt",
+  "html_url": "https://github.com/microsoft/SkillOpt",
+  "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+  "stars": 19078,
+  "forks": 1830,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "self-evolving-agents"
+  ],
+  "archived": false,
+  "commit_sha": "45f65ca04f5f6713bca7b9797b495696ba812751",
+  "commit_url": "https://github.com/microsoft/SkillOpt/commit/45f65ca04f5f6713bca7b9797b495696ba812751",
+  "tree_url": "https://github.com/microsoft/SkillOpt/tree/45f65ca04f5f6713bca7b9797b495696ba812751",
+  "analysed_at": "2026-11-14T19:08:17.532175+00:00",
+  "status": "completed",
+  "files_fetched": 490,
+  "files_analysed": 482,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "plugins package",
+    "scripts package",
+    "skillopt package",
+    "skillopt_sleep package",
+    "skillopt_webui package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "httpx",
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "plugins/copilot/mcp_server.py",
+    "plugins/copilot/skillopt/mcp_server.py",
+    "plugins/devin/harvest_devin.py",
+    "plugins/devin/judge.py",
+    "plugins/devin/mcp_server.py",
+    "plugins/dsh/scripts/sleep.py",
+    "plugins/openclaw/run_sleep.py",
+    "plugins/openclaw/slash_sleep.py",
+    "scripts/check_reproducibility.py",
+    "scripts/eval_only.py",
+    "scripts/materialize_searchqa.py",
+    "scripts/train.py"
+  ]
+}

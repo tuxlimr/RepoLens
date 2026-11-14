@@ -1,0 +1,52 @@
+{
+  "owner": "maillab",
+  "name": "cloud-mail",
+  "full_name": "maillab/cloud-mail",
+  "html_url": "https://github.com/maillab/cloud-mail",
+  "description": "An all-in-one email service platform powered by Cloudflare  | \u57fa\u4e8e Cloudflare \u7684\u4e00\u7ad9\u5f0f\u90ae\u7bb1\u670d\u52a1\u5e73\u53f0  | Cloudflare Email \u90ae\u7bb1 Mail",
+  "stars": 15882,
+  "forks": 23603,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "cloudflare",
+    "cloudflare-email",
+    "cloudflare-workers",
+    "email",
+    "mail"
+  ],
+  "archived": false,
+  "commit_sha": "a792cdcd5c3291ac718b97489b1be19367121969",
+  "commit_url": "https://github.com/maillab/cloud-mail/commit/a792cdcd5c3291ac718b97489b1be19367121969",
+  "tree_url": "https://github.com/maillab/cloud-mail/tree/a792cdcd5c3291ac718b97489b1be19367121969",
+  "analysed_at": "2026-11-14T19:11:35.273345+00:00",
+  "status": "completed",
+  "files_fetched": 283,
+  "files_analysed": 256,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "mail-vue package",
+    "mail-worker package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue",
+    "axios",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "mail-vue/src/axios/index.js",
+    "mail-vue/src/echarts/index.js",
+    "mail-vue/src/i18n/index.js",
+    "mail-vue/src/icons/index.js",
+    "mail-vue/src/main.js",
+    "mail-vue/src/router/index.js",
+    "mail-worker/src/index.js"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "owner": "shadcnblocks",
+  "name": "kibo",
+  "full_name": "shadcnblocks/kibo",
+  "html_url": "https://github.com/shadcnblocks/kibo",
+  "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever.",
+  "stars": 3986,
+  "forks": 182,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "accessible",
+    "components",
+    "composable",
+    "react",
+    "shadcn-ui",
+    "typescript",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "3d63cdb15b79d972e3dc38a10997987672f9b263",
+  "commit_url": "https://github.com/shadcnblocks/kibo/commit/3d63cdb15b79d972e3dc38a10997987672f9b263",
+  "tree_url": "https://github.com/shadcnblocks/kibo/tree/3d63cdb15b79d972e3dc38a10997987672f9b263",
+  "analysed_at": "2026-11-14T19:14:56.924485+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/announcement/index.tsx",
+    "packages/avatar-stack/index.tsx",
+    "packages/banner/index.tsx",
+    "packages/calendar/index.tsx",
+    "packages/choicebox/index.tsx",
+    "packages/code-block/index.tsx",
+    "packages/color-picker/index.tsx",
+    "packages/combobox/index.tsx",
+    "packages/comparison/index.tsx",
+    "packages/contribution-graph/index.tsx",
+    "packages/credit-card/index.tsx",
+    "packages/cursor/index.tsx"
+  ]
+}

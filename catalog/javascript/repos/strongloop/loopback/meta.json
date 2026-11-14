@@ -1,0 +1,35 @@
+{
+  "owner": "strongloop",
+  "name": "loopback",
+  "full_name": "strongloop/loopback",
+  "html_url": "https://github.com/strongloop/loopback",
+  "description": "LoopBack makes it easy to build modern applications that require complex integrations.",
+  "stars": 13140,
+  "forks": 1168,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "13371fd2a138a6f39db77e5a455b3170e5d4a0f5",
+  "commit_url": "https://github.com/strongloop/loopback/commit/13371fd2a138a6f39db77e5a455b3170e5d4a0f5",
+  "tree_url": "https://github.com/strongloop/loopback/tree/13371fd2a138a6f39db77e5a455b3170e5d4a0f5",
+  "analysed_at": "2026-11-14T19:12:00.550756+00:00",
+  "status": "completed",
+  "files_fetched": 242,
+  "files_analysed": 241,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "server package",
+    "Tests"
+  ],
+  "detections": [
+    "Express"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

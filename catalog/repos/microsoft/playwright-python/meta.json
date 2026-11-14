@@ -1,0 +1,52 @@
+{
+  "owner": "microsoft",
+  "name": "playwright-python",
+  "full_name": "microsoft/playwright-python",
+  "html_url": "https://github.com/microsoft/playwright-python",
+  "description": "Python version of the Playwright testing and automation library.",
+  "stars": 15108,
+  "forks": 1256,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "chromium",
+    "firefox",
+    "playwright",
+    "webkit"
+  ],
+  "archived": false,
+  "commit_sha": "86a5f5a81010b1dbd155263e99782442b61d0cb2",
+  "commit_url": "https://github.com/microsoft/playwright-python/commit/86a5f5a81010b1dbd155263e99782442b61d0cb2",
+  "tree_url": "https://github.com/microsoft/playwright-python/tree/86a5f5a81010b1dbd155263e99782442b61d0cb2",
+  "analysed_at": "2026-11-14T19:09:07.156992+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 788,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "playwright package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "playwright/__main__.py",
+    "scripts/build_driver.py",
+    "scripts/check_test_registry.py",
+    "scripts/codegen/compare_api.py",
+    "scripts/codegen/generate_protocol.py",
+    "scripts/update_node_version.py",
+    "scripts/update_versions.py",
+    "scripts/upstream.py"
+  ]
+}

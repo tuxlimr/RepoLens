@@ -1,0 +1,22 @@
+%% Repository: Shopify/draggable
+%% Analysed commit: 8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d
+%% Commit reference: https://github.com/Shopify/draggable/commit/8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        draggable["Draggable package"]
+        droppable["Droppable package"]
+        index_js["index.js package"]
+        plugins["Plugins package"]
+        shared["shared package"]
+        sortable["Sortable package"]
+        swappable["Swappable package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

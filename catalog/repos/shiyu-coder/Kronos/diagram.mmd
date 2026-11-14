@@ -1,0 +1,24 @@
+%% Repository: shiyu-coder/Kronos
+%% Analysed commit: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
+%% Commit reference: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        finetune["finetune package"]
+        finetune_csv["finetune_csv package"]
+        model["model package"]
+        webui["webui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| model
+    tests -->|imports| model

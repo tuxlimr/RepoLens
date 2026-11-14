@@ -1,0 +1,41 @@
+{
+  "owner": "openai",
+  "name": "gpt-2",
+  "full_name": "openai/gpt-2",
+  "html_url": "https://github.com/openai/gpt-2",
+  "description": "Code for the paper \"Language Models are Unsupervised Multitask Learners\"",
+  "stars": 25016,
+  "forks": 5958,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "paper"
+  ],
+  "archived": true,
+  "commit_sha": "9b63575ef42771a015060c964af2c3da4cf7c8ab",
+  "commit_url": "https://github.com/openai/gpt-2/commit/9b63575ef42771a015060c964af2c3da4cf7c8ab",
+  "tree_url": "https://github.com/openai/gpt-2/tree/9b63575ef42771a015060c964af2c3da4cf7c8ab",
+  "analysed_at": "2026-11-14T19:07:34.704663+00:00",
+  "status": "completed",
+  "files_fetched": 17,
+  "files_analysed": 17,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "encoder.py package",
+    "Application entry point",
+    "External integrations",
+    "sample.py package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "Docker"
+  ],
+  "entry_points": [
+    "src/generate_unconditional_samples.py",
+    "src/interactive_conditional_samples.py"
+  ]
+}

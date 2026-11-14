@@ -1,0 +1,49 @@
+{
+  "owner": "ManimCommunity",
+  "name": "manim",
+  "full_name": "ManimCommunity/manim",
+  "html_url": "https://github.com/ManimCommunity/manim",
+  "description": "A community-maintained Python framework for creating mathematical animations. ",
+  "stars": 42506,
+  "forks": 3329,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "animations",
+    "hacktoberfest",
+    "manim",
+    "math",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "e8afc6398bc7ac4d4beaa2debd79325f9167d374",
+  "commit_url": "https://github.com/ManimCommunity/manim/commit/e8afc6398bc7ac4d4beaa2debd79325f9167d374",
+  "tree_url": "https://github.com/ManimCommunity/manim/tree/e8afc6398bc7ac4d4beaa2debd79325f9167d374",
+  "analysed_at": "2026-11-14T19:06:39.853590+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "docker package",
+    "Application entry point",
+    "example_scenes package",
+    "manim package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "NumPy",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    ".github/scripts/ci_build_cairo.py",
+    "benchmarks/bench_lissajous.py",
+    "manim/__main__.py",
+    "manim/animation/creation.py",
+    "manim/animation/transform.py",
+    "manim/mobject/geometry/shape_matchers.py"
+  ]
+}

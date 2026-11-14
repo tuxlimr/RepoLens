@@ -1,0 +1,47 @@
+{
+  "owner": "ComposioHQ",
+  "name": "awesome-claude-skills",
+  "full_name": "ComposioHQ/awesome-claude-skills",
+  "html_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+  "stars": 79494,
+  "forks": 9698,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "automation",
+    "claude",
+    "claude-code",
+    "codex",
+    "composio",
+    "cursor",
+    "developer-tools",
+    "gemini-cli",
+    "mcp",
+    "openai-codex",
+    "rube",
+    "saas",
+    "skill",
+    "workflow-automation"
+  ],
+  "archived": false,
+  "commit_sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
+  "commit_url": "https://github.com/ComposioHQ/awesome-claude-skills/commit/be2a406907dbc61b73e6827ded415c96139d13a2",
+  "tree_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2",
+  "analysed_at": "2026-11-14T19:06:10.606604+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "artifacts-builder package",
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

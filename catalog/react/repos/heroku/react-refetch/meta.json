@@ -1,0 +1,44 @@
+{
+  "owner": "heroku",
+  "name": "react-refetch",
+  "full_name": "heroku/react-refetch",
+  "html_url": "https://github.com/heroku/react-refetch",
+  "description": "A simple, declarative, and composable way to fetch data for React components",
+  "stars": 3398,
+  "forks": 137,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "api",
+    "data",
+    "fetch",
+    "react",
+    "rest"
+  ],
+  "archived": false,
+  "commit_sha": "acdf8d91e8b856183040db5b1f35545f793c4b71",
+  "commit_url": "https://github.com/heroku/react-refetch/commit/acdf8d91e8b856183040db5b1f35545f793c4b71",
+  "tree_url": "https://github.com/heroku/react-refetch/tree/acdf8d91e8b856183040db5b1f35545f793c4b71",
+  "analysed_at": "2026-11-14T19:15:20.466373+00:00",
+  "status": "completed",
+  "files_fetched": 35,
+  "files_analysed": 35,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "index.d.ts package",
+    "index.js package",
+    "PromiseState.js package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

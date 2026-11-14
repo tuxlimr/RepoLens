@@ -1,0 +1,19 @@
+%% Repository: egoist/poi
+%% Analysed commit: 25f782797c4bf4e85ab3a23c0a6a040f7843c5db
+%% Commit reference: https://github.com/egoist/poi/commit/25f782797c4bf4e85ab3a23c0a6a040f7843c5db
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        create_poi_app["create-poi-app package"]
+        other_packages["other-packages package"]
+        plugins["plugins package"]
+        tasks["tasks package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,26 @@
+{
+  "owner": "jbiaojerry",
+  "name": "ebook-treasure-chest",
+  "full_name": "jbiaojerry/ebook-treasure-chest",
+  "html_url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+  "description": "\u6b22\u8fce\u6765\u5230\u7535\u5b50\u4e66\u4e0b\u8f7d\u5b9d\u5e93\uff0c\u4e00\u4e2a\u6c47\u805a\u4e86\u5404\u7c7b\u7535\u5b50\u4e66\u4e0b\u8f7d\u94fe\u63a5\u7684\u5730\u65b9\u3002\u65e0\u8bba\u4f60\u662f\u559c\u6b22\u9605\u8bfb\u7ecf\u5178\u6587\u5b66\u3001\u7ecf\u7ba1\u52b1\u5fd7\u3001\u7ec8\u8eab\u5b66\u4e60\u3001\u804c\u573a\u521b\u4e1a\u3001\u6280\u672f\u624b\u518c\u8fd8\u662f\u5176\u4ed6\u7c7b\u578b\u7684\u4e66\u7c4d\uff0c\u8fd9\u91cc\u90fd\u80fd\u6ee1\u8db3\u4f60\u7684\u9700\u6c42\u3002 \u8be5\u5e93\u6db5\u76d6\u4e86\u5e06\u4e66app(\u539f\u6a0a\u767b\u8bfb\u4e66)\u3001\u5fae\u4fe1\u8bfb\u4e66\u3001\u4eac\u4e1c\u8bfb\u4e66\u3001\u559c\u9a6c\u62c9\u96c5\u7b49\u8bfb\u4e66app\u7684\u5927\u90e8\u5206\u7535\u5b50\u4e66\u3002",
+  "stars": 24105,
+  "forks": 3361,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "93cf3ffcf5a2e6814644d1747a101272557d7eac",
+  "commit_url": "https://github.com/jbiaojerry/ebook-treasure-chest/commit/93cf3ffcf5a2e6814644d1747a101272557d7eac",
+  "tree_url": "https://github.com/jbiaojerry/ebook-treasure-chest/tree/93cf3ffcf5a2e6814644d1747a101272557d7eac",
+  "analysed_at": "2026-11-14T19:07:42.088031+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

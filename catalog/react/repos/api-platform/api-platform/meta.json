@@ -1,0 +1,58 @@
+{
+  "owner": "api-platform",
+  "name": "api-platform",
+  "full_name": "api-platform/api-platform",
+  "html_url": "https://github.com/api-platform/api-platform",
+  "description": "\ud83d\udd78\ufe0f Create REST and GraphQL APIs, scaffold Jamstack webapps, stream changes in real-time.",
+  "stars": 9201,
+  "forks": 967,
+  "license": "MIT",
+  "language": "PHP",
+  "default_branch": "main",
+  "topics": [
+    "api",
+    "api-platform",
+    "framework",
+    "frankenphp",
+    "graphql",
+    "graphql-server",
+    "hydra-api",
+    "hypermedia-api",
+    "hypermedia-client",
+    "jamstack",
+    "json-ld",
+    "mercure",
+    "nextjs",
+    "openapi",
+    "php",
+    "react",
+    "rest",
+    "symfony",
+    "symfony-bundle",
+    "vulcain"
+  ],
+  "archived": false,
+  "commit_sha": "fa951e6b2fc161306bf195891429b9ba7a769ae4",
+  "commit_url": "https://github.com/api-platform/api-platform/commit/fa951e6b2fc161306bf195891429b9ba7a769ae4",
+  "tree_url": "https://github.com/api-platform/api-platform/tree/fa951e6b2fc161306bf195891429b9ba7a769ae4",
+  "analysed_at": "2026-11-14T19:13:35.394764+00:00",
+  "status": "completed",
+  "files_fetched": 64,
+  "files_analysed": 64,
+  "components": [
+    "Configuration and deployment",
+    "InstallerCommand.php package",
+    "Scaffold package",
+    "scripts package",
+    "templates package",
+    "Templates.php package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": [
+    ".github/scripts/classify-issue.py"
+  ]
+}

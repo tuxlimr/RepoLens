@@ -1,0 +1,44 @@
+%% Repository: idank/explainshell
+%% Analysed commit: 827ebe38da9822a10e89946551e377330a9de35e
+%% Commit reference: https://github.com/idank/explainshell/commit/827ebe38da9822a10e89946551e377330a9de35e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        explainshell["explainshell package"]
+        prod["prod package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| entrypoint
+    api_layer -->|imports| explainshell
+    data_layer -->|imports| explainshell
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| explainshell
+    entrypoint -->|imports| external_integrations
+    explainshell -->|imports| data_layer
+    explainshell -->|imports| external_integrations
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| explainshell

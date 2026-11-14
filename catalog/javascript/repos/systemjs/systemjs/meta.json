@@ -1,0 +1,38 @@
+{
+  "owner": "systemjs",
+  "name": "systemjs",
+  "full_name": "systemjs/systemjs",
+  "html_url": "https://github.com/systemjs/systemjs",
+  "description": "Dynamic ES module loader",
+  "stars": 13083,
+  "forks": 1089,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "9647576d43294e938ddae8fe231beb62255f4e46",
+  "commit_url": "https://github.com/systemjs/systemjs/commit/9647576d43294e938ddae8fe231beb62255f4e46",
+  "tree_url": "https://github.com/systemjs/systemjs/tree/9647576d43294e938ddae8fe231beb62255f4e46",
+  "analysed_at": "2026-11-14T19:12:00.910353+00:00",
+  "status": "completed",
+  "files_fetched": 248,
+  "files_analysed": 238,
+  "components": [
+    "common.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "err-msg.js package",
+    "extras package",
+    "features package",
+    "s.js package",
+    "system-core.js package",
+    "system.js package",
+    "system-node.js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

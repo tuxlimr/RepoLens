@@ -1,0 +1,29 @@
+%% Repository: easydiffusion/easydiffusion
+%% Analysed commit: 7caaf64acd47b6bc40ba2379571d48ea4cc29a6a
+%% Commit reference: https://github.com/easydiffusion/easydiffusion/commit/7caaf64acd47b6bc40ba2379571d48ea4cc29a6a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        ui["ui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    ui -->|imports| data_layer
+    ui -->|imports| external_integrations

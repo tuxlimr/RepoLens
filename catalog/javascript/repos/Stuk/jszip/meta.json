@@ -1,0 +1,39 @@
+{
+  "owner": "Stuk",
+  "name": "jszip",
+  "full_name": "Stuk/jszip",
+  "html_url": "https://github.com/Stuk/jszip",
+  "description": "Create, read and edit .zip files with Javascript",
+  "stars": 10398,
+  "forks": 1338,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "zip"
+  ],
+  "archived": false,
+  "commit_sha": "609d95f4098a11507160cd101e0b181cfad6a582",
+  "commit_url": "https://github.com/Stuk/jszip/commit/609d95f4098a11507160cd101e0b181cfad6a582",
+  "tree_url": "https://github.com/Stuk/jszip/tree/609d95f4098a11507160cd101e0b181cfad6a582",
+  "analysed_at": "2026-11-14T19:12:40.938032+00:00",
+  "status": "completed",
+  "files_fetched": 141,
+  "files_analysed": 140,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "documentation package",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "lib/generate/index.js",
+    "lib/index.js"
+  ]
+}

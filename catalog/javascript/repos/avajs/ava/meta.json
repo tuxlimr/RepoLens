@@ -1,0 +1,62 @@
+{
+  "owner": "avajs",
+  "name": "ava",
+  "full_name": "avajs/ava",
+  "html_url": "https://github.com/avajs/ava",
+  "description": "Node.js test runner that lets you develop with confidence \ud83d\ude80",
+  "stars": 20829,
+  "forks": 1468,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "assert",
+    "async",
+    "async-functions",
+    "ava",
+    "cli",
+    "cli-app",
+    "concurrency",
+    "javascript",
+    "node",
+    "nodejs",
+    "performance",
+    "tap",
+    "tdd",
+    "test-framework",
+    "test-runner",
+    "testing",
+    "unicorns",
+    "unit-testing"
+  ],
+  "archived": false,
+  "commit_sha": "a4fb2094052078faca5094fbe8cab7cbf18c785b",
+  "commit_url": "https://github.com/avajs/ava/commit/a4fb2094052078faca5094fbe8cab7cbf18c785b",
+  "tree_url": "https://github.com/avajs/ava/tree/a4fb2094052078faca5094fbe8cab7cbf18c785b",
+  "analysed_at": "2026-11-14T19:11:11.971852+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 792,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "entrypoints package",
+    "External integrations",
+    "lib package",
+    "media package",
+    "scripts package",
+    "test-tap package",
+    "test-types package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "media/screenshot-fixtures/magic-assert-buffers.js",
+    "entrypoints/cli.js",
+    "entrypoints/main.js",
+    "lib/worker/main.js"
+  ]
+}

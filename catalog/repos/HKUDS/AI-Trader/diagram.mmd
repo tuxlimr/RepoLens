@@ -1,0 +1,29 @@
+%% Repository: HKUDS/AI-Trader
+%% Analysed commit: d03ff6c056b32ced735adf7c19ed8175adb1c8df
+%% Commit reference: https://github.com/HKUDS/AI-Trader/commit/d03ff6c056b32ced735adf7c19ed8175adb1c8df
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        research["research package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| data_layer
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    tests -->|imports| data_layer

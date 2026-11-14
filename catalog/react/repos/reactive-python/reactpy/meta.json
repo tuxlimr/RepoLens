@@ -1,0 +1,58 @@
+{
+  "owner": "reactive-python",
+  "name": "reactpy",
+  "full_name": "reactive-python/reactpy",
+  "html_url": "https://github.com/reactive-python/reactpy",
+  "description": "It's React, but in Python",
+  "stars": 8151,
+  "forks": 330,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "python",
+    "react",
+    "reactpy"
+  ],
+  "archived": false,
+  "commit_sha": "4b765d44986a29071d7b09cbeb63b2826da6e411",
+  "commit_url": "https://github.com/reactive-python/reactpy/commit/4b765d44986a29071d7b09cbeb63b2826da6e411",
+  "tree_url": "https://github.com/reactive-python/reactpy/tree/4b765d44986a29071d7b09cbeb63b2826da6e411",
+  "analysed_at": "2026-11-14T19:13:42.734398+00:00",
+  "status": "completed",
+  "files_fetched": 344,
+  "files_analysed": 344,
+  "components": [
+    "build_scripts package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "js package",
+    "reactpy package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "Flask",
+    "Starlette",
+    "Click",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "Docker",
+    "pytest",
+    "TypeScript",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/build_scripts/build_py_wheel.py",
+    "src/build_scripts/copy_dir.py",
+    "src/build_scripts/install_deps.py",
+    "src/reactpy/_console/cli.py",
+    "src/reactpy/_console/rewrite_keys.py",
+    "src/reactpy/_console/rewrite_props.py"
+  ]
+}

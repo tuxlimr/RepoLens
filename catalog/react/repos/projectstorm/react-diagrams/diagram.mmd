@@ -1,0 +1,24 @@
+%% Repository: projectstorm/react-diagrams
+%% Analysed commit: cd3bdd119376836a0c675be5e3e58ee807cfd0c1
+%% Commit reference: https://github.com/projectstorm/react-diagrams/commit/cd3bdd119376836a0c675be5e3e58ee807cfd0c1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        diagrams_demo_gallery["diagrams-demo-gallery package"]
+        diagrams_demo_project["diagrams-demo-project package"]
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

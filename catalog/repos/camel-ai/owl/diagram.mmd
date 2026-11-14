@@ -1,0 +1,24 @@
+%% Repository: camel-ai/owl
+%% Analysed commit: 5dbabd348c87278060a9885ae3080e3d312eac84
+%% Commit reference: https://github.com/camel-ai/owl/commit/5dbabd348c87278060a9885ae3080e3d312eac84
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        community_usecase["community_usecase package"]
+        owl["owl package"]
+    end
+    community_usecase -->|imports| owl
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| owl
+    owl -->|imports| external_integrations

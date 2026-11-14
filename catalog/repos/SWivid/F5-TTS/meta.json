@@ -1,0 +1,52 @@
+{
+  "owner": "SWivid",
+  "name": "F5-TTS",
+  "full_name": "SWivid/F5-TTS",
+  "html_url": "https://github.com/SWivid/F5-TTS",
+  "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
+  "stars": 15585,
+  "forks": 2279,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "600e5fdfbf319f84735557aca80a7aaf60d487e6",
+  "commit_url": "https://github.com/SWivid/F5-TTS/commit/600e5fdfbf319f84735557aca80a7aaf60d487e6",
+  "tree_url": "https://github.com/SWivid/F5-TTS/tree/600e5fdfbf319f84735557aca80a7aaf60d487e6",
+  "analysed_at": "2026-11-14T19:09:00.341298+00:00",
+  "status": "completed",
+  "files_fetched": 91,
+  "files_analysed": 91,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "f5_tts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "src/f5_tts/api.py",
+    "src/f5_tts/eval/eval_infer_batch.py",
+    "src/f5_tts/eval/eval_librispeech_test_clean.py",
+    "src/f5_tts/eval/eval_seedtts_testset.py",
+    "src/f5_tts/eval/eval_utmos.py",
+    "src/f5_tts/infer/infer_cli.py",
+    "src/f5_tts/infer/infer_gradio.py",
+    "src/f5_tts/runtime/triton_trtllm/benchmark.py",
+    "src/f5_tts/runtime/triton_trtllm/client_grpc.py",
+    "src/f5_tts/runtime/triton_trtllm/client_http.py",
+    "src/f5_tts/runtime/triton_trtllm/scripts/convert_checkpoint.py",
+    "src/f5_tts/runtime/triton_trtllm/scripts/export_vocoder_to_onnx.py"
+  ]
+}

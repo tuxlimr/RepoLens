@@ -1,0 +1,44 @@
+%% Repository: streamlink/streamlink
+%% Analysed commit: 5896d42b0066295d6305c39df0d36f9feb27e483
+%% Commit reference: https://github.com/streamlink/streamlink/commit/5896d42b0066295d6305c39df0d36f9feb27e483
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        build_backend["build_backend package"]
+        script["script package"]
+        streamlink["streamlink package"]
+        streamlink_cli["streamlink_cli package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| streamlink
+    build_backend -->|imports| entrypoint
+    config -->|imports| build_backend
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| streamlink
+    entrypoint -->|imports| streamlink_cli
+    entrypoint -->|imports| tests
+    external_integrations -->|imports| streamlink
+    streamlink -->|imports| api_layer
+    streamlink -->|imports| external_integrations
+    streamlink_cli -->|imports| external_integrations
+    streamlink_cli -->|imports| streamlink
+    tests -->|imports| api_layer
+    tests -->|imports| build_backend
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| streamlink
+    tests -->|imports| streamlink_cli

@@ -1,0 +1,49 @@
+{
+  "owner": "goofychris",
+  "name": "art-template",
+  "full_name": "goofychris/art-template",
+  "html_url": "https://github.com/goofychris/art-template",
+  "description": "High performance JavaScript templating engine",
+  "stars": 9835,
+  "forks": 2631,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "express",
+    "javascript",
+    "koa",
+    "nodejs",
+    "template-engine",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "d09a96dd85ef3671286157d8a0c75948b90a3ebb",
+  "commit_url": "https://github.com/goofychris/art-template/commit/d09a96dd85ef3671286157d8a0c75948b90a3ebb",
+  "tree_url": "https://github.com/goofychris/art-template/tree/d09a96dd85ef3671286157d8a0c75948b90a3ebb",
+  "analysed_at": "2026-11-14T19:12:49.556514+00:00",
+  "status": "completed",
+  "files_fetched": 104,
+  "files_analysed": 104,
+  "components": [
+    "compile package",
+    "Configuration and deployment",
+    "Core modules",
+    "defaults.js package",
+    "extension.js package",
+    "index.js package",
+    "lib package",
+    "precompile.js package",
+    "render.js package",
+    "runtime.js package",
+    "Tests"
+  ],
+  "detections": [
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/compile/index.js",
+    "src/index.js"
+  ]
+}

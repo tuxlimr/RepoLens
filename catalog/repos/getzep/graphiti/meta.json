@@ -1,0 +1,63 @@
+{
+  "owner": "getzep",
+  "name": "graphiti",
+  "full_name": "getzep/graphiti",
+  "html_url": "https://github.com/getzep/graphiti",
+  "description": "Build Real-Time Knowledge Graphs for AI Agents",
+  "stars": 32808,
+  "forks": 3373,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agents",
+    "graph",
+    "llms",
+    "rag"
+  ],
+  "archived": false,
+  "commit_sha": "ed23196506eba8806fae6da831d73fcd2ad714d8",
+  "commit_url": "https://github.com/getzep/graphiti/commit/ed23196506eba8806fae6da831d73fcd2ad714d8",
+  "tree_url": "https://github.com/getzep/graphiti/tree/ed23196506eba8806fae6da831d73fcd2ad714d8",
+  "analysed_at": "2026-11-14T19:07:02.293765+00:00",
+  "status": "completed",
+  "files_fetched": 414,
+  "files_analysed": 412,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "graphiti_core package",
+    "mcp_server package",
+    "server package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "SQLite",
+    "FastAPI",
+    "Starlette",
+    "AWS (boto3)",
+    "httpx",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "Uvicorn",
+    "Poetry",
+    "Docker",
+    "Docker Compose",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "mcp_server/src/graphiti_mcp_server.py",
+    ".github/intake/apply.py",
+    ".github/intake/decide.py",
+    "mcp_server/main.py",
+    "server/graph_service/main.py"
+  ]
+}

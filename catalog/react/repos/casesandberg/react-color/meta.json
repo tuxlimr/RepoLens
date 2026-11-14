@@ -1,0 +1,63 @@
+{
+  "owner": "casesandberg",
+  "name": "react-color",
+  "full_name": "casesandberg/react-color",
+  "html_url": "https://github.com/casesandberg/react-color",
+  "description": ":art: Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more",
+  "stars": 12332,
+  "forks": 917,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chrome",
+    "color-picker",
+    "inline-styles",
+    "photoshop",
+    "react",
+    "react-component",
+    "sketch"
+  ],
+  "archived": false,
+  "commit_sha": "bc9a0e1dc5d11b06c511a8e02a95bd85c7129f4b",
+  "commit_url": "https://github.com/casesandberg/react-color/commit/bc9a0e1dc5d11b06c511a8e02a95bd85c7129f4b",
+  "tree_url": "https://github.com/casesandberg/react-color/tree/bc9a0e1dc5d11b06c511a8e02a95bd85c7129f4b",
+  "analysed_at": "2026-11-14T19:13:20.603167+00:00",
+  "status": "completed",
+  "files_fetched": 197,
+  "files_analysed": 197,
+  "components": [
+    "Alpha.js package",
+    "Block.js package",
+    "Chrome.js package",
+    "Circle.js package",
+    "Compact.js package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Custom.js package",
+    "Github.js package",
+    "Google.js package",
+    "helpers package",
+    "Hue.js package",
+    "index.js package",
+    "Material.js package",
+    "Photoshop.js package",
+    "scripts package",
+    "Sketch.js package",
+    "Slider.js package",
+    "Swatches.js package",
+    "Twitter.js package"
+  ],
+  "detections": [
+    "React",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/components/common/index.js",
+    "src/helpers/index.js",
+    "src/index.js"
+  ]
+}

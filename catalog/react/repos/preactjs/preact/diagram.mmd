@@ -1,0 +1,38 @@
+%% Repository: preactjs/preact
+%% Analysed commit: a2e03dbc6a4a239552d43edb6580ecf86886cc39
+%% Commit reference: https://github.com/preactjs/preact/commit/a2e03dbc6a4a239552d43edb6580ecf86886cc39
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        compat["compat package"]
+        component_js["component.js package"]
+        constants_js["constants.js package"]
+        create_context_js["create-context.js package"]
+        create_element_js["create-element.js package"]
+        create_portal_js["create-portal.js package"]
+        debug["debug package"]
+        demo["demo package"]
+        devtools["devtools package"]
+        diff["diff package"]
+        dom_d_ts["dom.d.ts package"]
+        hooks["hooks package"]
+        index_d_ts["index.d.ts package"]
+        index_js["index.js package"]
+        internal_d_ts["internal.d.ts package"]
+        jsx_d_ts["jsx.d.ts package"]
+        jsx_runtime["jsx-runtime package"]
+        options_js["options.js package"]
+        render_js["render.js package"]
+        scripts["scripts package"]
+        test_utils["test-utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (2 merged)"]
+    %% Note: 2 smaller component(s) merged into 'other' to keep the diagram readable.

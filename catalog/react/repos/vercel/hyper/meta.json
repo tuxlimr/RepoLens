@@ -1,0 +1,56 @@
+{
+  "owner": "vercel",
+  "name": "hyper",
+  "full_name": "vercel/hyper",
+  "html_url": "https://github.com/vercel/hyper",
+  "description": "A terminal built on web technologies",
+  "stars": 44753,
+  "forks": 3571,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "canary",
+  "topics": [
+    "css",
+    "html",
+    "hyper",
+    "javascript",
+    "linux",
+    "macos",
+    "react",
+    "terminal",
+    "terminal-emulators"
+  ],
+  "archived": true,
+  "commit_sha": "890a332ed9c35ed87343647d3ec6611b8045b157",
+  "commit_url": "https://github.com/vercel/hyper/commit/890a332ed9c35ed87343647d3ec6611b8045b157",
+  "tree_url": "https://github.com/vercel/hyper/tree/890a332ed9c35ed87343647d3ec6611b8045b157",
+  "analysed_at": "2026-11-14T19:12:58.542626+00:00",
+  "status": "completed",
+  "files_fetched": 163,
+  "files_analysed": 153,
+  "components": [
+    "app package",
+    "bin package",
+    "cli package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests",
+    "typings package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "React",
+    "Redux",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "app/index.ts",
+    "cli/index.ts",
+    "lib/actions/index.ts",
+    "lib/index.tsx",
+    "lib/reducers/index.ts"
+  ]
+}

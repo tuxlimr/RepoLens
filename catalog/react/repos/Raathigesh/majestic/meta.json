@@ -1,0 +1,56 @@
+{
+  "owner": "Raathigesh",
+  "name": "majestic",
+  "full_name": "Raathigesh/majestic",
+  "html_url": "https://github.com/Raathigesh/majestic",
+  "description": "\u26a1 Zero config GUI for Jest",
+  "stars": 7437,
+  "forks": 169,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "developer-experience",
+    "developer-tools",
+    "jest",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "2bb0047188722610c7251e53717ce731bf5ec65e",
+  "commit_url": "https://github.com/Raathigesh/majestic/commit/2bb0047188722610c7251e53717ce731bf5ec65e",
+  "tree_url": "https://github.com/Raathigesh/majestic/tree/2bb0047188722610c7251e53717ce731bf5ec65e",
+  "analysed_at": "2026-11-14T19:13:50.405389+00:00",
+  "status": "completed",
+  "files_fetched": 120,
+  "files_analysed": 118,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "External integrations",
+    "scripts package",
+    "server package",
+    "Service / domain layer",
+    "ui package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "integration/cypress/plugins/index.js",
+    "integration/cypress/support/index.js",
+    "integration/projects/basic/app.js",
+    "server/api/app/app.ts",
+    "server/api/index.ts",
+    "server/event-emitter/index.ts",
+    "server/index.ts",
+    "server/services/file-watcher/index.ts",
+    "server/services/jest-manager/index.ts",
+    "ui/app.tsx",
+    "ui/coverage-panel/index.tsx",
+    "ui/index.tsx"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "owner": "pinojs",
+  "name": "pino",
+  "full_name": "pinojs/pino",
+  "html_url": "https://github.com/pinojs/pino",
+  "description": "\ud83c\udf32 super fast, all natural json logger",
+  "stars": 18301,
+  "forks": 1022,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "fast",
+    "json",
+    "logger",
+    "nodejs",
+    "pino"
+  ],
+  "archived": false,
+  "commit_sha": "8d6927c29777882516339d9ccd509869ca3f295e",
+  "commit_url": "https://github.com/pinojs/pino/commit/8d6927c29777882516339d9ccd509869ca3f295e",
+  "tree_url": "https://github.com/pinojs/pino/tree/8d6927c29777882516339d9ccd509869ca3f295e",
+  "analysed_at": "2026-11-14T19:11:22.299723+00:00",
+  "status": "completed",
+  "files_fetched": 212,
+  "files_analysed": 194,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "pino.js",
+    "bin.js",
+    "test/fixtures/transport/index.js"
+  ]
+}

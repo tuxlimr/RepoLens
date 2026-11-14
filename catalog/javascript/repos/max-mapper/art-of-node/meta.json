@@ -1,0 +1,26 @@
+{
+  "owner": "max-mapper",
+  "name": "art-of-node",
+  "full_name": "max-mapper/art-of-node",
+  "html_url": "https://github.com/max-mapper/art-of-node",
+  "description": ":snowflake: a short introduction to node.js",
+  "stars": 9859,
+  "forks": 837,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "71d0aba060532c5b4f075c1cd0fad746515f3808",
+  "commit_url": "https://github.com/max-mapper/art-of-node/commit/71d0aba060532c5b4f075c1cd0fad746515f3808",
+  "tree_url": "https://github.com/max-mapper/art-of-node/tree/71d0aba060532c5b4f075c1cd0fad746515f3808",
+  "analysed_at": "2026-11-14T19:12:48.515942+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 13,
+  "components": [
+    "code package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

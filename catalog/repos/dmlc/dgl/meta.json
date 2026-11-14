@@ -1,0 +1,59 @@
+{
+  "owner": "dmlc",
+  "name": "dgl",
+  "full_name": "dmlc/dgl",
+  "html_url": "https://github.com/dmlc/dgl",
+  "description": "Python package built to ease deep learning on graph, on top of existing DL frameworks.",
+  "stars": 14290,
+  "forks": 3059,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "graph-neural-networks"
+  ],
+  "archived": false,
+  "commit_sha": "3d16000b4170fa741ed9e9667f22ba84d3493026",
+  "commit_url": "https://github.com/dmlc/dgl/commit/3d16000b4170fa741ed9e9667f22ba84d3493026",
+  "tree_url": "https://github.com/dmlc/dgl/tree/3d16000b4170fa741ed9e9667f22ba84d3493026",
+  "analysed_at": "2026-11-14T19:09:29.868000+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 793,
+  "components": [
+    "API layer",
+    "benchmarks package",
+    "conda package",
+    "Configuration and deployment",
+    "dgl_sparse package",
+    "dglgo package",
+    "docker package",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Typer",
+    "Click",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "setuptools",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "benchmarks/benchmarks/multigpu/bench_multigpu_rgcn.py",
+    "benchmarks/scripts/replace_branch.py",
+    "dglgo/dglgo/cli/__init__.py",
+    "dglgo/dglgo/cli/cli.py",
+    "dglgo/dglgo/cli/config_apply_cli.py",
+    "dglgo/dglgo/cli/config_cli.py",
+    "dglgo/dglgo/cli/export_cli.py",
+    "dglgo/dglgo/cli/recipe_cli.py",
+    "dglgo/dglgo/cli/train_cli.py"
+  ]
+}

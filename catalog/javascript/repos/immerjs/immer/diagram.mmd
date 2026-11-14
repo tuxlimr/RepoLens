@@ -1,0 +1,24 @@
+%% Repository: immerjs/immer
+%% Analysed commit: 784c86bb234e805566481c9425fcb2a3897e8bcc
+%% Commit reference: https://github.com/immerjs/immer/commit/784c86bb234e805566481c9425fcb2a3897e8bcc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        immer_ts["immer.ts package"]
+        internal_ts["internal.ts package"]
+        perf_testing["perf-testing package"]
+        performance_tests["__performance_tests__ package"]
+        plugins["plugins package"]
+        tests["__tests__ package"]
+        types["types package"]
+        utils["utils package"]
+        website["website package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

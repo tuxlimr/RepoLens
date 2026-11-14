@@ -1,0 +1,54 @@
+{
+  "owner": "anthropics",
+  "name": "claude-plugins-official",
+  "full_name": "anthropics/claude-plugins-official",
+  "html_url": "https://github.com/anthropics/claude-plugins-official",
+  "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+  "stars": 47281,
+  "forks": 4910,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "claude-code",
+    "mcp",
+    "skills"
+  ],
+  "archived": false,
+  "commit_sha": "b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6",
+  "commit_url": "https://github.com/anthropics/claude-plugins-official/commit/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6",
+  "tree_url": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6",
+  "analysed_at": "2026-11-14T19:06:36.791265+00:00",
+  "status": "completed",
+  "files_fetched": 743,
+  "files_analysed": 738,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "external_plugins package",
+    "plugins package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    ".github/scripts/discover_bumps.py",
+    "plugins/claude-for-manufacturing/shared/scripts/plant_setup.py",
+    "plugins/claude-for-manufacturing/skills/morning-plant-pulse/scripts/pulse_compute.py",
+    "plugins/claude-for-manufacturing/skills/morning-plant-pulse/scripts/render_short.py",
+    "plugins/claude-security/hooks/hooks.py",
+    "plugins/claude-security/scripts/patch_artifacts.py",
+    "plugins/claude-security/scripts/render_report.py",
+    "plugins/claude-security/scripts/save_result.py",
+    "plugins/claude-security/scripts/write_scan_meta.py",
+    "plugins/code-modernization/scripts/baseline_diff.py",
+    "plugins/code-modernization/scripts/build_report.py",
+    "plugins/code-modernization/scripts/compare.py"
+  ]
+}

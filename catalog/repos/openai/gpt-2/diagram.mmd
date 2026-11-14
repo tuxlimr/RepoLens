@@ -1,0 +1,28 @@
+%% Repository: openai/gpt-2
+%% Analysed commit: 9b63575ef42771a015060c964af2c3da4cf7c8ab
+%% Commit reference: https://github.com/openai/gpt-2/commit/9b63575ef42771a015060c964af2c3da4cf7c8ab
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        encoder_py["encoder.py package"]
+        sample_py["sample.py package"]
+    end
+    core -->|imports| external_integrations
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| encoder_py
+    entrypoint -->|imports| sample_py
+    sample_py -->|imports| data_layer

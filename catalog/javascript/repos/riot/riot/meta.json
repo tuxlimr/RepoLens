@@ -1,0 +1,52 @@
+{
+  "owner": "riot",
+  "name": "riot",
+  "full_name": "riot/riot",
+  "html_url": "https://github.com/riot/riot",
+  "description": "Simple and elegant component-based UI library",
+  "stars": 14925,
+  "forks": 953,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "client-side",
+    "customelement",
+    "customelements",
+    "customtags",
+    "elegant",
+    "framework",
+    "javascript",
+    "lite",
+    "minimal",
+    "simple",
+    "view",
+    "webcomponents"
+  ],
+  "archived": false,
+  "commit_sha": "e46e3bbf962b2bfad672de199c67bcc4147e430b",
+  "commit_url": "https://github.com/riot/riot/commit/e46e3bbf962b2bfad672de199c67bcc4147e430b",
+  "tree_url": "https://github.com/riot/riot/tree/e46e3bbf962b2bfad672de199c67bcc4147e430b",
+  "analysed_at": "2026-11-14T19:11:42.134135+00:00",
+  "status": "completed",
+  "files_fetched": 162,
+  "files_analysed": 162,
+  "components": [
+    "API layer",
+    "compiler package",
+    "Configuration and deployment",
+    "Core modules",
+    "riot+compiler.js package",
+    "riot.js package",
+    "Service / domain layer",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "riot.js"
+  ]
+}

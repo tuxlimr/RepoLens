@@ -1,0 +1,54 @@
+{
+  "owner": "dbcli",
+  "name": "mycli",
+  "full_name": "dbcli/mycli",
+  "html_url": "https://github.com/dbcli/mycli",
+  "description": "Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes",
+  "stars": 11997,
+  "forks": 702,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "auto-completion",
+    "data-science",
+    "database",
+    "mycli",
+    "mysql",
+    "polars",
+    "python",
+    "repl",
+    "sql",
+    "syntax-highlighting"
+  ],
+  "archived": false,
+  "commit_sha": "9a216b6c68294b4222e1780bfe66d00d3c1d1a91",
+  "commit_url": "https://github.com/dbcli/mycli/commit/9a216b6c68294b4222e1780bfe66d00d3c1d1a91",
+  "tree_url": "https://github.com/dbcli/mycli/tree/9a216b6c68294b4222e1780bfe66d00d3c1d1a91",
+  "analysed_at": "2026-11-14T19:10:19.896267+00:00",
+  "status": "completed",
+  "files_fetched": 211,
+  "files_analysed": 211,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "mycli package",
+    "mycli_test package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MySQL",
+    "Click",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "mycli/main.py",
+    "mycli_test/features/wrappager.py"
+  ]
+}

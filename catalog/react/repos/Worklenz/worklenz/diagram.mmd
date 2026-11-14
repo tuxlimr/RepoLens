@@ -1,0 +1,25 @@
+%% Repository: Worklenz/worklenz
+%% Analysed commit: c0115ed217610a03b0b2da2fc28d17ec59d3e921
+%% Commit reference: https://github.com/Worklenz/worklenz/commit/c0115ed217610a03b0b2da2fc28d17ec59d3e921
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        scripts["scripts package"]
+        security["security package"]
+        worklenz_backend["worklenz-backend package"]
+    end

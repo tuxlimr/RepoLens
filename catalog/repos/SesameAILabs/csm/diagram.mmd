@@ -1,0 +1,19 @@
+%% Repository: SesameAILabs/csm
+%% Analysed commit: daed31e6d42cf71873999075de204fa37d2acec3
+%% Commit reference: https://github.com/SesameAILabs/csm/commit/daed31e6d42cf71873999075de204fa37d2acec3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    core -->|imports| data_layer
+    core -->|imports| entrypoint
+    entrypoint -->|imports| core

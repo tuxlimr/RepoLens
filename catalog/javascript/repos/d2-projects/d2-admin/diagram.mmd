@@ -1,0 +1,39 @@
+%% Repository: d2-projects/d2-admin
+%% Analysed commit: 35d7aa1fc1fc8a9f35c707993fc7370393a41a48
+%% Commit reference: https://github.com/d2-projects/d2-admin/commit/35d7aa1fc1fc8a9f35c707993fc7370393a41a48
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app_vue["App.vue package"]
+        assets["assets package"]
+        components["components package"]
+        i18n_js["i18n.js package"]
+        layout["layout package"]
+        libs["libs package"]
+        locales["locales package"]
+        main_js["main.js package"]
+        menu["menu package"]
+        plugin["plugin package"]
+        public["public package"]
+        router["router package"]
+        setting_js["setting.js package"]
+        src_mobile["src.mobile package"]
+        store["store package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

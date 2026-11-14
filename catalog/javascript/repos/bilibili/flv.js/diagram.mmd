@@ -1,0 +1,25 @@
+%% Repository: bilibili/flv.js
+%% Analysed commit: 42343088f22619cf014a057b3878fe3d320016a6
+%% Commit reference: https://github.com/bilibili/flv.js/commit/42343088f22619cf014a057b3878fe3d320016a6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        config_js["config.js package"]
+        d_ts["d.ts package"]
+        demux["demux package"]
+        flv_js["flv.js package"]
+        index_js["index.js package"]
+        io["io package"]
+        player["player package"]
+        remux["remux package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

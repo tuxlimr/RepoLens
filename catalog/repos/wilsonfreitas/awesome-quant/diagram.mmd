@@ -1,0 +1,26 @@
+%% Repository: wilsonfreitas/awesome-quant
+%% Analysed commit: f7230363d2b5d8a43244144646c14978dc375016
+%% Commit reference: https://github.com/wilsonfreitas/awesome-quant/commit/f7230363d2b5d8a43244144646c14978dc375016
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        site["site package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| scripts
+    scripts -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| scripts

@@ -1,0 +1,30 @@
+{
+  "owner": "mozilla",
+  "name": "readability",
+  "full_name": "mozilla/readability",
+  "html_url": "https://github.com/mozilla/readability",
+  "description": "A standalone version of the readability lib",
+  "stars": 11544,
+  "forks": 742,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ab4027a8b37669745016869a37a504727992b2ba",
+  "commit_url": "https://github.com/mozilla/readability/commit/ab4027a8b37669745016869a37a504727992b2ba",
+  "tree_url": "https://github.com/mozilla/readability/tree/ab4027a8b37669745016869a37a504727992b2ba",
+  "analysed_at": "2026-11-14T19:12:17.272293+00:00",
+  "status": "completed",
+  "files_fetched": 372,
+  "files_analysed": 372,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

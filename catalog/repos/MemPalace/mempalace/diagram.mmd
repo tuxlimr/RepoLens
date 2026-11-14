@@ -1,0 +1,60 @@
+%% Repository: MemPalace/mempalace
+%% Analysed commit: 9fc486dc0ce259131da20179847314cabcbb9e15
+%% Commit reference: https://github.com/MemPalace/mempalace/commit/9fc486dc0ce259131da20179847314cabcbb9e15
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        crates["crates package"]
+        hooks["hooks package"]
+        mempalace["mempalace package"]
+        plugins["plugins package"]
+        scripts["scripts package"]
+        website["website package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| data_layer
+    config -->|imports| external_integrations
+    config -->|imports| mempalace
+    entrypoint -->|imports| benchmarks
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| mempalace
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| config
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| mempalace
+    mempalace -->|imports| config
+    mempalace -->|imports| data_layer
+    mempalace -->|imports| entrypoint
+    mempalace -->|imports| external_integrations
+    mempalace -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| mempalace
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| mempalace
+    tests -->|imports| service_layer

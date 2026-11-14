@@ -1,0 +1,29 @@
+{
+  "owner": "oso95",
+  "name": "scroll-world",
+  "full_name": "oso95/scroll-world",
+  "html_url": "https://github.com/oso95/scroll-world",
+  "description": "A skill that turn any brand into a scrollable 3D world landing page",
+  "stars": 10995,
+  "forks": 1201,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+  "commit_url": "https://github.com/oso95/scroll-world/commit/71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+  "tree_url": "https://github.com/oso95/scroll-world/tree/71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+  "analysed_at": "2026-11-14T19:12:27.016151+00:00",
+  "status": "completed",
+  "files_fetched": 11,
+  "files_analysed": 11,
+  "components": [
+    "Application entry point",
+    "skills package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "skills/scroll-world/references/knockout.py"
+  ]
+}

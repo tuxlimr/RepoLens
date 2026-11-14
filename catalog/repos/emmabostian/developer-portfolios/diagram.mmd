@@ -1,0 +1,11 @@
+%% Repository: emmabostian/developer-portfolios
+%% Analysed commit: cecf27d06a4cdb391ad4a031afc0d510ef71a0a2
+%% Commit reference: https://github.com/emmabostian/developer-portfolios/commit/cecf27d06a4cdb391ad4a031afc0d510ef71a0a2
+flowchart TD
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| entrypoint

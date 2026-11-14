@@ -1,0 +1,30 @@
+{
+  "owner": "DrkSephy",
+  "name": "es6-cheatsheet",
+  "full_name": "DrkSephy/es6-cheatsheet",
+  "html_url": "https://github.com/DrkSephy/es6-cheatsheet",
+  "description": "ES2015 [ES6] cheatsheet containing tips, tricks, best practices and code snippets",
+  "stars": 13286,
+  "forks": 1107,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "cheatsheet",
+    "es6-javascript",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "a03267ceaf4e445aeca078b924ba92d6456d6b6b",
+  "commit_url": "https://github.com/DrkSephy/es6-cheatsheet/commit/a03267ceaf4e445aeca078b924ba92d6456d6b6b",
+  "tree_url": "https://github.com/DrkSephy/es6-cheatsheet/tree/a03267ceaf4e445aeca078b924ba92d6456d6b6b",
+  "analysed_at": "2026-11-14T19:11:58.348902+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [
+    "convert.js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

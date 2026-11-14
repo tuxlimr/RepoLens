@@ -1,0 +1,47 @@
+{
+  "owner": "zuiidea",
+  "name": "antd-admin",
+  "full_name": "zuiidea/antd-admin",
+  "html_url": "https://github.com/zuiidea/antd-admin",
+  "description": "AI-friendly enterprise front-end best practices",
+  "stars": 9769,
+  "forks": 2465,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "admin",
+    "antd",
+    "dashboard",
+    "mock",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "4dc473ba55635e73b642f7de71a3ac0aa58a7bd6",
+  "commit_url": "https://github.com/zuiidea/antd-admin/commit/4dc473ba55635e73b642f7de71a3ac0aa58a7bd6",
+  "tree_url": "https://github.com/zuiidea/antd-admin/tree/4dc473ba55635e73b642f7de71a3ac0aa58a7bd6",
+  "analysed_at": "2026-11-14T19:13:33.048806+00:00",
+  "status": "completed",
+  "files_fetched": 319,
+  "files_analysed": 317,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "External integrations",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "axios",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "apps/basic/src/main.tsx",
+    "apps/with-lingui/src/main.tsx"
+  ]
+}

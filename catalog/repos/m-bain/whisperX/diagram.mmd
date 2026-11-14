@@ -1,0 +1,18 @@
+%% Repository: m-bain/whisperX
+%% Analysed commit: b904f02b7e1f26fd10fb04840d655ff27e88e464
+%% Commit reference: https://github.com/m-bain/whisperX/commit/b904f02b7e1f26fd10fb04840d655ff27e88e464
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        whisperx["whisperx package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| whisperx
+    tests -->|imports| whisperx

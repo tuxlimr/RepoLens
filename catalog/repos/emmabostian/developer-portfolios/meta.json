@@ -1,0 +1,38 @@
+{
+  "owner": "emmabostian",
+  "name": "developer-portfolios",
+  "full_name": "emmabostian/developer-portfolios",
+  "html_url": "https://github.com/emmabostian/developer-portfolios",
+  "description": "A list of developer portfolios for your inspiration",
+  "stars": 27698,
+  "forks": 5431,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "cecf27d06a4cdb391ad4a031afc0d510ef71a0a2",
+  "commit_url": "https://github.com/emmabostian/developer-portfolios/commit/cecf27d06a4cdb391ad4a031afc0d510ef71a0a2",
+  "tree_url": "https://github.com/emmabostian/developer-portfolios/tree/cecf27d06a4cdb391ad4a031afc0d510ef71a0a2",
+  "analysed_at": "2026-11-14T19:07:18.867453+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 23,
+  "components": [
+    "Application entry point",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/alphabetical.py",
+    "src/check_parking_redirects.py",
+    "src/generate_feed.py",
+    "src/remove_emoji_in_readme.py",
+    "src/run_dup_report.py",
+    "src/run_tests.py",
+    "run_tests.py"
+  ]
+}

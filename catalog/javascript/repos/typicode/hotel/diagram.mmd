@@ -1,0 +1,27 @@
+%% Repository: typicode/hotel
+%% Analysed commit: bcbdade4a5ce5f9f8ac0d66def7ba0a4efec2366
+%% Commit reference: https://github.com/typicode/hotel/commit/bcbdade4a5ce5f9f8ac0d66def7ba0a4efec2366
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app["app package"]
+        bin["bin package"]
+        cli["cli package"]
+        common_js["common.js package"]
+        conf_js["conf.js package"]
+        daemon["daemon package"]
+        get_cmd_js["get-cmd.js package"]
+        pid_file_js["pid-file.js package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,52 @@
+{
+  "owner": "liriliri",
+  "name": "eruda",
+  "full_name": "liriliri/eruda",
+  "html_url": "https://github.com/liriliri/eruda",
+  "description": "Console for mobile browsers",
+  "stars": 21245,
+  "forks": 1399,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "console",
+    "debugger",
+    "developer-tools",
+    "eruda",
+    "mobile"
+  ],
+  "archived": false,
+  "commit_sha": "0c55928fec802fb2102934c4b5928686178b467b",
+  "commit_url": "https://github.com/liriliri/eruda/commit/0c55928fec802fb2102934c4b5928686178b467b",
+  "tree_url": "https://github.com/liriliri/eruda/tree/0c55928fec802fb2102934c4b5928686178b467b",
+  "analysed_at": "2026-11-14T19:11:13.871494+00:00",
+  "status": "completed",
+  "files_fetched": 99,
+  "files_analysed": 92,
+  "components": [
+    "Configuration and deployment",
+    "Console package",
+    "Core modules",
+    "DevTools package",
+    "Elements package",
+    "EntryBtn package",
+    "eruda.js package",
+    "index.js package",
+    "Info package",
+    "lib package",
+    "Network package",
+    "polyfill.js package",
+    "Resources package",
+    "Snippets package",
+    "Sources package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

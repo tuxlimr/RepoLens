@@ -1,0 +1,43 @@
+{
+  "owner": "BrowserSync",
+  "name": "browser-sync",
+  "full_name": "BrowserSync/browser-sync",
+  "html_url": "https://github.com/BrowserSync/browser-sync",
+  "description": "Keep multiple browsers & devices in sync when building websites. https://browsersync.io",
+  "stars": 12288,
+  "forks": 745,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "dc74bc0a6bcbe70eea5f2f94b524b2902436efb1",
+  "commit_url": "https://github.com/BrowserSync/browser-sync/commit/dc74bc0a6bcbe70eea5f2f94b524b2902436efb1",
+  "tree_url": "https://github.com/BrowserSync/browser-sync/tree/dc74bc0a6bcbe70eea5f2f94b524b2902436efb1",
+  "analysed_at": "2026-11-14T19:12:06.899746+00:00",
+  "status": "completed",
+  "files_fetched": 729,
+  "files_analysed": 720,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/browser-sync-client/index.js",
+    "packages/browser-sync-ui/test/fixtures/plugin-multi-templates/index.plugin.js",
+    "packages/browser-sync-ui/test/fixtures/plugin-noui/index.plugin.js",
+    "packages/browser-sync-ui/test/fixtures/plugin/index.plugin.js",
+    "packages/browser-sync-client/lib/index.ts",
+    "packages/browser-sync-ui/index.js",
+    "packages/browser-sync-ui/lib/server.js",
+    "packages/browser-sync/lib/index.js"
+  ]
+}

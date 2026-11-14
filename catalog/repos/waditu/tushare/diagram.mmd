@@ -1,0 +1,27 @@
+%% Repository: waditu/tushare
+%% Analysed commit: 093856995af0811d3ebbe8c179b8febf4ae706f0
+%% Commit reference: https://github.com/waditu/tushare/commit/093856995af0811d3ebbe8c179b8febf4ae706f0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        tushare["tushare package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| tushare
+    tests -->|imports| data_layer
+    tests -->|imports| tushare
+    tushare -->|imports| entrypoint
+    tushare -->|imports| external_integrations

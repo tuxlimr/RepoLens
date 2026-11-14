@@ -1,0 +1,25 @@
+%% Repository: julianshapiro/velocity
+%% Analysed commit: 767e35cac12120be526eef330e4d988b2c3cfc3c
+%% Commit reference: https://github.com/julianshapiro/velocity/commit/767e35cac12120be526eef330e4d988b2c3cfc3c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        constants_ts["constants.ts package"]
+        fakeclass_js["fakeClass.js package"]
+        fakeclass_ts["fakeClass.ts package"]
+        legacy["legacy package"]
+        src_ui["src-ui package"]
+        types_ts["types.ts package"]
+        utility_ts["utility.ts package"]
+        velocity["Velocity package"]
+        velocity_ts["velocity.ts package"]
+        velocityfn_ts["velocityFn.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

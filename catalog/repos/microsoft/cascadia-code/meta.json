@@ -1,0 +1,32 @@
+{
+  "owner": "microsoft",
+  "name": "cascadia-code",
+  "full_name": "microsoft/cascadia-code",
+  "html_url": "https://github.com/microsoft/cascadia-code",
+  "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
+  "stars": 27962,
+  "forks": 846,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+  "commit_url": "https://github.com/microsoft/cascadia-code/commit/56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+  "tree_url": "https://github.com/microsoft/cascadia-code/tree/56bcca3f2c1e4cb19458954f0e2bb4635960df91",
+  "analysed_at": "2026-11-14T19:07:20.403849+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "Click",
+    "requests"
+  ],
+  "entry_points": [
+    "build.py"
+  ]
+}

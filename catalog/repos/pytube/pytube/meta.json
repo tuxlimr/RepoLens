@@ -1,0 +1,42 @@
+{
+  "owner": "pytube",
+  "name": "pytube",
+  "full_name": "pytube/pytube",
+  "html_url": "https://github.com/pytube/pytube",
+  "description": "Lightweight, dependency-free Python library and CLI for downloading YouTube videos, playlists, and captions.",
+  "stars": 13209,
+  "forks": 2477,
+  "license": "Unlicense",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "python",
+    "youtube",
+    "youtube-downloader"
+  ],
+  "archived": false,
+  "commit_sha": "a32fff39058a6f7e5e59ecd06a7467b71197ce35",
+  "commit_url": "https://github.com/pytube/pytube/commit/a32fff39058a6f7e5e59ecd06a7467b71197ce35",
+  "tree_url": "https://github.com/pytube/pytube/tree/a32fff39058a6f7e5e59ecd06a7467b71197ce35",
+  "analysed_at": "2026-11-14T19:09:54.971036+00:00",
+  "status": "completed",
+  "files_fetched": 61,
+  "files_analysed": 60,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "pytube package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "pytube/cli.py",
+    "pytube/version.py"
+  ]
+}

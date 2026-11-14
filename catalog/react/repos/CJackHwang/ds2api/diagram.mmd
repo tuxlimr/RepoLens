@@ -1,0 +1,27 @@
+%% Repository: CJackHwang/ds2api
+%% Analysed commit: 8316cf8a0352e900e03ce600b792083f590d80e2
+%% Commit reference: https://github.com/CJackHwang/ds2api/commit/8316cf8a0352e900e03ce600b792083f590d80e2
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        cmd["cmd package"]
+        internal["internal package"]
+        pow["pow package"]
+        scripts["scripts package"]
+        webui["webui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

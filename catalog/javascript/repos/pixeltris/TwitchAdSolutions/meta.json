@@ -1,0 +1,30 @@
+{
+  "owner": "pixeltris",
+  "name": "TwitchAdSolutions",
+  "full_name": "pixeltris/TwitchAdSolutions",
+  "html_url": "https://github.com/pixeltris/TwitchAdSolutions",
+  "description": null,
+  "stars": 11316,
+  "forks": 659,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "c51ef2fe8f667f9dc9216eb550924cf0d732ce27",
+  "commit_url": "https://github.com/pixeltris/TwitchAdSolutions/commit/c51ef2fe8f667f9dc9216eb550924cf0d732ce27",
+  "tree_url": "https://github.com/pixeltris/TwitchAdSolutions/tree/c51ef2fe8f667f9dc9216eb550924cf0d732ce27",
+  "analysed_at": "2026-11-14T19:12:19.716006+00:00",
+  "status": "completed",
+  "files_fetched": 10,
+  "files_analysed": 10,
+  "components": [
+    "strip package",
+    "vaft package",
+    "video-swap-new package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,103 @@
+%% Repository: google/artemis
+%% Analysed commit: 351ca8422f7b5b54e80a9c1ce03a222e02415b6b
+%% Commit reference: https://github.com/google/artemis/commit/351ca8422f7b5b54e80a9c1ce03a222e02415b6b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        apps["apps package"]
+        artemis["artemis package"]
+        mcp_server["mcp_server package"]
+        packages["packages package"]
+        playground["playground package"]
+        scripts["scripts package"]
+        third_party["third_party package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| apps
+    api_layer -->|imports| artemis
+    api_layer -->|imports| config
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| service_layer
+    api_layer -->|imports| third_party
+    apps -->|imports| artemis
+    apps -->|imports| config
+    apps -->|imports| data_layer
+    apps -->|imports| entrypoint
+    apps -->|imports| external_integrations
+    artemis -->|imports| api_layer
+    artemis -->|imports| config
+    artemis -->|imports| data_layer
+    artemis -->|imports| entrypoint
+    artemis -->|imports| external_integrations
+    artemis -->|imports| mcp_server
+    artemis -->|imports| service_layer
+    artemis -->|imports| tests
+    artemis -->|imports| third_party
+    config -->|imports| artemis
+    config -->|imports| third_party
+    data_layer -->|imports| artemis
+    data_layer -->|imports| config
+    data_layer -->|imports| service_layer
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| apps
+    entrypoint -->|imports| artemis
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| mcp_server
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| third_party
+    external_integrations -->|imports| artemis
+    external_integrations -->|imports| config
+    external_integrations -->|imports| service_layer
+    external_integrations -->|imports| third_party
+    mcp_server -->|imports| artemis
+    mcp_server -->|imports| config
+    mcp_server -->|imports| data_layer
+    mcp_server -->|imports| entrypoint
+    mcp_server -->|imports| external_integrations
+    mcp_server -->|imports| service_layer
+    mcp_server -->|imports| third_party
+    service_layer -->|imports| artemis
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| mcp_server
+    service_layer -->|imports| third_party
+    tests -->|imports| api_layer
+    tests -->|imports| apps
+    tests -->|imports| artemis
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| mcp_server
+    tests -->|imports| service_layer
+    tests -->|imports| third_party
+    third_party -->|imports| api_layer
+    third_party -->|imports| artemis
+    third_party -->|imports| config
+    third_party -->|imports| external_integrations
+    third_party -->|imports| service_layer

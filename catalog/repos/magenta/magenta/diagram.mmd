@@ -1,0 +1,29 @@
+%% Repository: magenta/magenta
+%% Analysed commit: c15687ebd1c1cc12658cd468c737d3c24c02b918
+%% Commit reference: https://github.com/magenta/magenta/commit/c15687ebd1c1cc12658cd468c737d3c24c02b918
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        magenta["magenta package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| magenta
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| magenta
+    magenta -->|imports| data_layer
+    tests -->|imports| data_layer
+    tests -->|imports| magenta

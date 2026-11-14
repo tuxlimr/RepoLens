@@ -1,0 +1,46 @@
+{
+  "owner": "tariqbuilds",
+  "name": "linux-dash",
+  "full_name": "tariqbuilds/linux-dash",
+  "html_url": "https://github.com/tariqbuilds/linux-dash",
+  "description": "A beautiful web dashboard for Linux",
+  "stars": 10575,
+  "forks": 1179,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "dashboard",
+    "linux",
+    "linux-dash",
+    "monitoring",
+    "server",
+    "ui",
+    "web"
+  ],
+  "archived": false,
+  "commit_sha": "186a802ea76e8bfcab7e8e7ebc533b74f80306fc",
+  "commit_url": "https://github.com/tariqbuilds/linux-dash/commit/186a802ea76e8bfcab7e8e7ebc533b74f80306fc",
+  "tree_url": "https://github.com/tariqbuilds/linux-dash/tree/186a802ea76e8bfcab7e8e7ebc533b74f80306fc",
+  "analysed_at": "2026-11-14T19:12:36.825580+00:00",
+  "status": "completed",
+  "files_fetched": 58,
+  "files_analysed": 57,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "js package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "Express"
+  ],
+  "entry_points": [
+    "app/server/index.py",
+    "app/server/index.js",
+    "bin/linux-dash",
+    "src/js/core/app.js"
+  ]
+}

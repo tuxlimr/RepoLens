@@ -1,0 +1,30 @@
+%% Repository: liyupi/mianshiya
+%% Analysed commit: 7354f4859b7425338dfcff6410e9903bca0ec0dd
+%% Commit reference: https://github.com/liyupi/mianshiya/commit/7354f4859b7425338dfcff6410e9903bca0ec0dd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        access_ts["access.ts package"]
+        app_tsx["app.tsx package"]
+        cloudfunctions["cloudfunctions package"]
+        components["components package"]
+        constant["constant package"]
+        global_tsx["global.tsx package"]
+        layouts["layouts package"]
+        pages["pages package"]
+        plugins["plugins package"]
+        server["server package"]
+        service_worker_js["service-worker.js package"]
+        tcb_js["tcb.js package"]
+        typings_d_ts["typings.d.ts package"]
+        utils["utils package"]
+        wrappers["wrappers package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

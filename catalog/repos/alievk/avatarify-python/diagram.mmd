@@ -1,0 +1,22 @@
+%% Repository: alievk/avatarify-python
+%% Analysed commit: 862182cfbca5bd8a7473bed9c5f69f92e8d5cc7b
+%% Commit reference: https://github.com/alievk/avatarify-python/commit/862182cfbca5bd8a7473bed9c5f69f92e8d5cc7b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        afy["afy package"]
+        scripts["scripts package"]
+    end
+    entrypoint -->|imports| afy
+    entrypoint -->|imports| external_integrations

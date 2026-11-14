@@ -1,0 +1,45 @@
+{
+  "owner": "gitname",
+  "name": "react-gh-pages",
+  "full_name": "gitname/react-gh-pages",
+  "html_url": "https://github.com/gitname/react-gh-pages",
+  "description": "Deploying a React App (created using create-react-app) to GitHub Pages",
+  "stars": 6950,
+  "forks": 963,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "create-react-app",
+    "deployment",
+    "educational",
+    "gh-pages",
+    "react",
+    "tutorial"
+  ],
+  "archived": false,
+  "commit_sha": "ca8b9f38392149c0143064cad3f7606f4e28241e",
+  "commit_url": "https://github.com/gitname/react-gh-pages/commit/ca8b9f38392149c0143064cad3f7606f4e28241e",
+  "tree_url": "https://github.com/gitname/react-gh-pages/tree/ca8b9f38392149c0143064cad3f7606f4e28241e",
+  "analysed_at": "2026-11-14T19:14:00.549121+00:00",
+  "status": "completed",
+  "files_fetched": 17,
+  "files_analysed": 17,
+  "components": [
+    "App.test.tsx package",
+    "App.tsx package",
+    "Configuration and deployment",
+    "index.tsx package",
+    "react-app-env.d.ts package",
+    "reportWebVitals.ts package",
+    "setupTests.ts package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/App.tsx",
+    "src/index.tsx"
+  ]
+}

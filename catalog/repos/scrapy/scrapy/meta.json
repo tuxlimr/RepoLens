@@ -1,0 +1,58 @@
+{
+  "owner": "scrapy",
+  "name": "scrapy",
+  "full_name": "scrapy/scrapy",
+  "html_url": "https://github.com/scrapy/scrapy",
+  "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+  "stars": 65389,
+  "forks": 12140,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "crawler",
+    "crawling",
+    "framework",
+    "hacktoberfest",
+    "python",
+    "scraping",
+    "web-scraping",
+    "web-scraping-python"
+  ],
+  "archived": false,
+  "commit_sha": "e63a574c767d7a9438c21db158f605f1c44c6e6a",
+  "commit_url": "https://github.com/scrapy/scrapy/commit/e63a574c767d7a9438c21db158f605f1c44c6e6a",
+  "tree_url": "https://github.com/scrapy/scrapy/tree/e63a574c767d7a9438c21db158f605f1c44c6e6a",
+  "analysed_at": "2026-11-14T19:06:18.601443+00:00",
+  "status": "completed",
+  "files_fetched": 713,
+  "files_analysed": 708,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "extras package",
+    "scrapy package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "aiohttp",
+    "AWS (boto3)",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "extras/github-release-notes.py",
+    "extras/pre-bump.py",
+    "extras/upgrade-ci-pins.py",
+    "scrapy/__main__.py",
+    "scrapy/cmdline.py",
+    "scrapy/utils/_benchserver.py",
+    "scrapy/utils/benchserver.py"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "owner": "Yomguithereal",
+  "name": "react-blessed",
+  "full_name": "Yomguithereal/react-blessed",
+  "html_url": "https://github.com/Yomguithereal/react-blessed",
+  "description": "A react renderer for blessed.",
+  "stars": 4488,
+  "forks": 180,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "blessed",
+    "cli",
+    "react",
+    "renderer"
+  ],
+  "archived": false,
+  "commit_sha": "b686438af2726111637ef17b998f0f6967623640",
+  "commit_url": "https://github.com/Yomguithereal/react-blessed/commit/b686438af2726111637ef17b998f0f6967623640",
+  "tree_url": "https://github.com/Yomguithereal/react-blessed/tree/b686438af2726111637ef17b998f0f6967623640",
+  "analysed_at": "2026-11-14T19:14:44.326695+00:00",
+  "status": "completed",
+  "files_fetched": 34,
+  "files_analysed": 34,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "fiber package",
+    "index.js package",
+    "shared package",
+    "Tests"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "src/fiber/index.js",
+    "src/index.js"
+  ]
+}

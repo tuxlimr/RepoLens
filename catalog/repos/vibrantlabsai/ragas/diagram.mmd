@@ -1,0 +1,29 @@
+%% Repository: vibrantlabsai/ragas
+%% Analysed commit: 8c63f10d500c44efbf24fdb9e2920de2104c321c
+%% Commit reference: https://github.com/vibrantlabsai/ragas/commit/8c63f10d500c44efbf24fdb9e2920de2104c321c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ragas["ragas package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| ragas
+    entrypoint -->|imports| ragas
+    external_integrations -->|imports| ragas
+    ragas -->|imports| config
+    ragas -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| ragas

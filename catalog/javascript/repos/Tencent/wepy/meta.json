@@ -1,0 +1,50 @@
+{
+  "owner": "Tencent",
+  "name": "wepy",
+  "full_name": "Tencent/wepy",
+  "html_url": "https://github.com/Tencent/wepy",
+  "description": "\u5c0f\u7a0b\u5e8f\u7ec4\u4ef6\u5316\u5f00\u53d1\u6846\u67b6 - \u5df2\u5f52\u6863",
+  "stars": 22502,
+  "forks": 3004,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "weapp",
+    "wepy"
+  ],
+  "archived": true,
+  "commit_sha": "253aa5bba394cf9efff90ab3a803a100a017b5cb",
+  "commit_url": "https://github.com/Tencent/wepy/commit/253aa5bba394cf9efff90ab3a803a100a017b5cb",
+  "tree_url": "https://github.com/Tencent/wepy/tree/253aa5bba394cf9efff90ab3a803a100a017b5cb",
+  "analysed_at": "2026-11-14T19:11:08.407674+00:00",
+  "status": "completed",
+  "files_fetched": 492,
+  "files_analysed": 471,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/babel-plugin-import-regenerator/index.js",
+    "packages/cli/index.js",
+    "packages/cli/bin/wepy.js",
+    "packages/compiler-babel/index.js",
+    "packages/compiler-less/index.js",
+    "packages/compiler-postcss/index.js",
+    "packages/compiler-sass/index.js",
+    "packages/compiler-stylus/index.js",
+    "packages/compiler-typescript/index.js",
+    "packages/plugin-define/index.js",
+    "packages/plugin-eslint/index.js",
+    "packages/plugin-uglifyjs/index.js"
+  ]
+}

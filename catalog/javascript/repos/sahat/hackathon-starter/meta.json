@@ -1,0 +1,45 @@
+{
+  "owner": "sahat",
+  "name": "hackathon-starter",
+  "full_name": "sahat/hackathon-starter",
+  "html_url": "https://github.com/sahat/hackathon-starter",
+  "description": "A boilerplate for Node.js web applications",
+  "stars": 35260,
+  "forks": 8103,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "boilerplate",
+    "hackathon",
+    "hacktoberfest",
+    "nodejs",
+    "oauth2",
+    "starter-kit"
+  ],
+  "archived": false,
+  "commit_sha": "e735ca8f29d18158b7553244d4e6625ef7eaa383",
+  "commit_url": "https://github.com/sahat/hackathon-starter/commit/e735ca8f29d18158b7553244d4e6625ef7eaa383",
+  "tree_url": "https://github.com/sahat/hackathon-starter/tree/e735ca8f29d18158b7553244d4e6625ef7eaa383",
+  "analysed_at": "2026-11-14T19:10:42.858579+00:00",
+  "status": "completed",
+  "files_fetched": 156,
+  "files_analysed": 155,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "public package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MongoDB",
+    "Express"
+  ],
+  "entry_points": [
+    "app.js",
+    "public/js/main.js"
+  ]
+}

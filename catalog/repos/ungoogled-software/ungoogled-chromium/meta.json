@@ -1,0 +1,56 @@
+{
+  "owner": "ungoogled-software",
+  "name": "ungoogled-chromium",
+  "full_name": "ungoogled-software/ungoogled-chromium",
+  "html_url": "https://github.com/ungoogled-software/ungoogled-chromium",
+  "description": "Google Chromium, sans integration with Google",
+  "stars": 28248,
+  "forks": 1291,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "chromium",
+    "control",
+    "google-chromium",
+    "inox",
+    "iridium",
+    "privacy",
+    "transparency"
+  ],
+  "archived": false,
+  "commit_sha": "8c886dffc6ade39d8f7df5d64ace5a8824b455e1",
+  "commit_url": "https://github.com/ungoogled-software/ungoogled-chromium/commit/8c886dffc6ade39d8f7df5d64ace5a8824b455e1",
+  "tree_url": "https://github.com/ungoogled-software/ungoogled-chromium/tree/8c886dffc6ade39d8f7df5d64ace5a8824b455e1",
+  "analysed_at": "2026-11-14T19:07:16.773047+00:00",
+  "status": "completed",
+  "files_fetched": 193,
+  "files_analysed": 193,
+  "components": [
+    "Configuration and deployment",
+    "devutils package",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "pytest"
+  ],
+  "entry_points": [
+    "devutils/check_downloads_ini.py",
+    "devutils/check_files_exist.py",
+    "devutils/check_gn_flags.py",
+    "devutils/check_patch_files.py",
+    "devutils/run_devutils_pylint.py",
+    "devutils/run_other_pylint.py",
+    "devutils/run_utils_pylint.py",
+    "devutils/update_lists.py",
+    "devutils/update_platform_patches.py",
+    "devutils/validate_config.py",
+    "devutils/validate_patches.py",
+    "utils/clone.py"
+  ]
+}

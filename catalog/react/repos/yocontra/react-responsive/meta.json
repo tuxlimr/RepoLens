@@ -1,0 +1,42 @@
+{
+  "owner": "yocontra",
+  "name": "react-responsive",
+  "full_name": "yocontra/react-responsive",
+  "html_url": "https://github.com/yocontra/react-responsive",
+  "description": "CSS media queries in react - for responsive design, and more.",
+  "stars": 7181,
+  "forks": 293,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "ff23a19f49576a3f06c8334affbef5996f147e12",
+  "commit_url": "https://github.com/yocontra/react-responsive/commit/ff23a19f49576a3f06c8334affbef5996f147e12",
+  "tree_url": "https://github.com/yocontra/react-responsive/tree/ff23a19f49576a3f06c8334affbef5996f147e12",
+  "analysed_at": "2026-11-14T19:13:59.331892+00:00",
+  "status": "completed",
+  "files_fetched": 35,
+  "files_analysed": 26,
+  "components": [
+    "Component.ts package",
+    "Configuration and deployment",
+    "Context.ts package",
+    "Core modules",
+    "index.ts package",
+    "mediaQuery.ts package",
+    "Tests",
+    "toQuery.ts package",
+    "types.ts package",
+    "useMediaQuery.ts package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

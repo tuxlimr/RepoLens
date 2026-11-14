@@ -1,0 +1,56 @@
+{
+  "owner": "apache",
+  "name": "answer",
+  "full_name": "apache/answer",
+  "html_url": "https://github.com/apache/answer",
+  "description": "A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.",
+  "stars": 15712,
+  "forks": 1387,
+  "license": "Apache-2.0",
+  "language": "Go",
+  "default_branch": "main",
+  "topics": [
+    "community",
+    "forum",
+    "go",
+    "golang",
+    "hacktoberfest",
+    "q-and-a",
+    "question",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "6744295fa888e0621fc9f9a8ace04f1a4daf8554",
+  "commit_url": "https://github.com/apache/answer/commit/6744295fa888e0621fc9f9a8ace04f1a4daf8554",
+  "tree_url": "https://github.com/apache/answer/tree/6744295fa888e0621fc9f9a8ace04f1a4daf8554",
+  "analysed_at": "2026-11-14T19:13:16.237774+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 796,
+  "components": [
+    "cmd package",
+    "Configuration and deployment",
+    "Data layer",
+    "i18n package",
+    "internal package",
+    "pkg package",
+    "plugin package",
+    "script package",
+    "Service / domain layer",
+    "ui package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "axios",
+    "React Router",
+    "Docker",
+    "Docker Compose",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "ui/src/App.tsx"
+  ]
+}

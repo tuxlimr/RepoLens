@@ -1,0 +1,63 @@
+{
+  "owner": "knex",
+  "name": "knex",
+  "full_name": "knex/knex",
+  "html_url": "https://github.com/knex/knex",
+  "description": "A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.",
+  "stars": 20340,
+  "forks": 2237,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "knex",
+    "mysql",
+    "postgresql",
+    "sql",
+    "sqlite3"
+  ],
+  "archived": false,
+  "commit_sha": "e25d54bcb707714a17f5a5744eba5c4246bb4d1d",
+  "commit_url": "https://github.com/knex/knex/commit/e25d54bcb707714a17f5a5744eba5c4246bb4d1d",
+  "tree_url": "https://github.com/knex/knex/tree/e25d54bcb707714a17f5a5744eba5c4246bb4d1d",
+  "analysed_at": "2026-11-14T19:11:14.511800+00:00",
+  "status": "completed",
+  "files_fetched": 590,
+  "files_analysed": 588,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "scripts package",
+    "test-tsd package",
+    "test-tstyche package",
+    "Tests",
+    "types package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MySQL",
+    "PostgreSQL",
+    "SQLite",
+    "Docker",
+    "Docker Compose",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "knex.js",
+    "bin/cli.js",
+    "test/jake-util/knexfile-esm-package/knexfile.js",
+    "lib/dialects/better-sqlite3/index.js",
+    "lib/dialects/cockroachdb/index.js",
+    "lib/dialects/index.js",
+    "lib/dialects/index.ts",
+    "lib/dialects/mariadb/index.js",
+    "lib/dialects/mssql/index.js",
+    "lib/dialects/mysql/index.js",
+    "lib/dialects/mysql2/index.js",
+    "lib/dialects/oracle/index.js"
+  ]
+}

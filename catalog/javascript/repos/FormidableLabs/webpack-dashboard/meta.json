@@ -1,0 +1,53 @@
+{
+  "owner": "FormidableLabs",
+  "name": "webpack-dashboard",
+  "full_name": "FormidableLabs/webpack-dashboard",
+  "html_url": "https://github.com/FormidableLabs/webpack-dashboard",
+  "description": "A CLI dashboard for webpack dev server",
+  "stars": 13945,
+  "forks": 374,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "cli-dashboard",
+    "dashboard",
+    "devtools",
+    "dx",
+    "socket-communication",
+    "webpack",
+    "webpack-dashboard"
+  ],
+  "archived": false,
+  "commit_sha": "9333a27e4b8f784fee13132df4f88e73aca3ca31",
+  "commit_url": "https://github.com/FormidableLabs/webpack-dashboard/commit/9333a27e4b8f784fee13132df4f88e73aca3ca31",
+  "tree_url": "https://github.com/FormidableLabs/webpack-dashboard/tree/9333a27e4b8f784fee13132df4f88e73aca3ca31",
+  "analysed_at": "2026-11-14T19:11:48.789097+00:00",
+  "status": "completed",
+  "files_fetched": 67,
+  "files_analysed": 52,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "dashboard package",
+    "plugin package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/duplicates-esm/src/index.js",
+    "examples/simple/src/index.js",
+    "examples/tree-shaking/src/index.js",
+    "index.js",
+    "bin/webpack-dashboard.js",
+    "dashboard/index.js",
+    "plugin/index.js"
+  ]
+}

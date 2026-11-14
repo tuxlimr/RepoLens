@@ -1,0 +1,42 @@
+%% Repository: FoundationAgents/OpenManus
+%% Analysed commit: 3309bf4e416fb1c74b008f3e86494439a31bad53
+%% Commit reference: https://github.com/FoundationAgents/OpenManus/commit/3309bf4e416fb1c74b008f3e86494439a31bad53
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        protocol["protocol package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    app -->|imports| config
+    app -->|imports| entrypoint
+    app -->|imports| external_integrations
+    app -->|imports| service_layer
+    entrypoint -->|imports| app
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| protocol
+    external_integrations -->|imports| config
+    external_integrations -->|imports| service_layer
+    protocol -->|imports| app
+    service_layer -->|imports| config
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| external_integrations
+    tests -->|imports| app
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| service_layer

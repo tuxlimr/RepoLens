@@ -1,0 +1,57 @@
+{
+  "owner": "Shpota",
+  "name": "goxygen",
+  "full_name": "Shpota/goxygen",
+  "html_url": "https://github.com/Shpota/goxygen",
+  "description": "Generate a modern Web project with Go and Angular, React, or Vue in seconds \ud83c\udfb2",
+  "stars": 3585,
+  "forks": 220,
+  "license": "Apache-2.0",
+  "language": "Go",
+  "default_branch": "main",
+  "topics": [
+    "angular",
+    "go",
+    "golang",
+    "javascipt",
+    "mongodb",
+    "mysql",
+    "nodejs",
+    "postgresql",
+    "react",
+    "typescript",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "47ce691cfac7ecde991afb8c1eabe9a9206c3434",
+  "commit_url": "https://github.com/Shpota/goxygen/commit/47ce691cfac7ecde991afb8c1eabe9a9206c3434",
+  "tree_url": "https://github.com/Shpota/goxygen/tree/47ce691cfac7ecde991afb8c1eabe9a9206c3434",
+  "analysed_at": "2026-11-14T19:15:14.562907+00:00",
+  "status": "completed",
+  "files_fetched": 117,
+  "files_analysed": 113,
+  "components": [
+    "cli package",
+    "codegen package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "templates package",
+    "transform package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Vue",
+    "axios",
+    "Docker",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "templates/angular.webapp/src/main.ts",
+    "templates/react.webapp/src/App.js",
+    "templates/react.webapp/src/index.js",
+    "templates/vue.webapp/src/main.js"
+  ]
+}

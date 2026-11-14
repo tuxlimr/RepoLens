@@ -1,0 +1,30 @@
+%% Repository: piskelapp/piskel
+%% Analysed commit: e394f4fd3b382a0412aab078d1b88b2899d3b8ea
+%% Commit reference: https://github.com/piskelapp/piskel/commit/e394f4fd3b382a0412aab078d1b88b2899d3b8ea
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        cli["cli package"]
+        js["js package"]
+        misc["misc package"]
+        piskel_boot_js["piskel-boot.js package"]
+        piskel_script_list_js["piskel-script-list.js package"]
+        piskel_style_list_js["piskel-style-list.js package"]
+        scripts["scripts package"]
+        vite_plugins["vite-plugins package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

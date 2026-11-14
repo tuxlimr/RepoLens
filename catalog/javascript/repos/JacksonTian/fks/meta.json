@@ -1,0 +1,37 @@
+{
+  "owner": "JacksonTian",
+  "name": "fks",
+  "full_name": "JacksonTian/fks",
+  "html_url": "https://github.com/JacksonTian/fks",
+  "description": "\u524d\u7aef\u6280\u80fd\u6c47\u603b Frontend Knowledge Structure",
+  "stars": 17900,
+  "forks": 4474,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "54722627d64b3b8918f4f4cf73752d3675dae99e",
+  "commit_url": "https://github.com/JacksonTian/fks/commit/54722627d64b3b8918f4f4cf73752d3675dae99e",
+  "tree_url": "https://github.com/JacksonTian/fks/tree/54722627d64b3b8918f4f4cf73752d3675dae99e",
+  "analysed_at": "2026-11-14T19:11:23.532337+00:00",
+  "status": "completed",
+  "files_fetched": 334,
+  "files_analysed": 332,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Data layer",
+    "fks_chart package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "fks_chart/bower_components/angular-marked/angular-marked.js",
+    "fks_chart/bower_components/marked/lib/marked.js",
+    "fks_chart/bower_components/marked/bin/marked",
+    "fks_chart/bower_components/marked/index.js",
+    "fks_chart/js/app.js"
+  ]
+}

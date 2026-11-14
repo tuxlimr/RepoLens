@@ -1,0 +1,62 @@
+{
+  "owner": "nodegui",
+  "name": "react-nodegui",
+  "full_name": "nodegui/react-nodegui",
+  "html_url": "https://github.com/nodegui/react-nodegui",
+  "description": "Build performant, native and cross-platform desktop applications with native React + powerful CSS like styling.\ud83d\ude80",
+  "stars": 6178,
+  "forks": 179,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "css",
+    "desktop",
+    "gui",
+    "native",
+    "nodejs",
+    "openlibrary",
+    "qt",
+    "react",
+    "react-desktop"
+  ],
+  "archived": false,
+  "commit_sha": "87c844050c86e0eb548c3e6e8c57bd40d5174546",
+  "commit_url": "https://github.com/nodegui/react-nodegui/commit/87c844050c86e0eb548c3e6e8c57bd40d5174546",
+  "tree_url": "https://github.com/nodegui/react-nodegui/tree/87c844050c86e0eb548c3e6e8c57bd40d5174546",
+  "analysed_at": "2026-11-14T19:14:09.090792+00:00",
+  "status": "completed",
+  "files_fetched": 179,
+  "files_analysed": 178,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "demo.tsx package",
+    "development package",
+    "hooks package",
+    "index.ts package",
+    "reconciler package",
+    "renderer package",
+    "utils package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/components/Action/index.ts",
+    "src/components/AnimatedImage/index.ts",
+    "src/components/BoxView/index.ts",
+    "src/components/Button/index.ts",
+    "src/components/Calendar/index.ts",
+    "src/components/CheckBox/index.ts",
+    "src/components/ColorDialog/index.ts",
+    "src/components/ComboBox/index.ts",
+    "src/components/Dial/index.ts",
+    "src/components/Dialog/index.ts",
+    "src/components/ErrorPrompt/index.ts",
+    "src/components/FileDialog/index.ts"
+  ]
+}

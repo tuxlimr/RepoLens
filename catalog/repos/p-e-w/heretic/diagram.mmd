@@ -1,0 +1,29 @@
+%% Repository: p-e-w/heretic
+%% Analysed commit: a14b8543537b50ce8db4db7eaae4eb295d5d5142
+%% Commit reference: https://github.com/p-e-w/heretic/commit/a14b8543537b50ce8db4db7eaae4eb295d5d5142
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        heretic["heretic package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| config
+    data_layer -->|imports| heretic
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| heretic
+    heretic -->|imports| config
+    heretic -->|imports| data_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| heretic

@@ -1,0 +1,46 @@
+{
+  "owner": "negomi",
+  "name": "react-burger-menu",
+  "full_name": "negomi/react-burger-menu",
+  "html_url": "https://github.com/negomi/react-burger-menu",
+  "description": ":hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations",
+  "stars": 5082,
+  "forks": 568,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "animations",
+    "component",
+    "hamburger-menu",
+    "react",
+    "sidebar",
+    "transitions"
+  ],
+  "archived": false,
+  "commit_sha": "a3df3e6d7b6718faf215a6d15f7cf1f8ebf77acb",
+  "commit_url": "https://github.com/negomi/react-burger-menu/commit/a3df3e6d7b6718faf215a6d15f7cf1f8ebf77acb",
+  "tree_url": "https://github.com/negomi/react-burger-menu/tree/a3df3e6d7b6718faf215a6d15f7cf1f8ebf77acb",
+  "analysed_at": "2026-11-14T19:14:28.770503+00:00",
+  "status": "completed",
+  "files_fetched": 75,
+  "files_analysed": 73,
+  "components": [
+    "BurgerMenu.js package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "helpers package",
+    "lib package",
+    "menuFactory.js package",
+    "menus package",
+    "tasks package",
+    "Tests"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "lib/BurgerMenu.js"
+  ]
+}

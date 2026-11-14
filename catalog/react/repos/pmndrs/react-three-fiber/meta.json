@@ -1,0 +1,47 @@
+{
+  "owner": "pmndrs",
+  "name": "react-three-fiber",
+  "full_name": "pmndrs/react-three-fiber",
+  "html_url": "https://github.com/pmndrs/react-three-fiber",
+  "description": "\ud83c\udde8\ud83c\udded A React renderer for Three.js",
+  "stars": 33723,
+  "forks": 2108,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "3d",
+    "animation",
+    "fiber",
+    "react",
+    "renderer",
+    "threejs"
+  ],
+  "archived": false,
+  "commit_sha": "d74622ea8ed717f7212d7e19d65ff3e325508389",
+  "commit_url": "https://github.com/pmndrs/react-three-fiber/commit/d74622ea8ed717f7212d7e19d65ff3e325508389",
+  "tree_url": "https://github.com/pmndrs/react-three-fiber/tree/d74622ea8ed717f7212d7e19d65ff3e325508389",
+  "analysed_at": "2026-11-14T19:13:02.728413+00:00",
+  "status": "completed",
+  "files_fetched": 187,
+  "files_analysed": 185,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "packages/eslint-plugin/src/index.ts",
+    "packages/fiber/src/index.tsx",
+    "packages/test-renderer/src/index.tsx"
+  ]
+}

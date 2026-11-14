@@ -1,0 +1,27 @@
+%% Repository: basecamp/trix
+%% Analysed commit: e2df97a56bcf1b6689ccd08d0d11a3f96006da8b
+%% Commit reference: https://github.com/basecamp/trix/commit/e2df97a56bcf1b6689ccd08d0d11a3f96006da8b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        action_text_trix["action_text-trix package"]
+        inspector["inspector package"]
+        trix["trix package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

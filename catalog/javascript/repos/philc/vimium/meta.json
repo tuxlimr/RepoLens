@@ -1,0 +1,36 @@
+{
+  "owner": "philc",
+  "name": "vimium",
+  "full_name": "philc/vimium",
+  "html_url": "https://github.com/philc/vimium",
+  "description": "The hacker's browser.",
+  "stars": 27126,
+  "forks": 2630,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "4046615ae4128d485fce3335fc1032e6f87c630a",
+  "commit_url": "https://github.com/philc/vimium/commit/4046615ae4128d485fce3335fc1032e6f87c630a",
+  "tree_url": "https://github.com/philc/vimium/tree/4046615ae4128d485fce3335fc1032e6f87c630a",
+  "analysed_at": "2026-11-14T19:10:54.299137+00:00",
+  "status": "completed",
+  "files_fetched": 131,
+  "files_analysed": 130,
+  "components": [
+    "background_scripts package",
+    "build_scripts package",
+    "Configuration and deployment",
+    "content_scripts package",
+    "Core modules",
+    "lib package",
+    "pages package",
+    "test_harnesses package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "background_scripts/main.js"
+  ]
+}

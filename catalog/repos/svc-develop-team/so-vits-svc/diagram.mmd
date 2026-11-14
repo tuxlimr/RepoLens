@@ -1,0 +1,56 @@
+%% Repository: svc-develop-team/so-vits-svc
+%% Analysed commit: 730930d337d171479eadf305f96cbed4bb393e77
+%% Commit reference: https://github.com/svc-develop-team/so-vits-svc/commit/730930d337d171479eadf305f96cbed4bb393e77
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        cluster["cluster package"]
+        diffusion["diffusion package"]
+        edgetts["edgetts package"]
+        inference["inference package"]
+        modules["modules package"]
+        onnxexport["onnxexport package"]
+        pretrain["pretrain package"]
+        vdecoder["vdecoder package"]
+        vencoder["vencoder package"]
+    end
+    core -->|imports| edgetts
+    core -->|imports| entrypoint
+    core -->|imports| inference
+    core -->|imports| modules
+    core -->|imports| vencoder
+    data_layer -->|imports| core
+    data_layer -->|imports| modules
+    data_layer -->|imports| vdecoder
+    data_layer -->|imports| vencoder
+    diffusion -->|imports| core
+    diffusion -->|imports| data_layer
+    diffusion -->|imports| vdecoder
+    entrypoint -->|imports| core
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| diffusion
+    entrypoint -->|imports| inference
+    entrypoint -->|imports| modules
+    entrypoint -->|imports| onnxexport
+    inference -->|imports| cluster
+    inference -->|imports| core
+    inference -->|imports| data_layer
+    inference -->|imports| diffusion
+    inference -->|imports| modules
+    modules -->|imports| data_layer
+    modules -->|imports| vdecoder
+    onnxexport -->|imports| core
+    onnxexport -->|imports| data_layer
+    onnxexport -->|imports| modules
+    vencoder -->|imports| data_layer

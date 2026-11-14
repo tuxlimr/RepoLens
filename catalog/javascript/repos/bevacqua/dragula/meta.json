@@ -1,0 +1,38 @@
+{
+  "owner": "bevacqua",
+  "name": "dragula",
+  "full_name": "bevacqua/dragula",
+  "html_url": "https://github.com/bevacqua/dragula",
+  "description": ":ok_hand: Drag and drop so simple it hurts",
+  "stars": 22113,
+  "forks": 1913,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "component",
+    "drag-and-drop",
+    "drag-drop",
+    "dragging",
+    "front-end",
+    "javascript",
+    "vanilla"
+  ],
+  "archived": false,
+  "commit_sha": "09ab978dd550490f1f8e456551a1a39ed0d7f984",
+  "commit_url": "https://github.com/bevacqua/dragula/commit/09ab978dd550490f1f8e456551a1a39ed0d7f984",
+  "tree_url": "https://github.com/bevacqua/dragula/tree/09ab978dd550490f1f8e456551a1a39ed0d7f984",
+  "analysed_at": "2026-11-14T19:11:09.279987+00:00",
+  "status": "completed",
+  "files_fetched": 36,
+  "files_analysed": 33,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "dragula.js"
+  ]
+}

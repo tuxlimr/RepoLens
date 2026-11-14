@@ -1,0 +1,33 @@
+%% Repository: huggingface/peft
+%% Analysed commit: 66a7c305bac9d7f8183b1f158280b77be971a3d4
+%% Commit reference: https://github.com/huggingface/peft/commit/66a7c305bac9d7f8183b1f158280b77be971a3d4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        method_comparison["method_comparison package"]
+        peft["peft package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| peft
+    data_layer -->|imports| config
+    data_layer -->|imports| peft
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| peft
+    method_comparison -->|imports| peft
+    peft -->|imports| config
+    tests -->|imports| method_comparison
+    tests -->|imports| peft

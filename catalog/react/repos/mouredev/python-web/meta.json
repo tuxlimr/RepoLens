@@ -1,0 +1,62 @@
+{
+  "owner": "mouredev",
+  "name": "python-web",
+  "full_name": "mouredev/python-web",
+  "html_url": "https://github.com/mouredev/python-web",
+  "description": "Curso para aprender desarrollo frontend Web con Python puro desde cero. Elaborado durante las emisiones en directo desde Twitch de MoureDev.",
+  "stars": 4809,
+  "forks": 249,
+  "license": "Apache-2.0",
+  "language": "HTML",
+  "default_branch": "main",
+  "topics": [
+    "api-rest",
+    "chackra-ui",
+    "css",
+    "docker",
+    "frontend",
+    "github-actions",
+    "postgresql",
+    "pynecone",
+    "python",
+    "python3",
+    "radix-ui",
+    "railway",
+    "react",
+    "reflex",
+    "supabase",
+    "tailwindcss",
+    "tutorial",
+    "vercel",
+    "web",
+    "website"
+  ],
+  "archived": false,
+  "commit_sha": "f732469c2d3e0fae80ce893417c82220730f5bb0",
+  "commit_url": "https://github.com/mouredev/python-web/commit/f732469c2d3e0fae80ce893417c82220730f5bb0",
+  "tree_url": "https://github.com/mouredev/python-web/tree/f732469c2d3e0fae80ce893417c82220730f5bb0",
+  "analysed_at": "2026-11-14T19:14:35.869943+00:00",
+  "status": "completed",
+  "files_fetched": 129,
+  "files_analysed": 129,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "link_bio package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "React",
+    "Pydantic",
+    "React Router",
+    "requests",
+    "Docker",
+    "Vite"
+  ],
+  "entry_points": [
+    "link_bio/link_bio/api/api.py"
+  ]
+}

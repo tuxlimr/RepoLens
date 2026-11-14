@@ -1,0 +1,50 @@
+{
+  "owner": "vuejs",
+  "name": "vue-cli",
+  "full_name": "vuejs/vue-cli",
+  "html_url": "https://github.com/vuejs/vue-cli",
+  "description": "\ud83d\udee0\ufe0f webpack-based tooling for Vue.js Development",
+  "stars": 29495,
+  "forks": 6217,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7eb93c169c7520935252e2473387f923ef80d856",
+  "commit_url": "https://github.com/vuejs/vue-cli/commit/7eb93c169c7520935252e2473387f923ef80d856",
+  "tree_url": "https://github.com/vuejs/vue-cli/tree/7eb93c169c7520935252e2473387f923ef80d856",
+  "analysed_at": "2026-11-14T19:10:47.667291+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 785,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "__mocks__ package",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "Express",
+    "Vue",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/@vue/babel-preset-app/index.js",
+    "packages/@vue/cli-init/index.js",
+    "packages/@vue/cli-plugin-babel/index.js",
+    "packages/@vue/cli-plugin-e2e-cypress/index.js",
+    "packages/@vue/cli-plugin-e2e-nightwatch/index.js",
+    "packages/@vue/cli-plugin-e2e-webdriverio/index.js",
+    "packages/@vue/cli-plugin-eslint/index.js",
+    "packages/@vue/cli-plugin-pwa/index.js",
+    "packages/@vue/cli-plugin-router/index.js",
+    "packages/@vue/cli-plugin-typescript/index.js",
+    "packages/@vue/cli-plugin-unit-jest/index.js",
+    "packages/@vue/cli-plugin-unit-mocha/index.js"
+  ]
+}

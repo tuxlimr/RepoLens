@@ -1,0 +1,36 @@
+%% Repository: github/spec-kit
+%% Analysed commit: 2ee2b1e8005905db05f5717300a469b3068b908f
+%% Commit reference: https://github.com/github/spec-kit/commit/2ee2b1e8005905db05f5717300a469b3068b908f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        extensions["extensions package"]
+        scripts["scripts package"]
+        specify_cli["specify_cli package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| specify_cli
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| specify_cli
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| specify_cli
+    specify_cli -->|imports| config
+    specify_cli -->|imports| data_layer
+    specify_cli -->|imports| entrypoint
+    specify_cli -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| specify_cli

@@ -1,0 +1,62 @@
+{
+  "owner": "AgriciDaniel",
+  "name": "claude-seo",
+  "full_name": "AgriciDaniel/claude-seo",
+  "html_url": "https://github.com/AgriciDaniel/claude-seo",
+  "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+  "stars": 29294,
+  "forks": 3717,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "ai-seo",
+    "claude-code",
+    "claude-code-skill",
+    "marketing-automation",
+    "open-source",
+    "seo"
+  ],
+  "archived": false,
+  "commit_sha": "2e40a5fa6220fc846fcc56d666831fd1315bedc7",
+  "commit_url": "https://github.com/AgriciDaniel/claude-seo/commit/2e40a5fa6220fc846fcc56d666831fd1315bedc7",
+  "tree_url": "https://github.com/AgriciDaniel/claude-seo/tree/2e40a5fa6220fc846fcc56d666831fd1315bedc7",
+  "analysed_at": "2026-11-14T19:07:12.457887+00:00",
+  "status": "completed",
+  "files_fetched": 507,
+  "files_analysed": 506,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "extensions package",
+    "External integrations",
+    "hooks package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "extensions/banana/scripts/batch.py",
+    "extensions/banana/scripts/cost_tracker.py",
+    "extensions/banana/scripts/edit.py",
+    "extensions/banana/scripts/generate.py",
+    "extensions/banana/scripts/presets.py",
+    "extensions/banana/scripts/setup_mcp.py",
+    "extensions/banana/scripts/validate_setup.py",
+    "hooks/validate-schema.py",
+    "scripts/agent_ux_check.py",
+    "scripts/agentic_check.py",
+    "scripts/agentic_fix.py",
+    "scripts/analyze_visual.py"
+  ]
+}

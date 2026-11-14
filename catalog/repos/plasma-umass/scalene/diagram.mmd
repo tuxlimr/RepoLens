@@ -1,0 +1,32 @@
+%% Repository: plasma-umass/scalene
+%% Analysed commit: 37951a9611f772b8b400e4b6f4964d0baf69a35e
+%% Commit reference: https://github.com/plasma-umass/scalene/commit/37951a9611f772b8b400e4b6f4964d0baf69a35e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        formal["formal package"]
+        include["include package"]
+        scalene["scalene package"]
+        scripts["scripts package"]
+        source["source package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| scalene
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| scalene
+    scalene -->|imports| entrypoint
+    scalene -->|imports| external_integrations
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| scalene

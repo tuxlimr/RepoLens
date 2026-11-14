@@ -1,0 +1,47 @@
+{
+  "owner": "tomchentw",
+  "name": "react-google-maps",
+  "full_name": "tomchentw/react-google-maps",
+  "html_url": "https://github.com/tomchentw/react-google-maps",
+  "description": "React.js Google Maps integration component",
+  "stars": 4625,
+  "forks": 917,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "google-maps-javascript-api",
+    "react",
+    "react-styleguidist"
+  ],
+  "archived": false,
+  "commit_sha": "ca5c5c6f5346fb3ee0037893fbca488a408c9938",
+  "commit_url": "https://github.com/tomchentw/react-google-maps/commit/ca5c5c6f5346fb3ee0037893fbca488a408c9938",
+  "tree_url": "https://github.com/tomchentw/react-google-maps/tree/ca5c5c6f5346fb3ee0037893fbca488a408c9938",
+  "analysed_at": "2026-11-14T19:14:41.168383+00:00",
+  "status": "completed",
+  "files_fetched": 124,
+  "files_analysed": 124,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "constants.js package",
+    "Core modules",
+    "index.js package",
+    "lib package",
+    "macros package",
+    "__tests__ package",
+    "tx package",
+    "types package",
+    "utils package",
+    "withGoogleMap.jsx package",
+    "withScriptjs.jsx package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "lib/index.js",
+    "src/index.js"
+  ]
+}

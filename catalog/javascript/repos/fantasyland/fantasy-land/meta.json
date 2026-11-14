@@ -1,0 +1,36 @@
+{
+  "owner": "fantasyland",
+  "name": "fantasy-land",
+  "full_name": "fantasyland/fantasy-land",
+  "html_url": "https://github.com/fantasyland/fantasy-land",
+  "description": "Specification for interoperability of common algebraic structures in JavaScript",
+  "stars": 10244,
+  "forks": 369,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "fantasy-land",
+    "functional",
+    "javascript",
+    "specification"
+  ],
+  "archived": false,
+  "commit_sha": "0fc5ba5b3699046b024d21fe023c8bfef8d482d0",
+  "commit_url": "https://github.com/fantasyland/fantasy-land/commit/0fc5ba5b3699046b024d21fe023c8bfef8d482d0",
+  "tree_url": "https://github.com/fantasyland/fantasy-land/tree/0fc5ba5b3699046b024d21fe023c8bfef8d482d0",
+  "analysed_at": "2026-11-14T19:12:42.132213+00:00",
+  "status": "completed",
+  "files_fetched": 23,
+  "files_analysed": 22,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "figures package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

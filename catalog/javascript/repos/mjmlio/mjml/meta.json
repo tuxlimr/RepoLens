@@ -1,0 +1,53 @@
+{
+  "owner": "mjmlio",
+  "name": "mjml",
+  "full_name": "mjmlio/mjml",
+  "html_url": "https://github.com/mjmlio/mjml",
+  "description": "MJML: the only framework that makes responsive email easy",
+  "stars": 18295,
+  "forks": 1009,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "email",
+    "email-boilerplate",
+    "email-campaigns",
+    "mjml",
+    "responsive",
+    "responsive-email"
+  ],
+  "archived": false,
+  "commit_sha": "40ddfbb4c04e13dd9572aa0d5b1c58826a163289",
+  "commit_url": "https://github.com/mjmlio/mjml/commit/40ddfbb4c04e13dd9572aa0d5b1c58826a163289",
+  "tree_url": "https://github.com/mjmlio/mjml/tree/40ddfbb4c04e13dd9572aa0d5b1c58826a163289",
+  "analysed_at": "2026-11-14T19:11:22.583715+00:00",
+  "status": "completed",
+  "files_fetched": 245,
+  "files_analysed": 245,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/mjml-cli/bin/mjml",
+    "packages/mjml/bin/mjml",
+    "packages/mjml-accordion/src/index.js",
+    "packages/mjml-body/src/index.js",
+    "packages/mjml-button/src/index.js",
+    "packages/mjml-carousel/src/index.js",
+    "packages/mjml-column/src/index.js",
+    "packages/mjml-core/src/index.js",
+    "packages/mjml-divider/src/index.js",
+    "packages/mjml-group/src/index.js",
+    "packages/mjml-head-attributes/src/index.js",
+    "packages/mjml-head-breakpoint/src/index.js"
+  ]
+}

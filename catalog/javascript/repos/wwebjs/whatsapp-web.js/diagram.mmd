@@ -1,0 +1,22 @@
+%% Repository: wwebjs/whatsapp-web.js
+%% Analysed commit: eb076b0c4075f5c295d5633f4c587d02ef4e5cf1
+%% Commit reference: https://github.com/wwebjs/whatsapp-web.js/commit/eb076b0c4075f5c295d5633f4c587d02ef4e5cf1
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        authstrategies["authStrategies package"]
+        client_js["Client.js package"]
+        factories["factories package"]
+        structures["structures package"]
+        tools["tools package"]
+        util["util package"]
+        webcache["webCache package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

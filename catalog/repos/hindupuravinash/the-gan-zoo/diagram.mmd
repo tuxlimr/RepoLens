@@ -1,0 +1,14 @@
+%% Repository: hindupuravinash/the-gan-zoo
+%% Analysed commit: 375f2be4a852ead8980c06b2a996893f0cb95713
+%% Commit reference: https://github.com/hindupuravinash/the-gan-zoo/commit/375f2be4a852ead8980c06b2a996893f0cb95713
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    entrypoint -->|imports| external_integrations

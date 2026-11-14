@@ -1,0 +1,45 @@
+{
+  "owner": "h5bp",
+  "name": "html5-boilerplate",
+  "full_name": "h5bp/html5-boilerplate",
+  "html_url": "https://github.com/h5bp/html5-boilerplate",
+  "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
+  "stars": 57679,
+  "forks": 12232,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "best-practices",
+    "css",
+    "html",
+    "html5",
+    "html5-boilerplate",
+    "javascript",
+    "robust"
+  ],
+  "archived": false,
+  "commit_sha": "abc52d91fb7cb36c35b50a11aa76b19d2935d7fe",
+  "commit_url": "https://github.com/h5bp/html5-boilerplate/commit/abc52d91fb7cb36c35b50a11aa76b19d2935d7fe",
+  "tree_url": "https://github.com/h5bp/html5-boilerplate/tree/abc52d91fb7cb36c35b50a11aa76b19d2935d7fe",
+  "analysed_at": "2026-11-14T19:10:36.906677+00:00",
+  "status": "completed",
+  "files_fetched": 76,
+  "files_analysed": 56,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "Tests",
+    "webpack.common.js package",
+    "webpack.config.dev.js package",
+    "webpack.config.prod.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/js/app.js"
+  ]
+}

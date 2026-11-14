@@ -1,0 +1,44 @@
+{
+  "owner": "pacocoursey",
+  "name": "next-themes",
+  "full_name": "pacocoursey/next-themes",
+  "html_url": "https://github.com/pacocoursey/next-themes",
+  "description": "Perfect Next.js dark mode in 2 lines of code. Support System preference and any other theme with no flashing",
+  "stars": 6354,
+  "forks": 253,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "dark-mode",
+    "dark-theme",
+    "nextjs",
+    "react",
+    "themes"
+  ],
+  "archived": false,
+  "commit_sha": "a7eeabc39cfb37d74ea3d82eac674d0e1851b1cb",
+  "commit_url": "https://github.com/pacocoursey/next-themes/commit/a7eeabc39cfb37d74ea3d82eac674d0e1851b1cb",
+  "tree_url": "https://github.com/pacocoursey/next-themes/tree/a7eeabc39cfb37d74ea3d82eac674d0e1851b1cb",
+  "analysed_at": "2026-11-14T19:14:07.964976+00:00",
+  "status": "completed",
+  "files_fetched": 65,
+  "files_analysed": 64,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "next-themes package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "next-themes/src/index.tsx"
+  ]
+}

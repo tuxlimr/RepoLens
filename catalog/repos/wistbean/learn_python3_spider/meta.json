@@ -1,0 +1,46 @@
+{
+  "owner": "wistbean",
+  "name": "learn_python3_spider",
+  "full_name": "wistbean/learn_python3_spider",
+  "html_url": "https://github.com/wistbean/learn_python3_spider",
+  "description": "python\u722c\u866b\u6559\u7a0b\u7cfb\u5217\u3001\u4ece0\u52301\u5b66\u4e60python\u722c\u866b\uff0c\u5305\u62ec\u6d4f\u89c8\u5668\u6293\u5305\uff0c\u624b\u673aAPP\u6293\u5305\uff0c\u5982 fiddler\u3001mitmproxy\uff0c\u5404\u79cd\u722c\u866b\u6d89\u53ca\u7684\u6a21\u5757\u7684\u4f7f\u7528\uff0c\u5982\uff1arequests\u3001beautifulSoup\u3001selenium\u3001appium\u3001scrapy\u7b49\uff0c\u4ee5\u53caIP\u4ee3\u7406\uff0c\u9a8c\u8bc1\u7801\u8bc6\u522b\uff0cMysql\uff0cMongoDB\u6570\u636e\u5e93\u7684python\u4f7f\u7528\uff0c\u591a\u7ebf\u7a0b\u591a\u8fdb\u7a0b\u722c\u866b\u7684\u4f7f\u7528\uff0ccss \u722c\u866b\u52a0\u5bc6\u9006\u5411\u7834\u89e3\uff0cJS\u722c\u866b\u9006\u5411\uff0c\u5206\u5e03\u5f0f\u722c\u866b\uff0c\u722c\u866b\u9879\u76ee\u5b9e\u6218\u5b9e\u4f8b\u7b49",
+  "stars": 22291,
+  "forks": 3922,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "python-script",
+    "python-spider",
+    "python3"
+  ],
+  "archived": false,
+  "commit_sha": "f5f43b62504d2f06f2a41746e955227aa017fec4",
+  "commit_url": "https://github.com/wistbean/learn_python3_spider/commit/f5f43b62504d2f06f2a41746e955227aa017fec4",
+  "tree_url": "https://github.com/wistbean/learn_python3_spider/tree/f5f43b62504d2f06f2a41746e955227aa017fec4",
+  "analysed_at": "2026-11-14T19:07:56.247921+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 64,
+  "components": [
+    "biaoqingbao package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "qiushibaike package",
+    "stackoverflow package"
+  ],
+  "detections": [
+    "MongoDB",
+    "requests"
+  ],
+  "entry_points": [
+    "biaoqingbao/biaoqingbao.py",
+    "dangdang_top_500.py",
+    "douban_top_250_books_mul_process.py",
+    "fuck_bilibili_captcha.py",
+    "ikun_basketball.py",
+    "meizitu.py"
+  ]
+}

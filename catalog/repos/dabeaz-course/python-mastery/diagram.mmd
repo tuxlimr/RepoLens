@@ -1,0 +1,18 @@
+%% Repository: dabeaz-course/python-mastery
+%% Analysed commit: 96209506334b14f879b413620d564b0ec458e4de
+%% Commit reference: https://github.com/dabeaz-course/python-mastery/commit/96209506334b14f879b413620d564b0ec458e4de
+flowchart TD
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        solutions["Solutions package"]
+    end
+    entrypoint -->|imports| external_integrations
+    solutions -->|imports| entrypoint

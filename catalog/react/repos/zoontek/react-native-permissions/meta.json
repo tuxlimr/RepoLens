@@ -1,0 +1,57 @@
+{
+  "owner": "zoontek",
+  "name": "react-native-permissions",
+  "full_name": "zoontek/react-native-permissions",
+  "html_url": "https://github.com/zoontek/react-native-permissions",
+  "description": "An unified permissions API for React Native on iOS, Android and Windows.",
+  "stars": 4373,
+  "forks": 842,
+  "license": "MIT",
+  "language": "Objective-C++",
+  "default_branch": "master",
+  "topics": [
+    "authorization",
+    "permissions",
+    "react",
+    "react-native"
+  ],
+  "archived": false,
+  "commit_sha": "4f9f820e821abe1a3780f82ae30de62462b1f0eb",
+  "commit_url": "https://github.com/zoontek/react-native-permissions/commit/4f9f820e821abe1a3780f82ae30de62462b1f0eb",
+  "tree_url": "https://github.com/zoontek/react-native-permissions/tree/4f9f820e821abe1a3780f82ae30de62462b1f0eb",
+  "analysed_at": "2026-11-14T19:14:47.416333+00:00",
+  "status": "completed",
+  "files_fetched": 175,
+  "files_analysed": 173,
+  "components": [
+    "Configuration and deployment",
+    "contract.ts package",
+    "Core modules",
+    "extras package",
+    "index.ts package",
+    "ios package",
+    "methods.android.ts package",
+    "methods.ios.ts package",
+    "methods.ts package",
+    "methods.windows.ts package",
+    "permissions.android.ts package",
+    "permissions.ios.ts package",
+    "permissions.ts package",
+    "permissions.windows.ts package",
+    "results.ts package",
+    "scripts package",
+    "specs package",
+    "types.ts package",
+    "unsupportedMethods.ts package",
+    "utils.ts package",
+    "windows package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

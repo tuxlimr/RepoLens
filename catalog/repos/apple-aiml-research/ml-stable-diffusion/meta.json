@@ -1,0 +1,44 @@
+{
+  "owner": "apple-aiml-research",
+  "name": "ml-stable-diffusion",
+  "full_name": "apple-aiml-research/ml-stable-diffusion",
+  "html_url": "https://github.com/apple-aiml-research/ml-stable-diffusion",
+  "description": "Stable Diffusion with Core ML on Apple Silicon",
+  "stars": 17958,
+  "forks": 1076,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ea2805dc1945be20561c77e5f6d1d9a5a637cda2",
+  "commit_url": "https://github.com/apple-aiml-research/ml-stable-diffusion/commit/ea2805dc1945be20561c77e5f6d1d9a5a637cda2",
+  "tree_url": "https://github.com/apple-aiml-research/ml-stable-diffusion/tree/ea2805dc1945be20561c77e5f6d1d9a5a637cda2",
+  "analysed_at": "2026-11-14T19:08:27.755409+00:00",
+  "status": "completed",
+  "files_fetched": 56,
+  "files_analysed": 56,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "python_coreml_stable_diffusion package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "python_coreml_stable_diffusion/activation_quantization.py",
+    "python_coreml_stable_diffusion/chunk_mlprogram.py",
+    "python_coreml_stable_diffusion/mixed_bit_compression_apply.py",
+    "python_coreml_stable_diffusion/mixed_bit_compression_pre_analysis.py",
+    "python_coreml_stable_diffusion/multilingual_projection.py",
+    "python_coreml_stable_diffusion/pipeline.py",
+    "python_coreml_stable_diffusion/torch2coreml.py"
+  ]
+}

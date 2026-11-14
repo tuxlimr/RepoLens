@@ -1,0 +1,54 @@
+{
+  "owner": "FujiwaraChoki",
+  "name": "MoneyPrinterV2",
+  "full_name": "FujiwaraChoki/MoneyPrinterV2",
+  "html_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+  "description": "Automate the process of making money online.",
+  "stars": 32426,
+  "forks": 3474,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "automation",
+    "cli",
+    "json",
+    "money",
+    "outreach",
+    "python",
+    "twitter",
+    "youtube"
+  ],
+  "archived": false,
+  "commit_sha": "a734fa924adb9ffe5ab8472aa5526e469e42a8b5",
+  "commit_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2/commit/a734fa924adb9ffe5ab8472aa5526e469e42a8b5",
+  "tree_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2/tree/a734fa924adb9ffe5ab8472aa5526e469e42a8b5",
+  "analysed_at": "2026-11-14T19:07:03.224443+00:00",
+  "status": "completed",
+  "files_fetched": 42,
+  "files_analysed": 42,
+  "components": [
+    "art.py package",
+    "cache.py package",
+    "classes package",
+    "Configuration and deployment",
+    "constants.py package",
+    "Application entry point",
+    "External integrations",
+    "llm_provider.py package",
+    "post_bridge_integration.py package",
+    "scripts package",
+    "status.py package",
+    "Tests",
+    "utils.py package"
+  ],
+  "detections": [
+    "requests",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/cron.py",
+    "src/main.py",
+    "scripts/preflight_local.py"
+  ]
+}

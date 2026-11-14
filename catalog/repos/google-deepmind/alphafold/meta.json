@@ -1,0 +1,51 @@
+{
+  "owner": "google-deepmind",
+  "name": "alphafold",
+  "full_name": "google-deepmind/alphafold",
+  "html_url": "https://github.com/google-deepmind/alphafold",
+  "description": "Open source code for AlphaFold 2.",
+  "stars": 14939,
+  "forks": 2961,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "c77e5d2a8961d1a353632c462914ff0a32a950f6",
+  "commit_url": "https://github.com/google-deepmind/alphafold/commit/c77e5d2a8961d1a353632c462914ff0a32a950f6",
+  "tree_url": "https://github.com/google-deepmind/alphafold/tree/c77e5d2a8961d1a353632c462914ff0a32a950f6",
+  "analysed_at": "2026-11-14T19:09:11.631242+00:00",
+  "status": "completed",
+  "files_fetched": 116,
+  "files_analysed": 116,
+  "components": [
+    "alphafold package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "alphafold/common/confidence_test.py",
+    "alphafold/common/protein_test.py",
+    "alphafold/common/residue_constants_test.py",
+    "alphafold/model/all_atom_test.py",
+    "alphafold/model/base_config_test.py",
+    "alphafold/model/config_test.py",
+    "alphafold/model/layer_stack_test.py",
+    "alphafold/model/lddt_test.py",
+    "alphafold/model/prng_test.py",
+    "alphafold/model/quat_affine_test.py",
+    "alphafold/model/tf/protein_features_test.py",
+    "alphafold/model/tf/shape_helpers_test.py"
+  ]
+}

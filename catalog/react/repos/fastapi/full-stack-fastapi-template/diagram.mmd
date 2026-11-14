@@ -1,0 +1,33 @@
+%% Repository: fastapi/full-stack-fastapi-template
+%% Analysed commit: aabb90126964a164e02aff39e7c385bb0598236d
+%% Commit reference: https://github.com/fastapi/full-stack-fastapi-template/commit/aabb90126964a164e02aff39e7c385bb0598236d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        frontend["frontend package"]
+        hooks["hooks package"]
+        packages["packages package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    backend -->|imports| data_layer

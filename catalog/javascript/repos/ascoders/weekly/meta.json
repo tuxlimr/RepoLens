@@ -1,0 +1,31 @@
+{
+  "owner": "ascoders",
+  "name": "weekly",
+  "full_name": "ascoders/weekly",
+  "html_url": "https://github.com/ascoders/weekly",
+  "description": "\u524d\u7aef\u7cbe\u8bfb\u5468\u520a\u3002\u5e2e\u4f60\u7406\u89e3\u6700\u524d\u6cbf\u3001\u5b9e\u7528\u7684\u6280\u672f\u3002",
+  "stars": 31723,
+  "forks": 3264,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "frontend",
+    "weekly"
+  ],
+  "archived": false,
+  "commit_sha": "9357b24e8b5dc367e67da0bafcd5cb040821bb10",
+  "commit_url": "https://github.com/ascoders/weekly/commit/9357b24e8b5dc367e67da0bafcd5cb040821bb10",
+  "tree_url": "https://github.com/ascoders/weekly/tree/9357b24e8b5dc367e67da0bafcd5cb040821bb10",
+  "analysed_at": "2026-11-14T19:10:45.688129+00:00",
+  "status": "completed",
+  "files_fetched": 304,
+  "files_analysed": 303,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

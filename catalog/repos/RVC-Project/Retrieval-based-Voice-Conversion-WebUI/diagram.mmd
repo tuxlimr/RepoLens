@@ -1,0 +1,59 @@
+%% Repository: RVC-Project/Retrieval-based-Voice-Conversion-WebUI
+%% Analysed commit: 81eed5e8f68b6bed1789f682fe78cdd324495afc
+%% Commit reference: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/commit/81eed5e8f68b6bed1789f682fe78cdd324495afc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        i18n["i18n package"]
+        infer["infer package"]
+        rvcrealtimevst["RVCRealtimeVST package"]
+        tools["tools package"]
+        train["train package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    config -->|imports| tools
+    core -->|imports| config
+    core -->|imports| external_integrations
+    core -->|imports| i18n
+    core -->|imports| infer
+    core -->|imports| tools
+    core -->|imports| train
+    data_layer -->|imports| infer
+    data_layer -->|imports| tools
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| i18n
+    entrypoint -->|imports| infer
+    entrypoint -->|imports| tools
+    entrypoint -->|imports| train
+    i18n -->|imports| tools
+    infer -->|imports| config
+    infer -->|imports| data_layer
+    infer -->|imports| entrypoint
+    infer -->|imports| i18n
+    infer -->|imports| tools
+    service_layer -->|imports| tools
+    tools -->|imports| config
+    tools -->|imports| entrypoint
+    tools -->|imports| i18n
+    tools -->|imports| service_layer
+    train -->|imports| config
+    train -->|imports| i18n
+    train -->|imports| infer
+    train -->|imports| tools

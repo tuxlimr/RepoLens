@@ -1,0 +1,31 @@
+%% Repository: guillaumemeyer/watermarks-remover
+%% Analysed commit: 5a62be6338d2812372b1da440e55c82922f97d53
+%% Commit reference: https://github.com/guillaumemeyer/watermarks-remover/commit/5a62be6338d2812372b1da440e55c82922f97d53
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        hooks["hooks package"]
+        skills["skills package"]
+        stealer["stealer package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    service_layer -->|imports| external_integrations
+    tests -->|imports| entrypoint

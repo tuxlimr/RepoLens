@@ -1,0 +1,23 @@
+%% Repository: blinkospace/blinko
+%% Analysed commit: a1c71e67f653f88aabee93c6e5dc433ef5780d18
+%% Commit reference: https://github.com/blinkospace/blinko/commit/a1c71e67f653f88aabee93c6e5dc433ef5780d18
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        prisma["prisma package"]
+        server["server package"]
+        shared["shared package"]
+        test_docker["test-docker package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

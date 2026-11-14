@@ -1,0 +1,44 @@
+{
+  "owner": "yairEO",
+  "name": "tagify",
+  "full_name": "yairEO/tagify",
+  "html_url": "https://github.com/yairEO/tagify",
+  "description": "\ud83d\udd16 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue",
+  "stars": 3891,
+  "forks": 446,
+  "license": "Other",
+  "language": "HTML",
+  "default_branch": "master",
+  "topics": [
+    "angular-component",
+    "html",
+    "input",
+    "javascript",
+    "react",
+    "react-component",
+    "reactjs",
+    "tagging",
+    "tagify",
+    "tags"
+  ],
+  "archived": false,
+  "commit_sha": "ccff02c20cfa0af9f512bccd85cd5375da6fbf88",
+  "commit_url": "https://github.com/yairEO/tagify/commit/ccff02c20cfa0af9f512bccd85cd5375da6fbf88",
+  "tree_url": "https://github.com/yairEO/tagify/tree/ccff02c20cfa0af9f512bccd85cd5375da6fbf88",
+  "analysed_at": "2026-11-14T19:15:02.305717+00:00",
+  "status": "completed",
+  "files_fetched": 126,
+  "files_analysed": 103,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "parts package",
+    "react.tagify.js package",
+    "tagify.js package",
+    "Tests"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": []
+}

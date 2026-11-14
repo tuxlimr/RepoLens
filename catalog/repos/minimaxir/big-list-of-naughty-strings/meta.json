@@ -1,0 +1,28 @@
+{
+  "owner": "minimaxir",
+  "name": "big-list-of-naughty-strings",
+  "full_name": "minimaxir/big-list-of-naughty-strings",
+  "html_url": "https://github.com/minimaxir/big-list-of-naughty-strings",
+  "description": "The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.",
+  "stars": 47716,
+  "forks": 2144,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "db33ec7b1d5d9616a88c76394b7d0897bd0b97eb",
+  "commit_url": "https://github.com/minimaxir/big-list-of-naughty-strings/commit/db33ec7b1d5d9616a88c76394b7d0897bd0b97eb",
+  "tree_url": "https://github.com/minimaxir/big-list-of-naughty-strings/tree/db33ec7b1d5d9616a88c76394b7d0897bd0b97eb",
+  "analysed_at": "2026-11-14T19:06:35.286806+00:00",
+  "status": "completed",
+  "files_fetched": 16,
+  "files_analysed": 16,
+  "components": [
+    "Configuration and deployment",
+    "naughtystrings package",
+    "scripts package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

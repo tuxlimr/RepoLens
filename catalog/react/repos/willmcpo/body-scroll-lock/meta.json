@@ -1,0 +1,52 @@
+{
+  "owner": "willmcpo",
+  "name": "body-scroll-lock",
+  "full_name": "willmcpo/body-scroll-lock",
+  "html_url": "https://github.com/willmcpo/body-scroll-lock",
+  "description": "Body scroll locking that just works with everything \ud83d\ude0f",
+  "stars": 4090,
+  "forks": 323,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "body-scroll",
+    "body-scroll-lock",
+    "bsl",
+    "chrome",
+    "freeze",
+    "ios",
+    "lightbox",
+    "lock",
+    "mobile",
+    "modal",
+    "overflow",
+    "react",
+    "react-scroll-lock",
+    "react-scrolllock",
+    "safari",
+    "scroll-lock",
+    "toggle",
+    "vanilla-js",
+    "vuejs"
+  ],
+  "archived": false,
+  "commit_sha": "79c4cf2c956eb7d5cf8d54a03d12751bc6ac8aa3",
+  "commit_url": "https://github.com/willmcpo/body-scroll-lock/commit/79c4cf2c956eb7d5cf8d54a03d12751bc6ac8aa3",
+  "tree_url": "https://github.com/willmcpo/body-scroll-lock/tree/79c4cf2c956eb7d5cf8d54a03d12751bc6ac8aa3",
+  "analysed_at": "2026-11-14T19:14:53.229729+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 31,
+  "components": [
+    "bodyScrollLock.js package",
+    "Configuration and deployment",
+    "flow-typed package",
+    "lib package"
+  ],
+  "detections": [
+    "Jest"
+  ],
+  "entry_points": []
+}

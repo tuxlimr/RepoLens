@@ -1,0 +1,51 @@
+{
+  "owner": "shuding",
+  "name": "nextra",
+  "full_name": "shuding/nextra",
+  "html_url": "https://github.com/shuding/nextra",
+  "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
+  "stars": 13954,
+  "forks": 1406,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "markdown",
+    "mdx",
+    "nextjs",
+    "nextra",
+    "react",
+    "static-site-generator"
+  ],
+  "archived": false,
+  "commit_sha": "d6e80e1dd627b781429a6ee989b15ebba688c8ea",
+  "commit_url": "https://github.com/shuding/nextra/commit/d6e80e1dd627b781429a6ee989b15ebba688c8ea",
+  "tree_url": "https://github.com/shuding/nextra/tree/d6e80e1dd627b781429a6ee989b15ebba688c8ea",
+  "analysed_at": "2026-11-14T19:13:18.802217+00:00",
+  "status": "completed",
+  "files_fetched": 750,
+  "files_analysed": 749,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/esbuild-react-compiler-plugin/src/index.ts",
+    "packages/eslint-config/src/index.ts",
+    "packages/nextra-theme-blog/src/index.ts",
+    "packages/nextra-theme-docs/src/index.ts",
+    "packages/prettier-config/src/index.js",
+    "packages/tsdoc/src/index.ts"
+  ]
+}

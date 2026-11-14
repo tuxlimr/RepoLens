@@ -1,0 +1,57 @@
+{
+  "owner": "hackerkid",
+  "name": "Mind-Expanding-Books",
+  "full_name": "hackerkid/Mind-Expanding-Books",
+  "html_url": "https://github.com/hackerkid/Mind-Expanding-Books",
+  "description": " :books: Find your next book to read!",
+  "stars": 14559,
+  "forks": 1178,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "biographies",
+    "books",
+    "computer-science",
+    "economics",
+    "fiction",
+    "hacktoberfest",
+    "hacktoberfest2020",
+    "history",
+    "mind-expanding-books",
+    "philosophy",
+    "politics",
+    "psychology",
+    "sexuality",
+    "startups",
+    "theater"
+  ],
+  "archived": false,
+  "commit_sha": "2844c5ad5e1f4da8a637c74503763a2cb56f5550",
+  "commit_url": "https://github.com/hackerkid/Mind-Expanding-Books/commit/2844c5ad5e1f4da8a637c74503763a2cb56f5550",
+  "tree_url": "https://github.com/hackerkid/Mind-Expanding-Books/tree/2844c5ad5e1f4da8a637c74503763a2cb56f5550",
+  "analysed_at": "2026-11-14T19:11:44.817059+00:00",
+  "status": "completed",
+  "files_fetched": 52,
+  "files_analysed": 51,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "Click",
+    "requests",
+    "Tailwind CSS"
+  ],
+  "entry_points": [
+    "utils/housekeep.py",
+    "utils/update_json_files.py",
+    "app/src/pages/index.js"
+  ]
+}

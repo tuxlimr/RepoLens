@@ -1,0 +1,39 @@
+%% Repository: FareedKhan-dev/train-llm-from-scratch
+%% Analysed commit: bdd480a518094ca834e05ab32131dc126b522d3d
+%% Commit reference: https://github.com/FareedKhan-dev/train-llm-from-scratch/commit/bdd480a518094ca834e05ab32131dc126b522d3d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        checkpoint_py["checkpoint.py package"]
+        data_loader["data_loader package"]
+        device_py["device.py package"]
+        inference["inference package"]
+        init_py["__init__.py package"]
+        optim["optim package"]
+        post_training["post_training package"]
+        scripts["scripts package"]
+        tokenizer["tokenizer package"]
+        ui["ui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_loader
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| ui
+    tests -->|imports| config
+    tests -->|imports| data_loader
+    tests -->|imports| entrypoint
+    ui -->|imports| config

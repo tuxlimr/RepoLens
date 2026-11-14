@@ -1,0 +1,39 @@
+{
+  "owner": "andrew--r",
+  "name": "frontend-case-studies",
+  "full_name": "andrew--r/frontend-case-studies",
+  "html_url": "https://github.com/andrew--r/frontend-case-studies",
+  "description": "\ud83d\udcbc A curated list of talks and articles about real world frontend development",
+  "stars": 7437,
+  "forks": 424,
+  "license": null,
+  "language": "Astro",
+  "default_branch": "master",
+  "topics": [
+    "awesome-list",
+    "case-study",
+    "css",
+    "enterprise",
+    "frontend",
+    "html",
+    "javascript",
+    "react",
+    "real-world",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "aa9329a0ddf5453c99a1b5d1de1356e9cf042f7f",
+  "commit_url": "https://github.com/andrew--r/frontend-case-studies/commit/aa9329a0ddf5453c99a1b5d1de1356e9cf042f7f",
+  "tree_url": "https://github.com/andrew--r/frontend-case-studies/tree/aa9329a0ddf5453c99a1b5d1de1356e9cf042f7f",
+  "analysed_at": "2026-11-14T19:13:50.325633+00:00",
+  "status": "completed",
+  "files_fetched": 41,
+  "files_analysed": 40,
+  "components": [
+    "Configuration and deployment",
+    "Service / domain layer",
+    "website package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,41 @@
+{
+  "owner": "CodeByZach",
+  "name": "pace",
+  "full_name": "CodeByZach/pace",
+  "html_url": "https://github.com/CodeByZach/pace",
+  "description": "Automatically add a progress bar to your site.",
+  "stars": 15582,
+  "forks": 1831,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "loading-animation",
+    "loading-bar",
+    "loading-indicator",
+    "pace",
+    "pace-js",
+    "progress-bar"
+  ],
+  "archived": false,
+  "commit_sha": "eb7d40c547968c053db902b429aaf35de08d1181",
+  "commit_url": "https://github.com/CodeByZach/pace/commit/eb7d40c547968c053db902b429aaf35de08d1181",
+  "tree_url": "https://github.com/CodeByZach/pace/tree/eb7d40c547968c053db902b429aaf35de08d1181",
+  "analysed_at": "2026-11-14T19:11:36.588592+00:00",
+  "status": "completed",
+  "files_fetched": 194,
+  "files_analysed": 192,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "scripts package",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "pace.js"
+  ]
+}

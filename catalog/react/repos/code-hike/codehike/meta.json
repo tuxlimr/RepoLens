@@ -1,0 +1,52 @@
+{
+  "owner": "code-hike",
+  "name": "codehike",
+  "full_name": "code-hike/codehike",
+  "html_url": "https://github.com/code-hike/codehike",
+  "description": "Build rich content websites with Markdown and React",
+  "stars": 5399,
+  "forks": 168,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "next",
+  "topics": [
+    "blog",
+    "code",
+    "docs",
+    "javascript",
+    "markdown",
+    "mdx",
+    "react",
+    "scrollytelling",
+    "syntax-highlighting"
+  ],
+  "archived": false,
+  "commit_sha": "cd81d8af1c503b699cbf0458d504e4578bcb9c74",
+  "commit_url": "https://github.com/code-hike/codehike/commit/cd81d8af1c503b699cbf0458d504e4578bcb9c74",
+  "tree_url": "https://github.com/code-hike/codehike/tree/cd81d8af1c503b699cbf0458d504e4578bcb9c74",
+  "analysed_at": "2026-11-14T19:14:21.279201+00:00",
+  "status": "completed",
+  "files_fetched": 409,
+  "files_analysed": 409,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/recma/index.js",
+    "packages/remark/index.js",
+    "apps/web/app/page.tsx",
+    "packages/codehike/src/index.ts"
+  ]
+}

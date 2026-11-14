@@ -1,0 +1,14 @@
+%% Repository: rougier/numpy-100
+%% Analysed commit: cf3b5a29749410758ccaab876302ed861bb94323
+%% Commit reference: https://github.com/rougier/numpy-100/commit/cf3b5a29749410758ccaab876302ed861bb94323
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    core -->|imports| entrypoint

@@ -1,0 +1,19 @@
+%% Repository: TencentCloud/Octop
+%% Analysed commit: cd17e8d3551a22e6757f11e030879420243c089f
+%% Commit reference: https://github.com/TencentCloud/Octop/commit/cd17e8d3551a22e6757f11e030879420243c089f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        dashboard["dashboard package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,35 @@
+%% Repository: optuna/optuna
+%% Analysed commit: abf8914d48571120574469575d37c4b0929b7f0f
+%% Commit reference: https://github.com/optuna/optuna/commit/abf8914d48571120574469575d37c4b0929b7f0f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        optuna["optuna package"]
+        tutorial["tutorial package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| optuna
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| optuna
+    external_integrations -->|imports| optuna
+    optuna -->|imports| data_layer
+    optuna -->|imports| entrypoint
+    optuna -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| optuna
+    tutorial -->|imports| optuna

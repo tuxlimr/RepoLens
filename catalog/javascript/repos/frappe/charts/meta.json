@@ -1,0 +1,42 @@
+{
+  "owner": "frappe",
+  "name": "charts",
+  "full_name": "frappe/charts",
+  "html_url": "https://github.com/frappe/charts",
+  "description": "Simple, responsive, modern SVG Charts with zero dependencies",
+  "stars": 15097,
+  "forks": 756,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "chart",
+    "graph",
+    "hacktoberfest",
+    "javascript",
+    "svg",
+    "svg-chart",
+    "zero-dependency"
+  ],
+  "archived": false,
+  "commit_sha": "7b15424c3af80b1c8e178d8e612c290d2d630904",
+  "commit_url": "https://github.com/frappe/charts/commit/7b15424c3af80b1c8e178d8e612c290d2d630904",
+  "tree_url": "https://github.com/frappe/charts/tree/7b15424c3af80b1c8e178d8e612c290d2d630904",
+  "analysed_at": "2026-11-14T19:11:40.948667+00:00",
+  "status": "completed",
+  "files_fetched": 50,
+  "files_analysed": 49,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "css package",
+    "js package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/js/index.js"
+  ]
+}

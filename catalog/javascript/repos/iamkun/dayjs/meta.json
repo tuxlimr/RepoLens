@@ -1,0 +1,58 @@
+{
+  "owner": "iamkun",
+  "name": "dayjs",
+  "full_name": "iamkun/dayjs",
+  "html_url": "https://github.com/iamkun/dayjs",
+  "description": "\u23f0 Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API",
+  "stars": 48648,
+  "forks": 2984,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [
+    "date",
+    "date-formatting",
+    "datetime",
+    "dayjs",
+    "moment",
+    "time"
+  ],
+  "archived": false,
+  "commit_sha": "d3e43be0489ff1d010aca42b3115b6059215ed60",
+  "commit_url": "https://github.com/iamkun/dayjs/commit/d3e43be0489ff1d010aca42b3115b6059215ed60",
+  "tree_url": "https://github.com/iamkun/dayjs/tree/d3e43be0489ff1d010aca42b3115b6059215ed60",
+  "analysed_at": "2026-11-14T19:10:37.456292+00:00",
+  "status": "completed",
+  "files_fetched": 378,
+  "files_analysed": 375,
+  "components": [
+    "Configuration and deployment",
+    "constant.js package",
+    "Core modules",
+    "index.js package",
+    "locale package",
+    "plugin package",
+    "Tests",
+    "types package",
+    "utils.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.js",
+    "src/plugin/advancedFormat/index.js",
+    "src/plugin/arraySupport/index.js",
+    "src/plugin/badMutable/index.js",
+    "src/plugin/bigIntSupport/index.js",
+    "src/plugin/buddhistEra/index.js",
+    "src/plugin/calendar/index.js",
+    "src/plugin/customParseFormat/index.js",
+    "src/plugin/dayOfYear/index.js",
+    "src/plugin/devHelper/index.js",
+    "src/plugin/duration/index.js",
+    "src/plugin/isBetween/index.js"
+  ]
+}

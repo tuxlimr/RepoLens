@@ -1,0 +1,45 @@
+{
+  "owner": "openai",
+  "name": "tiktoken",
+  "full_name": "openai/tiktoken",
+  "html_url": "https://github.com/openai/tiktoken",
+  "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
+  "stars": 19664,
+  "forks": 1679,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "79dc2c0533685b893616c78160b5d9e40876e724",
+  "commit_url": "https://github.com/openai/tiktoken/commit/79dc2c0533685b893616c78160b5d9e40876e724",
+  "tree_url": "https://github.com/openai/tiktoken/tree/79dc2c0533685b893616c78160b5d9e40876e724",
+  "analysed_at": "2026-11-14T19:08:09.706007+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "lib.rs package",
+    "py.rs package",
+    "scripts package",
+    "Tests",
+    "tiktoken package",
+    "tiktoken_ext package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "scripts/redact.py",
+    "scripts/wheel_download.py"
+  ]
+}

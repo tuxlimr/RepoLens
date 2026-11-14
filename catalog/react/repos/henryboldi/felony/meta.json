@@ -1,0 +1,47 @@
+{
+  "owner": "henryboldi",
+  "name": "felony",
+  "full_name": "henryboldi/felony",
+  "html_url": "https://github.com/henryboldi/felony",
+  "description": "\ud83d\udd11\ud83d\udd25\ud83d\udcc8 Next Level PGP",
+  "stars": 3451,
+  "forks": 127,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "electron",
+    "encrypted-messages",
+    "encryption",
+    "pgp",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "8e948160125e3fb69ff1992f03ae0e246577aca7",
+  "commit_url": "https://github.com/henryboldi/felony/commit/8e948160125e3fb69ff1992f03ae0e246577aca7",
+  "tree_url": "https://github.com/henryboldi/felony/tree/8e948160125e3fb69ff1992f03ae0e246577aca7",
+  "analysed_at": "2026-11-14T19:15:18.646372+00:00",
+  "status": "completed",
+  "files_fetched": 106,
+  "files_analysed": 106,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "webpack"
+  ],
+  "entry_points": [
+    "app/actions/index.js",
+    "app/components/common/index.js",
+    "app/containers/App.js",
+    "app/index.js",
+    "app/reducers/index.js",
+    "server.js"
+  ]
+}

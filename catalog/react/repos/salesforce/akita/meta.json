@@ -1,0 +1,49 @@
+{
+  "owner": "salesforce",
+  "name": "akita",
+  "full_name": "salesforce/akita",
+  "html_url": "https://github.com/salesforce/akita",
+  "description": "\ud83d\ude80 State Management Tailored-Made for JS Applications",
+  "stars": 3661,
+  "forks": 333,
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "javascript",
+    "oop",
+    "react",
+    "redux",
+    "rxjs",
+    "state-management",
+    "store",
+    "typescript",
+    "vue"
+  ],
+  "archived": true,
+  "commit_sha": "9997049301febe22b4e9cdd2a3637bada2356aaf",
+  "commit_url": "https://github.com/salesforce/akita/commit/9997049301febe22b4e9cdd2a3637bada2356aaf",
+  "tree_url": "https://github.com/salesforce/akita/tree/9997049301febe22b4e9cdd2a3637bada2356aaf",
+  "analysed_at": "2026-11-14T19:15:10.767302+00:00",
+  "status": "completed",
+  "files_fetched": 379,
+  "files_analysed": 378,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/akita/src/index.ts",
+    "packages/ng-entity-service/src/index.ts",
+    "packages/ng-playground/src/main.ts",
+    "packages/ng-router-store/src/index.ts"
+  ]
+}

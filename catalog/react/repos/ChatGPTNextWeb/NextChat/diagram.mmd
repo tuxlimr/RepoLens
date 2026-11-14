@@ -1,0 +1,25 @@
+%% Repository: ChatGPTNextWeb/NextChat
+%% Analysed commit: 1d3dc331512929a4b1d3e82354e72acce33b5c7a
+%% Commit reference: https://github.com/ChatGPTNextWeb/NextChat/commit/1d3dc331512929a4b1d3e82354e72acce33b5c7a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        public["public package"]
+        scripts["scripts package"]
+        src_tauri["src-tauri package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

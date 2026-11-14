@@ -1,0 +1,47 @@
+{
+  "owner": "Jiayi-Pan",
+  "name": "TinyZero",
+  "full_name": "Jiayi-Pan/TinyZero",
+  "html_url": "https://github.com/Jiayi-Pan/TinyZero",
+  "description": "Minimal reproduction of DeepSeek R1-Zero",
+  "stars": 13256,
+  "forks": 1571,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "95df88f2dcb05f33bd18da546531b52d0954c18b",
+  "commit_url": "https://github.com/Jiayi-Pan/TinyZero/commit/95df88f2dcb05f33bd18da546531b52d0954c18b",
+  "tree_url": "https://github.com/Jiayi-Pan/TinyZero/tree/95df88f2dcb05f33bd18da546531b52d0954c18b",
+  "analysed_at": "2026-11-14T19:09:53.279128+00:00",
+  "status": "completed",
+  "files_fetched": 304,
+  "files_analysed": 304,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests",
+    "verl package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "verl/trainer/fsdp_sft_trainer.py",
+    "verl/trainer/main_eval.py",
+    "verl/trainer/main_generation.py",
+    "verl/trainer/main_ppo.py",
+    "verl/utils/debug/trajectory_tracker.py"
+  ]
+}

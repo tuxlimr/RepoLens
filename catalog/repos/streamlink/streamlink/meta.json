@@ -1,0 +1,62 @@
+{
+  "owner": "streamlink",
+  "name": "streamlink",
+  "full_name": "streamlink/streamlink",
+  "html_url": "https://github.com/streamlink/streamlink",
+  "description": "Streamlink is a CLI utility which pipes video streams from various services into a video player",
+  "stars": 11921,
+  "forks": 1212,
+  "license": "BSD-2-Clause",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "livestream",
+    "python",
+    "streaming",
+    "streaming-services",
+    "streamlink",
+    "twitch",
+    "vlc"
+  ],
+  "archived": false,
+  "commit_sha": "5896d42b0066295d6305c39df0d36f9feb27e483",
+  "commit_url": "https://github.com/streamlink/streamlink/commit/5896d42b0066295d6305c39df0d36f9feb27e483",
+  "tree_url": "https://github.com/streamlink/streamlink/tree/5896d42b0066295d6305c39df0d36f9feb27e483",
+  "analysed_at": "2026-11-14T19:10:20.771499+00:00",
+  "status": "completed",
+  "files_fetched": 664,
+  "files_analysed": 664,
+  "components": [
+    "API layer",
+    "build_backend package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "script package",
+    "streamlink package",
+    "streamlink_cli package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/streamlink/__main__.py",
+    "src/streamlink_cli/__main__.py",
+    "src/streamlink_cli/main.py",
+    "src/streamlink_cli/main.py",
+    "build_backend/plugins_json.py",
+    "script/build-shell-completions.py",
+    "script/generate-cdp.py",
+    "script/github-release.py",
+    "script/test-plugin-urls.py",
+    "script/update-user-agents.py",
+    "setup.py"
+  ]
+}

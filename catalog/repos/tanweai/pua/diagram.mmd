@@ -1,0 +1,20 @@
+%% Repository: tanweai/pua
+%% Analysed commit: e6e6cd237ad17750d179674bff52f8184abea8fd
+%% Commit reference: https://github.com/tanweai/pua/commit/e6e6cd237ad17750d179674bff52f8184abea8fd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        evals["evals package"]
+        hooks["hooks package"]
+        landing["landing package"]
+        pi["pi package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

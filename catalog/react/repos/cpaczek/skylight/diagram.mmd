@@ -1,0 +1,33 @@
+%% Repository: cpaczek/skylight
+%% Analysed commit: 3656b4d56e11e23af58c8f12168d2edec88e7b53
+%% Commit reference: https://github.com/cpaczek/skylight/commit/3656b4d56e11e23af58c8f12168d2edec88e7b53
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        passes["passes package"]
+        pi_setup["pi-setup package"]
+        scripts["scripts package"]
+        server["server package"]
+        shared["shared package"]
+        stabilizer["stabilizer package"]
+        stream["stream package"]
+        telemetry["telemetry package"]
+        tracker["tracker package"]
+        web["web package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| stabilizer
+    service_layer -->|imports| stabilizer

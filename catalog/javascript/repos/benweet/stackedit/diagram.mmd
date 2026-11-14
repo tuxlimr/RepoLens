@@ -1,0 +1,29 @@
+%% Repository: benweet/stackedit
+%% Analysed commit: 6dce2a5e36b755a0c244522b48a06c91a2df0f59
+%% Commit reference: https://github.com/benweet/stackedit/commit/6dce2a5e36b755a0c244522b48a06c91a2df0f59
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        components["components package"]
+        extensions["extensions package"]
+        icons["icons package"]
+        index_js["index.js package"]
+        libs["libs package"]
+        server["server package"]
+        store["store package"]
+        styles["styles package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

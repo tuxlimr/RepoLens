@@ -1,0 +1,60 @@
+{
+  "owner": "docker-archive-public",
+  "name": "docker.kitematic",
+  "full_name": "docker-archive-public/docker.kitematic",
+  "html_url": "https://github.com/docker-archive-public/docker.kitematic",
+  "description": "Visual Docker Container Management on Mac & Windows",
+  "stars": 12116,
+  "forks": 1369,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "containers",
+    "docker",
+    "electron",
+    "electron-app",
+    "kitematic",
+    "toolbox"
+  ],
+  "archived": true,
+  "commit_sha": "445bfbae698ce977784c712756d6dc57c3fe6cbf",
+  "commit_url": "https://github.com/docker-archive-public/docker.kitematic/commit/445bfbae698ce977784c712756d6dc57c3fe6cbf",
+  "tree_url": "https://github.com/docker-archive-public/docker.kitematic/tree/445bfbae698ce977784c712756d6dc57c3fe6cbf",
+  "analysed_at": "2026-11-14T19:12:10.377117+00:00",
+  "status": "completed",
+  "files_fetched": 194,
+  "files_analysed": 194,
+  "components": [
+    "actions package",
+    "alt.js package",
+    "app.js package",
+    "browser.js package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "__integration__ package",
+    "main.js package",
+    "main.ts package",
+    "menutemplate.js package",
+    "__mocks__ package",
+    "router.js package",
+    "routes.js package",
+    "stores package",
+    "__tests__ package",
+    "util package",
+    "utils package"
+  ],
+  "detections": [
+    "Electron",
+    "React",
+    "React Router",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "__mocks__/app.js",
+    "src/app.js",
+    "src/main.js",
+    "src/main.ts"
+  ]
+}

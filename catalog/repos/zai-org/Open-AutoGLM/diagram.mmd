@@ -1,0 +1,23 @@
+%% Repository: zai-org/Open-AutoGLM
+%% Analysed commit: 86f55382982fb054e8fc98ca80609dff8a2cdc3c
+%% Commit reference: https://github.com/zai-org/Open-AutoGLM/commit/86f55382982fb054e8fc98ca80609dff8a2cdc3c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        phone_agent["phone_agent package"]
+    end
+    config -->|imports| external_integrations
+    entrypoint -->|imports| config
+    entrypoint -->|imports| phone_agent
+    external_integrations -->|imports| config
+    phone_agent -->|imports| config
+    phone_agent -->|imports| entrypoint
+    phone_agent -->|imports| external_integrations

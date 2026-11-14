@@ -1,0 +1,55 @@
+{
+  "owner": "javve",
+  "name": "list.js",
+  "full_name": "javve/list.js",
+  "html_url": "https://github.com/javve/list.js",
+  "description": "The perfect library for adding search, sort, filters and flexibility to tables, lists and various HTML elements. Built to be invisible and work on existing HTML.",
+  "stars": 11201,
+  "forks": 875,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "easy-to-use",
+    "filters",
+    "flexibility",
+    "fuzzy-search",
+    "javascript",
+    "pagination",
+    "search",
+    "sort"
+  ],
+  "archived": false,
+  "commit_sha": "44ae2396072a617f6a418b5d10c5adbcbc34842f",
+  "commit_url": "https://github.com/javve/list.js/commit/44ae2396072a617f6a418b5d10c5adbcbc34842f",
+  "tree_url": "https://github.com/javve/list.js/tree/44ae2396072a617f6a418b5d10c5adbcbc34842f",
+  "analysed_at": "2026-11-14T19:12:24.395242+00:00",
+  "status": "completed",
+  "files_fetched": 118,
+  "files_analysed": 112,
+  "components": [
+    "add-async.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "filter.js package",
+    "fuzzy-search.js package",
+    "index.js package",
+    "item.js package",
+    "pagination.js package",
+    "parse.js package",
+    "search.js package",
+    "sort.js package",
+    "templater.js package",
+    "__test__ package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "__test__/usage/main.js",
+    "src/index.js"
+  ]
+}

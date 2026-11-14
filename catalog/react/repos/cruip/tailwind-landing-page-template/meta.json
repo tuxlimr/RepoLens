@@ -1,0 +1,53 @@
+{
+  "owner": "cruip",
+  "name": "tailwind-landing-page-template",
+  "full_name": "cruip/tailwind-landing-page-template",
+  "html_url": "https://github.com/cruip/tailwind-landing-page-template",
+  "description": "Simple Light is a free landing page template built on top of TailwindCSS and fully coded in React / Next.js. Made by ",
+  "stars": 4529,
+  "forks": 1719,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "free",
+    "landing",
+    "landing-page",
+    "nextjs",
+    "page",
+    "react",
+    "reactjs",
+    "startup",
+    "tailwind",
+    "tailwindcss",
+    "vite",
+    "vitejs"
+  ],
+  "archived": false,
+  "commit_sha": "909e38e3249ac575017864a202188b48ef016c9c",
+  "commit_url": "https://github.com/cruip/tailwind-landing-page-template/commit/909e38e3249ac575017864a202188b48ef016c9c",
+  "tree_url": "https://github.com/cruip/tailwind-landing-page-template/tree/909e38e3249ac575017864a202188b48ef016c9c",
+  "analysed_at": "2026-11-14T19:14:43.584884+00:00",
+  "status": "completed",
+  "files_fetched": 45,
+  "files_analysed": 44,
+  "components": [
+    "API layer",
+    "app package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "app/(auth)/reset-password/page.tsx",
+    "app/(auth)/signin/page.tsx",
+    "app/(auth)/signup/page.tsx",
+    "app/(default)/page.tsx"
+  ]
+}

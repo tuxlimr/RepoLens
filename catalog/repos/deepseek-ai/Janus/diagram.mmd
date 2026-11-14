@@ -1,0 +1,32 @@
+%% Repository: deepseek-ai/Janus
+%% Analysed commit: 1daa72fa409002d40931bd7b36a9280362469ead
+%% Commit reference: https://github.com/deepseek-ai/Janus/commit/1daa72fa409002d40931bd7b36a9280362469ead
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        demo["demo package"]
+        janus["janus package"]
+    end
+    core -->|imports| data_layer
+    core -->|imports| janus
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| janus
+    demo -->|imports| data_layer
+    demo -->|imports| janus
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    janus -->|imports| data_layer

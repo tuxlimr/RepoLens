@@ -1,0 +1,42 @@
+{
+  "owner": "virattt",
+  "name": "ai-hedge-fund",
+  "full_name": "virattt/ai-hedge-fund",
+  "html_url": "https://github.com/virattt/ai-hedge-fund",
+  "description": "An AI Hedge Fund Team",
+  "stars": 64674,
+  "forks": 11381,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "5c553b5222044f6a5527bd377b4104c50ee0ad28",
+  "commit_url": "https://github.com/virattt/ai-hedge-fund/commit/5c553b5222044f6a5527bd377b4104c50ee0ad28",
+  "tree_url": "https://github.com/virattt/ai-hedge-fund/tree/5c553b5222044f6a5527bd377b4104c50ee0ad28",
+  "analysed_at": "2026-11-14T19:06:20.230254+00:00",
+  "status": "completed",
+  "files_fetched": 150,
+  "files_analysed": 150,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "hedge_fund package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "hedge_fund/run.py",
+    "hedge_fund/tui/__main__.py"
+  ]
+}

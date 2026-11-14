@@ -1,0 +1,60 @@
+{
+  "owner": "Yuan1z0825",
+  "name": "nature-skills",
+  "full_name": "Yuan1z0825/nature-skills",
+  "html_url": "https://github.com/Yuan1z0825/nature-skills",
+  "description": "\u7b26\u5408nature\u8bba\u6587\u5b66\u672f\u8868\u8fbe\u548c\u79d1\u7814\u7ed8\u56fe\u7684Skill",
+  "stars": 53545,
+  "forks": 2783,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "codex-skills",
+    "nature",
+    "nature-skills"
+  ],
+  "archived": false,
+  "commit_sha": "7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+  "commit_url": "https://github.com/Yuan1z0825/nature-skills/commit/7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+  "tree_url": "https://github.com/Yuan1z0825/nature-skills/tree/7bff1d0539c0dfad6c30178bb93ce6dd8a5cebf8",
+  "analysed_at": "2026-11-14T19:06:31.449381+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Starlette",
+    "Click",
+    "httpx",
+    "NumPy",
+    "Pydantic",
+    "requests",
+    "Uvicorn",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "skills/nature-downloader/src/config.py",
+    "skills/nature-downloader/src/health_check.py",
+    "skills/nature-downloader/src/schools_loader.py",
+    "skills/nature-downloader/src/validators.py",
+    "skills/nature-downloader/src/wizard.py",
+    "scripts/generate-star-history.py",
+    "scripts/update-reference-tocs.py",
+    "scripts/validate-readme-mirror.py",
+    "scripts/validate-readmes.py",
+    "scripts/validate-repository.py",
+    "scripts/validate-skill-index.py",
+    "scripts/validate-skill-metadata.py"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "owner": "imcuttle",
+  "name": "mometa",
+  "full_name": "imcuttle/mometa",
+  "html_url": "https://github.com/imcuttle/mometa",
+  "description": "\ud83d\udee0 [Beta] \u9762\u5411\u7814\u53d1\u7684\u4f4e\u4ee3\u7801\u5143\u7f16\u7a0b\uff0c\u4ee3\u7801\u53ef\u89c6\u7f16\u8f91\uff0c\u8f85\u52a9\u7f16\u7801\u5de5\u5177 The coding tools which is visual code editing, auxiliary and Low-code metaprogramming for R&D",
+  "stars": 4085,
+  "forks": 608,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "frontend",
+    "lowcode",
+    "react",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "ddc44915377df7c9fdaeeefeaa460a36ece49734",
+  "commit_url": "https://github.com/imcuttle/mometa/commit/ddc44915377df7c9fdaeeefeaa460a36ece49734",
+  "tree_url": "https://github.com/imcuttle/mometa/tree/ddc44915377df7c9fdaeeefeaa460a36ece49734",
+  "analysed_at": "2026-11-14T19:14:54.111566+00:00",
+  "status": "completed",
+  "files_fetched": 487,
+  "files_analysed": 484,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Data layer",
+    "External integrations",
+    "packages package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "axios",
+    "React Router",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/react-refresh-webpack-plugin/lib/index.js",
+    "packages/__template/index.js",
+    "packages/app-webpack4/src/app.tsx",
+    "packages/app-webpack4/src/index.tsx",
+    "packages/app/src/index.tsx",
+    "packages/editor/webpack/index.js",
+    "packages/fs-handler/src/index.ts",
+    "packages/materials-generator/src/index.ts",
+    "packages/materials-resolver/src/index.ts",
+    "packages/react-docgen-typescript/src/index.ts",
+    "packages/react-refresh-webpack-plugin/loader/index.js",
+    "packages/react-refresh-webpack-plugin/options/index.js"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "owner": "Unitech",
+  "name": "pm2",
+  "full_name": "Unitech/pm2",
+  "html_url": "https://github.com/Unitech/pm2",
+  "description": "Node.js/Typescript/Bun Production Process Manager with a built-in Load Balancer.",
+  "stars": 43334,
+  "forks": 2730,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "command-line",
+    "command-line-tool",
+    "deploy",
+    "load-balancer",
+    "monitoring",
+    "node",
+    "nodejs",
+    "pm2",
+    "process-manager",
+    "production"
+  ],
+  "archived": false,
+  "commit_sha": "7a7fb4e22e9a26ec79c870ce8daafd2f78b648d1",
+  "commit_url": "https://github.com/Unitech/pm2/commit/7a7fb4e22e9a26ec79c870ce8daafd2f78b648d1",
+  "tree_url": "https://github.com/Unitech/pm2/tree/7a7fb4e22e9a26ec79c870ce8daafd2f78b648d1",
+  "analysed_at": "2026-11-14T19:10:38.764286+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "modules package",
+    "packager package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "Express",
+    "Docker"
+  ],
+  "entry_points": [
+    "examples/esm/addTwo.js",
+    "examples/import/index.js",
+    "examples/module-extra-meta/index.js",
+    "examples/module-test/app.js",
+    "index.js",
+    "bin/pm2",
+    "bin/pm2-dev",
+    "bin/pm2-docker",
+    "bin/pm2-runtime",
+    "test/fixtures/esmodules/packagemodule/index.js",
+    "test/fixtures/mjs/index.mjs",
+    "test/fixtures/module-fixture/scoped-action.js"
+  ]
+}

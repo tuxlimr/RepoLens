@@ -1,0 +1,40 @@
+{
+  "owner": "jgraph",
+  "name": "drawio-desktop",
+  "full_name": "jgraph/drawio-desktop",
+  "html_url": "https://github.com/jgraph/drawio-desktop",
+  "description": "Official electron build of draw.io",
+  "stars": 63996,
+  "forks": 5819,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "dev",
+  "topics": [
+    "diagram-editor",
+    "electron-app",
+    "graphics",
+    "javascript-applications"
+  ],
+  "archived": false,
+  "commit_sha": "0623fb3c1523639b06600d5c33e3a127bf82aa1c",
+  "commit_url": "https://github.com/jgraph/drawio-desktop/commit/0623fb3c1523639b06600d5c33e3a127bf82aa1c",
+  "tree_url": "https://github.com/jgraph/drawio-desktop/tree/0623fb3c1523639b06600d5c33e3a127bf82aa1c",
+  "analysed_at": "2026-11-14T19:10:35.288632+00:00",
+  "status": "completed",
+  "files_fetched": 78,
+  "files_analysed": 66,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "main package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Electron",
+    "Docker"
+  ],
+  "entry_points": [
+    "src/main/electron.js"
+  ]
+}

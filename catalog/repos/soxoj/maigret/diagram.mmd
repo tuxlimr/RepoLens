@@ -1,0 +1,30 @@
+%% Repository: soxoj/maigret
+%% Analysed commit: 244bc2924c45b649faeba86cd63cff06522384be
+%% Commit reference: https://github.com/soxoj/maigret/commit/244bc2924c45b649faeba86cd63cff06522384be
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        maigret["maigret package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| maigret
+    maigret -->|imports| config
+    maigret -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| maigret
+    utils -->|imports| external_integrations

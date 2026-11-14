@@ -1,0 +1,33 @@
+{
+  "owner": "jashkenas",
+  "name": "backbone",
+  "full_name": "jashkenas/backbone",
+  "html_url": "https://github.com/jashkenas/backbone",
+  "description": "Give your JS App some Backbone with Models, Views, Collections, and Events",
+  "stars": 28078,
+  "forks": 5259,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "94260d91dcf4050360f055506271b61f7b24e5e3",
+  "commit_url": "https://github.com/jashkenas/backbone/commit/94260d91dcf4050360f055506271b61f7b24e5e3",
+  "tree_url": "https://github.com/jashkenas/backbone/tree/94260d91dcf4050360f055506271b61f7b24e5e3",
+  "analysed_at": "2026-11-14T19:10:52.664281+00:00",
+  "status": "completed",
+  "files_fetched": 60,
+  "files_analysed": 55,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "modules package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "backbone.js"
+  ]
+}

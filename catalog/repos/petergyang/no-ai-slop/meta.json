@@ -1,0 +1,31 @@
+{
+  "owner": "petergyang",
+  "name": "no-ai-slop",
+  "full_name": "petergyang/no-ai-slop",
+  "html_url": "https://github.com/petergyang/no-ai-slop",
+  "description": "Removes 20+ patterns of AI slop from any piece of writing.",
+  "stars": 13498,
+  "forks": 945,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "000650b156983f5159695b441477f4e63b25dc85",
+  "commit_url": "https://github.com/petergyang/no-ai-slop/commit/000650b156983f5159695b441477f4e63b25dc85",
+  "tree_url": "https://github.com/petergyang/no-ai-slop/tree/000650b156983f5159695b441477f4e63b25dc85",
+  "analysed_at": "2026-11-14T19:09:48.399288+00:00",
+  "status": "completed",
+  "files_fetched": 13,
+  "files_analysed": 13,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "scripts/build_plugin.py"
+  ]
+}

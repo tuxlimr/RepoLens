@@ -1,0 +1,23 @@
+%% Repository: guokaigdg/animal-island-ui
+%% Analysed commit: 956f23cb7a388f178dbd98c8cfb9df958a3e3f9f
+%% Commit reference: https://github.com/guokaigdg/animal-island-ui/commit/956f23cb7a388f178dbd98c8cfb9df958a3e3f9f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        components["components package"]
+        demo["demo package"]
+        index_ts["index.ts package"]
+        internal["internal package"]
+        scripts["scripts package"]
+        typings_d_ts["typings.d.ts package"]
+        vite_env_d_ts["vite-env.d.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,24 @@
+%% Repository: borisdayma/dalle-mini
+%% Analysed commit: f0be4de610285a002052024a1e096126f9452cc4
+%% Commit reference: https://github.com/borisdayma/dalle-mini/commit/f0be4de610285a002052024a1e096126f9452cc4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        dalle_mini["dalle_mini package"]
+        docker["Docker package"]
+        tools["tools package"]
+    end
+    app -->|imports| external_integrations
+    entrypoint -->|imports| dalle_mini

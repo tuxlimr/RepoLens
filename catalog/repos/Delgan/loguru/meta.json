@@ -1,0 +1,38 @@
+{
+  "owner": "Delgan",
+  "name": "loguru",
+  "full_name": "Delgan/loguru",
+  "html_url": "https://github.com/Delgan/loguru",
+  "description": "Python logging made (stupidly) simple",
+  "stars": 24157,
+  "forks": 835,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "log",
+    "logger",
+    "logging",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "28349be3cd740867bc947eef741c69370ca45735",
+  "commit_url": "https://github.com/Delgan/loguru/commit/28349be3cd740867bc947eef741c69370ca45735",
+  "tree_url": "https://github.com/Delgan/loguru/tree/28349be3cd740867bc947eef741c69370ca45735",
+  "analysed_at": "2026-11-14T19:07:42.127679+00:00",
+  "status": "completed",
+  "files_fetched": 313,
+  "files_analysed": 313,
+  "components": [
+    "Configuration and deployment",
+    "loguru package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,58 @@
+{
+  "owner": "rebassjs",
+  "name": "rebass",
+  "full_name": "rebassjs/rebass",
+  "html_url": "https://github.com/rebassjs/rebass",
+  "description": ":atom_symbol: React primitive UI components built with styled-system.",
+  "stars": 7898,
+  "forks": 624,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "color",
+    "components",
+    "css",
+    "design-system",
+    "emotion",
+    "grid",
+    "javascript",
+    "layout",
+    "react",
+    "react-components",
+    "rebass",
+    "styled-components",
+    "styled-system",
+    "theme",
+    "typography",
+    "ui"
+  ],
+  "archived": false,
+  "commit_sha": "31726a00fc81371b5cde9eb35fd01cabc5a21a58",
+  "commit_url": "https://github.com/rebassjs/rebass/commit/31726a00fc81371b5cde9eb35fd01cabc5a21a58",
+  "tree_url": "https://github.com/rebassjs/rebass/tree/31726a00fc81371b5cde9eb35fd01cabc5a21a58",
+  "analysed_at": "2026-11-14T19:13:43.934495+00:00",
+  "status": "completed",
+  "files_fetched": 138,
+  "files_analysed": 137,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "Jest"
+  ],
+  "entry_points": [
+    "packages/bundler/index.js",
+    "packages/forms/src/index.js",
+    "packages/layout/src/index.js",
+    "packages/preset-material/src/index.js",
+    "packages/preset/src/index.js",
+    "packages/rebass/src/index.js",
+    "packages/reflexbox/src/index.js",
+    "packages/space/src/index.js"
+  ]
+}

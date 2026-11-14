@@ -1,0 +1,36 @@
+%% Repository: hubotio/hubot
+%% Analysed commit: 1e66cb44b0b7fcea686f0018d2d3fb41cd1194ca
+%% Commit reference: https://github.com/hubotio/hubot/commit/1e66cb44b0b7fcea686f0018d2d3fb41cd1194ca
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        adapter_mjs["Adapter.mjs package"]
+        bin["bin package"]
+        brain_mjs["Brain.mjs package"]
+        commandbus_mjs["CommandBus.mjs package"]
+        configuration["configuration package"]
+        datastore_mjs["DataStore.mjs package"]
+        datastores["datastores package"]
+        genhubot_mjs["GenHubot.mjs package"]
+        httpclient_mjs["HttpClient.mjs package"]
+        listener_mjs["Listener.mjs package"]
+        message_mjs["Message.mjs package"]
+        middleware_mjs["Middleware.mjs package"]
+        optparse_mjs["OptParse.mjs package"]
+        response_mjs["Response.mjs package"]
+        robot_mjs["Robot.mjs package"]
+        script["script package"]
+        sfab_hooks["sfab-hooks package"]
+        user_mjs["User.mjs package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

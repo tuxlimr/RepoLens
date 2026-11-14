@@ -1,0 +1,40 @@
+{
+  "owner": "NARKOZ",
+  "name": "hacker-scripts",
+  "full_name": "NARKOZ/hacker-scripts",
+  "html_url": "https://github.com/NARKOZ/hacker-scripts",
+  "description": "Based on a true story",
+  "stars": 49871,
+  "forks": 6621,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b14a0a89bdf743c63ca4cc9cbcd866e050d7b3b0",
+  "commit_url": "https://github.com/NARKOZ/hacker-scripts/commit/b14a0a89bdf743c63ca4cc9cbcd866e050d7b3b0",
+  "tree_url": "https://github.com/NARKOZ/hacker-scripts/tree/b14a0a89bdf743c63ca4cc9cbcd866e050d7b3b0",
+  "analysed_at": "2026-11-14T19:10:37.134799+00:00",
+  "status": "completed",
+  "files_fetched": 59,
+  "files_analysed": 59,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "CSharp package",
+    "Application entry point",
+    "go package",
+    "java package",
+    "nodejs package",
+    "php package",
+    "python package",
+    "python3 package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "python3/fucking_coffee.py",
+    "python3/hangover.py",
+    "python3/kumar_asshole.py",
+    "python3/smack_my_bitch_up.py"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "owner": "NervJS",
+  "name": "nerv",
+  "full_name": "NervJS/nerv",
+  "html_url": "https://github.com/NervJS/nerv",
+  "description": "A blazing fast React alternative, compatible with IE8 and React 16.",
+  "stars": 5404,
+  "forks": 261,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "framework",
+    "frontend",
+    "inferno",
+    "javascript",
+    "jsx",
+    "nerv",
+    "nervjs",
+    "preact",
+    "react",
+    "reactjs",
+    "typescript",
+    "vdom",
+    "virutal-dom"
+  ],
+  "archived": false,
+  "commit_sha": "aaa405e79de5926e30ff07a0bb1b94dc994e9446",
+  "commit_url": "https://github.com/NervJS/nerv/commit/aaa405e79de5926e30ff07a0bb1b94dc994e9446",
+  "tree_url": "https://github.com/NervJS/nerv/tree/aaa405e79de5926e30ff07a0bb1b94dc994e9446",
+  "analysed_at": "2026-11-14T19:14:20.533442+00:00",
+  "status": "completed",
+  "files_fetched": 176,
+  "files_analysed": 174,
+  "components": [
+    "benchmarks package",
+    "browsers package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package"
+  ],
+  "detections": [
+    "Redux",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/nerv-create-class/index.js",
+    "packages/nerv-is/index.js",
+    "packages/nerv-redux/index.js",
+    "packages/nerv-server/index.js",
+    "packages/nerv-shared/index.js",
+    "packages/nerv-test-utils/index.js",
+    "packages/nerv-utils/index.js",
+    "packages/nerv/index.js",
+    "benchmarks/DBMonster/app.js",
+    "benchmarks/js-framwork-bench/src/Main.jsx",
+    "benchmarks/uibench/app.js",
+    "index.js"
+  ]
+}

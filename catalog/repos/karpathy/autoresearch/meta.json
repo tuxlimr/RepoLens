@@ -1,0 +1,36 @@
+{
+  "owner": "karpathy",
+  "name": "autoresearch",
+  "full_name": "karpathy/autoresearch",
+  "html_url": "https://github.com/karpathy/autoresearch",
+  "description": "AI agents running research on single-GPU nanochat training automatically",
+  "stars": 100043,
+  "forks": 13773,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "228791fb499afffb54b46200aca536f79142f117",
+  "commit_url": "https://github.com/karpathy/autoresearch/commit/228791fb499afffb54b46200aca536f79142f117",
+  "tree_url": "https://github.com/karpathy/autoresearch/tree/228791fb499afffb54b46200aca536f79142f117",
+  "analysed_at": "2026-11-14T19:06:07.787749+00:00",
+  "status": "completed",
+  "files_fetched": 8,
+  "files_analysed": 8,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry"
+  ],
+  "entry_points": [
+    "prepare.py"
+  ]
+}

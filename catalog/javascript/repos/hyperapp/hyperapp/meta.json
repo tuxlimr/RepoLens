@@ -1,0 +1,43 @@
+{
+  "owner": "hyperapp",
+  "name": "hyperapp",
+  "full_name": "hyperapp/hyperapp",
+  "html_url": "https://github.com/hyperapp/hyperapp",
+  "description": "1kB-ish JavaScript framework for building hypertext applications",
+  "stars": 19190,
+  "forks": 777,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "framework",
+    "javascript",
+    "vdom",
+    "web"
+  ],
+  "archived": false,
+  "commit_sha": "5a113fa00450302be9234e0a74ee634ed5574243",
+  "commit_url": "https://github.com/hyperapp/hyperapp/commit/5a113fa00450302be9234e0a74ee634ed5574243",
+  "tree_url": "https://github.com/hyperapp/hyperapp/tree/5a113fa00450302be9234e0a74ee634ed5574243",
+  "analysed_at": "2026-11-14T19:11:17.506332+00:00",
+  "status": "completed",
+  "files_fetched": 36,
+  "files_analysed": 36,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js",
+    "packages/dom/index.js",
+    "packages/events/index.js",
+    "packages/html/index.js",
+    "packages/svg/index.js",
+    "packages/time/index.js"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "owner": "ant-design",
+  "name": "ant-design-landing",
+  "full_name": "ant-design/ant-design-landing",
+  "html_url": "https://github.com/ant-design/ant-design-landing",
+  "description": ":mountain_bicyclist: Landing Pages of Ant Design System",
+  "stars": 6539,
+  "forks": 665,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "design",
+    "editor",
+    "home-page",
+    "homepage",
+    "landing",
+    "landing-page",
+    "landing-pages",
+    "landingpage",
+    "landings",
+    "page-editor",
+    "react",
+    "site",
+    "template",
+    "templates"
+  ],
+  "archived": false,
+  "commit_sha": "54f4360f0df75dd53e2febcd90b1b095801efb41",
+  "commit_url": "https://github.com/ant-design/ant-design-landing/commit/54f4360f0df75dd53e2febcd90b1b095801efb41",
+  "tree_url": "https://github.com/ant-design/ant-design-landing/tree/54f4360f0df75dd53e2febcd90b1b095801efb41",
+  "analysed_at": "2026-11-14T19:14:03.563206+00:00",
+  "status": "completed",
+  "files_fetched": 305,
+  "files_analysed": 305,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "prettier package",
+    "site package"
+  ],
+  "detections": [
+    "React",
+    "Redux"
+  ],
+  "entry_points": [
+    "site/edit/index.js",
+    "site/edit/template/index.jsx",
+    "site/shared/redux/index.js",
+    "site/templates/index.js",
+    "site/templates/template/index.jsx",
+    "site/theme/index.js"
+  ]
+}

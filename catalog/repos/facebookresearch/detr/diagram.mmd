@@ -1,0 +1,40 @@
+%% Repository: facebookresearch/detr
+%% Analysed commit: 29901c51d7fe8712168b8d0d64351170bc0f83e0
+%% Commit reference: https://github.com/facebookresearch/detr/commit/29901c51d7fe8712168b8d0d64351170bc0f83e0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        d2["d2 package"]
+        datasets["datasets package"]
+        util["util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| data_layer
+    core -->|imports| datasets
+    core -->|imports| util
+    d2 -->|imports| data_layer
+    d2 -->|imports| datasets
+    d2 -->|imports| util
+    data_layer -->|imports| util
+    datasets -->|imports| util
+    entrypoint -->|imports| core
+    entrypoint -->|imports| d2
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| datasets
+    entrypoint -->|imports| util
+    tests -->|imports| core
+    tests -->|imports| data_layer
+    tests -->|imports| util

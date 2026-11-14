@@ -1,0 +1,44 @@
+{
+  "owner": "FormidableLabs",
+  "name": "react-live",
+  "full_name": "FormidableLabs/react-live",
+  "html_url": "https://github.com/FormidableLabs/react-live",
+  "description": "A flexible playground for live editing React components",
+  "stars": 4616,
+  "forks": 256,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "component-playground",
+    "live",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "aec1504d87a3a0b7ee552d1238a9264af9e4ef94",
+  "commit_url": "https://github.com/FormidableLabs/react-live/commit/aec1504d87a3a0b7ee552d1238a9264af9e4ef94",
+  "tree_url": "https://github.com/FormidableLabs/react-live/tree/aec1504d87a3a0b7ee552d1238a9264af9e4ef94",
+  "analysed_at": "2026-11-14T19:14:41.053061+00:00",
+  "status": "completed",
+  "files_fetched": 87,
+  "files_analysed": 87,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/react-live/src/index.ts",
+    "packages/react-live/stories/main.tsx",
+    "website/src/pages/index.tsx"
+  ]
+}

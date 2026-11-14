@@ -1,0 +1,32 @@
+{
+  "owner": "PavelDoGreat",
+  "name": "WebGL-Fluid-Simulation",
+  "full_name": "PavelDoGreat/WebGL-Fluid-Simulation",
+  "html_url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+  "description": "Play with fluids in your browser (works even on mobile)",
+  "stars": 16842,
+  "forks": 1925,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "fluid",
+    "gpu",
+    "navier-stokes",
+    "simulation",
+    "webgl"
+  ],
+  "archived": false,
+  "commit_sha": "a2d292931f19d9b3b9f564e23e6c32729d2121c3",
+  "commit_url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/commit/a2d292931f19d9b3b9f564e23e6c32729d2121c3",
+  "tree_url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/tree/a2d292931f19d9b3b9f564e23e6c32729d2121c3",
+  "analysed_at": "2026-11-14T19:11:29.687865+00:00",
+  "status": "completed",
+  "files_fetched": 5,
+  "files_analysed": 5,
+  "components": [
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

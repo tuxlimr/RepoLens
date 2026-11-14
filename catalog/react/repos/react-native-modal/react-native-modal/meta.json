@@ -1,0 +1,48 @@
+{
+  "owner": "react-native-modal",
+  "name": "react-native-modal",
+  "full_name": "react-native-modal/react-native-modal",
+  "html_url": "https://github.com/react-native-modal/react-native-modal",
+  "description": "An enhanced, animated, customizable Modal for React Native.",
+  "stars": 5650,
+  "forks": 658,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "android",
+    "animated",
+    "animation",
+    "backdrop",
+    "ios",
+    "modal",
+    "react",
+    "react-native"
+  ],
+  "archived": false,
+  "commit_sha": "3e413c4c3e774697caebe202e7be5856b62444bf",
+  "commit_url": "https://github.com/react-native-modal/react-native-modal/commit/3e413c4c3e774697caebe202e7be5856b62444bf",
+  "tree_url": "https://github.com/react-native-modal/react-native-modal/tree/3e413c4c3e774697caebe202e7be5856b62444bf",
+  "analysed_at": "2026-11-14T19:14:15.607512+00:00",
+  "status": "completed",
+  "files_fetched": 61,
+  "files_analysed": 61,
+  "components": [
+    "back-handler.ts package",
+    "Configuration and deployment",
+    "index.ts package",
+    "modal.style.ts package",
+    "modal.tsx package",
+    "types.ts package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

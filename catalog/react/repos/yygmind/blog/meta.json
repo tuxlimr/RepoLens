@@ -1,0 +1,34 @@
+{
+  "owner": "yygmind",
+  "name": "blog",
+  "full_name": "yygmind/blog",
+  "html_url": "https://github.com/yygmind/blog",
+  "description": "\u6211\u662f\u6728\u6613\u6768\uff0c\u516c\u4f17\u53f7\u300c\u9ad8\u7ea7\u524d\u7aef\u8fdb\u9636\u300d\u4f5c\u8005\uff0c\u8ddf\u7740\u6211\u6bcf\u5468\u91cd\u70b9\u653b\u514b\u4e00\u4e2a\u524d\u7aef\u9762\u8bd5\u91cd\u96be\u70b9\u3002\u63a5\u4e0b\u6765\u8ba9\u6211\u5e26\u4f60\u8d70\u8fdb\u9ad8\u7ea7\u524d\u7aef\u7684\u4e16\u754c\uff0c\u5728\u8fdb\u9636\u7684\u8def\u4e0a\uff0c\u5171\u52c9\uff01",
+  "stars": 10583,
+  "forks": 1086,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "advance",
+    "blog",
+    "css",
+    "html",
+    "javascript",
+    "react",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "cb73e2da38b5eac95e066ba51492a5238dbca564",
+  "commit_url": "https://github.com/yygmind/blog/commit/cb73e2da38b5eac95e066ba51492a5238dbca564",
+  "tree_url": "https://github.com/yygmind/blog/tree/cb73e2da38b5eac95e066ba51492a5238dbca564",
+  "analysed_at": "2026-11-14T19:13:30.463422+00:00",
+  "status": "completed",
+  "files_fetched": 7,
+  "files_analysed": 7,
+  "components": [
+    "demo package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

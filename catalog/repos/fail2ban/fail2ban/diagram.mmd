@@ -1,0 +1,35 @@
+%% Repository: fail2ban/fail2ban
+%% Analysed commit: 66de71930412d3c2780d8c7f1dead70824344784
+%% Commit reference: https://github.com/fail2ban/fail2ban/commit/66de71930412d3c2780d8c7f1dead70824344784
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        fail2ban["fail2ban package"]
+        files["files package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| external_integrations
+    config -->|imports| fail2ban
+    data_layer -->|imports| fail2ban
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| fail2ban
+    external_integrations -->|imports| entrypoint
+    external_integrations -->|imports| fail2ban
+    fail2ban -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| fail2ban

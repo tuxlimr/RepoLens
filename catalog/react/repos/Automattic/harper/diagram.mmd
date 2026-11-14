@@ -1,0 +1,21 @@
+%% Repository: Automattic/harper
+%% Analysed commit: 4270327e92ecdfd25a8da4fdeb51f6998d5d5443
+%% Commit reference: https://github.com/Automattic/harper/commit/4270327e92ecdfd25a8da4fdeb51f6998d5d5443
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        fuzz["fuzz package"]
+        harper_asciidoc["harper-asciidoc package"]
+        harper_brill["harper-brill package"]
+        harper_cli["harper-cli package"]
+        harper_comments["harper-comments package"]
+        harper_core["harper-core package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,44 @@
+%% Repository: LonamiWebs/Telethon
+%% Analysed commit: dab6bc4d4fc0c7815f6f19c6f643d9f75d2d930c
+%% Commit reference: https://github.com/LonamiWebs/Telethon/commit/dab6bc4d4fc0c7815f6f19c6f643d9f75d2d930c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        readthedocs["readthedocs package"]
+        telethon["telethon package"]
+        telethon_examples["telethon_examples package"]
+        telethon_generator["telethon_generator package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| telethon
+    config -->|imports| telethon_generator
+    entrypoint -->|imports| telethon
+    entrypoint -->|imports| telethon_generator
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| telethon
+    service_layer -->|imports| telethon
+    telethon -->|imports| data_layer
+    telethon -->|imports| external_integrations
+    telethon -->|imports| service_layer
+    telethon_examples -->|imports| telethon
+    tests -->|imports| external_integrations
+    tests -->|imports| telethon

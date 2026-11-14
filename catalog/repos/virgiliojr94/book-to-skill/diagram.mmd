@@ -1,0 +1,21 @@
+%% Repository: virgiliojr94/book-to-skill
+%% Analysed commit: e7bb659d3261491c8b28793dcb9102fa64a46c22
+%% Commit reference: https://github.com/virgiliojr94/book-to-skill/commit/e7bb659d3261491c8b28793dcb9102fa64a46c22
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        book_to_skill["book_to_skill package"]
+        tools["tools package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    book_to_skill -->|imports| config
+    entrypoint -->|imports| book_to_skill
+    tests -->|imports| book_to_skill
+    tests -->|imports| config

@@ -1,0 +1,30 @@
+{
+  "owner": "maxwellito",
+  "name": "vivus",
+  "full_name": "maxwellito/vivus",
+  "html_url": "https://github.com/maxwellito/vivus",
+  "description": "JavaScript library to make drawing animation on SVG",
+  "stars": 15479,
+  "forks": 1122,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "06b7adb5d543b6b1d0d93fa83dea137b1f8644a5",
+  "commit_url": "https://github.com/maxwellito/vivus/commit/06b7adb5d543b6b1d0d93fa83dea137b1f8644a5",
+  "tree_url": "https://github.com/maxwellito/vivus/tree/06b7adb5d543b6b1d0d93fa83dea137b1f8644a5",
+  "analysed_at": "2026-11-14T19:11:38.133214+00:00",
+  "status": "completed",
+  "files_fetched": 27,
+  "files_analysed": 25,
+  "components": [
+    "_build.js package",
+    "Configuration and deployment",
+    "pathformer.js package",
+    "Tests",
+    "vivus.js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

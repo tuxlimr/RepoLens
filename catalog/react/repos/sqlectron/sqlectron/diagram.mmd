@@ -1,0 +1,24 @@
+%% Repository: sqlectron/sqlectron
+%% Analysed commit: b0f5e24015bca7974fbce6ab5e4ada69d51b48b3
+%% Commit reference: https://github.com/sqlectron/sqlectron/commit/b0f5e24015bca7974fbce6ab5e4ada69d51b48b3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        browser["browser package"]
+        common["common package"]
+        index_d_ts["index.d.ts package"]
+        renderer["renderer package"]
+        scripts["scripts package"]
+        stories["stories package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

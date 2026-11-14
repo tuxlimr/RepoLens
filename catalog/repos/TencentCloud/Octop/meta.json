@@ -1,0 +1,51 @@
+{
+  "owner": "TencentCloud",
+  "name": "Octop",
+  "full_name": "TencentCloud/Octop",
+  "html_url": "https://github.com/TencentCloud/Octop",
+  "description": "A smarter, self-hosted AI assistant \u2014 multi-user, multi-agent.",
+  "stars": 12043,
+  "forks": 1691,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "agent",
+    "agentic-ai",
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "local-first",
+    "long-term-memory"
+  ],
+  "archived": false,
+  "commit_sha": "cd17e8d3551a22e6757f11e030879420243c089f",
+  "commit_url": "https://github.com/TencentCloud/Octop/commit/cd17e8d3551a22e6757f11e030879420243c089f",
+  "tree_url": "https://github.com/TencentCloud/Octop/tree/cd17e8d3551a22e6757f11e030879420243c089f",
+  "analysed_at": "2026-11-14T19:10:17.359492+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "dashboard package",
+    "Data layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Docker",
+    "pytest",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "dashboard/src/App.tsx",
+    "dashboard/src/api/index.ts",
+    "dashboard/src/main.tsx"
+  ]
+}

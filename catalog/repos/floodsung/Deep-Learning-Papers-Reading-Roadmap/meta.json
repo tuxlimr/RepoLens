@@ -1,0 +1,34 @@
+{
+  "owner": "floodsung",
+  "name": "Deep-Learning-Papers-Reading-Roadmap",
+  "full_name": "floodsung/Deep-Learning-Papers-Reading-Roadmap",
+  "html_url": "https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap",
+  "description": "Deep Learning papers reading roadmap for anyone who are eager to learn this amazing tech!",
+  "stars": 39602,
+  "forks": 7243,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning"
+  ],
+  "archived": false,
+  "commit_sha": "a994642f82f071926fcb472bcf6cd63e4abba7ab",
+  "commit_url": "https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap/commit/a994642f82f071926fcb472bcf6cd63e4abba7ab",
+  "tree_url": "https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap/tree/a994642f82f071926fcb472bcf6cd63e4abba7ab",
+  "analysed_at": "2026-11-14T19:06:44.321604+00:00",
+  "status": "completed",
+  "files_fetched": 3,
+  "files_analysed": 3,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "requests"
+  ],
+  "entry_points": [
+    "download.py"
+  ]
+}

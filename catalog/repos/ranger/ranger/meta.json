@@ -1,0 +1,57 @@
+{
+  "owner": "ranger",
+  "name": "ranger",
+  "full_name": "ranger/ranger",
+  "html_url": "https://github.com/ranger/ranger",
+  "description": "A VIM-inspired filemanager for the console",
+  "stars": 17464,
+  "forks": 938,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "console",
+    "file-launcher",
+    "file-manager",
+    "file-preview",
+    "vim"
+  ],
+  "archived": false,
+  "commit_sha": "46e957af9762dd2fcaabfbef4d3c45c16edd1184",
+  "commit_url": "https://github.com/ranger/ranger/commit/46e957af9762dd2fcaabfbef4d3c45c16edd1184",
+  "tree_url": "https://github.com/ranger/ranger/tree/46e957af9762dd2fcaabfbef4d3c45c16edd1184",
+  "analysed_at": "2026-11-14T19:08:33.406313+00:00",
+  "status": "completed",
+  "files_fetched": 157,
+  "files_analysed": 157,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "ranger package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "ranger/api/commands.py",
+    "ranger/ext/direction.py",
+    "ranger/ext/human_readable.py",
+    "ranger/ext/iter_tools.py",
+    "ranger/ext/keybinding_parser.py",
+    "ranger/ext/lazy_property.py",
+    "ranger/ext/macrodict.py",
+    "ranger/ext/rifle.py",
+    "ranger/ext/signals.py",
+    "ranger/ext/widestring.py",
+    "ranger/gui/ansi.py",
+    "ranger/gui/widgets/console.py"
+  ]
+}

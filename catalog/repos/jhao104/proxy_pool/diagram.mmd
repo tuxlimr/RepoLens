@@ -1,0 +1,60 @@
+%% Repository: jhao104/proxy_pool
+%% Analysed commit: 9cc0cad4c47e84e34aaec2eead099421960dcd07
+%% Commit reference: https://github.com/jhao104/proxy_pool/commit/9cc0cad4c47e84e34aaec2eead099421960dcd07
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        fetcher["fetcher package"]
+        handler["handler package"]
+        helper["helper package"]
+        util["util package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| util
+    entrypoint -->|imports| core
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| fetcher
+    entrypoint -->|imports| handler
+    entrypoint -->|imports| helper
+    entrypoint -->|imports| util
+    handler -->|imports| core
+    handler -->|imports| data_layer
+    handler -->|imports| helper
+    handler -->|imports| util
+    helper -->|imports| core
+    helper -->|imports| data_layer
+    helper -->|imports| entrypoint
+    helper -->|imports| external_integrations
+    helper -->|imports| fetcher
+    helper -->|imports| handler
+    helper -->|imports| util
+    tests -->|imports| core
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| fetcher
+    tests -->|imports| handler
+    tests -->|imports| helper
+    tests -->|imports| util
+    util -->|imports| entrypoint
+    util -->|imports| external_integrations

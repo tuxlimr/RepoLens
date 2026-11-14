@@ -1,0 +1,40 @@
+{
+  "owner": "forwardemail",
+  "name": "superagent",
+  "full_name": "forwardemail/superagent",
+  "html_url": "https://github.com/forwardemail/superagent",
+  "description": "Ajax for Node.js and browsers (JS HTTP client). Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs.",
+  "stars": 16638,
+  "forks": 1326,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d26bf6ae1a181a00dc71b756d03e8120b92207c4",
+  "commit_url": "https://github.com/forwardemail/superagent/commit/d26bf6ae1a181a00dc71b756d03e8120b92207c4",
+  "tree_url": "https://github.com/forwardemail/superagent/tree/d26bf6ae1a181a00dc71b756d03e8120b92207c4",
+  "analysed_at": "2026-11-14T19:11:30.987994+00:00",
+  "status": "completed",
+  "files_fetched": 118,
+  "files_analysed": 113,
+  "components": [
+    "agent-base.js package",
+    "ci package",
+    "client.js package",
+    "Configuration and deployment",
+    "node package",
+    "request-base.js package",
+    "response-base.js package",
+    "Tests",
+    "utils.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express"
+  ],
+  "entry_points": [
+    "src/node/index.js",
+    "src/node/parsers/index.js"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "owner": "NginxProxyManager",
+  "name": "nginx-proxy-manager",
+  "full_name": "NginxProxyManager/nginx-proxy-manager",
+  "html_url": "https://github.com/NginxProxyManager/nginx-proxy-manager",
+  "description": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
+  "stars": 34712,
+  "forks": 3973,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "develop",
+  "topics": [
+    "nginx",
+    "nginx-proxy"
+  ],
+  "archived": false,
+  "commit_sha": "66ab4b24d1a07587ec0d481740ce57abefbebfaa",
+  "commit_url": "https://github.com/NginxProxyManager/nginx-proxy-manager/commit/66ab4b24d1a07587ec0d481740ce57abefbebfaa",
+  "tree_url": "https://github.com/NginxProxyManager/nginx-proxy-manager/tree/66ab4b24d1a07587ec0d481740ce57abefbebfaa",
+  "analysed_at": "2026-11-14T19:10:43.701952+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 798,
+  "components": [
+    "API layer",
+    "backend package",
+    "Configuration and deployment",
+    "Data layer",
+    "docker package",
+    "frontend package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Express",
+    "React",
+    "React Router",
+    "Docker",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "backend/index.js",
+    "backend/app.js",
+    "backend/lib/validator/index.js",
+    "backend/routes/main.js",
+    "backend/schema/index.js",
+    "frontend/src/App.tsx",
+    "frontend/src/components/Page.tsx",
+    "frontend/src/components/index.ts",
+    "frontend/src/context/index.ts",
+    "frontend/src/hooks/index.ts",
+    "frontend/src/locale/index.ts",
+    "frontend/src/main.tsx"
+  ]
+}

@@ -1,0 +1,29 @@
+%% Repository: s0md3v/XSStrike
+%% Analysed commit: ab27955d367432f944d8f29897e09c15356e76f7
+%% Commit reference: https://github.com/s0md3v/XSStrike/commit/ab27955d367432f944d8f29897e09c15356e76f7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        modes["modes package"]
+        plugins["plugins package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    core -->|imports| config
+    core -->|imports| modes
+    core -->|imports| service_layer
+    modes -->|imports| config
+    modes -->|imports| service_layer
+    plugins -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| plugins

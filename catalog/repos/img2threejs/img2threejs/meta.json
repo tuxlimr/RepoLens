@@ -1,0 +1,61 @@
+{
+  "owner": "img2threejs",
+  "name": "img2threejs",
+  "full_name": "img2threejs/img2threejs",
+  "html_url": "https://github.com/img2threejs/img2threejs",
+  "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+  "stars": 21369,
+  "forks": 1811,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "3d",
+    "ai-agents",
+    "claude-code",
+    "computer-graphics",
+    "generative",
+    "image-to-3d",
+    "procedural-generation",
+    "threejs",
+    "typescript",
+    "webgl"
+  ],
+  "archived": false,
+  "commit_sha": "0c0c49bc168e648dbaf9c8c080474de0b3a941b6",
+  "commit_url": "https://github.com/img2threejs/img2threejs/commit/0c0c49bc168e648dbaf9c8c080474de0b3a941b6",
+  "tree_url": "https://github.com/img2threejs/img2threejs/tree/0c0c49bc168e648dbaf9c8c080474de0b3a941b6",
+  "analysed_at": "2026-11-14T19:07:59.777671+00:00",
+  "status": "completed",
+  "files_fetched": 368,
+  "files_analysed": 357,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "forge package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "unittest"
+  ],
+  "entry_points": [
+    "forge/materials/compatibility.py",
+    "forge/next.py",
+    "forge/report.py",
+    "forge/stage1_intake/analyze_texture.py",
+    "forge/stage1_intake/bind_detail_properties.py",
+    "forge/stage1_intake/build_detail_inventory.py",
+    "forge/stage1_intake/check_intake_correctness.py",
+    "forge/stage1_intake/check_reference_admission.py",
+    "forge/stage1_intake/delight_albedo.py",
+    "forge/stage1_intake/detect_reference_effects.py",
+    "forge/stage1_intake/extract_gradient_stops.py",
+    "forge/stage1_intake/extract_hair_evidence.py"
+  ]
+}

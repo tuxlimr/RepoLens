@@ -1,0 +1,23 @@
+%% Repository: tomkp/react-split-pane
+%% Analysed commit: 594b0cb35189975a2b760459120f8dd4c6ab3307
+%% Commit reference: https://github.com/tomkp/react-split-pane/commit/594b0cb35189975a2b760459120f8dd4c6ab3307
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        components["components package"]
+        hooks["hooks package"]
+        index_ts["index.ts package"]
+        keyboard_ts["keyboard.ts package"]
+        persistence_test_ts["persistence.test.ts package"]
+        persistence_ts["persistence.ts package"]
+        types["types package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

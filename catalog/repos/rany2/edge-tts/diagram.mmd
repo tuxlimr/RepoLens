@@ -1,0 +1,23 @@
+%% Repository: rany2/edge-tts
+%% Analysed commit: bd44c1d1aaebdc1db7f47456ee12431b42ec7cac
+%% Commit reference: https://github.com/rany2/edge-tts/commit/bd44c1d1aaebdc1db7f47456ee12431b42ec7cac
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        edge_playback["edge_playback package"]
+        edge_tts["edge_tts package"]
+    end
+    edge_tts -->|imports| external_integrations
+    entrypoint -->|imports| edge_playback
+    entrypoint -->|imports| edge_tts

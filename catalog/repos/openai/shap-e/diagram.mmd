@@ -1,0 +1,19 @@
+%% Repository: openai/shap-e
+%% Analysed commit: 50131012ee11c9d2617f3886c10f000d3c7a3b43
+%% Commit reference: https://github.com/openai/shap-e/commit/50131012ee11c9d2617f3886c10f000d3c7a3b43
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        shap_e["shap_e package"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| shap_e
+    shap_e -->|imports| data_layer

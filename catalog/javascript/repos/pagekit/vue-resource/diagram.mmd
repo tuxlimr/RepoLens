@@ -1,0 +1,23 @@
+%% Repository: pagekit/vue-resource
+%% Analysed commit: 1b2d0c94e0b5b4efbbbb136987401423b84e8cba
+%% Commit reference: https://github.com/pagekit/vue-resource/commit/1b2d0c94e0b5b4efbbbb136987401423b84e8cba
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        http["http package"]
+        index_js["index.js package"]
+        lib["lib package"]
+        promise_js["promise.js package"]
+        resource_js["resource.js package"]
+        types["types package"]
+        url["url package"]
+        util_js["util.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

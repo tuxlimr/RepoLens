@@ -1,0 +1,41 @@
+{
+  "owner": "GoogleChromeLabs",
+  "name": "ndb",
+  "full_name": "GoogleChromeLabs/ndb",
+  "html_url": "https://github.com/GoogleChromeLabs/ndb",
+  "description": "ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools",
+  "stars": 10857,
+  "forks": 241,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "debugging",
+    "devtools",
+    "nodejs"
+  ],
+  "archived": true,
+  "commit_sha": "ade2052ad27f3c90cfd97c6aa87465c179572f8a",
+  "commit_url": "https://github.com/GoogleChromeLabs/ndb/commit/ade2052ad27f3c90cfd97c6aa87465c179572f8a",
+  "tree_url": "https://github.com/GoogleChromeLabs/ndb/tree/ade2052ad27f3c90cfd97c6aa87465c179572f8a",
+  "analysed_at": "2026-11-14T19:12:30.241401+00:00",
+  "status": "completed",
+  "files_fetched": 62,
+  "files_analysed": 61,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "front_end package",
+    "lib package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "ndb.js",
+    "test/assets/test-project/index.js",
+    "utils/testrunner/index.js"
+  ]
+}

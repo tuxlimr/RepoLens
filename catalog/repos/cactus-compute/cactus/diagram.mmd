@@ -1,0 +1,34 @@
+%% Repository: cactus-compute/cactus
+%% Analysed commit: 44f8e0ec1ec71dddf028e7c37635cce01b3cdcc5
+%% Commit reference: https://github.com/cactus-compute/cactus/commit/44f8e0ec1ec71dddf028e7c37635cce01b3cdcc5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cactus["cactus package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    cactus -->|imports| config
+    cactus -->|imports| data_layer
+    cactus -->|imports| entrypoint
+    cactus -->|imports| external_integrations
+    data_layer -->|imports| cactus
+    entrypoint -->|imports| cactus
+    entrypoint -->|imports| data_layer
+    scripts -->|imports| cactus
+    tests -->|imports| cactus
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint

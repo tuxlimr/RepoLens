@@ -1,0 +1,35 @@
+{
+  "owner": "qrohlf",
+  "name": "trianglify",
+  "full_name": "qrohlf/trianglify",
+  "html_url": "https://github.com/qrohlf/trianglify",
+  "description": "Algorithmically generated triangle art",
+  "stars": 10089,
+  "forks": 652,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b959ccd656ca7294ebe363ee0c1dfbe72929a16e",
+  "commit_url": "https://github.com/qrohlf/trianglify/commit/b959ccd656ca7294ebe363ee0c1dfbe72929a16e",
+  "tree_url": "https://github.com/qrohlf/trianglify/tree/b959ccd656ca7294ebe363ee0c1dfbe72929a16e",
+  "analysed_at": "2026-11-14T19:12:44.996441+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "pattern.js package",
+    "trianglify.browser.test.js package",
+    "trianglify.js package",
+    "trianglify.node.test.js package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest"
+  ],
+  "entry_points": []
+}

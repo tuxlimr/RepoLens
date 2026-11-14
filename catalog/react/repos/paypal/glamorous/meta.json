@@ -1,0 +1,58 @@
+{
+  "owner": "paypal",
+  "name": "glamorous",
+  "full_name": "paypal/glamorous",
+  "html_url": "https://github.com/paypal/glamorous",
+  "description": "DEPRECATED: \ud83d\udc84 Maintainable CSS with React",
+  "stars": 3613,
+  "forks": 204,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "css-in-js",
+    "glamor",
+    "glamorous",
+    "react",
+    "styled-components"
+  ],
+  "archived": true,
+  "commit_sha": "031484cd5eff92ff135038200ba49a300859a335",
+  "commit_url": "https://github.com/paypal/glamorous/commit/031484cd5eff92ff135038200ba49a300859a335",
+  "tree_url": "https://github.com/paypal/glamorous/tree/031484cd5eff92ff135038200ba49a300859a335",
+  "analysed_at": "2026-11-14T19:15:11.946466+00:00",
+  "status": "completed",
+  "files_fetched": 115,
+  "files_analysed": 113,
+  "components": [
+    "cjs-entry.js package",
+    "Configuration and deployment",
+    "constants.js package",
+    "Core modules",
+    "create-glamorous.js package",
+    "dom-elements.js package",
+    "get-glamor-classname.js package",
+    "index.js package",
+    "__mocks__ package",
+    "other package",
+    "react-compat.js package",
+    "react-props.js package",
+    "should-forward-property.js package",
+    "split-props.js package",
+    "__tests__ package",
+    "theme-provider.js package",
+    "tiny.js package",
+    "typings package",
+    "umd-entry.js package",
+    "with-theme.js package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "examples/with-jest/index.js",
+    "src/index.js"
+  ]
+}

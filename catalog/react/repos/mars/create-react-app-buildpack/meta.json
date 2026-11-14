@@ -1,0 +1,33 @@
+{
+  "owner": "mars",
+  "name": "create-react-app-buildpack",
+  "full_name": "mars/create-react-app-buildpack",
+  "html_url": "https://github.com/mars/create-react-app-buildpack",
+  "description": "\u269b\ufe0f Heroku Buildpack for create-react-app: static hosting for React.js web apps",
+  "stars": 3232,
+  "forks": 628,
+  "license": "MIT",
+  "language": "Shell",
+  "default_branch": "master",
+  "topics": [
+    "buildpack",
+    "create-react-app",
+    "heroku",
+    "heroku-buildpack",
+    "react",
+    "spa"
+  ],
+  "archived": true,
+  "commit_sha": "e0678acf1272b730126fcda4886d14dcb052adb6",
+  "commit_url": "https://github.com/mars/create-react-app-buildpack/commit/e0678acf1272b730126fcda4886d14dcb052adb6",
+  "tree_url": "https://github.com/mars/create-react-app-buildpack/tree/e0678acf1272b730126fcda4886d14dcb052adb6",
+  "analysed_at": "2026-11-14T19:15:27.403640+00:00",
+  "status": "completed",
+  "files_fetched": 8,
+  "files_analysed": 8,
+  "components": [
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": []
+}

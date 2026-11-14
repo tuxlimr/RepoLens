@@ -1,0 +1,32 @@
+{
+  "owner": "lllyasviel",
+  "name": "FramePack",
+  "full_name": "lllyasviel/FramePack",
+  "html_url": "https://github.com/lllyasviel/FramePack",
+  "description": "Lets make video diffusion practical!",
+  "stars": 17356,
+  "forks": 1750,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "97fe5dbe06ac1f337ece08935b1076a35eefeeb9",
+  "commit_url": "https://github.com/lllyasviel/FramePack/commit/97fe5dbe06ac1f337ece08935b1076a35eefeeb9",
+  "tree_url": "https://github.com/lllyasviel/FramePack/tree/97fe5dbe06ac1f337ece08935b1076a35eefeeb9",
+  "analysed_at": "2026-11-14T19:08:33.978752+00:00",
+  "status": "completed",
+  "files_fetched": 19,
+  "files_analysed": 19,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "diffusers_helper package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests"
+  ],
+  "entry_points": []
+}

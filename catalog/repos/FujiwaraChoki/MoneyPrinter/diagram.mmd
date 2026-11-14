@@ -1,0 +1,30 @@
+%% Repository: FujiwaraChoki/MoneyPrinter
+%% Analysed commit: 2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262
+%% Commit reference: https://github.com/FujiwaraChoki/MoneyPrinter/commit/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["Backend package"]
+        frontend["Frontend package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    backend -->|imports| data_layer
+    backend -->|imports| external_integrations
+    entrypoint -->|imports| data_layer
+    tests -->|imports| data_layer

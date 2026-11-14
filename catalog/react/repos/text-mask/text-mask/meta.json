@@ -1,0 +1,60 @@
+{
+  "owner": "text-mask",
+  "name": "text-mask",
+  "full_name": "text-mask/text-mask",
+  "html_url": "https://github.com/text-mask/text-mask",
+  "description": "Input mask for React, Angular, Ember, Vue, & plain JavaScript",
+  "stars": 8203,
+  "forks": 809,
+  "license": "Unlicense",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "ember",
+    "input-mask",
+    "inputmask",
+    "react",
+    "text-formatting",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "120393e0de2c4c7742fb600ff8c5a72ddf3e58cf",
+  "commit_url": "https://github.com/text-mask/text-mask/commit/120393e0de2c4c7742fb600ff8c5a72ddf3e58cf",
+  "tree_url": "https://github.com/text-mask/text-mask/tree/120393e0de2c4c7742fb600ff8c5a72ddf3e58cf",
+  "analysed_at": "2026-11-14T19:13:42.213722+00:00",
+  "status": "completed",
+  "files_fetched": 195,
+  "files_analysed": 181,
+  "components": [
+    "addons package",
+    "angular1 package",
+    "angular2 package",
+    "common package",
+    "Configuration and deployment",
+    "Core modules",
+    "ember package",
+    "react package",
+    "Service / domain layer",
+    "Tests",
+    "vanilla package",
+    "vue package",
+    "website package"
+  ],
+  "detections": [
+    "React",
+    "Vue",
+    "Redux",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "addons/src/index.js",
+    "core/src/index.js",
+    "ember/addon/index.js",
+    "ember/index.js",
+    "website/server.js",
+    "website/src/app.js",
+    "website/src/index.js"
+  ]
+}

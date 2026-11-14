@@ -1,0 +1,41 @@
+{
+  "owner": "g1879",
+  "name": "DrissionPage",
+  "full_name": "g1879/DrissionPage",
+  "html_url": "https://github.com/g1879/DrissionPage",
+  "description": "Python based web automation tool. Powerful and elegant.",
+  "stars": 12576,
+  "forks": 1144,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "automation-framework",
+    "python",
+    "web-automation"
+  ],
+  "archived": false,
+  "commit_sha": "7761b855300a2dc4efc32c000be8150b60d21b97",
+  "commit_url": "https://github.com/g1879/DrissionPage/commit/7761b855300a2dc4efc32c000be8150b60d21b97",
+  "tree_url": "https://github.com/g1879/DrissionPage/tree/7761b855300a2dc4efc32c000be8150b60d21b97",
+  "analysed_at": "2026-11-14T19:10:04.455156+00:00",
+  "status": "completed",
+  "files_fetched": 167,
+  "files_analysed": 167,
+  "components": [
+    "Configuration and deployment",
+    "DrissionPage package",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Click",
+    "NumPy",
+    "requests"
+  ],
+  "entry_points": [
+    "DrissionPage/_functions/cli.py"
+  ]
+}

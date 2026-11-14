@@ -1,0 +1,26 @@
+%% Repository: browser-use/web-ui
+%% Analysed commit: 61962296c38a0d064e0ba02c827192b7a81d1819
+%% Commit reference: https://github.com/browser-use/web-ui/commit/61962296c38a0d064e0ba02c827192b7a81d1819
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        agent["agent package"]
+        browser["browser package"]
+        controller["controller package"]
+        init_py["__init__.py package"]
+        utils["utils package"]
+        webui["webui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    browser -->|imports| external_integrations
+    utils -->|imports| external_integrations

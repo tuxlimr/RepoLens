@@ -1,0 +1,17 @@
+%% Repository: anthropics/knowledge-work-plugins
+%% Analysed commit: e91a134584eb798bac7fb0379358006a2b63b965
+%% Commit reference: https://github.com/anthropics/knowledge-work-plugins/commit/e91a134584eb798bac7fb0379358006a2b63b965
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bio_research["bio-research package"]
+    end
+    bio_research -->|imports| external_integrations

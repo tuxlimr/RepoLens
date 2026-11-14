@@ -1,0 +1,60 @@
+{
+  "owner": "pedronauck",
+  "name": "docz",
+  "full_name": "pedronauck/docz",
+  "html_url": "https://github.com/pedronauck/docz",
+  "description": "\u270d It has never been so easy to document your things!",
+  "stars": 23555,
+  "forks": 1396,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "design-system",
+    "docs",
+    "documentation",
+    "docz",
+    "gatsby",
+    "js",
+    "mdx",
+    "react",
+    "theme",
+    "ui",
+    "zero-configuration"
+  ],
+  "archived": true,
+  "commit_sha": "e0a53cb64fa8bb7a9e02f4f39eada7f74566dd3c",
+  "commit_url": "https://github.com/pedronauck/docz/commit/e0a53cb64fa8bb7a9e02f4f39eada7f74566dd3c",
+  "tree_url": "https://github.com/pedronauck/docz/tree/e0a53cb64fa8bb7a9e02f4f39eada7f74566dd3c",
+  "analysed_at": "2026-11-14T19:13:06.862071+00:00",
+  "status": "completed",
+  "files_fetched": 676,
+  "files_analysed": 675,
+  "components": [
+    "Configuration and deployment",
+    "dev-env package",
+    "other-packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "core/docz-rollup/src/index.js",
+    "core/docz/bin/index.js",
+    "examples/monorepo-separate-docs/packages/alert/index.js",
+    "examples/with-custom-docz-theme/gatsby-theme-docz-pink/index.js",
+    "other-packages/babel-plugin-export-metadata/src/index.js",
+    "other-packages/e2e-tests/index.js",
+    "other-packages/eslint-config-docz-js/index.js",
+    "other-packages/eslint-config-docz-ts/index.js",
+    "core/docz-core/bin/index.js",
+    "core/docz-core/src/index.ts",
+    "core/docz-utils/src/index.ts",
+    "core/docz/src/index.ts"
+  ]
+}

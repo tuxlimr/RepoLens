@@ -1,0 +1,35 @@
+{
+  "owner": "senchalabs",
+  "name": "connect",
+  "full_name": "senchalabs/connect",
+  "html_url": "https://github.com/senchalabs/connect",
+  "description": "Connect is an extensible HTTP server framework for node using \"plugins\" known as middleware.",
+  "stars": 9866,
+  "forks": 1075,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "nodejs"
+  ],
+  "archived": false,
+  "commit_sha": "98ab0c435852b311ed57fe48a1846c2dae84e266",
+  "commit_url": "https://github.com/senchalabs/connect/commit/98ab0c435852b311ed57fe48a1846c2dae84e266",
+  "tree_url": "https://github.com/senchalabs/connect/tree/98ab0c435852b311ed57fe48a1846c2dae84e266",
+  "analysed_at": "2026-11-14T19:12:47.990916+00:00",
+  "status": "completed",
+  "files_fetched": 17,
+  "files_analysed": 17,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,28 @@
+%% Repository: Wan-Video/Wan2.1
+%% Analysed commit: 9737cba9c1c3c4d04b33fcad41c111989865d315
+%% Commit reference: https://github.com/Wan-Video/Wan2.1/commit/9737cba9c1c3c4d04b33fcad41c111989865d315
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        wan["wan package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| wan
+    data_layer -->|imports| wan
+    entrypoint -->|imports| config
+    entrypoint -->|imports| wan
+    wan -->|imports| data_layer
+    wan -->|imports| external_integrations

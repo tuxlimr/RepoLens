@@ -1,0 +1,57 @@
+{
+  "owner": "borgbackup",
+  "name": "borg",
+  "full_name": "borgbackup/borg",
+  "html_url": "https://github.com/borgbackup/borg",
+  "description": "Deduplicating archiver with compression and authenticated encryption.",
+  "stars": 13926,
+  "forks": 883,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "backup",
+    "borgbackup",
+    "compression",
+    "deduplication",
+    "encryption",
+    "python",
+    "ssh"
+  ],
+  "archived": false,
+  "commit_sha": "119addc7c0235b1859c9efd74f771c02b1208bcb",
+  "commit_url": "https://github.com/borgbackup/borg/commit/119addc7c0235b1859c9efd74f771c02b1208bcb",
+  "tree_url": "https://github.com/borgbackup/borg/tree/119addc7c0235b1859c9efd74f771c02b1208bcb",
+  "analysed_at": "2026-11-14T19:09:36.554802+00:00",
+  "status": "completed",
+  "files_fetched": 561,
+  "files_analysed": 561,
+  "components": [
+    "borg package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/borg/archiver/__init__.py",
+    "src/borg/archiver/__init__.py",
+    "scripts/bench_chunker_kernels.py",
+    "scripts/blake3-optimize-mt-threshold.py",
+    "scripts/chunker_bench.py",
+    "scripts/endian_interop_test.py",
+    "scripts/fame.py",
+    "scripts/glibc_check.py",
+    "scripts/lvm-thin-map.py",
+    "scripts/make.py"
+  ]
+}

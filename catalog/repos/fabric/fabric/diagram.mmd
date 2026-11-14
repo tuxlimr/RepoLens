@@ -1,0 +1,35 @@
+%% Repository: fabric/fabric
+%% Analysed commit: ded51893f02c33d2bc7c157624c44a039a952037
+%% Commit reference: https://github.com/fabric/fabric/commit/ded51893f02c33d2bc7c157624c44a039a952037
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        fabric["fabric package"]
+        sites["sites package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| fabric
+    core -->|imports| fabric
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| fabric
+    external_integrations -->|imports| fabric
+    fabric -->|imports| config
+    fabric -->|imports| core
+    fabric -->|imports| external_integrations
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| fabric

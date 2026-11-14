@@ -1,0 +1,59 @@
+{
+  "owner": "chubin",
+  "name": "cheat.sh",
+  "full_name": "chubin/cheat.sh",
+  "html_url": "https://github.com/chubin/cheat.sh",
+  "description": "the only cheat sheet you need",
+  "stars": 41859,
+  "forks": 1919,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cheatsheet",
+    "cli",
+    "command-line",
+    "curl",
+    "documentation",
+    "examples",
+    "hacktoberfest2021",
+    "help",
+    "terminal",
+    "tldr"
+  ],
+  "archived": false,
+  "commit_sha": "06af0000259bde1a347da368225c5962d7ffed3e",
+  "commit_url": "https://github.com/chubin/cheat.sh/commit/06af0000259bde1a347da368225c5962d7ffed3e",
+  "tree_url": "https://github.com/chubin/cheat.sh/tree/06af0000259bde1a347da368225c5962d7ffed3e",
+  "analysed_at": "2026-11-14T19:06:40.944710+00:00",
+  "status": "completed",
+  "files_fetched": 112,
+  "files_analysed": 112,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "lib package",
+    "share package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "Flask",
+    "requests",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "bin/app.py",
+    "lib/config.py",
+    "lib/fetch.py",
+    "lib/fmt/comments.py",
+    "lib/languages_data.py",
+    "lib/panela/panela_colors.py",
+    "lib/standalone.py"
+  ]
+}

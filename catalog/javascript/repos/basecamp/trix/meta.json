@@ -1,0 +1,54 @@
+{
+  "owner": "basecamp",
+  "name": "trix",
+  "full_name": "basecamp/trix",
+  "html_url": "https://github.com/basecamp/trix",
+  "description": "A rich text editor for everyday writing",
+  "stars": 20017,
+  "forks": 1134,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "custom-elements",
+    "editor",
+    "javascript",
+    "rich-text-editor",
+    "text-editor",
+    "wysiwyg",
+    "wysiwyg-editor"
+  ],
+  "archived": false,
+  "commit_sha": "e2df97a56bcf1b6689ccd08d0d11a3f96006da8b",
+  "commit_url": "https://github.com/basecamp/trix/commit/e2df97a56bcf1b6689ccd08d0d11a3f96006da8b",
+  "tree_url": "https://github.com/basecamp/trix/tree/e2df97a56bcf1b6689ccd08d0d11a3f96006da8b",
+  "analysed_at": "2026-11-14T19:11:15.859705+00:00",
+  "status": "completed",
+  "files_fetched": 306,
+  "files_analysed": 306,
+  "components": [
+    "action_text-trix package",
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "inspector package",
+    "Service / domain layer",
+    "Tests",
+    "trix package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "src/trix/config/index.js",
+    "src/trix/controllers/index.js",
+    "src/trix/core/index.js",
+    "src/trix/elements/index.js",
+    "src/trix/filters/index.js",
+    "src/trix/models/index.js",
+    "src/trix/observers/index.js",
+    "src/trix/operations/index.js",
+    "src/trix/views/index.js"
+  ]
+}

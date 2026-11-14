@@ -1,0 +1,46 @@
+{
+  "owner": "sapientinc",
+  "name": "HRM",
+  "full_name": "sapientinc/HRM",
+  "html_url": "https://github.com/sapientinc/HRM",
+  "description": "Hierarchical Reasoning Model Official Release",
+  "stars": 12667,
+  "forks": 1806,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "brain-inspired-ai",
+    "deep-learning",
+    "large-language-models",
+    "reasoning"
+  ],
+  "archived": false,
+  "commit_sha": "ac15626f8db096a63c775b84c9dc868776a6feda",
+  "commit_url": "https://github.com/sapientinc/HRM/commit/ac15626f8db096a63c775b84c9dc868776a6feda",
+  "tree_url": "https://github.com/sapientinc/HRM/tree/ac15626f8db096a63c775b84c9dc868776a6feda",
+  "analysed_at": "2026-11-14T19:10:02.299348+00:00",
+  "status": "completed",
+  "files_fetched": 25,
+  "files_analysed": 25,
+  "components": [
+    "assets package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "dataset package",
+    "Application entry point",
+    "utils package"
+  ],
+  "detections": [
+    "NumPy",
+    "Pydantic"
+  ],
+  "entry_points": [
+    "dataset/build_arc_dataset.py",
+    "dataset/build_maze_dataset.py",
+    "dataset/build_sudoku_dataset.py",
+    "evaluate.py",
+    "pretrain.py"
+  ]
+}

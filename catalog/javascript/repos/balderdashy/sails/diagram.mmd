@@ -1,0 +1,22 @@
+%% Repository: balderdashy/sails
+%% Analysed commit: 7b76422cc27823df033572bdda5c4910a68b697f
+%% Commit reference: https://github.com/balderdashy/sails/commit/7b76422cc27823df033572bdda5c4910a68b697f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        accessible["accessible package"]
+        bin["bin package"]
+        errors["errors package"]
+        lib["lib package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

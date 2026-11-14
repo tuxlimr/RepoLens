@@ -1,0 +1,31 @@
+%% Repository: Asabeneh/30-Days-Of-Python
+%% Analysed commit: 50c11a80a6e3924a7be58c89f409697e12cb4d70
+%% Commit reference: https://github.com/Asabeneh/30-Days-Of-Python/commit/50c11a80a6e3924a7be58c89f409697e12cb4d70
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        c_01_day_introduction["01_Day_Introduction package"]
+        c_02_day_variables_builtin_functions["02_Day_Variables_builtin_functions package"]
+        c_03_day_operators["03_Day_Operators package"]
+        c_04_day_strings["04_Day_Strings package"]
+        c_05_day_lists["05_Day_Lists package"]
+        c_12_day_modules["12_Day_Modules package"]
+        c_20_day_python_package_manager["20_Day_Python_package_manager package"]
+        greek["Greek package"]
+        mypackage["mypackage package"]
+        spanish["Spanish package"]
+        ukrainian["Ukrainian package"]
+        uzbek["Uzbek package"]
+    end
+    entrypoint -->|imports| core

@@ -1,0 +1,43 @@
+{
+  "owner": "hemanth",
+  "name": "functional-programming-jargon",
+  "full_name": "hemanth/functional-programming-jargon",
+  "html_url": "https://github.com/hemanth/functional-programming-jargon",
+  "description": "Jargon from the functional programming world in simple terms!",
+  "stars": 18744,
+  "forks": 1002,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "awesome-list",
+    "education",
+    "fp",
+    "functional-programming",
+    "glossary",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "a362b3a6117eeaa6042fc21e032afa30bab8b5d6",
+  "commit_url": "https://github.com/hemanth/functional-programming-jargon/commit/a362b3a6117eeaa6042fc21e032afa30bab8b5d6",
+  "tree_url": "https://github.com/hemanth/functional-programming-jargon/tree/a362b3a6117eeaa6042fc21e032afa30bab8b5d6",
+  "analysed_at": "2026-11-14T19:11:19.950744+00:00",
+  "status": "completed",
+  "files_fetched": 32,
+  "files_analysed": 30,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "Vite"
+  ],
+  "entry_points": [
+    "app/src/App.jsx",
+    "app/src/main.jsx"
+  ]
+}

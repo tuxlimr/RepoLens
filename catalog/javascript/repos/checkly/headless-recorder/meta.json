@@ -1,0 +1,59 @@
+{
+  "owner": "checkly",
+  "name": "headless-recorder",
+  "full_name": "checkly/headless-recorder",
+  "html_url": "https://github.com/checkly/headless-recorder",
+  "description": "Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. ",
+  "stars": 15309,
+  "forks": 730,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "chrome",
+    "chrome-extension",
+    "playwright",
+    "puppeteer",
+    "vue"
+  ],
+  "archived": true,
+  "commit_sha": "4fb93c125f40bceb2dd9aac403e200a3ade5a8d9",
+  "commit_url": "https://github.com/checkly/headless-recorder/commit/4fb93c125f40bceb2dd9aac403e200a3ade5a8d9",
+  "tree_url": "https://github.com/checkly/headless-recorder/tree/4fb93c125f40bceb2dd9aac403e200a3ade5a8d9",
+  "analysed_at": "2026-11-14T19:11:39.603729+00:00",
+  "status": "completed",
+  "files_fetched": 105,
+  "files_analysed": 104,
+  "components": [
+    "API layer",
+    "background package",
+    "components package",
+    "Configuration and deployment",
+    "content-scripts package",
+    "Core modules",
+    "modules package",
+    "options package",
+    "popup package",
+    "Service / domain layer",
+    "store package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vue",
+    "Tailwind CSS",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/background/index.js",
+    "src/content-scripts/index.js",
+    "src/modules/code-generator/index.js",
+    "src/modules/overlay/index.js",
+    "src/modules/recorder/index.js",
+    "src/modules/shooter/index.js",
+    "src/options/main.js",
+    "src/popup/main.js",
+    "src/store/index.js"
+  ]
+}

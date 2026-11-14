@@ -1,0 +1,51 @@
+{
+  "owner": "ramonszo",
+  "name": "zuck.js",
+  "full_name": "ramonszo/zuck.js",
+  "html_url": "https://github.com/ramonszo/zuck.js",
+  "description": "A javascript library that lets you add stories EVERYWHERE.",
+  "stars": 3733,
+  "forks": 311,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "facebook",
+    "instagram",
+    "media",
+    "modal",
+    "react",
+    "slider",
+    "snapchat",
+    "stories",
+    "story",
+    "viewer",
+    "whatsapp",
+    "zuck"
+  ],
+  "archived": false,
+  "commit_sha": "97f39369d2023466426d2d210df50291a0706fab",
+  "commit_url": "https://github.com/ramonszo/zuck.js/commit/97f39369d2023466426d2d210df50291a0706fab",
+  "tree_url": "https://github.com/ramonszo/zuck.js/tree/97f39369d2023466426d2d210df50291a0706fab",
+  "analysed_at": "2026-11-14T19:15:06.875241+00:00",
+  "status": "completed",
+  "files_fetched": 44,
+  "files_analysed": 27,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "index.ts package",
+    "modal.ts package",
+    "options.ts package",
+    "types.ts package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.ts"
+  ]
+}

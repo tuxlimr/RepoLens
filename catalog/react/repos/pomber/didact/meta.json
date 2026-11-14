@@ -1,0 +1,35 @@
+{
+  "owner": "pomber",
+  "name": "didact",
+  "full_name": "pomber/didact",
+  "html_url": "https://github.com/pomber/didact",
+  "description": "A DIY guide to build your own React",
+  "stars": 6765,
+  "forks": 547,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "diy-guide",
+    "javascript",
+    "jsx",
+    "react",
+    "react-internals"
+  ],
+  "archived": false,
+  "commit_sha": "bb72345b2300dd4658b4736b65843e05dac39643",
+  "commit_url": "https://github.com/pomber/didact/commit/bb72345b2300dd4658b4736b65843e05dac39643",
+  "tree_url": "https://github.com/pomber/didact/tree/bb72345b2300dd4658b4736b65843e05dac39643",
+  "analysed_at": "2026-11-14T19:14:01.670131+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": [
+    "didact.js"
+  ]
+}

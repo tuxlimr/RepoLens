@@ -1,0 +1,32 @@
+{
+  "owner": "Jack-Cherish",
+  "name": "PythonPark",
+  "full_name": "Jack-Cherish/PythonPark",
+  "html_url": "https://github.com/Jack-Cherish/PythonPark",
+  "description": "Python \u5f00\u6e90\u9879\u76ee\u4e4b\u300c\u81ea\u5b66\u7f16\u7a0b\u4e4b\u8def\u300d\uff0c\u4fdd\u59c6\u7ea7\u6559\u7a0b\uff1aAI\u5b9e\u9a8c\u5ba4\u3001\u5b9d\u85cf\u89c6\u9891\u3001\u6570\u636e\u7ed3\u6784\u3001\u5b66\u4e60\u6307\u5357\u3001\u673a\u5668\u5b66\u4e60\u5b9e\u6218\u3001\u6df1\u5ea6\u5b66\u4e60\u5b9e\u6218\u3001\u7f51\u7edc\u722c\u866b\u3001\u5927\u5382\u9762\u7ecf\u3001\u7a0b\u5e8f\u4eba\u751f\u3001\u8d44\u6e90\u5206\u4eab\u3002",
+  "stars": 11927,
+  "forks": 1675,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "deep-learning",
+    "deeplearning",
+    "python",
+    "python-spider",
+    "python3",
+    "pytorch",
+    "webspider"
+  ],
+  "archived": false,
+  "commit_sha": "68ce4fdd3896a461d8c1a7024921a708ba28087d",
+  "commit_url": "https://github.com/Jack-Cherish/PythonPark/commit/68ce4fdd3896a461d8c1a7024921a708ba28087d",
+  "tree_url": "https://github.com/Jack-Cherish/PythonPark/tree/68ce4fdd3896a461d8c1a7024921a708ba28087d",
+  "analysed_at": "2026-11-14T19:10:21.562284+00:00",
+  "status": "completed",
+  "files_fetched": 3,
+  "files_analysed": 3,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

@@ -1,0 +1,40 @@
+{
+  "owner": "yabwe",
+  "name": "medium-editor",
+  "full_name": "yabwe/medium-editor",
+  "html_url": "https://github.com/yabwe/medium-editor",
+  "description": "Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a rich text solution.",
+  "stars": 16098,
+  "forks": 1802,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "contenteditable",
+    "editor",
+    "javascript",
+    "medium-editor",
+    "rich-text-editor",
+    "wysiwyg"
+  ],
+  "archived": false,
+  "commit_sha": "d113a74437fda6f1cbd5f146b0f2c46288b118ea",
+  "commit_url": "https://github.com/yabwe/medium-editor/commit/d113a74437fda6f1cbd5f146b0f2c46288b118ea",
+  "tree_url": "https://github.com/yabwe/medium-editor/tree/d113a74437fda6f1cbd5f146b0f2c46288b118ea",
+  "analysed_at": "2026-11-14T19:11:34.133183+00:00",
+  "status": "completed",
+  "files_fetched": 134,
+  "files_analysed": 115,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "js package",
+    "spec package",
+    "wrappers package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

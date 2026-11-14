@@ -1,0 +1,49 @@
+{
+  "owner": "vantezzen",
+  "name": "autoform",
+  "full_name": "vantezzen/autoform",
+  "html_url": "https://github.com/vantezzen/autoform",
+  "description": "\ud83c\udf1f Automatically render forms for your existing data schema",
+  "stars": 3494,
+  "forks": 147,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "form-validation",
+    "react",
+    "react-component",
+    "shadcn-ui"
+  ],
+  "archived": false,
+  "commit_sha": "96bd1b7408465345ee715ad1491214d4ba1570e5",
+  "commit_url": "https://github.com/vantezzen/autoform/commit/96bd1b7408465345ee715ad1491214d4ba1570e5",
+  "tree_url": "https://github.com/vantezzen/autoform/tree/96bd1b7408465345ee715ad1491214d4ba1570e5",
+  "analysed_at": "2026-11-14T19:15:17.538092+00:00",
+  "status": "completed",
+  "files_fetched": 586,
+  "files_analysed": 585,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "apps/web/app/page.tsx",
+    "packages/core/src/index.ts",
+    "packages/joi/src/index.ts",
+    "packages/react/src/index.tsx",
+    "packages/yup/src/index.ts",
+    "packages/zod/src/index.ts"
+  ]
+}

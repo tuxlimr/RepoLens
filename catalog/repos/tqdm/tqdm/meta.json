@@ -1,0 +1,61 @@
+{
+  "owner": "tqdm",
+  "name": "tqdm",
+  "full_name": "tqdm/tqdm",
+  "html_url": "https://github.com/tqdm/tqdm",
+  "description": ":zap: A Fast, Extensible Progress Bar for Python and CLI",
+  "stars": 31383,
+  "forks": 1993,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "cli",
+    "closember",
+    "console",
+    "discord",
+    "gui",
+    "jupyter",
+    "keras",
+    "meter",
+    "pandas",
+    "parallel",
+    "progress",
+    "progress-bar",
+    "progressbar",
+    "progressmeter",
+    "python",
+    "rate",
+    "telegram",
+    "terminal",
+    "time",
+    "utilities"
+  ],
+  "archived": false,
+  "commit_sha": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+  "commit_url": "https://github.com/tqdm/tqdm/commit/9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+  "tree_url": "https://github.com/tqdm/tqdm/tree/9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+  "analysed_at": "2026-11-14T19:07:07.812528+00:00",
+  "status": "completed",
+  "files_fetched": 79,
+  "files_analysed": 79,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "tqdm package"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "tqdm/cli.py"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "owner": "ritz078",
+  "name": "transform",
+  "full_name": "ritz078/transform",
+  "html_url": "https://github.com/ritz078/transform",
+  "description": "A polyglot web converter.",
+  "stars": 9259,
+  "forks": 705,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "css",
+    "flow",
+    "golang",
+    "graphql",
+    "jsx",
+    "react",
+    "react-native",
+    "rust",
+    "transformations",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "ff7557939be351706f4dc6f71cc375e3bc64c225",
+  "commit_url": "https://github.com/ritz078/transform/commit/ff7557939be351706f4dc6f71cc375e3bc64c225",
+  "tree_url": "https://github.com/ritz078/transform/tree/ff7557939be351706f4dc6f71cc375e3bc64c225",
+  "analysed_at": "2026-11-14T19:13:35.233804+00:00",
+  "status": "completed",
+  "files_fetched": 131,
+  "files_analysed": 129,
+  "components": [
+    "API layer",
+    "assets package",
+    "components package",
+    "Configuration and deployment",
+    "constants package",
+    "Core modules",
+    "hooks package",
+    "pages package",
+    "typings package",
+    "utils package",
+    "workers package"
+  ],
+  "detections": [
+    "Next.js",
+    "React",
+    "axios",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "pages/index.tsx"
+  ]
+}

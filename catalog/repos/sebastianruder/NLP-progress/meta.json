@@ -1,0 +1,36 @@
+{
+  "owner": "sebastianruder",
+  "name": "NLP-progress",
+  "full_name": "sebastianruder/NLP-progress",
+  "html_url": "https://github.com/sebastianruder/NLP-progress",
+  "description": "Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.",
+  "stars": 22954,
+  "forks": 3587,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "dialogue",
+    "machine-learning",
+    "machine-translation",
+    "named-entity-recognition",
+    "natural-language-processing",
+    "nlp-tasks"
+  ],
+  "archived": false,
+  "commit_sha": "379f03ff7568b18bd9843490b84c94679f880a79",
+  "commit_url": "https://github.com/sebastianruder/NLP-progress/commit/379f03ff7568b18bd9843490b84c94679f880a79",
+  "tree_url": "https://github.com/sebastianruder/NLP-progress/tree/379f03ff7568b18bd9843490b84c94679f880a79",
+  "analysed_at": "2026-11-14T19:07:51.344378+00:00",
+  "status": "completed",
+  "files_fetched": 79,
+  "files_analysed": 79,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point"
+  ],
+  "detections": [],
+  "entry_points": [
+    "structured/export.py"
+  ]
+}

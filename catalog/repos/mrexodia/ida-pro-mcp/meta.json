@@ -1,0 +1,56 @@
+{
+  "owner": "mrexodia",
+  "name": "ida-pro-mcp",
+  "full_name": "mrexodia/ida-pro-mcp",
+  "html_url": "https://github.com/mrexodia/ida-pro-mcp",
+  "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+  "stars": 13476,
+  "forks": 1649,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "aiagent",
+    "binary-analysis",
+    "ida-plugin",
+    "ida-pro",
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "reverse-engineering"
+  ],
+  "archived": false,
+  "commit_sha": "13e480cb1198f923154b63669e8cb2faee5deaea",
+  "commit_url": "https://github.com/mrexodia/ida-pro-mcp/commit/13e480cb1198f923154b63669e8cb2faee5deaea",
+  "tree_url": "https://github.com/mrexodia/ida-pro-mcp/tree/13e480cb1198f923154b63669e8cb2faee5deaea",
+  "analysed_at": "2026-11-14T19:09:49.064810+00:00",
+  "status": "completed",
+  "files_fetched": 207,
+  "files_analysed": 206,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "ida_pro_mcp package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/ida_pro_mcp/__main__.py",
+    "src/ida_pro_mcp/idalib_server.py",
+    "src/ida_pro_mcp/idalib_supervisor.py",
+    "src/ida_pro_mcp/server.py",
+    "src/ida_pro_mcp/test.py",
+    "src/ida_pro_mcp/trace_dump.py",
+    "scripts/stress_search_cancellation.py"
+  ]
+}

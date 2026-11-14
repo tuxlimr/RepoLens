@@ -1,0 +1,56 @@
+{
+  "owner": "DietrichGebert",
+  "name": "ponytail",
+  "full_name": "DietrichGebert/ponytail",
+  "html_url": "https://github.com/DietrichGebert/ponytail",
+  "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+  "stars": 190790,
+  "forks": 10668,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "cursor-rules",
+    "developer-tools",
+    "llm",
+    "prompt-engineering",
+    "yagni"
+  ],
+  "archived": false,
+  "commit_sha": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+  "commit_url": "https://github.com/DietrichGebert/ponytail/commit/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+  "tree_url": "https://github.com/DietrichGebert/ponytail/tree/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+  "analysed_at": "2026-11-14T19:10:32.159287+00:00",
+  "status": "completed",
+  "files_fetched": 170,
+  "files_analysed": 170,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "hooks package",
+    "pi-extension package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite"
+  ],
+  "entry_points": [
+    "benchmarks/agentic/answer.py",
+    "benchmarks/agentic/compare.py",
+    "benchmarks/agentic/complete.py",
+    "benchmarks/agentic/judge.py",
+    "benchmarks/agentic/run.py",
+    ".opencode/plugins/index.js",
+    "pi-extension/index.js"
+  ]
+}

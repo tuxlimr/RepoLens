@@ -1,0 +1,44 @@
+{
+  "owner": "Manisso",
+  "name": "fsociety",
+  "full_name": "Manisso/fsociety",
+  "html_url": "https://github.com/Manisso/fsociety",
+  "description": "fsociety Hacking Tools Pack \u2013 A Penetration Testing Framework",
+  "stars": 12420,
+  "forks": 2099,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "brute-force-attacks",
+    "desktop",
+    "exploitation",
+    "finder",
+    "fsociety",
+    "fsociety-hacking",
+    "information-gathering",
+    "network",
+    "penetration-testing-framework",
+    "port-scanning",
+    "post-exploitation",
+    "python",
+    "web-hacking"
+  ],
+  "archived": false,
+  "commit_sha": "588334fb8770b52379324c4aba746367f1530544",
+  "commit_url": "https://github.com/Manisso/fsociety/commit/588334fb8770b52379324c4aba746367f1530544",
+  "tree_url": "https://github.com/Manisso/fsociety/tree/588334fb8770b52379324c4aba746367f1530544",
+  "analysed_at": "2026-11-14T19:10:07.992990+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": []
+}

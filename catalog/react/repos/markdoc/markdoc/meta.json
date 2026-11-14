@@ -1,0 +1,44 @@
+{
+  "owner": "markdoc",
+  "name": "markdoc",
+  "full_name": "markdoc/markdoc",
+  "html_url": "https://github.com/markdoc/markdoc",
+  "description": "A powerful, flexible, Markdown-based authoring framework.",
+  "stars": 8525,
+  "forks": 266,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "authoring",
+    "documentation",
+    "markdoc",
+    "markdown",
+    "react",
+    "toolchain"
+  ],
+  "archived": false,
+  "commit_sha": "30a77b3c23c2d9279ee07d185faf95060b6cab75",
+  "commit_url": "https://github.com/markdoc/markdoc/commit/30a77b3c23c2d9279ee07d185faf95060b6cab75",
+  "tree_url": "https://github.com/markdoc/markdoc/tree/30a77b3c23c2d9279ee07d185faf95060b6cab75",
+  "analysed_at": "2026-11-14T19:13:41.313392+00:00",
+  "status": "completed",
+  "files_fetched": 109,
+  "files_analysed": 108,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "packages/next.js/src/index.js",
+    "packages/markdoc/index.ts"
+  ]
+}

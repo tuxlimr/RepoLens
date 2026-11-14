@@ -1,0 +1,29 @@
+%% Repository: akfamily/akshare
+%% Analysed commit: f43ea5f1175021eea742638354bcaa7de9ecaf99
+%% Commit reference: https://github.com/akfamily/akshare/commit/f43ea5f1175021eea742638354bcaa7de9ecaf99
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        akshare["akshare package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    akshare -->|imports| entrypoint
+    akshare -->|imports| external_integrations
+    entrypoint -->|imports| akshare
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| akshare
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

@@ -1,0 +1,26 @@
+%% Repository: ScrapeGraphAI/Scrapegraph-ai
+%% Analysed commit: 194055e203afce41ed4e70365dbc416bad756115
+%% Commit reference: https://github.com/ScrapeGraphAI/Scrapegraph-ai/commit/194055e203afce41ed4e70365dbc416bad756115
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scrapegraphai["scrapegraphai package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| scrapegraphai
+    external_integrations -->|imports| scrapegraphai
+    scrapegraphai -->|imports| data_layer
+    scrapegraphai -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations
+    tests -->|imports| scrapegraphai

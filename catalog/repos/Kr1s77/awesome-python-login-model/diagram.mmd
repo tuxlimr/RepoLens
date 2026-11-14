@@ -1,0 +1,30 @@
+%% Repository: Kr1s77/awesome-python-login-model
+%% Analysed commit: b458a09bf5542b52784bbba9861c4f3a82b2e45d
+%% Commit reference: https://github.com/Kr1s77/awesome-python-login-model/commit/b458a09bf5542b52784bbba9861c4f3a82b2e45d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        baidu["baidu package"]
+        baidu_translate["baidu_translate package"]
+        douban["douban package"]
+        guoke["guoke package"]
+        jd_login["jd_login package"]
+        liepin["liepin package"]
+        qqmusic["qqmusic package"]
+        qqzone["qqzone package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    douban -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations
+    guoke -->|imports| external_integrations
+    tests -->|imports| external_integrations

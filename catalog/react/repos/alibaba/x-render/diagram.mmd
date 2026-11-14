@@ -1,0 +1,25 @@
+%% Repository: alibaba/x-render
+%% Analysed commit: 33027864d98ab917f06a4e2656fd7c5bba3bfa2c
+%% Commit reference: https://github.com/alibaba/x-render/commit/33027864d98ab917f06a4e2656fd7c5bba3bfa2c
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        packages["packages package"]
+        scripts["scripts package"]
+        tools["tools package"]
+        widgets["widgets package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

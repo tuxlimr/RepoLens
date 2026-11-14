@@ -1,0 +1,51 @@
+{
+  "owner": "magenta",
+  "name": "magenta",
+  "full_name": "magenta/magenta",
+  "html_url": "https://github.com/magenta/magenta",
+  "description": "Magenta: Music and Art Generation with Machine Intelligence",
+  "stars": 19785,
+  "forks": 3757,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "c15687ebd1c1cc12658cd468c737d3c24c02b918",
+  "commit_url": "https://github.com/magenta/magenta/commit/c15687ebd1c1cc12658cd468c737d3c24c02b918",
+  "tree_url": "https://github.com/magenta/magenta/tree/c15687ebd1c1cc12658cd468c737d3c24c02b918",
+  "analysed_at": "2026-11-14T19:08:08.086168+00:00",
+  "status": "completed",
+  "files_fetched": 388,
+  "files_analysed": 388,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "magenta package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "requests",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "magenta/common/beam_search_test.py",
+    "magenta/common/concurrency_test.py",
+    "magenta/common/nade_test.py",
+    "magenta/common/state_util_test.py",
+    "magenta/contrib/rnn_test.py",
+    "magenta/contrib/seq2seq_test.py",
+    "magenta/interfaces/midi/magenta_midi.py",
+    "magenta/interfaces/midi/midi_clock.py",
+    "magenta/interfaces/midi/midi_hub_test.py",
+    "magenta/models/arbitrary_image_stylization/arbitrary_image_stylization_convert_tflite.py",
+    "magenta/models/arbitrary_image_stylization/arbitrary_image_stylization_distill_mobilenet.py",
+    "magenta/models/arbitrary_image_stylization/arbitrary_image_stylization_evaluate.py"
+  ]
+}

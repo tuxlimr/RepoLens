@@ -1,0 +1,61 @@
+{
+  "owner": "timc1",
+  "name": "kbar",
+  "full_name": "timc1/kbar",
+  "html_url": "https://github.com/timc1/kbar",
+  "description": "fast, portable, and extensible cmd+k interface for your site",
+  "stars": 5264,
+  "forks": 204,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "command-palette",
+    "hooks",
+    "javascript",
+    "react",
+    "shortcuts",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "26ec0f49f92ab34fa6ab59392782d56020f28098",
+  "commit_url": "https://github.com/timc1/kbar/commit/26ec0f49f92ab34fa6ab59392782d56020f28098",
+  "tree_url": "https://github.com/timc1/kbar/tree/26ec0f49f92ab34fa6ab59392782d56020f28098",
+  "analysed_at": "2026-11-14T19:14:22.997701+00:00",
+  "status": "completed",
+  "files_fetched": 65,
+  "files_analysed": 63,
+  "components": [
+    "action package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.tsx package",
+    "InternalEvents.tsx package",
+    "KBarAnimator.tsx package",
+    "KBarContextProvider.tsx package",
+    "KBarPortal.tsx package",
+    "KBarPositioner.tsx package",
+    "KBarResults.tsx package",
+    "KBarSearch.tsx package",
+    "__tests__ package",
+    "tinykeys.ts package",
+    "types.ts package",
+    "useKBar.tsx package",
+    "useMatches.tsx package",
+    "useRegisterActions.tsx package",
+    "useStore.tsx package",
+    "utils.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/action/index.tsx",
+    "src/index.tsx"
+  ]
+}

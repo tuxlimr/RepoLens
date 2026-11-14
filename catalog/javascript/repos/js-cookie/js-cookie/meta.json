@@ -1,0 +1,39 @@
+{
+  "owner": "js-cookie",
+  "name": "js-cookie",
+  "full_name": "js-cookie/js-cookie",
+  "html_url": "https://github.com/js-cookie/js-cookie",
+  "description": "A simple, lightweight JavaScript API for handling cookies, client-side.",
+  "stars": 22562,
+  "forks": 2042,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "cookie",
+    "javascript"
+  ],
+  "archived": false,
+  "commit_sha": "e9a4b83402a9d09065831f0e02820478a569253e",
+  "commit_url": "https://github.com/js-cookie/js-cookie/commit/e9a4b83402a9d09065831f0e02820478a569253e",
+  "tree_url": "https://github.com/js-cookie/js-cookie/tree/e9a4b83402a9d09065831f0e02820478a569253e",
+  "analysed_at": "2026-11-14T19:11:07.852972+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 47,
+  "components": [
+    "api.mjs package",
+    "assign.mjs package",
+    "Configuration and deployment",
+    "converter.mjs package",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

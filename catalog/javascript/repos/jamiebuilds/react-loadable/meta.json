@@ -1,0 +1,49 @@
+{
+  "owner": "jamiebuilds",
+  "name": "react-loadable",
+  "full_name": "jamiebuilds/react-loadable",
+  "html_url": "https://github.com/jamiebuilds/react-loadable",
+  "description": ":hourglass_flowing_sand: A higher order component for loading components with promises.",
+  "stars": 16494,
+  "forks": 757,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "async",
+    "babel-plugin",
+    "code-splitting",
+    "imports",
+    "loading",
+    "react",
+    "server-side-rendering",
+    "ssr",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "6201c5837b212d6244c57f3748f2b1375096beeb",
+  "commit_url": "https://github.com/jamiebuilds/react-loadable/commit/6201c5837b212d6244c57f3748f2b1375096beeb",
+  "tree_url": "https://github.com/jamiebuilds/react-loadable/tree/6201c5837b212d6244c57f3748f2b1375096beeb",
+  "analysed_at": "2026-11-14T19:11:32.038674+00:00",
+  "status": "completed",
+  "files_fetched": 26,
+  "files_analysed": 26,
+  "components": [
+    "babel.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "__fixtures__ package",
+    "index.js package",
+    "__tests__ package",
+    "webpack.js package"
+  ],
+  "detections": [
+    "Express",
+    "React",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

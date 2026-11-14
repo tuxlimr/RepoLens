@@ -1,0 +1,40 @@
+{
+  "owner": "hammerjs",
+  "name": "hammer.js",
+  "full_name": "hammerjs/hammer.js",
+  "html_url": "https://github.com/hammerjs/hammer.js",
+  "description": "A javascript library for multi-touch gestures :// You can touch this",
+  "stars": 24316,
+  "forks": 2546,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ff687ea0daa3c806b9accd2ecb1a46165ea3c00a",
+  "commit_url": "https://github.com/hammerjs/hammer.js/commit/ff687ea0daa3c806b9accd2ecb1a46165ea3c00a",
+  "tree_url": "https://github.com/hammerjs/hammer.js/tree/ff687ea0daa3c806b9accd2ecb1a46165ea3c00a",
+  "analysed_at": "2026-11-14T19:11:02.542932+00:00",
+  "status": "completed",
+  "files_fetched": 107,
+  "files_analysed": 107,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "hammer.js package",
+    "input package",
+    "inputjs package",
+    "main.js package",
+    "manager.js package",
+    "recognizerjs package",
+    "recognizers package",
+    "Tests",
+    "touchactionjs package",
+    "utils package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "hammer.js",
+    "src/main.js"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "owner": "guokaigdg",
+  "name": "animal-island-ui",
+  "full_name": "guokaigdg/animal-island-ui",
+  "html_url": "https://github.com/guokaigdg/animal-island-ui",
+  "description": "A Kawaii React UI component library  \u4e00\u4e2a\u53ef\u7231\u7684 React UI  \u7ec4\u4ef6\u5e93",
+  "stars": 5157,
+  "forks": 49,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "component-library",
+    "react",
+    "typescript",
+    "ui-components",
+    "ui-design"
+  ],
+  "archived": false,
+  "commit_sha": "956f23cb7a388f178dbd98c8cfb9df958a3e3f9f",
+  "commit_url": "https://github.com/guokaigdg/animal-island-ui/commit/956f23cb7a388f178dbd98c8cfb9df958a3e3f9f",
+  "tree_url": "https://github.com/guokaigdg/animal-island-ui/tree/956f23cb7a388f178dbd98c8cfb9df958a3e3f9f",
+  "analysed_at": "2026-11-14T19:14:26.931559+00:00",
+  "status": "completed",
+  "files_fetched": 429,
+  "files_analysed": 429,
+  "components": [
+    "assets package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "index.ts package",
+    "internal package",
+    "scripts package",
+    "Tests",
+    "typings.d.ts package",
+    "vite-env.d.ts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "demo/App.tsx",
+    "demo/components/Avatar/index.tsx",
+    "demo/components/BackTop/index.tsx",
+    "demo/components/Background/index.tsx",
+    "demo/components/Badge/index.tsx",
+    "demo/components/Button/index.tsx",
+    "demo/components/Calendar/index.tsx",
+    "demo/components/Card/index.tsx",
+    "demo/components/Carousel/index.tsx",
+    "demo/components/Chart/index.tsx",
+    "demo/components/Checkbox/index.tsx",
+    "demo/components/CodeBlock/index.tsx"
+  ]
+}

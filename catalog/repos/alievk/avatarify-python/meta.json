@@ -1,0 +1,38 @@
+{
+  "owner": "alievk",
+  "name": "avatarify-python",
+  "full_name": "alievk/avatarify-python",
+  "html_url": "https://github.com/alievk/avatarify-python",
+  "description": "Avatars for Zoom, Skype and other video-conferencing apps.",
+  "stars": 16503,
+  "forks": 4290,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "862182cfbca5bd8a7473bed9c5f69f92e8d5cc7b",
+  "commit_url": "https://github.com/alievk/avatarify-python/commit/862182cfbca5bd8a7473bed9c5f69f92e8d5cc7b",
+  "tree_url": "https://github.com/alievk/avatarify-python/tree/862182cfbca5bd8a7473bed9c5f69f92e8d5cc7b",
+  "analysed_at": "2026-11-14T19:08:49.927448+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 37,
+  "components": [
+    "afy package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "scripts package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "Docker"
+  ],
+  "entry_points": [
+    "afy/cam_fomm.py",
+    "afy/camera_selector.py"
+  ]
+}

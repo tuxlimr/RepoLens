@@ -1,0 +1,58 @@
+{
+  "owner": "sczhou",
+  "name": "CodeFormer",
+  "full_name": "sczhou/CodeFormer",
+  "html_url": "https://github.com/sczhou/CodeFormer",
+  "description": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer",
+  "stars": 18228,
+  "forks": 3718,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "codebook",
+    "codeformer",
+    "face-enhancement",
+    "face-restoration",
+    "pytorch",
+    "restoration",
+    "super-resolution",
+    "vqgan"
+  ],
+  "archived": false,
+  "commit_sha": "b33cc7d639d6545bfcccc7e0bc6ae51f24e79c2b",
+  "commit_url": "https://github.com/sczhou/CodeFormer/commit/b33cc7d639d6545bfcccc7e0bc6ae51f24e79c2b",
+  "tree_url": "https://github.com/sczhou/CodeFormer/tree/b33cc7d639d6545bfcccc7e0bc6ae51f24e79c2b",
+  "analysed_at": "2026-11-14T19:08:26.727734+00:00",
+  "status": "completed",
+  "files_fetched": 115,
+  "files_analysed": 115,
+  "components": [
+    "basicsr package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "facelib package",
+    "web-demos package"
+  ],
+  "detections": [
+    "NumPy",
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "basicsr/setup.py",
+    "basicsr/train.py",
+    "facelib/detection/matlab_cp2tform.py",
+    "facelib/utils/face_utils.py",
+    "inference_codeformer.py",
+    "inference_colorization.py",
+    "inference_inpainting.py",
+    "scripts/crop_align_face.py",
+    "scripts/download_pretrained_models.py",
+    "scripts/download_pretrained_models_from_gdrive.py",
+    "scripts/generate_latent_gt.py",
+    "scripts/inference_vqgan.py"
+  ]
+}

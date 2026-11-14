@@ -1,0 +1,48 @@
+%% Repository: getzep/graphiti
+%% Analysed commit: ed23196506eba8806fae6da831d73fcd2ad714d8
+%% Commit reference: https://github.com/getzep/graphiti/commit/ed23196506eba8806fae6da831d73fcd2ad714d8
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        graphiti_core["graphiti_core package"]
+        mcp_server["mcp_server package"]
+        server["server package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| graphiti_core
+    data_layer -->|imports| graphiti_core
+    entrypoint -->|imports| graphiti_core
+    external_integrations -->|imports| config
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| graphiti_core
+    graphiti_core -->|imports| config
+    graphiti_core -->|imports| data_layer
+    graphiti_core -->|imports| external_integrations
+    mcp_server -->|imports| graphiti_core
+    server -->|imports| graphiti_core
+    service_layer -->|imports| config
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| graphiti_core
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| external_integrations
+    tests -->|imports| graphiti_core

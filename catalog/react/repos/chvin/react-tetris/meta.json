@@ -1,0 +1,57 @@
+{
+  "owner": "chvin",
+  "name": "react-tetris",
+  "full_name": "chvin/react-tetris",
+  "html_url": "https://github.com/chvin/react-tetris",
+  "description": "Use React, Redux, Immutable to code Tetris. \ud83c\udfae",
+  "stars": 8734,
+  "forks": 2288,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "immutable",
+    "react",
+    "redux",
+    "tetris"
+  ],
+  "archived": false,
+  "commit_sha": "89435b72f127b67f95870c515a130cbff38fd7cf",
+  "commit_url": "https://github.com/chvin/react-tetris/commit/89435b72f127b67f95870c515a130cbff38fd7cf",
+  "tree_url": "https://github.com/chvin/react-tetris/tree/89435b72f127b67f95870c515a130cbff38fd7cf",
+  "analysed_at": "2026-11-14T19:13:39.836728+00:00",
+  "status": "completed",
+  "files_fetched": 86,
+  "files_analysed": 86,
+  "components": [
+    "actions package",
+    "components package",
+    "Configuration and deployment",
+    "containers package",
+    "control package",
+    "Core modules",
+    "index.js package",
+    "reducers package",
+    "store package",
+    "unit package"
+  ],
+  "detections": [
+    "React",
+    "Redux",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/actions/index.js",
+    "src/components/decorate/index.js",
+    "src/components/guide/index.js",
+    "src/components/keyboard/index.js",
+    "src/components/logo/index.js",
+    "src/components/matrix/index.js",
+    "src/components/music/index.js",
+    "src/components/next/index.js",
+    "src/components/number/index.js",
+    "src/components/pause/index.js",
+    "src/components/point/index.js",
+    "src/containers/index.js"
+  ]
+}

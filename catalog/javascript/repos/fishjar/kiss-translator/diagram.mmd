@@ -1,0 +1,38 @@
+%% Repository: fishjar/kiss-translator
+%% Analysed commit: 9dba2e86d524a8ec85f56bc08ef645a555707bdc
+%% Commit reference: https://github.com/fishjar/kiss-translator/commit/9dba2e86d524a8ec85f56bc08ef645a555707bdc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        apis["apis package"]
+        background_imagetranslate_test_js["background.imageTranslate.test.js package"]
+        background_js["background.js package"]
+        background_options_test_js["background.options.test.js package"]
+        background_separatewindow_test_js["background.separateWindow.test.js package"]
+        builtin_plugins["builtin-plugins package"]
+        common_blackliststartup_test_js["common.blacklistStartup.test.js package"]
+        common_js["common.js package"]
+        common_test_js["common.test.js package"]
+        components["components package"]
+        content_js["content.js package"]
+        filebridge_js["fileBridge.js package"]
+        filebridge_test_js["fileBridge.test.js package"]
+        filetranslate_js["fileTranslate.js package"]
+        filetranslation["fileTranslation package"]
+        homepage["homepage package"]
+        hooks["hooks package"]
+        injectors["injectors package"]
+        libs["libs package"]
+        localai["localAi package"]
+        providers["providers package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    other["Other components (5 merged)"]
+    %% Note: 5 smaller component(s) merged into 'other' to keep the diagram readable.

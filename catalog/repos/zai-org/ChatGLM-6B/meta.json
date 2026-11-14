@@ -1,0 +1,39 @@
+{
+  "owner": "zai-org",
+  "name": "ChatGLM-6B",
+  "full_name": "zai-org/ChatGLM-6B",
+  "html_url": "https://github.com/zai-org/ChatGLM-6B",
+  "description": "ChatGLM-6B: An Open Bilingual Dialogue Language Model | \u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
+  "stars": 40847,
+  "forks": 5076,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "401bf3a8a7dd8a26fba189551dccfc61a7079b4e",
+  "commit_url": "https://github.com/zai-org/ChatGLM-6B/commit/401bf3a8a7dd8a26fba189551dccfc61a7079b4e",
+  "tree_url": "https://github.com/zai-org/ChatGLM-6B/tree/401bf3a8a7dd8a26fba189551dccfc61a7079b4e",
+  "analysed_at": "2026-11-14T19:06:42.143954+00:00",
+  "status": "completed",
+  "files_fetched": 37,
+  "files_analysed": 37,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "ptuning package"
+  ],
+  "detections": [
+    "FastAPI",
+    "NumPy",
+    "Uvicorn"
+  ],
+  "entry_points": [
+    "api.py",
+    "cli_demo.py",
+    "cli_demo_vision.py",
+    "ptuning/main.py",
+    "ptuning/web_demo.py"
+  ]
+}

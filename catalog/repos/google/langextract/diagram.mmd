@@ -1,0 +1,36 @@
+%% Repository: google/langextract
+%% Analysed commit: 0e441bf77ddc3119dd0aa413322959234dd84ee5
+%% Commit reference: https://github.com/google/langextract/commit/0e441bf77ddc3119dd0aa413322959234dd84ee5
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        langextract["langextract package"]
+        skills["skills package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| service_layer
+    entrypoint -->|imports| langextract
+    entrypoint -->|imports| service_layer
+    langextract -->|imports| external_integrations
+    langextract -->|imports| service_layer
+    skills -->|imports| langextract
+    tests -->|imports| external_integrations
+    tests -->|imports| langextract
+    tests -->|imports| service_layer

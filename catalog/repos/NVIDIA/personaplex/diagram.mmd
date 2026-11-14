@@ -1,0 +1,32 @@
+%% Repository: NVIDIA/personaplex
+%% Analysed commit: 16419a2ef7b98611f58c9df07477d00e5ad61d5f
+%% Commit reference: https://github.com/NVIDIA/personaplex/commit/16419a2ef7b98611f58c9df07477d00e5ad61d5f
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        moshi["moshi package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| moshi
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| moshi
+    moshi -->|imports| entrypoint
+    moshi -->|imports| external_integrations

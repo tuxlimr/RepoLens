@@ -1,0 +1,52 @@
+{
+  "owner": "HunxByts",
+  "name": "GhostTrack",
+  "full_name": "HunxByts/GhostTrack",
+  "html_url": "https://github.com/HunxByts/GhostTrack",
+  "description": "Useful tool to track location or mobile number",
+  "stars": 20665,
+  "forks": 2803,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "cybersecurity",
+    "fyp",
+    "hacking",
+    "hacking-tool",
+    "indonesia",
+    "information",
+    "information-gathering",
+    "ip-geolocation",
+    "linux",
+    "osint",
+    "osint-python",
+    "osint-tool",
+    "pentesting",
+    "phone-number",
+    "python",
+    "python-hacking",
+    "termux",
+    "termux-hacks",
+    "termux-tool"
+  ],
+  "archived": false,
+  "commit_sha": "a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+  "commit_url": "https://github.com/HunxByts/GhostTrack/commit/a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+  "tree_url": "https://github.com/HunxByts/GhostTrack/tree/a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+  "analysed_at": "2026-11-14T19:08:01.106293+00:00",
+  "status": "completed",
+  "files_fetched": 4,
+  "files_analysed": 4,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "requests"
+  ],
+  "entry_points": [
+    "GhostTR.py"
+  ]
+}

@@ -1,0 +1,20 @@
+%% Repository: keon/algorithms
+%% Analysed commit: bd1d152f9ec7331c69be662831610b003b10fc7a
+%% Commit reference: https://github.com/keon/algorithms/commit/bd1d152f9ec7331c69be662831610b003b10fc7a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        algorithms["algorithms package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    algorithms -->|imports| entrypoint
+    entrypoint -->|imports| algorithms
+    tests -->|imports| algorithms
+    tests -->|imports| entrypoint

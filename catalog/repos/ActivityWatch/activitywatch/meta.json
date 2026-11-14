@@ -1,0 +1,62 @@
+{
+  "owner": "ActivityWatch",
+  "name": "activitywatch",
+  "full_name": "ActivityWatch/activitywatch",
+  "html_url": "https://github.com/ActivityWatch/activitywatch",
+  "description": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+  "stars": 19627,
+  "forks": 1078,
+  "license": "MPL-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "activitywatch",
+    "afk",
+    "analytics",
+    "app",
+    "cross-platform",
+    "dashboard",
+    "productivity",
+    "quantified-self",
+    "time-tracker",
+    "time-tracking",
+    "timetracker",
+    "timetracking"
+  ],
+  "archived": false,
+  "commit_sha": "b1dbd358ef6e284baa33aa075a885716538f1e1a",
+  "commit_url": "https://github.com/ActivityWatch/activitywatch/commit/b1dbd358ef6e284baa33aa075a885716538f1e1a",
+  "tree_url": "https://github.com/ActivityWatch/activitywatch/tree/b1dbd358ef6e284baa33aa075a885716538f1e1a",
+  "analysed_at": "2026-11-14T19:08:10.115148+00:00",
+  "status": "completed",
+  "files_fetched": 112,
+  "files_analysed": 111,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry",
+    "Docker",
+    "pytest"
+  ],
+  "entry_points": [
+    "scripts/build_changelog.py",
+    "scripts/check_tauri_server.py",
+    "scripts/emit_research_category_preset.py",
+    "scripts/logcrawler.py",
+    "scripts/package/assert-windows-pe-arch.py",
+    "scripts/package/configure_tauri_release.py",
+    "scripts/package/generate_latest_json.py",
+    "scripts/package/publish_research_feed.py",
+    "scripts/patch_research_edition_awqt.py",
+    "scripts/patch_research_edition_config.py",
+    "scripts/patch_research_edition_export.py",
+    "scripts/patch_research_edition_profile.py"
+  ]
+}

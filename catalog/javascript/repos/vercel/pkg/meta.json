@@ -1,0 +1,52 @@
+{
+  "owner": "vercel",
+  "name": "pkg",
+  "full_name": "vercel/pkg",
+  "html_url": "https://github.com/vercel/pkg",
+  "description": "Package your Node.js project into an executable",
+  "stars": 24294,
+  "forks": 1074,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "binaries",
+    "cli",
+    "compiler",
+    "nodejs"
+  ],
+  "archived": true,
+  "commit_sha": "9066ceeb391d9c7ba6aba650109c2fa3f8e088eb",
+  "commit_url": "https://github.com/vercel/pkg/commit/9066ceeb391d9c7ba6aba650109c2fa3f8e088eb",
+  "tree_url": "https://github.com/vercel/pkg/tree/9066ceeb391d9c7ba6aba650109c2fa3f8e088eb",
+  "analysed_at": "2026-11-14T19:11:02.917368+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 703,
+  "components": [
+    "Configuration and deployment",
+    "dictionary package",
+    "lib package",
+    "prelude package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "examples/express/index.js",
+    "test/test-10-pnpm/test.js",
+    "test/test-11-pnpm/test.js",
+    "test/test-46-input-package-json-dir-scope/test-x-index.js",
+    "test/test-46-input-package-json-dir/test-x-index.js",
+    "test/test-46-input-package-json-outputdir/test-x-index.js",
+    "test/test-46-input-package-json-target/test-x-index.js",
+    "test/test-46-input-package-json/test-x-index.js",
+    "test/test-50-cannot-css-script/test-x-index.js",
+    "test/test-50-fs-runtime-layer/test-x-index.js",
+    "test/test-50-global-object/test-x-index.js",
+    "test/test-50-package-json-2/sub/test-x-index.js"
+  ]
+}

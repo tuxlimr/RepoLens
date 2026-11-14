@@ -1,0 +1,49 @@
+{
+  "owner": "pterodactyl",
+  "name": "panel",
+  "full_name": "pterodactyl/panel",
+  "html_url": "https://github.com/pterodactyl/panel",
+  "description": "Pterodactyl\u00ae is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive UI to end users.",
+  "stars": 9512,
+  "forks": 2750,
+  "license": "Other",
+  "language": "PHP",
+  "default_branch": "1.0-develop",
+  "topics": [
+    "docker",
+    "free",
+    "games",
+    "golang",
+    "laravel",
+    "management-system",
+    "mit",
+    "opensource",
+    "php",
+    "react",
+    "tailwindcss",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "90b2aa87469da4fffd941b3c99f3c1ca48a01b78",
+  "commit_url": "https://github.com/pterodactyl/panel/commit/90b2aa87469da4fffd941b3c99f3c1ca48a01b78",
+  "tree_url": "https://github.com/pterodactyl/panel/tree/90b2aa87469da4fffd941b3c99f3c1ca48a01b78",
+  "analysed_at": "2026-11-14T19:13:33.917142+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "API layer",
+    "app package",
+    "bootstrap package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Redis",
+    "Docker"
+  ],
+  "entry_points": []
+}

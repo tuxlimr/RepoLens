@@ -1,0 +1,47 @@
+{
+  "owner": "facebookarchive",
+  "name": "draft-js",
+  "full_name": "facebookarchive/draft-js",
+  "html_url": "https://github.com/facebookarchive/draft-js",
+  "description": "A React framework for building text editors.",
+  "stars": 22550,
+  "forks": 2586,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": true,
+  "commit_sha": "afdb5c3177c13fd26cb0abbdc439488f3e21b73b",
+  "commit_url": "https://github.com/facebookarchive/draft-js/commit/afdb5c3177c13fd26cb0abbdc439488f3e21b73b",
+  "tree_url": "https://github.com/facebookarchive/draft-js/tree/afdb5c3177c13fd26cb0abbdc439488f3e21b73b",
+  "analysed_at": "2026-11-14T19:11:08.115020+00:00",
+  "status": "completed",
+  "files_fetched": 442,
+  "files_analysed": 440,
+  "components": [
+    "API layer",
+    "component package",
+    "Configuration and deployment",
+    "Core modules",
+    "Draft.js package",
+    "flowlib package",
+    "__mocks__ package",
+    "model package",
+    "NonASCIIStringSnapshotSerializer.js package",
+    "scripts package",
+    "stubs package",
+    "util package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/draft-0-10-0/universal/index.js",
+    "website/src/pages/index.js"
+  ]
+}

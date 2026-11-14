@@ -1,0 +1,43 @@
+{
+  "owner": "pure-css",
+  "name": "pure",
+  "full_name": "pure-css/pure",
+  "html_url": "https://github.com/pure-css/pure",
+  "description": "A set of small, responsive CSS modules that you can use in every web project.",
+  "stars": 23716,
+  "forks": 2399,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "html",
+    "pure"
+  ],
+  "archived": false,
+  "commit_sha": "4e079fc499869dd8cb333c52a0bbfe5360514739",
+  "commit_url": "https://github.com/pure-css/pure/commit/4e079fc499869dd8cb333c52a0bbfe5360514739",
+  "tree_url": "https://github.com/pure-css/pure/tree/4e079fc499869dd8cb333c52a0bbfe5360514739",
+  "analysed_at": "2026-11-14T19:11:04.370738+00:00",
+  "status": "completed",
+  "files_fetched": 114,
+  "files_analysed": 113,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "scripts package",
+    "site package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js",
+    "site/src/index.js",
+    "site/src/pages/index.js"
+  ]
+}

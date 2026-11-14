@@ -1,0 +1,23 @@
+%% Repository: encode/httpx
+%% Analysed commit: b5addb64f0161ff6bfe94c124ef76f6a1fba5254
+%% Commit reference: https://github.com/encode/httpx/commit/b5addb64f0161ff6bfe94c124ef76f6a1fba5254
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        httpx["httpx package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| httpx
+    external_integrations -->|imports| httpx
+    httpx -->|imports| external_integrations
+    tests -->|imports| httpx

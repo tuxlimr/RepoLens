@@ -1,0 +1,31 @@
+{
+  "owner": "Yu9191",
+  "name": "wloc",
+  "full_name": "Yu9191/wloc",
+  "html_url": "https://github.com/Yu9191/wloc",
+  "description": "\u4fee\u6539 Apple \u7f51\u7edc\u5b9a\u4f4d\uff08gs-loc\uff09\u8fd4\u56de\u5750\u6807 \u00b7 \u652f\u6301 Surge / Quantumult X / Loon / Stash \u00b7 \u5feb\u6377\u6307\u4ee4\u4e00\u952e\u8bbe\u7f6e/\u6062\u590d\u5b9a\u4f4d",
+  "stars": 10825,
+  "forks": 2672,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "2644722da7f61256786686983b4fb8500904de8b",
+  "commit_url": "https://github.com/Yu9191/wloc/commit/2644722da7f61256786686983b4fb8500904de8b",
+  "tree_url": "https://github.com/Yu9191/wloc/tree/2644722da7f61256786686983b4fb8500904de8b",
+  "analysed_at": "2026-11-14T19:12:30.905681+00:00",
+  "status": "completed",
+  "files_fetched": 24,
+  "files_analysed": 20,
+  "components": [
+    "Configuration and deployment",
+    "Tests",
+    "worker package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "worker/src/index.js",
+    "worker/src/page.js"
+  ]
+}

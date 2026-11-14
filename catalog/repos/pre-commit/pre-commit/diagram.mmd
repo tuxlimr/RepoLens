@@ -1,0 +1,26 @@
+%% Repository: pre-commit/pre-commit
+%% Analysed commit: ba5c4209a6d561b0dff5db24620778d2133d068e
+%% Commit reference: https://github.com/pre-commit/pre-commit/commit/ba5c4209a6d561b0dff5db24620778d2133d068e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        pre_commit["pre_commit package"]
+        testing["testing package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| pre_commit
+    pre_commit -->|imports| entrypoint
+    testing -->|imports| pre_commit
+    tests -->|imports| entrypoint
+    tests -->|imports| pre_commit
+    tests -->|imports| testing

@@ -1,0 +1,34 @@
+{
+  "owner": "ruanyf",
+  "name": "es6tutorial",
+  "full_name": "ruanyf/es6tutorial",
+  "html_url": "https://github.com/ruanyf/es6tutorial",
+  "description": "\u300aECMAScript 6\u5165\u95e8\u300b\u662f\u4e00\u672c\u5f00\u6e90\u7684 JavaScript \u8bed\u8a00\u6559\u7a0b\uff0c\u5168\u9762\u4ecb\u7ecd ECMAScript 6 \u65b0\u589e\u7684\u8bed\u6cd5\u7279\u6027\u3002",
+  "stars": 21409,
+  "forks": 8813,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "gh-pages",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "d27a751258f25cb4d27de70161d3bcd7fe19251e",
+  "commit_url": "https://github.com/ruanyf/es6tutorial/commit/d27a751258f25cb4d27de70161d3bcd7fe19251e",
+  "tree_url": "https://github.com/ruanyf/es6tutorial/tree/d27a751258f25cb4d27de70161d3bcd7fe19251e",
+  "analysed_at": "2026-11-14T19:11:10.781538+00:00",
+  "status": "completed",
+  "files_fetched": 274,
+  "files_analysed": 274,
+  "components": [
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "app/bower_components/marked/lib/marked.js",
+    "app/bower_components/marked/bin/marked",
+    "app/bower_components/marked/index.js"
+  ]
+}

@@ -1,0 +1,27 @@
+%% Repository: emilkowalski/vaul
+%% Analysed commit: 3e97aac6a38e4481bade71d7233ed6002e80f9b0
+%% Commit reference: https://github.com/emilkowalski/vaul/commit/3e97aac6a38e4481bade71d7233ed6002e80f9b0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        browser_ts["browser.ts package"]
+        constants_ts["constants.ts package"]
+        context_ts["context.ts package"]
+        helpers_ts["helpers.ts package"]
+        index_tsx["index.tsx package"]
+        types_ts["types.ts package"]
+        use_composed_refs_ts["use-composed-refs.ts package"]
+        use_controllable_state_ts["use-controllable-state.ts package"]
+        use_position_fixed_ts["use-position-fixed.ts package"]
+        use_prevent_scroll_ts["use-prevent-scroll.ts package"]
+        use_scale_background_ts["use-scale-background.ts package"]
+        use_snap_points_ts["use-snap-points.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,16 @@
+%% Repository: vidstack/player
+%% Analysed commit: 0133da67e4f84a5aaad59c63853b12c6cda0a6a9
+%% Commit reference: https://github.com/vidstack/player/commit/0133da67e4f84a5aaad59c63853b12c6cda0a6a9
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

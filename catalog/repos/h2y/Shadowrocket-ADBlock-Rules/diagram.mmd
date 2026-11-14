@@ -1,0 +1,14 @@
+%% Repository: h2y/Shadowrocket-ADBlock-Rules
+%% Analysed commit: 1b691dc27ac483cfc0574c7559c6f9db9293c6f7
+%% Commit reference: https://github.com/h2y/Shadowrocket-ADBlock-Rules/commit/1b691dc27ac483cfc0574c7559c6f9db9293c6f7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        factory["factory package"]
+    end
+    factory -->|imports| external_integrations

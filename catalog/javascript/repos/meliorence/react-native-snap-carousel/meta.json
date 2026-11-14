@@ -1,0 +1,43 @@
+{
+  "owner": "meliorence",
+  "name": "react-native-snap-carousel",
+  "full_name": "meliorence/react-native-snap-carousel",
+  "html_url": "https://github.com/meliorence/react-native-snap-carousel",
+  "description": "Swiper/carousel component for React Native featuring previews, multiple layouts, parallax images, performant handling of huge numbers of items, and more. Compatible with Android & iOS.",
+  "stars": 10486,
+  "forks": 2257,
+  "license": "BSD-3-Clause",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "advanced-effects",
+    "carousel",
+    "flatlist-based",
+    "infinite-scroll",
+    "parallax-effect",
+    "swiper"
+  ],
+  "archived": false,
+  "commit_sha": "9c39995f4813f0e8ee1be7797512f4e89708167f",
+  "commit_url": "https://github.com/meliorence/react-native-snap-carousel/commit/9c39995f4813f0e8ee1be7797512f4e89708167f",
+  "tree_url": "https://github.com/meliorence/react-native-snap-carousel/tree/9c39995f4813f0e8ee1be7797512f4e89708167f",
+  "analysed_at": "2026-11-14T19:12:38.592044+00:00",
+  "status": "completed",
+  "files_fetched": 78,
+  "files_analysed": 78,
+  "components": [
+    "carousel package",
+    "Configuration and deployment",
+    "index.js package",
+    "pagination package",
+    "parallaximage package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "Jest"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

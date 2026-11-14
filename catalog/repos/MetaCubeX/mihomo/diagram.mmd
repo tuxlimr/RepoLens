@@ -1,0 +1,20 @@
+%% Repository: MetaCubeX/mihomo
+%% Analysed commit: 008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2
+%% Commit reference: https://github.com/MetaCubeX/mihomo/commit/008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        mihomo["mihomo package"]
+    end
+    data_layer -->|imports| mihomo
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| mihomo
+    mihomo -->|imports| data_layer

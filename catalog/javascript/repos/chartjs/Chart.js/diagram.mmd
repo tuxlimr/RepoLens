@@ -1,0 +1,32 @@
+%% Repository: chartjs/Chart.js
+%% Analysed commit: 71d44219e79e3ac41e6f9dc907022eebf574868d
+%% Commit reference: https://github.com/chartjs/Chart.js/commit/71d44219e79e3ac41e6f9dc907022eebf574868d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        auto["auto package"]
+        elements["elements package"]
+        helpers["helpers package"]
+        index_ts["index.ts package"]
+        index_umd_ts["index.umd.ts package"]
+        platform["platform package"]
+        plugins["plugins package"]
+        scales["scales package"]
+        scripts["scripts package"]
+        types["types package"]
+        types_ts["types.ts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,45 @@
+{
+  "owner": "youneslaaroussi",
+  "name": "ui-buttons",
+  "full_name": "youneslaaroussi/ui-buttons",
+  "html_url": "https://github.com/youneslaaroussi/ui-buttons",
+  "description": "100 Modern CSS Buttons. Every style that you can imagine.",
+  "stars": 3871,
+  "forks": 259,
+  "license": "MIT",
+  "language": "CSS",
+  "default_branch": "main",
+  "topics": [
+    "angular",
+    "awesome",
+    "awesome-list",
+    "css",
+    "design",
+    "design-system",
+    "first-timer-friendly",
+    "framework",
+    "free",
+    "frontend",
+    "npm",
+    "react",
+    "vue",
+    "web-design",
+    "web-development",
+    "webcomponents"
+  ],
+  "archived": false,
+  "commit_sha": "0d0f18ff90cc1e5ea4cbca16ca024bd538cddd6b",
+  "commit_url": "https://github.com/youneslaaroussi/ui-buttons/commit/0d0f18ff90cc1e5ea4cbca16ca024bd538cddd6b",
+  "tree_url": "https://github.com/youneslaaroussi/ui-buttons/tree/0d0f18ff90cc1e5ea4cbca16ca024bd538cddd6b",
+  "analysed_at": "2026-11-14T19:15:02.514516+00:00",
+  "status": "completed",
+  "files_fetched": 300,
+  "files_analysed": 300,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

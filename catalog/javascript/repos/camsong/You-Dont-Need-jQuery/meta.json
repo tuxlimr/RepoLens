@@ -1,0 +1,31 @@
+{
+  "owner": "camsong",
+  "name": "You-Dont-Need-jQuery",
+  "full_name": "camsong/You-Dont-Need-jQuery",
+  "html_url": "https://github.com/camsong/You-Dont-Need-jQuery",
+  "description": "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
+  "stars": 20106,
+  "forks": 1700,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "ebdcec86e906c670ec07dd0260a6d6f0ab8a073c",
+  "commit_url": "https://github.com/camsong/You-Dont-Need-jQuery/commit/ebdcec86e906c670ec07dd0260a6d6f0ab8a073c",
+  "tree_url": "https://github.com/camsong/You-Dont-Need-jQuery/tree/ebdcec86e906c670ec07dd0260a6d6f0ab8a073c",
+  "analysed_at": "2026-11-14T19:11:15.237859+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 29,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vitest"
+  ],
+  "entry_points": []
+}

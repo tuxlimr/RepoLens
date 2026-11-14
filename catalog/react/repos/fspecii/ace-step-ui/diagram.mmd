@@ -1,0 +1,29 @@
+%% Repository: fspecii/ace-step-ui
+%% Analysed commit: a1fdf91829ec6f7b98844f80e323529cd155dbf2
+%% Commit reference: https://github.com/fspecii/ace-step-ui/commit/a1fdf91829ec6f7b98844f80e323529cd155dbf2
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        audiomass_editor["audiomass-editor package"]
+        components["components package"]
+        context["context package"]
+        i18n["i18n package"]
+        server["server package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

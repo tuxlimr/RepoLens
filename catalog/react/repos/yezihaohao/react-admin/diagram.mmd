@@ -1,0 +1,28 @@
+%% Repository: yezihaohao/react-admin
+%% Analysed commit: cfaaa12a98a5fbc5fc77a1a5ccb8a85c6a2839fd
+%% Commit reference: https://github.com/yezihaohao/react-admin/commit/cfaaa12a98a5fbc5fc77a1a5ccb8a85c6a2839fd
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app_test_tsx["App.test.tsx package"]
+        app_tsx["App.tsx package"]
+        components["components package"]
+        index_tsx["index.tsx package"]
+        page_tsx["Page.tsx package"]
+        react_app_env_d_ts["react-app-env.d.ts package"]
+        scripts["scripts package"]
+        serviceworker_ts["serviceWorker.ts package"]
+        style["style package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

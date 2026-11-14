@@ -1,0 +1,28 @@
+%% Repository: OpenBMB/VoxCPM
+%% Analysed commit: 300e4260b509066151d623dc9c0aa922cf82232b
+%% Commit reference: https://github.com/OpenBMB/VoxCPM/commit/300e4260b509066151d623dc9c0aa922cf82232b
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        voxcpm["voxcpm package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| config
+    data_layer -->|imports| voxcpm
+    entrypoint -->|imports| config
+    entrypoint -->|imports| core
+    entrypoint -->|imports| voxcpm
+    tests -->|imports| voxcpm

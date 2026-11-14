@@ -1,0 +1,30 @@
+{
+  "owner": "sparksuite",
+  "name": "simplemde-markdown-editor",
+  "full_name": "sparksuite/simplemde-markdown-editor",
+  "html_url": "https://github.com/sparksuite/simplemde-markdown-editor",
+  "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Delightful editing for beginners and experts alike. Features built-in autosaving and spell checking.",
+  "stars": 10137,
+  "forks": 1087,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6abda7ab68cc20f4aca870eb243747951b90ab04",
+  "commit_url": "https://github.com/sparksuite/simplemde-markdown-editor/commit/6abda7ab68cc20f4aca870eb243747951b90ab04",
+  "tree_url": "https://github.com/sparksuite/simplemde-markdown-editor/tree/6abda7ab68cc20f4aca870eb243747951b90ab04",
+  "analysed_at": "2026-11-14T19:12:44.444299+00:00",
+  "status": "completed",
+  "files_fetched": 14,
+  "files_analysed": 13,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "src/js/simplemde.js"
+  ]
+}

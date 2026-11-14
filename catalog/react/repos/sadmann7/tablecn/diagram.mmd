@@ -1,0 +1,32 @@
+%% Repository: sadmann7/tablecn
+%% Analysed commit: 44ac3879d0db81e92c011971cb43261fbbdc059a
+%% Commit reference: https://github.com/sadmann7/tablecn/commit/44ac3879d0db81e92c011971cb43261fbbdc059a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        e2e["e2e package"]
+        env_ts["env.ts package"]
+        hooks["hooks package"]
+        lib["lib package"]
+        lint["lint package"]
+        party["party package"]
+        public["public package"]
+        registry["registry package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,18 @@
+%% Repository: hackerkid/Mind-Expanding-Books
+%% Analysed commit: 2844c5ad5e1f4da8a637c74503763a2cb56f5550
+%% Commit reference: https://github.com/hackerkid/Mind-Expanding-Books/commit/2844c5ad5e1f4da8a637c74503763a2cb56f5550
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app["app package"]
+        utils["utils package"]
+    end
+    utils -->|imports| external_integrations

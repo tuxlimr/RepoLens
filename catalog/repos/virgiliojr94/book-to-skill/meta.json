@@ -1,0 +1,59 @@
+{
+  "owner": "virgiliojr94",
+  "name": "book-to-skill",
+  "full_name": "virgiliojr94/book-to-skill",
+  "html_url": "https://github.com/virgiliojr94/book-to-skill",
+  "description": "Turn any technical book PDF into a Claude Code skill \u2014 ready to study, reference, and use while you work.",
+  "stars": 37865,
+  "forks": 4029,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "agent-skills",
+    "ai-agents",
+    "book-to-skill",
+    "context-engineering",
+    "document-processing",
+    "edtech",
+    "knowledge-base",
+    "knowledge-management",
+    "llm",
+    "pdf-to-markdown",
+    "rag",
+    "self-study",
+    "study-tools"
+  ],
+  "archived": false,
+  "commit_sha": "e7bb659d3261491c8b28793dcb9102fa64a46c22",
+  "commit_url": "https://github.com/virgiliojr94/book-to-skill/commit/e7bb659d3261491c8b28793dcb9102fa64a46c22",
+  "tree_url": "https://github.com/virgiliojr94/book-to-skill/tree/e7bb659d3261491c8b28793dcb9102fa64a46c22",
+  "analysed_at": "2026-11-14T19:06:47.251900+00:00",
+  "status": "completed",
+  "files_fetched": 134,
+  "files_analysed": 134,
+  "components": [
+    "book_to_skill package",
+    "Configuration and deployment",
+    "Application entry point",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "book_to_skill/__main__.py",
+    "book_to_skill/cli.py",
+    "scripts/extract.py",
+    "tools/discovery_tax.py",
+    "tools/evals/manifest.py",
+    "tools/evals/paper_flat.py",
+    "tools/evals/replay.py",
+    "tools/scan_generated_skill.py",
+    "tools/validate_skill.py"
+  ]
+}

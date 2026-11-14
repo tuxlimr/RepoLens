@@ -1,0 +1,58 @@
+{
+  "owner": "ddbourgin",
+  "name": "numpy-ml",
+  "full_name": "ddbourgin/numpy-ml",
+  "html_url": "https://github.com/ddbourgin/numpy-ml",
+  "description": "Machine learning, in numpy",
+  "stars": 16322,
+  "forks": 3730,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "attention",
+    "bayesian-inference",
+    "gaussian-mixture-models",
+    "gaussian-processes",
+    "good-turing-smoothing",
+    "gradient-boosting",
+    "hidden-markov-models",
+    "knn",
+    "lstm",
+    "machine-learning",
+    "mfcc",
+    "neural-networks",
+    "reinforcement-learning",
+    "resnet",
+    "topic-modeling",
+    "vae",
+    "wavenet",
+    "wgan-gp",
+    "word2vec"
+  ],
+  "archived": false,
+  "commit_sha": "b0359af5285fbf9699d64fd5ec059493228af03e",
+  "commit_url": "https://github.com/ddbourgin/numpy-ml/commit/b0359af5285fbf9699d64fd5ec059493228af03e",
+  "tree_url": "https://github.com/ddbourgin/numpy-ml/tree/b0359af5285fbf9699d64fd5ec059493228af03e",
+  "analysed_at": "2026-11-14T19:08:49.653177+00:00",
+  "status": "completed",
+  "files_fetched": 195,
+  "files_analysed": 195,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "numpy_ml package",
+    "Tests"
+  ],
+  "detections": [
+    "NumPy",
+    "pandas",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "numpy_ml/plots/nn_activations_plots.py",
+    "numpy_ml/plots/nn_schedulers_plots.py"
+  ]
+}

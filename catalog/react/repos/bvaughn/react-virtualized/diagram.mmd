@@ -1,0 +1,30 @@
+%% Repository: bvaughn/react-virtualized
+%% Analysed commit: d54281d5d4f0e93746009a5513ce350ced8ef4bf
+%% Commit reference: https://github.com/bvaughn/react-virtualized/commit/d54281d5d4f0e93746009a5513ce350ced8ef4bf
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app_tsx["App.tsx package"]
+        codemods["codemods package"]
+        components["components package"]
+        constants_ts["constants.ts package"]
+        lib["lib package"]
+        routes_ts["routes.ts package"]
+        scripts["scripts package"]
+        utils["utils package"]
+        vite_env_d_ts["vite-env.d.ts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

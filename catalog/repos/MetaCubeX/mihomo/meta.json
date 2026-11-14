@@ -1,0 +1,40 @@
+{
+  "owner": "MetaCubeX",
+  "name": "mihomo",
+  "full_name": "MetaCubeX/mihomo",
+  "html_url": "https://github.com/MetaCubeX/mihomo",
+  "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
+  "stars": 35765,
+  "forks": 4774,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "honkai-star-rail",
+    "mihomo",
+    "python",
+    "star-rail-api"
+  ],
+  "archived": false,
+  "commit_sha": "008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2",
+  "commit_url": "https://github.com/MetaCubeX/mihomo/commit/008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2",
+  "tree_url": "https://github.com/MetaCubeX/mihomo/tree/008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2",
+  "analysed_at": "2026-11-14T19:06:54.845533+00:00",
+  "status": "completed",
+  "files_fetched": 30,
+  "files_analysed": 30,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "External integrations",
+    "mihomo package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "Pydantic",
+    "Poetry",
+    "setuptools"
+  ],
+  "entry_points": []
+}

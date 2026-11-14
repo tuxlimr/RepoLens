@@ -1,0 +1,63 @@
+{
+  "owner": "searx",
+  "name": "searx",
+  "full_name": "searx/searx",
+  "html_url": "https://github.com/searx/searx",
+  "description": "Privacy-respecting metasearch engine",
+  "stars": 13566,
+  "forks": 1685,
+  "license": "AGPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "metasearch",
+    "metasearch-engine",
+    "python",
+    "search",
+    "search-engine"
+  ],
+  "archived": false,
+  "commit_sha": "00abe3df3857f70875543e766223bc7bc0ccce93",
+  "commit_url": "https://github.com/searx/searx/commit/00abe3df3857f70875543e766223bc7bc0ccce93",
+  "tree_url": "https://github.com/searx/searx/tree/00abe3df3857f70875543e766223bc7bc0ccce93",
+  "analysed_at": "2026-11-14T19:09:47.278873+00:00",
+  "status": "completed",
+  "files_fetched": 575,
+  "files_analysed": 567,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "dockerfiles package",
+    "Application entry point",
+    "External integrations",
+    "searx package",
+    "searx_extra package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Redis",
+    "SQLite",
+    "Flask",
+    "requests",
+    "setuptools",
+    "Docker",
+    "unittest"
+  ],
+  "entry_points": [
+    "searx/search/checker/__main__.py",
+    "searx/testing.py",
+    "searx/webapp.py",
+    "searx_extra/standalone_searx.py",
+    "searx_extra/update/update_currencies.py",
+    "searx_extra/update/update_engine_descriptions.py",
+    "searx_extra/update/update_external_bangs.py",
+    "searx_extra/update/update_languages.py",
+    "searx_extra/update/update_osm_keys_tags.py",
+    "searx_extra/update/update_pygments.py"
+  ]
+}

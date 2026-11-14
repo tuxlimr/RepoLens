@@ -1,0 +1,62 @@
+{
+  "owner": "multimodal-art-projection",
+  "name": "YuE",
+  "full_name": "multimodal-art-projection/YuE",
+  "html_url": "https://github.com/multimodal-art-projection/YuE",
+  "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+  "stars": 13483,
+  "forks": 1558,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "audio-generation",
+    "deep-learning",
+    "foundation-models",
+    "gpt",
+    "huggingface",
+    "llama",
+    "llms",
+    "music-generation",
+    "style-transfers",
+    "voice-cloning"
+  ],
+  "archived": false,
+  "commit_sha": "1116bea76032bee5668e5f097294d082fa0b84f0",
+  "commit_url": "https://github.com/multimodal-art-projection/YuE/commit/1116bea76032bee5668e5f097294d082fa0b84f0",
+  "tree_url": "https://github.com/multimodal-art-projection/YuE/tree/1116bea76032bee5668e5f097294d082fa0b84f0",
+  "analysed_at": "2026-11-14T19:09:48.715772+00:00",
+  "status": "completed",
+  "files_fetched": 126,
+  "files_analysed": 126,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "skills package",
+    "Tests",
+    "yue2 package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/yue2/cli.py",
+    "src/yue2/fast.py",
+    "skills/yue2-music/instrumental/scripts/abc_tools.py",
+    "skills/yue2-music/instrumental/scripts/compile_score.py",
+    "skills/yue2-music/instrumental/scripts/instrumental.py",
+    "skills/yue2-music/instrumental/scripts/instrumentalize.py",
+    "skills/yue2-music/instrumental/scripts/setup_runtime.py",
+    "skills/yue2-music/instrumental/scripts/transcribe_cover.py",
+    "skills/yue2-music/instrumental/scripts/verify_bundle.py",
+    "skills/yue2-music/scripts/abc_tools.py",
+    "skills/yue2-music/scripts/listen.py",
+    "skills/yue2-music/scripts/run_yue2.py"
+  ]
+}

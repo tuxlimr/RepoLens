@@ -1,0 +1,30 @@
+%% Repository: CloakHQ/CloakBrowser
+%% Analysed commit: 0c110fab97ee98d7d4ba6c4f53d909cee08e92b6
+%% Commit reference: https://github.com/CloakHQ/CloakBrowser/commit/0c110fab97ee98d7d4ba6c4f53d909cee08e92b6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        cloakbrowser["cloakbrowser package"]
+        dotnet["dotnet package"]
+        js["js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    cloakbrowser -->|imports| config
+    cloakbrowser -->|imports| external_integrations
+    entrypoint -->|imports| cloakbrowser
+    entrypoint -->|imports| config
+    tests -->|imports| cloakbrowser
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

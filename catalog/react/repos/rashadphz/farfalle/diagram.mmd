@@ -1,0 +1,33 @@
+%% Repository: rashadphz/farfalle
+%% Analysed commit: a9dd4939d21f4da6bb3ef7de138caba0f2ffab13
+%% Commit reference: https://github.com/rashadphz/farfalle/commit/a9dd4939d21f4da6bb3ef7de138caba0f2ffab13
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        docker_scripts["docker-scripts package"]
+        frontend["frontend package"]
+        init_py["__init__.py package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    backend -->|imports| data_layer
+    backend -->|imports| external_integrations
+    backend -->|imports| service_layer
+    data_layer -->|imports| backend
+    entrypoint -->|imports| backend
+    entrypoint -->|imports| data_layer
+    service_layer -->|imports| backend
+    service_layer -->|imports| data_layer

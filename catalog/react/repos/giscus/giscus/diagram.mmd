@@ -1,0 +1,22 @@
+%% Repository: giscus/giscus
+%% Analysed commit: 3d6430237108ca4ee3eb6a1a20595201c09c72d5
+%% Commit reference: https://github.com/giscus/giscus/commit/3d6430237108ca4ee3eb6a1a20595201c09c72d5
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        components["components package"]
+        lib["lib package"]
+        pages["pages package"]
+        styles["styles package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

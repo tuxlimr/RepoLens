@@ -1,0 +1,17 @@
+%% Repository: 0xAX/linux-insides
+%% Analysed commit: 4fa356494fa6de2143dbfbd729e66bf469439ca3
+%% Commit reference: https://github.com/0xAX/linux-insides/commit/4fa356494fa6de2143dbfbd729e66bf469439ca3
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+    end
+    entrypoint -->|imports| external_integrations

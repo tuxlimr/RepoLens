@@ -1,0 +1,56 @@
+{
+  "owner": "Splidejs",
+  "name": "splide",
+  "full_name": "Splidejs/splide",
+  "html_url": "https://github.com/Splidejs/splide",
+  "description": "Splide is a lightweight, flexible and accessible slider/carousel written in TypeScript. No dependencies, no Lighthouse errors.",
+  "stars": 5367,
+  "forks": 445,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "autoplay",
+    "breakpoints",
+    "carousel",
+    "drag",
+    "gallery",
+    "javascript",
+    "lazy-loading",
+    "lightweight",
+    "react",
+    "slider",
+    "svelte",
+    "swipe",
+    "typescript",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "d7e1f08e6b4f4b02a7c6ccbfbeb2d569d85715e6",
+  "commit_url": "https://github.com/Splidejs/splide/commit/d7e1f08e6b4f4b02a7c6ccbfbeb2d569d85715e6",
+  "tree_url": "https://github.com/Splidejs/splide/tree/d7e1f08e6b4f4b02a7c6ccbfbeb2d569d85715e6",
+  "analysed_at": "2026-11-14T19:14:21.531989+00:00",
+  "status": "completed",
+  "files_fetched": 340,
+  "files_analysed": 327,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "js package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/js/components/index.ts",
+    "src/js/constructors/index.ts",
+    "src/js/index.ts",
+    "src/js/transitions/index.ts",
+    "src/js/types/index.ts",
+    "src/js/utils/index.ts"
+  ]
+}

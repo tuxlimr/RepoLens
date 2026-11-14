@@ -1,0 +1,49 @@
+{
+  "owner": "octokatherine",
+  "name": "readme.so",
+  "full_name": "octokatherine/readme.so",
+  "html_url": "https://github.com/octokatherine/readme.so",
+  "description": "An online drag-and-drop editor to easily build READMEs",
+  "stars": 4634,
+  "forks": 362,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "markdown",
+    "nextjs",
+    "react",
+    "tailwindcss"
+  ],
+  "archived": false,
+  "commit_sha": "90420ff0f33d1ef0e9cf4fd67515662ab626acee",
+  "commit_url": "https://github.com/octokatherine/readme.so/commit/90420ff0f33d1ef0e9cf4fd67515662ab626acee",
+  "tree_url": "https://github.com/octokatherine/readme.so/tree/90420ff0f33d1ef0e9cf4fd67515662ab626acee",
+  "analysed_at": "2026-11-14T19:14:40.265373+00:00",
+  "status": "completed",
+  "files_fetched": 117,
+  "files_analysed": 117,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "hooks package",
+    "pages package",
+    "__tests__ package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Docker",
+    "Docker Compose",
+    "Jest"
+  ],
+  "entry_points": [
+    "data/index.js",
+    "pages/index.js"
+  ]
+}

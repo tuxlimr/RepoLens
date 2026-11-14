@@ -1,0 +1,55 @@
+%% Repository: sansan0/TrendRadar
+%% Analysed commit: 8a316628215c53ad34b7200ecb0fba76de3ef6c7
+%% Commit reference: https://github.com/sansan0/TrendRadar/commit/8a316628215c53ad34b7200ecb0fba76de3ef6c7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        mcp_server["mcp_server package"]
+        trendradar["trendradar package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| trendradar
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| mcp_server
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| trendradar
+    mcp_server -->|imports| data_layer
+    mcp_server -->|imports| external_integrations
+    mcp_server -->|imports| service_layer
+    mcp_server -->|imports| trendradar
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| mcp_server
+    service_layer -->|imports| trendradar
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| mcp_server
+    tests -->|imports| service_layer
+    tests -->|imports| trendradar
+    trendradar -->|imports| config
+    trendradar -->|imports| data_layer
+    trendradar -->|imports| external_integrations
+    trendradar -->|imports| service_layer

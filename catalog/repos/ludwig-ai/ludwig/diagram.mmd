@@ -1,0 +1,32 @@
+%% Repository: ludwig-ai/ludwig
+%% Analysed commit: b16404c1e985a23f2b7c0246228c4fc85b7cf406
+%% Commit reference: https://github.com/ludwig-ai/ludwig/commit/b16404c1e985a23f2b7c0246228c4fc85b7cf406
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        ludwig["ludwig package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| ludwig
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| ludwig
+    ludwig -->|imports| data_layer
+    ludwig -->|imports| entrypoint
+    ludwig -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| ludwig

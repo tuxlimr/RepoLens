@@ -1,0 +1,28 @@
+{
+  "owner": "wagerfield",
+  "name": "parallax",
+  "full_name": "wagerfield/parallax",
+  "html_url": "https://github.com/wagerfield/parallax",
+  "description": "Parallax Engine that reacts to the orientation of a smart device",
+  "stars": 16570,
+  "forks": 2079,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "04e53e94665dd55181f8d54312a9a9e63fef52ab",
+  "commit_url": "https://github.com/wagerfield/parallax/commit/04e53e94665dd55181f8d54312a9a9e63fef52ab",
+  "tree_url": "https://github.com/wagerfield/parallax/tree/04e53e94665dd55181f8d54312a9a9e63fef52ab",
+  "analysed_at": "2026-11-14T19:11:31.600117+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "parallax.js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

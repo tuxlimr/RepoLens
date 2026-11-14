@@ -1,0 +1,44 @@
+{
+  "owner": "bailicangdu",
+  "name": "vue2-happyfri",
+  "full_name": "bailicangdu/vue2-happyfri",
+  "html_url": "https://github.com/bailicangdu/vue2-happyfri",
+  "description": "vue2 + vue-router + vuex  \u5165\u95e8\u9879\u76ee",
+  "stars": 10527,
+  "forks": 2841,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "ac17b45a11b5d7abcf6a0f446d7844decd9fc7d8",
+  "commit_url": "https://github.com/bailicangdu/vue2-happyfri/commit/ac17b45a11b5d7abcf6a0f446d7844decd9fc7d8",
+  "tree_url": "https://github.com/bailicangdu/vue2-happyfri/tree/ac17b45a11b5d7abcf6a0f446d7844decd9fc7d8",
+  "analysed_at": "2026-11-14T19:12:37.788381+00:00",
+  "status": "completed",
+  "files_fetched": 33,
+  "files_analysed": 26,
+  "components": [
+    "App.vue package",
+    "components package",
+    "Configuration and deployment",
+    "happyfri package",
+    "main.js package",
+    "page package",
+    "router package",
+    "store package"
+  ],
+  "detections": [
+    "Express",
+    "Vue",
+    "webpack"
+  ],
+  "entry_points": [
+    "config/index.js",
+    "happyfri/static/js/app.js",
+    "src/main.js",
+    "src/store/index.js"
+  ]
+}

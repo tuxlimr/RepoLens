@@ -1,0 +1,53 @@
+{
+  "owner": "huggingface",
+  "name": "sentence-transformers",
+  "full_name": "huggingface/sentence-transformers",
+  "html_url": "https://github.com/huggingface/sentence-transformers",
+  "description": "State-of-the-Art Embeddings, Retrieval, and Reranking",
+  "stars": 19285,
+  "forks": 3022,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "688fd663e7b242f41f3f62296d08c69937efeb00",
+  "commit_url": "https://github.com/huggingface/sentence-transformers/commit/688fd663e7b242f41f3f62296d08c69937efeb00",
+  "tree_url": "https://github.com/huggingface/sentence-transformers/tree/688fd663e7b242f41f3f62296d08c69937efeb00",
+  "analysed_at": "2026-11-14T19:08:14.152887+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "sentence_transformers package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "NumPy",
+    "pandas",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "skills/train-sentence-transformers/scripts/mine_hard_negatives.py",
+    "skills/train-sentence-transformers/scripts/train_cross_encoder_distillation_example.py",
+    "skills/train-sentence-transformers/scripts/train_cross_encoder_example.py",
+    "skills/train-sentence-transformers/scripts/train_cross_encoder_listwise_example.py",
+    "skills/train-sentence-transformers/scripts/train_multi_vector_encoder_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_distillation_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_make_multilingual_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_matryoshka_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_multi_dataset_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_static_embedding_example.py",
+    "skills/train-sentence-transformers/scripts/train_sentence_transformer_with_lora_example.py"
+  ]
+}

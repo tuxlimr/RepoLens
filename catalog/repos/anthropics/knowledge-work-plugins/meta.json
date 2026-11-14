@@ -1,0 +1,47 @@
+{
+  "owner": "anthropics",
+  "name": "knowledge-work-plugins",
+  "full_name": "anthropics/knowledge-work-plugins",
+  "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+  "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+  "stars": 35776,
+  "forks": 3961,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "e91a134584eb798bac7fb0379358006a2b63b965",
+  "commit_url": "https://github.com/anthropics/knowledge-work-plugins/commit/e91a134584eb798bac7fb0379358006a2b63b965",
+  "tree_url": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965",
+  "analysed_at": "2026-11-14T19:06:55.145133+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "bio-research package",
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests"
+  ],
+  "entry_points": [
+    "bio-research/skills/instrument-data-to-allotrope/scripts/convert_to_asm.py",
+    "bio-research/skills/instrument-data-to-allotrope/scripts/export_parser.py",
+    "bio-research/skills/instrument-data-to-allotrope/scripts/flatten_asm.py",
+    "bio-research/skills/instrument-data-to-allotrope/scripts/validate_asm.py",
+    "bio-research/skills/nextflow-development/scripts/check_environment.py",
+    "bio-research/skills/nextflow-development/scripts/detect_data_type.py",
+    "bio-research/skills/nextflow-development/scripts/generate_samplesheet.py",
+    "bio-research/skills/nextflow-development/scripts/manage_genomes.py",
+    "bio-research/skills/nextflow-development/scripts/sra_geo_fetch.py",
+    "bio-research/skills/scvi-tools/scripts/cluster_embed.py",
+    "bio-research/skills/scvi-tools/scripts/differential_expression.py",
+    "bio-research/skills/scvi-tools/scripts/integrate_datasets.py"
+  ]
+}

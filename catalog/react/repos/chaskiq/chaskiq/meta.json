@@ -1,0 +1,56 @@
+{
+  "owner": "chaskiq",
+  "name": "chaskiq",
+  "full_name": "chaskiq/chaskiq",
+  "html_url": "https://github.com/chaskiq/chaskiq",
+  "description": "A full featured Live Chat, Support & Marketing platform, alternative to Intercom, Drift, Crisp.",
+  "stars": 3584,
+  "forks": 510,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "chat",
+    "chatbot",
+    "graphql",
+    "helpdesk",
+    "knowledge-base",
+    "livechat",
+    "livechat-bot",
+    "livechat-integration",
+    "messenger",
+    "messenger-chatbots",
+    "messenger-platform",
+    "newsletter-management",
+    "rails",
+    "react",
+    "support-ticket",
+    "tour-guide-app",
+    "webchat",
+    "widget"
+  ],
+  "archived": false,
+  "commit_sha": "46dfdd11c63c6849ecde16a0dcc54d388e2613a3",
+  "commit_url": "https://github.com/chaskiq/chaskiq/commit/46dfdd11c63c6849ecde16a0dcc54d388e2613a3",
+  "tree_url": "https://github.com/chaskiq/chaskiq/tree/46dfdd11c63c6849ecde16a0dcc54d388e2613a3",
+  "analysed_at": "2026-11-14T19:15:15.003569+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "app package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": [
+    "app/javascript/src/App.tsx"
+  ]
+}

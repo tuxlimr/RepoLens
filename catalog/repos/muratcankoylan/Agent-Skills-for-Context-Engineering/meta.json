@@ -1,0 +1,52 @@
+{
+  "owner": "muratcankoylan",
+  "name": "Agent-Skills-for-Context-Engineering",
+  "full_name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+  "html_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+  "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+  "stars": 18345,
+  "forks": 1512,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "9ff0c99108b36d3b886defd825d8ac1f47dba374",
+  "commit_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/commit/9ff0c99108b36d3b886defd825d8ac1f47dba374",
+  "tree_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/9ff0c99108b36d3b886defd825d8ac1f47dba374",
+  "analysed_at": "2026-11-14T19:08:24.830114+00:00",
+  "status": "completed",
+  "files_fetched": 489,
+  "files_analysed": 486,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "researcher package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "TypeScript",
+    "unittest",
+    "Vitest"
+  ],
+  "entry_points": [
+    "researcher/scripts/build_inventory.py",
+    "researcher/scripts/check_activation_cases.py",
+    "researcher/scripts/compare_skill_revisions.py",
+    "researcher/scripts/loop_daily.py",
+    "researcher/scripts/loop_discover.py",
+    "researcher/scripts/loop_status.py",
+    "researcher/scripts/loop_step.py",
+    "researcher/scripts/migrate_legacy.py",
+    "researcher/scripts/novelty_check.py",
+    "researcher/scripts/render_router_report.py",
+    "researcher/scripts/research_loop.py",
+    "researcher/scripts/run_benchmarks.py"
+  ]
+}

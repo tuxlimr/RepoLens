@@ -1,0 +1,58 @@
+{
+  "owner": "jaredpalmer",
+  "name": "the-platform",
+  "full_name": "jaredpalmer/the-platform",
+  "html_url": "https://github.com/jaredpalmer/the-platform",
+  "description": "Web. Components. \ud83d\ude02",
+  "stars": 4368,
+  "forks": 105,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "hooks",
+    "react",
+    "react-hooks",
+    "react-suspense",
+    "suspense"
+  ],
+  "archived": false,
+  "commit_sha": "e1ee9e1544eba46b6a2430a4189aa1c690ab0b7a",
+  "commit_url": "https://github.com/jaredpalmer/the-platform/commit/e1ee9e1544eba46b6a2430a4189aa1c690ab0b7a",
+  "tree_url": "https://github.com/jaredpalmer/the-platform/tree/e1ee9e1544eba46b6a2430a4189aa1c690ab0b7a",
+  "analysed_at": "2026-11-14T19:14:47.913546+00:00",
+  "status": "completed",
+  "files_fetched": 46,
+  "files_analysed": 39,
+  "components": [
+    "Audio.tsx package",
+    "Configuration and deployment",
+    "createResource.tsx package",
+    "Img.tsx package",
+    "index.tsx package",
+    "Preload.tsx package",
+    "Script.tsx package",
+    "Stylesheet.tsx package",
+    "Tests",
+    "typings package",
+    "useDeviceMotion.tsx package",
+    "useDeviceOrientation.tsx package",
+    "useGeoPosition.tsx package",
+    "useIntersectionObserver.tsx package",
+    "useMedia.tsx package",
+    "useNetworkStatus.tsx package",
+    "useWindowScrollPosition.tsx package",
+    "useWindowSize.tsx package",
+    "utils.tsx package",
+    "Video.tsx package"
+  ],
+  "detections": [
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "example/index.js",
+    "src/index.tsx"
+  ]
+}

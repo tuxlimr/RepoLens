@@ -1,0 +1,54 @@
+{
+  "owner": "piskelapp",
+  "name": "piskel",
+  "full_name": "piskelapp/piskel",
+  "html_url": "https://github.com/piskelapp/piskel",
+  "description": "A simple web-based tool for Spriting and Pixel art.",
+  "stars": 12987,
+  "forks": 937,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "canvas",
+    "gif",
+    "javascript",
+    "pixel-art",
+    "spritesheet"
+  ],
+  "archived": false,
+  "commit_sha": "e394f4fd3b382a0412aab078d1b88b2899d3b8ea",
+  "commit_url": "https://github.com/piskelapp/piskel/commit/e394f4fd3b382a0412aab078d1b88b2899d3b8ea",
+  "tree_url": "https://github.com/piskelapp/piskel/tree/e394f4fd3b382a0412aab078d1b88b2899d3b8ea",
+  "analysed_at": "2026-11-14T19:12:02.212777+00:00",
+  "status": "completed",
+  "files_fetched": 547,
+  "files_analysed": 547,
+  "components": [
+    "bin package",
+    "cli package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "js package",
+    "misc package",
+    "piskel-boot.js package",
+    "piskel-script-list.js package",
+    "piskel-style-list.js package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests",
+    "vite-plugins package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "misc/scripts/piskel-root",
+    "cli/index.js",
+    "misc/proto-ui-1/main.js",
+    "src/js/app.js"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "owner": "GoogleChrome",
+  "name": "workbox",
+  "full_name": "GoogleChrome/workbox",
+  "html_url": "https://github.com/GoogleChrome/workbox",
+  "description": "\ud83d\udce6 Workbox: JavaScript libraries for Progressive Web Apps",
+  "stars": 13049,
+  "forks": 890,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "v7",
+  "topics": [
+    "offline-first",
+    "progressive-web-app",
+    "service-worker",
+    "service-workers",
+    "sw-precache",
+    "sw-toolbox"
+  ],
+  "archived": false,
+  "commit_sha": "4ea3138a120fd2c87389b54130e25f47e0fd7089",
+  "commit_url": "https://github.com/GoogleChrome/workbox/commit/4ea3138a120fd2c87389b54130e25f47e0fd7089",
+  "tree_url": "https://github.com/GoogleChrome/workbox/tree/4ea3138a120fd2c87389b54130e25f47e0fd7089",
+  "analysed_at": "2026-11-14T19:12:01.668463+00:00",
+  "status": "completed",
+  "files_fetched": 734,
+  "files_analysed": 717,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "demos package",
+    "gulp-tasks package",
+    "infra package",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "demos/src/workbox-cacheable-response/server.js",
+    "demos/src/workbox-streams/server.js",
+    "infra/testing/server/index.js",
+    "packages/workbox-background-sync/src/index.ts",
+    "packages/workbox-broadcast-update/src/index.ts",
+    "packages/workbox-build/src/index.ts",
+    "packages/workbox-cacheable-response/src/index.ts",
+    "packages/workbox-cli/src/app.ts",
+    "packages/workbox-core/src/index.ts",
+    "packages/workbox-expiration/src/index.ts",
+    "packages/workbox-google-analytics/src/index.ts",
+    "packages/workbox-navigation-preload/src/index.ts"
+  ]
+}

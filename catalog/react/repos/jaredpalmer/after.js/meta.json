@@ -1,0 +1,51 @@
+{
+  "owner": "jaredpalmer",
+  "name": "after.js",
+  "full_name": "jaredpalmer/after.js",
+  "html_url": "https://github.com/jaredpalmer/after.js",
+  "description": "Next.js-like framework for server-rendered React apps built with React Router",
+  "stars": 4088,
+  "forks": 193,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "razzle",
+    "react",
+    "react-router",
+    "server-side-rendering",
+    "ssr",
+    "webpack"
+  ],
+  "archived": false,
+  "commit_sha": "dbc362fa9b7204349e2d8fdc8c7ea4d80132faf7",
+  "commit_url": "https://github.com/jaredpalmer/after.js/commit/dbc362fa9b7204349e2d8fdc8c7ea4d80132faf7",
+  "tree_url": "https://github.com/jaredpalmer/after.js/tree/dbc362fa9b7204349e2d8fdc8c7ea4d80132faf7",
+  "analysed_at": "2026-11-14T19:14:53.879264+00:00",
+  "status": "completed",
+  "files_fetched": 241,
+  "files_analysed": 241,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "React",
+    "React Router",
+    "Redux",
+    "TypeScript",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/create-after-app/index.js",
+    "packages/create-after-app/bin/create-after-app",
+    "packages/after.js/src/index.tsx",
+    "packages/babel-plugin-after/src/index.js",
+    "packages/create-after-app/lib/index.js"
+  ]
+}

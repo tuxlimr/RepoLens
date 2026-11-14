@@ -1,0 +1,34 @@
+%% Repository: Zeyi-Lin/HivisionIDPhotos
+%% Analysed commit: 5c191e2577f14755a69d9df6db415fab23aca484
+%% Commit reference: https://github.com/Zeyi-Lin/HivisionIDPhotos/commit/5c191e2577f14755a69d9df6db415fab23aca484
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        demo["demo package"]
+        hivision["hivision package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| demo
+    core -->|imports| hivision
+    demo -->|imports| config
+    demo -->|imports| hivision
+    entrypoint -->|imports| demo
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| hivision
+    hivision -->|imports| entrypoint
+    hivision -->|imports| external_integrations
+    tests -->|imports| hivision

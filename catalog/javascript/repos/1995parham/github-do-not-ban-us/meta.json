@@ -1,0 +1,51 @@
+{
+  "owner": "1995parham",
+  "name": "github-do-not-ban-us",
+  "full_name": "1995parham/github-do-not-ban-us",
+  "html_url": "https://github.com/1995parham/github-do-not-ban-us",
+  "description": "GitHub do not ban us from open source world :iran:",
+  "stars": 11736,
+  "forks": 1008,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "github",
+    "github-for-everyone",
+    "iran",
+    "iranian",
+    "sanction",
+    "sanctions"
+  ],
+  "archived": true,
+  "commit_sha": "547329f72f8a691524623ea5d64d7996693ccab2",
+  "commit_url": "https://github.com/1995parham/github-do-not-ban-us/commit/547329f72f8a691524623ea5d64d7996693ccab2",
+  "tree_url": "https://github.com/1995parham/github-do-not-ban-us/tree/547329f72f8a691524623ea5d64d7996693ccab2",
+  "analysed_at": "2026-11-14T19:12:16.026471+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "together package"
+  ],
+  "detections": [
+    "Docker Compose"
+  ],
+  "entry_points": [
+    "together/CarvellScott/__main__.py",
+    "together/JalanJiang/man.py",
+    "together/MarcoBuster/broadcast.py",
+    "together/Rahmanism/main.py",
+    "together/YHYJ/support.py",
+    "together/codemouse92/message.py",
+    "together/csprance/github-is-for-everyone.py",
+    "together/gilbertohasnofb/GitHub-is-for-everyone.py",
+    "together/mostafaasadi/main.py",
+    "together/po_oya/stop_unfair_sanctions.py",
+    "together/TheDevMinerTV/index.js",
+    "together/10ngui/index.js"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "owner": "tj",
+  "name": "commander.js",
+  "full_name": "tj/commander.js",
+  "html_url": "https://github.com/tj/commander.js",
+  "description": "node.js command-line interfaces made easy",
+  "stars": 28453,
+  "forks": 1797,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "a5a7dc084d4d2b7932e85ca049c5204e50a2c721",
+  "commit_url": "https://github.com/tj/commander.js/commit/a5a7dc084d4d2b7932e85ca049c5204e50a2c721",
+  "tree_url": "https://github.com/tj/commander.js/tree/a5a7dc084d4d2b7932e85ca049c5204e50a2c721",
+  "analysed_at": "2026-11-14T19:10:49.270405+00:00",
+  "status": "completed",
+  "files_fetched": 217,
+  "files_analysed": 216,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests",
+    "typings package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

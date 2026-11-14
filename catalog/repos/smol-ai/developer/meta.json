@@ -1,0 +1,37 @@
+{
+  "owner": "smol-ai",
+  "name": "developer",
+  "full_name": "smol-ai/developer",
+  "html_url": "https://github.com/smol-ai/developer",
+  "description": "the first library to let you embed a developer agent in your own app!",
+  "stars": 12172,
+  "forks": 1068,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "a6747d1a6ccd983c54a483c4a4fb1fa4bf740e82",
+  "commit_url": "https://github.com/smol-ai/developer/commit/a6747d1a6ccd983c54a483c4a4fb1fa4bf740e82",
+  "tree_url": "https://github.com/smol-ai/developer/tree/a6747d1a6ccd983c54a483c4a4fb1fa4bf740e82",
+  "analysed_at": "2026-11-14T19:10:14.513940+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 47,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "smol_dev package",
+    "v0 package"
+  ],
+  "detections": [
+    "Poetry",
+    "Docker"
+  ],
+  "entry_points": [
+    "main.py",
+    "smol_dev/main.py",
+    "v0/debugger_no_modal.py",
+    "v0/main_no_modal.py"
+  ]
+}

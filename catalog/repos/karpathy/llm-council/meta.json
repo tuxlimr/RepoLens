@@ -1,0 +1,44 @@
+{
+  "owner": "karpathy",
+  "name": "llm-council",
+  "full_name": "karpathy/llm-council",
+  "html_url": "https://github.com/karpathy/llm-council",
+  "description": "LLM Council works together to answer your hardest questions",
+  "stars": 26518,
+  "forks": 4529,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "92e1fccb1bdcf1bab7221aa9ed90f9dc72529131",
+  "commit_url": "https://github.com/karpathy/llm-council/commit/92e1fccb1bdcf1bab7221aa9ed90f9dc72529131",
+  "tree_url": "https://github.com/karpathy/llm-council/tree/92e1fccb1bdcf1bab7221aa9ed90f9dc72529131",
+  "analysed_at": "2026-11-14T19:07:22.379664+00:00",
+  "status": "completed",
+  "files_fetched": 38,
+  "files_analysed": 36,
+  "components": [
+    "backend package",
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "frontend package"
+  ],
+  "detections": [
+    "FastAPI",
+    "React",
+    "httpx",
+    "Pydantic",
+    "Uvicorn",
+    "Poetry",
+    "Vite"
+  ],
+  "entry_points": [
+    "backend/main.py",
+    "main.py",
+    "frontend/src/App.jsx",
+    "frontend/src/main.jsx"
+  ]
+}

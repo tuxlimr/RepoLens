@@ -1,0 +1,20 @@
+%% Repository: openai/gym
+%% Analysed commit: bc212954b6713d5db303b3ead124de6cba66063e
+%% Commit reference: https://github.com/openai/gym/commit/bc212954b6713d5db303b3ead124de6cba66063e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        gym["gym package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| gym
+    gym -->|imports| entrypoint
+    tests -->|imports| entrypoint
+    tests -->|imports| gym

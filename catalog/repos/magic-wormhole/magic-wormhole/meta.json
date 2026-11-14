@@ -1,0 +1,47 @@
+{
+  "owner": "magic-wormhole",
+  "name": "magic-wormhole",
+  "full_name": "magic-wormhole/magic-wormhole",
+  "html_url": "https://github.com/magic-wormhole/magic-wormhole",
+  "description": "get things from one computer to another, safely",
+  "stars": 23098,
+  "forks": 769,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "657bd5d51c67db2109219ff57b7d997afa57261f",
+  "commit_url": "https://github.com/magic-wormhole/magic-wormhole/commit/657bd5d51c67db2109219ff57b7d997afa57261f",
+  "tree_url": "https://github.com/magic-wormhole/magic-wormhole/tree/657bd5d51c67db2109219ff57b7d997afa57261f",
+  "analysed_at": "2026-11-14T19:07:50.858231+00:00",
+  "status": "completed",
+  "files_fetched": 231,
+  "files_analysed": 231,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "misc package",
+    "Tests",
+    "wormhole package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Click",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/wormhole/__main__.py",
+    "src/wormhole/cli/cli.py",
+    "src/wormhole/cli/cli.py",
+    "misc/demo-journal.py",
+    "newest-version.py",
+    "update-version.py",
+    "versioneer.py"
+  ]
+}

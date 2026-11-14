@@ -1,0 +1,21 @@
+%% Repository: datalab-to/chandra
+%% Analysed commit: b20d54d94e53b32211c98408620edef63e99a4ec
+%% Commit reference: https://github.com/datalab-to/chandra/commit/b20d54d94e53b32211c98408620edef63e99a4ec
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        chandra["chandra package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    chandra -->|imports| config
+    chandra -->|imports| entrypoint
+    entrypoint -->|imports| chandra
+    entrypoint -->|imports| config
+    tests -->|imports| chandra

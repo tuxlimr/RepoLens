@@ -1,0 +1,44 @@
+%% Repository: AUTOMATIC1111/stable-diffusion-webui
+%% Analysed commit: 82a973c04367123ae98bd9abdf80d9eda9b910e2
+%% Commit reference: https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/82a973c04367123ae98bd9abdf80d9eda9b910e2
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        extensions_builtin["extensions-builtin package"]
+        javascript["javascript package"]
+        modules["modules package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| modules
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| modules
+    extensions_builtin -->|imports| data_layer
+    extensions_builtin -->|imports| modules
+    modules -->|imports| api_layer
+    modules -->|imports| data_layer
+    modules -->|imports| entrypoint
+    modules -->|imports| external_integrations
+    scripts -->|imports| modules
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

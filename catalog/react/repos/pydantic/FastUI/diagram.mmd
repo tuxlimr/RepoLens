@@ -1,0 +1,37 @@
+%% Repository: pydantic/FastUI
+%% Analysed commit: b5a33bc6e5cdb5175b832568aa778d8589ade4fd
+%% Commit reference: https://github.com/pydantic/FastUI/commit/b5a33bc6e5cdb5175b832568aa778d8589ade4fd
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        demo["demo package"]
+        npm_fastui["npm-fastui package"]
+        npm_fastui_bootstrap["npm-fastui-bootstrap package"]
+        npm_fastui_prebuilt["npm-fastui-prebuilt package"]
+        python_fastui["python-fastui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| demo
+    api_layer -->|imports| external_integrations
+    demo -->|imports| entrypoint
+    entrypoint -->|imports| demo
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| python_fastui
+    python_fastui -->|imports| external_integrations
+    tests -->|imports| external_integrations

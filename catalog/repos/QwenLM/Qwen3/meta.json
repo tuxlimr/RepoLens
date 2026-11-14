@@ -1,0 +1,39 @@
+{
+  "owner": "QwenLM",
+  "name": "Qwen3",
+  "full_name": "QwenLM/Qwen3",
+  "html_url": "https://github.com/QwenLM/Qwen3",
+  "description": "Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+  "stars": 27731,
+  "forks": 2105,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7a2f61ffc7a20d47efcd2bf97f6f2bf52729042e",
+  "commit_url": "https://github.com/QwenLM/Qwen3/commit/7a2f61ffc7a20d47efcd2bf97f6f2bf52729042e",
+  "tree_url": "https://github.com/QwenLM/Qwen3/tree/7a2f61ffc7a20d47efcd2bf97f6f2bf52729042e",
+  "analysed_at": "2026-11-14T19:07:19.470010+00:00",
+  "status": "completed",
+  "files_fetched": 98,
+  "files_analysed": 98,
+  "components": [
+    "Configuration and deployment",
+    "docker package",
+    "Application entry point",
+    "eval package",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "httpx",
+    "NumPy",
+    "Docker"
+  ],
+  "entry_points": [
+    "eval/eval/eval.py",
+    "eval/generate_api_answers/infer_multithread.py",
+    "eval/generate_api_answers/utils_vllm.py"
+  ]
+}

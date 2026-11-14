@@ -1,0 +1,29 @@
+%% Repository: state-spaces/mamba
+%% Analysed commit: e9594ce1c732d97440f0332fdc43170a2294dbfa
+%% Commit reference: https://github.com/state-spaces/mamba/commit/e9594ce1c732d97440f0332fdc43170a2294dbfa
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        csrc["csrc package"]
+        mamba_ssm["mamba_ssm package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    benchmarks -->|imports| data_layer
+    data_layer -->|imports| mamba_ssm
+    entrypoint -->|imports| data_layer
+    mamba_ssm -->|imports| data_layer
+    mamba_ssm -->|imports| entrypoint
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| mamba_ssm

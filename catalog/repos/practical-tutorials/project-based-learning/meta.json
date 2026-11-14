@@ -1,0 +1,40 @@
+{
+  "owner": "practical-tutorials",
+  "name": "project-based-learning",
+  "full_name": "practical-tutorials/project-based-learning",
+  "html_url": "https://github.com/practical-tutorials/project-based-learning",
+  "description": "Curated list of project-based tutorials",
+  "stars": 289744,
+  "forks": 36838,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "beginner-project",
+    "cpp",
+    "golang",
+    "javascript",
+    "project",
+    "python",
+    "tutorial",
+    "webdevelopment"
+  ],
+  "archived": false,
+  "commit_sha": "322fb30147c809574ed71d1c34e3480e80a6b0e8",
+  "commit_url": "https://github.com/practical-tutorials/project-based-learning/commit/322fb30147c809574ed71d1c34e3480e80a6b0e8",
+  "tree_url": "https://github.com/practical-tutorials/project-based-learning/tree/322fb30147c809574ed71d1c34e3480e80a6b0e8",
+  "analysed_at": "2026-11-14T19:05:59.718663+00:00",
+  "status": "completed",
+  "files_fetched": 14,
+  "files_analysed": 14,
+  "components": [
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "scripts/check_readme.py"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "owner": "pwxcoo",
+  "name": "chinese-xinhua",
+  "full_name": "pwxcoo/chinese-xinhua",
+  "html_url": "https://github.com/pwxcoo/chinese-xinhua",
+  "description": ":orange_book: \u4e2d\u534e\u65b0\u534e\u5b57\u5178\u6570\u636e\u5e93\u3002\u5305\u62ec\u6b47\u540e\u8bed\uff0c\u6210\u8bed\uff0c\u8bcd\u8bed\uff0c\u6c49\u5b57\u3002",
+  "stars": 11770,
+  "forks": 2718,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "chinese",
+    "chinese-characters",
+    "chinese-language",
+    "chinese-nlp",
+    "chinese-simplified",
+    "chinese-traditional",
+    "data",
+    "json",
+    "json-data",
+    "json-dataset",
+    "python3",
+    "scraper"
+  ],
+  "archived": false,
+  "commit_sha": "fe6d6c2e8baa82187f4c96bbe042e43f96c05666",
+  "commit_url": "https://github.com/pwxcoo/chinese-xinhua/commit/fe6d6c2e8baa82187f4c96bbe042e43f96c05666",
+  "tree_url": "https://github.com/pwxcoo/chinese-xinhua/tree/fe6d6c2e8baa82187f4c96bbe042e43f96c05666",
+  "analysed_at": "2026-11-14T19:10:29.092343+00:00",
+  "status": "completed",
+  "files_fetched": 10,
+  "files_analysed": 10,
+  "components": [
+    "Application entry point",
+    "External integrations",
+    "scripts package"
+  ],
+  "detections": [
+    "pandas",
+    "requests"
+  ],
+  "entry_points": [
+    "scripts/chengyu.py",
+    "scripts/ci.py",
+    "scripts/word.py",
+    "scripts/xiehouyu.py"
+  ]
+}

@@ -1,0 +1,19 @@
+%% Repository: facefusion/facefusion
+%% Analysed commit: decc6c9d8f8e014878624452c6e8fe208726b4ec
+%% Commit reference: https://github.com/facefusion/facefusion/commit/decc6c9d8f8e014878624452c6e8fe208726b4ec
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        facefusion["facefusion package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| facefusion
+    entrypoint -->|imports| facefusion
+    tests -->|imports| facefusion

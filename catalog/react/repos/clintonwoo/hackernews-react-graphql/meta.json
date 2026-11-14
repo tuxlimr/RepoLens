@@ -1,0 +1,59 @@
+{
+  "owner": "clintonwoo",
+  "name": "hackernews-react-graphql",
+  "full_name": "clintonwoo/hackernews-react-graphql",
+  "html_url": "https://github.com/clintonwoo/hackernews-react-graphql",
+  "description": "Hacker News clone rewritten with universal JavaScript, using React and GraphQL.",
+  "stars": 4444,
+  "forks": 545,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "apollo",
+    "express",
+    "graphql",
+    "hacker-news",
+    "hn",
+    "javascript",
+    "js",
+    "nextjs",
+    "node",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "6875c7233c2e0d82a910f8427c8d230f0858d048",
+  "commit_url": "https://github.com/clintonwoo/hackernews-react-graphql/commit/6875c7233c2e0d82a910f8427c8d230f0858d048",
+  "tree_url": "https://github.com/clintonwoo/hackernews-react-graphql/tree/6875c7233c2e0d82a910f8427c8d230f0858d048",
+  "analysed_at": "2026-11-14T19:14:45.552081+00:00",
+  "status": "completed",
+  "files_fetched": 154,
+  "files_analysed": 154,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "config.ts package",
+    "Core modules",
+    "Data layer",
+    "helpers package",
+    "layouts package",
+    "pages package",
+    "server package",
+    "Service / domain layer",
+    "__tests__ package",
+    "@types package"
+  ],
+  "detections": [
+    "Express",
+    "Next.js",
+    "React",
+    "Docker",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "pages/index.tsx",
+    "server/server.ts",
+    "src/data/models/index.ts"
+  ]
+}

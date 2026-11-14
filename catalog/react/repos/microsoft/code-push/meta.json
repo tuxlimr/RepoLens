@@ -1,0 +1,41 @@
+{
+  "owner": "microsoft",
+  "name": "code-push",
+  "full_name": "microsoft/code-push",
+  "html_url": "https://github.com/microsoft/code-push",
+  "description": "A cloud service that enables Cordova and React Native developers to deploy mobile app updates directly to their users\u2019 devices.",
+  "stars": 4410,
+  "forks": 527,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "codepush",
+    "cordova",
+    "react",
+    "react-native",
+    "reactnative"
+  ],
+  "archived": true,
+  "commit_sha": "d3b163d8d7522f02081eee2b5d735705b5d54c00",
+  "commit_url": "https://github.com/microsoft/code-push/commit/d3b163d8d7522f02081eee2b5d735705b5d54c00",
+  "tree_url": "https://github.com/microsoft/code-push/tree/d3b163d8d7522f02081eee2b5d735705b5d54c00",
+  "analysed_at": "2026-11-14T19:14:46.708369+00:00",
+  "status": "completed",
+  "files_fetched": 34,
+  "files_analysed": 33,
+  "components": [
+    "Configuration and deployment",
+    "script package",
+    "Tests",
+    "@types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/script/index.ts"
+  ]
+}

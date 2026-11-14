@@ -1,0 +1,34 @@
+{
+  "owner": "louischatriot",
+  "name": "nedb",
+  "full_name": "louischatriot/nedb",
+  "html_url": "https://github.com/louischatriot/nedb",
+  "description": "The JavaScript Database, for Node.js, nw.js, electron and the browser",
+  "stars": 13525,
+  "forks": 1008,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "35be491ca67dbd4c6f75335f5f486307b192f2dc",
+  "commit_url": "https://github.com/louischatriot/nedb/commit/35be491ca67dbd4c6f75335f5f486307b192f2dc",
+  "tree_url": "https://github.com/louischatriot/nedb/tree/35be491ca67dbd4c6f75335f5f486307b192f2dc",
+  "analysed_at": "2026-11-14T19:11:55.910211+00:00",
+  "status": "completed",
+  "files_fetched": 54,
+  "files_analysed": 54,
+  "components": [
+    "benchmarks package",
+    "browser-version package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "test_lac package",
+    "Tests"
+  ],
+  "detections": [],
+  "entry_points": [
+    "index.js"
+  ]
+}

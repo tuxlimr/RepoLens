@@ -1,0 +1,54 @@
+{
+  "owner": "tyroprogrammer",
+  "name": "learn-react-app",
+  "full_name": "tyroprogrammer/learn-react-app",
+  "html_url": "https://github.com/tyroprogrammer/learn-react-app",
+  "description": "Application that will help you learn React fundamentals. Install this application locally - there's tutorial, code snippets and exercises. The main objective of this project is to help you get off the ground with React!",
+  "stars": 3841,
+  "forks": 338,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "exercise",
+    "guided-exercises",
+    "javascript",
+    "learn",
+    "learn-react",
+    "learn-reactjs",
+    "react",
+    "react-fundamentals",
+    "reactjs",
+    "tutorial",
+    "tutorial-exercises"
+  ],
+  "archived": false,
+  "commit_sha": "a41485ee612d35f32fca56c2d2de41d2092fc026",
+  "commit_url": "https://github.com/tyroprogrammer/learn-react-app/commit/a41485ee612d35f32fca56c2d2de41d2092fc026",
+  "tree_url": "https://github.com/tyroprogrammer/learn-react-app/tree/a41485ee612d35f32fca56c2d2de41d2092fc026",
+  "analysed_at": "2026-11-14T19:15:03.697997+00:00",
+  "status": "completed",
+  "files_fetched": 74,
+  "files_analysed": 74,
+  "components": [
+    "API layer",
+    "App.js package",
+    "capstone package",
+    "Configuration and deployment",
+    "exercise package",
+    "FileReader.js package",
+    "index.js package",
+    "react-app-env.d.ts package",
+    "scripts package",
+    "setup package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "src/App.js",
+    "src/index.js"
+  ]
+}

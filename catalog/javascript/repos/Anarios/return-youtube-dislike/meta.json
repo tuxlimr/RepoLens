@@ -1,0 +1,44 @@
+{
+  "owner": "Anarios",
+  "name": "return-youtube-dislike",
+  "full_name": "Anarios/return-youtube-dislike",
+  "html_url": "https://github.com/Anarios/return-youtube-dislike",
+  "description": "Chrome extension to return youtube dislikes",
+  "stars": 13853,
+  "forks": 644,
+  "license": "GPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "chrome-extension",
+    "dislike",
+    "dislike-button",
+    "dislikes",
+    "dislikes-count",
+    "firefox",
+    "firefox-addon",
+    "firefox-extension",
+    "youtube"
+  ],
+  "archived": false,
+  "commit_sha": "895c1fb9d47d32b8af066b80969abca734554b04",
+  "commit_url": "https://github.com/Anarios/return-youtube-dislike/commit/895c1fb9d47d32b8af066b80969abca734554b04",
+  "tree_url": "https://github.com/Anarios/return-youtube-dislike/tree/895c1fb9d47d32b8af066b80969abca734554b04",
+  "analysed_at": "2026-11-14T19:11:49.790445+00:00",
+  "status": "completed",
+  "files_fetched": 571,
+  "files_analysed": 570,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Extensions package",
+    "scripts package",
+    "Website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": []
+}

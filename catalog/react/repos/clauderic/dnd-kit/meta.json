@@ -1,0 +1,56 @@
+{
+  "owner": "clauderic",
+  "name": "dnd-kit",
+  "full_name": "clauderic/dnd-kit",
+  "html_url": "https://github.com/clauderic/dnd-kit",
+  "description": "The modern toolkit for building drag and drop interfaces",
+  "stars": 17795,
+  "forks": 933,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "drag",
+    "drag-and-drop",
+    "draggable",
+    "droppable",
+    "react",
+    "sortable"
+  ],
+  "archived": false,
+  "commit_sha": "ccaf3d583903a5d0b68616310a24aec891ee0d69",
+  "commit_url": "https://github.com/clauderic/dnd-kit/commit/ccaf3d583903a5d0b68616310a24aec891ee0d69",
+  "tree_url": "https://github.com/clauderic/dnd-kit/tree/ccaf3d583903a5d0b68616310a24aec891ee0d69",
+  "analysed_at": "2026-11-14T19:13:12.632788+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Svelte",
+    "Vue",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite"
+  ],
+  "entry_points": [
+    "apps/stories-shared/components/index.ts",
+    "apps/stories-shared/styles/index.ts",
+    "apps/stories-shared/utilities/index.ts",
+    "apps/stories-solid/.storybook/main.ts",
+    "apps/stories-svelte/.storybook/main.ts",
+    "apps/stories-vanilla/.storybook/main.ts",
+    "apps/stories-vue/.storybook/main.ts",
+    "apps/stories/.storybook/main.ts",
+    "packages/collision/src/index.ts",
+    "packages/geometry/src/index.ts"
+  ]
+}

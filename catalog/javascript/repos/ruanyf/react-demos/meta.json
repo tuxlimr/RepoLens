@@ -1,0 +1,34 @@
+{
+  "owner": "ruanyf",
+  "name": "react-demos",
+  "full_name": "ruanyf/react-demos",
+  "html_url": "https://github.com/ruanyf/react-demos",
+  "description": "a collection of simple demos of React.js",
+  "stars": 16413,
+  "forks": 6228,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "86ae6304ff36af9315dfa0994ef6d675d8e72779",
+  "commit_url": "https://github.com/ruanyf/react-demos/commit/86ae6304ff36af9315dfa0994ef6d675d8e72779",
+  "tree_url": "https://github.com/ruanyf/react-demos/tree/86ae6304ff36af9315dfa0994ef6d675d8e72779",
+  "analysed_at": "2026-11-14T19:11:32.650363+00:00",
+  "status": "completed",
+  "files_fetched": 26,
+  "files_analysed": 23,
+  "components": [
+    "Configuration and deployment",
+    "demo13 package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "demo13/server.js",
+    "demo13/app.js",
+    "demo13/src/app.js",
+    "demo13/src/server.js"
+  ]
+}

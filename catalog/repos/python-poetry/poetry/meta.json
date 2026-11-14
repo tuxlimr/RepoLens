@@ -1,0 +1,47 @@
+{
+  "owner": "python-poetry",
+  "name": "poetry",
+  "full_name": "python-poetry/poetry",
+  "html_url": "https://github.com/python-poetry/poetry",
+  "description": "Python packaging and dependency management made easy",
+  "stars": 34323,
+  "forks": 2581,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "dependency-manager",
+    "package-manager",
+    "packaging",
+    "poetry",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "4acc75e19f128c8340c6f977a35e53b5f7f39071",
+  "commit_url": "https://github.com/python-poetry/poetry/commit/4acc75e19f128c8340c6f977a35e53b5f7f39071",
+  "tree_url": "https://github.com/python-poetry/poetry/tree/4acc75e19f128c8340c6f977a35e53b5f7f39071",
+  "analysed_at": "2026-11-14T19:06:59.477396+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 760,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "poetry package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/poetry/__main__.py",
+    "src/poetry/console/application.py"
+  ]
+}

@@ -1,0 +1,23 @@
+%% Repository: BuilderIO/mitosis
+%% Analysed commit: 2de76e9064d9e7916c5309c0a31206383403ae9d
+%% Commit reference: https://github.com/BuilderIO/mitosis/commit/2de76e9064d9e7916c5309c0a31206383403ae9d
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        e2e["e2e package"]
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,77 @@
+%% Repository: Alishahryar1/free-claude-code
+%% Analysed commit: 9aafa6f314a1067627be395d2bd384f208ca16bd
+%% Commit reference: https://github.com/Alishahryar1/free-claude-code/commit/9aafa6f314a1067627be395d2bd384f208ca16bd
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        e2e["e2e package"]
+        free_claude_code["free_claude_code package"]
+        scripts["scripts package"]
+        smoke["smoke package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| free_claude_code
+    api_layer -->|imports| service_layer
+    config -->|imports| external_integrations
+    config -->|imports| free_claude_code
+    config -->|imports| service_layer
+    data_layer -->|imports| free_claude_code
+    data_layer -->|imports| service_layer
+    e2e -->|imports| free_claude_code
+    e2e -->|imports| tests
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| free_claude_code
+    entrypoint -->|imports| service_layer
+    entrypoint -->|imports| smoke
+    external_integrations -->|imports| config
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| free_claude_code
+    external_integrations -->|imports| service_layer
+    free_claude_code -->|imports| api_layer
+    free_claude_code -->|imports| config
+    free_claude_code -->|imports| data_layer
+    free_claude_code -->|imports| entrypoint
+    free_claude_code -->|imports| external_integrations
+    free_claude_code -->|imports| service_layer
+    service_layer -->|imports| config
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| free_claude_code
+    smoke -->|imports| config
+    smoke -->|imports| data_layer
+    smoke -->|imports| entrypoint
+    smoke -->|imports| external_integrations
+    smoke -->|imports| free_claude_code
+    smoke -->|imports| service_layer
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| e2e
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| free_claude_code
+    tests -->|imports| service_layer
+    tests -->|imports| smoke

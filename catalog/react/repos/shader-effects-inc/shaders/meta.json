@@ -1,0 +1,45 @@
+{
+  "owner": "shader-effects-inc",
+  "name": "shaders",
+  "full_name": "shader-effects-inc/shaders",
+  "html_url": "https://github.com/shader-effects-inc/shaders",
+  "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+  "stars": 5940,
+  "forks": 279,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "cli",
+    "javascript",
+    "mcp",
+    "react",
+    "shaders",
+    "solid",
+    "svelte",
+    "vue",
+    "webgpu-shaders"
+  ],
+  "archived": false,
+  "commit_sha": "1f71d113ee17c23d77e95ee46a98c3f4fcbef75a",
+  "commit_url": "https://github.com/shader-effects-inc/shaders/commit/1f71d113ee17c23d77e95ee46a98c3f4fcbef75a",
+  "tree_url": "https://github.com/shader-effects-inc/shaders/tree/1f71d113ee17c23d77e95ee46a98c3f4fcbef75a",
+  "analysed_at": "2026-11-14T19:14:11.520251+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/core/src/index.ts"
+  ]
+}

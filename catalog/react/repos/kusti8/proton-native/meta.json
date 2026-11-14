@@ -1,0 +1,61 @@
+{
+  "owner": "kusti8",
+  "name": "proton-native",
+  "full_name": "kusti8/proton-native",
+  "html_url": "https://github.com/kusti8/proton-native",
+  "description": "A React environment for cross platform desktop apps",
+  "stars": 10866,
+  "forks": 348,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "cross-platform",
+    "desktop",
+    "js",
+    "native",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "ab482b120542951628292211b989e504fa4a3985",
+  "commit_url": "https://github.com/kusti8/proton-native/commit/ab482b120542951628292211b989e504fa4a3985",
+  "tree_url": "https://github.com/kusti8/proton-native/tree/ab482b120542951628292211b989e504fa4a3985",
+  "analysed_at": "2026-11-14T19:13:29.320642+00:00",
+  "status": "completed",
+  "files_fetched": 104,
+  "files_analysed": 103,
+  "components": [
+    "backends package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "devtools.ts package",
+    "index.ts package",
+    "misc package",
+    "__mocks__ package",
+    "react-components package",
+    "reconciler package",
+    "render package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "Redux",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "examples/Calculator/index.js",
+    "examples/Notepad/index.js",
+    "src/backends/index.ts",
+    "src/components/App.ts",
+    "src/components/index.ts",
+    "src/index.ts",
+    "src/misc/index.ts",
+    "src/react-components/index.ts",
+    "src/reconciler/index.ts",
+    "src/render/index.ts"
+  ]
+}

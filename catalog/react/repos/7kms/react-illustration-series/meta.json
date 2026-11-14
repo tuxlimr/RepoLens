@@ -1,0 +1,33 @@
+{
+  "owner": "7kms",
+  "name": "react-illustration-series",
+  "full_name": "7kms/react-illustration-series",
+  "html_url": "https://github.com/7kms/react-illustration-series",
+  "description": "\u56fe\u89e3react\u6e90\u7801, \u7528\u5927\u91cf\u914d\u56fe\u7684\u65b9\u5f0f, \u81f4\u529b\u4e8e\u5c06react\u539f\u7406\u8868\u8ff0\u6e05\u695a.",
+  "stars": 7909,
+  "forks": 833,
+  "license": "AGPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "fiber",
+    "hook",
+    "react",
+    "synthetic-events"
+  ],
+  "archived": false,
+  "commit_sha": "1e71a14310bcb92cd29ef98dddb45f462df4b546",
+  "commit_url": "https://github.com/7kms/react-illustration-series/commit/1e71a14310bcb92cd29ef98dddb45f462df4b546",
+  "tree_url": "https://github.com/7kms/react-illustration-series/tree/1e71a14310bcb92cd29ef98dddb45f462df4b546",
+  "analysed_at": "2026-11-14T19:13:44.153681+00:00",
+  "status": "completed",
+  "files_fetched": 40,
+  "files_analysed": 40,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

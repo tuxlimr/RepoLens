@@ -1,0 +1,39 @@
+{
+  "owner": "typescript-cheatsheets",
+  "name": "react",
+  "full_name": "typescript-cheatsheets/react",
+  "html_url": "https://github.com/typescript-cheatsheets/react",
+  "description": "Cheatsheets for experienced React developers getting started with TypeScript",
+  "stars": 47090,
+  "forks": 4267,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "cheatsheet",
+    "guide",
+    "react",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "c550e41b98f7ec20d993eb3c2acc4cbf6eac2e29",
+  "commit_url": "https://github.com/typescript-cheatsheets/react/commit/c550e41b98f7ec20d993eb3c2acc4cbf6eac2e29",
+  "tree_url": "https://github.com/typescript-cheatsheets/react/tree/c550e41b98f7ec20d993eb3c2acc4cbf6eac2e29",
+  "analysed_at": "2026-11-14T19:12:57.633196+00:00",
+  "status": "completed",
+  "files_fetched": 47,
+  "files_analysed": 46,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "website/src/pages/index.tsx"
+  ]
+}

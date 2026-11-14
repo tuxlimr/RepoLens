@@ -1,0 +1,40 @@
+{
+  "owner": "acornjs",
+  "name": "acorn",
+  "full_name": "acornjs/acorn",
+  "html_url": "https://github.com/acornjs/acorn",
+  "description": "A small, fast, JavaScript-based JavaScript parser",
+  "stars": 11474,
+  "forks": 1063,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "e4516ce0f49aea06b98ae1a551644119958ed4e1",
+  "commit_url": "https://github.com/acornjs/acorn/commit/e4516ce0f49aea06b98ae1a551644119958ed4e1",
+  "tree_url": "https://github.com/acornjs/acorn/tree/e4516ce0f49aea06b98ae1a551644119958ed4e1",
+  "analysed_at": "2026-11-14T19:12:18.166722+00:00",
+  "status": "completed",
+  "files_fetched": 118,
+  "files_analysed": 117,
+  "components": [
+    "acorn package",
+    "acorn-loose package",
+    "acorn-walk package",
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "acorn/bin/acorn",
+    "acorn-loose/src/index.js",
+    "acorn-walk/src/index.js",
+    "acorn/src/index.js"
+  ]
+}

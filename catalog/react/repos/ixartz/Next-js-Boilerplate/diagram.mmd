@@ -1,0 +1,31 @@
+%% Repository: ixartz/Next-js-Boilerplate
+%% Analysed commit: b83157a8018f55b926a3c25a4b7a7e14b0dfbc35
+%% Commit reference: https://github.com/ixartz/Next-js-Boilerplate/commit/b83157a8018f55b926a3c25a4b7a7e14b0dfbc35
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        components["components package"]
+        instrumentation_client_ts["instrumentation-client.ts package"]
+        instrumentation_ts["instrumentation.ts package"]
+        libs["libs package"]
+        proxy_ts["proxy.ts package"]
+        templates["templates package"]
+        types["types package"]
+        utils["utils package"]
+        validations["validations package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

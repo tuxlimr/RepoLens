@@ -1,0 +1,23 @@
+%% Repository: swisskyrepo/PayloadsAllTheThings
+%% Analysed commit: 08ea40e77db3f42ef8f20c65196f3936a19b6c86
+%% Commit reference: https://github.com/swisskyrepo/PayloadsAllTheThings/commit/08ea40e77db3f42ef8f20c65196f3936a19b6c86
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        file_inclusion["File Inclusion package"]
+        insecure_deserialization["Insecure Deserialization package"]
+        server_side_request_forgery["Server Side Request Forgery package"]
+        upload_insecure_files["Upload Insecure Files package"]
+        web_sockets["Web Sockets package"]
+    end
+    entrypoint -->|imports| external_integrations
+    file_inclusion -->|imports| external_integrations
+    web_sockets -->|imports| external_integrations

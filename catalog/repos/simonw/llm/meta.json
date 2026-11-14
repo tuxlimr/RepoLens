@@ -1,0 +1,48 @@
+{
+  "owner": "simonw",
+  "name": "llm",
+  "full_name": "simonw/llm",
+  "html_url": "https://github.com/simonw/llm",
+  "description": "Access large language models from the command-line",
+  "stars": 12756,
+  "forks": 1089,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "ai",
+    "llms",
+    "openai"
+  ],
+  "archived": false,
+  "commit_sha": "8b475ffdfc2d33aa86c9518baff3ac94bcea409e",
+  "commit_url": "https://github.com/simonw/llm/commit/8b475ffdfc2d33aa86c9518baff3ac94bcea409e",
+  "tree_url": "https://github.com/simonw/llm/tree/8b475ffdfc2d33aa86c9518baff3ac94bcea409e",
+  "analysed_at": "2026-11-14T19:10:00.755671+00:00",
+  "status": "completed",
+  "files_fetched": 123,
+  "files_analysed": 123,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "llm package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Click",
+    "NumPy",
+    "Pydantic",
+    "Poetry",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "llm/__main__.py",
+    "llm/cli.py"
+  ]
+}

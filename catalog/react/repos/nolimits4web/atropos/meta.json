@@ -1,0 +1,51 @@
+{
+  "owner": "nolimits4web",
+  "name": "atropos",
+  "full_name": "nolimits4web/atropos",
+  "html_url": "https://github.com/nolimits4web/atropos",
+  "description": "Stunning touch-friendly 3D parallax hover effects",
+  "stars": 3614,
+  "forks": 108,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "cards",
+    "effect",
+    "gallery",
+    "hover",
+    "javascript",
+    "parallax",
+    "portfolio",
+    "react",
+    "showcase",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "eb4b4c5682117a53f60fccd459f64d06a99e9445",
+  "commit_url": "https://github.com/nolimits4web/atropos/commit/eb4b4c5682117a53f60fccd459f64d06a99e9445",
+  "tree_url": "https://github.com/nolimits4web/atropos/tree/eb4b4c5682117a53f60fccd459f64d06a99e9445",
+  "analysed_at": "2026-11-14T19:15:12.037871+00:00",
+  "status": "completed",
+  "files_fetched": 75,
+  "files_analysed": 74,
+  "components": [
+    "atropos.d.ts package",
+    "atropos.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "element package",
+    "playground package",
+    "react package",
+    "scripts package"
+  ],
+  "detections": [
+    "React",
+    "Vite"
+  ],
+  "entry_points": [
+    "playground/element/main.js",
+    "playground/react/App.jsx",
+    "playground/react/main.js"
+  ]
+}

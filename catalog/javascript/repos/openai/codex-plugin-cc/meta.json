@@ -1,0 +1,32 @@
+{
+  "owner": "openai",
+  "name": "codex-plugin-cc",
+  "full_name": "openai/codex-plugin-cc",
+  "html_url": "https://github.com/openai/codex-plugin-cc",
+  "description": "Use Codex from Claude Code to review code or delegate tasks.",
+  "stars": 35124,
+  "forks": 2436,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "db52e28f4d9ded852ab3942cea316258ae4ef346",
+  "commit_url": "https://github.com/openai/codex-plugin-cc/commit/db52e28f4d9ded852ab3942cea316258ae4ef346",
+  "tree_url": "https://github.com/openai/codex-plugin-cc/tree/db52e28f4d9ded852ab3942cea316258ae4ef346",
+  "analysed_at": "2026-11-14T19:10:43.034060+00:00",
+  "status": "completed",
+  "files_fetched": 63,
+  "files_analysed": 62,
+  "components": [
+    "Configuration and deployment",
+    "plugins package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,39 @@
+{
+  "owner": "rougier",
+  "name": "numpy-100",
+  "full_name": "rougier/numpy-100",
+  "html_url": "https://github.com/rougier/numpy-100",
+  "description": "100 numpy exercises (with solutions)",
+  "stars": 14692,
+  "forks": 6969,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "binder",
+    "exercises",
+    "notebook",
+    "numpy",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "cf3b5a29749410758ccaab876302ed861bb94323",
+  "commit_url": "https://github.com/rougier/numpy-100/commit/cf3b5a29749410758ccaab876302ed861bb94323",
+  "tree_url": "https://github.com/rougier/numpy-100/tree/cf3b5a29749410758ccaab876302ed861bb94323",
+  "analysed_at": "2026-11-14T19:09:19.183565+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy"
+  ],
+  "entry_points": [
+    "generators.py"
+  ]
+}

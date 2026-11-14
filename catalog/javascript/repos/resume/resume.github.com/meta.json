@@ -1,0 +1,26 @@
+{
+  "owner": "resume",
+  "name": "resume.github.com",
+  "full_name": "resume/resume.github.com",
+  "html_url": "https://github.com/resume/resume.github.com",
+  "description": "Resumes generated using the GitHub informations",
+  "stars": 62901,
+  "forks": 1392,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "f5990756495bfd6d86495733bfb238c96771cbbf",
+  "commit_url": "https://github.com/resume/resume.github.com/commit/f5990756495bfd6d86495733bfb238c96771cbbf",
+  "tree_url": "https://github.com/resume/resume.github.com/tree/f5990756495bfd6d86495733bfb238c96771cbbf",
+  "analysed_at": "2026-11-14T19:10:35.751238+00:00",
+  "status": "completed",
+  "files_fetched": 16,
+  "files_analysed": 16,
+  "components": [
+    "js package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

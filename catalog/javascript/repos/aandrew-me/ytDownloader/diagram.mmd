@@ -1,0 +1,28 @@
+%% Repository: aandrew-me/ytDownloader
+%% Analysed commit: 1381ad9417ec421fef830feb81b21479d7bed26f
+%% Commit reference: https://github.com/aandrew-me/ytDownloader/commit/1381ad9417ec421fef830feb81b21479d7bed26f
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        common_js["common.js package"]
+        compressor_js["compressor.js package"]
+        history_js["history.js package"]
+        history_ui_js["history_ui.js package"]
+        index_js["index.js package"]
+        logs_js["logs.js package"]
+        playlist_js["playlist.js package"]
+        preferences_js["preferences.js package"]
+        renderer_js["renderer.js package"]
+        translations["translations package"]
+        types_d_ts["types.d.ts package"]
+        utils_js["utils.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

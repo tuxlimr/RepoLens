@@ -1,0 +1,52 @@
+{
+  "owner": "google-research",
+  "name": "harness2",
+  "full_name": "google-research/harness2",
+  "html_url": "https://github.com/google-research/harness2",
+  "description": null,
+  "stars": 23880,
+  "forks": 2401,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "6868817518876de8fd170c6a8354daca273b6191",
+  "commit_url": "https://github.com/google-research/harness2/commit/6868817518876de8fd170c6a8354daca273b6191",
+  "tree_url": "https://github.com/google-research/harness2/tree/6868817518876de8fd170c6a8354daca273b6191",
+  "analysed_at": "2026-11-14T19:07:43.052980+00:00",
+  "status": "completed",
+  "files_fetched": 133,
+  "files_analysed": 133,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "harness2 package",
+    "scripts package",
+    "Service / domain layer",
+    "Tests",
+    "third_party package"
+  ],
+  "detections": [
+    "FastAPI",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "unittest"
+  ],
+  "entry_points": [
+    "harness2/benchmarks/jb_opencode_runner.py",
+    "harness2/benchmarks/wb_render.py",
+    "harness2/cli/bridge.py",
+    "harness2/cli/check.py",
+    "harness2/cli/demo.py",
+    "harness2/cli/judge.py",
+    "harness2/cli/report.py",
+    "harness2/cli/run_sweep.py",
+    "harness2/cli/setup.py",
+    "scripts/check_provenance.py",
+    "scripts/check_setup.py",
+    "scripts/render_readme_typing.py"
+  ]
+}

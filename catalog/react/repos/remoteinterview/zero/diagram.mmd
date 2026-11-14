@@ -1,0 +1,26 @@
+%% Repository: remoteinterview/zero
+%% Analysed commit: e6a72ee49e03008a64c86ee5c34e2120a3b52908
+%% Commit reference: https://github.com/remoteinterview/zero/commit/e6a72ee49e03008a64c86ee5c34e2120a3b52908
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        packages["packages package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations

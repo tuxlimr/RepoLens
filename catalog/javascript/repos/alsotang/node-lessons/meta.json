@@ -1,0 +1,49 @@
+{
+  "owner": "alsotang",
+  "name": "node-lessons",
+  "full_name": "alsotang/node-lessons",
+  "html_url": "https://github.com/alsotang/node-lessons",
+  "description": ":closed_book:\u300aNode.js \u5305\u6559\u4e0d\u5305\u4f1a\u300b by alsotang",
+  "stars": 16402,
+  "forks": 4578,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "nodejs"
+  ],
+  "archived": false,
+  "commit_sha": "5e0e72ea7c74011c73880f1a96bfa5108efba547",
+  "commit_url": "https://github.com/alsotang/node-lessons/commit/5e0e72ea7c74011c73880f1a96bfa5108efba547",
+  "tree_url": "https://github.com/alsotang/node-lessons/tree/5e0e72ea7c74011c73880f1a96bfa5108efba547",
+  "analysed_at": "2026-11-14T19:11:32.904201+00:00",
+  "status": "completed",
+  "files_fetched": 48,
+  "files_analysed": 43,
+  "components": [
+    "Configuration and deployment",
+    "lesson1 package",
+    "lesson10 package",
+    "lesson2 package",
+    "lesson3 package",
+    "lesson4 package",
+    "lesson5 package",
+    "lesson6 package",
+    "lesson8 package",
+    "Tests"
+  ],
+  "detections": [
+    "Express"
+  ],
+  "entry_points": [
+    "lesson1/app.js",
+    "lesson10/main.js",
+    "lesson2/app.js",
+    "lesson3/app.js",
+    "lesson4/app.js",
+    "lesson5/app.js",
+    "lesson6/main.js",
+    "lesson8/app.js"
+  ]
+}

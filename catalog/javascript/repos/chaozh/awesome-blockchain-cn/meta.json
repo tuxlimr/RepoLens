@@ -1,0 +1,26 @@
+{
+  "owner": "chaozh",
+  "name": "awesome-blockchain-cn",
+  "full_name": "chaozh/awesome-blockchain-cn",
+  "html_url": "https://github.com/chaozh/awesome-blockchain-cn",
+  "description": "\u6536\u96c6\u6240\u6709\u533a\u5757\u94fe(BlockChain)\u6280\u672f\u5f00\u53d1\u76f8\u5173\u8d44\u6599\uff0c\u5305\u62ecFabric\u548cEthereum\u5f00\u53d1\u8d44\u6599",
+  "stars": 18947,
+  "forks": 3604,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "7bf73d8bca4697757d60fb4027b5032294856806",
+  "commit_url": "https://github.com/chaozh/awesome-blockchain-cn/commit/7bf73d8bca4697757d60fb4027b5032294856806",
+  "tree_url": "https://github.com/chaozh/awesome-blockchain-cn/tree/7bf73d8bca4697757d60fb4027b5032294856806",
+  "analysed_at": "2026-11-14T19:11:18.653032+00:00",
+  "status": "completed",
+  "files_fetched": 6,
+  "files_analysed": 6,
+  "components": [
+    "Hyperledger Fabric package"
+  ],
+  "detections": [],
+  "entry_points": []
+}

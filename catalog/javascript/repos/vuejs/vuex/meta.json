@@ -1,0 +1,55 @@
+{
+  "owner": "vuejs",
+  "name": "vuex",
+  "full_name": "vuejs/vuex",
+  "html_url": "https://github.com/vuejs/vuex",
+  "description": "\ud83d\uddc3\ufe0f Centralized State Management for Vue.js.",
+  "stars": 28285,
+  "forks": 9376,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "javascript",
+    "state-management",
+    "time-travel",
+    "vue",
+    "vuex"
+  ],
+  "archived": false,
+  "commit_sha": "bd907467b8392d6671bb115738285ff7f63d0cf6",
+  "commit_url": "https://github.com/vuejs/vuex/commit/bd907467b8392d6671bb115738285ff7f63d0cf6",
+  "tree_url": "https://github.com/vuejs/vuex/tree/bd907467b8392d6671bb115738285ff7f63d0cf6",
+  "analysed_at": "2026-11-14T19:10:49.576074+00:00",
+  "status": "completed",
+  "files_fetched": 223,
+  "files_analysed": 223,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "helpers.js package",
+    "index.cjs.js package",
+    "index.js package",
+    "index.mjs package",
+    "injectKey.js package",
+    "module package",
+    "plugins package",
+    "scripts package",
+    "store.js package",
+    "store-util.js package",
+    "Tests",
+    "types package",
+    "util.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Vue",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

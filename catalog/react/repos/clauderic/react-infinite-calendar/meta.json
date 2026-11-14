@@ -1,0 +1,63 @@
+{
+  "owner": "clauderic",
+  "name": "react-infinite-calendar",
+  "full_name": "clauderic/react-infinite-calendar",
+  "html_url": "https://github.com/clauderic/react-infinite-calendar",
+  "description": "\u2728 Infinite scrolling date-picker built with React, with localization, range selection, themes, keyboard support, and more.",
+  "stars": 4018,
+  "forks": 394,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "calendar",
+    "component",
+    "date",
+    "datepicker",
+    "infinite",
+    "infinite-scroll",
+    "range",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "d7a77fc1508cb4ded30e47baabb111a8d6461721",
+  "commit_url": "https://github.com/clauderic/react-infinite-calendar/commit/d7a77fc1508cb4ded30e47baabb111a8d6461721",
+  "tree_url": "https://github.com/clauderic/react-infinite-calendar/tree/d7a77fc1508cb4ded30e47baabb111a8d6461721",
+  "analysed_at": "2026-11-14T19:14:56.219690+00:00",
+  "status": "completed",
+  "files_fetched": 55,
+  "files_analysed": 55,
+  "components": [
+    "Calendar package",
+    "Configuration and deployment",
+    "Core modules",
+    "Day package",
+    "demo package",
+    "Header package",
+    "index.js package",
+    "Month package",
+    "MonthList package",
+    ".stories package",
+    "Today package",
+    "utils package",
+    "Weekdays package",
+    "Years package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "demo/src/index.js",
+    "src/.stories/index.js",
+    "src/Calendar/index.js",
+    "src/Day/index.js",
+    "src/Header/Slider/index.js",
+    "src/Header/index.js",
+    "src/Month/index.js",
+    "src/MonthList/index.js",
+    "src/Today/index.js",
+    "src/Weekdays/index.js",
+    "src/Years/index.js",
+    "src/index.js"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "owner": "twobin",
+  "name": "react-lazyload",
+  "full_name": "twobin/react-lazyload",
+  "html_url": "https://github.com/twobin/react-lazyload",
+  "description": "Lazy load your component, image or anything matters the performance.",
+  "stars": 5885,
+  "forks": 482,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "lazyload",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "20abd7806416fe3fa4e92a8040526de96d1f2598",
+  "commit_url": "https://github.com/twobin/react-lazyload/commit/20abd7806416fe3fa4e92a8040526de96d1f2598",
+  "tree_url": "https://github.com/twobin/react-lazyload/tree/20abd7806416fe3fa4e92a8040526de96d1f2598",
+  "analysed_at": "2026-11-14T19:14:12.505781+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 43,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.jsx package",
+    "lib package",
+    "Tests",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "webpack"
+  ],
+  "entry_points": [
+    "lib/index.js",
+    "src/index.jsx"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "owner": "grab",
+  "name": "front-end-guide",
+  "full_name": "grab/front-end-guide",
+  "html_url": "https://github.com/grab/front-end-guide",
+  "description": "\ud83d\udcda Study guide and introduction to the modern front end stack.",
+  "stars": 15212,
+  "forks": 1094,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "babel",
+    "css",
+    "css-modules",
+    "engineering",
+    "eslint",
+    "flowtype",
+    "front-end",
+    "grab",
+    "javascript",
+    "jest",
+    "react",
+    "redux",
+    "study-plan",
+    "stylelint",
+    "webpack",
+    "yarn"
+  ],
+  "archived": false,
+  "commit_sha": "1c42022b3cae66c44249639307a01a06ecea75f4",
+  "commit_url": "https://github.com/grab/front-end-guide/commit/1c42022b3cae66c44249639307a01a06ecea75f4",
+  "tree_url": "https://github.com/grab/front-end-guide/tree/1c42022b3cae66c44249639307a01a06ecea75f4",
+  "analysed_at": "2026-11-14T19:13:15.917587+00:00",
+  "status": "completed",
+  "files_fetched": 15,
+  "files_analysed": 14,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "Redux",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

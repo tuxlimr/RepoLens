@@ -1,0 +1,50 @@
+{
+  "owner": "react-ga",
+  "name": "react-ga",
+  "full_name": "react-ga/react-ga",
+  "html_url": "https://github.com/react-ga/react-ga",
+  "description": "React Google Analytics Module",
+  "stars": 5092,
+  "forks": 427,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "google-analytics",
+    "javascript",
+    "react",
+    "react-google-analytics"
+  ],
+  "archived": true,
+  "commit_sha": "087837dc03d482549ded7669ac559df0c7cc5498",
+  "commit_url": "https://github.com/react-ga/react-ga/commit/087837dc03d482549ded7669ac559df0c7cc5498",
+  "tree_url": "https://github.com/react-ga/react-ga/tree/087837dc03d482549ded7669ac559df0c7cc5498",
+  "analysed_at": "2026-11-14T19:14:28.534547+00:00",
+  "status": "completed",
+  "files_fetched": 69,
+  "files_analysed": 69,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "core.js package",
+    "demo package",
+    "index.js package",
+    "Tests",
+    "types package",
+    "utils package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "React Router",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "demo/app/index.jsx",
+    "demo/index.jsx",
+    "src/index.js"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "owner": "handsomestWei",
+  "name": "patent-disclosure-skill",
+  "full_name": "handsomestWei/patent-disclosure-skill",
+  "html_url": "https://github.com/handsomestWei/patent-disclosure-skill",
+  "description": "\u4e2d\u56fd\u4e13\u5229.skill\uff1a\u4e13\u5229\u70b9\u6316\u6398\u4e0e\u4ea4\u5e95\u4e66\uff08\u53d1\u660e/\u5b9e\u7528/\u5916\u89c2\uff09\u7f16\u5199\uff0c\u901a\u4fd7\u89e3\u8bfb\u4e13\u5229\uff0c\u55c5\u63a2\u653f\u7b56\u52a8\u5411\uff0c\u8f85\u52a9\u5ba1\u67e5\u7b54\u590d\u3002",
+  "stars": 13448,
+  "forks": 1453,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "chinese",
+    "disclosure",
+    "obsidian",
+    "patent",
+    "skill"
+  ],
+  "archived": false,
+  "commit_sha": "b4bbec6f0a1c3c32a904faabeb249639c0b30d98",
+  "commit_url": "https://github.com/handsomestWei/patent-disclosure-skill/commit/b4bbec6f0a1c3c32a904faabeb249639c0b30d98",
+  "tree_url": "https://github.com/handsomestWei/patent-disclosure-skill/tree/b4bbec6f0a1c3c32a904faabeb249639c0b30d98",
+  "analysed_at": "2026-11-14T19:09:49.565966+00:00",
+  "status": "completed",
+  "files_fetched": 517,
+  "files_analysed": 513,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "NumPy",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/generate-star-history.py",
+    "skills/patent-application/tools/audit_claims.py",
+    "skills/patent-application/tools/check_design_views.py",
+    "skills/patent-application/tools/check_numeral_register.py",
+    "skills/patent-application/tools/check_support.py",
+    "skills/patent-application/tools/compose_application_figure.py",
+    "skills/patent-application/tools/emit_application_docx.py",
+    "skills/patent-application/tools/iteration_dialog_log.py",
+    "skills/patent-application/tools/latex_delimiters.py",
+    "skills/patent-application/tools/material_gate.py",
+    "skills/patent-application/tools/md_to_docx.py",
+    "skills/patent-application/tools/plan_figures.py"
+  ]
+}

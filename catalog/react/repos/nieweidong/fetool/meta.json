@@ -1,0 +1,35 @@
+{
+  "owner": "nieweidong",
+  "name": "fetool",
+  "full_name": "nieweidong/fetool",
+  "html_url": "https://github.com/nieweidong/fetool",
+  "description": "\u5927\u524d\u7aef\u7684\u745e\u58eb\u519b\u5200\uff0c\u53ea\u8bb0\u5f55\u6709\u7528\u7684\u3002",
+  "stars": 4434,
+  "forks": 1031,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "chrome",
+    "css",
+    "gulp",
+    "javascript",
+    "linux",
+    "nodejs",
+    "react",
+    "vim"
+  ],
+  "archived": false,
+  "commit_sha": "a90108379a8f6fc1a37f0a491acc0fd06c2e2558",
+  "commit_url": "https://github.com/nieweidong/fetool/commit/a90108379a8f6fc1a37f0a491acc0fd06c2e2558",
+  "tree_url": "https://github.com/nieweidong/fetool/tree/a90108379a8f6fc1a37f0a491acc0fd06c2e2558",
+  "analysed_at": "2026-11-14T19:14:46.155282+00:00",
+  "status": "completed",
+  "files_fetched": 9,
+  "files_analysed": 9,
+  "components": [
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

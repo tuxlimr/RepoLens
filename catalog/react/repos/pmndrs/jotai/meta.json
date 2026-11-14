@@ -1,0 +1,57 @@
+{
+  "owner": "pmndrs",
+  "name": "jotai",
+  "full_name": "pmndrs/jotai",
+  "html_url": "https://github.com/pmndrs/jotai",
+  "description": "\ud83d\udc7b Primitive and flexible state management for React",
+  "stars": 21320,
+  "forks": 730,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "atomic",
+    "hacktoberfest",
+    "management",
+    "react",
+    "state"
+  ],
+  "archived": false,
+  "commit_sha": "9de9377d10a5ac01388764b89458e2d7091d29d4",
+  "commit_url": "https://github.com/pmndrs/jotai/commit/9de9377d10a5ac01388764b89458e2d7091d29d4",
+  "tree_url": "https://github.com/pmndrs/jotai/tree/9de9377d10a5ac01388764b89458e2d7091d29d4",
+  "analysed_at": "2026-11-14T19:13:09.976113+00:00",
+  "status": "completed",
+  "files_fetched": 326,
+  "files_analysed": 326,
+  "components": [
+    "API layer",
+    "benchmarks package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "react package",
+    "react.ts package",
+    "Tests",
+    "utils.ts package",
+    "vanilla package",
+    "vanilla.ts package",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts",
+    "website/src/atoms/index.js",
+    "website/src/components/main.js",
+    "website/src/hooks/index.js",
+    "website/src/pages/index.js",
+    "website/src/utils/index.js"
+  ]
+}

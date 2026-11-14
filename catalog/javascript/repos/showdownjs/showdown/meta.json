@@ -1,0 +1,51 @@
+{
+  "owner": "showdownjs",
+  "name": "showdown",
+  "full_name": "showdownjs/showdown",
+  "html_url": "https://github.com/showdownjs/showdown",
+  "description": "A bidirectional Markdown to HTML to Markdown converter written in Javascript",
+  "stars": 14881,
+  "forks": 1559,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "converter",
+    "gfm",
+    "html",
+    "html-converter",
+    "javascript",
+    "markdown",
+    "markdown-flavors",
+    "markdown-parser",
+    "showdown"
+  ],
+  "archived": false,
+  "commit_sha": "d1a8d16344b855ea2f37677ee8a9e0cc2c597ea4",
+  "commit_url": "https://github.com/showdownjs/showdown/commit/d1a8d16344b855ea2f37677ee8a9e0cc2c597ea4",
+  "tree_url": "https://github.com/showdownjs/showdown/tree/d1a8d16344b855ea2f37677ee8a9e0cc2c597ea4",
+  "analysed_at": "2026-11-14T19:11:42.820912+00:00",
+  "status": "completed",
+  "files_fetched": 132,
+  "files_analysed": 132,
+  "components": [
+    "bin package",
+    "cli package",
+    "Configuration and deployment",
+    "converter.js package",
+    "Core modules",
+    "event.js package",
+    "helpers package",
+    "loader.js package",
+    "options.js package",
+    "showdown.js package",
+    "subParsers package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Vitest"
+  ],
+  "entry_points": [
+    "bin/showdown.js"
+  ]
+}

@@ -1,0 +1,20 @@
+%% Repository: vercel/hyper
+%% Analysed commit: 890a332ed9c35ed87343647d3ec6611b8045b157
+%% Commit reference: https://github.com/vercel/hyper/commit/890a332ed9c35ed87343647d3ec6611b8045b157
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app["app package"]
+        bin["bin package"]
+        cli["cli package"]
+        lib["lib package"]
+        typings["typings package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

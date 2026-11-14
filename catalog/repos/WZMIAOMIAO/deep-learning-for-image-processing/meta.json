@@ -1,0 +1,63 @@
+{
+  "owner": "WZMIAOMIAO",
+  "name": "deep-learning-for-image-processing",
+  "full_name": "WZMIAOMIAO/deep-learning-for-image-processing",
+  "html_url": "https://github.com/WZMIAOMIAO/deep-learning-for-image-processing",
+  "description": "deep learning for image processing including classification and object-detection etc.",
+  "stars": 26451,
+  "forks": 8151,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "bilibili",
+    "classification",
+    "deep-learning",
+    "object-detection",
+    "pytorch",
+    "segmentation",
+    "tensorflow2"
+  ],
+  "archived": false,
+  "commit_sha": "1ec3fe6f374fc9969973a61f819de25658595afa",
+  "commit_url": "https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/commit/1ec3fe6f374fc9969973a61f819de25658595afa",
+  "tree_url": "https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/1ec3fe6f374fc9969973a61f819de25658595afa",
+  "analysed_at": "2026-11-14T19:07:26.390674+00:00",
+  "status": "completed",
+  "files_fetched": 594,
+  "files_analysed": 594,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "deploying_service package",
+    "Application entry point",
+    "External integrations",
+    "others_project package",
+    "pytorch_classification package",
+    "pytorch_keypoint package",
+    "pytorch_object_detection package",
+    "pytorch_segmentation package",
+    "tensorflow_classification package",
+    "Tests"
+  ],
+  "detections": [
+    "Flask",
+    "NumPy",
+    "pandas",
+    "requests"
+  ],
+  "entry_points": [
+    "pytorch_segmentation/u2net/src/model.py",
+    "data_set/split_data.py",
+    "deploying_service/deploying_pytorch/convert_onnx_cls/main.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_resnet34/compare_fps.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_resnet34/compare_onnx_and_ir.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_resnet34/convert_pytorch2onnx.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_resnet34/quantization_int8.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_yolov5/compare_fps.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_yolov5/compare_onnx_and_ir.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_yolov5/evaluation.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_yolov5/predict.py",
+    "deploying_service/deploying_pytorch/convert_openvino/convert_yolov5/quantization_int8.py"
+  ]
+}

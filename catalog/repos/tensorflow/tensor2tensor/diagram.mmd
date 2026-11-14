@@ -1,0 +1,31 @@
+%% Repository: tensorflow/tensor2tensor
+%% Analysed commit: bafdc1b67730430d38d6ab802cbd51f9d053ba2e
+%% Commit reference: https://github.com/tensorflow/tensor2tensor/commit/bafdc1b67730430d38d6ab802cbd51f9d053ba2e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        oss_scripts["oss_scripts package"]
+        tensor2tensor["tensor2tensor package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| tensor2tensor
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| tensor2tensor
+    tensor2tensor -->|imports| data_layer
+    tensor2tensor -->|imports| external_integrations
+    tests -->|imports| data_layer
+    tests -->|imports| tensor2tensor

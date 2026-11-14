@@ -1,0 +1,50 @@
+{
+  "owner": "knockout",
+  "name": "knockout",
+  "full_name": "knockout/knockout",
+  "html_url": "https://github.com/knockout/knockout",
+  "description": "Knockout makes it easier to create rich, responsive UIs with JavaScript",
+  "stars": 10566,
+  "forks": 1482,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "data-binding",
+    "javascript",
+    "knockout",
+    "mvvm"
+  ],
+  "archived": false,
+  "commit_sha": "ab1f4b0e25c93ca2027bca84437ba5ec5e410b18",
+  "commit_url": "https://github.com/knockout/knockout/commit/ab1f4b0e25c93ca2027bca84437ba5ec5e410b18",
+  "tree_url": "https://github.com/knockout/knockout/tree/ab1f4b0e25c93ca2027bca84437ba5ec5e410b18",
+  "analysed_at": "2026-11-14T19:12:37.235977+00:00",
+  "status": "completed",
+  "files_fetched": 156,
+  "files_analysed": 145,
+  "components": [
+    "binding package",
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "google-closure-compiler-utils.js package",
+    "memoization.js package",
+    "namespace.js package",
+    "options.js package",
+    "spec package",
+    "subscribables package",
+    "tasks.js package",
+    "templating package",
+    "utils.domData.js package",
+    "utils.domManipulation.js package",
+    "utils.domNodeDisposal.js package",
+    "utils.js package",
+    "version.js package",
+    "virtualElements.js package"
+  ],
+  "detections": [
+    "TypeScript"
+  ],
+  "entry_points": []
+}

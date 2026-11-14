@@ -1,0 +1,20 @@
+%% Repository: GeeeekExplorer/nano-vllm
+%% Analysed commit: bb823b3e06983d71485a8e1f23715ebd87d98ef8
+%% Commit reference: https://github.com/GeeeekExplorer/nano-vllm/commit/bb823b3e06983d71485a8e1f23715ebd87d98ef8
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        nanovllm["nanovllm package"]
+    end
+    data_layer -->|imports| nanovllm
+    entrypoint -->|imports| nanovllm
+    nanovllm -->|imports| config
+    nanovllm -->|imports| data_layer

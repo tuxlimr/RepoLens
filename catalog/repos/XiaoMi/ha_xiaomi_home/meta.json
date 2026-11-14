@@ -1,0 +1,43 @@
+{
+  "owner": "XiaoMi",
+  "name": "ha_xiaomi_home",
+  "full_name": "XiaoMi/ha_xiaomi_home",
+  "html_url": "https://github.com/XiaoMi/ha_xiaomi_home",
+  "description": "Xiaomi Home Integration for Home Assistant",
+  "stars": 22343,
+  "forks": 1204,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "home-assistant",
+    "home-assistant-integration",
+    "miot",
+    "miot-devices",
+    "smart-home",
+    "xiaomi",
+    "xiaomi-smart-home"
+  ],
+  "archived": false,
+  "commit_sha": "75b3acb6325a3a8d295688b13904737d6738a6a5",
+  "commit_url": "https://github.com/XiaoMi/ha_xiaomi_home/commit/75b3acb6325a3a8d295688b13904737d6738a6a5",
+  "tree_url": "https://github.com/XiaoMi/ha_xiaomi_home/tree/75b3acb6325a3a8d295688b13904737d6738a6a5",
+  "analysed_at": "2026-11-14T19:07:52.865978+00:00",
+  "status": "completed",
+  "files_fetched": 100,
+  "files_analysed": 100,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "custom_components package",
+    "External integrations",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "aiohttp",
+    "pytest"
+  ],
+  "entry_points": []
+}

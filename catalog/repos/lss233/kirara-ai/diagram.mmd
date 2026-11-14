@@ -1,0 +1,59 @@
+%% Repository: lss233/kirara-ai
+%% Analysed commit: 36249e4a0aa8e3d8930acdfe4e14ec2be6484f63
+%% Commit reference: https://github.com/lss233/kirara-ai/commit/36249e4a0aa8e3d8930acdfe4e14ec2be6484f63
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        kirara_ai["kirara_ai package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| kirara_ai
+    api_layer -->|imports| service_layer
+    config -->|imports| kirara_ai
+    data_layer -->|imports| config
+    data_layer -->|imports| kirara_ai
+    data_layer -->|imports| service_layer
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| kirara_ai
+    entrypoint -->|imports| service_layer
+    kirara_ai -->|imports| api_layer
+    kirara_ai -->|imports| config
+    kirara_ai -->|imports| data_layer
+    kirara_ai -->|imports| entrypoint
+    kirara_ai -->|imports| external_integrations
+    kirara_ai -->|imports| service_layer
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| kirara_ai
+    tests -->|imports| api_layer
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| kirara_ai
+    tests -->|imports| service_layer

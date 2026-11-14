@@ -1,0 +1,28 @@
+%% Repository: docker-archive-public/docker.kitematic
+%% Analysed commit: 445bfbae698ce977784c712756d6dc57c3fe6cbf
+%% Commit reference: https://github.com/docker-archive-public/docker.kitematic/commit/445bfbae698ce977784c712756d6dc57c3fe6cbf
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        actions["actions package"]
+        alt_js["alt.js package"]
+        app_js["app.js package"]
+        browser_js["browser.js package"]
+        components["components package"]
+        integration["__integration__ package"]
+        main_js["main.js package"]
+        main_ts["main.ts package"]
+        menutemplate_js["menutemplate.js package"]
+        mocks["__mocks__ package"]
+        router_js["router.js package"]
+        routes_js["routes.js package"]
+        stores["stores package"]
+        tests["__tests__ package"]
+        util["util package"]
+        utils["utils package"]
+    end

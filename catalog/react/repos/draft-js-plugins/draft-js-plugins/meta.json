@@ -1,0 +1,58 @@
+{
+  "owner": "draft-js-plugins",
+  "name": "draft-js-plugins",
+  "full_name": "draft-js-plugins/draft-js-plugins",
+  "html_url": "https://github.com/draft-js-plugins/draft-js-plugins",
+  "description": "React Plugin Architecture for Draft.js including Slack-Like Emojis, FB-Like Mentions and Stickers",
+  "stars": 4084,
+  "forks": 1037,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "draft-js",
+    "draft-js-plugins",
+    "hashtags",
+    "mentions",
+    "react",
+    "stickers"
+  ],
+  "archived": true,
+  "commit_sha": "6049db73855df56edf41cd5ece5369f97fac10e6",
+  "commit_url": "https://github.com/draft-js-plugins/draft-js-plugins/commit/6049db73855df56edf41cd5ece5369f97fac10e6",
+  "tree_url": "https://github.com/draft-js-plugins/draft-js-plugins/tree/6049db73855df56edf41cd5ece5369f97fac10e6",
+  "analysed_at": "2026-11-14T19:14:55.058365+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "interfaces package",
+    "packages package",
+    "scripts package",
+    "stories package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Jest",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    ".storybook/main.js",
+    "packages/alignment/src/index.tsx",
+    "packages/anchor/src/index.tsx",
+    "packages/buttons/src/index.ts",
+    "packages/counter/src/index.tsx",
+    "packages/divider/src/index.tsx",
+    "packages/drag-n-drop-upload/server.js",
+    "packages/drag-n-drop-upload/src/index.ts",
+    "packages/drag-n-drop/src/index.tsx",
+    "packages/editor/src/index.ts",
+    "packages/emoji/src/index.tsx",
+    "packages/focus/src/index.tsx"
+  ]
+}

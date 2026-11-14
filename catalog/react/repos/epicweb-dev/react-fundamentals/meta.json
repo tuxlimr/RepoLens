@@ -1,0 +1,55 @@
+{
+  "owner": "epicweb-dev",
+  "name": "react-fundamentals",
+  "full_name": "epicweb-dev/react-fundamentals",
+  "html_url": "https://github.com/epicweb-dev/react-fundamentals",
+  "description": "Material for my React Fundamentals Workshop",
+  "stars": 5310,
+  "forks": 3097,
+  "license": "Other",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "epicreact-dev",
+    "epicweb-dev",
+    "kcd-edu",
+    "react",
+    "workshop"
+  ],
+  "archived": false,
+  "commit_sha": "bef2dbf208bf057d40e8080855e1bbbd8fb9d4b1",
+  "commit_url": "https://github.com/epicweb-dev/react-fundamentals/commit/bef2dbf208bf057d40e8080855e1bbbd8fb9d4b1",
+  "tree_url": "https://github.com/epicweb-dev/react-fundamentals/tree/bef2dbf208bf057d40e8080855e1bbbd8fb9d4b1",
+  "analysed_at": "2026-11-14T19:14:22.419835+00:00",
+  "status": "completed",
+  "files_fetched": 276,
+  "files_analysed": 274,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "epicshop package",
+    "exercises package",
+    "public package",
+    "shared package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Docker",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "exercises/05.typescript/01.problem.props/index.tsx",
+    "exercises/05.typescript/01.solution.props/index.tsx",
+    "exercises/05.typescript/02.problem.narrow/index.tsx",
+    "exercises/05.typescript/02.solution.narrow/index.tsx",
+    "exercises/05.typescript/03.problem.derive/index.tsx",
+    "exercises/05.typescript/03.solution.derive/index.tsx",
+    "exercises/05.typescript/04.problem.default-props/index.tsx",
+    "exercises/05.typescript/04.solution.default-props/index.tsx",
+    "exercises/05.typescript/05.problem.function-types/index.tsx",
+    "exercises/05.typescript/05.solution.function-types/index.tsx",
+    "exercises/05.typescript/06.problem.satisfies/index.tsx",
+    "exercises/05.typescript/06.solution.satisfies/index.tsx"
+  ]
+}

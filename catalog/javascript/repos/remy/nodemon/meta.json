@@ -1,0 +1,51 @@
+{
+  "owner": "remy",
+  "name": "nodemon",
+  "full_name": "remy/nodemon",
+  "html_url": "https://github.com/remy/nodemon",
+  "description": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development",
+  "stars": 26664,
+  "forks": 1737,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "node",
+    "nodemon",
+    "watch"
+  ],
+  "archived": false,
+  "commit_sha": "df00a4e463547383a4c1c5eaab280f395d439c23",
+  "commit_url": "https://github.com/remy/nodemon/commit/df00a4e463547383a4c1c5eaab280f395d439c23",
+  "tree_url": "https://github.com/remy/nodemon/tree/df00a4e463547383a4c1c5eaab280f395d439c23",
+  "analysed_at": "2026-11-14T19:10:54.918249+00:00",
+  "status": "completed",
+  "files_fetched": 406,
+  "files_analysed": 162,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Docker"
+  ],
+  "entry_points": [
+    "bin/nodemon.js",
+    "test/fixtures/app.js",
+    "test/fixtures/packages/main-and-index/server.js",
+    "test/fixtures/packages/main-and-start/index.js",
+    "lib/cli/index.js",
+    "lib/config/index.js",
+    "lib/help/index.js",
+    "lib/index.js",
+    "lib/monitor/index.js",
+    "lib/rules/index.js",
+    "lib/utils/index.js"
+  ]
+}

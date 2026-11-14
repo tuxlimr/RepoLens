@@ -1,0 +1,28 @@
+%% Repository: google-deepmind/alphafold
+%% Analysed commit: c77e5d2a8961d1a353632c462914ff0a32a950f6
+%% Commit reference: https://github.com/google-deepmind/alphafold/commit/c77e5d2a8961d1a353632c462914ff0a32a950f6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        alphafold["alphafold package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    alphafold -->|imports| data_layer
+    config -->|imports| alphafold
+    data_layer -->|imports| alphafold
+    entrypoint -->|imports| alphafold
+    entrypoint -->|imports| data_layer
+    tests -->|imports| alphafold
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint

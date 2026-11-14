@@ -1,0 +1,58 @@
+{
+  "owner": "samdenty",
+  "name": "gqless",
+  "full_name": "samdenty/gqless",
+  "html_url": "https://github.com/samdenty/gqless",
+  "description": "a GraphQL client without queries",
+  "stars": 3654,
+  "forks": 52,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "gqless",
+    "graphql",
+    "react",
+    "suspense",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "27e289932cf45536c4e91190b96a4c9ce3d95063",
+  "commit_url": "https://github.com/samdenty/gqless/commit/27e289932cf45536c4e91190b96a4c9ce3d95063",
+  "tree_url": "https://github.com/samdenty/gqless/tree/27e289932cf45536c4e91190b96a4c9ce3d95063",
+  "analysed_at": "2026-11-14T19:15:11.120877+00:00",
+  "status": "completed",
+  "files_fetched": 393,
+  "files_analysed": 391,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "internal package",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Fastify",
+    "Next.js",
+    "React",
+    "React Router",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "internal/build-utils/bin/build.js",
+    "internal/build-utils/bin/github-release.js",
+    "internal/build-utils/bin/watch.js",
+    "internal/test-utils/bin/jest-test.js",
+    "packages/cli/bin/gqless.js",
+    "internal/build-utils/src/index.js",
+    "internal/test-utils/src/app.ts",
+    "internal/test-utils/src/index.ts",
+    "packages/cli/src/index.ts",
+    "packages/gqless/src/index.ts",
+    "packages/logger/src/index.ts",
+    "packages/react/src/index.tsx"
+  ]
+}

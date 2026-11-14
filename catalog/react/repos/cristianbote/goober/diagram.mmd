@@ -1,0 +1,27 @@
+%% Repository: cristianbote/goober
+%% Analysed commit: e7e6d33e210ed1f886fb4f372fc25ffd22d358d0
+%% Commit reference: https://github.com/cristianbote/goober/commit/e7e6d33e210ed1f886fb4f372fc25ffd22d358d0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        benchmarks["benchmarks package"]
+        css_js["css.js package"]
+        global["global package"]
+        index_js["index.js package"]
+        macro["macro package"]
+        packages["packages package"]
+        prefixer["prefixer package"]
+        should_forward_prop["should-forward-prop package"]
+        styled_js["styled.js package"]
+        tests["__tests__ package"]
+        ts_tests["ts-tests package"]
+        website["website package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

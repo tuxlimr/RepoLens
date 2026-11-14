@@ -1,0 +1,61 @@
+{
+  "owner": "taofed",
+  "name": "react-web",
+  "full_name": "taofed/react-web",
+  "html_url": "https://github.com/taofed/react-web",
+  "description": "A framework for building web apps with React Native compatible API.",
+  "stars": 3323,
+  "forks": 435,
+  "license": "Other",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "react",
+    "react-native"
+  ],
+  "archived": true,
+  "commit_sha": "bcdd7c015134785710c9ffd9e844532d6aa6f53d",
+  "commit_url": "https://github.com/taofed/react-web/commit/bcdd7c015134785710c9ffd9e844532d6aa6f53d",
+  "tree_url": "https://github.com/taofed/react-web/tree/bcdd7c015134785710c9ffd9e844532d6aa6f53d",
+  "analysed_at": "2026-11-14T19:15:22.919154+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 43,
+  "components": [
+    "AccessibilityInfo package",
+    "Alert package",
+    "Configuration and deployment",
+    "Core modules",
+    "DatePicker package",
+    "DrawerLayout package",
+    "Geolocation package",
+    "index.js package",
+    "LayoutAnimation package",
+    "NotImplement package",
+    "Picker package",
+    "ProgressView package",
+    "scripts package",
+    "SegmentedControl package",
+    "TabBar package",
+    "Toast package",
+    "ViewPager package"
+  ],
+  "detections": [
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/AccessibilityInfo/index.js",
+    "src/Alert/index.js",
+    "src/DatePicker/index.js",
+    "src/DrawerLayout/index.js",
+    "src/Geolocation/index.js",
+    "src/LayoutAnimation/index.js",
+    "src/NotImplement/index.js",
+    "src/Picker/index.js",
+    "src/ProgressView/index.js",
+    "src/SegmentedControl/index.js",
+    "src/Settings/index.js",
+    "src/TabBar/index.js"
+  ]
+}

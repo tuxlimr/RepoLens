@@ -1,0 +1,34 @@
+%% Repository: D4Vinci/Scrapling
+%% Analysed commit: bb223f2f5fc8f743772751a5ce283ef7851ca6be
+%% Commit reference: https://github.com/D4Vinci/Scrapling/commit/bb223f2f5fc8f743772751a5ce283ef7851ca6be
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        agent_skill["agent-skill package"]
+        scrapling["scrapling package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    agent_skill -->|imports| scrapling
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| scrapling
+    entrypoint -->|imports| service_layer
+    external_integrations -->|imports| scrapling
+    external_integrations -->|imports| service_layer
+    scrapling -->|imports| service_layer
+    service_layer -->|imports| scrapling
+    tests -->|imports| entrypoint
+    tests -->|imports| scrapling
+    tests -->|imports| service_layer

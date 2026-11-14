@@ -1,0 +1,22 @@
+%% Repository: GoogleChromeLabs/ndb
+%% Analysed commit: ade2052ad27f3c90cfd97c6aa87465c179572f8a
+%% Commit reference: https://github.com/GoogleChromeLabs/ndb/commit/ade2052ad27f3c90cfd97c6aa87465c179572f8a
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        front_end["front_end package"]
+        lib["lib package"]
+        scripts["scripts package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

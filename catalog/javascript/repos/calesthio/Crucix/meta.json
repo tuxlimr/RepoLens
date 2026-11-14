@@ -1,0 +1,41 @@
+{
+  "owner": "calesthio",
+  "name": "Crucix",
+  "full_name": "calesthio/Crucix",
+  "html_url": "https://github.com/calesthio/Crucix",
+  "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
+  "stars": 12224,
+  "forks": 1861,
+  "license": "AGPL-3.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "intelligence",
+    "osint"
+  ],
+  "archived": false,
+  "commit_sha": "3db7068817e0c815df353fa0f19657c85142789d",
+  "commit_url": "https://github.com/calesthio/Crucix/commit/3db7068817e0c815df353fa0f19657c85142789d",
+  "tree_url": "https://github.com/calesthio/Crucix/tree/3db7068817e0c815df353fa0f19657c85142789d",
+  "analysed_at": "2026-11-14T19:12:07.798059+00:00",
+  "status": "completed",
+  "files_fetched": 89,
+  "files_analysed": 88,
+  "components": [
+    "apis package",
+    "Configuration and deployment",
+    "Core modules",
+    "dashboard package",
+    "lib package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express",
+    "Docker",
+    "Docker Compose"
+  ],
+  "entry_points": []
+}

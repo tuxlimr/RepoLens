@@ -1,0 +1,38 @@
+%% Repository: jarrodwatts/claude-hud
+%% Analysed commit: 9d2b6fa4df43c8ced61c0c23956fd291551726ac
+%% Commit reference: https://github.com/jarrodwatts/claude-hud/commit/9d2b6fa4df43c8ced61c0c23956fd291551726ac
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        auth_ts["auth.ts package"]
+        channel_ts["channel.ts package"]
+        commands_ts["commands.ts package"]
+        config_reader_ts["config-reader.ts package"]
+        config_ts["config.ts package"]
+        cost_ts["cost.ts package"]
+        daily_cost_ts["daily-cost.ts package"]
+        debug_ts["debug.ts package"]
+        effort_ts["effort.ts package"]
+        external_usage_ts["external-usage.ts package"]
+        extra_cmd_ts["extra-cmd.ts package"]
+        git_ts["git.ts package"]
+        i18n["i18n package"]
+        index_ts["index.ts package"]
+        jj_ts["jj.ts package"]
+        main_ts["main.ts package"]
+        maintainer["maintainer package"]
+        memory_ts["memory.ts package"]
+        render["render package"]
+        utils["utils package"]
+        verify["verify package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (8 merged)"]
+    %% Note: 8 smaller component(s) merged into 'other' to keep the diagram readable.

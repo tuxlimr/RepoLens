@@ -1,0 +1,47 @@
+%% Repository: coderamp-labs/gitingest
+%% Analysed commit: 4e259a02fe72115bee538271622f1234a81c8e1a
+%% Commit reference: https://github.com/coderamp-labs/gitingest/commit/4e259a02fe72115bee538271622f1234a81c8e1a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        gitingest["gitingest package"]
+        server["server package"]
+        static["static package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| config
+    api_layer -->|imports| data_layer
+    api_layer -->|imports| server
+    data_layer -->|imports| gitingest
+    data_layer -->|imports| server
+    entrypoint -->|imports| api_layer
+    entrypoint -->|imports| config
+    entrypoint -->|imports| gitingest
+    entrypoint -->|imports| server
+    gitingest -->|imports| config
+    gitingest -->|imports| external_integrations
+    server -->|imports| data_layer
+    server -->|imports| external_integrations
+    server -->|imports| gitingest
+    tests -->|imports| config
+    tests -->|imports| entrypoint
+    tests -->|imports| gitingest

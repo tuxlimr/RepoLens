@@ -1,0 +1,21 @@
+%% Repository: Raathigesh/majestic
+%% Analysed commit: 2bb0047188722610c7251e53717ce731bf5ec65e
+%% Commit reference: https://github.com/Raathigesh/majestic/commit/2bb0047188722610c7251e53717ce731bf5ec65e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        server["server package"]
+        ui["ui package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end

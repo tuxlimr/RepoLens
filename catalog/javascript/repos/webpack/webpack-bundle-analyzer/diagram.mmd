@@ -1,0 +1,30 @@
+%% Repository: webpack/webpack-bundle-analyzer
+%% Analysed commit: f65668c9ab4ffe4b1989e5badbba3e0e871e1a24
+%% Commit reference: https://github.com/webpack/webpack-bundle-analyzer/commit/f65668c9ab4ffe4b1989e5badbba3e0e871e1a24
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        analyzer_js["analyzer.js package"]
+        bin["bin package"]
+        bundleanalyzerplugin_js["BundleAnalyzerPlugin.js package"]
+        index_js["index.js package"]
+        logger_js["Logger.js package"]
+        parseutils_js["parseUtils.js package"]
+        sizeutils_js["sizeUtils.js package"]
+        statsutils_js["statsUtils.js package"]
+        template_js["template.js package"]
+        tree["tree package"]
+        utils_js["utils.js package"]
+        viewer_js["viewer.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

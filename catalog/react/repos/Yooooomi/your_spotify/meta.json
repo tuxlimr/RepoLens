@@ -1,0 +1,54 @@
+{
+  "owner": "Yooooomi",
+  "name": "your_spotify",
+  "full_name": "Yooooomi/your_spotify",
+  "html_url": "https://github.com/Yooooomi/your_spotify",
+  "description": "Self hosted Spotify tracking dashboard",
+  "stars": 4630,
+  "forks": 219,
+  "license": "GPL-3.0",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "dashboard",
+    "react",
+    "self-hosted",
+    "spotify",
+    "statistics",
+    "webapp"
+  ],
+  "archived": false,
+  "commit_sha": "fdd81ef89119159eac375fa2422d83e1765cff5e",
+  "commit_url": "https://github.com/Yooooomi/your_spotify/commit/fdd81ef89119159eac375fa2422d83e1765cff5e",
+  "tree_url": "https://github.com/Yooooomi/your_spotify/tree/fdd81ef89119159eac375fa2422d83e1765cff5e",
+  "analysed_at": "2026-11-14T19:14:40.321404+00:00",
+  "status": "completed",
+  "files_fetched": 517,
+  "files_analysed": 515,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "External integrations"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "MongoDB",
+    "Express",
+    "React",
+    "axios",
+    "React Router",
+    "Redux",
+    "Redux Toolkit",
+    "Docker",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "apps/client/src/App.tsx",
+    "apps/client/src/index.tsx",
+    "apps/server/src/app.ts",
+    "apps/server/src/index.ts"
+  ]
+}

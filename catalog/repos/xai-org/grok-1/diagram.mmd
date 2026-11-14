@@ -1,0 +1,19 @@
+%% Repository: xai-org/grok-1
+%% Analysed commit: 7050ed204b8206bb8645c7b7bbef7252f79561b0
+%% Commit reference: https://github.com/xai-org/grok-1/commit/7050ed204b8206bb8645c7b7bbef7252f79561b0
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    core -->|imports| data_layer
+    entrypoint -->|imports| core
+    entrypoint -->|imports| data_layer

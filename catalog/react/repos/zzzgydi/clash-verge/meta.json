@@ -1,0 +1,30 @@
+{
+  "owner": "zzzgydi",
+  "name": "clash-verge",
+  "full_name": "zzzgydi/clash-verge",
+  "html_url": "https://github.com/zzzgydi/clash-verge",
+  "description": "A Clash GUI based on tauri. Supports Windows, macOS and Linux.",
+  "stars": 21854,
+  "forks": 3119,
+  "license": null,
+  "language": "TypeScript",
+  "default_branch": "rm",
+  "topics": [
+    "clash",
+    "cross-platform",
+    "react",
+    "rust",
+    "tauri"
+  ],
+  "archived": true,
+  "commit_sha": "0cf40f6bdf9d61c96fdf3c3a2cf8b718aa32945d",
+  "commit_url": "https://github.com/zzzgydi/clash-verge/commit/0cf40f6bdf9d61c96fdf3c3a2cf8b718aa32945d",
+  "tree_url": "https://github.com/zzzgydi/clash-verge/tree/0cf40f6bdf9d61c96fdf3c3a2cf8b718aa32945d",
+  "analysed_at": "2026-11-14T19:13:08.896548+00:00",
+  "status": "completed",
+  "files_fetched": 1,
+  "files_analysed": 1,
+  "components": [],
+  "detections": [],
+  "entry_points": []
+}

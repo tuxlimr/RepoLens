@@ -1,0 +1,52 @@
+{
+  "owner": "BuilderIO",
+  "name": "figma-html",
+  "full_name": "BuilderIO/figma-html",
+  "html_url": "https://github.com/BuilderIO/figma-html",
+  "description": "Convert any website to editable Figma designs",
+  "stars": 3715,
+  "forks": 365,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "angular",
+    "chrome-extension",
+    "design-systems",
+    "design-to-code",
+    "design-tools",
+    "figma",
+    "figma-plugin",
+    "figma-plugins",
+    "html",
+    "jsx-lite",
+    "no-code",
+    "react",
+    "storybook",
+    "svelte",
+    "typescript",
+    "vue"
+  ],
+  "archived": false,
+  "commit_sha": "2b244343ba3fcc1a2de50fa652e13833e78e36f9",
+  "commit_url": "https://github.com/BuilderIO/figma-html/commit/2b244343ba3fcc1a2de50fa652e13833e78e36f9",
+  "tree_url": "https://github.com/BuilderIO/figma-html/tree/2b244343ba3fcc1a2de50fa652e13833e78e36f9",
+  "analysed_at": "2026-11-14T19:15:07.674655+00:00",
+  "status": "completed",
+  "files_fetched": 27,
+  "files_analysed": 27,
+  "components": [
+    "chrome-extension package",
+    "Configuration and deployment",
+    "Core modules",
+    "shared package"
+  ],
+  "detections": [
+    "React",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "chrome-extension/src/popup/index.tsx"
+  ]
+}

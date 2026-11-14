@@ -1,0 +1,39 @@
+{
+  "owner": "facebookresearch",
+  "name": "fairseq",
+  "full_name": "facebookresearch/fairseq",
+  "html_url": "https://github.com/facebookresearch/fairseq",
+  "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+  "stars": 32206,
+  "forks": 6665,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "artificial-intelligence",
+    "python",
+    "pytorch"
+  ],
+  "archived": true,
+  "commit_sha": "3d262bb25690e4eb2e7d3c1309b1e9c406ca4b99",
+  "commit_url": "https://github.com/facebookresearch/fairseq/commit/3d262bb25690e4eb2e7d3c1309b1e9c406ca4b99",
+  "tree_url": "https://github.com/facebookresearch/fairseq/tree/3d262bb25690e4eb2e7d3c1309b1e9c406ca4b99",
+  "analysed_at": "2026-11-14T19:07:06.990677+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests",
+    "setuptools",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

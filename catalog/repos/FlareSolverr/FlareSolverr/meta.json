@@ -1,0 +1,57 @@
+{
+  "owner": "FlareSolverr",
+  "name": "FlareSolverr",
+  "full_name": "FlareSolverr/FlareSolverr",
+  "html_url": "https://github.com/FlareSolverr/FlareSolverr",
+  "description": "Proxy server to bypass Cloudflare protection",
+  "stars": 16227,
+  "forks": 1304,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "api",
+    "chrome",
+    "chromium",
+    "cloudflare",
+    "docker",
+    "hacktoberfest",
+    "proxy",
+    "puppeteer",
+    "rest",
+    "server"
+  ],
+  "archived": false,
+  "commit_sha": "cc2224b21e31c09a713eb25690a8e8dcdf50d8d8",
+  "commit_url": "https://github.com/FlareSolverr/FlareSolverr/commit/cc2224b21e31c09a713eb25690a8e8dcdf50d8d8",
+  "tree_url": "https://github.com/FlareSolverr/FlareSolverr/tree/cc2224b21e31c09a713eb25690a8e8dcdf50d8d8",
+  "analysed_at": "2026-11-14T19:08:52.593244+00:00",
+  "status": "completed",
+  "files_fetched": 43,
+  "files_analysed": 43,
+  "components": [
+    "bottle_plugins package",
+    "Configuration and deployment",
+    "dtos.py package",
+    "Application entry point",
+    "External integrations",
+    "metrics.py package",
+    "Service / domain layer",
+    "sessions.py package",
+    "undetected_chromedriver package",
+    "utils.py package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "requests",
+    "Docker",
+    "Docker Compose",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/build_package.py",
+    "src/flaresolverr.py",
+    "src/tests.py",
+    "src/tests_sites.py"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "owner": "imbhargav5",
+  "name": "rooks",
+  "full_name": "imbhargav5/rooks",
+  "html_url": "https://github.com/imbhargav5/rooks",
+  "description": "Over 800 k monthly downloads. Collection of awesome react hooks",
+  "stars": 3452,
+  "forks": 219,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "hook",
+    "hooks",
+    "react",
+    "react-hook",
+    "react-hooks",
+    "reactjs",
+    "rooks",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "b14419d1507882a683a273901d987033e6d9b4b3",
+  "commit_url": "https://github.com/imbhargav5/rooks/commit/b14419d1507882a683a273901d987033e6d9b4b3",
+  "tree_url": "https://github.com/imbhargav5/rooks/tree/b14419d1507882a683a273901d987033e6d9b4b3",
+  "analysed_at": "2026-11-14T19:15:18.581003+00:00",
+  "status": "completed",
+  "files_fetched": 632,
+  "files_analysed": 632,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/rooks/src/index.ts"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "owner": "iam-veeramalla",
+  "name": "aws-devops-zero-to-hero",
+  "full_name": "iam-veeramalla/aws-devops-zero-to-hero",
+  "html_url": "https://github.com/iam-veeramalla/aws-devops-zero-to-hero",
+  "description": "AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo includes projects, presentations, interview questions and real time examples.",
+  "stars": 11714,
+  "forks": 15840,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "f4aa48e41941d2eedbd0f57684ccfb3c77fc52a4",
+  "commit_url": "https://github.com/iam-veeramalla/aws-devops-zero-to-hero/commit/f4aa48e41941d2eedbd0f57684ccfb3c77fc52a4",
+  "tree_url": "https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/f4aa48e41941d2eedbd0f57684ccfb3c77fc52a4",
+  "analysed_at": "2026-11-14T19:10:25.770693+00:00",
+  "status": "completed",
+  "files_fetched": 79,
+  "files_analysed": 79,
+  "components": [
+    "Configuration and deployment",
+    "day-14 package",
+    "day-18 package",
+    "day-24 package",
+    "day-25 package",
+    "Application entry point",
+    "External integrations",
+    "scripts package"
+  ],
+  "detections": [
+    "Flask",
+    "AWS (boto3)",
+    "Docker"
+  ],
+  "entry_points": [
+    "day-14/simple-python-app/app.py",
+    "day-16/custom_metrics_demo/cloudwatch_metrics.py",
+    "day-16/default_metrics_demo/cpu_spike.py",
+    "day-21/app.py"
+  ]
+}

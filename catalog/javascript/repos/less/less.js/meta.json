@@ -1,0 +1,41 @@
+{
+  "owner": "less",
+  "name": "less.js",
+  "full_name": "less/less.js",
+  "html_url": "https://github.com/less/less.js",
+  "description": "Less. The dynamic stylesheet language.",
+  "stars": 17000,
+  "forks": 3363,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "css",
+    "language",
+    "stylesheet-language"
+  ],
+  "archived": false,
+  "commit_sha": "713331655e437401dfea6cd233893a69762734e1",
+  "commit_url": "https://github.com/less/less.js/commit/713331655e437401dfea6cd233893a69762734e1",
+  "tree_url": "https://github.com/less/less.js/tree/713331655e437401dfea6cd233893a69762734e1",
+  "analysed_at": "2026-11-14T19:11:29.071984+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 797,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "TypeScript",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/less/bin/lessc",
+    "packages/less/benchmark/index.js",
+    "packages/test-data/index.js"
+  ]
+}

@@ -1,0 +1,23 @@
+%% Repository: iam-veeramalla/aws-devops-zero-to-hero
+%% Analysed commit: f4aa48e41941d2eedbd0f57684ccfb3c77fc52a4
+%% Commit reference: https://github.com/iam-veeramalla/aws-devops-zero-to-hero/commit/f4aa48e41941d2eedbd0f57684ccfb3c77fc52a4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        day_14["day-14 package"]
+        day_18["day-18 package"]
+        day_24["day-24 package"]
+        day_25["day-25 package"]
+        scripts["scripts package"]
+    end
+    day_18 -->|imports| external_integrations
+    day_25 -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations

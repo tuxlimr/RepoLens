@@ -1,0 +1,35 @@
+{
+  "owner": "hakanyalcinkaya",
+  "name": "kodluyoruz-frontend-101-egitimi",
+  "full_name": "hakanyalcinkaya/kodluyoruz-frontend-101-egitimi",
+  "html_url": "https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi",
+  "description": "Kodluyoruz i\u00e7in Haz\u0131rlad\u0131\u011f\u0131m Video E\u011fitim Seti Repo'sudur. T\u00fcm E\u011fitimlerime: https://linktr.ee/hakanyalcinkaya adresinden ula\u015fabilirsiniz.",
+  "stars": 10896,
+  "forks": 3966,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "css",
+    "git",
+    "github",
+    "html",
+    "javascript",
+    "markdown",
+    "vscode"
+  ],
+  "archived": false,
+  "commit_sha": "82ff80eedffee479c585c1850b925701e21116fc",
+  "commit_url": "https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi/commit/82ff80eedffee479c585c1850b925701e21116fc",
+  "tree_url": "https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi/tree/82ff80eedffee479c585c1850b925701e21116fc",
+  "analysed_at": "2026-11-14T19:12:29.876556+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 790,
+  "components": [
+    "03-bootstrap-kategorisi package",
+    "Configuration and deployment"
+  ],
+  "detections": [],
+  "entry_points": []
+}

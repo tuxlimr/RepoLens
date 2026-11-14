@@ -1,0 +1,29 @@
+%% Repository: PanJiaChen/vue-admin-template
+%% Analysed commit: 4c18a3f47bdb417ad8a25f09910f848cb574dee2
+%% Commit reference: https://github.com/PanJiaChen/vue-admin-template/commit/4c18a3f47bdb417ad8a25f09910f848cb574dee2
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        app_vue["App.vue package"]
+        components["components package"]
+        icons["icons package"]
+        layout["layout package"]
+        main_js["main.js package"]
+        mock["mock package"]
+        permission_js["permission.js package"]
+        router["router package"]
+        settings_js["settings.js package"]
+        store["store package"]
+        utils["utils package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

@@ -1,0 +1,32 @@
+%% Repository: abi/screenshot-to-code
+%% Analysed commit: 0a77981c6eb4a4f4450690f21e4addc93522da9e
+%% Commit reference: https://github.com/abi/screenshot-to-code/commit/0a77981c6eb4a4f4450690f21e4addc93522da9e
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        backend["backend package"]
+        frontend["frontend package"]
+        scripts["scripts package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    backend -->|imports| config
+    backend -->|imports| external_integrations
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| external_integrations

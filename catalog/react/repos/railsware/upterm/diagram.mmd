@@ -1,0 +1,34 @@
+%% Repository: railsware/upterm
+%% Analysed commit: 6db8d5b89625fca9a3058e1e5956084867225e9c
+%% Commit reference: https://github.com/railsware/upterm/commit/6db8d5b89625fca9a3058e1e5956084867225e9c
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        autocompletion_ts["Autocompletion.ts package"]
+        char_ts["Char.ts package"]
+        decorators_ts["Decorators.ts package"]
+        emitterwithuniqueid_ts["EmitterWithUniqueID.ts package"]
+        enums_ts["Enums.ts package"]
+        interfaces_ts["Interfaces.ts package"]
+        main["main package"]
+        monaco["monaco package"]
+        output_ts["Output.ts package"]
+        pluginmanager_ts["PluginManager.ts package"]
+        plugins["plugins package"]
+        pty_ts["PTY.ts package"]
+        references_d_ts["references.d.ts package"]
+        shell["shell package"]
+        typings["typings package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

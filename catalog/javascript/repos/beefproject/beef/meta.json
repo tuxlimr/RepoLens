@@ -1,0 +1,36 @@
+{
+  "owner": "beefproject",
+  "name": "beef",
+  "full_name": "beefproject/beef",
+  "html_url": "https://github.com/beefproject/beef",
+  "description": "The Browser Exploitation Framework Project",
+  "stars": 11096,
+  "forks": 2380,
+  "license": null,
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "9194fb84841bc3bdb9abc3384fa47bab100a5a30",
+  "commit_url": "https://github.com/beefproject/beef/commit/9194fb84841bc3bdb9abc3384fa47bab100a5a30",
+  "tree_url": "https://github.com/beefproject/beef/tree/9194fb84841bc3bdb9abc3384fa47bab100a5a30",
+  "analysed_at": "2026-11-14T19:12:26.228370+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 797,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "extensions package",
+    "External integrations",
+    "modules package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Docker"
+  ],
+  "entry_points": []
+}

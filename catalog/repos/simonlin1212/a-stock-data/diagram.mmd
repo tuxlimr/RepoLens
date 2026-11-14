@@ -1,0 +1,11 @@
+%% Repository: simonlin1212/a-stock-data
+%% Analysed commit: f21534946c42be3ad048ac938eecb1bad84cb8ab
+%% Commit reference: https://github.com/simonlin1212/a-stock-data/commit/f21534946c42be3ad048ac938eecb1bad84cb8ab
+flowchart TD
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    tests -->|imports| external_integrations

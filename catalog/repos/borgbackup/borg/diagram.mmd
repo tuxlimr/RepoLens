@@ -1,0 +1,28 @@
+%% Repository: borgbackup/borg
+%% Analysed commit: 119addc7c0235b1859c9efd74f771c02b1208bcb
+%% Commit reference: https://github.com/borgbackup/borg/commit/119addc7c0235b1859c9efd74f771c02b1208bcb
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        borg["borg package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    borg -->|imports| external_integrations
+    borg -->|imports| tests
+    entrypoint -->|imports| borg
+    scripts -->|imports| borg
+    scripts -->|imports| entrypoint
+    tests -->|imports| borg
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations

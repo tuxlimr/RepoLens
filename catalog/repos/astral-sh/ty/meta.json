@@ -1,0 +1,40 @@
+{
+  "owner": "astral-sh",
+  "name": "ty",
+  "full_name": "astral-sh/ty",
+  "html_url": "https://github.com/astral-sh/ty",
+  "description": "An extremely fast Python type checker and language server, written in Rust.",
+  "stars": 20088,
+  "forks": 348,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "b4bb5b2c8a620db50ad2f4c4e7055c2a4d51a551",
+  "commit_url": "https://github.com/astral-sh/ty/commit/b4bb5b2c8a620db50ad2f4c4e7055c2a4d51a551",
+  "tree_url": "https://github.com/astral-sh/ty/tree/b4bb5b2c8a620db50ad2f4c4e7055c2a4d51a551",
+  "analysed_at": "2026-11-14T19:08:03.817572+00:00",
+  "status": "completed",
+  "files_fetched": 89,
+  "files_analysed": 89,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "python package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "Docker"
+  ],
+  "entry_points": [
+    "python/ty/__main__.py",
+    "scripts/build_ty_bolt.py",
+    "scripts/build_ty_pgo.py",
+    "scripts/patch-dist-manifest-checksums.py",
+    "scripts/transform_readme.py",
+    "scripts/update_schemastore.py"
+  ]
+}

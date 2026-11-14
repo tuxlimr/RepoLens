@@ -1,0 +1,28 @@
+%% Repository: jo-inc/camofox-browser
+%% Analysed commit: 31376c27db94204ffdc635ae71a7f61328e91a5e
+%% Commit reference: https://github.com/jo-inc/camofox-browser/commit/31376c27db94204ffdc635ae71a7f61328e91a5e
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        bin["bin package"]
+        lib["lib package"]
+        mcp["mcp package"]
+        plugins["plugins package"]
+        scripts["scripts package"]
+        tools["tools package"]
+        workers["workers package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

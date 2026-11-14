@@ -1,0 +1,38 @@
+%% Repository: insin/nwb
+%% Analysed commit: d95ab83f05d09c40dd2b7c65f4c6b15776c8526d
+%% Commit reference: https://github.com/insin/nwb/commit/d95ab83f05d09c40dd2b7c65f4c6b15776c8526d
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        appcommands_js["appCommands.js package"]
+        bin["bin package"]
+        cli_js["cli.js package"]
+        commands["commands package"]
+        constants_js["constants.js package"]
+        createbabelconfig_js["createBabelConfig.js package"]
+        createkarmaconfig_js["createKarmaConfig.js package"]
+        createproject_js["createProject.js package"]
+        createserverwebpackconfig_js["createServerWebpackConfig.js package"]
+        createwebpackconfig_js["createWebpackConfig.js package"]
+        debug_js["debug.js package"]
+        devserver_js["devServer.js package"]
+        errors_js["errors.js package"]
+        expressmiddleware_js["expressMiddleware.js package"]
+        flow_typed["flow-typed package"]
+        inferno["inferno package"]
+        karmaserver_js["karmaServer.js package"]
+        modulebuild_js["moduleBuild.js package"]
+        preact["preact package"]
+        react["react package"]
+        templates["templates package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    other["Other components (8 merged)"]
+    %% Note: 8 smaller component(s) merged into 'other' to keep the diagram readable.

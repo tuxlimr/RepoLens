@@ -1,0 +1,28 @@
+%% Repository: noodle-run/noodle
+%% Analysed commit: 4e26fb7c990ccccce203f1c30f79126ef1bfbcaa
+%% Commit reference: https://github.com/noodle-run/noodle/commit/4e26fb7c990ccccce203f1c30f79126ef1bfbcaa
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph library_group
+        app["app package"]
+        constants_tsx["constants.tsx package"]
+        emails["emails package"]
+        env_ts["env.ts package"]
+        lib["lib package"]
+        mdx_components_tsx["mdx-components.tsx package"]
+        middleware_ts["middleware.ts package"]
+        primitives["primitives package"]
+        server["server package"]
+        utils["utils package"]
+    end

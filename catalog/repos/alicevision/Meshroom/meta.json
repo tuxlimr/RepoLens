@@ -1,0 +1,63 @@
+{
+  "owner": "alicevision",
+  "name": "Meshroom",
+  "full_name": "alicevision/Meshroom",
+  "html_url": "https://github.com/alicevision/Meshroom",
+  "description": "Node-based Visual Programming Toolbox",
+  "stars": 13091,
+  "forks": 1242,
+  "license": "Other",
+  "language": "Python",
+  "default_branch": "develop",
+  "topics": [
+    "3d-reconstruction",
+    "alicevision",
+    "camera-tracking",
+    "computer-vision",
+    "hdr-imaging",
+    "image-stitching",
+    "meshroom",
+    "multi-view-stereo",
+    "nocode",
+    "nodal-interface",
+    "photogrammetry",
+    "structure-from-motion",
+    "texturing",
+    "workflow-automation"
+  ],
+  "archived": false,
+  "commit_sha": "d787a6bf29f5e318f0e32d22d6e7109b065dad4c",
+  "commit_url": "https://github.com/alicevision/Meshroom/commit/d787a6bf29f5e318f0e32d22d6e7109b065dad4c",
+  "tree_url": "https://github.com/alicevision/Meshroom/tree/d787a6bf29f5e318f0e32d22d6e7109b065dad4c",
+  "analysed_at": "2026-11-14T19:09:55.950999+00:00",
+  "status": "completed",
+  "files_fetched": 470,
+  "files_analysed": 470,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "docker package",
+    "Application entry point",
+    "External integrations",
+    "localfarm package",
+    "meshroom package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    ".github/scripts/pyside6-smoke-test.py",
+    "localfarm/localFarmBackend.py",
+    "localfarm/localFarmLauncher.py",
+    "localfarm/test.py",
+    "meshroom/nodes/general/scripts/extractMeshroomSceneParams.py"
+  ]
+}

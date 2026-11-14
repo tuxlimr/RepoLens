@@ -1,0 +1,33 @@
+%% Repository: Physical-Intelligence/openpi
+%% Analysed commit: 215abfb217dbac7d5f1273282331b9b1866c0479
+%% Commit reference: https://github.com/Physical-Intelligence/openpi/commit/215abfb217dbac7d5f1273282331b9b1866c0479
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        openpi["openpi package"]
+        packages["packages package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| openpi
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| openpi
+    openpi -->|imports| data_layer
+    openpi -->|imports| entrypoint
+    tests -->|imports| data_layer
+    tests -->|imports| openpi
+    tests -->|imports| scripts

@@ -1,0 +1,25 @@
+%% Repository: riot/riot
+%% Analysed commit: e46e3bbf962b2bfad672de199c67bcc4147e430b
+%% Commit reference: https://github.com/riot/riot/commit/e46e3bbf962b2bfad672de199c67bcc4147e430b
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        compiler["compiler package"]
+        riot_compiler_js["riot+compiler.js package"]
+        riot_js["riot.js package"]
+        utils["utils package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

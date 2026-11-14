@@ -1,0 +1,56 @@
+{
+  "owner": "alexgurr",
+  "name": "react-coding-challenges",
+  "full_name": "alexgurr/react-coding-challenges",
+  "html_url": "https://github.com/alexgurr/react-coding-challenges",
+  "description": "A series of ReactJS coding challenges with a variety of difficulties. ",
+  "stars": 3425,
+  "forks": 1108,
+  "license": null,
+  "language": "SCSS",
+  "default_branch": "master",
+  "topics": [
+    "app",
+    "candidates",
+    "challenge",
+    "coding-challenges",
+    "exercises",
+    "interview",
+    "interview-practice",
+    "interviews",
+    "javascript",
+    "react",
+    "react-coding-challenges",
+    "reactjs"
+  ],
+  "archived": false,
+  "commit_sha": "fc446a3dadc2aca69b7e55fc72ed62b413d382b4",
+  "commit_url": "https://github.com/alexgurr/react-coding-challenges/commit/fc446a3dadc2aca69b7e55fc72ed62b413d382b4",
+  "tree_url": "https://github.com/alexgurr/react-coding-challenges/tree/fc446a3dadc2aca69b7e55fc72ed62b413d382b4",
+  "analysed_at": "2026-11-14T19:15:19.340418+00:00",
+  "status": "completed",
+  "files_fetched": 101,
+  "files_analysed": 100,
+  "components": [
+    "API layer",
+    "chatter package",
+    "Configuration and deployment",
+    "dark-mode package",
+    "rocket-ship package",
+    "spootify package"
+  ],
+  "detections": [
+    "React",
+    "axios"
+  ],
+  "entry_points": [
+    "chatter/src/App.js",
+    "chatter/src/index.js",
+    "dark-mode/src/index.js",
+    "dark-mode/src/routes/index.js",
+    "rocket-ship/src/index.js",
+    "rocket-ship/src/routes/index.js",
+    "spootify/src/index.js",
+    "spootify/src/routes/index.js"
+  ]
+}

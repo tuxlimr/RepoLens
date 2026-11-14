@@ -1,0 +1,50 @@
+{
+  "owner": "Physical-Intelligence",
+  "name": "openpi",
+  "full_name": "Physical-Intelligence/openpi",
+  "html_url": "https://github.com/Physical-Intelligence/openpi",
+  "description": null,
+  "stars": 14648,
+  "forks": 2644,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "commit_url": "https://github.com/Physical-Intelligence/openpi/commit/215abfb217dbac7d5f1273282331b9b1866c0479",
+  "tree_url": "https://github.com/Physical-Intelligence/openpi/tree/215abfb217dbac7d5f1273282331b9b1866c0479",
+  "analysed_at": "2026-11-14T19:09:21.987206+00:00",
+  "status": "completed",
+  "files_fetched": 139,
+  "files_analysed": 139,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "openpi package",
+    "packages package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "Docker Compose",
+    "pytest"
+  ],
+  "entry_points": [
+    "src/openpi/training/config.py",
+    "scripts/compute_norm_stats.py",
+    "scripts/serve_policy.py",
+    "scripts/train.py",
+    "scripts/train_pytorch.py"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "owner": "wevm",
+  "name": "wagmi",
+  "full_name": "wevm/wagmi",
+  "html_url": "https://github.com/wevm/wagmi",
+  "description": "Reactive primitives for Ethereum apps",
+  "stars": 6776,
+  "forks": 1467,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "dapp",
+    "ethereum",
+    "hooks",
+    "react",
+    "typescript",
+    "viem",
+    "vue",
+    "wagmi",
+    "web3"
+  ],
+  "archived": false,
+  "commit_sha": "b148425e51be6b9bfc750568918f5dd0bf8f94ca",
+  "commit_url": "https://github.com/wevm/wagmi/commit/b148425e51be6b9bfc750568918f5dd0bf8f94ca",
+  "tree_url": "https://github.com/wevm/wagmi/tree/b148425e51be6b9bfc750568918f5dd0bf8f94ca",
+  "analysed_at": "2026-11-14T19:14:02.115016+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "Configuration and deployment",
+    "packages package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Vue",
+    "Docker",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,44 @@
+{
+  "owner": "feathericons",
+  "name": "feather",
+  "full_name": "feathericons/feather",
+  "html_url": "https://github.com/feathericons/feather",
+  "description": "Simply beautiful open-source icons",
+  "stars": 26040,
+  "forks": 1281,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "icons",
+    "javascript",
+    "svg"
+  ],
+  "archived": false,
+  "commit_sha": "3dc050d97405062eba78aa57115c0a15c63abdaa",
+  "commit_url": "https://github.com/feathericons/feather/commit/3dc050d97405062eba78aa57115c0a15c63abdaa",
+  "tree_url": "https://github.com/feathericons/feather/tree/3dc050d97405062eba78aa57115c0a15c63abdaa",
+  "analysed_at": "2026-11-14T19:10:55.445428+00:00",
+  "status": "completed",
+  "files_fetched": 343,
+  "files_analysed": 343,
+  "components": [
+    "bin package",
+    "Configuration and deployment",
+    "Core modules",
+    "icon.js package",
+    "icons.js package",
+    "index.js package",
+    "replace.js package",
+    "__tests__ package",
+    "to-svg.js package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Jest",
+    "webpack"
+  ],
+  "entry_points": [
+    "src/index.js"
+  ]
+}

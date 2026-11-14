@@ -1,0 +1,43 @@
+{
+  "owner": "karma-runner",
+  "name": "karma",
+  "full_name": "karma-runner/karma",
+  "html_url": "https://github.com/karma-runner/karma",
+  "description": "Spectacular Test Runner for JavaScript",
+  "stars": 11951,
+  "forks": 1703,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "84f85e7016efc2266fa6b3465f494a3fa151c85c",
+  "commit_url": "https://github.com/karma-runner/karma/commit/84f85e7016efc2266fa6b3465f494a3fa151c85c",
+  "tree_url": "https://github.com/karma-runner/karma/tree/84f85e7016efc2266fa6b3465f494a3fa151c85c",
+  "analysed_at": "2026-11-14T19:12:12.151544+00:00",
+  "status": "completed",
+  "files_fetched": 262,
+  "files_analysed": 261,
+  "components": [
+    "common package",
+    "Configuration and deployment",
+    "context package",
+    "Core modules",
+    "External integrations",
+    "lib package",
+    "scripts package",
+    "static package",
+    "Tests",
+    "tools package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "bin/karma",
+    "client/main.js",
+    "context/main.js",
+    "lib/index.js",
+    "lib/server.js"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "owner": "codelucas",
+  "name": "newspaper",
+  "full_name": "codelucas/newspaper",
+  "html_url": "https://github.com/codelucas/newspaper",
+  "description": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:",
+  "stars": 15187,
+  "forks": 2102,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "crawler",
+    "crawling",
+    "news",
+    "news-aggregator",
+    "python",
+    "scraper"
+  ],
+  "archived": false,
+  "commit_sha": "745dfe3abe9ef5608461d335163c93c9e6c172fa",
+  "commit_url": "https://github.com/codelucas/newspaper/commit/745dfe3abe9ef5608461d335163c93c9e6c172fa",
+  "tree_url": "https://github.com/codelucas/newspaper/tree/745dfe3abe9ef5608461d335163c93c9e6c172fa",
+  "analysed_at": "2026-11-14T19:09:08.102342+00:00",
+  "status": "completed",
+  "files_fetched": 206,
+  "files_analysed": 206,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "newspaper package",
+    "Tests"
+  ],
+  "detections": [
+    "requests",
+    "setuptools"
+  ],
+  "entry_points": [
+    "download_corpora.py"
+  ]
+}

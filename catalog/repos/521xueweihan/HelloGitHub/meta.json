@@ -1,0 +1,38 @@
+{
+  "owner": "521xueweihan",
+  "name": "HelloGitHub",
+  "full_name": "521xueweihan/HelloGitHub",
+  "html_url": "https://github.com/521xueweihan/HelloGitHub",
+  "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
+  "stars": 188845,
+  "forks": 13291,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "awesome",
+    "github",
+    "hellogithub",
+    "python"
+  ],
+  "archived": false,
+  "commit_sha": "d65699c2892f3ad7516398a3fbd3855913f9d17d",
+  "commit_url": "https://github.com/521xueweihan/HelloGitHub/commit/d65699c2892f3ad7516398a3fbd3855913f9d17d",
+  "tree_url": "https://github.com/521xueweihan/HelloGitHub/tree/d65699c2892f3ad7516398a3fbd3855913f9d17d",
+  "analysed_at": "2026-11-14T19:06:01.909349+00:00",
+  "status": "completed",
+  "files_fetched": 268,
+  "files_analysed": 268,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations"
+  ],
+  "detections": [
+    "requests"
+  ],
+  "entry_points": [
+    "script/github_bot/github_bot.py",
+    "script/make_content/make_content.py"
+  ]
+}

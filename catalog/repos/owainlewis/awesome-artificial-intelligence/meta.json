@@ -1,0 +1,47 @@
+{
+  "owner": "owainlewis",
+  "name": "awesome-artificial-intelligence",
+  "full_name": "owainlewis/awesome-artificial-intelligence",
+  "html_url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+  "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+  "stars": 16839,
+  "forks": 2576,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "ai",
+    "artificial-intelligence",
+    "deep-learning",
+    "intelligent-machines",
+    "intelligent-systems",
+    "machine-intelligence",
+    "machine-learning",
+    "neural-network",
+    "reinforcement-learning",
+    "statistical-learning",
+    "unsupervised-learning"
+  ],
+  "archived": false,
+  "commit_sha": "ab1c3cceef8ab906586505a7a7a293f434280862",
+  "commit_url": "https://github.com/owainlewis/awesome-artificial-intelligence/commit/ab1c3cceef8ab906586505a7a7a293f434280862",
+  "tree_url": "https://github.com/owainlewis/awesome-artificial-intelligence/tree/ab1c3cceef8ab906586505a7a7a293f434280862",
+  "analysed_at": "2026-11-14T19:08:41.113171+00:00",
+  "status": "completed",
+  "files_fetched": 18,
+  "files_analysed": 18,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry",
+    "unittest"
+  ],
+  "entry_points": [
+    "scripts/validate_readme.py"
+  ]
+}

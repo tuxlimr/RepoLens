@@ -1,0 +1,34 @@
+{
+  "owner": "LiLittleCat",
+  "name": "awesome-free-chatgpt",
+  "full_name": "LiLittleCat/awesome-free-chatgpt",
+  "html_url": "https://github.com/LiLittleCat/awesome-free-chatgpt",
+  "description": "\ud83c\udd93\u514d\u8d39\u7684 ChatGPT \u955c\u50cf\u7f51\u7ad9\u5217\u8868\uff0c\u6301\u7eed\u66f4\u65b0\u3002List of free ChatGPT mirror sites, continuously updated. ",
+  "stars": 21365,
+  "forks": 1390,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "chat",
+    "chatgpt",
+    "free",
+    "freechatgpt"
+  ],
+  "archived": false,
+  "commit_sha": "7b716a693f95e2b1c6707195c35029a2478b9818",
+  "commit_url": "https://github.com/LiLittleCat/awesome-free-chatgpt/commit/7b716a693f95e2b1c6707195c35029a2478b9818",
+  "tree_url": "https://github.com/LiLittleCat/awesome-free-chatgpt/tree/7b716a693f95e2b1c6707195c35029a2478b9818",
+  "analysed_at": "2026-11-14T19:07:59.652508+00:00",
+  "status": "completed",
+  "files_fetched": 8,
+  "files_analysed": 8,
+  "components": [
+    "Configuration and deployment",
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": []
+}

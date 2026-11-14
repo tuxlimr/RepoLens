@@ -1,0 +1,53 @@
+{
+  "owner": "thebuilder",
+  "name": "react-intersection-observer",
+  "full_name": "thebuilder/react-intersection-observer",
+  "html_url": "https://github.com/thebuilder/react-intersection-observer",
+  "description": "React implementation of the Intersection Observer API to tell you when an element enters or leaves the viewport.",
+  "stars": 5543,
+  "forks": 188,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "main",
+  "topics": [
+    "hook",
+    "hooks",
+    "intersection-observer",
+    "intersectionobserver",
+    "intersectionobserver-api",
+    "lazy-loading",
+    "monitor",
+    "performance",
+    "react",
+    "react-hooks",
+    "reactjs",
+    "scrolling",
+    "viewport",
+    "visibility"
+  ],
+  "archived": false,
+  "commit_sha": "591e167abb2300f2017c810f83ee0511f7fbbd50",
+  "commit_url": "https://github.com/thebuilder/react-intersection-observer/commit/591e167abb2300f2017c810f83ee0511f7fbbd50",
+  "tree_url": "https://github.com/thebuilder/react-intersection-observer/tree/591e167abb2300f2017c810f83ee0511f7fbbd50",
+  "analysed_at": "2026-11-14T19:14:18.150162+00:00",
+  "status": "completed",
+  "files_fetched": 88,
+  "files_analysed": 87,
+  "components": [
+    "apps package",
+    "Configuration and deployment",
+    "packages package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "apps/storybook/.storybook/main.ts",
+    "packages/react-intersection-observer/src/index.tsx"
+  ]
+}

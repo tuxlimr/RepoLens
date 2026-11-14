@@ -1,0 +1,26 @@
+%% Repository: sapientinc/HRM
+%% Analysed commit: ac15626f8db096a63c775b84c9dc868776a6feda
+%% Commit reference: https://github.com/sapientinc/HRM/commit/ac15626f8db096a63c775b84c9dc868776a6feda
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        assets["assets package"]
+        dataset["dataset package"]
+        utils["utils package"]
+    end
+    core -->|imports| data_layer
+    core -->|imports| dataset
+    entrypoint -->|imports| core
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| utils

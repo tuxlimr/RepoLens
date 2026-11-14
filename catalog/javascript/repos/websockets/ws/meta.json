@@ -1,0 +1,45 @@
+{
+  "owner": "websockets",
+  "name": "ws",
+  "full_name": "websockets/ws",
+  "html_url": "https://github.com/websockets/ws",
+  "description": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js",
+  "stars": 22829,
+  "forks": 2682,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "javascript",
+    "node",
+    "nodejs",
+    "real-time",
+    "rfc-6455",
+    "websocket",
+    "websocket-client",
+    "websocket-compression",
+    "websocket-server"
+  ],
+  "archived": false,
+  "commit_sha": "fc667e495bd63052ac78fc2a149dbf948d1d3d02",
+  "commit_url": "https://github.com/websockets/ws/commit/fc667e495bd63052ac78fc2a149dbf948d1d3d02",
+  "tree_url": "https://github.com/websockets/ws/tree/fc667e495bd63052ac78fc2a149dbf948d1d3d02",
+  "analysed_at": "2026-11-14T19:11:06.630302+00:00",
+  "status": "completed",
+  "files_fetched": 64,
+  "files_analysed": 57,
+  "components": [
+    "bench package",
+    "Configuration and deployment",
+    "Core modules",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express"
+  ],
+  "entry_points": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,31 @@
+%% Repository: bvaughn/react-resizable-panels
+%% Analysed commit: 6b22da07c2fa712327059f5c0848e7c90d0fc3c3
+%% Commit reference: https://github.com/bvaughn/react-resizable-panels/commit/6b22da07c2fa712327059f5c0848e7c90d0fc3c3
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        app_tsx["App.tsx package"]
+        components["components package"]
+        embeds["embeds package"]
+        hooks["hooks package"]
+        lib["lib package"]
+        routes_ts["routes.ts package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

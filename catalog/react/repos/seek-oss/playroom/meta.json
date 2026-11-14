@@ -1,0 +1,45 @@
+{
+  "owner": "seek-oss",
+  "name": "playroom",
+  "full_name": "seek-oss/playroom",
+  "html_url": "https://github.com/seek-oss/playroom",
+  "description": "Design with JSX, powered by your own component library.",
+  "stars": 4594,
+  "forks": 190,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "design",
+    "design-systems",
+    "front-end",
+    "react"
+  ],
+  "archived": false,
+  "commit_sha": "4bc32249e210d09c2fade5f9f756ae5ed64c5478",
+  "commit_url": "https://github.com/seek-oss/playroom/commit/4bc32249e210d09c2fade5f9f756ae5ed64c5478",
+  "tree_url": "https://github.com/seek-oss/playroom/tree/4bc32249e210d09c2fade5f9f756ae5ed64c5478",
+  "analysed_at": "2026-11-14T19:14:41.720966+00:00",
+  "status": "completed",
+  "files_fetched": 214,
+  "files_analysed": 214,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "cypress package",
+    "fixtures package",
+    "packages package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "TypeScript",
+    "Vitest",
+    "webpack"
+  ],
+  "entry_points": [
+    "packages/playroom/src/cli.ts",
+    "packages/playroom/src/index.ts"
+  ]
+}

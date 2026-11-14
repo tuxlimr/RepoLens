@@ -1,0 +1,50 @@
+{
+  "owner": "wwebjs",
+  "name": "whatsapp-web.js",
+  "full_name": "wwebjs/whatsapp-web.js",
+  "html_url": "https://github.com/wwebjs/whatsapp-web.js",
+  "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+  "stars": 22909,
+  "forks": 5203,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "api",
+    "bot",
+    "bot-api",
+    "hacktoberfest",
+    "whatsapp",
+    "whatsapp-api",
+    "whatsapp-bot",
+    "whatsapp-web",
+    "whatsapp-web-api"
+  ],
+  "archived": false,
+  "commit_sha": "eb076b0c4075f5c295d5633f4c587d02ef4e5cf1",
+  "commit_url": "https://github.com/wwebjs/whatsapp-web.js/commit/eb076b0c4075f5c295d5633f4c587d02ef4e5cf1",
+  "tree_url": "https://github.com/wwebjs/whatsapp-web.js/tree/eb076b0c4075f5c295d5633f4c587d02ef4e5cf1",
+  "analysed_at": "2026-11-14T19:11:06.054911+00:00",
+  "status": "completed",
+  "files_fetched": 184,
+  "files_analysed": 184,
+  "components": [
+    "authStrategies package",
+    "Client.js package",
+    "Configuration and deployment",
+    "Core modules",
+    "factories package",
+    "structures package",
+    "Tests",
+    "tools package",
+    "util package",
+    "webCache package"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": [
+    "index.js",
+    "src/structures/index.js"
+  ]
+}

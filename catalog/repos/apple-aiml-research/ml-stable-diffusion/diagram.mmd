@@ -1,0 +1,23 @@
+%% Repository: apple-aiml-research/ml-stable-diffusion
+%% Analysed commit: ea2805dc1945be20561c77e5f6d1d9a5a637cda2
+%% Commit reference: https://github.com/apple-aiml-research/ml-stable-diffusion/commit/ea2805dc1945be20561c77e5f6d1d9a5a637cda2
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        python_coreml_stable_diffusion["python_coreml_stable_diffusion package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| python_coreml_stable_diffusion
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| python_coreml_stable_diffusion
+    tests -->|imports| python_coreml_stable_diffusion

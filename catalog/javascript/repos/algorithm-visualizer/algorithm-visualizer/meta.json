@@ -1,0 +1,56 @@
+{
+  "owner": "algorithm-visualizer",
+  "name": "algorithm-visualizer",
+  "full_name": "algorithm-visualizer/algorithm-visualizer",
+  "html_url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+  "description": ":fireworks:Interactive Online Platform that Visualizes Algorithms from Code",
+  "stars": 49507,
+  "forks": 7663,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "algorithm",
+    "animation",
+    "data-structure",
+    "visualization"
+  ],
+  "archived": false,
+  "commit_sha": "18de2edf6b629e843ee4bcedfa2208d22b253f0f",
+  "commit_url": "https://github.com/algorithm-visualizer/algorithm-visualizer/commit/18de2edf6b629e843ee4bcedfa2208d22b253f0f",
+  "tree_url": "https://github.com/algorithm-visualizer/algorithm-visualizer/tree/18de2edf6b629e843ee4bcedfa2208d22b253f0f",
+  "analysed_at": "2026-11-14T19:10:37.515565+00:00",
+  "status": "completed",
+  "files_fetched": 95,
+  "files_analysed": 95,
+  "components": [
+    "apis package",
+    "common package",
+    "components package",
+    "Configuration and deployment",
+    "files package",
+    "index.js package",
+    "reducers package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "React",
+    "axios",
+    "React Router",
+    "Redux"
+  ],
+  "entry_points": [
+    "src/apis/index.js",
+    "src/components/App/index.js",
+    "src/components/BaseComponent/index.js",
+    "src/components/Button/index.js",
+    "src/components/CodeEditor/index.js",
+    "src/components/Divider/index.js",
+    "src/components/Ellipsis/index.js",
+    "src/components/ExpandableListItem/index.js",
+    "src/components/FoldableAceEditor/index.js",
+    "src/components/Header/index.js",
+    "src/components/ListItem/index.js",
+    "src/components/Navigator/index.js"
+  ]
+}

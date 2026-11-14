@@ -1,0 +1,26 @@
+%% Repository: browser-use/browser-harness
+%% Analysed commit: f81992a129b1d125ee3fce0a1c48ef1e7b95dad7
+%% Commit reference: https://github.com/browser-use/browser-harness/commit/f81992a129b1d125ee3fce0a1c48ef1e7b95dad7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        agent_workspace["agent-workspace package"]
+        browser_harness["browser_harness package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    browser_harness -->|imports| entrypoint
+    browser_harness -->|imports| external_integrations
+    entrypoint -->|imports| browser_harness
+    entrypoint -->|imports| external_integrations
+    tests -->|imports| browser_harness
+    tests -->|imports| entrypoint

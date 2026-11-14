@@ -1,0 +1,24 @@
+%% Repository: Rudrabha/Wav2Lip
+%% Analysed commit: bac9a81e63ecc153202353372e5724b83d9e6322
+%% Commit reference: https://github.com/Rudrabha/Wav2Lip/commit/bac9a81e63ecc153202353372e5724b83d9e6322
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        evaluation["evaluation package"]
+        face_detection["face_detection package"]
+    end
+    entrypoint -->|imports| core
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| face_detection
+    face_detection -->|imports| data_layer

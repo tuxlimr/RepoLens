@@ -1,0 +1,18 @@
+%% Repository: google/python-fire
+%% Analysed commit: 716bbc23d7eca949fdb682172283c8d18f742cb6
+%% Commit reference: https://github.com/google/python-fire/commit/716bbc23d7eca949fdb682172283c8d18f742cb6
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph library_group
+        fire["fire package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| fire
+    tests -->|imports| fire

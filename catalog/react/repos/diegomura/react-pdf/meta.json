@@ -1,0 +1,56 @@
+{
+  "owner": "diegomura",
+  "name": "react-pdf",
+  "full_name": "diegomura/react-pdf",
+  "html_url": "https://github.com/diegomura/react-pdf",
+  "description": "\ud83d\udcc4  Create PDF files using React",
+  "stars": 16858,
+  "forks": 1348,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "flexbox",
+    "pdf",
+    "react",
+    "renderer"
+  ],
+  "archived": false,
+  "commit_sha": "f765c957902eb1f0d15b1571d6f61e5818e8bc50",
+  "commit_url": "https://github.com/diegomura/react-pdf/commit/f765c957902eb1f0d15b1571d6f61e5818e8bc50",
+  "tree_url": "https://github.com/diegomura/react-pdf/tree/f765c957902eb1f0d15b1571d6f61e5818e8bc50",
+  "analysed_at": "2026-11-14T19:13:15.074582+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 799,
+  "components": [
+    "API layer",
+    "apps package",
+    "Configuration and deployment",
+    "Core modules",
+    "packages package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "packages/fns/src/index.ts",
+    "packages/font/src/index.ts",
+    "packages/hyphenate/src/index.ts",
+    "packages/image/src/index.ts",
+    "packages/layout/src/index.ts",
+    "packages/math/src/index.ts",
+    "packages/mermaid/src/index.ts",
+    "packages/paginate/src/index.ts",
+    "packages/primitives/src/index.ts",
+    "packages/reconciler/src/index.ts",
+    "packages/render/src/index.ts"
+  ]
+}

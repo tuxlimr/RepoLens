@@ -1,0 +1,41 @@
+{
+  "owner": "Jeffallan",
+  "name": "claude-skills",
+  "full_name": "Jeffallan/claude-skills",
+  "html_url": "https://github.com/Jeffallan/claude-skills",
+  "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+  "stars": 12361,
+  "forks": 1186,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-marketplace",
+    "claude-skills"
+  ],
+  "archived": false,
+  "commit_sha": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+  "commit_url": "https://github.com/Jeffallan/claude-skills/commit/078a25cc5bfd8011459be7b91d004e900c1d02d3",
+  "tree_url": "https://github.com/Jeffallan/claude-skills/tree/078a25cc5bfd8011459be7b91d004e900c1d02d3",
+  "analysed_at": "2026-11-14T19:12:06.074336+00:00",
+  "status": "completed",
+  "files_fetched": 591,
+  "files_analysed": 590,
+  "components": [
+    "assets package",
+    "Configuration and deployment",
+    "Application entry point",
+    "scripts package",
+    "site package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Poetry"
+  ],
+  "entry_points": [
+    "scripts/migrate-frontmatter.py"
+  ]
+}

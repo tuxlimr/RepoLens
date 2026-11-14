@@ -1,0 +1,42 @@
+{
+  "owner": "goldmansachs",
+  "name": "gs-quant",
+  "full_name": "goldmansachs/gs-quant",
+  "html_url": "https://github.com/goldmansachs/gs-quant",
+  "description": "Python toolkit for quantitative finance",
+  "stars": 14123,
+  "forks": 1958,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "derivatives",
+    "goldman-sachs",
+    "gs-quant",
+    "risk-management",
+    "trading-strategies"
+  ],
+  "archived": false,
+  "commit_sha": "8725ddf2ce4b925a7ce68ba90eca353455ac34b5",
+  "commit_url": "https://github.com/goldmansachs/gs-quant/commit/8725ddf2ce4b925a7ce68ba90eca353455ac34b5",
+  "tree_url": "https://github.com/goldmansachs/gs-quant/tree/8725ddf2ce4b925a7ce68ba90eca353455ac34b5",
+  "analysed_at": "2026-11-14T19:09:32.370986+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "External integrations",
+    "gs_quant package",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "pandas",
+    "requests"
+  ],
+  "entry_points": []
+}

@@ -1,0 +1,39 @@
+%% Repository: smicallef/spiderfoot
+%% Analysed commit: 0f815a203afebf05c98b605dba5cf0475a0ee5fd
+%% Commit reference: https://github.com/smicallef/spiderfoot/commit/0f815a203afebf05c98b605dba5cf0475a0ee5fd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        modules["modules package"]
+        spiderfoot["spiderfoot package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| external_integrations
+    core -->|imports| spiderfoot
+    data_layer -->|imports| spiderfoot
+    entrypoint -->|imports| core
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| spiderfoot
+    external_integrations -->|imports| spiderfoot
+    modules -->|imports| spiderfoot
+    tests -->|imports| core
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| modules
+    tests -->|imports| spiderfoot

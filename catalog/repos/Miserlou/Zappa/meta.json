@@ -1,0 +1,54 @@
+{
+  "owner": "Miserlou",
+  "name": "Zappa",
+  "full_name": "Miserlou/Zappa",
+  "html_url": "https://github.com/Miserlou/Zappa",
+  "description": "Serverless Python",
+  "stars": 11811,
+  "forks": 1166,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "api-gateway",
+    "aws-lambda",
+    "bottle",
+    "django",
+    "flask",
+    "lambda",
+    "pyramid",
+    "python",
+    "serverless",
+    "serverless-framework",
+    "zappa"
+  ],
+  "archived": false,
+  "commit_sha": "5a11c17f5ecf0568bdb73b4baf6fb08ff0184f39",
+  "commit_url": "https://github.com/Miserlou/Zappa/commit/5a11c17f5ecf0568bdb73b4baf6fb08ff0184f39",
+  "tree_url": "https://github.com/Miserlou/Zappa/tree/5a11c17f5ecf0568bdb73b4baf6fb08ff0184f39",
+  "analysed_at": "2026-11-14T19:10:23.549041+00:00",
+  "status": "completed",
+  "files_fetched": 475,
+  "files_analysed": 475,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "External integrations",
+    "Tests",
+    "zappa package"
+  ],
+  "detections": [
+    "Django",
+    "Flask",
+    "AWS (boto3)",
+    "Click",
+    "requests",
+    "setuptools",
+    "unittest"
+  ],
+  "entry_points": [
+    "zappa/cli.py",
+    "zappa/cli.py"
+  ]
+}

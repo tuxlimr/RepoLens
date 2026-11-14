@@ -1,0 +1,69 @@
+%% Repository: ostris/ai-toolkit
+%% Analysed commit: d6a18ad72da9abca3ffb67ea8e42c25764eee61a
+%% Commit reference: https://github.com/ostris/ai-toolkit/commit/d6a18ad72da9abca3ffb67ea8e42c25764eee61a
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        extensions["extensions package"]
+        extensions_built_in["extensions_built_in package"]
+        jobs["jobs package"]
+        manager["manager package"]
+        scripts["scripts package"]
+        testing["testing package"]
+        toolkit["toolkit package"]
+        ui["ui package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    config -->|imports| toolkit
+    data_layer -->|imports| entrypoint
+    data_layer -->|imports| extensions_built_in
+    data_layer -->|imports| jobs
+    data_layer -->|imports| toolkit
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| extensions_built_in
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| manager
+    entrypoint -->|imports| toolkit
+    extensions -->|imports| jobs
+    extensions -->|imports| toolkit
+    extensions_built_in -->|imports| data_layer
+    extensions_built_in -->|imports| entrypoint
+    extensions_built_in -->|imports| external_integrations
+    extensions_built_in -->|imports| jobs
+    extensions_built_in -->|imports| toolkit
+    jobs -->|imports| data_layer
+    jobs -->|imports| entrypoint
+    jobs -->|imports| toolkit
+    scripts -->|imports| toolkit
+    testing -->|imports| toolkit
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| extensions_built_in
+    tests -->|imports| testing
+    tests -->|imports| toolkit
+    toolkit -->|imports| config
+    toolkit -->|imports| core
+    toolkit -->|imports| data_layer
+    toolkit -->|imports| entrypoint
+    toolkit -->|imports| extensions_built_in
+    toolkit -->|imports| jobs

@@ -1,0 +1,63 @@
+{
+  "owner": "pydantic",
+  "name": "FastUI",
+  "full_name": "pydantic/FastUI",
+  "html_url": "https://github.com/pydantic/FastUI",
+  "description": "Build better UIs faster.",
+  "stars": 8923,
+  "forks": 340,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "fastapi",
+    "pydantic",
+    "python",
+    "react"
+  ],
+  "archived": true,
+  "commit_sha": "b5a33bc6e5cdb5175b832568aa778d8589ade4fd",
+  "commit_url": "https://github.com/pydantic/FastUI/commit/b5a33bc6e5cdb5175b832568aa778d8589ade4fd",
+  "tree_url": "https://github.com/pydantic/FastUI/tree/b5a33bc6e5cdb5175b832568aa778d8589ade4fd",
+  "analysed_at": "2026-11-14T19:13:36.874286+00:00",
+  "status": "completed",
+  "files_fetched": 146,
+  "files_analysed": 146,
+  "components": [
+    "API layer",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "Application entry point",
+    "External integrations",
+    "npm-fastui package",
+    "npm-fastui-bootstrap package",
+    "npm-fastui-prebuilt package",
+    "python-fastui package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "FastAPI",
+    "React",
+    "Starlette",
+    "httpx",
+    "Pydantic",
+    "Poetry",
+    "pytest",
+    "TypeScript",
+    "unittest",
+    "Vite"
+  ],
+  "entry_points": [
+    "src/python-fastui/fastui/__main__.py",
+    "src/python-fastui/fastui/dev.py",
+    "bump_npm.py",
+    "demo/__init__.py",
+    "demo/sse.py",
+    "src/npm-fastui-bootstrap/src/index.tsx",
+    "src/npm-fastui-prebuilt/src/App.tsx",
+    "src/npm-fastui-prebuilt/src/main.tsx",
+    "src/npm-fastui/src/index.tsx"
+  ]
+}

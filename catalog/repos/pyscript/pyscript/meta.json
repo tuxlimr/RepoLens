@@ -1,0 +1,43 @@
+{
+  "owner": "pyscript",
+  "name": "pyscript",
+  "full_name": "pyscript/pyscript",
+  "html_url": "https://github.com/pyscript/pyscript",
+  "description": "An open source platform for Python in the browser. https://pyscript.net Docs: https://docs.pyscript.net/ Try it: https://pyscript.com/ Community: https://discord.gg/HxvBtukrg2",
+  "stars": 18676,
+  "forks": 1466,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "html",
+    "javascript",
+    "python",
+    "wasm"
+  ],
+  "archived": false,
+  "commit_sha": "d798c04910b21e5018813b7975ef3e9999e994c5",
+  "commit_url": "https://github.com/pyscript/pyscript/commit/d798c04910b21e5018813b7975ef3e9999e994c5",
+  "tree_url": "https://github.com/pyscript/pyscript/tree/d798c04910b21e5018813b7975ef3e9999e994c5",
+  "analysed_at": "2026-11-14T19:08:21.613111+00:00",
+  "status": "completed",
+  "files_fetched": 317,
+  "files_analysed": 316,
+  "components": [
+    "bridge package",
+    "Configuration and deployment",
+    "Service / domain layer",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "bridge/index.js",
+    "core/index.js"
+  ]
+}

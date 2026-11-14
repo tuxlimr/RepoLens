@@ -1,0 +1,54 @@
+{
+  "owner": "nadbm",
+  "name": "react-datasheet",
+  "full_name": "nadbm/react-datasheet",
+  "html_url": "https://github.com/nadbm/react-datasheet",
+  "description": "Excel-like data grid (table) component for React",
+  "stars": 5440,
+  "forks": 445,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "component",
+    "grid",
+    "javascript",
+    "react",
+    "sheet",
+    "spreadsheet",
+    "table",
+    "tableau"
+  ],
+  "archived": false,
+  "commit_sha": "13b5c35f28b4bab2547402b2c406986ef1913245",
+  "commit_url": "https://github.com/nadbm/react-datasheet/commit/13b5c35f28b4bab2547402b2c406986ef1913245",
+  "tree_url": "https://github.com/nadbm/react-datasheet/tree/13b5c35f28b4bab2547402b2c406986ef1913245",
+  "analysed_at": "2026-11-14T19:14:19.376365+00:00",
+  "status": "completed",
+  "files_fetched": 55,
+  "files_analysed": 53,
+  "components": [
+    "Cell.js package",
+    "CellShape.js package",
+    "Configuration and deployment",
+    "DataCell.js package",
+    "DataEditor.js package",
+    "DataSheet.js package",
+    "index.js package",
+    "keys.js package",
+    "lib package",
+    "renderHelpers.js package",
+    "Row.js package",
+    "Sheet.js package",
+    "Tests",
+    "types package",
+    "ValueViewer.js package"
+  ],
+  "detections": [
+    "React"
+  ],
+  "entry_points": [
+    "lib/index.js",
+    "src/index.js"
+  ]
+}

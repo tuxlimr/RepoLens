@@ -1,0 +1,28 @@
+%% Repository: mrexodia/ida-pro-mcp
+%% Analysed commit: 13e480cb1198f923154b63669e8cb2faee5deaea
+%% Commit reference: https://github.com/mrexodia/ida-pro-mcp/commit/13e480cb1198f923154b63669e8cb2faee5deaea
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        ida_pro_mcp["ida_pro_mcp package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| ida_pro_mcp
+    entrypoint -->|imports| tests
+    ida_pro_mcp -->|imports| external_integrations
+    tests -->|imports| external_integrations
+    tests -->|imports| ida_pro_mcp

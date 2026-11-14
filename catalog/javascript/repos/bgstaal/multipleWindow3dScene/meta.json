@@ -1,0 +1,28 @@
+{
+  "owner": "bgstaal",
+  "name": "multipleWindow3dScene",
+  "full_name": "bgstaal/multipleWindow3dScene",
+  "html_url": "https://github.com/bgstaal/multipleWindow3dScene",
+  "description": "A quick example of how one can \"synchronize\" a 3d scene across multiple windows using three.js and localStorage",
+  "stars": 18893,
+  "forks": 2886,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "a99ecb8a865a169864107ccac8b233faf4333582",
+  "commit_url": "https://github.com/bgstaal/multipleWindow3dScene/commit/a99ecb8a865a169864107ccac8b233faf4333582",
+  "tree_url": "https://github.com/bgstaal/multipleWindow3dScene/tree/a99ecb8a865a169864107ccac8b233faf4333582",
+  "analysed_at": "2026-11-14T19:11:18.780437+00:00",
+  "status": "completed",
+  "files_fetched": 6,
+  "files_analysed": 6,
+  "components": [
+    "Core modules"
+  ],
+  "detections": [],
+  "entry_points": [
+    "main.js"
+  ]
+}

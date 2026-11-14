@@ -1,0 +1,39 @@
+{
+  "owner": "anderspitman",
+  "name": "awesome-tunneling",
+  "full_name": "anderspitman/awesome-tunneling",
+  "html_url": "https://github.com/anderspitman/awesome-tunneling",
+  "description": "List of ngrok, Cloudflare Tunnel, Tailscale, and ZeroTier alternatives and other tunneling software and services. Focus on self-hosting.",
+  "stars": 22044,
+  "forks": 1072,
+  "license": null,
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "nebula",
+    "ngrok",
+    "ngrok-alternative",
+    "self-hosted",
+    "ssh",
+    "tailscale",
+    "tailscale-alternative",
+    "tunnel-proxy",
+    "tunneling",
+    "zerotier"
+  ],
+  "archived": false,
+  "commit_sha": "b0e9dd2aef30e09d0a80eca1fe42daf2dcb62ce6",
+  "commit_url": "https://github.com/anderspitman/awesome-tunneling/commit/b0e9dd2aef30e09d0a80eca1fe42daf2dcb62ce6",
+  "tree_url": "https://github.com/anderspitman/awesome-tunneling/tree/b0e9dd2aef30e09d0a80eca1fe42daf2dcb62ce6",
+  "analysed_at": "2026-11-14T19:07:55.822351+00:00",
+  "status": "completed",
+  "files_fetched": 3,
+  "files_analysed": 3,
+  "components": [
+    "Application entry point"
+  ],
+  "detections": [],
+  "entry_points": [
+    "scripts/sort_by_stars.py"
+  ]
+}

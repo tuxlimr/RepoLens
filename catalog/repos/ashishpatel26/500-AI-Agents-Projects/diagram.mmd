@@ -1,0 +1,18 @@
+%% Repository: ashishpatel26/500-AI-Agents-Projects
+%% Analysed commit: e48f78ccf182746d4f01e2093fe2ccd884269656
+%% Commit reference: https://github.com/ashishpatel26/500-AI-Agents-Projects/commit/e48f78ccf182746d4f01e2093fe2ccd884269656
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        scripts["scripts package"]
+        web["web package"]
+    end
+    entrypoint -->|imports| external_integrations

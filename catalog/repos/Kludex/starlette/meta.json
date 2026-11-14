@@ -1,0 +1,45 @@
+{
+  "owner": "Kludex",
+  "name": "starlette",
+  "full_name": "Kludex/starlette",
+  "html_url": "https://github.com/Kludex/starlette",
+  "description": "The little ASGI framework that shines. \ud83c\udf1f",
+  "stars": 12720,
+  "forks": 1445,
+  "license": "BSD-3-Clause",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "asgi",
+    "async",
+    "http",
+    "python",
+    "websockets"
+  ],
+  "archived": false,
+  "commit_sha": "271c277da0ff64e2048a4d46ecc812b9d61db5f6",
+  "commit_url": "https://github.com/Kludex/starlette/commit/271c277da0ff64e2048a4d46ecc812b9d61db5f6",
+  "tree_url": "https://github.com/Kludex/starlette/tree/271c277da0ff64e2048a4d46ecc812b9d61db5f6",
+  "analysed_at": "2026-11-14T19:10:01.546116+00:00",
+  "status": "completed",
+  "files_fetched": 146,
+  "files_analysed": 145,
+  "components": [
+    "benchmarks package",
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "External integrations",
+    "starlette package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Starlette",
+    "httpx",
+    "Poetry",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": []
+}

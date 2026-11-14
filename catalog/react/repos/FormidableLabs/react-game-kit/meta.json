@@ -1,0 +1,51 @@
+{
+  "owner": "FormidableLabs",
+  "name": "react-game-kit",
+  "full_name": "FormidableLabs/react-game-kit",
+  "html_url": "https://github.com/FormidableLabs/react-game-kit",
+  "description": "Component library for making games with React  & React Native",
+  "stars": 4601,
+  "forks": 309,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "component-tree",
+    "game",
+    "matter",
+    "physics-bodies",
+    "physics-engine",
+    "react",
+    "reactjs",
+    "sprite-animation",
+    "spritesheet",
+    "tilemap"
+  ],
+  "archived": true,
+  "commit_sha": "3c4eab99902ce071346edb8fe993c080e7880e4c",
+  "commit_url": "https://github.com/FormidableLabs/react-game-kit/commit/3c4eab99902ce071346edb8fe993c080e7880e4c",
+  "tree_url": "https://github.com/FormidableLabs/react-game-kit/tree/3c4eab99902ce071346edb8fe993c080e7880e4c",
+  "analysed_at": "2026-11-14T19:14:41.682798+00:00",
+  "status": "completed",
+  "files_fetched": 76,
+  "files_analysed": 76,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "demo package",
+    "index.js package",
+    "native package",
+    "utils package"
+  ],
+  "detections": [
+    "React",
+    "webpack"
+  ],
+  "entry_points": [
+    "demo/game/index.js",
+    "demo/index.js",
+    "demo/slides/index.js",
+    "src/index.js"
+  ]
+}

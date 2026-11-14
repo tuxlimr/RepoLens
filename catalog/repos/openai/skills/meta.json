@@ -1,0 +1,41 @@
+{
+  "owner": "openai",
+  "name": "skills",
+  "full_name": "openai/skills",
+  "html_url": "https://github.com/openai/skills",
+  "description": "Skills Catalog for Codex",
+  "stars": 28745,
+  "forks": 2013,
+  "license": null,
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "49f948faa9258a0c61caceaf225e179651397431",
+  "commit_url": "https://github.com/openai/skills/commit/49f948faa9258a0c61caceaf225e179651397431",
+  "tree_url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431",
+  "analysed_at": "2026-11-14T19:07:15.903107+00:00",
+  "status": "completed",
+  "files_fetched": 748,
+  "files_analysed": 748,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "skills package"
+  ],
+  "detections": [],
+  "entry_points": [
+    "skills/.curated/figma-code-connect-components/scripts/normalize_node_id.py",
+    "skills/.curated/gh-address-comments/scripts/fetch_comments.py",
+    "skills/.curated/gh-fix-ci/scripts/inspect_pr_checks.py",
+    "skills/.curated/hatch-pet/scripts/compose_atlas.py",
+    "skills/.curated/hatch-pet/scripts/derive_running_left_from_running_right.py",
+    "skills/.curated/hatch-pet/scripts/extract_strip_frames.py",
+    "skills/.curated/hatch-pet/scripts/inspect_frames.py",
+    "skills/.curated/hatch-pet/scripts/make_contact_sheet.py",
+    "skills/.curated/hatch-pet/scripts/prepare_pet_run.py",
+    "skills/.curated/hatch-pet/scripts/render_animation_previews.py",
+    "skills/.curated/hatch-pet/scripts/validate_atlas.py",
+    "skills/.curated/jupyter-notebook/scripts/new_notebook.py"
+  ]
+}

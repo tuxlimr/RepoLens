@@ -1,0 +1,23 @@
+%% Repository: systemjs/systemjs
+%% Analysed commit: 9647576d43294e938ddae8fe231beb62255f4e46
+%% Commit reference: https://github.com/systemjs/systemjs/commit/9647576d43294e938ddae8fe231beb62255f4e46
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph library_group
+        common_js["common.js package"]
+        err_msg_js["err-msg.js package"]
+        extras["extras package"]
+        features["features package"]
+        s_js["s.js package"]
+        system_core_js["system-core.js package"]
+        system_js["system.js package"]
+        system_node_js["system-node.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

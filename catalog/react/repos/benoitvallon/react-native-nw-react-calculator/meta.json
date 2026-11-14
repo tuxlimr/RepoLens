@@ -1,0 +1,53 @@
+{
+  "owner": "benoitvallon",
+  "name": "react-native-nw-react-calculator",
+  "full_name": "benoitvallon/react-native-nw-react-calculator",
+  "html_url": "https://github.com/benoitvallon/react-native-nw-react-calculator",
+  "description": "Mobile, desktop and website Apps with the same code",
+  "stars": 5206,
+  "forks": 856,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "android-app",
+    "architecture",
+    "desktop",
+    "electron",
+    "flux",
+    "ios-app",
+    "react",
+    "react-native",
+    "universal-app"
+  ],
+  "archived": false,
+  "commit_sha": "4f9628fa75d5ad2c2b8d29b611768990087abc15",
+  "commit_url": "https://github.com/benoitvallon/react-native-nw-react-calculator/commit/4f9628fa75d5ad2c2b8d29b611768990087abc15",
+  "tree_url": "https://github.com/benoitvallon/react-native-nw-react-calculator/tree/4f9628fa75d5ad2c2b8d29b611768990087abc15",
+  "analysed_at": "2026-11-14T19:14:25.743148+00:00",
+  "status": "completed",
+  "files_fetched": 89,
+  "files_analysed": 89,
+  "components": [
+    "android package",
+    "common package",
+    "Configuration and deployment",
+    "Core modules",
+    "index.android.js package",
+    "index.ios.js package",
+    "index.js package",
+    "ios package",
+    "__mocks__ package",
+    "__tests__ package"
+  ],
+  "detections": [
+    "React",
+    "React Router",
+    "webpack"
+  ],
+  "entry_points": [
+    "index.desktop.html",
+    "src/common/components/App.js",
+    "src/index.js"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "owner": "addyosmani",
+  "name": "agent-skills",
+  "full_name": "addyosmani/agent-skills",
+  "html_url": "https://github.com/addyosmani/agent-skills",
+  "description": "Production-grade engineering skills for AI coding agents.",
+  "stars": 117506,
+  "forks": 12287,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "agent-skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+  ],
+  "archived": false,
+  "commit_sha": "39b723ceebf81474d0557c1fecd01eddab585563",
+  "commit_url": "https://github.com/addyosmani/agent-skills/commit/39b723ceebf81474d0557c1fecd01eddab585563",
+  "tree_url": "https://github.com/addyosmani/agent-skills/tree/39b723ceebf81474d0557c1fecd01eddab585563",
+  "analysed_at": "2026-11-14T19:10:32.065408+00:00",
+  "status": "completed",
+  "files_fetched": 251,
+  "files_analysed": 251,
+  "components": [
+    "Configuration and deployment",
+    "evals package",
+    "External integrations",
+    "hooks package",
+    "scripts package",
+    "skills package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "unittest"
+  ],
+  "entry_points": [
+    "evals/fixtures/browser-testing-with-devtools/server.js",
+    "evals/fixtures/git-workflow-and-versioning/app.js"
+  ]
+}

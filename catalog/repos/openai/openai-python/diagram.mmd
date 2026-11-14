@@ -1,0 +1,31 @@
+%% Repository: openai/openai-python
+%% Analysed commit: 3dae6090cc31cc64a437fe0bcee740b6d81ed2cc
+%% Commit reference: https://github.com/openai/openai-python/commit/3dae6090cc31cc64a437fe0bcee740b6d81ed2cc
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        openai["openai package"]
+        scripts["scripts package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    data_layer -->|imports| external_integrations
+    data_layer -->|imports| openai
+    entrypoint -->|imports| openai
+    external_integrations -->|imports| data_layer
+    external_integrations -->|imports| openai
+    openai -->|imports| external_integrations
+    tests -->|imports| external_integrations
+    tests -->|imports| openai

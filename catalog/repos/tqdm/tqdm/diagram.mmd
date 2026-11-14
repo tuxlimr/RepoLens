@@ -1,0 +1,24 @@
+%% Repository: tqdm/tqdm
+%% Analysed commit: 9cf5a12b1f955468a17f0ba3c59092b23e4258ac
+%% Commit reference: https://github.com/tqdm/tqdm/commit/9cf5a12b1f955468a17f0ba3c59092b23e4258ac
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        tqdm["tqdm package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| tqdm
+    tests -->|imports| entrypoint
+    tests -->|imports| tqdm
+    tqdm -->|imports| entrypoint
+    tqdm -->|imports| external_integrations

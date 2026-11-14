@@ -1,0 +1,33 @@
+%% Repository: myhhub/stock
+%% Analysed commit: b6e0ca2268cfbadd02f5ed052159c187b6670231
+%% Commit reference: https://github.com/myhhub/stock/commit/b6e0ca2268cfbadd02f5ed052159c187b6670231
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        docker["docker package"]
+        instock["instock package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| instock
+    entrypoint -->|imports| service_layer
+    instock -->|imports| data_layer
+    instock -->|imports| service_layer
+    service_layer -->|imports| data_layer
+    service_layer -->|imports| entrypoint
+    service_layer -->|imports| external_integrations
+    service_layer -->|imports| instock

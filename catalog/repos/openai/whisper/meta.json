@@ -1,0 +1,38 @@
+{
+  "owner": "openai",
+  "name": "whisper",
+  "full_name": "openai/whisper",
+  "html_url": "https://github.com/openai/whisper",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "stars": 112698,
+  "forks": 13668,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "86098128c0b4f24f0e2aa2994de830614b474227",
+  "commit_url": "https://github.com/openai/whisper/commit/86098128c0b4f24f0e2aa2994de830614b474227",
+  "tree_url": "https://github.com/openai/whisper/tree/86098128c0b4f24f0e2aa2994de830614b474227",
+  "analysed_at": "2026-11-14T19:06:07.235001+00:00",
+  "status": "completed",
+  "files_fetched": 38,
+  "files_analysed": 38,
+  "components": [
+    "Configuration and deployment",
+    "Data layer",
+    "Application entry point",
+    "Tests",
+    "whisper package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "NumPy",
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "whisper/transcribe.py"
+  ]
+}

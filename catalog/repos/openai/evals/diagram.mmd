@@ -1,0 +1,34 @@
+%% Repository: openai/evals
+%% Analysed commit: 8eac7a7de5215c907fbddc30efdaf316913eccdd
+%% Commit reference: https://github.com/openai/evals/commit/8eac7a7de5215c907fbddc30efdaf316913eccdd
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        evals["evals package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    entrypoint -->|imports| evals
+    entrypoint -->|imports| external_integrations
+    evals -->|imports| entrypoint
+    evals -->|imports| external_integrations
+    evals -->|imports| service_layer
+    evals -->|imports| tests
+    external_integrations -->|imports| evals
+    tests -->|imports| entrypoint
+    tests -->|imports| evals

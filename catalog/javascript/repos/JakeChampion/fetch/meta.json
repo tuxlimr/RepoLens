@@ -1,0 +1,35 @@
+{
+  "owner": "JakeChampion",
+  "name": "fetch",
+  "full_name": "JakeChampion/fetch",
+  "html_url": "https://github.com/JakeChampion/fetch",
+  "description": "A window.fetch JavaScript polyfill.",
+  "stars": 25819,
+  "forks": 2811,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [
+    "fetch",
+    "javascript",
+    "polyfill",
+    "promise"
+  ],
+  "archived": false,
+  "commit_sha": "ba5cf1ed2e02ebb96fa1e60b4fd2eb04071b60e4",
+  "commit_url": "https://github.com/JakeChampion/fetch/commit/ba5cf1ed2e02ebb96fa1e60b4fd2eb04071b60e4",
+  "tree_url": "https://github.com/JakeChampion/fetch/tree/ba5cf1ed2e02ebb96fa1e60b4fd2eb04071b60e4",
+  "analysed_at": "2026-11-14T19:10:56.314026+00:00",
+  "status": "completed",
+  "files_fetched": 28,
+  "files_analysed": 28,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions"
+  ],
+  "entry_points": []
+}

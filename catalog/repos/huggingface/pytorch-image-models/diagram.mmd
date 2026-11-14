@@ -1,0 +1,37 @@
+%% Repository: huggingface/pytorch-image-models
+%% Analysed commit: 43b549bfe9d680bc94284cfd0b611152d18e97d7
+%% Commit reference: https://github.com/huggingface/pytorch-image-models/commit/43b549bfe9d680bc94284cfd0b611152d18e97d7
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph core_group
+        core["Core modules"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        results["results package"]
+        timm["timm package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    core -->|imports| timm
+    data_layer -->|imports| config
+    data_layer -->|imports| tests
+    data_layer -->|imports| timm
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| timm
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| timm
+    timm -->|imports| config

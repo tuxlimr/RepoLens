@@ -1,0 +1,17 @@
+%% Repository: marcuswestin/store.js
+%% Analysed commit: fe77ae9e7ca1c8fb9af27b9f53a14722cd14d9d4
+%% Commit reference: https://github.com/marcuswestin/store.js/commit/fe77ae9e7ca1c8fb9af27b9f53a14722cd14d9d4
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph library_group
+        plugins["plugins package"]
+        scripts["scripts package"]
+        storages["storages package"]
+        store_engine_js["store-engine.js package"]
+        util_js["util.js package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end

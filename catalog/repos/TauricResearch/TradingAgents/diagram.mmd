@@ -1,0 +1,41 @@
+%% Repository: TauricResearch/TradingAgents
+%% Analysed commit: 9fa1196fffbcfd9de5146d2dd2869df84ab99838
+%% Commit reference: https://github.com/TauricResearch/TradingAgents/commit/9fa1196fffbcfd9de5146d2dd2869df84ab99838
+flowchart TD
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph data_group
+        data_layer["Data layer"]
+    end
+    subgraph entrypoint_group
+        entrypoint["Application entry point"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        cli["cli package"]
+        tradingagents["tradingagents package"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    cli -->|imports| data_layer
+    cli -->|imports| external_integrations
+    cli -->|imports| tradingagents
+    config -->|imports| tradingagents
+    entrypoint -->|imports| cli
+    entrypoint -->|imports| data_layer
+    entrypoint -->|imports| external_integrations
+    entrypoint -->|imports| tradingagents
+    external_integrations -->|imports| tradingagents
+    tests -->|imports| cli
+    tests -->|imports| config
+    tests -->|imports| data_layer
+    tests -->|imports| entrypoint
+    tests -->|imports| external_integrations
+    tests -->|imports| tradingagents
+    tradingagents -->|imports| config
+    tradingagents -->|imports| data_layer
+    tradingagents -->|imports| external_integrations

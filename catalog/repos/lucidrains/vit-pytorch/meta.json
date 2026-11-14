@@ -1,0 +1,53 @@
+{
+  "owner": "lucidrains",
+  "name": "vit-pytorch",
+  "full_name": "lucidrains/vit-pytorch",
+  "html_url": "https://github.com/lucidrains/vit-pytorch",
+  "description": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+  "stars": 25571,
+  "forks": 3495,
+  "license": "MIT",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "artificial-intelligence",
+    "attention-mechanism",
+    "computer-vision",
+    "image-classification",
+    "transformers"
+  ],
+  "archived": false,
+  "commit_sha": "42298e16ad7915ea6f531049e7909e7ee07bc5fe",
+  "commit_url": "https://github.com/lucidrains/vit-pytorch/commit/42298e16ad7915ea6f531049e7909e7ee07bc5fe",
+  "tree_url": "https://github.com/lucidrains/vit-pytorch/tree/42298e16ad7915ea6f531049e7909e7ee07bc5fe",
+  "analysed_at": "2026-11-14T19:07:30.793629+00:00",
+  "status": "completed",
+  "files_fetched": 93,
+  "files_analysed": 93,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Application entry point",
+    "Tests",
+    "vit_pytorch package"
+  ],
+  "detections": [
+    "Poetry",
+    "setuptools",
+    "pytest"
+  ],
+  "entry_points": [
+    "vit_pytorch/accept_video_wrapper.py",
+    "vit_pytorch/attn_residual_with_dca_simple_vit.py",
+    "vit_pytorch/jumbo_vit.py",
+    "vit_pytorch/lejepa.py",
+    "vit_pytorch/levjepa.py",
+    "vit_pytorch/levjepa_nd.py",
+    "vit_pytorch/look_vit.py",
+    "vit_pytorch/looped_vit.py",
+    "vit_pytorch/na_vit_nested_tensor.py",
+    "vit_pytorch/na_vit_nested_tensor_3d.py",
+    "vit_pytorch/normalized_vit.py",
+    "vit_pytorch/simple_uvit.py"
+  ]
+}

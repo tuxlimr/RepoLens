@@ -1,0 +1,31 @@
+%% Repository: goldmansachs/gs-quant
+%% Analysed commit: 8725ddf2ce4b925a7ce68ba90eca353455ac34b5
+%% Commit reference: https://github.com/goldmansachs/gs-quant/commit/8725ddf2ce4b925a7ce68ba90eca353455ac34b5
+flowchart TD
+    subgraph api_group
+        api_layer["API layer"]
+    end
+    subgraph config_group
+        config["Configuration and deployment"]
+    end
+    subgraph external_group
+        external_integrations["External integrations"]
+    end
+    subgraph library_group
+        gs_quant["gs_quant package"]
+    end
+    subgraph service_group
+        service_layer["Service / domain layer"]
+    end
+    subgraph test_group
+        tests["Tests"]
+    end
+    api_layer -->|imports| external_integrations
+    api_layer -->|imports| gs_quant
+    config -->|imports| external_integrations
+    config -->|imports| gs_quant
+    gs_quant -->|imports| api_layer
+    gs_quant -->|imports| service_layer
+    service_layer -->|imports| gs_quant
+    tests -->|imports| api_layer
+    tests -->|imports| gs_quant

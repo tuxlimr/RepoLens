@@ -1,0 +1,56 @@
+{
+  "owner": "ant-design",
+  "name": "ant-design-mobile-rn",
+  "full_name": "ant-design/ant-design-mobile-rn",
+  "html_url": "https://github.com/ant-design/ant-design-mobile-rn",
+  "description": "Ant Design for React Native",
+  "stars": 3343,
+  "forks": 612,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "android",
+    "antd-mobile",
+    "ios",
+    "javascript",
+    "react",
+    "react-native",
+    "typescript"
+  ],
+  "archived": false,
+  "commit_sha": "ebf8a8d2f8808623893980eaebb7ca6b5c0a77c1",
+  "commit_url": "https://github.com/ant-design/ant-design-mobile-rn/commit/ebf8a8d2f8808623893980eaebb7ca6b5c0a77c1",
+  "tree_url": "https://github.com/ant-design/ant-design-mobile-rn/tree/ebf8a8d2f8808623893980eaebb7ca6b5c0a77c1",
+  "analysed_at": "2026-11-14T19:15:22.796147+00:00",
+  "status": "completed",
+  "files_fetched": 800,
+  "files_analysed": 800,
+  "components": [
+    "components package",
+    "Configuration and deployment",
+    "Core modules",
+    "rn-kitchen-sink package",
+    "scripts package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "React",
+    "Jest",
+    "TypeScript"
+  ],
+  "entry_points": [
+    "example/index.js",
+    ".dumi/pages/404/index.tsx",
+    "components/accordion/index.tsx",
+    "components/accordion/style/index.tsx",
+    "components/action-sheet/index.tsx",
+    "components/action-sheet/style/index.tsx",
+    "components/activity-indicator/index.tsx",
+    "components/activity-indicator/style/index.tsx",
+    "components/badge/index.tsx",
+    "components/badge/style/index.tsx",
+    "components/button/index.tsx",
+    "components/button/style/index.tsx"
+  ]
+}

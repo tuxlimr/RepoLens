@@ -1,0 +1,37 @@
+{
+  "owner": "expressjs",
+  "name": "multer",
+  "full_name": "expressjs/multer",
+  "html_url": "https://github.com/expressjs/multer",
+  "description": "Node.js middleware for handling `multipart/form-data`.",
+  "stars": 12086,
+  "forks": 1149,
+  "license": "MIT",
+  "language": "JavaScript",
+  "default_branch": "main",
+  "topics": [],
+  "archived": false,
+  "commit_sha": "2c380d06cdaacc68bbef8b36244493a3d33d6b88",
+  "commit_url": "https://github.com/expressjs/multer/commit/2c380d06cdaacc68bbef8b36244493a3d33d6b88",
+  "tree_url": "https://github.com/expressjs/multer/tree/2c380d06cdaacc68bbef8b36244493a3d33d6b88",
+  "analysed_at": "2026-11-14T19:12:10.890905+00:00",
+  "status": "completed",
+  "files_fetched": 70,
+  "files_analysed": 69,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "Data layer",
+    "lib package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Express"
+  ],
+  "entry_points": [
+    "examples/FormDataBlob/index.js",
+    "examples/FormDataImage/index.js",
+    "index.js"
+  ]
+}

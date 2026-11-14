@@ -1,0 +1,44 @@
+{
+  "owner": "nosir",
+  "name": "cleave.js",
+  "full_name": "nosir/cleave.js",
+  "html_url": "https://github.com/nosir/cleave.js",
+  "description": "Format input text content when you are typing...",
+  "stars": 17835,
+  "forks": 1557,
+  "license": "Apache-2.0",
+  "language": "JavaScript",
+  "default_branch": "master",
+  "topics": [
+    "credit-card",
+    "creditcard",
+    "input",
+    "input-mask",
+    "telephone-number"
+  ],
+  "archived": false,
+  "commit_sha": "a966c95cf5193f223485a10eec8405bb32b8f6dd",
+  "commit_url": "https://github.com/nosir/cleave.js/commit/a966c95cf5193f223485a10eec8405bb32b8f6dd",
+  "tree_url": "https://github.com/nosir/cleave.js/tree/a966c95cf5193f223485a10eec8405bb32b8f6dd",
+  "analysed_at": "2026-11-14T19:11:23.759653+00:00",
+  "status": "completed",
+  "files_fetched": 484,
+  "files_analysed": 232,
+  "components": [
+    "addons package",
+    "Cleave.angular.js package",
+    "Cleave.js package",
+    "Cleave.react.js package",
+    "common package",
+    "Configuration and deployment",
+    "Core modules",
+    "gulp-tasks package",
+    "shortcuts package",
+    "Tests"
+  ],
+  "detections": [
+    "React",
+    "webpack"
+  ],
+  "entry_points": []
+}

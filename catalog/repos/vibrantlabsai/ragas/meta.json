@@ -1,0 +1,51 @@
+{
+  "owner": "vibrantlabsai",
+  "name": "ragas",
+  "full_name": "vibrantlabsai/ragas",
+  "html_url": "https://github.com/vibrantlabsai/ragas",
+  "description": "Supercharge Your LLM Application Evaluations \ud83d\ude80",
+  "stars": 16320,
+  "forks": 1818,
+  "license": "Apache-2.0",
+  "language": "Python",
+  "default_branch": "main",
+  "topics": [
+    "evaluation",
+    "llm",
+    "llmops"
+  ],
+  "archived": false,
+  "commit_sha": "8c63f10d500c44efbf24fdb9e2920de2104c321c",
+  "commit_url": "https://github.com/vibrantlabsai/ragas/commit/8c63f10d500c44efbf24fdb9e2920de2104c321c",
+  "tree_url": "https://github.com/vibrantlabsai/ragas/tree/8c63f10d500c44efbf24fdb9e2920de2104c321c",
+  "analysed_at": "2026-11-14T19:08:53.166971+00:00",
+  "status": "completed",
+  "files_fetched": 641,
+  "files_analysed": 641,
+  "components": [
+    "Configuration and deployment",
+    "Application entry point",
+    "External integrations",
+    "ragas package",
+    "scripts package",
+    "Tests"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "SQLite",
+    "Typer",
+    "httpx",
+    "NumPy",
+    "pandas",
+    "Pydantic",
+    "requests",
+    "Poetry",
+    "setuptools",
+    "Docker",
+    "pytest",
+    "unittest"
+  ],
+  "entry_points": [
+    "src/ragas/cli.py"
+  ]
+}

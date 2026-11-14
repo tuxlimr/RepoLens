@@ -1,0 +1,39 @@
+{
+  "owner": "s0md3v",
+  "name": "Photon",
+  "full_name": "s0md3v/Photon",
+  "html_url": "https://github.com/s0md3v/Photon",
+  "description": "Incredibly fast crawler designed for OSINT.",
+  "stars": 13346,
+  "forks": 1693,
+  "license": "GPL-3.0",
+  "language": "Python",
+  "default_branch": "master",
+  "topics": [
+    "crawler",
+    "information-gathering",
+    "osint",
+    "python",
+    "spider"
+  ],
+  "archived": false,
+  "commit_sha": "c8d2566841d69a268b244609921143d84b72b0c6",
+  "commit_url": "https://github.com/s0md3v/Photon/commit/c8d2566841d69a268b244609921143d84b72b0c6",
+  "tree_url": "https://github.com/s0md3v/Photon/tree/c8d2566841d69a268b244609921143d84b72b0c6",
+  "analysed_at": "2026-11-14T19:09:52.312025+00:00",
+  "status": "completed",
+  "files_fetched": 27,
+  "files_analysed": 27,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "External integrations",
+    "plugins package",
+    "Service / domain layer"
+  ],
+  "detections": [
+    "requests",
+    "Docker"
+  ],
+  "entry_points": []
+}

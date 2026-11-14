@@ -1,0 +1,54 @@
+{
+  "owner": "jaredpalmer",
+  "name": "tsdx",
+  "full_name": "jaredpalmer/tsdx",
+  "html_url": "https://github.com/jaredpalmer/tsdx",
+  "description": "Zero-config CLI for TypeScript package development",
+  "stars": 11464,
+  "forks": 490,
+  "license": "MIT",
+  "language": "TypeScript",
+  "default_branch": "master",
+  "topics": [
+    "bundling",
+    "jest",
+    "npm",
+    "packaging",
+    "react",
+    "react-dom",
+    "rollup",
+    "typescript",
+    "yarn"
+  ],
+  "archived": false,
+  "commit_sha": "5b1aa0d67788bfb5ae46e6845e2e4e07c1c73e99",
+  "commit_url": "https://github.com/jaredpalmer/tsdx/commit/5b1aa0d67788bfb5ae46e6845e2e4e07c1c73e99",
+  "tree_url": "https://github.com/jaredpalmer/tsdx/tree/5b1aa0d67788bfb5ae46e6845e2e4e07c1c73e99",
+  "analysed_at": "2026-11-14T19:13:25.266076+00:00",
+  "status": "completed",
+  "files_fetched": 78,
+  "files_analysed": 78,
+  "components": [
+    "Configuration and deployment",
+    "Core modules",
+    "index.ts package",
+    "templates package",
+    "Tests",
+    "website package"
+  ],
+  "detections": [
+    "GitHub Actions",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vite",
+    "Vitest"
+  ],
+  "entry_points": [
+    "src/index.ts",
+    "templates/basic/src/index.ts",
+    "templates/react/src/index.tsx",
+    "website/app/(home)/page.tsx"
+  ]
+}
